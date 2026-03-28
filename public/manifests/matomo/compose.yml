@@ -1,0 +1,64 @@
+# ===============================
+# Docker Compose (Matomo)
+# ===============================
+# host: http://localhost:8080
+# username: (created during web setup)
+# password: (created during web setup)
+# database user: matomo
+# database password: change_this_password
+
+services:
+  db:
+    image: mysql:8
+    container_name: matomo-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: matomo
+      MYSQL_USER: matomo
+      MYSQL_PASSWORD: change_this_password
+      MYSQL_ROOT_PASSWORD: change_root_password
+    volumes:
+      - matomo_mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root -pchange_root_password || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+
+  matomo:
+    image: matomo:latest
+    container_name: matomo
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      MATOMO_DATABASE_HOST: db
+      MATOMO_DATABASE_ADAPTER: mysql
+      MATOMO_DATABASE_TABLES_PREFIX: matomo_
+      MATOMO_DATABASE_USERNAME: matomo
+      MATOMO_DATABASE_PASSWORD: change_this_password
+      MATOMO_DATABASE_DBNAME: matomo
+    volumes:
+      - matomo_data:/var/www/html
+    ports:
+      - "8080:80"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+      - external
+
+volumes:
+  matomo_mysql_data:
+  matomo_data:
+
+networks:
+  internal:
+    internal: true
+  external:

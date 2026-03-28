@@ -1,0 +1,90 @@
+{
+  "name": "phpmyadmin",
+  "slug": "phpmyadmin",
+  "tagline": "A web-based interface for managing MySQL and MariaDB databases",
+  "subtitle": "",
+  "description": "phpMyAdmin is a self-hosted web-based interface for managing MySQL and MariaDB. It provides access to database structure, queries, and exports through an easy-to-use administrative UI.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "RELEASE_5_2_3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-08",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 7811,
+    "github_contributors": 289,
+    "github_commits_this_year": 670,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.phpmyadmin.net",
+    "documentation": "https://docs.phpmyadmin.net/en/latest",
+    "source_code": "https://github.com/phpmyadmin/phpmyadmin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/phpmyadmin.webp",
+    "issues": "https://github.com/phpmyadmin/phpmyadmin/issues",
+    "releases": "https://github.com/phpmyadmin/phpmyadmin/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/phpmyadmin-light.webp",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Database Administration",
+      "description": "Manage MySQL and MariaDB databases",
+      "core_feature": true
+    },
+    {
+      "title": "Query Interface",
+      "description": "Run SQL queries through a web UI",
+      "core_feature": true
+    },
+    {
+      "title": "Table Management",
+      "description": "Create and modify database tables",
+      "core_feature": true
+    },
+    {
+      "title": "Import and Export",
+      "description": "Import and export database dumps"
+    },
+    {
+      "title": "User Management",
+      "description": "Manage database users and privileges"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the database manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/phpmyadmin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "phpmyadmin_ynh",
+      "url": "https://github.com/YunoHost-Apps/phpmyadmin_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.phpmyadmin.net/master-config",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "piglet",
+  "slug": "piglet",
+  "tagline": "A self-hosted flashcard and quiz platform with spaced repetition",
+  "subtitle": "",
+  "description": "Piglet is a self-hosted service for creating and managing digital flashcards and quizzes. It includes spaced repetition, deck management, and a study UI built for personal or educational use.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-06-26",
+    "date_last_commit": "2025-01-10",
+    "github_stars": 110,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://hub.docker.com/r/k3nd0x/piglet",
+    "documentation": "https://hub.docker.com/r/k3nd0x/piglet",
+    "source_code": "https://github.com/k3nd0x/piglet",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/piglet.webp",
+    "issues": "https://github.com/k3nd0x/piglet/issues",
+    "releases": "https://github.com/k3nd0x/piglet/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/piglet-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "URL Monitoring",
+      "description": "Monitor web endpoints for availability",
+      "core_feature": true
+    },
+    {
+      "title": "Health Checks",
+      "description": "Perform periodic endpoint checks",
+      "core_feature": true
+    },
+    {
+      "title": "Status Reporting",
+      "description": "Report uptime and downtime",
+      "core_feature": true
+    },
+    {
+      "title": "Notifications",
+      "description": "Send alerts on failures"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Define checks via configuration"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the monitoring tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/piglet/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

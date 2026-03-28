@@ -1,0 +1,97 @@
+{
+  "name": "lazylibrarian",
+  "slug": "lazylibrarian",
+  "tagline": "An automated ebook and audiobook manager for self-hosted libraries",
+  "subtitle": "",
+  "description": "LazyLibrarian is an automated ebook and audiobook manager similar to Sonarr but for books. It tracks authors, manages wanted lists, and integrates with downloaders and metadata providers to build a self hosted library automatically.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU GPL 3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": 354
+  },
+  "resources": {
+    "website": "https://lazylibrarian.gitlab.io/",
+    "documentation": "https://lazylibrarian.gitlab.io",
+    "source_code": "https://gitlab.com/LazyLibrarian/LazyLibrarian",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lazylibrarian.webp",
+    "issues": "https://gitlab.com/LazyLibrarian/LazyLibrarian/issues",
+    "releases": "https://gitlab.com/LazyLibrarian/LazyLibrarian/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lazylibrarian-authdetail.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lazylibrarian-mags.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lazylibrarian-mainpage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Ebook and Audiobook Management",
+      "description": "Manage collections of ebooks and audiobooks",
+      "core_feature": true
+    },
+    {
+      "title": "Automatic Downloading",
+      "description": "Download missing titles based on wanted lists",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Matching",
+      "description": "Match books using online metadata sources",
+      "core_feature": true
+    },
+    {
+      "title": "Author Monitoring",
+      "description": "Track new releases from selected authors"
+    },
+    {
+      "title": "Download Client Integration",
+      "description": "Integrate with supported download clients"
+    },
+    {
+      "title": "File Organization",
+      "description": "Rename and organize files automatically"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage the library through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lazylibrarian/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "lazylibrarian",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=lazylibrarian"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "lazylibrarian",
+      "url": "https://apps.truenas.com/catalog/lazylibrarian"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

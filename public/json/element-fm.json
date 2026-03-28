@@ -1,0 +1,76 @@
+{
+  "name": "element-fm",
+  "slug": "element-fm",
+  "tagline": "Documentation and guides for deploying and managing the Element Matrix client",
+  "subtitle": "",
+  "description": "Element Docs is the documentation site for Element, a Matrix-based messaging client. It contains guides on deployment, configuration, security, and integrations for admins running Element in self-hosted or enterprise environments.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": "https://element.fm",
+    "documentation": "https://gitlab.com/elementfm/docs/-/blob/dev/Self%20Hosting%20Guide.md",
+    "source_code": "https://gitlab.com/elementfm/docs",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/element-fm.webp",
+    "issues": null,
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/element-fm-light.webp",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Radio Automation Documentation",
+      "description": "Documents the Element FM radio automation system",
+      "core_feature": true
+    },
+    {
+      "title": "Structured Guides",
+      "description": "Organizes documentation into sections"
+    },
+    {
+      "title": "Installation Instructions",
+      "description": "Explains setup and deployment steps"
+    },
+    {
+      "title": "Configuration References",
+      "description": "Describes system configuration options"
+    },
+    {
+      "title": "Operational Guides",
+      "description": "Covers daily operation workflows"
+    },
+    {
+      "title": "Markdown Content",
+      "description": "Uses Markdown for documentation"
+    },
+    {
+      "title": "Versioned Docs",
+      "description": "Tracks documentation changes over time"
+    },
+    {
+      "title": "Self-Hosted Publishing",
+      "description": "Can be hosted on private systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

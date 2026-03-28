@@ -1,0 +1,93 @@
+{
+  "name": "double-take",
+  "slug": "double-take",
+  "tagline": "A face recognition hub for integrating image matching with automation systems",
+  "subtitle": "",
+  "description": "Double Take is a face detection and recognition hub that integrates multiple detection engines with home automation systems. It lets you review captures, confirm faces, and route events to platforms like Home Assistant.",
+  "categories": [
+    13
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.13.11.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2023-11-20",
+    "date_last_commit": "2026-02-05",
+    "github_stars": 683,
+    "github_contributors": 14,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/skrashevich/double-take",
+    "documentation": "https://github.com/skrashevich/double-take",
+    "source_code": "https://github.com/skrashevich/double-take",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/double-take.webp",
+    "issues": "https://github.com/skrashevich/double-take/issues",
+    "releases": "https://github.com/skrashevich/double-take/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/double-take-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Face Recognition Integration",
+      "description": "Matches faces using multiple recognition engines",
+      "core_feature": true
+    },
+    {
+      "title": "Camera Event Processing",
+      "description": "Processes camera snapshots",
+      "core_feature": true
+    },
+    {
+      "title": "Engine Comparison",
+      "description": "Compares results from different engines"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Views matches through a browser"
+    },
+    {
+      "title": "Snapshot Management",
+      "description": "Organizes captured images"
+    },
+    {
+      "title": "Automation Hooks",
+      "description": "Integrates with external systems"
+    },
+    {
+      "title": "Container Deployment",
+      "description": "Runs in Docker environments"
+    },
+    {
+      "title": "Self-Hosted Analysis",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/double-take/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

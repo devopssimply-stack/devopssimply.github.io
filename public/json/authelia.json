@@ -1,0 +1,93 @@
+{
+  "name": "authelia",
+  "slug": "authelia",
+  "tagline": "An authentication server providing single sign-on and multi-factor access control",
+  "subtitle": "",
+  "description": "Authelia is an authentication and authorization server providing 2FA, SSO, and role-based access for web apps. It integrates with reverse proxies and supports LDAP, OAuth, and self-hosted identity management.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v4.39.15",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-29",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 27051,
+    "github_contributors": 271,
+    "github_commits_this_year": 312,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.authelia.com",
+    "documentation": "https://github.com/authelia/authelia",
+    "source_code": "https://github.com/authelia/authelia",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/authelia.webp",
+    "issues": "https://github.com/authelia/authelia/issues",
+    "releases": "https://github.com/authelia/authelia/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/authelia-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Authentication Gateway",
+      "description": "Protect applications behind authentication",
+      "core_feature": true
+    },
+    {
+      "title": "Single Sign-On",
+      "description": "Authenticate once across multiple services",
+      "core_feature": true
+    },
+    {
+      "title": "Access Policies",
+      "description": "Define access rules per application"
+    },
+    {
+      "title": "Two-Factor Authentication",
+      "description": "Require additional login verification"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run authentication on your infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/authelia/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "authelia",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=authelia"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "authelia",
+      "url": "https://apps.truenas.com/catalog/authelia"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

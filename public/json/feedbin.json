@@ -1,0 +1,82 @@
+{
+  "name": "feedbin",
+  "slug": "feedbin",
+  "tagline": "An RSS reader with tagging, search, and API access",
+  "subtitle": "",
+  "description": "Feedbin is an open-source RSS reader that can be self-hosted or used as a hosted service. It provides tagging, search, filters, and a pleasant reading experience, along with APIs for third-party clients.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3729,
+    "github_contributors": 33,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://feedbin.com",
+    "documentation": "https://github.com/feedbin/feedbin",
+    "source_code": "https://github.com/feedbin/feedbin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/feedbin.webp",
+    "issues": "https://github.com/feedbin/feedbin/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/feedbin-light.webp",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Feed Reader Service",
+      "description": "Aggregates RSS and Atom feeds for reading",
+      "core_feature": true
+    },
+    {
+      "title": "Web Reader",
+      "description": "Reads feeds through a browser interface",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Organization",
+      "description": "Groups feeds into folders and tags"
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Searches across feed entries"
+    },
+    {
+      "title": "Read State Tracking",
+      "description": "Tracks read and unread items"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with third-party clients"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates data per user"
+    },
+    {
+      "title": "Self-Hosted Feed Reader",
+      "description": "Host the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

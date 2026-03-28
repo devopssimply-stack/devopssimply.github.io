@@ -1,0 +1,102 @@
+{
+  "name": "dockwatch",
+  "slug": "dockwatch",
+  "tagline": "A monitoring service that sends alerts for Docker container lifecycle events",
+  "subtitle": "",
+  "description": "Dockwatch monitors Docker container lifecycle events and sends notifications via services like Discord, Telegram, or Email. It helps administrators stay informed about container restarts, fails, or updates through webhooks.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.6.517",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 318,
+    "github_contributors": 11,
+    "github_commits_this_year": 45,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://dockwatch.wiki",
+    "documentation": "https://dockwatch.wiki",
+    "source_code": "https://github.com/Notifiarr/dockwatch",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dockwatch.webp",
+    "issues": "https://github.com/Notifiarr/dockwatch/issues",
+    "releases": "https://github.com/Notifiarr/dockwatch/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-commands.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-compose.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-container.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-containers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-generate-compose.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-logs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-networks.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-notifications.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-orphans.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockwatch-tasks.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Container Update Monitoring",
+      "description": "Monitors Docker containers for updates",
+      "core_feature": true
+    },
+    {
+      "title": "Image Version Tracking",
+      "description": "Tracks image tag changes",
+      "core_feature": true
+    },
+    {
+      "title": "Notification Integration",
+      "description": "Sends alerts via supported channels"
+    },
+    {
+      "title": "Scheduled Checks",
+      "description": "Runs update checks on schedules"
+    },
+    {
+      "title": "Multi-Container Support",
+      "description": "Monitors many containers"
+    },
+    {
+      "title": "Logging",
+      "description": "Records update checks"
+    },
+    {
+      "title": "Container-Based Service",
+      "description": "Runs as a Docker container"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dockwatch/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

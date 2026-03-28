@@ -1,0 +1,87 @@
+{
+  "name": "cloud-commander",
+  "slug": "cloud-commander",
+  "tagline": "A browser-based file manager with built-in editor and terminal access",
+  "subtitle": "",
+  "description": "CloudCMD is a file manager for browsers with a built-in text editor and terminal, providing easy access to local or remote files via SSH. It’s self-hostable and great for managing servers and development environments.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v19.6.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-02-26",
+    "github_stars": 1995,
+    "github_contributors": 28,
+    "github_commits_this_year": 217,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 45
+  },
+  "resources": {
+    "website": "https://cloudcmd.io",
+    "documentation": "https://cloudcmd.io",
+    "source_code": "https://github.com/coderaiser/cloudcmd",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cloud-commander.webp",
+    "issues": "https://github.com/coderaiser/cloudcmd/issues",
+    "releases": "https://github.com/coderaiser/cloudcmd/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloud-commander-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web File Manager",
+      "description": "Manages server files through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "File Operations",
+      "description": "Uploads downloads and edits files",
+      "core_feature": true
+    },
+    {
+      "title": "Command Execution",
+      "description": "Runs shell commands remotely"
+    },
+    {
+      "title": "Built-In Editor",
+      "description": "Edits files directly in browser"
+    },
+    {
+      "title": "User Authentication",
+      "description": "Restricts access to file system"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Works on multiple operating systems"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cloud-commander/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

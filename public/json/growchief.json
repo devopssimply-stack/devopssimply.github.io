@@ -1,0 +1,84 @@
+{
+  "name": "growchief",
+  "slug": "growchief",
+  "tagline": "An API driven tool for automating social media outreach and follow ups",
+  "subtitle": "",
+  "description": "GrowChief is an API based tool to automate your social media accounts such as sending connection requests and follow-up messages. Perfect for n8n / Make / Zapier users",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-05",
+    "date_last_commit": "2025-10-13",
+    "github_stars": 3282,
+    "github_contributors": 3,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://growchief.com",
+    "documentation": "https://docs.growchief.com/introduction",
+    "source_code": "https://github.com/growchief/growchief",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/growchief.webp",
+    "issues": "https://github.com/growchief/growchief/issues",
+    "releases": "https://github.com/growchief/growchief/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/growchief-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Customer Engagement Automation",
+      "description": "Send automated messages to users across supported channels",
+      "core_feature": true
+    },
+    {
+      "title": "Campaign Management",
+      "description": "Create and manage engagement campaigns from a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "User Segmentation",
+      "description": "Group users based on defined attributes and behavior",
+      "core_feature": true
+    },
+    {
+      "title": "Message Templates",
+      "description": "Reuse predefined templates for outbound messages"
+    },
+    {
+      "title": "Scheduling",
+      "description": "Schedule campaigns to run at specific times"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the engagement platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/growchief/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

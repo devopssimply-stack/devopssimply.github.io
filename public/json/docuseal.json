@@ -1,0 +1,93 @@
+{
+  "name": "docuseal",
+  "slug": "docuseal",
+  "tagline": "A document signing platform with templates, workflows, and audit trails",
+  "subtitle": "",
+  "description": "DocuSeal is a document signing and form-filling platform that can be self-hosted. It supports templates, workflows, audit trails, and a user-friendly signing experience, making it suitable for contracts, agreements, and HR paperwork automation.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2.3.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 11557,
+    "github_contributors": 5,
+    "github_commits_this_year": 179,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 9
+  },
+  "resources": {
+    "website": "https://www.docuseal.com",
+    "documentation": "https://github.com/docusealco/docuseal",
+    "source_code": "https://github.com/docusealco/docuseal",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/docuseal.webp",
+    "issues": "https://github.com/docusealco/docuseal/issues",
+    "releases": "https://github.com/docusealco/docuseal/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docuseal-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docuseal-screenshoot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Document Signing Platform",
+      "description": "Signs documents electronically",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Signer Support",
+      "description": "Handles documents with multiple signers",
+      "core_feature": true
+    },
+    {
+      "title": "Signing Links",
+      "description": "Shares documents via signing links",
+      "core_feature": true
+    },
+    {
+      "title": "Audit Logs",
+      "description": "Records signing activity"
+    },
+    {
+      "title": "PDF Handling",
+      "description": "Processes PDF documents"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages signing workflows in a browser"
+    },
+    {
+      "title": "Template Reuse",
+      "description": "Uses reusable document templates"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/docuseal/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

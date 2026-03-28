@@ -1,0 +1,76 @@
+{
+  "name": "woli-webgui",
+  "slug": "woli-webgui",
+  "tagline": "A web interface for managing Wake-on-LAN actions and devices",
+  "subtitle": "",
+  "description": "WoLi-webgui is a self-hosted web interface for managing Wake-on-LAN actions. It lets you add devices, trigger wake requests, and organize targets into a convenient dashboard for remote power control at home or in small offices.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2024-09-03",
+    "github_stars": 54,
+    "github_contributors": 0,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/RemyFV/WoLi-webgui",
+    "documentation": "https://github.com/RemyFV/WoLi-webgui",
+    "source_code": "https://github.com/RemyFV/WoLi-webgui",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/woli-webgui.webp",
+    "issues": "https://github.com/RemyFV/WoLi-webgui/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/woli-webgui-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Interface",
+      "description": "Manage Wake-on-LAN devices in a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Device Management",
+      "description": "Manage configured devices",
+      "core_feature": true
+    },
+    {
+      "title": "Wake Controls",
+      "description": "Trigger wake events",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication",
+      "description": "Restrict access to controls"
+    },
+    {
+      "title": "Status Display",
+      "description": "View device status"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the interface on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

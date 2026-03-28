@@ -1,0 +1,81 @@
+{
+  "name": "cr-nmaster",
+  "slug": "cr-nmaster",
+  "tagline": "A visual task scheduler for managing and monitoring cron jobs",
+  "subtitle": "",
+  "description": "CronMaster is a self-hosted task scheduler for running cron jobs with a visual dashboard. It includes logs, scheduling UI, alerting features, and collaborative management for automated workflows.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-11",
+    "date_last_commit": "2026-02-11",
+    "github_stars": 1076,
+    "github_contributors": 3,
+    "github_commits_this_year": 16,
+    "github_issues_open": 12,
+    "github_issues_closed_this_year": 5,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/fccview/cronmaster",
+    "documentation": "https://github.com/fccview/cronmaster",
+    "source_code": "https://github.com/fccview/cronmaster",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cr-nmaster.webp",
+    "issues": "https://github.com/fccview/cronmaster/issues",
+    "releases": "https://github.com/fccview/cronmaster/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cr-nmaster-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cr-nmaster-home-dark-mobile.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Cron Job Management",
+      "description": "Create, edit, and delete cron jobs using a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Job Execution Monitoring",
+      "description": "View execution status and run history for scheduled jobs",
+      "core_feature": true
+    },
+    {
+      "title": "Output and Error Logs",
+      "description": "Inspect standard output and error logs from cron executions",
+      "core_feature": true
+    },
+    {
+      "title": "Manual Job Execution",
+      "description": "Trigger scheduled jobs manually from the interface"
+    },
+    {
+      "title": "Web-Based Administration",
+      "description": "Manage cron schedules without editing crontab files directly"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cr-nmaster/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

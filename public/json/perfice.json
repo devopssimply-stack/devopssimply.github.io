@@ -1,0 +1,91 @@
+{
+  "name": "perfice",
+  "slug": "perfice",
+  "tagline": "A minimal self-hosted time tracking tool with reports and visualizations",
+  "subtitle": "",
+  "description": "Perfice is a minimal self-hosted time tracking system that allows users to log work hours, generate reports, and visualize time spent across tasks and projects.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 406,
+    "github_contributors": 3,
+    "github_commits_this_year": 55,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://perfice.adoe.dev",
+    "documentation": "https://perfice.adoe.dev/docs",
+    "source_code": "https://github.com/p0lloc/perfice",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/perfice.webp",
+    "issues": "https://github.com/p0lloc/perfice/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-analytics-onboarding-mobile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-analytics-onboarding.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-dashboard-onboarding-mobile-(copy-1).webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-dashboard-onboarding.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-goals-onboarding-mobile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-goals-onboarding.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-trackables-onboarding.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Performance Monitoring",
+      "description": "Monitor application performance metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Benchmarking",
+      "description": "Run performance benchmarks",
+      "core_feature": true
+    },
+    {
+      "title": "Metric Visualization",
+      "description": "Visualize performance data",
+      "core_feature": true
+    },
+    {
+      "title": "History Tracking",
+      "description": "Store historical performance data"
+    },
+    {
+      "title": "Export Results",
+      "description": "Export benchmark results"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/perfice/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://perfice.adoe.dev/new",
+    "username": null,
+    "password": null
+  }
+}

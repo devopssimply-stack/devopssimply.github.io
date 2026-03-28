@@ -1,0 +1,84 @@
+{
+  "name": "transfer-zip",
+  "slug": "transfer-zip",
+  "tagline": "A simple file sharing service with expiring links for secure transfers",
+  "subtitle": "",
+  "description": "transfer.zip-web is a self-hosted file sharing service with drag-and-drop uploads and expiring download links. It aims to provide an easy way to send large files securely.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-21",
+    "github_stars": 1460,
+    "github_contributors": 3,
+    "github_commits_this_year": 10,
+    "github_issues_open": 6,
+    "github_issues_closed_this_year": 1,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://transfer.zip",
+    "documentation": "https://github.com/robinkarlberg/transfer.zip-web",
+    "source_code": "https://github.com/robinkarlberg/transfer.zip-web",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/transfer-zip.webp",
+    "issues": "https://github.com/robinkarlberg/transfer.zip-web/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/transfer-zip-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Transfer",
+      "description": "Share files using temporary links",
+      "core_feature": true
+    },
+    {
+      "title": "Client-Side Encryption",
+      "description": "Encrypt files before upload",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Automatically expire shared files",
+      "core_feature": true
+    },
+    {
+      "title": "Download Limits",
+      "description": "Limit file downloads"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Upload and download files in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/transfer-zip/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "glauth",
+  "slug": "glauth",
+  "tagline": "A lightweight LDAP server for authentication and identity management",
+  "subtitle": "",
+  "description": "GLAuth is a lightweight LDAP server designed for simple identity and authentication use cases. It’s ideal for use in homelabs, development environments, and lightweight directory-based user management.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-04-28",
+    "date_last_commit": "2025-08-04",
+    "github_stars": 2797,
+    "github_contributors": 42,
+    "github_commits_this_year": 0,
+    "github_issues_open": 78,
+    "github_issues_closed_this_year": 1,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://glauth.github.io",
+    "documentation": "https://glauth.github.io/docs",
+    "source_code": "https://github.com/glauth/glauth",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/glauth.webp",
+    "issues": "https://github.com/glauth/glauth/issues",
+    "releases": "https://github.com/glauth/glauth/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glauth-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "LDAP Directory Server",
+      "description": "Provides LDAP directory services",
+      "core_feature": true
+    },
+    {
+      "title": "User and Group Management",
+      "description": "Stores user accounts and group memberships"
+    },
+    {
+      "title": "Authentication Backend",
+      "description": "Authenticates applications using LDAP"
+    },
+    {
+      "title": "Schema Flexibility",
+      "description": "Adjusts directory schema definitions"
+    },
+    {
+      "title": "TLS Support",
+      "description": "Encrypts directory connections"
+    },
+    {
+      "title": "Multi-Domain Support",
+      "description": "Manages several directory domains"
+    },
+    {
+      "title": "Logging",
+      "description": "Records authentication events"
+    },
+    {
+      "title": "Self-Hosted Directory",
+      "description": "Host the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/glauth/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

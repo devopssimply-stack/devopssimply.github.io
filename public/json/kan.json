@@ -1,0 +1,75 @@
+{
+  "name": "kan",
+  "slug": "kan",
+  "tagline": "A minimalist self-hosted kanban board for fast and distraction-free task management",
+  "subtitle": "",
+  "description": "kan is a minimalist self hosted kanban board for personal or team task management. It provides columns, cards, drag and drop reordering and simple metadata, focusing on speed and a distraction free workflow.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 4488,
+    "github_contributors": 32,
+    "github_commits_this_year": 94,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://kan.bn",
+    "documentation": "https://docs.kan.bn/introduction",
+    "source_code": "https://github.com/kanbn/kan",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kan.webp",
+    "issues": "https://github.com/kanbn/kan/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kan-ban-board.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Terminal Kanban Boards",
+      "description": "Manage kanban boards directly from the command line",
+      "core_feature": true
+    },
+    {
+      "title": "Local Task Storage",
+      "description": "Store boards and tasks in local files",
+      "core_feature": true
+    },
+    {
+      "title": "Offline Usage",
+      "description": "Use the tool without network connectivity"
+    },
+    {
+      "title": "Simple Workflow",
+      "description": "Move tasks across columns using keyboard commands"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kan/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

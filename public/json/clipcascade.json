@@ -1,0 +1,94 @@
+{
+  "name": "clipcascade",
+  "slug": "clipcascade",
+  "tagline": "Lightweight utility for automatic clipboard synchronization across devices with end to end encryption",
+  "subtitle": "",
+  "description": "Open source clipboard synchronization utility that automatically shares clipboard content across multiple devices with end to end encryption for secure cross workstation transfer",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "3.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-07",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1470,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://clipcascade.sathvik.dev",
+    "documentation": "https://github.com/Sathvik-Rao/ClipCascade",
+    "source_code": "https://github.com/Sathvik-Rao/ClipCascade",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/clipcascade.webp",
+    "issues": "https://github.com/Sathvik-Rao/ClipCascade/issues",
+    "releases": "https://github.com/Sathvik-Rao/ClipCascade/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/clipcascade-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/clipcascade-monitoring.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/clipcascade-user-details.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Clipboard History",
+      "description": "Stores copied text history",
+      "core_feature": true
+    },
+    {
+      "title": "Clipboard Search",
+      "description": "Searches previous clipboard entries",
+      "core_feature": true
+    },
+    {
+      "title": "Keyboard Shortcuts",
+      "description": "Accesses history via shortcuts"
+    },
+    {
+      "title": "Lightweight Application",
+      "description": "Uses minimal system resources"
+    },
+    {
+      "title": "Local Storage",
+      "description": "Keeps clipboard data on device"
+    },
+    {
+      "title": "Desktop Integration",
+      "description": "Integrates with operating system"
+    },
+    {
+      "title": "Privacy-Focused Design",
+      "description": "Avoids cloud synchronization"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/clipcascade/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://clipcascade.sathvik.dev",
+    "username": null,
+    "password": null
+  }
+}

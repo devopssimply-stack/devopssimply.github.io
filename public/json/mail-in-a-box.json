@@ -1,0 +1,78 @@
+{
+  "name": "mail-in-a-box",
+  "slug": "mail-in-a-box",
+  "tagline": "An easy-to-deploy self-hosted mail server solution",
+  "subtitle": "",
+  "description": "Mail-in-a-Box is an easy-to-deploy mail server solution for self-hosting. With one command, it configures DNS, SMTP, IMAP, and webmail, turning a cloud or VPS server into a working email server.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "CC0-1.0",
+    "version": "v74",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-04",
+    "date_last_commit": "2026-02-01",
+    "github_stars": 15206,
+    "github_contributors": 214,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://mailinabox.email",
+    "documentation": "https://github.com/mail-in-a-box/mailinabox",
+    "source_code": "https://github.com/mail-in-a-box/mailinabox",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mail-in-a-box.webp",
+    "issues": "https://github.com/mail-in-a-box/mailinabox/issues",
+    "releases": "https://github.com/mail-in-a-box/mailinabox/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mail-in-a-box-control-panel.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mail-in-a-box-nextcloud-contacts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mail-in-a-box-roundcube.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Email Server",
+      "description": "Host email for custom domains",
+      "core_feature": true
+    },
+    {
+      "title": "DNS Management",
+      "description": "Manage DNS records for hosted domains",
+      "core_feature": true
+    },
+    {
+      "title": "Webmail",
+      "description": "Read and send email through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Create and manage mail accounts"
+    },
+    {
+      "title": "Backup Support",
+      "description": "Back up mail and configuration data"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

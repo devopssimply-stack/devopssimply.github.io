@@ -1,0 +1,87 @@
+{
+  "name": "calorific",
+  "slug": "calorific",
+  "tagline": "A self-hosted food and calorie tracking application",
+  "subtitle": "",
+  "description": "Calorific is a self-hosted food and calorie tracking application that allows users to log meals, view macros, and track daily caloric intake using a minimalist UI. Designed for personal privacy and self-hosting.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "353eb41",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-18",
+    "date_last_commit": "2025-08-18",
+    "github_stars": 80,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/xdpirate/calorific",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/calorific.webp",
+    "issues": "https://github.com/xdpirate/calorific/issues",
+    "releases": "https://github.com/xdpirate/calorific/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/calorific-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Calorie Tracking",
+      "description": "Tracks daily calorie intake",
+      "core_feature": true
+    },
+    {
+      "title": "Food Logging",
+      "description": "Records consumed foods and portions",
+      "core_feature": true
+    },
+    {
+      "title": "Nutrition Summary",
+      "description": "Displays daily and weekly calorie totals"
+    },
+    {
+      "title": "Simple Interface",
+      "description": "Focuses on minimal data entry"
+    },
+    {
+      "title": "Web Application",
+      "description": "Runs entirely in the browser"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Keeps dietary data private"
+    },
+    {
+      "title": "Lightweight Design",
+      "description": "Requires minimal system resources"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/calorific/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

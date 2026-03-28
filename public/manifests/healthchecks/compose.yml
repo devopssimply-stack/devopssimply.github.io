@@ -1,0 +1,55 @@
+# ===============================
+# Docker Compose (Healthchecks)
+# ===============================
+# host: http://localhost:8000
+# username: admin (created via createsuperuser)
+# password: (set during superuser creation)
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: healthchecks_db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=healthchecks
+      - POSTGRES_USER=healthchecks
+      - POSTGRES_PASSWORD=healthchecks_change_me
+    volumes:
+      - healthchecks_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U healthchecks"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    image: healthchecks/healthchecks:latest
+    container_name: healthchecks
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=False
+      - SECRET_KEY=change_me_to_a_long_random_string
+      - ALLOWED_HOSTS=*
+      - DB=postgres
+      - DB_HOST=db
+      - DB_NAME=healthchecks
+      - DB_USER=healthchecks
+      - DB_PASSWORD=healthchecks_change_me
+      - DB_PORT=5432
+      - TZ=UTC
+    volumes:
+      - healthchecks_uploads:/opt/healthchecks/uploads
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8000"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  healthchecks_db_data:
+  healthchecks_uploads:

@@ -1,0 +1,90 @@
+{
+  "name": "m3u-editor",
+  "slug": "m3u-editor",
+  "tagline": "A web-based tool for editing and managing M3U playlists",
+  "subtitle": "",
+  "description": "M3U Editor is a web-based tool for editing and managing M3U playlists. Useful for IPTV and media streaming setups, it allows sorting, filtering, and customizing entries for media players.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "CC BY-NC-SA 4.0",
+    "version": "0.8.39",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-16",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 645,
+    "github_contributors": 20,
+    "github_commits_this_year": 890,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 17
+  },
+  "resources": {
+    "website": "https://github.com/sparkison/m3u-editor",
+    "documentation": "https://m3ue.sparkison.dev/docs/intro",
+    "source_code": "https://github.com/sparkison/m3u-editor",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/m3u-editor.webp",
+    "issues": "https://github.com/sparkison/m3u-editor/issues",
+    "releases": "https://github.com/sparkison/m3u-editor/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/m3u-editor-api.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/m3u-editor-channel-editing.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/m3u-editor-in-app-playlist-epg-playback.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/m3u-editor-in-app-playlist-epg-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/m3u-editor-proxy-monitor.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/m3u-editor-series-mgmt.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/m3u-editor-series-view.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Playlist Editing",
+      "description": "Create and edit M3U and M3U8 playlists",
+      "core_feature": true
+    },
+    {
+      "title": "Channel Management",
+      "description": "Add, remove, and reorder playlist entries",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Editing",
+      "description": "Edit channel names and attributes"
+    },
+    {
+      "title": "File Import and Export",
+      "description": "Load and save playlist files",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage playlists through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the editor on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/m3u-editor/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "plane",
+  "slug": "plane",
+  "tagline": "A self-hosted project and issue tracking tool for modern teams",
+  "subtitle": "",
+  "description": "Plane is a self-hosted project and issue tracking tool designed for small teams. It features Kanban, timelines, Git syncing, and powerful filters with a sleek UI.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.2.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 46274,
+    "github_contributors": 143,
+    "github_commits_this_year": 90,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "http://plane.so",
+    "documentation": "https://docs.plane.so",
+    "source_code": "https://github.com/makeplane/plane",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/plane.webp",
+    "issues": "https://github.com/makeplane/plane/issues",
+    "releases": "https://github.com/makeplane/plane/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plane-dashoard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plane-design.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plane-in-progress.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plane-planning.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plane-search.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Issue Tracking",
+      "description": "Track tasks and issues for projects",
+      "core_feature": true
+    },
+    {
+      "title": "Project Organization",
+      "description": "Organize work into projects and cycles",
+      "core_feature": true
+    },
+    {
+      "title": "Kanban Boards",
+      "description": "Visualize work using boards",
+      "core_feature": true
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Collaborate with team members"
+    },
+    {
+      "title": "Roadmaps",
+      "description": "Plan work over time"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the project manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/plane/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

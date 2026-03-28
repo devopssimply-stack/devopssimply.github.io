@@ -1,0 +1,101 @@
+{
+  "name": "cloudflared",
+  "slug": "cloudflared",
+  "tagline": "A command-line tool for securely exposing private services through tunnels",
+  "subtitle": "",
+  "description": "Cloudflared is a command-line client used to connect your private services securely to Cloudflare's network using tunnels. It enables exposing local apps, SSH, and RDP without exposing ports publicly.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "2026.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 13378,
+    "github_contributors": 102,
+    "github_commits_this_year": 22,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/cloudflare/cloudflared",
+    "documentation": "https://github.com/cloudflare/cloudflared",
+    "source_code": "https://github.com/cloudflare/cloudflared",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cloudflared.webp",
+    "issues": "https://github.com/cloudflare/cloudflared/issues",
+    "releases": "https://github.com/cloudflare/cloudflared/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Secure Tunneling",
+      "description": "Exposes local services through secure tunnels",
+      "core_feature": true
+    },
+    {
+      "title": "Cloudflare Integration",
+      "description": "Connects services to Cloudflare network",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Applies authentication to exposed services"
+    },
+    {
+      "title": "DNS Management",
+      "description": "Manages tunnel DNS records"
+    },
+    {
+      "title": "CLI Tooling",
+      "description": "Operates tunnels from command line"
+    },
+    {
+      "title": "Automatic Reconnection",
+      "description": "Maintains tunnel connectivity"
+    },
+    {
+      "title": "Self-Hosted Agent",
+      "description": "Runs as a local service"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cloudflared/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "cloudflared",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=cloudflared"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "cloudflared",
+      "url": "https://apps.truenas.com/catalog/cloudflared"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

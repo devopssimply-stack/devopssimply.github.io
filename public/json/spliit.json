@@ -1,0 +1,91 @@
+{
+  "name": "spliit",
+  "slug": "spliit",
+  "tagline": "A bill splitting and shared expense tracking app for groups",
+  "subtitle": "",
+  "description": "Spliit is a self-hosted bill splitting and expense sharing app for groups. It helps track balances, settlements, and shared purchases through a tidy web UI.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.19.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-06",
+    "date_last_commit": "2025-12-06",
+    "github_stars": 2559,
+    "github_contributors": 75,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://spliit.app",
+    "documentation": "https://github.com/spliit-app/spliit",
+    "source_code": "https://github.com/spliit-app/spliit",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/spliit.webp",
+    "issues": "https://github.com/spliit-app/spliit/issues",
+    "releases": "https://github.com/spliit-app/spliit/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/spliit-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Expense Splitting",
+      "description": "Split expenses among multiple people",
+      "core_feature": true
+    },
+    {
+      "title": "Group Management",
+      "description": "Manage expense groups",
+      "core_feature": true
+    },
+    {
+      "title": "Balance Calculation",
+      "description": "Calculate who owes whom",
+      "core_feature": true
+    },
+    {
+      "title": "Settlement Tracking",
+      "description": "Track payments and settlements"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage expenses in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the expense app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/spliit/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "spliit_ynh",
+      "url": "https://github.com/YunoHost-Apps/spliit_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

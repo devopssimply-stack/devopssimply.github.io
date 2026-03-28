@@ -1,0 +1,78 @@
+{
+  "name": "refeed",
+  "slug": "refeed",
+  "tagline": "A self-hosted RSS reader with filtering and feed organization",
+  "subtitle": "",
+  "description": "Refeed is a self-hosted RSS reader with filtering, grouping, and categorization. It provides a responsive UI and is ideal for managing large numbers of RSS feeds.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-06-26",
+    "github_stars": 175,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://refeedreader.com",
+    "documentation": "https://refeedreader.com",
+    "source_code": "https://github.com/michaelkremenetsky/Refeed",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/refeed.webp",
+    "issues": "https://github.com/michaelkremenetsky/Refeed/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/refeed-hero.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/refeed-newimagetry.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/refeed-pasted-image-20240229001555.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/refeed-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "RSS Feed Reader",
+      "description": "Subscribe to and read RSS feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Organization",
+      "description": "Organize feeds into groups"
+    },
+    {
+      "title": "Clean Reading View",
+      "description": "Display articles in a simplified layout",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Read feeds through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/refeed/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

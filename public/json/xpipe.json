@@ -1,0 +1,91 @@
+{
+  "name": "xpipe",
+  "slug": "xpipe",
+  "tagline": "A centralized tool for managing SSH, containers, and remote dev environments",
+  "subtitle": "",
+  "description": "xpipe is a self-hosted tool and GUI for managing remote connections and development environments. It centralizes SSH, containers, and tunneling, giving developers a consistent interface across projects and machines.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "20.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-11",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 13732,
+    "github_contributors": 17,
+    "github_commits_this_year": 76,
+    "github_issues_open": 47,
+    "github_issues_closed_this_year": 12,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://xpipe.io",
+    "documentation": "https://docs.xpipe.io",
+    "source_code": "https://github.com/xpipe-io/xpipe",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/xpipe.webp",
+    "issues": "https://github.com/xpipe-io/xpipe/issues",
+    "releases": "https://github.com/xpipe-io/xpipe/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/xpipe-banner.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/xpipe-browser-shadow.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/xpipe-hub-shadow.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/xpipe-terminal-shadow.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Remote Connection Manager",
+      "description": "Manage remote server connections",
+      "core_feature": true
+    },
+    {
+      "title": "Protocol Support",
+      "description": "Connect using SSH and other protocols",
+      "core_feature": true
+    },
+    {
+      "title": "Credential Management",
+      "description": "Manage connection credentials",
+      "core_feature": true
+    },
+    {
+      "title": "Local Client",
+      "description": "Use a local desktop client"
+    },
+    {
+      "title": "Session Management",
+      "description": "Manage active connections"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run the client locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/xpipe/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "booklogr",
+  "slug": "booklogr",
+  "tagline": "A lightweight reading tracker for logging books and progress",
+  "subtitle": "",
+  "description": "Booklogr is a lightweight reading tracker app that helps users log the books they read, rate them, and track progress. Its clean web interface makes it accessible across devices, and it's easy to self-host.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-08",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 487,
+    "github_contributors": 5,
+    "github_commits_this_year": 7,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/Mozzo1000/booklogr",
+    "documentation": "https://github.com/Mozzo1000/booklogr",
+    "source_code": "https://github.com/Mozzo1000/booklogr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/booklogr.webp",
+    "issues": "https://github.com/Mozzo1000/booklogr/issues",
+    "releases": "https://github.com/Mozzo1000/booklogr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/booklogr-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/booklogr-library.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reading Log",
+      "description": "Logs books read over time",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Statistics",
+      "description": "Generates summaries of reading habits",
+      "core_feature": true
+    },
+    {
+      "title": "Book Metadata Management",
+      "description": "Stores basic information about each book"
+    },
+    {
+      "title": "Timeline View",
+      "description": "Displays reading history chronologically"
+    },
+    {
+      "title": "Lightweight Interface",
+      "description": "Focuses on minimal and simple interaction"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Keeps reading data under user ownership"
+    },
+    {
+      "title": "Export Capability",
+      "description": "Exports reading logs for external use"
+    },
+    {
+      "title": "Book Metadata",
+      "description": "Stores basic information about books"
+    },
+    {
+      "title": "Lightweight Web UI",
+      "description": "Focuses on simple interaction"
+    },
+    {
+      "title": "Data Export",
+      "description": "Exports logs for external use"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/booklogr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

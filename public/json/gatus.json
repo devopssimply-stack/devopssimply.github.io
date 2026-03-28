@@ -1,0 +1,105 @@
+{
+  "name": "gatus",
+  "slug": "gatus",
+  "tagline": "A self-hosted uptime monitoring service with health checks and alerting",
+  "subtitle": "",
+  "description": "Gatus is a self-hosted uptime monitoring and health check service. It supports alerting, condition-based checks, and heartbeat monitoring, displaying results in a simple dashboard. Ideal for monitoring internal and external services.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v5.35.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-20",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 10306,
+    "github_contributors": 157,
+    "github_commits_this_year": 23,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://gatus.io",
+    "documentation": "https://gatus.io/docs",
+    "source_code": "https://github.com/TwiN/gatus",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/gatus.webp",
+    "issues": "https://github.com/TwiN/gatus/issues",
+    "releases": "https://github.com/TwiN/gatus/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gatus-dashboard-conditions.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gatus-dashboard-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Service Health Monitoring",
+      "description": "Monitors availability of services and endpoints",
+      "core_feature": true
+    },
+    {
+      "title": "Status Dashboard",
+      "description": "Displays current service health",
+      "core_feature": true
+    },
+    {
+      "title": "Endpoint Checks",
+      "description": "Performs HTTP TCP ICMP and DNS checks",
+      "core_feature": true
+    },
+    {
+      "title": "Alerting",
+      "description": "Sends notifications when checks fail"
+    },
+    {
+      "title": "Historical Uptime",
+      "description": "Tracks uptime over time"
+    },
+    {
+      "title": "YAML Configuration",
+      "description": "Defines checks using configuration files"
+    },
+    {
+      "title": "Lightweight Deployment",
+      "description": "Runs with minimal resource usage"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Run monitoring on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/gatus/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "gatus",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=gatus"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "gatus",
+      "url": "https://apps.truenas.com/catalog/gatus"
+    }
+  },
+  "demo": {
+    "url": "https://status.twin.sh",
+    "username": null,
+    "password": null
+  }
+}

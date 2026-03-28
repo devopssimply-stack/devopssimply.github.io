@@ -1,0 +1,101 @@
+{
+  "name": "hedgedoc",
+  "slug": "hedgedoc",
+  "tagline": "A collaborative Markdown editor for real-time writing and documentation",
+  "subtitle": "",
+  "description": "HedgeDoc is an open source collaborative markdown editor that lets multiple users write documents in real time. It supports slide decks, diagrams, media embeds, and integrates easily into self hosted knowledge or documentation stacks.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.10.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 6979,
+    "github_contributors": 35,
+    "github_commits_this_year": 132,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://hedgedoc.org",
+    "documentation": "https://docs.hedgedoc.org",
+    "source_code": "https://github.com/hedgedoc/hedgedoc",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hedgedoc.webp",
+    "issues": "https://github.com/hedgedoc/hedgedoc/issues",
+    "releases": "https://github.com/hedgedoc/hedgedoc/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hedgedoc-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hedgedoc-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Collaborative Markdown Editing",
+      "description": "Allows multiple users to edit Markdown documents together",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Synchronization",
+      "description": "Updates document changes instantly across participants",
+      "core_feature": true
+    },
+    {
+      "title": "Revision History",
+      "description": "Keeps a record of document changes"
+    },
+    {
+      "title": "Access Control",
+      "description": "Restricts document access by permissions"
+    },
+    {
+      "title": "Export Options",
+      "description": "Exports documents to common formats"
+    },
+    {
+      "title": "Syntax Highlighting",
+      "description": "Improves readability of code blocks"
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Edits documents entirely through a browser"
+    },
+    {
+      "title": "Self-Hosted Collaboration",
+      "description": "Run the editor on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hedgedoc/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "hedgedoc_ynh",
+      "url": "https://github.com/YunoHost-Apps/hedgedoc_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.hedgedoc.org",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "checkcle",
+  "slug": "checkcle",
+  "tagline": "A self-hosted dashboard for monitoring real-time system resource usage",
+  "subtitle": "",
+  "description": "Checkcle is a real-time monitoring dashboard that tracks hardware resource usage such as CPU, memory, and disk across multiple machines. Self-hosted with a clean and minimal UI for sysadmins and home labbers.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.6.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-13",
+    "date_last_commit": "2026-02-26",
+    "github_stars": 2376,
+    "github_contributors": 12,
+    "github_commits_this_year": 10,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://checkcle.io",
+    "documentation": "https://docs.checkcle.io",
+    "source_code": "https://github.com/operacle/checkcle",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/checkcle.webp",
+    "issues": "https://github.com/operacle/checkcle/issues",
+    "releases": "https://github.com/operacle/checkcle/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Website Monitoring",
+      "description": "Monitors website availability and response status",
+      "core_feature": true
+    },
+    {
+      "title": "Uptime Checks",
+      "description": "Performs periodic HTTP checks",
+      "core_feature": true
+    },
+    {
+      "title": "Status Dashboard",
+      "description": "Displays current and historical uptime data"
+    },
+    {
+      "title": "Alert Notifications",
+      "description": "Sends alerts when checks fail"
+    },
+    {
+      "title": "Multiple Endpoint Support",
+      "description": "Monitors several URLs in one instance"
+    },
+    {
+      "title": "Lightweight Service",
+      "description": "Runs with minimal system resources"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Operates on user-managed servers"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/checkcle/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/checkcle/script.sh"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.checkcle.io",
+    "username": "admin@example.com",
+    "password": "Admin123456"
+  }
+}

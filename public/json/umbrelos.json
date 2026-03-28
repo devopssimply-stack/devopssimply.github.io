@@ -1,0 +1,69 @@
+{
+  "name": "umbrelos",
+  "slug": "umbrelos",
+  "tagline": "A personal server OS with a one-click app store and web dashboard",
+  "subtitle": "",
+  "description": "Umbrel is a self-hosted OS and app platform for running personal servers. It provides a one-click app store for Bitcoin, Lightning, Nextcloud, and more, managed via an easy-to-use web dashboard.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "PolyForm Noncommercial 1.0.0",
+    "version": "1.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-05",
+    "date_last_commit": "2026-02-11",
+    "github_stars": 10710,
+    "github_contributors": 60,
+    "github_commits_this_year": 134,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://umbrel.com",
+    "documentation": "https://github.com/getumbrel/umbrel/wiki",
+    "source_code": "https://github.com/getumbrel/umbrel",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/umbrelos.webp",
+    "issues": "https://github.com/getumbrel/umbrel/issues",
+    "releases": "https://github.com/getumbrel/umbrel/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Self-Hosted App Platform",
+      "description": "Install and manage self-hosted applications",
+      "core_feature": true
+    },
+    {
+      "title": "App Store",
+      "description": "Browse and install apps from a catalog",
+      "core_feature": true
+    },
+    {
+      "title": "System Dashboard",
+      "description": "Monitor system status and resources"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage apps through a browser"
+    },
+    {
+      "title": "Local Deployment",
+      "description": "Run on personal servers or devices"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

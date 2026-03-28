@@ -1,0 +1,108 @@
+{
+  "name": "dispatcharr",
+  "slug": "dispatcharr",
+  "tagline": "An automation tool for routing media downloads across torrent clients",
+  "subtitle": "",
+  "description": "Dispatcharr automates torrent client selection for media downloads. It automatically assigns downloads to the best available clients based on rules, boosting performance for Sonarr, Radarr, or Lidarr setups.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "CC BY-NC-SA 4.0",
+    "version": "v0.20.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2760,
+    "github_contributors": 46,
+    "github_commits_this_year": 392,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://github.com/Dispatcharr/Dispatcharr",
+    "documentation": "https://dispatcharr.github.io/Dispatcharr-Docs",
+    "source_code": "https://github.com/Dispatcharr/Dispatcharr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dispatcharr.webp",
+    "issues": "https://github.com/Dispatcharr/Dispatcharr/issues",
+    "releases": "https://github.com/Dispatcharr/Dispatcharr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dispatcharr-channel.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dispatcharr-playlist-manager.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dispatcharr-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dispatcharr-stats.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dispatcharr-tv-guide.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Request Management",
+      "description": "Manages media requests from users",
+      "core_feature": true
+    },
+    {
+      "title": "Arr Integration",
+      "description": "Connects with Radarr and Sonarr",
+      "core_feature": true
+    },
+    {
+      "title": "User Request Interface",
+      "description": "Provides a web UI for submitting requests",
+      "core_feature": true
+    },
+    {
+      "title": "Request Status Tracking",
+      "description": "Displays request fulfillment progress"
+    },
+    {
+      "title": "User Permissions",
+      "description": "Controls who can request media"
+    },
+    {
+      "title": "Notification Support",
+      "description": "Notifies users of request updates"
+    },
+    {
+      "title": "Web-Based Management",
+      "description": "Manages requests through a browser"
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dispatcharr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "dispatcharr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=dispatcharr"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "dispatcharr",
+      "url": "https://apps.truenas.com/catalog/dispatcharr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

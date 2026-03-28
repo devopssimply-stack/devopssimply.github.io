@@ -1,0 +1,80 @@
+{
+  "name": "mirotalk",
+  "slug": "mirotalk",
+  "tagline": "An open source WebRTC-based video conferencing platform",
+  "subtitle": "",
+  "description": "MiroTalk is an open-source WebRTC-based video conferencing tool that runs in a browser. It supports screen sharing, chat, and full HD video calls and can be self-hosted without external dependencies.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-04",
+    "github_stars": 4278,
+    "github_contributors": 24,
+    "github_commits_this_year": 50,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://p2p.mirotalk.com",
+    "documentation": "https://github.com/miroslavpejic85/mirotalk",
+    "source_code": "https://github.com/miroslavpejic85/mirotalk",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mirotalk.webp",
+    "issues": "https://github.com/miroslavpejic85/mirotalk/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Video Conferencing",
+      "description": "Host real-time video meetings",
+      "core_feature": true
+    },
+    {
+      "title": "Peer-to-Peer Calls",
+      "description": "Connect participants directly in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Screen Sharing",
+      "description": "Share screens during meetings"
+    },
+    {
+      "title": "Text Chat",
+      "description": "Exchange messages during calls"
+    },
+    {
+      "title": "Room Links",
+      "description": "Join meetings via shared links"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the conferencing server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mirotalk_ynh",
+      "url": "https://github.com/YunoHost-Apps/mirotalk_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

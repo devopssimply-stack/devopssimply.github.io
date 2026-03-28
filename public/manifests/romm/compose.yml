@@ -1,0 +1,69 @@
+# ===============================
+# Docker Compose (RomM)
+# ===============================
+# host: http://localhost
+# username:
+# password:
+
+services:
+
+  romm:
+    image: rommapp/romm:latest
+    container_name: romm
+    ports:
+      - "80:8080"
+    environment:
+      DB_HOST: "romm-db"
+      DB_NAME: "romm"
+      DB_USER: "romm-user"
+      DB_PASSWD: "replace-with-db-password"
+
+      ROMM_AUTH_SECRET_KEY: "replace-with-random-secret"
+
+      IGDB_CLIENT_ID: ""
+      IGDB_CLIENT_SECRET: ""
+      MOBYGAMES_API_KEY: ""
+      STEAMGRIDDB_API_KEY: ""
+    volumes:
+      - romm_resources:/romm/resources
+      - romm_redis_data:/redis-data
+      - romm_library:/romm/library
+      - romm_assets:/romm/assets
+      - romm_config:/romm/config
+    depends_on:
+      romm-db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD","wget","-qO-","http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+
+  romm-db:
+    image: mariadb:11
+    container_name: romm-db
+    environment:
+      MYSQL_ROOT_PASSWORD: "replace-root-password"
+      MYSQL_DATABASE: "romm"
+      MYSQL_USER: "romm-user"
+      MYSQL_PASSWORD: "replace-with-db-password"
+    volumes:
+      - romm_mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD","mysqladmin","ping","-h","localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+
+volumes:
+  romm_resources:
+  romm_redis_data:
+  romm_library:
+  romm_assets:
+  romm_config:
+  romm_mysql_data:

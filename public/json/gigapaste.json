@@ -1,0 +1,93 @@
+{
+  "name": "gigapaste",
+  "slug": "gigapaste",
+  "tagline": "A self-hosted pastebin for sharing code and text with expiration controls",
+  "subtitle": "",
+  "description": "GigaPaste is a self-hosted pastebin application that supports syntax highlighting, expiration controls, and public or private snippets. Ideal for sharing logs, code, or notes within development or teaching environments.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU-AGPL 3.0",
+    "version": "1.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-08",
+    "date_last_commit": "2025-04-09",
+    "github_stars": 170,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/Zhoros/SuperBin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/gigapaste.webp",
+    "issues": "https://github.com/Zhoros/SuperBin/issues",
+    "releases": "https://github.com/Zhoros/SuperBin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gigapaste-superbin-another-theme.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gigapaste-superbin-qr-code.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gigapaste-superbin-text-box.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gigapaste-superbin-text-sharing.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Pastebin Service",
+      "description": "Stores and shares text snippets",
+      "core_feature": true
+    },
+    {
+      "title": "Syntax Highlighting",
+      "description": "Formats code snippets for readability"
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Sets auto-delete times for pastes"
+    },
+    {
+      "title": "Privacy Options",
+      "description": "Creates private or public pastes"
+    },
+    {
+      "title": "Search",
+      "description": "Finds pastes by title or content"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with external tools"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages pastes in the browser"
+    },
+    {
+      "title": "Self-Hosted Paste Service",
+      "description": "Host the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/gigapaste/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,25 @@
+# ===============================
+# Docker Compose (Filestash)
+# ===============================
+# host: http://localhost:8334
+# username: (set on first run via web UI)
+# password: (set on first run via web UI)
+
+services:
+  filestash:
+    image: machines/filestash:latest
+    container_name: filestash
+    restart: unless-stopped
+    ports:
+      - "8334:8334"
+    volumes:
+      - filestash_data:/app/data/state
+    healthcheck:
+      test: ["CMD-SHELL", "wget --quiet --spider http://localhost:8334/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  filestash_data:

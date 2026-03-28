@@ -1,0 +1,40 @@
+# ===============================
+# Docker Compose (Stash)
+# ===============================
+# host: http://localhost:9999
+# username:
+# password:
+
+services:
+  stash:
+    image: stashapp/stash:latest
+    container_name: stash
+    restart: unless-stopped
+    ports:
+      - "9999:9999"
+    environment:
+      STASH_STASH: /data/
+      STASH_GENERATED: /generated/
+      STASH_METADATA: /metadata/
+      STASH_CACHE: /cache/
+      STASH_PORT: "9999"
+    volumes:
+      - stash_config:/root/.stash
+      - stash_data:/data
+      - stash_metadata:/metadata
+      - stash_cache:/cache
+      - stash_blobs:/blobs
+      - stash_generated:/generated
+    healthcheck:
+      test: ["CMD","wget","--spider","-q","http://localhost:9999"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  stash_config:
+  stash_data:
+  stash_metadata:
+  stash_cache:
+  stash_blobs:
+  stash_generated:

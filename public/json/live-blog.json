@@ -1,0 +1,82 @@
+{
+  "name": "live-blog",
+  "slug": "live-blog",
+  "tagline": "A real-time blogging and live commentary platform for news and events",
+  "subtitle": "",
+  "description": "Liveblog is a real-time blogging and news commentary platform used by newsrooms. It supports live updates, media embedding, and collaborative editing with a responsive web dashboard for event coverage.",
+  "categories": [
+    19
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.91.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-03",
+    "date_last_commit": "2026-02-21",
+    "github_stars": 114,
+    "github_contributors": 31,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.sourcefabric.org/software/liveblog",
+    "documentation": "https://www.sourcefabric.org/software/liveblog",
+    "source_code": "https://github.com/liveblog/liveblog",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/live-blog.webp",
+    "issues": "https://github.com/liveblog/liveblog/issues",
+    "releases": "https://github.com/liveblog/liveblog/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Live Blogging",
+      "description": "Publish real-time updates to a live blog",
+      "core_feature": true
+    },
+    {
+      "title": "Editor Interface",
+      "description": "Post and edit updates from a web editor",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline Display",
+      "description": "Show updates in chronological order",
+      "core_feature": true
+    },
+    {
+      "title": "Media Embeds",
+      "description": "Embed images and media in updates"
+    },
+    {
+      "title": "Moderation",
+      "description": "Review and manage published entries"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the live blog on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/live-blog/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

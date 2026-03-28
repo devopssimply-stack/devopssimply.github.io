@@ -1,0 +1,119 @@
+{
+  "name": "blinko",
+  "slug": "blinko",
+  "tagline": "A plain text note-taking and publishing tool built around Markdown",
+  "subtitle": "",
+  "description": "Blinko is a privacy-first, plain text note-taking and publishing tool that organizes content as markdown files. It focuses on fast writing, local storage, and simple publishing, ideal for journals, blogs, and personal portfolios.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "1.8.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-06",
+    "date_last_commit": "2026-02-12",
+    "github_stars": 9550,
+    "github_contributors": 56,
+    "github_commits_this_year": 51,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://blinko.space",
+    "documentation": "https://github.com/blinkospace/blinko",
+    "source_code": "https://github.com/blinkospace/blinko",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/blinko.webp",
+    "issues": "https://github.com/blinkospace/blinko/issues",
+    "releases": "https://github.com/blinkospace/blinko/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/blinko-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/blinko-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Knowledge Management",
+      "description": "Stores notes and ideas in a unified workspace",
+      "core_feature": true
+    },
+    {
+      "title": "Block-Based Notes",
+      "description": "Structures content using editable blocks",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging System",
+      "description": "Organizes notes using tags"
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Searches across all stored content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages notes through a browser"
+    },
+    {
+      "title": "Local-First Storage",
+      "description": "Keeps data under user ownership"
+    },
+    {
+      "title": "Export Capability",
+      "description": "Exports notes to common formats"
+    },
+    {
+      "title": "Personal Knowledge Base",
+      "description": "Stores notes and personal knowledge in one workspace",
+      "core_feature": true
+    },
+    {
+      "title": "Block-Based Editing",
+      "description": "Organizes content using modular blocks",
+      "core_feature": true
+    },
+    {
+      "title": "Tag-Based Organization",
+      "description": "Categorizes notes using tags"
+    },
+    {
+      "title": "Web Application Interface",
+      "description": "Accesses content through a browser"
+    },
+    {
+      "title": "Export Tools",
+      "description": "Exports notes to standard formats"
+    },
+    {
+      "title": "Minimal UI Design",
+      "description": "Focuses on distraction-free writing"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/blinko/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

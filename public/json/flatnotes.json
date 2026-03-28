@@ -1,0 +1,98 @@
+{
+  "name": "flatnotes",
+  "slug": "flatnotes",
+  "tagline": "A self-hosted note-taking app that stores notes as Markdown files",
+  "subtitle": "",
+  "description": "Flatnotes is a self-hosted note-taking app that stores notes in flat markdown files, enabling full control and portability. Includes tagging, search, and a clean functional UI ideal for private journaling or documentation.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v5.5.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-20",
+    "date_last_commit": "2026-02-17",
+    "github_stars": 2788,
+    "github_contributors": 15,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/dullage/flatnotes",
+    "documentation": "https://github.com/dullage/flatnotes",
+    "source_code": "https://github.com/dullage/flatnotes",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/flatnotes.webp",
+    "issues": "https://github.com/dullage/flatnotes/issues",
+    "releases": "https://github.com/dullage/flatnotes/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/flatnotes-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Plain Text Notes",
+      "description": "Manages notes stored as Markdown files",
+      "core_feature": true
+    },
+    {
+      "title": "Web Editor",
+      "description": "Edits notes through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Folder Organization",
+      "description": "Organizes notes using directories"
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Searches across note content"
+    },
+    {
+      "title": "Tag Support",
+      "description": "Categorizes notes with tags"
+    },
+    {
+      "title": "Git-Friendly Storage",
+      "description": "Stores notes as plain files"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Focuses on writing and reading"
+    },
+    {
+      "title": "Self-Hosted Notes",
+      "description": "Run the app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/flatnotes/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "flatnotes",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=flatnotes"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

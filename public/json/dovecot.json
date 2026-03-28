@@ -1,0 +1,86 @@
+{
+  "name": "dovecot",
+  "slug": "dovecot",
+  "tagline": "A secure and high-performance email server supporting IMAP and POP3",
+  "subtitle": "",
+  "description": "Dovecot is a widely used open-source IMAP and POP3 email server focused on security and performance. It runs as a daemon on Unix-like systems, providing mailbox storage, authentication, and extensible plugins for mail infrastructures.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-29",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1180,
+    "github_contributors": 115,
+    "github_commits_this_year": 226,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://www.dovecot.org/",
+    "documentation": "https://doc.dovecot.org",
+    "source_code": "https://github.com/dovecot/core",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dovecot.webp",
+    "issues": "https://github.com/dovecot/core/issues",
+    "releases": "https://github.com/dovecot/core/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dovecot-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "IMAP and POP3 Server",
+      "description": "Provides email retrieval services",
+      "core_feature": true
+    },
+    {
+      "title": "Mailbox Management",
+      "description": "Manages user mailboxes and folders",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication Backends",
+      "description": "Supports multiple authentication methods",
+      "core_feature": true
+    },
+    {
+      "title": "TLS Encryption",
+      "description": "Secures mail connections"
+    },
+    {
+      "title": "Quota Support",
+      "description": "Enforces mailbox storage limits"
+    },
+    {
+      "title": "High Performance",
+      "description": "Optimized for large mail systems"
+    },
+    {
+      "title": "Standards Compliance",
+      "description": "Follows IMAP and POP3 standards"
+    },
+    {
+      "title": "Self-Hosted Mail Server",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

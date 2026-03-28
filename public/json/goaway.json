@@ -1,0 +1,97 @@
+{
+  "name": "goaway",
+  "slug": "goaway",
+  "tagline": "A lightweight reverse proxy providing access control and custom responses",
+  "subtitle": "",
+  "description": "GoAway is a small reverse proxy written in Go that provides access control and custom HTTP responses. It's designed for small deployments where simplicity and performance are necessary.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.63.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 688,
+    "github_contributors": 7,
+    "github_commits_this_year": 21,
+    "github_issues_open": 16,
+    "github_issues_closed_this_year": 3,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://pommee.github.io/goaway",
+    "documentation": "https://pommee.github.io/goaway",
+    "source_code": "https://github.com/pommee/goaway",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/goaway.webp",
+    "issues": "https://github.com/pommee/goaway/issues",
+    "releases": "https://github.com/pommee/goaway/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-blacklist.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-changelog.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-clients.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-logs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-prefetch.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-resolution.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-upstream.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goaway-whitelist.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "URL Redirection",
+      "description": "Redirect requests from one URL to another",
+      "core_feature": true
+    },
+    {
+      "title": "Rule-Based Routing",
+      "description": "Define redirect rules using configuration files",
+      "core_feature": true
+    },
+    {
+      "title": "HTTP Status Control",
+      "description": "Configure redirect status codes for responses",
+      "core_feature": true
+    },
+    {
+      "title": "Lightweight Service",
+      "description": "Run a minimal redirect service with low overhead"
+    },
+    {
+      "title": "Configuration Reload",
+      "description": "Update redirect rules without restarting the service"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the redirect service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/goaway/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

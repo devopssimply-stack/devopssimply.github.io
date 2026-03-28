@@ -1,0 +1,80 @@
+{
+  "name": "redlib",
+  "slug": "redlib",
+  "tagline": "A privacy-friendly Reddit front end without ads or tracking",
+  "subtitle": "",
+  "description": "RedLib is a lightweight and privacy-respecting front-end for Reddit, offering a clean UI to browse content without ads or tracking. It can be self-hosted and customized.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.36.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-20",
+    "date_last_commit": "2025-12-16",
+    "github_stars": 3156,
+    "github_contributors": 137,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/redlib-org/redlib",
+    "documentation": "https://github.com/redlib-org/redlib",
+    "source_code": "https://github.com/redlib-org/redlib",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/redlib.webp",
+    "issues": "https://github.com/redlib-org/redlib/issues",
+    "releases": "https://github.com/redlib-org/redlib/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/redlib-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reddit Frontend",
+      "description": "Browse Reddit content using an alternative interface",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-Focused Design",
+      "description": "Avoid tracking and client-side scripts",
+      "core_feature": true
+    },
+    {
+      "title": "Subreddit Browsing",
+      "description": "View posts by subreddit"
+    },
+    {
+      "title": "Comment Threads",
+      "description": "Read comments in a simplified view"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Run the frontend on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "redlib_ynh",
+      "url": "https://github.com/YunoHost-Apps/redlib_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "oauth2-proxy",
+  "slug": "oauth2-proxy",
+  "tagline": "An authentication proxy for protecting apps with OAuth2 providers",
+  "subtitle": "",
+  "description": "OAuth2 Proxy is a reverse proxy that provides authentication using OAuth2 providers like Google or GitHub. It sits in front of apps to enforce login without modifying their code; suitable for self-hosted setups.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v7.14.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 13979,
+    "github_contributors": 396,
+    "github_commits_this_year": 41,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://oauth2-proxy.github.io/oauth2-proxy",
+    "documentation": "https://oauth2-proxy.github.io/oauth2-proxy",
+    "source_code": "https://github.com/oauth2-proxy/oauth2-proxy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/oauth2-proxy.webp",
+    "issues": "https://github.com/oauth2-proxy/oauth2-proxy/issues",
+    "releases": "https://github.com/oauth2-proxy/oauth2-proxy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/oauth2-proxy-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/oauth2-proxy-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reverse Proxy Authentication",
+      "description": "Protect web applications with OAuth2-based authentication",
+      "core_feature": true
+    },
+    {
+      "title": "Identity Provider Support",
+      "description": "Authenticate users via supported identity providers",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access based on user identity and groups",
+      "core_feature": true
+    },
+    {
+      "title": "Header Injection",
+      "description": "Forward authenticated user information to upstream apps"
+    },
+    {
+      "title": "Session Management",
+      "description": "Manage user login sessions"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the authentication proxy on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/oauth2-proxy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "oauth2-proxy",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=oauth2-proxy"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

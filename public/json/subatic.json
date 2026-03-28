@@ -1,0 +1,85 @@
+{
+  "name": "subatic",
+  "slug": "subatic",
+  "tagline": "A media subscription tracker for anime episodes and personal watchlists",
+  "subtitle": "",
+  "description": "Subatic is a self-hosted platform for managing anime and media subscriptions, tracking episodes, and organizing watchlists in a simple dashboard.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "2.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 160,
+    "github_contributors": 2,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://subatic.com",
+    "documentation": "https://subatic.com",
+    "source_code": "https://github.com/orthdron/subatic",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/subatic.webp",
+    "issues": "https://github.com/orthdron/subatic/issues",
+    "releases": "https://github.com/orthdron/subatic/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/subatic-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/subatic-play-video.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Subtitle Management",
+      "description": "Download and manage subtitles",
+      "core_feature": true
+    },
+    {
+      "title": "Media Integration",
+      "description": "Integrate with media libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Matching",
+      "description": "Match subtitles to media files",
+      "core_feature": true
+    },
+    {
+      "title": "Language Selection",
+      "description": "Choose subtitle languages"
+    },
+    {
+      "title": "File Organization",
+      "description": "Organize subtitle files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the subtitle tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/subatic/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

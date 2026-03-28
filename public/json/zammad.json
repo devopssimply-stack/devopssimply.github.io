@@ -1,0 +1,107 @@
+{
+  "name": "zammad",
+  "slug": "zammad",
+  "tagline": "A helpdesk and ticketing system with multi-channel support and APIs",
+  "subtitle": "",
+  "description": "Zammad is a self-hosted helpdesk and ticketing system. It integrates with email, chat, and telephony, supports multi-channel tickets, and exposes a modern web UI and APIs, alongside commercial cloud hosting.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-06",
+    "github_stars": 5375,
+    "github_contributors": 135,
+    "github_commits_this_year": 207,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://zammad.org",
+    "documentation": "https://docs.zammad.org/en/latest/install",
+    "source_code": "https://github.com/zammad/zammad",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zammad.webp",
+    "issues": "https://github.com/zammad/zammad/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zammad-admin-chat-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zammad-dashboard-initial-login.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zammad-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zammad-organization-profile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zammad-ticket-zoom-text-module.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zammad-ticket-zoom.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zammad-user-profile.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Helpdesk System",
+      "description": "Manage customer support tickets",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Channel Support",
+      "description": "Handle tickets from email and web",
+      "core_feature": true
+    },
+    {
+      "title": "Ticket Workflow",
+      "description": "Manage ticket states and assignments",
+      "core_feature": true
+    },
+    {
+      "title": "Knowledge Base",
+      "description": "Publish support documentation"
+    },
+    {
+      "title": "Reporting",
+      "description": "Generate support reports"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the helpdesk on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/zammad/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zammad",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zammad"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "zammad_ynh",
+      "url": "https://github.com/YunoHost-Apps/zammad_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "zammad",
+      "url": "https://apps.truenas.com/catalog/zammad"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

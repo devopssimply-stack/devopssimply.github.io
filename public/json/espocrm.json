@@ -1,0 +1,100 @@
+{
+  "name": "espocrm",
+  "slug": "espocrm",
+  "tagline": "A self-hosted CRM for managing sales and business workflows",
+  "subtitle": "",
+  "description": "EspoCRM is an open-source CRM that manages sales, leads, cases, and projects in a self-hosted web interface. It supports custom entities, workflows, and integrations, making it suitable for small to mid-sized businesses.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "9.3.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2817,
+    "github_contributors": 52,
+    "github_commits_this_year": 243,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://www.espocrm.com",
+    "documentation": "https://docs.espocrm.com",
+    "source_code": "https://github.com/espocrm/espocrm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/espocrm.webp",
+    "issues": "https://github.com/espocrm/espocrm/issues",
+    "releases": "https://github.com/espocrm/espocrm/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/espocrm-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/espocrm-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Customer Relationship Management",
+      "description": "Manages customer interactions and data",
+      "core_feature": true
+    },
+    {
+      "title": "Sales Pipeline",
+      "description": "Tracks leads and opportunities",
+      "core_feature": true
+    },
+    {
+      "title": "Contact Management",
+      "description": "Stores customer contact information",
+      "core_feature": true
+    },
+    {
+      "title": "Email Integration",
+      "description": "Syncs emails with CRM records"
+    },
+    {
+      "title": "Workflow Automation",
+      "description": "Automates business processes"
+    },
+    {
+      "title": "Reporting",
+      "description": "Generates sales and activity reports"
+    },
+    {
+      "title": "Role-Based Access",
+      "description": "Controls user permissions"
+    },
+    {
+      "title": "Self-Hosted CRM",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/espocrm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "espocrm_ynh",
+      "url": "https://github.com/YunoHost-Apps/espocrm_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://www.espocrm.com/demo",
+    "username": null,
+    "password": null
+  }
+}

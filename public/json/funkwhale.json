@@ -1,0 +1,93 @@
+{
+  "name": "funkwhale",
+  "slug": "funkwhale",
+  "tagline": "A self-hosted federated platform for streaming and sharing music",
+  "subtitle": "",
+  "description": "Funkwhale is a self-hosted, federated audio streaming platform for sharing and listening to music. It supports playlists, user uploads, and ActivityPub federation, providing a decentralized alternative to SoundCloud.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": "https://www.funkwhale.audio",
+    "documentation": "https://docs.funkwhale.audio",
+    "source_code": "https://dev.funkwhale.audio/funkwhale/funkwhale",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/funkwhale.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/funkwhale-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Streaming Platform",
+      "description": "Streams self-hosted music libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organizes artists albums and tracks",
+      "core_feature": true
+    },
+    {
+      "title": "Federated Sharing",
+      "description": "Shares music across compatible servers"
+    },
+    {
+      "title": "Web Player",
+      "description": "Plays music in the browser"
+    },
+    {
+      "title": "Mobile Client Support",
+      "description": "Connects with supported mobile apps"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manages listeners and permissions"
+    },
+    {
+      "title": "Podcast Support",
+      "description": "Publishes and consumes podcasts"
+    },
+    {
+      "title": "Self-Hosted Audio Server",
+      "description": "Host the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/funkwhale/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "funkwhale_ynh",
+      "url": "https://github.com/YunoHost-Apps/funkwhale_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

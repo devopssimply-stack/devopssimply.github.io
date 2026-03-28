@@ -1,0 +1,80 @@
+{
+  "name": "papermark",
+  "slug": "papermark",
+  "tagline": "A document analytics platform for tracking PDF views and engagement",
+  "subtitle": "",
+  "description": "Papermark is a self-hosted document analytics platform that gives insights into how PDFs are viewed. It supports secure sharing, view tracking, and integrates with tools like email and Slack.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU-AGPL",
+    "version": "v0.22.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 8098,
+    "github_contributors": 60,
+    "github_commits_this_year": 471,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://papermark.com",
+    "documentation": "https://www.papermark.com",
+    "source_code": "https://github.com/mfts/papermark",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/papermark.webp",
+    "issues": "https://github.com/mfts/papermark/issues",
+    "releases": "https://github.com/mfts/papermark/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/papermark-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/papermark-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Document Sharing",
+      "description": "Share documents using secure links",
+      "core_feature": true
+    },
+    {
+      "title": "Access Tracking",
+      "description": "Track views and interactions with documents"
+    },
+    {
+      "title": "Permission Controls",
+      "description": "Restrict access to shared documents"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Upload and manage documents in a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/papermark/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

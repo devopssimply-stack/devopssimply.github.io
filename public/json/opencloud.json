@@ -1,0 +1,103 @@
+{
+  "name": "opencloud",
+  "slug": "opencloud",
+  "tagline": "A self-hosted private cloud platform for files, collaboration, and communication",
+  "subtitle": "",
+  "description": "OpenCloud is a self-hosted private cloud solution that provides file storage, collaborative editors, email, chat, and more through a browser-based interface, similar to Nextcloud.",
+  "categories": [
+    25
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v5.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-16",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4906,
+    "github_contributors": 113,
+    "github_commits_this_year": 249,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 9
+  },
+  "resources": {
+    "website": "https://opencloud.eu",
+    "documentation": "https://docs.opencloud.eu",
+    "source_code": "https://github.com/opencloud-eu/opencloud",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/opencloud.webp",
+    "issues": "https://github.com/opencloud-eu/opencloud/issues",
+    "releases": "https://github.com/opencloud-eu/opencloud/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/opencloud-web-ui-sharing.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/opencloud-web-ui-spaces.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Cloud Services Framework",
+      "description": "Provide foundational components for cloud apps",
+      "core_feature": true
+    },
+    {
+      "title": "Service Discovery",
+      "description": "Register and locate services"
+    },
+    {
+      "title": "API Gateway",
+      "description": "Route requests between services"
+    },
+    {
+      "title": "Authentication Services",
+      "description": "Manage user authentication centrally"
+    },
+    {
+      "title": "Monitoring",
+      "description": "Track metrics and health of services"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the framework on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/opencloud/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "opencloud_ynh",
+      "url": "https://github.com/YunoHost-Apps/opencloud_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "opencloud",
+      "url": "https://apps.truenas.com/catalog/opencloud"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "opencloud",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=opencloud"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

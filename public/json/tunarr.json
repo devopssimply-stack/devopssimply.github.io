@@ -1,0 +1,102 @@
+{
+  "name": "tunarr",
+  "slug": "tunarr",
+  "tagline": "A pseudo-live TV channel generator for Plex and Jellyfin libraries",
+  "subtitle": "",
+  "description": "Tunarr is a self-hosted pseudo-live TV channel generator that creates custom channels from Plex or Jellyfin libraries and streams them as continuous linear feeds.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Zlib",
+    "version": "v1.1.18",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2091,
+    "github_contributors": 35,
+    "github_commits_this_year": 202,
+    "github_issues_open": 106,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 38
+  },
+  "resources": {
+    "website": "https://tunarr.com",
+    "documentation": "https://tunarr.com/getting-started/installation",
+    "source_code": "https://github.com/chrisbenincasa/tunarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tunarr.webp",
+    "issues": "https://github.com/chrisbenincasa/tunarr/issues",
+    "releases": "https://github.com/chrisbenincasa/tunarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tunarr-channel-properties.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tunarr-channels.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tunarr-guide.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Virtual TV Channels",
+      "description": "Create scheduled TV-style channels",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Schedule Management",
+      "description": "Define channel schedules",
+      "core_feature": true
+    },
+    {
+      "title": "Playback Control",
+      "description": "Control channel playback behavior"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage channels through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the channel manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tunarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "tunarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=tunarr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "tunarr_ynh",
+      "url": "https://github.com/YunoHost-Apps/tunarr_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

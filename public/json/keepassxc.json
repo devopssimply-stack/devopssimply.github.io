@@ -1,0 +1,84 @@
+{
+  "name": "keepassxc",
+  "slug": "keepassxc",
+  "tagline": "A cross-platform password manager with encrypted local databases",
+  "subtitle": "",
+  "description": "KeePassXC is a cross platform password manager that stores credentials in encrypted local databases. It supports browser integration, auto typing, hardware keys and syncing via self chosen storage, giving users full control over their secrets.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "2.7.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-23",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 26109,
+    "github_contributors": 382,
+    "github_commits_this_year": 7,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://keepassxc.org/",
+    "documentation": "https://github.com/keepassxreboot/keepassxc",
+    "source_code": "https://github.com/keepassxreboot/keepassxc",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/keepassxc.webp",
+    "issues": "https://github.com/keepassxreboot/keepassxc/issues",
+    "releases": "https://github.com/keepassxreboot/keepassxc/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keepassxc-clone-entry.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keepassxc-csv-import.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keepassxc-database-maintenance.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keepassxc-database-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keepassxc-edit-entry-properties.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keepassxc-import-wizard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Password Management",
+      "description": "Store and manage passwords in encrypted vaults",
+      "core_feature": true
+    },
+    {
+      "title": "Cross-Platform Client",
+      "description": "Use the application on major desktop operating systems",
+      "core_feature": true
+    },
+    {
+      "title": "Password Generation",
+      "description": "Generate passwords based on configurable rules"
+    },
+    {
+      "title": "Browser Integration",
+      "description": "Autofill credentials in supported web browsers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/keepassxc/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

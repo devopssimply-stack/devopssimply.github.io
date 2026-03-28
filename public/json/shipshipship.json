@@ -1,0 +1,89 @@
+{
+  "name": "shipshipship",
+  "slug": "shipshipship",
+  "tagline": "A deployment and release tracking dashboard for software teams",
+  "subtitle": "",
+  "description": "ShipShipShip is a self-hosted deployment dashboard for managing and tracking releases across environments. It helps teams visualize deployments and versions with a simple, opinionated release UI.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.3.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-02-18",
+    "github_stars": 268,
+    "github_contributors": 3,
+    "github_commits_this_year": 10,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/GauthierNelkinsky/ShipShipShip",
+    "documentation": "https://github.com/GauthierNelkinsky/ShipShipShip",
+    "source_code": "https://github.com/GauthierNelkinsky/ShipShipShip",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/shipshipship.webp",
+    "issues": "https://github.com/GauthierNelkinsky/ShipShipShip/issues",
+    "releases": "https://github.com/GauthierNelkinsky/ShipShipShip/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shipshipship-changelog.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shipshipship-events.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shipshipship-hero.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shipshipship-manage-events.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shipshipship-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shipshipship-themes.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Shipping Cost Estimation",
+      "description": "Calculate shipping costs for packages",
+      "core_feature": true
+    },
+    {
+      "title": "Carrier Support",
+      "description": "Compare rates across supported carriers",
+      "core_feature": true
+    },
+    {
+      "title": "Package Configuration",
+      "description": "Define package dimensions and weight",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Estimate shipping costs in a browser"
+    },
+    {
+      "title": "API Access",
+      "description": "Query shipping rates programmatically"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the estimator on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/shipshipship/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.shipshipship.io/admin/events",
+    "username": "demo",
+    "password": "demo"
+  }
+}

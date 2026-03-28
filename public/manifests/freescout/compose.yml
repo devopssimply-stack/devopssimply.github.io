@@ -1,0 +1,63 @@
+# ===============================
+# Docker Compose (FreeScout)
+# ===============================
+# host: http://localhost:8080
+# admin username: set via web UI
+# admin password: set via web UI
+
+services:
+  db:
+    image: mariadb:10.11
+    container_name: freescout_db
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=ChangeThisRootPass
+      - MYSQL_DATABASE=freescout
+      - MYSQL_USER=freescout
+      - MYSQL_PASSWORD=ChangeThisDbPass
+    volumes:
+      - freescout_db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p$${MYSQL_ROOT_PASSWORD}"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  freescout:
+    image: bfren/freescout:latest
+    container_name: freescout
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    environment:
+      # Base URL where FreeScout will be reachable
+      - FREESCOUT_URL=http://localhost:8080
+
+      # Database connection
+      - FREESCOUT_DB_CONN=mysql
+      - FREESCOUT_DB_HOST=db
+      - FREESCOUT_DB_PORT=3306
+      - FREESCOUT_DB_NAME=freescout
+      - FREESCOUT_DB_USER=freescout
+      - FREESCOUT_DB_PASS=ChangeThisDbPass
+
+      # Optional: create initial admin user on first start
+      # - FREESCOUT_ADMIN_FIRSTNAME=YourName
+      # - FREESCOUT_ADMIN_LASTNAME=YourLastName
+      # - FREESCOUT_ADMIN_EMAIL=admin@example.com
+      # - FREESCOUT_ADMIN_PASS=YourStrongPassHere
+    volumes:
+      - freescout_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:80 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  freescout_db_data:
+  freescout_data:

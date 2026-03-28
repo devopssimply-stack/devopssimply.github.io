@@ -1,0 +1,84 @@
+{
+  "name": "poeticmetric",
+  "slug": "poeticmetric",
+  "tagline": "A privacy-friendly self-hosted web analytics platform without cookies",
+  "subtitle": "",
+  "description": "PoeticMetric is a privacy-friendly, self-hosted web analytics platform. It tracks visits without cookies, focusing on privacy and lightweight performance insights with a clean UI.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.0.0-beta.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-08",
+    "date_last_commit": "2026-02-27",
+    "github_stars": 270,
+    "github_contributors": 1,
+    "github_commits_this_year": 5,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://poeticmetric.com",
+    "documentation": "https://poeticmetric.com/docs",
+    "source_code": "https://github.com/th0th/poeticmetric",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/poeticmetric.webp",
+    "issues": "https://github.com/th0th/poeticmetric/issues",
+    "releases": "https://github.com/th0th/poeticmetric/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/poeticmetric-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Analytics",
+      "description": "Collect website analytics data",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-Focused Metrics",
+      "description": "Measure traffic without user profiling",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard",
+      "description": "View analytics summaries",
+      "core_feature": true
+    },
+    {
+      "title": "Event Tracking",
+      "description": "Track custom events"
+    },
+    {
+      "title": "Time-Based Reports",
+      "description": "Analyze metrics over time"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run analytics on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/poeticmetric/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

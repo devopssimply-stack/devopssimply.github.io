@@ -1,0 +1,81 @@
+{
+  "name": "nextcloud-forms",
+  "slug": "nextcloud-forms",
+  "tagline": "A privacy-friendly form builder for collecting responses in Nextcloud",
+  "subtitle": "",
+  "description": "Nextcloud Forms is a privacy-friendly alternative to Google Forms. It allows creating custom forms, sharing links, and collecting responses, fully integrated into self-hosted Nextcloud.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v5.2.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 365,
+    "github_contributors": 51,
+    "github_commits_this_year": 141,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://apps.nextcloud.com/apps/forms",
+    "documentation": "https://github.com/nextcloud/forms",
+    "source_code": "https://github.com/nextcloud/forms",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nextcloud-forms.webp",
+    "issues": "https://github.com/nextcloud/forms/issues",
+    "releases": "https://github.com/nextcloud/forms/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-forms-question.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-forms-quetionare.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-forms-response.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Form Creation",
+      "description": "Create custom forms and surveys",
+      "core_feature": true
+    },
+    {
+      "title": "Response Collection",
+      "description": "Collect and store form responses",
+      "core_feature": true
+    },
+    {
+      "title": "Sharing",
+      "description": "Share forms via links"
+    },
+    {
+      "title": "Results View",
+      "description": "View responses in summary form"
+    },
+    {
+      "title": "Nextcloud Integration",
+      "description": "Use forms within Nextcloud"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nextcloud-forms/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,61 @@
+# ===============================
+# Docker Compose (Ganymede)
+# ===============================
+# host: http://localhost:4801
+# username: admin
+# password: ganymede
+
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ganymede
+      POSTGRES_PASSWORD: ganymede
+      POSTGRES_DB: ganymede
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ganymede-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ganymede -d ganymede"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ganymede:
+    image: ghcr.io/zibbp/ganymede:latest
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # Database
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: ganymede
+      DB_USER: ganymede
+      DB_PASS: ganymede
+
+      # Secrets — change for production
+      JWT_SECRET: replace_with_strong_secret
+      JWT_REFRESH_SECRET: replace_with_strong_secret
+
+      # Twitch App credentials (required for archiving)
+      TWITCH_CLIENT_ID: your_twitch_client_id
+      TWITCH_CLIENT_SECRET: your_twitch_client_secret
+
+      # App settings
+      FRONTEND_HOST: "http://localhost:4801"
+    volumes:
+      - ganymede-data:/data
+    ports:
+      - "4801:4801"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:4801/ >/dev/null 2>&1 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  ganymede-postgres:
+  ganymede-data:

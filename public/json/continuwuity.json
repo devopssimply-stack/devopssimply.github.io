@@ -1,0 +1,79 @@
+{
+  "name": "continuwuity",
+  "slug": "continuwuity",
+  "tagline": "A self-hosted system for tracking tasks and maintaining engineering work logs",
+  "subtitle": "",
+  "description": "Continuwuity is a self-hosted task tracking and journaling system designed for Software Engineering practices. It supports project organization, time tracking, and streamlines daily work logs.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": "https://matrix-construct.github.io/tuwunel",
+    "documentation": "https://matrix-construct.github.io/tuwunel",
+    "source_code": "https://forgejo.ellis.link/continuwuation/continuwuity",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/continuwuity.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Matrix Homeserver",
+      "description": "Host a Matrix-compatible chat server",
+      "core_feature": true
+    },
+    {
+      "title": "Federated Messaging",
+      "description": "Communicate with other Matrix servers",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and rooms"
+    },
+    {
+      "title": "API Compatibility",
+      "description": "Support Matrix client applications"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the homeserver on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/continuwuity/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "continuwuity",
+      "url": "https://apps.truenas.com/catalog/continuwuity"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

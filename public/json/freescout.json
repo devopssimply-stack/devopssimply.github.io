@@ -1,0 +1,96 @@
+{
+  "name": "freescout",
+  "slug": "freescout",
+  "tagline": "A self-hosted helpdesk and shared inbox for customer support teams",
+  "subtitle": "",
+  "description": "Freescout is a self-hosted helpdesk and shared inbox system designed as an alternative to HelpScout. It supports email integration, collision detection, canned replies, and team workflows through a powerful web UI.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.8.208",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4129,
+    "github_contributors": 83,
+    "github_commits_this_year": 104,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://freescout.net",
+    "documentation": "https://github.com/freescout-help-desk/freescout",
+    "source_code": "https://github.com/freescout-help-desk/freescout",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/freescout.webp",
+    "issues": "https://github.com/freescout-help-desk/freescout/issues",
+    "releases": "https://github.com/freescout-help-desk/freescout/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freescout-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freescout-assigned.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freescout-manage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freescout-notification.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freescout-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freescout-profile.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Help Desk System",
+      "description": "Manage customer support conversations in a shared inbox",
+      "core_feature": true
+    },
+    {
+      "title": "Email Integration",
+      "description": "Receive and send support messages via email",
+      "core_feature": true
+    },
+    {
+      "title": "Ticket Management",
+      "description": "Organize conversations with statuses and assignments",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Allow multiple agents to collaborate on tickets"
+    },
+    {
+      "title": "Knowledge Base",
+      "description": "Publish help articles for common questions"
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Access support tools through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/freescout/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "freescout_ynh",
+      "url": "https://github.com/YunoHost-Apps/freescout_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://freescout.net/demo",
+    "username": null,
+    "password": null
+  }
+}

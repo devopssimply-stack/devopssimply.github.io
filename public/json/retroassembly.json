@@ -1,0 +1,83 @@
+{
+  "name": "retroassembly",
+  "slug": "retroassembly",
+  "tagline": "A web-based IDE for writing and debugging assembly code",
+  "subtitle": "",
+  "description": "RetroAssembly is a self-hosted web-based IDE for writing assembly programs. It supports syntax highlighting, debugging, and multi-platform code support in a retro-style UI.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v5.260117.0500",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-17",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 829,
+    "github_contributors": 5,
+    "github_commits_this_year": 43,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://retroassembly.com",
+    "documentation": "https://github.com/arianrhodsandlot/retroassembly",
+    "source_code": "https://github.com/arianrhodsandlot/retroassembly",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/retroassembly.webp",
+    "issues": "https://github.com/arianrhodsandlot/retroassembly/issues",
+    "releases": "https://github.com/arianrhodsandlot/retroassembly/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-gameboy-advance.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-gameboy-color.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-games.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-genesis.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-library.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-menu.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-nes.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-platform.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-rom.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retroassembly-super-nes.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Retro Game Catalog",
+      "description": "Catalog retro games and systems",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Storage",
+      "description": "Store game and platform details"
+    },
+    {
+      "title": "Search",
+      "description": "Find games by name or system"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse the catalog through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/retroassembly/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://retroassembly.com/demo",
+    "username": null,
+    "password": null
+  }
+}

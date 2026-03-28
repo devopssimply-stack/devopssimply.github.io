@@ -1,0 +1,86 @@
+{
+  "name": "glitchtip",
+  "slug": "glitchtip",
+  "tagline": "A self-hosted error monitoring platform for tracking crashes and performance",
+  "subtitle": "",
+  "description": "Glitchtip is a self-hosted alternative to Sentry for error monitoring and performance tracing. It supports multiple language SDKs, dashboards, and alerts, providing complete visibility into app errors and crashes.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": 308
+  },
+  "resources": {
+    "website": "https://glitchtip.com/",
+    "documentation": "https://glitchtip.com/documentation",
+    "source_code": "https://gitlab.com/glitchtip/glitchtip-backend",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/glitchtip.webp",
+    "issues": "https://gitlab.com/glitchtip/glitchtip-backend/issues",
+    "releases": "https://gitlab.com/glitchtip/glitchtip-backend/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glitchtip-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Error Tracking Backend",
+      "description": "Receives and stores application error events",
+      "core_feature": true
+    },
+    {
+      "title": "Issue Grouping",
+      "description": "Groups similar errors into issues",
+      "core_feature": true
+    },
+    {
+      "title": "Stack Trace Capture",
+      "description": "Records stack traces for debugging"
+    },
+    {
+      "title": "Project Management",
+      "description": "Separates errors by project"
+    },
+    {
+      "title": "Alerts",
+      "description": "Notifies about new or repeated errors"
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Finds errors by criteria"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with external tools"
+    },
+    {
+      "title": "Self-Hosted Error Tracker",
+      "description": "Run the backend on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/glitchtip/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

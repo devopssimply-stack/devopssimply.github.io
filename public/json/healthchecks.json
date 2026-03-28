@@ -1,0 +1,108 @@
+{
+  "name": "healthchecks",
+  "slug": "healthchecks",
+  "tagline": "A self-hosted service for monitoring cron jobs and task heartbeats",
+  "subtitle": "",
+  "description": "Healthchecks is a self hosted cron job and heartbeat monitoring service. You ping unique URLs from your scripts, containers or IoT devices and Healthchecks alerts you when jobs fail or run late, via email, chat, or webhooks.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-3-Clause",
+    "version": "v4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-22",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9919,
+    "github_contributors": 97,
+    "github_commits_this_year": 42,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://healthchecks.io",
+    "documentation": "https://healthchecks.io/docs",
+    "source_code": "https://github.com/healthchecks/healthchecks",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/healthchecks.webp",
+    "issues": "https://github.com/healthchecks/healthchecks/issues",
+    "releases": "https://github.com/healthchecks/healthchecks/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/healthchecks-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/healthchecks-badges.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/healthchecks-check-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/healthchecks-cron.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/healthchecks-my-checks.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/healthchecks-period-grace.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Cron Job Monitoring",
+      "description": "Monitors scheduled jobs by expecting regular check-in signals",
+      "core_feature": true
+    },
+    {
+      "title": "Heartbeat Checks",
+      "description": "Tracks whether jobs run within expected time windows",
+      "core_feature": true
+    },
+    {
+      "title": "Failure Alerts",
+      "description": "Sends notifications when jobs fail or stop reporting"
+    },
+    {
+      "title": "Status Dashboard",
+      "description": "Displays the health of monitored jobs"
+    },
+    {
+      "title": "Notification Integrations",
+      "description": "Sends alerts to supported messaging and email services"
+    },
+    {
+      "title": "API Management",
+      "description": "Creates and updates checks programmatically"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Stores checks separately per user"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Run the monitoring service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/healthchecks/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "healthchecks",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=healthchecks"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "healthchecks_ynh",
+      "url": "https://github.com/YunoHost-Apps/healthchecks_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "loki",
+  "slug": "loki",
+  "tagline": "A scalable log aggregation system for observability and monitoring",
+  "subtitle": "",
+  "description": "Loki is a horizontally scalable, multi-tenant log aggregation system inspired by Prometheus. It stores and queries logs efficiently, offering Grafana integration and a simple query language for observability.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.6.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 27749,
+    "github_contributors": 447,
+    "github_commits_this_year": 512,
+    "github_issues_open": 1897,
+    "github_issues_closed_this_year": 27,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://grafana.com/loki",
+    "documentation": "https://grafana.com/docs/loki/lates",
+    "source_code": "https://github.com/grafana/loki",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/loki.webp",
+    "issues": "https://github.com/grafana/loki/issues",
+    "releases": "https://github.com/grafana/loki/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/loki-docs.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Log Aggregation System",
+      "description": "Collect and index logs from multiple sources",
+      "core_feature": true
+    },
+    {
+      "title": "Prometheus Integration",
+      "description": "Integrate with Prometheus for metrics correlation",
+      "core_feature": true
+    },
+    {
+      "title": "Query Logs",
+      "description": "Search log data using a powerful query language",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Tenant Support",
+      "description": "Separate log data for multiple users"
+    },
+    {
+      "title": "Dashboard Integration",
+      "description": "Visualize logs within dashboard tools"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the aggregation system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/loki/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "loki_ynh",
+      "url": "https://github.com/YunoHost-Apps/loki_ynh"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "loki",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=loki"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

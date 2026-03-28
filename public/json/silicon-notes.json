@@ -1,0 +1,85 @@
+{
+  "name": "silicon-notes",
+  "slug": "silicon-notes",
+  "tagline": "A tool for generating beautiful images from source code snippets",
+  "subtitle": "",
+  "description": "Silicon is a code image generator that turns source snippets into beautiful images. It’s mainly a CLI tool but can be wrapped in web workflows, ideal for sharing code on social media or blogs.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "0.1.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-12-26",
+    "date_last_commit": "2025-09-13",
+    "github_stars": 265,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/cu/silicon",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/silicon-notes.webp",
+    "issues": "https://github.com/cu/silicon/issues",
+    "releases": "https://github.com/cu/silicon/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/silicon-notes-md-edit.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/silicon-notes-md-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Code Snippet Rendering",
+      "description": "Render source code as styled images",
+      "core_feature": true
+    },
+    {
+      "title": "Syntax Highlighting",
+      "description": "Highlight code syntax automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Export Images",
+      "description": "Export rendered code as image files",
+      "core_feature": true
+    },
+    {
+      "title": "Theme Selection",
+      "description": "Choose visual themes for rendering"
+    },
+    {
+      "title": "CLI Support",
+      "description": "Render snippets from the command line"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run the renderer locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/silicon-notes/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

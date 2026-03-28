@@ -1,0 +1,105 @@
+{
+  "name": "docspell",
+  "slug": "docspell",
+  "tagline": "A personal document organizer with OCR, tagging, and full-text search",
+  "subtitle": "",
+  "description": "Docspell is a personal document organizer that ingests scanned files or PDFs, extracts text, and indexes them for search and tagging. It supports multiple users, workflows, and integrates with mail or upload sources to keep paperwork organized.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.43.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-15",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 2185,
+    "github_contributors": 46,
+    "github_commits_this_year": 5,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://docspell.org",
+    "documentation": "https://github.com/eikek/docspell",
+    "source_code": "https://github.com/eikek/docspell",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/docspell.webp",
+    "issues": "https://github.com/eikek/docspell/issues",
+    "releases": "https://github.com/eikek/docspell/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docspell-curate-1-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docspell-custom-fields-03-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docspell-dashboards-01-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docspell-mail-item-1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docspell-multiedit-04-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Document Management System",
+      "description": "Organizes and processes scanned documents",
+      "core_feature": true
+    },
+    {
+      "title": "OCR Processing",
+      "description": "Extracts text from scanned documents",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging and Classification",
+      "description": "Categorizes documents using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Stores structured document metadata"
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Searches extracted document text"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages documents through a browser"
+    },
+    {
+      "title": "Import Pipelines",
+      "description": "Automates document ingestion"
+    },
+    {
+      "title": "Self-Hosted Archiving",
+      "description": "Runs on user-controlled infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/docspell/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "docspell",
+      "url": "https://apps.truenas.com/catalog/docspell"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

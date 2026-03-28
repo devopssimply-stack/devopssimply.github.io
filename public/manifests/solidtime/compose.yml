@@ -1,0 +1,81 @@
+# ===============================
+# Docker Compose (Solidtime)
+# ===============================
+# host: http://localhost
+# username:
+# password:
+
+services:
+  app:
+    image: ghcr.io/solidtime/solidtime:latest
+    container_name: solidtime
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      APP_ENV: production
+      DB_CONNECTION: pgsql
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_DATABASE: solidtime
+      DB_USERNAME: solidtime
+      DB_PASSWORD: solidtime
+    volumes:
+      - solidtime_data:/var/www/html
+
+  postgres:
+    image: postgres:15
+    container_name: solidtime-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: solidtime
+      POSTGRES_USER: solidtime
+      POSTGRES_PASSWORD: solidtime
+    volumes:
+      - solidtime_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U solidtime"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: solidtime-mailpit
+    restart: unless-stopped
+    ports:
+      - "8025:8025"
+
+  minio:
+    image: minio/minio:latest
+    container_name: solidtime-minio
+    restart: unless-stopped
+    command: minio server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - solidtime_minio:/data
+
+  gotenberg:
+    image: gotenberg/gotenberg:8
+    container_name: solidtime-gotenberg
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD","curl","--fail","http://localhost:3000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  solidtime_db:
+  solidtime_data:
+  solidtime_minio:

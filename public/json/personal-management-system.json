@@ -1,0 +1,74 @@
+{
+  "name": "personal-management-system",
+  "slug": "personal-management-system",
+  "tagline": "A personal productivity platform for tasks, expenses, and time tracking",
+  "subtitle": "",
+  "description": "Personal Management System is a self-hosted platform that helps track tasks, expenses, plans, and timesheets. It includes a customizable UI for managing personal productivity and goals.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.0.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-31",
+    "date_last_commit": "2026-02-02",
+    "github_stars": 3922,
+    "github_contributors": 7,
+    "github_commits_this_year": 15,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "http://personal-management-system.pl/",
+    "documentation": "https://github.com/Volmarg/personal-management-system",
+    "source_code": "https://github.com/Volmarg/personal-management-system",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/personal-management-system.webp",
+    "issues": "https://github.com/Volmarg/personal-management-system/issues",
+    "releases": "https://github.com/Volmarg/personal-management-system/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Personal Information Management",
+      "description": "Manage tasks, notes, and reminders",
+      "core_feature": true
+    },
+    {
+      "title": "Task Tracking",
+      "description": "Track tasks and to-do items",
+      "core_feature": true
+    },
+    {
+      "title": "Note Management",
+      "description": "Store personal notes",
+      "core_feature": true
+    },
+    {
+      "title": "Calendar View",
+      "description": "View items in a calendar layout"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage data through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

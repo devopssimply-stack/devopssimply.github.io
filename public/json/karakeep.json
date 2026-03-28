@@ -1,0 +1,96 @@
+{
+  "name": "karakeep",
+  "slug": "karakeep",
+  "tagline": "A home automation dashboard for managing devices, scenes, and automations",
+  "subtitle": "",
+  "description": "Karakeep is a home automation dashboard and control interface. It aggregates device statuses, scenes and automations into a single web UI, aiming to simplify management of self hosted smart home stacks.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.31.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-22",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 23938,
+    "github_contributors": 146,
+    "github_commits_this_year": 196,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://karakeep.app",
+    "documentation": "https://docs.karakeep.app",
+    "source_code": "https://github.com/karakeep-app/karakeep",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/karakeep.webp",
+    "issues": "https://github.com/karakeep-app/karakeep/issues",
+    "releases": "https://github.com/karakeep-app/karakeep/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/karakeep-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/karakeep-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/karakeep-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/karakeep-homedash-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Knowledge Base",
+      "description": "Store and organize notes and references",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging System",
+      "description": "Classify content using tags for easier retrieval",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find stored information using keyword search",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access the knowledge base through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/karakeep/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "karakeep",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=karakeep"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "karakeep_ynh",
+      "url": "https://github.com/YunoHost-Apps/karakeep_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "karakeep",
+      "url": "https://apps.truenas.com/catalog/karakeep"
+    }
+  },
+  "demo": {
+    "url": "https://try.karakeep.app/signin",
+    "username": "demo@karakeep.app",
+    "password": "demodemo"
+  }
+}

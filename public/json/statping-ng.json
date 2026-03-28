@@ -1,0 +1,95 @@
+{
+  "name": "statping-ng",
+  "slug": "statping-ng",
+  "tagline": "A self-hosted status page and uptime monitoring platform",
+  "subtitle": "",
+  "description": "Statping-ng is a self-hosted status page and monitoring platform. It pings services, records uptime, and presents results with historical graphs and alerts.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.93.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-06-04",
+    "date_last_commit": "2025-06-04",
+    "github_stars": 1928,
+    "github_contributors": 54,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://statping-ng.github.io",
+    "documentation": "https://statping-ng.github.io/install.html",
+    "source_code": "https://github.com/statping-ng/statping-ng",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/statping-ng.webp",
+    "issues": "https://github.com/statping-ng/statping-ng/issues",
+    "releases": "https://github.com/statping-ng/statping-ng/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/statping-ng-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Uptime Monitoring",
+      "description": "Monitor availability of services and endpoints",
+      "core_feature": true
+    },
+    {
+      "title": "Status Page",
+      "description": "Display service status publicly or privately",
+      "core_feature": true
+    },
+    {
+      "title": "Incident Tracking",
+      "description": "Record outages and incidents",
+      "core_feature": true
+    },
+    {
+      "title": "Notifications",
+      "description": "Send alerts on service downtime"
+    },
+    {
+      "title": "Metrics History",
+      "description": "View historical uptime data"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the monitoring system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/statping-ng/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "statpingng_ynh",
+      "url": "https://github.com/YunoHost-Apps/statpingng_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

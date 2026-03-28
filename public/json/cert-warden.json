@@ -1,0 +1,94 @@
+{
+  "name": "cert-warden",
+  "slug": "cert-warden",
+  "tagline": "A certificate management tool for issuing and renewing TLS certificates",
+  "subtitle": "",
+  "description": "Certwarden is a self-hosted certificate management tool designed to simplify issuing and renewing Let's Encrypt certificates. It provides a web dashboard to manage certs and integrates with ACME challenges and DNS services.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Personal",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-12-17",
+    "github_stars": 489,
+    "github_contributors": 6,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.certwarden.com/",
+    "documentation": "https://www.certwarden.com/docs/introduction/",
+    "source_code": "https://github.com/gregtwallace/certwarden",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cert-warden.webp",
+    "issues": "https://github.com/gregtwallace/certwarden/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cert-warden-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Certificate Management",
+      "description": "Tracks TLS certificates across environments",
+      "core_feature": true
+    },
+    {
+      "title": "Expiry Monitoring",
+      "description": "Alerts on upcoming certificate expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Certificate Inventory",
+      "description": "Stores metadata of tracked certificates"
+    },
+    {
+      "title": "Notification Support",
+      "description": "Sends alerts via email or messaging services"
+    },
+    {
+      "title": "Web UI",
+      "description": "Displays certificate status in a browser"
+    },
+    {
+      "title": "API Access",
+      "description": "Exposes tracking data programmatically"
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Keeps certificate data on-premises"
+    },
+    {
+      "title": "Integration Hooks",
+      "description": "Integrates with alerting and monitoring systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cert-warden/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

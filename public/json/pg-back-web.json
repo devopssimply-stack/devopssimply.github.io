@@ -1,0 +1,84 @@
+{
+  "name": "pg-back-web",
+  "slug": "pg-back-web",
+  "tagline": "A web interface for managing PostgreSQL backups with pgBackRest",
+  "subtitle": "",
+  "description": "PgBackWeb is a web-based interface for managing PostgreSQL backups using pgBackRest. It allows scheduling, restoring, and managing backup operations through a modern self-hosted UI.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.5.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-06",
+    "date_last_commit": "2025-11-21",
+    "github_stars": 2516,
+    "github_contributors": 5,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://backup.uforg.dev",
+    "documentation": "https://github.com/eduardolat/pgbackweb",
+    "source_code": "https://github.com/eduardolat/pgbackweb",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pg-back-web.webp",
+    "issues": "https://github.com/eduardolat/pgbackweb/issues",
+    "releases": "https://github.com/eduardolat/pgbackweb/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pg-back-web-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "PostgreSQL Backups",
+      "description": "Create and manage PostgreSQL backups",
+      "core_feature": true
+    },
+    {
+      "title": "Restore Operations",
+      "description": "Restore databases from backups",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage backups through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Schedule automatic backups"
+    },
+    {
+      "title": "Backup History",
+      "description": "View previous backup runs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the backup tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pg-back-web/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

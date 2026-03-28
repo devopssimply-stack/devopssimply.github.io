@@ -1,0 +1,104 @@
+{
+  "name": "easy-appointments",
+  "slug": "easy-appointments",
+  "tagline": "An online appointment scheduling system for customer bookings",
+  "subtitle": "",
+  "description": "Easy!Appointments is an online appointment scheduling system that lets customers book services with staff. It supports calendars, email notifications, working hours, and is popular with small businesses running self-hosted booking pages.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "1.5.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-15",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 4074,
+    "github_contributors": 96,
+    "github_commits_this_year": 8,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://easyappointments.org",
+    "documentation": "https://easyappointments.org/documentation",
+    "source_code": "https://github.com/alextselegidis/easyappointments",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/easy-appointments.webp",
+    "issues": "https://github.com/alextselegidis/easyappointments/issues",
+    "releases": "https://github.com/alextselegidis/easyappointments/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/easy-appointments-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Appointment Scheduling",
+      "description": "Manages customer appointments and availability",
+      "core_feature": true
+    },
+    {
+      "title": "Online Booking",
+      "description": "Allows clients to book appointments through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Calendar Management",
+      "description": "Displays appointments in calendar views",
+      "core_feature": true
+    },
+    {
+      "title": "Service Management",
+      "description": "Defines services durations and pricing",
+      "core_feature": true
+    },
+    {
+      "title": "Staff Management",
+      "description": "Assigns appointments to staff members"
+    },
+    {
+      "title": "Email Notifications",
+      "description": "Sends booking and reminder emails"
+    },
+    {
+      "title": "Google Calendar Sync",
+      "description": "Synchronizes appointments with Google Calendar"
+    },
+    {
+      "title": "Customer Records",
+      "description": "Stores customer contact information"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/easy-appointments/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "easyappointments_ynh",
+      "url": "https://github.com/YunoHost-Apps/easyappointments_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.easyappointments.org",
+    "username": null,
+    "password": null
+  }
+}

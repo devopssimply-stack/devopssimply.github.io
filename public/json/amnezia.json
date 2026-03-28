@@ -1,0 +1,85 @@
+{
+  "name": "amnezia",
+  "slug": "amnezia",
+  "tagline": "A VPN client for creating private VPN servers with censorship-resistant protocols",
+  "subtitle": "",
+  "description": "Amnezia VPN allows users to create their own private VPN server with a simple interface. It uses Docker containers for modular configuration and supports custom protocols to evade censorship and improve privacy.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "4.8.12.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-27",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 10371,
+    "github_contributors": 75,
+    "github_commits_this_year": 65,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://amnezia.org",
+    "documentation": "https://docs.amnezia.org/documentation",
+    "source_code": "https://github.com/amnezia-vpn/amnezia-client",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/amnezia.webp",
+    "issues": "https://github.com/amnezia-vpn/amnezia-client/issues",
+    "releases": "https://github.com/amnezia-vpn/amnezia-client/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/amnezia-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/amnezia.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/amnezia-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/amnezia-docs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/amnezia-vpn.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "VPN Client",
+      "description": "Connect to VPN servers using supported protocols",
+      "core_feature": true
+    },
+    {
+      "title": "Server Configuration",
+      "description": "Import and manage VPN server settings",
+      "core_feature": true
+    },
+    {
+      "title": "Traffic Tunneling",
+      "description": "Route network traffic through VPN connections"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Run on desktop and mobile platforms"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android",
+    "ios"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/amnezia/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

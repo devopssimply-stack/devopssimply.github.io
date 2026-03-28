@@ -1,0 +1,91 @@
+{
+  "name": "faridoon",
+  "slug": "faridoon",
+  "tagline": "A self-hosted journaling app for calm writing and long-term personal notes",
+  "subtitle": "",
+  "description": "Faridoon is a self-hosted journaling and note-taking application that emphasizes a calm writing experience and long-term personal knowledge storage. It uses a browser interface and local storage for privacy-respecting journaling.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.2.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-06-08",
+    "date_last_commit": "2026-01-28",
+    "github_stars": 49,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://jamesread.github.io/Faridoon/",
+    "documentation": "https://jamesread.github.io/Faridoon/",
+    "source_code": "https://github.com/jamesread/Faridoon",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/faridoon.webp",
+    "issues": "https://github.com/jamesread/Faridoon/issues",
+    "releases": "https://github.com/jamesread/Faridoon/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/faridoon-mockup-laptop.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Static Site Generator",
+      "description": "Builds static websites from source content",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Content",
+      "description": "Uses Markdown files for pages and posts",
+      "core_feature": true
+    },
+    {
+      "title": "Theme Support",
+      "description": "Applies themes to control site appearance"
+    },
+    {
+      "title": "Asset Handling",
+      "description": "Copies static assets into generated output"
+    },
+    {
+      "title": "Local Preview",
+      "description": "Serves generated content locally for review"
+    },
+    {
+      "title": "CLI Workflow",
+      "description": "Generates sites using command line tools"
+    },
+    {
+      "title": "Deterministic Builds",
+      "description": "Produces reproducible site output"
+    },
+    {
+      "title": "Self-Hosted Publishing",
+      "description": "Host generated sites on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/faridoon/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

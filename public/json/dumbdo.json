@@ -1,0 +1,97 @@
+{
+  "name": "dumbdo",
+  "slug": "dumbdo",
+  "tagline": "A basic self-hosted to-do list application",
+  "subtitle": "",
+  "description": "DumbDo is a basic self-hosted to-do list app. It focuses on straightforward task management with lists, completion status, and a clutter-free interface designed for users who want local control over their task data.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-12-30",
+    "github_stars": 163,
+    "github_contributors": 6,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/DumbWareio/DumbDo",
+    "documentation": "https://github.com/DumbWareio/DumbDo",
+    "source_code": "https://github.com/DumbWareio/DumbDo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dumbdo.webp",
+    "issues": "https://github.com/DumbWareio/DumbDo/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dumbdo-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "To-Do Management",
+      "description": "Manages personal task lists",
+      "core_feature": true
+    },
+    {
+      "title": "Task Completion Tracking",
+      "description": "Tracks completed tasks"
+    },
+    {
+      "title": "Minimal UI",
+      "description": "Focuses on simple task handling"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages tasks in a browser"
+    },
+    {
+      "title": "Data Persistence",
+      "description": "Stores tasks reliably"
+    },
+    {
+      "title": "Export Capability",
+      "description": "Exports task lists"
+    },
+    {
+      "title": "Lightweight App",
+      "description": "Uses minimal system resources"
+    },
+    {
+      "title": "Self-Hosted Tasks",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dumbdo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "dumbdo_ynh",
+      "url": "https://github.com/YunoHost-Apps/dumbdo_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

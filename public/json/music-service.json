@@ -1,0 +1,77 @@
+{
+  "name": "music-service",
+  "slug": "music-service",
+  "tagline": "A lightweight self-hosted music streaming and playlist service",
+  "subtitle": "",
+  "description": "MusicService is a lightweight tool for organizing and streaming songs in a self-hosted environment. It supports playlist creation, metadata editing, and has a clean, responsive web interface.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2026.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-02",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 51,
+    "github_contributors": 3,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://thijstakken.github.io/MusicService/",
+    "documentation": "https://thijstakken.github.io/MusicService/",
+    "source_code": "https://github.com/thijstakken/MusicService",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/music-service.webp",
+    "issues": "https://github.com/thijstakken/MusicService/issues",
+    "releases": "https://github.com/thijstakken/MusicService/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Music Streaming",
+      "description": "Stream music from a server to clients",
+      "core_feature": true
+    },
+    {
+      "title": "Library Browsing",
+      "description": "Browse available music collections",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Support",
+      "description": "Create and manage playlists"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access music through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/music-service/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

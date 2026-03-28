@@ -1,0 +1,100 @@
+{
+  "name": "ombi",
+  "slug": "ombi",
+  "tagline": "A self-hosted media request and approval system for Plex and Jellyfin",
+  "subtitle": "",
+  "description": "Ombi is a self-hosted request management system for Plex, Jellyfin, and Emby users. It allows users to request movies or shows, automates the workflow with Radarr or Sonarr, and offers notifications and library check.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v4.53.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-08",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 4061,
+    "github_contributors": 121,
+    "github_commits_this_year": 126,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 17
+  },
+  "resources": {
+    "website": "http://ombi.io",
+    "documentation": "https://docs.ombi.app/guides/installation",
+    "source_code": "https://github.com/Ombi-app/Ombi",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ombi.webp",
+    "issues": "https://github.com/Ombi-app/Ombi/issues",
+    "releases": "https://github.com/Ombi-app/Ombi/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ombi-dashboard-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ombi-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ombi-requests.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Request System",
+      "description": "Request movies and TV shows from users",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage requests per user",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Request Approval",
+      "description": "Review and approve incoming requests"
+    },
+    {
+      "title": "Notifications",
+      "description": "Notify users of request status"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the request app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ombi/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "ombi",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=ombi"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "ombi_ynh",
+      "url": "https://github.com/YunoHost-Apps/ombi_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://app.ombi.io/landingpage",
+    "username": "beta",
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "coder",
+  "slug": "coder",
+  "tagline": "A developer workspace platform for provisioning cloud-based IDE environments",
+  "subtitle": "",
+  "description": "Coder is an enterprise-ready developer workspace management platform that lets teams run cloud-based VS Code and JetBrains environments. It supports infrastructure provisioning and integrates with AWS, Kubernetes, and Terraform.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.30.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 12399,
+    "github_contributors": 233,
+    "github_commits_this_year": 778,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 20
+  },
+  "resources": {
+    "website": "https://coder.com",
+    "documentation": "https://github.com/coder/coder",
+    "source_code": "https://github.com/coder/coder",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/coder.webp",
+    "issues": "https://github.com/coder/coder/issues",
+    "releases": "https://github.com/coder/coder/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Remote Development Environments",
+      "description": "Provides cloud-based development workspaces",
+      "core_feature": true
+    },
+    {
+      "title": "Infrastructure as Code",
+      "description": "Defines environments using configuration files",
+      "core_feature": true
+    },
+    {
+      "title": "Workspace Management",
+      "description": "Creates and manages developer workspaces",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Manages user and team permissions"
+    },
+    {
+      "title": "IDE Integration",
+      "description": "Integrates with popular development tools"
+    },
+    {
+      "title": "Resource Isolation",
+      "description": "Separates environments per user"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/coder/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

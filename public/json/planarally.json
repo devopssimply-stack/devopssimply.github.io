@@ -1,0 +1,77 @@
+{
+  "name": "planarally",
+  "slug": "planarally",
+  "tagline": "A self-hosted virtual tabletop for collaborative role-playing games",
+  "subtitle": "",
+  "description": "PlanarAlly is a self-hosted virtual tabletop for role-playing games (RPGs). It supports maps, fog of war, user roles, and real-time collaboration through a web interface.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2026.1.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-22",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 505,
+    "github_contributors": 30,
+    "github_commits_this_year": 52,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.planarally.io",
+    "documentation": "https://www.planarally.io/docs",
+    "source_code": "https://github.com/Kruptein/PlanarAlly",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/planarally.webp",
+    "issues": "https://github.com/Kruptein/PlanarAlly/issues",
+    "releases": "https://github.com/Kruptein/PlanarAlly/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/planarally-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/planarally-player-light-example.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Virtual Tabletop",
+      "description": "Run tabletop maps for role-playing games",
+      "core_feature": true
+    },
+    {
+      "title": "Map Management",
+      "description": "Upload and manage battle maps",
+      "core_feature": true
+    },
+    {
+      "title": "Token Placement",
+      "description": "Place and move tokens on maps",
+      "core_feature": true
+    },
+    {
+      "title": "Grid and Fog Tools",
+      "description": "Use grids and fog of war features"
+    },
+    {
+      "title": "Multi-User Sessions",
+      "description": "Collaborate with multiple players"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tabletop server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

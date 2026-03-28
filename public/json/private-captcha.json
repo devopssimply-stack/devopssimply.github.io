@@ -1,0 +1,85 @@
+{
+  "name": "private-captcha",
+  "slug": "private-captcha",
+  "tagline": "A privacy-friendly self-hosted CAPTCHA solution for web apps",
+  "subtitle": "",
+  "description": "PrivateCaptcha is a self-hosted CAPTCHA system designed to prevent unwanted submissions without relying on third-party services. It supports customizable widgets and easy integration for privacy-conscious apps.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "PolyForm Noncommercial License 1.0.0",
+    "version": "v1.29.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-09",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 151,
+    "github_contributors": 8,
+    "github_commits_this_year": 231,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://privatecaptcha.com",
+    "documentation": "https://docs.privatecaptcha.com/docs/getting-started",
+    "source_code": "https://github.com/PrivateCaptcha/PrivateCaptcha",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/private-captcha.webp",
+    "issues": "https://github.com/PrivateCaptcha/PrivateCaptcha/issues",
+    "releases": "https://github.com/PrivateCaptcha/PrivateCaptcha/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/private-captcha-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/private-captcha-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "CAPTCHA Service",
+      "description": "Protect forms from automated abuse",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-Oriented Verification",
+      "description": "Verify users without tracking",
+      "core_feature": true
+    },
+    {
+      "title": "Form Integration",
+      "description": "Integrate CAPTCHA into web forms",
+      "core_feature": true
+    },
+    {
+      "title": "Challenge Customization",
+      "description": "Configure challenge behavior"
+    },
+    {
+      "title": "API Access",
+      "description": "Verify challenges via API"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the CAPTCHA service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/private-captcha/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

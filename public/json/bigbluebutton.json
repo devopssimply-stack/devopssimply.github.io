@@ -1,0 +1,71 @@
+{
+  "name": "bigbluebutton",
+  "slug": "bigbluebutton",
+  "tagline": "A virtual classroom platform for online teaching and live collaboration",
+  "subtitle": "",
+  "description": "BigBlueButton is an open-source virtual classroom system designed for online teaching. It supports real-time audio, video, whiteboards, breakout rooms, and recording, all accessible through a web browser with no client software required.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "LGPL-3.0",
+    "version": "v3.0.22",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-11",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9049,
+    "github_contributors": 224,
+    "github_commits_this_year": 289,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://bigbluebutton.org",
+    "documentation": "https://github.com/bigbluebutton/bigbluebutton",
+    "source_code": "https://github.com/bigbluebutton/bigbluebutton",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bigbluebutton.webp",
+    "issues": "https://github.com/bigbluebutton/bigbluebutton/issues",
+    "releases": "https://github.com/bigbluebutton/bigbluebutton/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bigbluebutton-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Virtual Classroom Platform",
+      "description": "Host online classes and meetings",
+      "core_feature": true
+    },
+    {
+      "title": "Video Conferencing",
+      "description": "Provide audio and video communication",
+      "core_feature": true
+    },
+    {
+      "title": "Screen Sharing",
+      "description": "Share screens during sessions"
+    },
+    {
+      "title": "Recording",
+      "description": "Record meetings and classes"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Join sessions through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "chevereto",
+  "slug": "chevereto",
+  "tagline": "A self-hosted image hosting platform with galleries and sharing",
+  "subtitle": "",
+  "description": "Chevereto is a powerful self-hosted image hosting script that allows drag-and-drop uploads, galleries, albums, and image sharing. It supports multi-user mode, themes, and APIs, and offers both open and paid editions.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "4.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-06",
+    "date_last_commit": "2026-01-06",
+    "github_stars": 895,
+    "github_contributors": 4,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/chevereto/chevereto",
+    "documentation": "https://github.com/chevereto/chevereto",
+    "source_code": "https://github.com/chevereto/chevereto",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/chevereto.webp",
+    "issues": "https://github.com/chevereto/chevereto/issues",
+    "releases": "https://github.com/chevereto/chevereto/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chevereto-uploader-queue.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chevereto-user-listing-selected.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chevereto-user-profile.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Image Hosting Platform",
+      "description": "Uploads and hosts images through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Album Management",
+      "description": "Organizes images into albums",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manages users and permissions",
+      "core_feature": true
+    },
+    {
+      "title": "Image Sharing",
+      "description": "Shares images via public links"
+    },
+    {
+      "title": "Upload Controls",
+      "description": "Applies limits and rules to uploads"
+    },
+    {
+      "title": "Metadata Handling",
+      "description": "Stores image metadata"
+    },
+    {
+      "title": "Web-Based UI",
+      "description": "Manages images through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/chevereto/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.chevereto.com",
+    "username": null,
+    "password": null
+  }
+}

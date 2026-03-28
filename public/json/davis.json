@@ -1,0 +1,100 @@
+{
+  "name": "davis",
+  "slug": "davis",
+  "tagline": "A minimalist web client for accessing and managing CalDAV calendars",
+  "subtitle": "",
+  "description": "Davis is a self-hosted, minimalist CalDAV web client compatible with servers like Nextcloud and DAViCal. It offers a clean calendar UI with basic editing and sync functionality across devices.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v5.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-01",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 673,
+    "github_contributors": 14,
+    "github_commits_this_year": 10,
+    "github_issues_open": 10,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/users/tchapi/projects/1/views/1",
+    "documentation": "https://github.com/tchapi/davis",
+    "source_code": "https://github.com/tchapi/davis",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/davis.webp",
+    "issues": "https://github.com/tchapi/davis/issues",
+    "releases": "https://github.com/tchapi/davis/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/davis-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/davis-sharing.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/davis-user.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "CalDAV and CardDAV Server",
+      "description": "Synchronizes calendars and contacts",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Handles multiple accounts and address books",
+      "core_feature": true
+    },
+    {
+      "title": "Modern Web Interface",
+      "description": "Provides a browser-based management UI"
+    },
+    {
+      "title": "Access Control",
+      "description": "Restricts access to calendars and contacts"
+    },
+    {
+      "title": "Client Compatibility",
+      "description": "Works with common calendar and contact clients"
+    },
+    {
+      "title": "RESTful Architecture",
+      "description": "Uses modern web standards internally"
+    },
+    {
+      "title": "Lightweight Deployment",
+      "description": "Designed for small server environments"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/davis/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "davis_ynh",
+      "url": "https://github.com/YunoHost-Apps/davis_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,63 @@
+# ===============================
+# Docker Compose (Kutt)
+# ===============================
+# host: http://localhost:3000
+# username:
+# password:
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: kutt-postgres
+    environment:
+      POSTGRES_DB: kutt
+      POSTGRES_USER: kutt
+      POSTGRES_PASSWORD: kuttpassword
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kutt"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:latest
+    container_name: kutt-redis
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  kutt:
+    image: ghcr.io/thedevs-network/kutt:latest
+    container_name: kutt
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: kutt
+      DB_USER: kutt
+      DB_PASSWORD: kuttpassword
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      JWT_SECRET: change_this_super_secret_value
+      SITE_NAME: Kutt
+      DEFAULT_DOMAIN: localhost:3000
+      APP_URL: http://localhost:3000
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:

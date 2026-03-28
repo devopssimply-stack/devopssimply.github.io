@@ -1,0 +1,75 @@
+{
+  "name": "opentalk",
+  "slug": "opentalk",
+  "tagline": "A privacy-first self-hosted video conferencing solution",
+  "subtitle": "",
+  "description": "OpenTalk is a self-hosted video conferencing solution built with privacy-first principles. It includes meeting rooms, screen sharing, chat, and customizable deployment via Docker and Kubernetes.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://gitlab.opencode.de/opentalk/ot-setup",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/opentalk.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Video Conference Setup",
+      "description": "Deploy a video conferencing stack",
+      "core_feature": true
+    },
+    {
+      "title": "Participant Rooms",
+      "description": "Join video calls in unique rooms"
+    },
+    {
+      "title": "Screen Sharing",
+      "description": "Share screens during calls"
+    },
+    {
+      "title": "Text Chat",
+      "description": "Exchange messages during calls"
+    },
+    {
+      "title": "Deployment Scripts",
+      "description": "Automate installation steps"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the conferencing stack on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/opentalk/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

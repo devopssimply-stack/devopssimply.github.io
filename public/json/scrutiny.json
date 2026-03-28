@@ -1,0 +1,97 @@
+{
+  "name": "scrutiny",
+  "slug": "scrutiny",
+  "tagline": "A self-hosted S.M.A.R.T. monitoring and disk health analytics platform",
+  "subtitle": "",
+  "description": "Scrutiny is a self-hosted S.M.A.R.T. monitoring system for hard drives that includes dashboards, alerts, and analytics for drive health tracking.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.8.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-09",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 7476,
+    "github_contributors": 49,
+    "github_commits_this_year": 47,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://github.com/AnalogJ/scrutiny",
+    "documentation": "https://github.com/AnalogJ/scrutiny/blob/master/docs",
+    "source_code": "https://github.com/AnalogJ/scrutiny",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/scrutiny.webp",
+    "issues": "https://github.com/AnalogJ/scrutiny/issues",
+    "releases": "https://github.com/AnalogJ/scrutiny/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/scrutiny-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/scrutiny-details-full.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/scrutiny-details.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Disk Health Monitoring",
+      "description": "Monitor SMART disk health metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard",
+      "description": "View disk status and alerts",
+      "core_feature": true
+    },
+    {
+      "title": "Historical Tracking",
+      "description": "Track disk metrics over time"
+    },
+    {
+      "title": "Notifications",
+      "description": "Receive alerts for disk issues"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run monitoring on your own hardware"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/scrutiny/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "scrutiny_ynh",
+      "url": "https://github.com/YunoHost-Apps/scrutiny_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "scrutiny",
+      "url": "https://apps.truenas.com/catalog/scrutiny"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,70 @@
+# ===============================
+# Docker Compose (ToolJet)
+# ===============================
+# host: http://localhost
+# username:
+# password:
+
+services:
+  tooljet:
+    image: tooljet/tooljet:ee-lts-latest
+    restart: unless-stopped
+
+    ports:
+      - "80:80"
+
+    environment:
+      SERVE_CLIENT: "true"
+      PORT: "80"
+
+      TOOLJET_HOST: http://localhost
+      LOCKBOX_MASTER_KEY: replace_with_lockbox_master_key
+      SECRET_KEY_BASE: replace_with_secret_key_base
+
+      PG_DB: tooljet_production
+      PG_USER: postgres
+      PG_PASS: change_this_password
+      PG_HOST: postgres
+
+      TOOLJET_DB: tooljet_db
+      TOOLJET_DB_USER: postgres
+      TOOLJET_DB_HOST: postgres
+      TOOLJET_DB_PASS: change_this_password
+
+      CHECK_FOR_UPDATES: "true"
+      ENABLE_MULTIPLAYER_EDITING: "true"
+      ENABLE_MARKETPLACE_FEATURE: "true"
+
+      WORKER: "true"
+      TOOLJET_WORKFLOW_CONCURRENCY: "5"
+      WORKFLOW_TIMEOUT_SECONDS: "60"
+
+      USER_SESSION_EXPIRY: "2880"
+      DEPLOYMENT_PLATFORM: docker
+
+    command: npm run start:prod
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: change_this_password
+      POSTGRES_DB: tooljet_production
+
+    volumes:
+      - tooljet_db:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d tooljet_production"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  tooljet_db:

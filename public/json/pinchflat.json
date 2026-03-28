@@ -1,0 +1,85 @@
+{
+  "name": "pinchflat",
+  "slug": "pinchflat",
+  "tagline": "A self-hosted YouTube downloader and media archiving tool",
+  "subtitle": "",
+  "description": "Pinchflat is a self-hosted tool for downloading, archiving, and managing YouTube videos. It supports scheduled downloads, playlists, and integration with media servers via a web UI.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2025.9.26",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-26",
+    "date_last_commit": "2025-12-16",
+    "github_stars": 4642,
+    "github_contributors": 13,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/kieraneglin/pinchflat",
+    "documentation": "https://github.com/kieraneglin/pinchflat",
+    "source_code": "https://github.com/kieraneglin/pinchflat",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pinchflat.webp",
+    "issues": "https://github.com/kieraneglin/pinchflat/issues",
+    "releases": "https://github.com/kieraneglin/pinchflat/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pinchflat-app-form-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pinchflat-app-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Flatpak Repository",
+      "description": "Host a Flatpak repository",
+      "core_feature": true
+    },
+    {
+      "title": "Package Distribution",
+      "description": "Distribute Flatpak packages",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Hosting",
+      "description": "Serve repository metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Simple Configuration",
+      "description": "Configure repository using files"
+    },
+    {
+      "title": "Static Hosting",
+      "description": "Serve content as static files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the repository on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pinchflat/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

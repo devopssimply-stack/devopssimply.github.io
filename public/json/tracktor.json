@@ -1,0 +1,97 @@
+{
+  "name": "tracktor",
+  "slug": "tracktor",
+  "tagline": "A unified dashboard for tracking packages and shipments across carriers",
+  "subtitle": "",
+  "description": "Tracktor is a self-hosted package and shipment tracking web app that aggregates tracking information from multiple carriers, presenting statuses and history in a unified dashboard.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.2.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-21",
+    "date_last_commit": "2026-02-20",
+    "github_stars": 870,
+    "github_contributors": 10,
+    "github_commits_this_year": 49,
+    "github_issues_open": 27,
+    "github_issues_closed_this_year": 14,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://tracktor.bytedge.in",
+    "documentation": "https://github.com/javedh-dev/tracktor",
+    "source_code": "https://github.com/javedh-dev/tracktor",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tracktor.webp",
+    "issues": "https://github.com/javedh-dev/tracktor/issues",
+    "releases": "https://github.com/javedh-dev/tracktor/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tracktor-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tracktor-dashboard-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Issue Tracking",
+      "description": "Track issues and tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Project Organization",
+      "description": "Organize issues into projects",
+      "core_feature": true
+    },
+    {
+      "title": "Status Workflow",
+      "description": "Track issue progress through statuses",
+      "core_feature": true
+    },
+    {
+      "title": "Comments",
+      "description": "Discuss issues with comments"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage issues in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tracktor/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "tracktor",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=tracktor"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "tracktor_ynh",
+      "url": "https://github.com/YunoHost-Apps/tracktor_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://tracktor.bytedge.in",
+    "username": "demo",
+    "password": "demo"
+  }
+}

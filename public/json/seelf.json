@@ -1,0 +1,92 @@
+{
+  "name": "seelf",
+  "slug": "seelf",
+  "tagline": "A self-hosted journaling and diary app with encryption and private entries",
+  "subtitle": "",
+  "description": "Seelf is a self-hosted journaling and diary platform with encryption, a clean UI, and tagging for organizing entries. Built for personal privacy and reflection.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-08",
+    "date_last_commit": "2025-05-24",
+    "github_stars": 334,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://yuukanoo.github.io/seelf",
+    "documentation": "https://yuukanoo.github.io/seelf/guide/quickstart.html",
+    "source_code": "https://github.com/YuukanOO/seelf",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/seelf.webp",
+    "issues": "https://github.com/YuukanOO/seelf/issues",
+    "releases": "https://github.com/YuukanOO/seelf/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/seelf-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/seelf-home.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Website",
+      "description": "Create a simple personal website",
+      "core_feature": true
+    },
+    {
+      "title": "Content Pages",
+      "description": "Add and edit pages",
+      "core_feature": true
+    },
+    {
+      "title": "Theme Customization",
+      "description": "Customize appearance using themes",
+      "core_feature": true
+    },
+    {
+      "title": "Static Output",
+      "description": "Generate static site files"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Configure site behavior"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the site on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/seelf/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "seelf",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=seelf"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "webtrees",
+  "slug": "webtrees",
+  "tagline": "A genealogy platform for building and exploring family trees online",
+  "subtitle": "",
+  "description": "webtrees is a self-hosted genealogy application that lets users build and explore family trees online. It supports GEDCOM imports, collaboration, and detailed person records via a web interface.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "2.2.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-13",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 709,
+    "github_contributors": 221,
+    "github_commits_this_year": 51,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://webtrees.net",
+    "documentation": "https://webtrees.net/install",
+    "source_code": "https://github.com/fisharebest/webtrees",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/webtrees.webp",
+    "issues": "https://github.com/fisharebest/webtrees/issues",
+    "releases": "https://github.com/fisharebest/webtrees/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/webtrees-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Genealogy Management",
+      "description": "Build and manage family trees",
+      "core_feature": true
+    },
+    {
+      "title": "Relationship Mapping",
+      "description": "Define family relationships",
+      "core_feature": true
+    },
+    {
+      "title": "Media Attachments",
+      "description": "Attach photos and documents to records",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy Controls",
+      "description": "Control access to sensitive data"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Explore family trees in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the genealogy app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/webtrees/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "webtrees_ynh",
+      "url": "https://github.com/YunoHost-Apps/webtrees_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://dev.webtrees.net/demo-stable/index.php",
+    "username": null,
+    "password": null
+  }
+}

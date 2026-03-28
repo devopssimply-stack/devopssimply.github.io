@@ -1,0 +1,87 @@
+{
+  "name": "asciinema",
+  "slug": "asciinema",
+  "tagline": "A terminal recording tool for sharing command-line sessions as text replays",
+  "subtitle": "",
+  "description": "Asciinema is a tool to record terminal sessions and share them as lightweight, text-based videos. Recordings can be hosted or embedded anywhere and viewed in a web player. Great for tutorials, demos or debugging.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v3.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 16932,
+    "github_contributors": 59,
+    "github_commits_this_year": 32,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://asciinema.org",
+    "documentation": "https://docs.asciinema.org/getting-started",
+    "source_code": "https://github.com/asciinema/asciinema",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/asciinema.webp",
+    "issues": "https://github.com/asciinema/asciinema/issues",
+    "releases": "https://github.com/asciinema/asciinema/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/asciinema-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Terminal Recording",
+      "description": "Record terminal sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Playback",
+      "description": "Replay terminal recordings",
+      "core_feature": true
+    },
+    {
+      "title": "Sharing",
+      "description": "Share recordings via links"
+    },
+    {
+      "title": "CLI Tool",
+      "description": "Record sessions from the command line"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [
+    "cli",
+    "tui"
+  ],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/asciinema/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/asciinema/script.sh"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

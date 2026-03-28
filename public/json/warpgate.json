@@ -1,0 +1,93 @@
+{
+  "name": "warpgate",
+  "slug": "warpgate",
+  "tagline": "A secure access gateway for SSH, RDP, and databases with auditing",
+  "subtitle": "",
+  "description": "Warpgate is a self-hosted secure access gateway for SSH, RDP, and databases. It provides auditing, session recording, and role-based access via web UI and configuration files.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.20.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-06",
+    "date_last_commit": "2026-02-07",
+    "github_stars": 6539,
+    "github_contributors": 41,
+    "github_commits_this_year": 70,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://warpgate.null.page",
+    "documentation": "https://warpgate.null.page/docs",
+    "source_code": "https://github.com/warp-tech/warpgate",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/warpgate.webp",
+    "issues": "https://github.com/warp-tech/warpgate/issues",
+    "releases": "https://github.com/warp-tech/warpgate/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warpgate-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warpgate-profile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warpgate-session-recording.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warpgate-session.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warpgate-ssh-login.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Secure Access Gateway",
+      "description": "Provide secure access to internal services",
+      "core_feature": true
+    },
+    {
+      "title": "SSH and HTTP Access",
+      "description": "Access services using SSH or browser",
+      "core_feature": true
+    },
+    {
+      "title": "Identity-Based Access",
+      "description": "Control access using identities"
+    },
+    {
+      "title": "Audit Logging",
+      "description": "Record access activity"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the gateway on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/warpgate/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "warpgate_ynh",
+      "url": "https://github.com/YunoHost-Apps/warpgate_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

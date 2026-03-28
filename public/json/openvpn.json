@@ -1,0 +1,78 @@
+{
+  "name": "openvpn",
+  "slug": "openvpn",
+  "tagline": "An open source VPN solution for secure remote and site-to-site networking",
+  "subtitle": "",
+  "description": "OpenVPN is an open-source VPN protocol and software suite that enables secure point-to-point and site-to-site connections. It features strong encryption, cross-platform support, and can be deployed on self-hosted servers.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v2.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-11",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 13323,
+    "github_contributors": 166,
+    "github_commits_this_year": 74,
+    "github_issues_open": 170,
+    "github_issues_closed_this_year": 29,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "http://community.openvpn.net",
+    "documentation": "https://community.openvpn.net",
+    "source_code": "https://github.com/OpenVPN/openvpn",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openvpn.webp",
+    "issues": "https://github.com/OpenVPN/openvpn/issues",
+    "releases": "https://github.com/OpenVPN/openvpn/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openvpn-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "VPN Server",
+      "description": "Provide secure remote networking",
+      "core_feature": true
+    },
+    {
+      "title": "Client Connectivity",
+      "description": "Connect remote devices securely",
+      "core_feature": true
+    },
+    {
+      "title": "Traffic Encryption",
+      "description": "Encrypt network communications",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict VPN access to authorized users"
+    },
+    {
+      "title": "Routing Support",
+      "description": "Route traffic across network subnets"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the VPN on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

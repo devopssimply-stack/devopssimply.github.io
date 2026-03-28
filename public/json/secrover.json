@@ -1,0 +1,87 @@
+{
+  "name": "secrover",
+  "slug": "secrover",
+  "tagline": "A self-hosted travel and tour management system for bookings and itineraries",
+  "subtitle": "",
+  "description": "Secrover is a self-hosted travel and tour management system that includes booking, itinerary planning, and customer management through a modern web interface.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "0.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-02-17",
+    "github_stars": 243,
+    "github_contributors": 2,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://secrover.org",
+    "documentation": "https://github.com/Secrover/Secrover",
+    "source_code": "https://github.com/Secrover/Secrover",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/secrover.webp",
+    "issues": "https://github.com/Secrover/Secrover/issues",
+    "releases": "https://github.com/Secrover/Secrover/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/secrover-code.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/secrover-dependencies.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/secrover-domains.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/secrover-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Security Monitoring",
+      "description": "Monitor systems for security issues",
+      "core_feature": true
+    },
+    {
+      "title": "Asset Inventory",
+      "description": "Track monitored assets",
+      "core_feature": true
+    },
+    {
+      "title": "Risk Assessment",
+      "description": "Assess security risks",
+      "core_feature": true
+    },
+    {
+      "title": "Alerts",
+      "description": "Notify on detected issues"
+    },
+    {
+      "title": "Reporting",
+      "description": "Generate security reports"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the security platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/secrover/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

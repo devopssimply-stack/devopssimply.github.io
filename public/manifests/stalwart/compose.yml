@@ -1,0 +1,33 @@
+# ===============================
+# Docker Compose (Stalwart Mail)
+# ===============================
+# host: https://localhost
+# username:
+# password:
+
+services:
+  stalwart:
+    image: stalwartlabs/stalwart:latest
+    container_name: stalwart
+    restart: unless-stopped
+    ports:
+      - "443:443"
+      - "8080:8080"
+      - "25:25"
+      - "587:587"
+      - "465:465"
+      - "143:143"
+      - "993:993"
+      - "4190:4190"
+      - "110:110"
+      - "995:995"
+    volumes:
+      - stalwart_data:/opt/stalwart
+    healthcheck:
+      test: ["CMD","wget","--spider","-q","http://localhost:8080"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  stalwart_data:

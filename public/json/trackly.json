@@ -1,0 +1,87 @@
+{
+  "name": "trackly",
+  "slug": "trackly",
+  "tagline": "A simple tracker for habits and personal metrics with visual summaries",
+  "subtitle": "",
+  "description": "Trackly is a self-hosted service for tracking habits or metrics over time. It records entries and renders charts and summaries to help visualize personal progress.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-11-16",
+    "date_last_commit": "2026-02-23",
+    "github_stars": 61,
+    "github_contributors": 3,
+    "github_commits_this_year": 0,
+    "github_issues_open": 6,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/7eventy7/trackly",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/trackly.webp",
+    "issues": "https://github.com/7eventy7/trackly/issues",
+    "releases": "https://github.com/7eventy7/trackly/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/trackly-dark-artists.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/trackly-dark-releases.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/trackly-dark-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/trackly-dark-specific.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Expense Tracking",
+      "description": "Track personal expenses and income",
+      "core_feature": true
+    },
+    {
+      "title": "Category Management",
+      "description": "Organize transactions by category",
+      "core_feature": true
+    },
+    {
+      "title": "Reports",
+      "description": "View summaries and trends",
+      "core_feature": true
+    },
+    {
+      "title": "Budget Limits",
+      "description": "Set and monitor budgets"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage finances in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/trackly/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

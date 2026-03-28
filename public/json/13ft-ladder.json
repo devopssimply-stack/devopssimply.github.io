@@ -1,0 +1,97 @@
+{
+  "name": "13ft-ladder",
+  "slug": "13ft-ladder",
+  "tagline": "A web service that retrieves full article content by bypassing paywalls",
+  "subtitle": "",
+  "description": "13ft is an open-source, self-hosted web service designed as a replacement for 12ft.io. It allows you to input a URL and retrieve the article’s full content—bypassing ads and paywalls, by emulating a GoogleBot crawl to fetch what search engines see. Built in Python (Flask) and easily deployable via Docker, it’s geared toward users who want more control over accessing web content and hosting their own instance. The project is MIT-licensed, with support for custom host/port setups, and has a community of users and contributors.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.3.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-10-27",
+    "date_last_commit": "2026-02-24",
+    "github_stars": 4094,
+    "github_contributors": 10,
+    "github_commits_this_year": 1,
+    "github_issues_open": 12,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/wasi-master/13ft",
+    "documentation": "https://github.com/wasi-master/13ft",
+    "source_code": "https://github.com/wasi-master/13ft",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/13ft-ladder.webp",
+    "issues": "https://github.com/wasi-master/13ft/issues",
+    "releases": "https://github.com/wasi-master/13ft/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/13ft-ladder-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Article Content Extraction",
+      "description": "Retrieves the main readable content of web articles while excluding paywalls and overlays",
+      "core_feature": true
+    },
+    {
+      "title": "URL-Based Access",
+      "description": "Accepts a target article URL as input and returns the extracted page content",
+      "core_feature": true
+    },
+    {
+      "title": "Paywall Bypass via Text Rendering",
+      "description": "Loads article content in a simplified format that avoids client-side paywall scripts",
+      "core_feature": true
+    },
+    {
+      "title": "Web Service Interface",
+      "description": "Exposes the functionality through a web-accessible endpoint for browser-based use",
+      "core_feature": true
+    },
+    {
+      "title": "Minimal Page Rendering",
+      "description": "Outputs content in a clean, text-focused layout for readability"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Can be run on a user-controlled server without reliance on third-party services"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/13ft-ladder/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/13ft-ladder/script.sh"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

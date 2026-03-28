@@ -1,0 +1,87 @@
+{
+  "name": "openbao",
+  "slug": "openbao",
+  "tagline": "A community-driven secrets management platform forked from Vault",
+  "subtitle": "",
+  "description": "OpenBao is a community-driven fork of HashiCorp Vault designed for secure secret management. It supports encryption, key management, access control, and API-driven workflows in self-hosted environments.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MPL-2.0",
+    "version": "v2.5.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 5528,
+    "github_contributors": 377,
+    "github_commits_this_year": 193,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://openbao.org",
+    "documentation": "https://openbao.org/docs",
+    "source_code": "https://github.com/openbao/openbao",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openbao.webp",
+    "issues": "https://github.com/openbao/openbao/issues",
+    "releases": "https://github.com/openbao/openbao/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openbao-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Business Process Automation",
+      "description": "Define and run automated business workflows",
+      "core_feature": true
+    },
+    {
+      "title": "Task Scheduling",
+      "description": "Schedule recurring tasks and jobs",
+      "core_feature": true
+    },
+    {
+      "title": "Rule Engine",
+      "description": "Apply business logic using configurable rules"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrate with external systems"
+    },
+    {
+      "title": "Monitoring",
+      "description": "Track job execution and statuses"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the automation platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/openbao/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

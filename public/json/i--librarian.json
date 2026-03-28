@@ -1,0 +1,97 @@
+{
+  "name": "i-librarian",
+  "slug": "i--librarian",
+  "tagline": "A web-based reference and document manager for researchers and PDFs",
+  "subtitle": "",
+  "description": "I Librarian is a web based reference and document manager for researchers. It stores PDFs, annotations and bibliographic data, supports full text search and citation export, and can be deployed as a private literature database.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "5.11.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-02",
+    "date_last_commit": "2025-12-02",
+    "github_stars": 327,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://i-librarian.net",
+    "documentation": "https://github.com/mkucej/i-librarian-free",
+    "source_code": "https://github.com/mkucej/i-librarian-free",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/i--librarian.webp",
+    "issues": "https://github.com/mkucej/i-librarian-free/issues",
+    "releases": "https://github.com/mkucej/i-librarian-free/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/i--librarian-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/i--librarian-library.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/i--librarian-projects.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/i--librarian-tools-find-duplicate.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reference Management",
+      "description": "Provides a personal system for organizing academic papers and research references in a structured library",
+      "core_feature": true
+    },
+    {
+      "title": "PDF Storage",
+      "description": "Stores PDF files directly alongside reference records for centralized access",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Editing",
+      "description": "Allows users to edit bibliographic metadata such as authors titles abstracts and keywords"
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Enables searching and filtering of references using metadata fields and document content"
+    },
+    {
+      "title": "Tagging",
+      "description": "Supports categorization of references using user-defined tags"
+    },
+    {
+      "title": "Citation Export",
+      "description": "Exports references into common citation formats for use in external tools"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Provides browser-based access to manage and review the reference library"
+    },
+    {
+      "title": "Self-Hosted Library",
+      "description": "Allows the reference manager to be hosted on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/i--librarian/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://eu1.i-librarian.net/demo",
+    "username": null,
+    "password": null
+  }
+}

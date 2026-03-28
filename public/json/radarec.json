@@ -1,0 +1,77 @@
+{
+  "name": "radarec",
+  "slug": "radarec",
+  "tagline": "A recording and history manager for Radarr and Sonarr downloads",
+  "subtitle": "",
+  "description": "RadaRec is a self-hosted recording manager for Radarr/Sonarr media downloads. It logs requests, tracks history, and manages recordings through a centralized interface.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.2.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-20",
+    "date_last_commit": "2026-02-23",
+    "github_stars": 66,
+    "github_contributors": 1,
+    "github_commits_this_year": 7,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/TheWicklowWolf/RadaRec",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/radarec.webp",
+    "issues": "https://github.com/TheWicklowWolf/RadaRec/issues",
+    "releases": "https://github.com/TheWicklowWolf/RadaRec/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Radio Recording",
+      "description": "Record radio streams automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Schedule Recording",
+      "description": "Define recording times for stations",
+      "core_feature": true
+    },
+    {
+      "title": "Station Management",
+      "description": "Manage radio station sources"
+    },
+    {
+      "title": "File Storage",
+      "description": "Save recordings locally"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Control recordings through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/radarec/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

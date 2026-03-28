@@ -1,0 +1,99 @@
+{
+  "name": "AliasVault",
+  "slug": "aliasvault",
+  "tagline": "Self-hosted email alias management for privacy protection",
+  "subtitle": "Protect your real inbox with disposable and persistent aliases",
+  "description": "AliasVault is a privacy-focused, self-hostable email alias management platform. It lets you generate, manage, and forward email aliases to protect your real address. The system supports SMTP forwarding, passwordless authentication, disposable aliases, and full self-hosted deployments for maximum control over your data.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.27.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2222,
+    "github_contributors": 6,
+    "github_commits_this_year": 616,
+    "github_issues_open": 121,
+    "github_issues_closed_this_year": 155,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://aliasvault.net",
+    "documentation": "https://docs.aliasvault.net",
+    "source_code": "https://github.com/aliasvault/aliasvault",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/aliasvault.webp",
+    "issues": "https://github.com/aliasvault/aliasvault/issues",
+    "releases": "https://github.com/aliasvault/aliasvault/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/aliasvault-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Email Alias Management",
+      "description": "Create, organize, and manage unlimited email aliases",
+      "core_feature": true
+    },
+    {
+      "title": "Alias Forwarding",
+      "description": "Forward alias emails to one or more real inboxes",
+      "core_feature": true
+    },
+    {
+      "title": "Disposable Aliases",
+      "description": "Create throwaway aliases that can be disabled at any time",
+      "core_feature": true
+    },
+    {
+      "title": "Passwordless Authentication",
+      "description": "Login securely using magic links instead of passwords"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Manage aliases through a modern web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run AliasVault on your own infrastructure for full privacy control",
+      "core_feature": true
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "android",
+    "ios",
+    "web",
+    "browser_extension"
+  ],
+  "interface": [
+    "web_ui",
+    "api"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/aliasvault/compose.yml"
+      }
+    }
+  },
+  "notes": [
+    "Requires a working SMTP server for email forwarding",
+    "Best suited for privacy-focused self-hosting users"
+  ],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,57 @@
+# ===============================
+# Docker Compose (Portnote)
+# ===============================
+# host: http://localhost:3000
+# username: admin
+# password: change-this-password
+# ===============================
+
+services:
+
+  db:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: portnote
+      POSTGRES_PASSWORD: change-db-password
+      POSTGRES_DB: portnote
+    volumes:
+      - portnote_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portnote -d portnote"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    image: haedlessdev/portnote:latest
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      JWT_SECRET: change-jwt-secret
+      USER_SECRET: change-user-secret
+      LOGIN_USERNAME: admin
+      LOGIN_PASSWORD: change-this-password
+      DATABASE_URL: postgresql://portnote:change-db-password@db:5432/portnote
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://127.0.0.1:3000 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  agent:
+    image: haedlessdev/portnote-agent:latest
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://portnote:change-db-password@db:5432/portnote
+
+volumes:
+  portnote_db:

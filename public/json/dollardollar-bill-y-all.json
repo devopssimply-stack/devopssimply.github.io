@@ -1,0 +1,88 @@
+{
+  "name": "dollardollar-bill-y-all",
+  "slug": "dollardollar-bill-y-all",
+  "tagline": "A self-hosted personal finance tracker for logging income and expenses",
+  "subtitle": "",
+  "description": "DollarDollar is a personal finance tracker that helps users log income and expenses, categorize transactions, and visualize budgets over time. It focuses on simplicity and privacy by running as a self-hosted web application.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.3.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-04-24",
+    "date_last_commit": "2026-02-16",
+    "github_stars": 329,
+    "github_contributors": 5,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/harung1993/dollardollar",
+    "documentation": "https://github.com/harung1993/dollardollar",
+    "source_code": "https://github.com/harung1993/dollardollar",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dollardollar-bill-y-all.webp",
+    "issues": "https://github.com/harung1993/dollardollar/issues",
+    "releases": "https://github.com/harung1993/dollardollar/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dollardollar-bill-y-all-add-new-expenses.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dollardollar-bill-y-all-investment-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dollardollar-bill-y-all-manage-categories.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dollardollar-bill-y-all-statistics.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dollardollar-bill-y-all-user.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Finance Tracking",
+      "description": "Tracks income expenses and balances",
+      "core_feature": true
+    },
+    {
+      "title": "Category Management",
+      "description": "Organizes transactions into categories",
+      "core_feature": true
+    },
+    {
+      "title": "Transaction History",
+      "description": "Records financial activity over time",
+      "core_feature": true
+    },
+    {
+      "title": "Monthly Summaries",
+      "description": "Displays totals per month"
+    },
+    {
+      "title": "Import Support",
+      "description": "Imports transactions from files"
+    },
+    {
+      "title": "Simple Web Interface",
+      "description": "Manages finances through a browser"
+    },
+    {
+      "title": "Data Export",
+      "description": "Exports records for external use"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

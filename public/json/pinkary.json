@@ -1,0 +1,84 @@
+{
+  "name": "pinkary",
+  "slug": "pinkary",
+  "tagline": "A bookmark manager with tagging notes and reading mode",
+  "subtitle": "",
+  "description": "Pinkary is a self-hosted bookmark management system with tagging, notes, and reading mode support. It includes a polished web UI for efficiently organizing links across categories.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.46.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-29",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 1521,
+    "github_contributors": 82,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://pinkary.com",
+    "documentation": "https://github.com/pinkary-project/pinkary.com",
+    "source_code": "https://github.com/pinkary-project/pinkary.com",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pinkary.webp",
+    "issues": "https://github.com/pinkary-project/pinkary.com/issues",
+    "releases": "https://github.com/pinkary-project/pinkary.com/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pinkary-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Microblogging",
+      "description": "Publish short text posts",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Create and manage user profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline",
+      "description": "View posts in a timeline",
+      "core_feature": true
+    },
+    {
+      "title": "Replies",
+      "description": "Reply to other posts"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access the platform through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the microblogging platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pinkary/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

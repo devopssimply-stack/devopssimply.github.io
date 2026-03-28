@@ -1,0 +1,94 @@
+{
+  "name": "jackett",
+  "slug": "jackett",
+  "tagline": "A proxy service that unifies torrent indexers for media automation apps",
+  "subtitle": "",
+  "description": "Jackett acts as a proxy between torrent indexers and apps like Sonarr or Radarr. It translates queries into many tracker specific formats, providing a single unified API so self hosted media automation stacks can search dozens of sources.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v0.24.1292",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 15005,
+    "github_contributors": 411,
+    "github_commits_this_year": 434,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 68
+  },
+  "resources": {
+    "website": "https://github.com/Jackett/Jackett",
+    "documentation": "https://github.com/Jackett/Jackett",
+    "source_code": "https://github.com/Jackett/Jackett",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jackett.webp",
+    "issues": "https://github.com/Jackett/Jackett/issues",
+    "releases": "https://github.com/Jackett/Jackett/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jackett-light.webp",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Torrent Indexer Aggregation",
+      "description": "Aggregates torrent indexers via API",
+      "core_feature": true
+    },
+    {
+      "title": "Search Translation",
+      "description": "Normalizes searches across trackers"
+    },
+    {
+      "title": "Tracker Management",
+      "description": "Manages multiple indexer configurations"
+    },
+    {
+      "title": "API Compatibility",
+      "description": "Emulates common torrent APIs"
+    },
+    {
+      "title": "Authentication Support",
+      "description": "Handles private tracker credentials"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Configures indexers through browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "jackett",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=jackett"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "jackett_ynh",
+      "url": "https://github.com/YunoHost-Apps/jackett_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "jackett",
+      "url": "https://apps.truenas.com/catalog/jackett"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

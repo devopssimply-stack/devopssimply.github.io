@@ -1,0 +1,82 @@
+{
+  "name": "sparkybudget",
+  "slug": "sparkybudget",
+  "tagline": "A personal budgeting app for tracking income, expenses, and categories",
+  "subtitle": "",
+  "description": "SparkyBudget is a self-hosted personal budgeting tool for tracking income, expenses, and categories. It provides charts and summaries so users can manage finances simply.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "NOASSERTION",
+    "version": "v.20.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-11",
+    "date_last_commit": "2026-01-15",
+    "github_stars": 107,
+    "github_contributors": 2,
+    "github_commits_this_year": 13,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/CodeWithCJ/SparkyBudget",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sparkybudget.webp",
+    "issues": "https://github.com/CodeWithCJ/SparkyBudget/issues",
+    "releases": "https://github.com/CodeWithCJ/SparkyBudget/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Budget Tracking",
+      "description": "Track income and expenses",
+      "core_feature": true
+    },
+    {
+      "title": "Category Management",
+      "description": "Organize transactions by category",
+      "core_feature": true
+    },
+    {
+      "title": "Monthly Summaries",
+      "description": "View budget summaries by month",
+      "core_feature": true
+    },
+    {
+      "title": "Charts",
+      "description": "Visualize spending trends"
+    },
+    {
+      "title": "Export Data",
+      "description": "Export financial data"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the budget tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sparkybudget/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

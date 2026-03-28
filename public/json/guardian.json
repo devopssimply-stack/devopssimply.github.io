@@ -1,0 +1,98 @@
+{
+  "name": "guardian-plex",
+  "slug": "guardian",
+  "tagline": "A self-hosted dashboard for monitoring Docker containers and system metrics",
+  "subtitle": "",
+  "description": "Guardian is a self-hosted web dashboard for monitoring Docker containers and system metrics. It provides a clean UI for viewing container state, logs, and resource usage in real-time.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": "v1.3.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-20",
+    "date_last_commit": "2026-02-25",
+    "github_stars": 161,
+    "github_contributors": 3,
+    "github_commits_this_year": 11,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/HydroshieldMKII/Guardian",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/guardian.webp",
+    "issues": "https://github.com/HydroshieldMKII/Guardian/issues",
+    "releases": "https://github.com/HydroshieldMKII/Guardian/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/guardian-active-streams.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/guardian-devices.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Security Monitoring Dashboard",
+      "description": "Displays security-related metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Threat Alerts",
+      "description": "Notifies on suspicious events"
+    },
+    {
+      "title": "Log Correlation",
+      "description": "Links related security events"
+    },
+    {
+      "title": "User Activity Views",
+      "description": "Shows patterns of user actions"
+    },
+    {
+      "title": "Custom Rule Alerts",
+      "description": "Triggers alerts on defined rules"
+    },
+    {
+      "title": "Web Interface",
+      "description": "See security data through a browser"
+    },
+    {
+      "title": "Dashboard Customization",
+      "description": "Adjusts displayed metrics and layout"
+    },
+    {
+      "title": "Self-Hosted Security Tool",
+      "description": "Host the dashboard on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/guardian/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "guardian",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=guardian"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

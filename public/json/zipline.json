@@ -1,0 +1,99 @@
+{
+  "name": "zipline",
+  "slug": "zipline",
+  "tagline": "A self-hosted file sharing and paste service with short URLs and drag-and-drop uploads",
+  "subtitle": "",
+  "description": "Zipline is a self-hosted file sharing and paste service with short URLs, drag-and-drop uploads, and image support. It features authentication, statistics, and extensibility through a polished web UI.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.4.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-20",
+    "date_last_commit": "2026-02-06",
+    "github_stars": 2880,
+    "github_contributors": 21,
+    "github_commits_this_year": 42,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://zipline.diced.sh",
+    "documentation": "https://zipline.diced.sh/docs/get-started",
+    "source_code": "https://github.com/diced/zipline",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zipline.webp",
+    "issues": "https://github.com/diced/zipline/issues",
+    "releases": "https://github.com/diced/zipline/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "File Upload Service",
+      "description": "Upload and share files",
+      "core_feature": true
+    },
+    {
+      "title": "Image Hosting",
+      "description": "Host and share images",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Control access to uploaded files",
+      "core_feature": true
+    },
+    {
+      "title": "API Access",
+      "description": "Manage uploads via API"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Upload and manage files in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/zipline/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zipline",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zipline"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "zipline_ynh",
+      "url": "https://github.com/YunoHost-Apps/zipline_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "zipline",
+      "url": "https://apps.truenas.com/catalog/zipline"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

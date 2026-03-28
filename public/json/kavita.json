@@ -1,0 +1,96 @@
+{
+  "name": "kavita",
+  "slug": "kavita",
+  "tagline": "A self-hosted digital library for reading manga, comics, and ebooks",
+  "subtitle": "",
+  "description": "Kavita is a self hosted digital library for manga, comics, light novels and books. It supports reading progress, collections, metadata and multiple users with a rich responsive reader optimized for various devices.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.8.9.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9968,
+    "github_contributors": 97,
+    "github_commits_this_year": 84,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "http://www.kavitareader.com",
+    "documentation": "https://github.com/Kareadita/Kavita",
+    "source_code": "https://github.com/Kareadita/Kavita",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kavita.webp",
+    "issues": "https://github.com/Kareadita/Kavita/issues",
+    "releases": "https://github.com/Kareadita/Kavita/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kavita-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kavita-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Digital Library Server",
+      "description": "Manage and read comics, manga, and ebooks",
+      "core_feature": true
+    },
+    {
+      "title": "Web Reader",
+      "description": "Read content directly in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Library Organization",
+      "description": "Organize content by series and collections",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Support multiple readers with separate progress tracking"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kavita/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "kavita",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=kavita"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "kavita_ynh",
+      "url": "https://github.com/YunoHost-Apps/kavita_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "kavita",
+      "url": "https://apps.truenas.com/catalog/kavita"
+    }
+  },
+  "demo": {
+    "url": "https://demo.kavitareader.com",
+    "username": "demouser",
+    "password": "Demouser64"
+  }
+}

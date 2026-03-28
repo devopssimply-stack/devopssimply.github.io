@@ -1,0 +1,106 @@
+{
+  "name": "memos",
+  "slug": "memos",
+  "tagline": "A lightweight self-hosted note-taking and knowledge sharing platform",
+  "subtitle": "",
+  "description": "Memos is a lightweight self-hosted note-taking and knowledge sharing platform. It enables users to write, save, and search memos with privacy in mind, and features support for markdown and embeds.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.26.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 57523,
+    "github_contributors": 345,
+    "github_commits_this_year": 216,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://usememos.com",
+    "documentation": "https://usememos.com/docs",
+    "source_code": "https://github.com/usememos/memos",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/memos.webp",
+    "issues": "https://github.com/usememos/memos/issues",
+    "releases": "https://github.com/usememos/memos/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/memos-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/memos-demo-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/memos-light-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Taking",
+      "description": "Write and store short-form notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Format notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize notes using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find notes by content or tags"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage notes through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the note app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/memos/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "memos",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=memos"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "memos_ynh",
+      "url": "https://github.com/YunoHost-Apps/memos_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "memos",
+      "url": "https://apps.truenas.com/catalog/memos"
+    }
+  },
+  "demo": {
+    "url": "https://demo.usememos.com",
+    "username": null,
+    "password": null
+  }
+}

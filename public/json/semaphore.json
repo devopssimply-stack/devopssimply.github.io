@@ -1,0 +1,89 @@
+{
+  "name": "semaphore",
+  "slug": "semaphore",
+  "tagline": "A CI/CD and job orchestration platform for build and deploy workflows",
+  "subtitle": "",
+  "description": "Semaphore (by semaphoreio) provides components for CI/CD pipelines and job orchestration. It focuses on integrating code repositories with build and deploy workflows through a modern web and API-driven interface.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-10",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1474,
+    "github_contributors": 29,
+    "github_commits_this_year": 86,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://semaphore.io",
+    "documentation": "https://docs.semaphore.io/CE/getting-started/install",
+    "source_code": "https://github.com/semaphoreio/semaphore",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/semaphore.webp",
+    "issues": "https://github.com/semaphoreio/semaphore/issues",
+    "releases": "https://github.com/semaphoreio/semaphore/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/semaphore-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/semaphore-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/semaphore-anygit6.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/semaphore-create-project-4.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/semaphore-project-activity.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/semaphore-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/semaphore-view-task.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "CI/CD Pipelines",
+      "description": "Run automated build and deployment pipelines",
+      "core_feature": true
+    },
+    {
+      "title": "Pipeline Configuration",
+      "description": "Define pipelines using configuration files",
+      "core_feature": true
+    },
+    {
+      "title": "Job Execution",
+      "description": "Execute jobs on managed workers",
+      "core_feature": true
+    },
+    {
+      "title": "Secrets Management",
+      "description": "Store and manage pipeline secrets"
+    },
+    {
+      "title": "Build History",
+      "description": "View past pipeline runs and results"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the CI/CD system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "semaphore",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=semaphore"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

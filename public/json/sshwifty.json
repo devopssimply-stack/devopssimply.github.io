@@ -1,0 +1,96 @@
+{
+  "name": "sshwifty",
+  "slug": "sshwifty",
+  "tagline": "A browser-based SSH and Telnet client for secure remote terminal access",
+  "subtitle": "",
+  "description": "Sshwifty is a self-hosted SSH and Telnet client running in the browser, allowing secure terminal sessions through a web interface without a traditional client installed.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.4.3-beta-release-prebuild",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-16",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3044,
+    "github_contributors": 5,
+    "github_commits_this_year": 5,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/nirui/sshwifty",
+    "documentation": "https://github.com/nirui/sshwifty",
+    "source_code": "https://github.com/nirui/sshwifty",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sshwifty.webp",
+    "issues": "https://github.com/nirui/sshwifty/issues",
+    "releases": "https://github.com/nirui/sshwifty/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sshwifty-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sshwifty-web-ssh.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web-Based SSH",
+      "description": "Access SSH sessions through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Host Support",
+      "description": "Connect to multiple remote hosts",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication",
+      "description": "Authenticate using SSH credentials",
+      "core_feature": true
+    },
+    {
+      "title": "Session Management",
+      "description": "Manage active SSH sessions"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Use SSH from a web UI"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the SSH gateway on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sshwifty/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "sshwifty_ynh",
+      "url": "https://github.com/YunoHost-Apps/sshwifty_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

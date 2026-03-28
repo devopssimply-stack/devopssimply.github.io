@@ -1,0 +1,84 @@
+{
+  "name": "snac",
+  "slug": "snac",
+  "tagline": "A lightweight ActivityPub-based microblogging server",
+  "subtitle": "",
+  "description": "snac2 is a minimalist self-hosted microblogging server implementing ActivityPub. It provides a lightweight interface for posting and federating with the Fediverse.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://codeberg.org/grunfink/snac2/src/branch/master/README.md",
+    "source_code": "https://codeberg.org/grunfink/snac2",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/snac.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Federated Microblogging",
+      "description": "Run a microblogging server using ActivityPub",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Create and manage local user profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Timelines",
+      "description": "View local and federated timelines",
+      "core_feature": true
+    },
+    {
+      "title": "Media Attachments",
+      "description": "Attach images to posts"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manage users and content"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/snac/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "snac_ynh",
+      "url": "https://github.com/YunoHost-Apps/snac_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "boxarr",
+  "slug": "boxarr",
+  "tagline": "A web interface for managing and organizing Docker Compose applications",
+  "subtitle": "",
+  "description": "Boxarr provides an easy-to-use web UI for managing Docker Compose stacks. It helps users control, monitor, and visualize self-hosted containers and applications through configuration groupings and environment presets.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.6.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 255,
+    "github_contributors": 3,
+    "github_commits_this_year": 29,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://github.com/iongpt/boxarr",
+    "documentation": "https://github.com/iongpt/boxarr/wiki",
+    "source_code": "https://github.com/iongpt/boxarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/boxarr.webp",
+    "issues": "https://github.com/iongpt/boxarr/issues",
+    "releases": "https://github.com/iongpt/boxarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/boxarr-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/boxarr-week-view.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Discovery Aggregation",
+      "description": "Aggregates media discovery across multiple Arr services",
+      "core_feature": true
+    },
+    {
+      "title": "Unified Request Interface",
+      "description": "Provides a single interface to request movies and series",
+      "core_feature": true
+    },
+    {
+      "title": "Arr Stack Integration",
+      "description": "Connects with Radarr, Sonarr, and related services",
+      "core_feature": true
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Filters content by type, status, and availability"
+    },
+    {
+      "title": "User-Friendly Web UI",
+      "description": "Offers a browser-based interface for media requests"
+    },
+    {
+      "title": "Status Tracking",
+      "description": "Displays request and download status"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-managed servers"
+    },
+    {
+      "title": "Media Request Aggregation",
+      "description": "Centralizes media requests across Arr services",
+      "core_feature": true
+    },
+    {
+      "title": "Arr Service Integration",
+      "description": "Integrates with Sonarr and Radarr",
+      "core_feature": true
+    },
+    {
+      "title": "Unified Search",
+      "description": "Searches movies and series in one interface",
+      "core_feature": true
+    },
+    {
+      "title": "Request Status Tracking",
+      "description": "Displays request and fulfillment status"
+    },
+    {
+      "title": "Web-Based UI",
+      "description": "Manages requests through a browser"
+    },
+    {
+      "title": "User Access Control",
+      "description": "Restricts request access by user"
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/boxarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "boxarr",
+      "url": "https://apps.truenas.com/catalog/boxarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

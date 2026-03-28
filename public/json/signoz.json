@@ -1,0 +1,94 @@
+{
+  "name": "signoz",
+  "slug": "signoz",
+  "tagline": "An open-source observability platform for metrics, logs, and traces",
+  "subtitle": "",
+  "description": "SigNoz is an open-source observability platform for metrics, logs, and traces, built as a self-hosted alternative to Datadog and New Relic. It supports OpenTelemetry, dashboards, and alerting.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT Expat",
+    "version": "v0.114.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 25980,
+    "github_contributors": 184,
+    "github_commits_this_year": 350,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 17
+  },
+  "resources": {
+    "website": "https://signoz.io",
+    "documentation": "https://signoz.io/docs/introduction",
+    "source_code": "https://github.com/SigNoz/signoz",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/signoz.webp",
+    "issues": "https://github.com/SigNoz/signoz/issues",
+    "releases": "https://github.com/SigNoz/signoz/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signoz-alerts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signoz-apm.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signoz-distributed-tracing.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signoz-expections-monitoring.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signoz-logs-management.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signoz-metrics-and-dashboards.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Observability Platform",
+      "description": "Monitor metrics, traces, and logs",
+      "core_feature": true
+    },
+    {
+      "title": "Distributed Tracing",
+      "description": "Trace requests across services",
+      "core_feature": true
+    },
+    {
+      "title": "Metrics Dashboard",
+      "description": "Visualize system metrics"
+    },
+    {
+      "title": "Alerting",
+      "description": "Receive alerts on anomalies"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run observability stack locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/signoz/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "signoz",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=signoz"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

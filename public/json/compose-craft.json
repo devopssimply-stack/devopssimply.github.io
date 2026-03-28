@@ -1,0 +1,87 @@
+{
+  "name": "compose-craft",
+  "slug": "compose-craft",
+  "tagline": "A web-based editor for creating and managing Docker Compose files",
+  "subtitle": "",
+  "description": "ComposeCraft is a web-based GUI for generating and managing Docker Compose files. It lets users visually edit services, volumes, and networks and export YAML, ideal for beginners and system administrators.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.1.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-22",
+    "date_last_commit": "2025-12-26",
+    "github_stars": 995,
+    "github_contributors": 5,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://composecraft.com",
+    "documentation": "https://composecraft.com/docs/docs/guide/playground",
+    "source_code": "https://github.com/composecraft/composecraft",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/compose-craft.webp",
+    "issues": "https://github.com/composecraft/composecraft/issues",
+    "releases": "https://github.com/composecraft/composecraft/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/compose-craft-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/compose-craft-add-node.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/compose-craft-clean.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/compose-craft-node-types.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/compose-craft-save.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Docker Compose UI",
+      "description": "Manages docker-compose projects",
+      "core_feature": true
+    },
+    {
+      "title": "Service Control",
+      "description": "Starts and stops services",
+      "core_feature": true
+    },
+    {
+      "title": "Configuration Visualization",
+      "description": "Displays compose configurations"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Controls stacks through a browser"
+    },
+    {
+      "title": "Environment Management",
+      "description": "Handles multiple compose projects"
+    },
+    {
+      "title": "Self-Hosted Tool",
+      "description": "Runs alongside Docker"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/compose-craft/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://composecraft.com/tryIt/playground",
+    "username": null,
+    "password": null
+  }
+}

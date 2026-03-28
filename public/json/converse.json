@@ -1,0 +1,98 @@
+{
+  "name": "converse",
+  "slug": "converse",
+  "tagline": "A browser-based XMPP chat client for real-time messaging",
+  "subtitle": "",
+  "description": "Converse.js is an open-source XMPP chat client that runs in the browser. It can connect to any XMPP server and supports multi-user chat, encryption, OMEMO, plugins, and mobile-friendly UI. It is fully open and self-hostable.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MPL-2.0",
+    "version": "v12.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-28",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3226,
+    "github_contributors": 297,
+    "github_commits_this_year": 58,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://conversejs.org",
+    "documentation": "https://conversejs.org/docs/html/index.html",
+    "source_code": "https://github.com/conversejs/converse.js",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/converse.webp",
+    "issues": "https://github.com/conversejs/converse.js/issues",
+    "releases": "https://github.com/conversejs/converse.js/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/converse-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/converse-desktop.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/converse-embeded.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/converse-hero.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web XMPP Client",
+      "description": "Provides browser-based XMPP chat",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Messaging",
+      "description": "Sends and receives instant messages",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Chat",
+      "description": "Supports group chat rooms",
+      "core_feature": true
+    },
+    {
+      "title": "XMPP Server Integration",
+      "description": "Connects to existing XMPP servers"
+    },
+    {
+      "title": "Plugin Architecture",
+      "description": "Extends features via plugins"
+    },
+    {
+      "title": "Theming Support",
+      "description": "Customizes chat appearance"
+    },
+    {
+      "title": "Embeddable Widget",
+      "description": "Embeds chat into websites"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/converse/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "converse_ynh",
+      "url": "https://github.com/YunoHost-Apps/converse_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://conversejs.org/fullscreen.html",
+    "username": null,
+    "password": null
+  }
+}

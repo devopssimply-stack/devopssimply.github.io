@@ -1,0 +1,84 @@
+{
+  "name": "flashpaper",
+  "slug": "flashpaper",
+  "tagline": "A self-destructing service for sharing encrypted messages securely",
+  "subtitle": "",
+  "description": "FlashPaper is a secure self-destructing messaging service built for privacy. It lets users share encrypted notes that expire after reading, with no account required. Ideal for sensitive short-lived communication.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-06-01",
+    "date_last_commit": "2025-02-15",
+    "github_stars": 491,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/AndrewPaglusch/FlashPaper",
+    "documentation": "https://github.com/AndrewPaglusch/FlashPaper",
+    "source_code": "https://github.com/AndrewPaglusch/FlashPaper",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/flashpaper.webp",
+    "issues": "https://github.com/AndrewPaglusch/FlashPaper/issues",
+    "releases": "https://github.com/AndrewPaglusch/FlashPaper/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/flashpaper-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Temporary Note Sharing",
+      "description": "Share short text notes through time-limited links",
+      "core_feature": true
+    },
+    {
+      "title": "Automatic Expiration",
+      "description": "Remove shared notes after a configured lifetime",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based Editor",
+      "description": "Write and publish notes using a browser interface",
+      "core_feature": true
+    },
+    {
+      "title": "Read-Once Access",
+      "description": "Limit notes to a single view before deletion"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Use a simple interface focused on text sharing"
+    },
+    {
+      "title": "No Account Requirement",
+      "description": "Share notes without creating user accounts"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/flashpaper/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

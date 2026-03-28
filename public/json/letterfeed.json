@@ -1,0 +1,85 @@
+{
+  "name": "letterfeed",
+  "slug": "letterfeed",
+  "tagline": "A simple self-hosted platform for publishing and managing newsletters",
+  "subtitle": "",
+  "description": "LetterFeed is a simple self-hosted platform for publishing newsletters. It offers a minimal editor and public feed, allowing individuals or teams to manage newsletters without relying on third-party services.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-06",
+    "date_last_commit": "2025-10-21",
+    "github_stars": 178,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/LeonMusCoden/LetterFeed",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/letterfeed.webp",
+    "issues": "https://github.com/LeonMusCoden/LetterFeed/issues",
+    "releases": "https://github.com/LeonMusCoden/LetterFeed/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/letterfeed-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/letterfeed-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Newsletter Aggregation",
+      "description": "Collect newsletters into a single feed",
+      "core_feature": true
+    },
+    {
+      "title": "Email Intake",
+      "description": "Receive newsletters through dedicated email addresses",
+      "core_feature": true
+    },
+    {
+      "title": "RSS Feed Output",
+      "description": "Expose newsletters as RSS feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Organization",
+      "description": "Group newsletters by source"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse newsletters through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/letterfeed/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

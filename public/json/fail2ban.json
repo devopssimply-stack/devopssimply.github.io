@@ -1,0 +1,94 @@
+{
+  "name": "fail2ban",
+  "slug": "fail2ban",
+  "tagline": "A security service that blocks malicious login attempts using log analysis",
+  "subtitle": "",
+  "description": "Fail2Ban scans log files to detect malicious login attempts and automatically updates firewall rules to block offending IPs. It is widely used to protect SSH and other services on Linux servers with minimal configuration.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU-GPL",
+    "version": "1.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-04-25",
+    "date_last_commit": "2026-02-12",
+    "github_stars": 17123,
+    "github_contributors": 242,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://www.fail2ban.org",
+    "documentation": "https://fail2ban.readthedocs.io/en/latest",
+    "source_code": "https://github.com/fail2ban/fail2ban",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/fail2ban.webp",
+    "issues": "https://github.com/fail2ban/fail2ban/issues",
+    "releases": "https://github.com/fail2ban/fail2ban/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fail2ban-report-main-list.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Log-Based Intrusion Detection",
+      "description": "Monitors log files to detect repeated authentication failures",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Banning",
+      "description": "Temporarily blocks IP addresses that trigger defined rules",
+      "core_feature": true
+    },
+    {
+      "title": "Service Profiles",
+      "description": "Includes predefined rules for common services like SSH and web servers",
+      "core_feature": true
+    },
+    {
+      "title": "Custom Filters",
+      "description": "Allows defining custom patterns to match log events"
+    },
+    {
+      "title": "Multiple Ban Actions",
+      "description": "Supports firewall rules email notifications and custom actions"
+    },
+    {
+      "title": "Whitelisting",
+      "description": "Excludes trusted IP addresses from bans"
+    },
+    {
+      "title": "Runtime Control",
+      "description": "Manages jails and bans without restarting services"
+    },
+    {
+      "title": "Self-Hosted Security Service",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/fail2ban/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

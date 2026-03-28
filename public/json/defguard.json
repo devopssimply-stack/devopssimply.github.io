@@ -1,0 +1,96 @@
+{
+  "name": "defguard",
+  "slug": "defguard",
+  "tagline": "An access management platform for administering WireGuard VPN networks",
+  "subtitle": "",
+  "description": "DefGuard is a modern identity and access management tool for managing WireGuard VPN networks through an intuitive web UI. It includes user management, SSO integrations, and easy provisioning for secure remote access.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Open Source and Enterprise License",
+    "version": "v1.6.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2628,
+    "github_contributors": 16,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://defguard.net",
+    "documentation": "https://docs.defguard.net",
+    "source_code": "https://github.com/DefGuard/defguard",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/defguard.webp",
+    "issues": "https://github.com/DefGuard/defguard/issues",
+    "releases": "https://github.com/DefGuard/defguard/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/defguard-main-screen.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/defguard-network.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Identity and Access Platform",
+      "description": "Manages identities and secure access",
+      "core_feature": true
+    },
+    {
+      "title": "WireGuard Management",
+      "description": "Controls WireGuard VPN access",
+      "core_feature": true
+    },
+    {
+      "title": "Single Sign-On",
+      "description": "Provides centralized authentication",
+      "core_feature": true
+    },
+    {
+      "title": "Device Management",
+      "description": "Registers and manages client devices"
+    },
+    {
+      "title": "Access Policies",
+      "description": "Defines fine-grained access rules"
+    },
+    {
+      "title": "Audit Logging",
+      "description": "Records access and configuration events"
+    },
+    {
+      "title": "Web Administration",
+      "description": "Manages configuration through a browser"
+    },
+    {
+      "title": "Self-Hosted Security",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/defguard/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "grimoire",
+  "slug": "grimoire",
+  "tagline": "A self-hosted journaling and wiki application with a storytelling focus",
+  "subtitle": "",
+  "description": "Grimoire is a self-hosted note-taking and wiki platform for medieval or fantasy-style digital journaling. It supports markdown, tagging, linking, and timelines through a storytelling-oriented interface.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-21",
+    "date_last_commit": "2025-06-25",
+    "github_stars": 2748,
+    "github_contributors": 11,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://grimoire.pro",
+    "documentation": "https://github.com/goniszewski/grimoire",
+    "source_code": "https://github.com/goniszewski/grimoire",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/grimoire.webp",
+    "issues": "https://github.com/goniszewski/grimoire/issues",
+    "releases": "https://github.com/goniszewski/grimoire/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-adding-new-bookmark-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-bookmark-details-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-category-view-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-fuzzy-search-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-list-view-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-only-unread-white.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-user-profile-view-white.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grimoire-user-settings-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Knowledge Base",
+      "description": "Store and organize documentation in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Content",
+      "description": "Write documentation using Markdown format",
+      "core_feature": true
+    },
+    {
+      "title": "Page Organization",
+      "description": "Structure content into pages and sections",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find content using text search"
+    },
+    {
+      "title": "Version Control Integration",
+      "description": "Store documentation in a version-controlled repository"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the knowledge base on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/grimoire/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "grimoire_ynh",
+      "url": "https://github.com/YunoHost-Apps/grimoire_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "dashwise",
+  "slug": "dashwise",
+  "tagline": "A self-hosted drag-and-drop dashboard for building personal control centers",
+  "subtitle": "",
+  "description": "Dashwise Next is a drag-and-drop personal dashboard for displaying stats, widgets, weather, or custom data in a responsive layout. Designed for self-hosting, it helps users build their own control center or homepage.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 350,
+    "github_contributors": 3,
+    "github_commits_this_year": 120,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/andreasmolnardev/dashwise-next",
+    "documentation": "https://github.com/andreasmolnardev/dashwise-next",
+    "source_code": "https://github.com/andreasmolnardev/dashwise-next",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dashwise.webp",
+    "issues": "https://github.com/andreasmolnardev/dashwise-next/issues",
+    "releases": "https://github.com/andreasmolnardev/dashwise-next/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dashwise-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Service Dashboard",
+      "description": "Centralizes access to self-hosted services",
+      "core_feature": true
+    },
+    {
+      "title": "Card-Based Interface",
+      "description": "Displays services as visual cards",
+      "core_feature": true
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Finds services quickly within the dashboard"
+    },
+    {
+      "title": "Custom Icons",
+      "description": "Assigns icons to services"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Manages services through config definitions"
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Adapts layout for different devices"
+    },
+    {
+      "title": "Fast Client-Side Rendering",
+      "description": "Loads quickly in the browser"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Runs on user-controlled servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dashwise/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

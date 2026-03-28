@@ -1,0 +1,91 @@
+{
+  "name": "sheetable",
+  "slug": "sheetable",
+  "tagline": "A self-hosted sheet music organizer for musicians and bands",
+  "subtitle": "",
+  "description": "SheetAble is a self-hosted music sheet organizer for musicians. It manages PDF sheet music, supports tagging, search, and setlists, and offers a responsive web UI suitable for tablets on music stands.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.8.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2023-01-14",
+    "date_last_commit": "2025-02-08",
+    "github_stars": 412,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://sheetable.net",
+    "documentation": "https://sheetable.net/docs",
+    "source_code": "https://github.com/SheetAble/SheetAble",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sheetable.webp",
+    "issues": "https://github.com/SheetAble/SheetAble/issues",
+    "releases": "https://github.com/SheetAble/SheetAble/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sheetable-product-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Spreadsheet Management",
+      "description": "Create and edit spreadsheets in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Formula Support",
+      "description": "Use formulas for calculations",
+      "core_feature": true
+    },
+    {
+      "title": "Data Import",
+      "description": "Import data from CSV files",
+      "core_feature": true
+    },
+    {
+      "title": "Collaboration",
+      "description": "Edit spreadsheets with multiple users"
+    },
+    {
+      "title": "Export Options",
+      "description": "Export data to common formats"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the spreadsheet tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sheetable/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "sheetable_ynh",
+      "url": "https://github.com/YunoHost-Apps/sheetable_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

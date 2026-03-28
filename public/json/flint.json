@@ -1,0 +1,80 @@
+{
+  "name": "flint",
+  "slug": "flint",
+  "tagline": "A self-hosted log viewer for searching and filtering distributed logs",
+  "subtitle": "",
+  "description": "Flint is a lightweight self-hosted leveled log viewer designed for distributed systems. It helps developers visualize and search logs across environments with a web UI for filtering and navigation.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.28.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-07",
+    "date_last_commit": "2025-11-06",
+    "github_stars": 1619,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/volantvm/flint",
+    "documentation": "https://github.com/volantvm/flint",
+    "source_code": "https://github.com/volantvm/flint",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/flint.webp",
+    "issues": "https://github.com/volantvm/flint/issues",
+    "releases": "https://github.com/volantvm/flint/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/flint-images.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/flint-vm.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Feature Flag Management",
+      "description": "Enable and disable application features at runtime",
+      "core_feature": true
+    },
+    {
+      "title": "Flag Configuration",
+      "description": "Define feature flags and default states",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Support",
+      "description": "Manage feature behavior across multiple environments",
+      "core_feature": true
+    },
+    {
+      "title": "API Access",
+      "description": "Query feature flag states from applications"
+    },
+    {
+      "title": "Audit Information",
+      "description": "Track changes made to feature flag configurations"
+    },
+    {
+      "title": "Configuration Storage",
+      "description": "Persist feature definitions and states"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

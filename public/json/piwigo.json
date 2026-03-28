@@ -1,0 +1,97 @@
+{
+  "name": "piwigo",
+  "slug": "piwigo",
+  "tagline": "A self-hosted photo gallery for organizing and sharing image collections",
+  "subtitle": "",
+  "description": "Piwigo is a self-hosted photo gallery and management platform. It includes tagging, albums, metadata, and plugins for organizing and sharing large image collections.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "16.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 3742,
+    "github_contributors": 70,
+    "github_commits_this_year": 25,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://piwigo.org",
+    "documentation": "https://piwigo.org/demo",
+    "source_code": "https://github.com/Piwigo/Piwigo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/piwigo.webp",
+    "issues": "https://github.com/Piwigo/Piwigo/issues",
+    "releases": "https://github.com/Piwigo/Piwigo/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/piwigo-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/piwigo-product-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Photo Gallery",
+      "description": "Manage and display photo collections",
+      "core_feature": true
+    },
+    {
+      "title": "Album Organization",
+      "description": "Organize photos into albums",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage access with user accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extend functionality using plugins"
+    },
+    {
+      "title": "Theme Support",
+      "description": "Customize gallery appearance"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the photo gallery on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/piwigo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "piwigo_ynh",
+      "url": "https://github.com/YunoHost-Apps/piwigo_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "piwigo",
+      "url": "https://apps.truenas.com/catalog/piwigo"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

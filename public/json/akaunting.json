@@ -1,0 +1,105 @@
+{
+  "name": "akaunting",
+  "slug": "akaunting",
+  "tagline": "An accounting system for managing invoices, expenses, and reports",
+  "subtitle": "",
+  "description": "Akaunting is a free, open-source accounting software built for small businesses. It includes invoicing, expense tracking, reporting, and multi-currency support, and can be fully self-hosted for complete data control across platforms.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSL",
+    "version": "3.1.21",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-13",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 9629,
+    "github_contributors": 103,
+    "github_commits_this_year": 22,
+    "github_issues_open": 5,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://akaunting.com",
+    "documentation": "https://github.com/akaunting/akaunting",
+    "source_code": "https://github.com/akaunting/akaunting",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/akaunting.webp",
+    "issues": "https://github.com/akaunting/akaunting/issues",
+    "releases": "https://github.com/akaunting/akaunting/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/akaunting-client-portal.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/akaunting-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/akaunting-invoice.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Business Accounting",
+      "description": "Manages income, expenses, invoices, and financial reports",
+      "core_feature": true
+    },
+    {
+      "title": "Invoicing and Billing",
+      "description": "Creates and tracks customer invoices and payments",
+      "core_feature": true
+    },
+    {
+      "title": "Expense Tracking",
+      "description": "Records and categorizes business expenses",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Currency Support",
+      "description": "Handles transactions in multiple currencies"
+    },
+    {
+      "title": "User Roles",
+      "description": "Controls access through role-based permissions"
+    }
+  ],
+  "hosting": [
+    "self_hosted",
+    "managed_cloud",
+    "saas"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui",
+    "cli",
+    "api"
+  ],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/akaunting/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/akaunting/script.sh"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "akaunting_ynh",
+      "url": "https://github.com/YunoHost-Apps/akaunting_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

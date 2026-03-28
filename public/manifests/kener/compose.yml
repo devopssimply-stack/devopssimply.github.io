@@ -1,0 +1,24 @@
+# ===============================
+# Docker Compose (Kener)
+# ===============================
+# host: http://localhost:3000
+# username:
+# password:
+
+services:
+  kener:
+    image: rajnandan1/kener:latest
+    container_name: kener
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - kener_data:/app/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:3000 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  kener_data:

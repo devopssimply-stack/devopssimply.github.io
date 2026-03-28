@@ -1,0 +1,99 @@
+{
+  "name": "its-mytabs",
+  "slug": "it-s-mytabs",
+  "tagline": "A self-hosted start page for organizing browser tabs and links",
+  "subtitle": "",
+  "description": "its-mytabs is a self hosted start page that groups browser tabs and links into organized collections. It is designed as a simple, personal homepage to quickly access frequently used sites and web apps in a tidy layout.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.6.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 392,
+    "github_contributors": 6,
+    "github_commits_this_year": 66,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://github.com/louislam/its-mytabs",
+    "documentation": "https://github.com/louislam/its-mytabs",
+    "source_code": "https://github.com/louislam/its-mytabs",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/it-s-mytabs.webp",
+    "issues": "https://github.com/louislam/its-mytabs/issues",
+    "releases": "https://github.com/louislam/its-mytabs/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/it-s-mytabs-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Tab Session Management",
+      "description": "Saves and restores browser tab sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Session Grouping",
+      "description": "Organizes tabs into named sessions"
+    },
+    {
+      "title": "Cross-Device Sync",
+      "description": "Synchronizes tab sessions across devices"
+    },
+    {
+      "title": "Search Capability",
+      "description": "Searches saved tabs by title or URL"
+    },
+    {
+      "title": "Import and Export",
+      "description": "Imports and exports tab session data"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages tabs through a browser interface"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates tab data per user"
+    },
+    {
+      "title": "Self-Hosted Tab Manager",
+      "description": "Runs the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/it-s-mytabs/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "its-mytabs_ynh",
+      "url": "https://github.com/YunoHost-Apps/its-mytabs_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://its-mytabs.kuma.pet/tab/1?audio=youtube-VuKSlOT__9s&track=2",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,86 @@
+# ===============================
+# Docker Compose (GitLab - sameersbn)
+# ===============================
+# host: http://localhost:10080
+# username: root
+# password: set via GITLAB_ROOT_PASSWORD
+
+services:
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--loglevel", "warning"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  postgresql:
+    image: postgres:14
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: gitlab
+      POSTGRES_PASSWORD: strong_db_password
+      POSTGRES_DB: gitlabhq_production
+    volumes:
+      - postgresql-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gitlab"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  gitlab:
+    image: sameersbn/gitlab:17.4.1
+    restart: unless-stopped
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgresql:
+        condition: service_healthy
+    ports:
+      - "10080:80"
+      - "10022:22"
+    volumes:
+      - gitlab-data:/home/git/data
+    environment:
+      TZ: Asia/Kolkata
+      GITLAB_TIMEZONE: Kolkata
+
+      DB_ADAPTER: postgresql
+      DB_HOST: postgresql
+      DB_PORT: "5432"
+      DB_USER: gitlab
+      DB_PASS: strong_db_password
+      DB_NAME: gitlabhq_production
+
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+
+      GITLAB_HOST: localhost
+      GITLAB_PORT: "10080"
+      GITLAB_SSH_PORT: "10022"
+
+      GITLAB_HTTPS: "false"
+
+      GITLAB_ROOT_EMAIL: "[email protected]"
+      GITLAB_ROOT_PASSWORD: strong_root_password
+
+      GITLAB_SECRETS_DB_KEY_BASE: replace_with_long_random_string
+      GITLAB_SECRETS_SECRET_KEY_BASE: replace_with_long_random_string
+      GITLAB_SECRETS_OTP_KEY_BASE: replace_with_long_random_string
+
+    healthcheck:
+      test: ["CMD", "/usr/local/sbin/healthcheck"]
+      interval: 5m
+      timeout: 10s
+      retries: 3
+      start_period: 5m
+
+volumes:
+  redis-data:
+  postgresql-data:
+  gitlab-data:

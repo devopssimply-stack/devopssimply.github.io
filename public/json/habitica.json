@@ -1,0 +1,97 @@
+{
+  "name": "habitica",
+  "slug": "habitica",
+  "tagline": "A gamified task manager that turns habits and goals into role playing challenges",
+  "subtitle": "",
+  "description": "Habitica is a gamified task manager based on role-playing game mechanics. Users complete real-life tasks to level up, earn rewards, and battle monsters. It supports both self-hosted setup and hosted service tiers.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL 3.0",
+    "version": "v5.46.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 13718,
+    "github_contributors": 348,
+    "github_commits_this_year": 62,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://habitica.com",
+    "documentation": "https://github.com/HabitRPG/habitica",
+    "source_code": "https://github.com/HabitRPG/habitica",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/habitica.webp",
+    "issues": "https://github.com/HabitRPG/habitica/issues",
+    "releases": "https://github.com/HabitRPG/habitica/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitica-add-tasks.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitica-challenges.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitica-level-up.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitica-market-shops.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitica-tasks-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitica-tasks.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitica-tavern.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Habit Tracking",
+      "description": "Records daily habits and recurring behaviors and tracks whether they are completed or missed",
+      "core_feature": true
+    },
+    {
+      "title": "Task and Todo Management",
+      "description": "Manages one-time tasks daily tasks and long-term goals in a single system",
+      "core_feature": true
+    },
+    {
+      "title": "Progress Visualization",
+      "description": "Reflects task completion and habit consistency through visible progress indicators"
+    },
+    {
+      "title": "Gamified Feedback",
+      "description": "Represents productivity progress using game-style mechanics tied to task outcomes"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Stores task data and progress separately for each user"
+    },
+    {
+      "title": "Social Groups",
+      "description": "Allows users to participate in shared groups and challenges"
+    },
+    {
+      "title": "API Access",
+      "description": "Enables integration with external applications and automation tools"
+    },
+    {
+      "title": "Self-Hosted Server",
+      "description": "Run the Habitica server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/habitica/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

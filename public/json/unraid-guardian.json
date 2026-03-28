@@ -1,0 +1,85 @@
+{
+  "name": "unraid-guardian",
+  "slug": "unraid-guardian",
+  "tagline": "A utility for monitoring and backing up Unraid configuration files",
+  "subtitle": "",
+  "description": "Unraid Config Guardian is a self-hosted utility that monitors and backs up Unraid configuration files, helping detect changes and protect server settings from accidental loss.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.6.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-23",
+    "date_last_commit": "2025-12-23",
+    "github_stars": 156,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/stephondoestech/unraid-config-guardian",
+    "documentation": "https://github.com/stephondoestech/unraid-config-guardian",
+    "source_code": "https://github.com/stephondoestech/unraid-config-guardian",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/unraid-guardian.webp",
+    "issues": "https://github.com/stephondoestech/unraid-config-guardian/issues",
+    "releases": "https://github.com/stephondoestech/unraid-config-guardian/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/unraid-guardian-demo-containers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/unraid-guardian-demo-home.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Configuration Monitoring",
+      "description": "Monitor Unraid configuration changes",
+      "core_feature": true
+    },
+    {
+      "title": "Backup Creation",
+      "description": "Create backups of configuration files",
+      "core_feature": true
+    },
+    {
+      "title": "Change Detection",
+      "description": "Detect unexpected configuration changes",
+      "core_feature": true
+    },
+    {
+      "title": "Restore Support",
+      "description": "Restore configurations from backups"
+    },
+    {
+      "title": "Notifications",
+      "description": "Notify on configuration changes"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/unraid-guardian/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

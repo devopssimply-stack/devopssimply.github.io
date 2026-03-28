@@ -1,0 +1,81 @@
+{
+  "name": "semaphore-ui",
+  "slug": "semaphore-ui",
+  "tagline": "A self-hosted web UI for running Ansible playbooks and automation tasks",
+  "subtitle": "",
+  "description": "Semaphore is a self-hosted web UI for running Ansible playbooks and managing inventories, keys, and environments. It centralizes automation tasks in a modern dashboard with role-based access for teams.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.17.16",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 13287,
+    "github_contributors": 160,
+    "github_commits_this_year": 160,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 15
+  },
+  "resources": {
+    "website": "https://semaphoreui.com",
+    "documentation": "https://github.com/semaphoreui/semaphore",
+    "source_code": "https://github.com/semaphoreui/semaphore",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/semaphore-ui.webp",
+    "issues": "https://github.com/semaphoreui/semaphore/issues",
+    "releases": "https://github.com/semaphoreui/semaphore/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Ansible Automation UI",
+      "description": "Run Ansible playbooks through a web UI",
+      "core_feature": true
+    },
+    {
+      "title": "Inventory Management",
+      "description": "Manage hosts and groups",
+      "core_feature": true
+    },
+    {
+      "title": "Task Scheduling",
+      "description": "Schedule automation jobs"
+    },
+    {
+      "title": "Access Control",
+      "description": "Manage user permissions"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/semaphore-ui/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

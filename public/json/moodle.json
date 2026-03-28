@@ -1,0 +1,93 @@
+{
+  "name": "moodle",
+  "slug": "moodle",
+  "tagline": "An open source learning management system for online courses and education",
+  "subtitle": "",
+  "description": "Moodle is a widely-used open-source learning management system (LMS) used by universities and organizations to build online courses. It supports modules, grading, assignments, and customizable themes.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 6884,
+    "github_contributors": 216,
+    "github_commits_this_year": 636,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://moodle.org",
+    "documentation": "https://docs.moodle.org",
+    "source_code": "https://github.com/moodle/moodle",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/moodle.webp",
+    "issues": "https://github.com/moodle/moodle/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/moodle-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/moodle-course-category-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/moodle-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Learning Management System",
+      "description": "Deliver and manage online courses",
+      "core_feature": true
+    },
+    {
+      "title": "Course Management",
+      "description": "Create and organize courses",
+      "core_feature": true
+    },
+    {
+      "title": "User Roles",
+      "description": "Manage students, teachers, and administrators",
+      "core_feature": true
+    },
+    {
+      "title": "Assignments and Quizzes",
+      "description": "Create and grade assessments"
+    },
+    {
+      "title": "Reporting",
+      "description": "Track learner progress"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/moodle/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "moodle_ynh",
+      "url": "https://github.com/YunoHost-Apps/moodle_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://sandbox.moodledemo.net/login/index.php",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "shotshare",
+  "slug": "shotshare",
+  "tagline": "A self-hosted screenshot and image sharing service with shareable links",
+  "subtitle": "",
+  "description": "Shotshare is a self-hosted screenshot and image sharing service. It lets users quickly upload captures, get shareable links, and manage their image history in a clean web UI.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.11.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-07-26",
+    "date_last_commit": "2024-08-30",
+    "github_stars": 177,
+    "github_contributors": 3,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/mdshack/shotshare",
+    "documentation": "https://shotshare.dev/guides/quick-setup",
+    "source_code": "https://github.com/mdshack/shotshare",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/shotshare.webp",
+    "issues": "https://github.com/mdshack/shotshare/issues",
+    "releases": "https://github.com/mdshack/shotshare/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Screenshot Sharing",
+      "description": "Share screenshots using generated links",
+      "core_feature": true
+    },
+    {
+      "title": "Upload Interface",
+      "description": "Upload screenshots through a web UI",
+      "core_feature": true
+    },
+    {
+      "title": "Image Preview",
+      "description": "Preview shared screenshots in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Options",
+      "description": "Automatically delete screenshots after expiration"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Use a simple interface for sharing"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the screenshot service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

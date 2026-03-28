@@ -1,0 +1,96 @@
+{
+  "name": "open-archiver",
+  "slug": "open-archiver",
+  "tagline": "A self-hosted archiving platform with searchable metadata and workflows",
+  "subtitle": "",
+  "description": "OpenArchiver is a self-hosted archiving tool that ingests, stores, and indexes files and structured data. It includes a searchable metadata index and supports workflows for archiving across teams.",
+  "categories": [
+    12
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1778,
+    "github_contributors": 6,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://openarchiver.com",
+    "documentation": "https://docs.openarchiver.com",
+    "source_code": "https://github.com/LogicLabs-OU/OpenArchiver",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/open-archiver.webp",
+    "issues": "https://github.com/LogicLabs-OU/OpenArchiver/issues",
+    "releases": "https://github.com/LogicLabs-OU/OpenArchiver/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/open-archiver-archived-emails.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/open-archiver-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/open-archiver-search.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Email Archiving",
+      "description": "Archive email messages for long-term storage",
+      "core_feature": true
+    },
+    {
+      "title": "Searchable Archive",
+      "description": "Search archived emails by content or metadata"
+    },
+    {
+      "title": "Mailbox Integration",
+      "description": "Connect to mailboxes for automated archiving"
+    },
+    {
+      "title": "Storage Management",
+      "description": "Organize archived data and retention policies"
+    },
+    {
+      "title": "Web Access",
+      "description": "View and retrieve archived emails through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the archiving service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/open-archiver/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "open-archiver",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=open-archiver"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "openarchiver",
+      "url": "https://apps.truenas.com/catalog/openarchiver"
+    }
+  },
+  "demo": {
+    "url": "https://demo.openarchiver.com/signin",
+    "username": "demo@openarchiver.com",
+    "password": "openarchiver_demo"
+  }
+}

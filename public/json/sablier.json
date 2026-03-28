@@ -1,0 +1,82 @@
+{
+  "name": "sablier",
+  "slug": "sablier",
+  "tagline": "A self-hosted platform for managing time-based DAO governance and payment streams",
+  "subtitle": "",
+  "description": "Sablier is a self-hosted tool for managing time-based governance tasks for DAOs. It automates schedules, streams, and proposal processes through an intuitive web UI.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.11.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-17",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2569,
+    "github_contributors": 25,
+    "github_commits_this_year": 37,
+    "github_issues_open": 62,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://sablierapp.dev",
+    "documentation": "https://sablierapp.dev/#",
+    "source_code": "https://github.com/sablierapp/sablier",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sablier.webp",
+    "issues": "https://github.com/sablierapp/sablier/issues",
+    "releases": "https://github.com/sablierapp/sablier/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sablier-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "On-Demand App Access",
+      "description": "Start applications automatically when accessed",
+      "core_feature": true
+    },
+    {
+      "title": "Idle Shutdown",
+      "description": "Stop applications after inactivity",
+      "core_feature": true
+    },
+    {
+      "title": "Reverse Proxy Integration",
+      "description": "Work with supported reverse proxies",
+      "core_feature": true
+    },
+    {
+      "title": "Access Triggers",
+      "description": "Wake services based on HTTP requests"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sablier/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

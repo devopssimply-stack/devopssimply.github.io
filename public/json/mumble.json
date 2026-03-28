@@ -1,0 +1,92 @@
+{
+  "name": "mumble",
+  "slug": "mumble",
+  "tagline": "A low-latency voice chat system for private audio communication",
+  "subtitle": "",
+  "description": "Mumble is a low-latency voice chat system designed for gaming or corporate environments. It features positional audio, encryption, and runs as both client and server for private voice channels.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD 3-Clause",
+    "version": "v1.5.857",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-21",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 7811,
+    "github_contributors": 312,
+    "github_commits_this_year": 79,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://www.mumble.info",
+    "documentation": "https://www.mumble.info/documentation",
+    "source_code": "https://github.com/mumble-voip/mumble",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mumble.webp",
+    "issues": "https://github.com/mumble-voip/mumble/issues",
+    "releases": "https://github.com/mumble-voip/mumble/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mumble-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mumble-screenshot-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Voice Chat Server",
+      "description": "Provide low-latency voice communication",
+      "core_feature": true
+    },
+    {
+      "title": "Channels",
+      "description": "Organize users into voice channels",
+      "core_feature": true
+    },
+    {
+      "title": "User Authentication",
+      "description": "Manage registered users"
+    },
+    {
+      "title": "Encryption",
+      "description": "Encrypt voice traffic",
+      "core_feature": true
+    },
+    {
+      "title": "Cross-Platform Clients",
+      "description": "Connect from supported operating systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mumble/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "mumble",
+      "url": "https://apps.truenas.com/catalog/mumble"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

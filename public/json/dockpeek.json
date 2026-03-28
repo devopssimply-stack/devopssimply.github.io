@@ -1,0 +1,96 @@
+{
+  "name": "dockpeek",
+  "slug": "dockpeek",
+  "tagline": "A command-line utility for inspecting Docker container metadata",
+  "subtitle": "",
+  "description": "Dockpeek is a simple command-line utility to inspect Docker container states and metadata without full Docker access. It helps users view container status, layers, and configurations quickly and securely.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.7.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-05",
+    "date_last_commit": "2025-11-05",
+    "github_stars": 1707,
+    "github_contributors": 5,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/dockpeek/dockpeek",
+    "documentation": "https://github.com/dockpeek/dockpeek",
+    "source_code": "https://github.com/dockpeek/dockpeek",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dockpeek.webp",
+    "issues": "https://github.com/dockpeek/dockpeek/issues",
+    "releases": "https://github.com/dockpeek/dockpeek/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockpeek-dashboard-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockpeek-dashboard-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockpeek-logs.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Docker Overview Dashboard",
+      "description": "Provides a summary view of Docker resources",
+      "core_feature": true
+    },
+    {
+      "title": "Container and Image Listing",
+      "description": "Lists containers images and volumes",
+      "core_feature": true
+    },
+    {
+      "title": "Status Indicators",
+      "description": "Shows running and stopped states"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Displays data through a browser"
+    },
+    {
+      "title": "Lightweight Design",
+      "description": "Focuses on fast load times"
+    },
+    {
+      "title": "Read-Only Access",
+      "description": "Avoids modifying Docker state"
+    },
+    {
+      "title": "Container Deployment",
+      "description": "Runs as a Docker container"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dockpeek/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "dockpeek",
+      "url": "https://apps.truenas.com/catalog/dockpeek"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

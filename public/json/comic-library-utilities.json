@@ -1,0 +1,81 @@
+{
+  "name": "comic-library-utilities",
+  "slug": "comic-library-utilities",
+  "tagline": "A collection of tools for organizing and processing comic book files",
+  "subtitle": "",
+  "description": "Comic Utils is a collection of tools for processing and organizing comic book files. It includes renaming, sorting, and conversion utilities for personal collections and supports multiple file formats.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v4.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 201,
+    "github_contributors": 6,
+    "github_commits_this_year": 211,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 15
+  },
+  "resources": {
+    "website": "https://github.com/allaboutduncan/comic-utils",
+    "documentation": "https://clucomics.org/getting-started/quickstart",
+    "source_code": "https://github.com/allaboutduncan/comic-utils",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/comic-library-utilities.webp",
+    "issues": "https://github.com/allaboutduncan/comic-utils/issues",
+    "releases": "https://github.com/allaboutduncan/comic-utils/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Comic File Utilities",
+      "description": "Processes and manages comic book files",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Handling",
+      "description": "Reads and writes comic metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Format Conversion",
+      "description": "Converts between comic file formats"
+    },
+    {
+      "title": "CLI Tools",
+      "description": "Operates through command-line utilities"
+    },
+    {
+      "title": "Batch Processing",
+      "description": "Handles multiple files at once"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Runs on local systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/comic-library-utilities/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

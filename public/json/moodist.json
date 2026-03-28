@@ -1,0 +1,66 @@
+{
+  "name": "moodist",
+  "slug": "moodist",
+  "tagline": "A self-hosted mood tracking and journaling application",
+  "subtitle": "",
+  "description": "Moodist is a self-hosted mood tracking app that allows users to record and visualize their emotional patterns over time. It includes insights and journaling features through a clean web interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-11-25",
+    "github_stars": 3326,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/remvze/moodist",
+    "documentation": "https://github.com/remvze/moodist",
+    "source_code": "https://github.com/remvze/moodist",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/moodist.webp",
+    "issues": "https://github.com/remvze/moodist/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/moodist-app-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Ambient Sound Player",
+      "description": "Play ambient sounds for focus or relaxation",
+      "core_feature": true
+    },
+    {
+      "title": "Sound Mixing",
+      "description": "Combine multiple ambient sounds"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Provide a distraction-free UI"
+    },
+    {
+      "title": "Offline Usage",
+      "description": "Play sounds without network access"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "moodist.mvze.net",
+    "username": null,
+    "password": null
+  }
+}

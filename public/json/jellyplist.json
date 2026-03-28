@@ -1,0 +1,72 @@
+{
+  "name": "jellyplist",
+  "slug": "jellyplist",
+  "tagline": "A tool for converting and syncing playlists across Jellyfin and media players",
+  "subtitle": "",
+  "description": "jellyplist is a tool to convert playlists between Jellyfin and other media players or formats. It helps maintain consistent playlists across devices and applications by importing and exporting different playlist standards.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.1.10",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-12",
+    "date_last_commit": "2025-10-10",
+    "github_stars": 377,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/kamilkosek/jellyplist",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jellyplist.webp",
+    "issues": "https://github.com/kamilkosek/jellyplist/issues",
+    "releases": "https://github.com/kamilkosek/jellyplist/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Playlist Management",
+      "description": "Creates and edits Jellyfin playlists",
+      "core_feature": true
+    },
+    {
+      "title": "Music Playlist Support",
+      "description": "Manages audio-based playlists"
+    },
+    {
+      "title": "Jellyfin API Usage",
+      "description": "Communicates directly with Jellyfin"
+    },
+    {
+      "title": "Bulk Playlist Actions",
+      "description": "Applies changes across playlists"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages playlists via browser"
+    },
+    {
+      "title": "Local Deployment",
+      "description": "Runs alongside Jellyfin server"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

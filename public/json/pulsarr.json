@@ -1,0 +1,91 @@
+{
+  "name": "pulsarr",
+  "slug": "pulsarr",
+  "tagline": "A browser-based companion for managing media via *arr services",
+  "subtitle": "",
+  "description": "Pulsarr is a self-hosted browser extension and web UI that integrates with Radarr, Sonarr, and similar tools to streamline adding and managing media releases across your setup.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.12.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-21",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 591,
+    "github_contributors": 6,
+    "github_commits_this_year": 611,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 30
+  },
+  "resources": {
+    "website": "https://jamcalli.github.io/Pulsarr/",
+    "documentation": "https://jamcalli.github.io/Pulsarr/docs/intro",
+    "source_code": "https://github.com/jamcalli/Pulsarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pulsarr.webp",
+    "issues": "https://github.com/jamcalli/Pulsarr/issues",
+    "releases": "https://github.com/jamcalli/Pulsarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pulsarr-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Recommendation Notifications",
+      "description": "Notify users of recommended media content",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Schedule recommendation checks",
+      "core_feature": true
+    },
+    {
+      "title": "User Preferences",
+      "description": "Configure recommendation preferences"
+    },
+    {
+      "title": "Notification Channels",
+      "description": "Deliver notifications through supported channels"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the notifier on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pulsarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "pulsarr",
+      "url": "https://apps.truenas.com/catalog/pulsarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

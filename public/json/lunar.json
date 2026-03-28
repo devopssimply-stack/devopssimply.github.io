@@ -1,0 +1,85 @@
+{
+  "name": "lunar",
+  "slug": "lunar",
+  "tagline": "A headless eCommerce platform for building custom online stores",
+  "subtitle": "",
+  "description": "Lunar is a headless eCommerce platform for Laravel developers. It offers advanced catalog management, custom product types, carts, checkout APIs, and a customizable admin interface for complete flexibility.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-29",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3440,
+    "github_contributors": 133,
+    "github_commits_this_year": 9,
+    "github_issues_open": 48,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://lunarphp.com",
+    "documentation": "https://docs.lunarphp.com/1.x/getting-started/overview/introduction",
+    "source_code": "https://github.com/lunarphp/lunar",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lunar.webp",
+    "issues": "https://github.com/lunarphp/lunar/issues",
+    "releases": "https://github.com/lunarphp/lunar/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lunar-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lunar-store-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "E-Commerce Framework",
+      "description": "Build online stores and commerce systems",
+      "core_feature": true
+    },
+    {
+      "title": "Product Management",
+      "description": "Manage catalogs, variants, and pricing",
+      "core_feature": true
+    },
+    {
+      "title": "Order Processing",
+      "description": "Handle checkout and order workflows",
+      "core_feature": true
+    },
+    {
+      "title": "Payment Integration",
+      "description": "Support external payment methods"
+    },
+    {
+      "title": "API Endpoints",
+      "description": "Provide commerce APIs to clients"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the commerce system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lunar/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

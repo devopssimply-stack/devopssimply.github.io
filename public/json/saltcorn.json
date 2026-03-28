@@ -1,0 +1,90 @@
+{
+  "name": "saltcorn",
+  "slug": "saltcorn",
+  "tagline": "A self-hosted no-code platform for building database-driven applications",
+  "subtitle": "",
+  "description": "Saltcorn is a self-hosted no-code platform for building database-backed apps with visual builders. It includes roles, permissions, plugins, and a powerful UI for custom apps.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1995,
+    "github_contributors": 37,
+    "github_commits_this_year": 121,
+    "github_issues_open": 663,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://saltcorn.com",
+    "documentation": "https://wiki.saltcorn.com",
+    "source_code": "https://github.com/saltcorn/saltcorn",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/saltcorn.webp",
+    "issues": "https://github.com/saltcorn/saltcorn/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/saltcorn-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/saltcorn-builder-smaller.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/saltcorn-plugin-store-smaller.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/saltcorn-tables-smaller.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/saltcorn-themes-composit.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "No-Code Application Builder",
+      "description": "Build database-backed web apps without coding",
+      "core_feature": true
+    },
+    {
+      "title": "Data Tables",
+      "description": "Define and manage structured data",
+      "core_feature": true
+    },
+    {
+      "title": "Views and Pages",
+      "description": "Create UI views for data"
+    },
+    {
+      "title": "Access Control",
+      "description": "Manage user permissions"
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extend features using plugins"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/saltcorn/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "saltcorn_ynh",
+      "url": "https://github.com/YunoHost-Apps/saltcorn_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://createapplication.saltcorn.com/tenant/create",
+    "username": null,
+    "password": null
+  }
+}

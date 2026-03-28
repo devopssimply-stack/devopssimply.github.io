@@ -1,0 +1,92 @@
+{
+  "name": "laudspeaker",
+  "slug": "laudspeaker",
+  "tagline": "An open source customer messaging and campaign automation platform",
+  "subtitle": "",
+  "description": "Laudspeaker is an open source customer messaging platform for sending product emails, in app messages and campaigns. It supports segmentation, templates and event based triggers, and can be self hosted for full control over customer data.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v.1.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-06-06",
+    "date_last_commit": "2025-10-13",
+    "github_stars": 2565,
+    "github_contributors": 13,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://laudspeaker.com/?ref=github",
+    "documentation": "https://github.com/laudspeaker/laudspeaker",
+    "source_code": "https://github.com/laudspeaker/laudspeaker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/laudspeaker.webp",
+    "issues": "https://github.com/laudspeaker/laudspeaker/issues",
+    "releases": "https://github.com/laudspeaker/laudspeaker/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/laudspeaker-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/laudspeaker-multiple-messaging.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/laudspeaker-run-ab-test.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/laudspeaker-segment-builder.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/laudspeaker-visual-builder.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Customer Messaging",
+      "description": "Send lifecycle and product messages to users",
+      "core_feature": true
+    },
+    {
+      "title": "Campaign Management",
+      "description": "Create and manage messaging campaigns",
+      "core_feature": true
+    },
+    {
+      "title": "Event-Based Triggers",
+      "description": "Trigger messages based on user events",
+      "core_feature": true
+    },
+    {
+      "title": "Audience Segmentation",
+      "description": "Group users based on attributes and behavior"
+    },
+    {
+      "title": "Multi-Channel Delivery",
+      "description": "Send messages across supported communication channels"
+    },
+    {
+      "title": "Analytics",
+      "description": "Track delivery and engagement metrics"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the messaging platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/laudspeaker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

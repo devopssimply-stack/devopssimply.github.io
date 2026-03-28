@@ -1,0 +1,30 @@
+# ===============================
+# Docker Compose (Whoogle)
+# ===============================
+# host: http://localhost:5000
+# username:
+# password:
+
+services:
+  whoogle-search:
+    image: benbusby/whoogle-search:latest
+    container_name: whoogle-search
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    user: whoogle
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    tmpfs:
+      - /config:rw,size=10M,uid=927,gid=927,mode=1700
+      - /var/lib/tor:rw,size=15M,uid=927,gid=927,mode=1700
+      - /run/tor:rw,size=1M,uid=927,gid=927,mode=1700
+    environment:
+      WHOOGLE_CONFIG_DISABLE: "false"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:5000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

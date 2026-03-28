@@ -1,0 +1,77 @@
+{
+  "name": "note-mark",
+  "slug": "note-mark",
+  "tagline": "A Markdown-based note-taking app with tags and a minimalist UI",
+  "subtitle": "",
+  "description": "NoteMark is a Markdown-based note-taking system for quick writing and organizing ideas. It supports syntax highlighting, tagging, and a minimalist self-hosted UI ideal for personal usage.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.19.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-30",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 634,
+    "github_contributors": 6,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://notemark.docs.enchantedcode.co.uk/",
+    "documentation": "https://notemark.docs.enchantedcode.co.uk/docs/",
+    "source_code": "https://github.com/enchant97/note-mark",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/note-mark.webp",
+    "issues": "https://github.com/enchant97/note-mark/issues",
+    "releases": "https://github.com/enchant97/note-mark/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Markdown Notes",
+      "description": "Write and manage Markdown notes",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize notes using tags"
+    },
+    {
+      "title": "Search",
+      "description": "Find notes by text or tag",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Edit and read notes through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/note-mark/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

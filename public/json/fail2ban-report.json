@@ -1,0 +1,92 @@
+{
+  "name": "fail2ban-report",
+  "slug": "fail2ban-report",
+  "tagline": "A reporting tool for summarizing Fail2Ban logs and ban activity",
+  "subtitle": "",
+  "description": "Fail2Ban-Report is a helper tool for generating reports and summaries from Fail2Ban logs. It parses ban information and produces human-readable overviews, helping admins understand attack patterns over time.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "0.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-31",
+    "date_last_commit": "2025-08-31",
+    "github_stars": 293,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/SubleXBle/Fail2Ban-Report",
+    "documentation": "https://github.com/SubleXBle/Fail2Ban-Report",
+    "source_code": "https://github.com/SubleXBle/Fail2Ban-Report",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/fail2ban-report.webp",
+    "issues": "https://github.com/SubleXBle/Fail2Ban-Report/issues",
+    "releases": "https://github.com/SubleXBle/Fail2Ban-Report/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fail2ban-report-main-list.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Fail2Ban Reporting",
+      "description": "Generates reports from Fail2Ban log data",
+      "core_feature": true
+    },
+    {
+      "title": "Ban Statistics",
+      "description": "Summarizes banned IPs and ban frequency",
+      "core_feature": true
+    },
+    {
+      "title": "Log Parsing",
+      "description": "Reads Fail2Ban logs to extract events",
+      "core_feature": true
+    },
+    {
+      "title": "HTML Reports",
+      "description": "Outputs human-readable report pages"
+    },
+    {
+      "title": "Historical Overview",
+      "description": "Shows trends over time"
+    },
+    {
+      "title": "Configurable Output",
+      "description": "Adjusts report scope and format"
+    },
+    {
+      "title": "CLI Usage",
+      "description": "Runs report generation from the command line"
+    },
+    {
+      "title": "Local Reporting Tool",
+      "description": "Run reports on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/fail2ban-report/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "wiki-js",
+  "slug": "wiki-js",
+  "tagline": "A modern, self-hosted wiki platform with rich editing and integrations",
+  "subtitle": "",
+  "description": "Wiki.js is a modern, self-hosted wiki platform with a rich editor, authentication, search, and versioning. It supports multiple backends, integrations, and themes, and can be self-hosted or used via commercial cloud hosting.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.5.311",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-08",
+    "date_last_commit": "2026-01-25",
+    "github_stars": 27846,
+    "github_contributors": 217,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://js.wiki",
+    "documentation": "https://docs.requarks.io/install",
+    "source_code": "https://github.com/requarks/wiki",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wiki-js.webp",
+    "issues": "https://github.com/requarks/wiki/issues",
+    "releases": "https://github.com/requarks/wiki/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wiki-js-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Wiki Platform",
+      "description": "Create and manage documentation wikis",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editor",
+      "description": "Write content using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict page access by role"
+    },
+    {
+      "title": "Version History",
+      "description": "Track changes to pages"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the wiki on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wiki-js/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "wikijs",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=wikijs"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wikijs_ynh",
+      "url": "https://github.com/YunoHost-Apps/wikijs_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "wiki-js",
+      "url": "https://apps.truenas.com/catalog/wiki-js"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "stoat",
+  "slug": "stoat",
+  "tagline": "A lightweight self-hosted chat platform for small teams and communities",
+  "subtitle": "",
+  "description": "StoatChat is a self-hosted chat platform with channels, direct messages, and file sharing. It aims to be lightweight and easy to deploy for small communities.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.11.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2783,
+    "github_contributors": 38,
+    "github_commits_this_year": 70,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 15
+  },
+  "resources": {
+    "website": "https://stoat.chat",
+    "documentation": "https://github.com/stoatchat/stoatchat",
+    "source_code": "https://github.com/stoatchat/stoatchat",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/stoat.webp",
+    "issues": "https://github.com/stoatchat/stoatchat/issues",
+    "releases": "https://github.com/stoatchat/stoatchat/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Messaging Platform",
+      "description": "Exchange messages in real time",
+      "core_feature": true
+    },
+    {
+      "title": "Channels",
+      "description": "Organize conversations into channels",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and access",
+      "core_feature": true
+    },
+    {
+      "title": "Media Sharing",
+      "description": "Share files and images in chats"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Use chat through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the chat server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

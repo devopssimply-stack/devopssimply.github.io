@@ -1,0 +1,96 @@
+{
+  "name": "open-webui",
+  "slug": "open-webui",
+  "tagline": "A self-hosted web interface for interacting with large language models",
+  "subtitle": "",
+  "description": "Open WebUI is a self-hosted interface for interacting with large language models like GPT via web. It supports local inference through APIs and integrates with hardware accelerators.",
+  "categories": [
+    13
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD 3-Clause License",
+    "version": "v0.8.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 125961,
+    "github_contributors": 391,
+    "github_commits_this_year": 873,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 12
+  },
+  "resources": {
+    "website": "https://openwebui.com",
+    "documentation": "https://github.com/open-webui/open-webui",
+    "source_code": "https://github.com/open-webui/open-webui",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/open-webui.webp",
+    "issues": "https://github.com/open-webui/open-webui/issues",
+    "releases": "https://github.com/open-webui/open-webui/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/open-webui-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/open-webui-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web UI Framework",
+      "description": "Build and present user interfaces in a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Component Library",
+      "description": "Use reusable UI components"
+    },
+    {
+      "title": "Layout Tools",
+      "description": "Arrange UI elements visually"
+    },
+    {
+      "title": "API Integration",
+      "description": "Connect UI with backend services"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Deploy UI components on your own web servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/open-webui/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "openwebui",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=openwebui"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "open-webui_ynh",
+      "url": "https://github.com/YunoHost-Apps/open-webui_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "open-webui",
+      "url": "https://apps.truenas.com/catalog/open-webui"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

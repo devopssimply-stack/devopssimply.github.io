@@ -1,0 +1,87 @@
+{
+  "name": "tooljet",
+  "slug": "tooljet",
+  "tagline": "A low-code platform for building internal tools with databases and APIs",
+  "subtitle": "",
+  "description": "ToolJet is an open-source low-code platform to build internal apps using a drag-and-drop UI. It connects to databases and APIs, supports role-based access, and can be self-hosted or used as a managed cloud service.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.20.115-lts",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 37549,
+    "github_contributors": 419,
+    "github_commits_this_year": 332,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 51
+  },
+  "resources": {
+    "website": "https://tooljet.ai",
+    "documentation": "https://docs.tooljet.com/docs",
+    "source_code": "https://github.com/ToolJet/ToolJet",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tooljet.webp",
+    "issues": "https://github.com/ToolJet/ToolJet/issues",
+    "releases": "https://github.com/ToolJet/ToolJet/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tooljet-banner.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tooljet-flowchart.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Internal Tool Builder",
+      "description": "Build internal tools with low code",
+      "core_feature": true
+    },
+    {
+      "title": "Data Source Integration",
+      "description": "Connect to databases and APIs",
+      "core_feature": true
+    },
+    {
+      "title": "UI Components",
+      "description": "Build interfaces using reusable components"
+    },
+    {
+      "title": "Access Control",
+      "description": "Manage user permissions"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run ToolJet on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tooljet/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "tooljet_ynh",
+      "url": "https://github.com/YunoHost-Apps/tooljet_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

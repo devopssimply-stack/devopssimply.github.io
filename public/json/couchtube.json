@@ -1,0 +1,81 @@
+{
+  "name": "couchtube",
+  "slug": "couchtube",
+  "tagline": "A self-hosted media platform for streaming locally stored audio and video",
+  "subtitle": "",
+  "description": "CouchTube is a self-hosted multimedia platform that enables users to host, stream, and organize local video or audio files through a simple, responsive web UI. It’s ideal for home media setups and family cloud entertainment.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 244,
+    "github_contributors": 1,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://couchtube.fly.dev/",
+    "documentation": "https://github.com/ozencb/couchtube",
+    "source_code": "https://github.com/ozencb/couchtube",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/couchtube.webp",
+    "issues": "https://github.com/ozencb/couchtube/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Video Platform",
+      "description": "Hosts and streams videos",
+      "core_feature": true
+    },
+    {
+      "title": "PeerTube Integration",
+      "description": "Uses PeerTube as backend",
+      "core_feature": true
+    },
+    {
+      "title": "Web Player",
+      "description": "Plays videos in browser"
+    },
+    {
+      "title": "Channel Management",
+      "description": "Organizes videos into channels"
+    },
+    {
+      "title": "Federation Support",
+      "description": "Integrates with federated networks"
+    },
+    {
+      "title": "Self-Hosted Video",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/couchtube/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://couchtube.fly.dev",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "pad-ws",
+  "slug": "pad-ws",
+  "tagline": "A self-hosted collaborative Markdown editor with real-time editing",
+  "subtitle": "",
+  "description": "Pad.ws is a self-hosted collaborative Markdown note editor inspired by Etherpad. It supports real-time editing, sharing, and document versioning with a minimalist interface.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-05-28",
+    "date_last_commit": "2025-08-06",
+    "github_stars": 4047,
+    "github_contributors": 5,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/coderamp-labs/pad.ws",
+    "documentation": "https://github.com/coderamp-labs/pad.ws",
+    "source_code": "https://github.com/coderamp-labs/pad.ws",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pad-ws.webp",
+    "issues": "https://github.com/coderamp-labs/pad.ws/issues",
+    "releases": "https://github.com/coderamp-labs/pad.ws/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pad-ws-sample-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Collaborative Text Editing",
+      "description": "Edit text documents with multiple users in real time",
+      "core_feature": true
+    },
+    {
+      "title": "Shared Pads",
+      "description": "Create documents accessible via shared links",
+      "core_feature": true
+    },
+    {
+      "title": "Live Updates",
+      "description": "See edits from other users instantly",
+      "core_feature": true
+    },
+    {
+      "title": "Revision History",
+      "description": "View previous versions of documents"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Edit documents through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the editor on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pad-ws/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

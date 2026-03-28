@@ -1,0 +1,95 @@
+{
+  "name": "maintainerr",
+  "slug": "maintainerr",
+  "tagline": "A dashboard for monitoring activity and events across self-hosted media servers",
+  "subtitle": "",
+  "description": "Maintainerr is a dashboard and event log viewer for monitoring a suite of self-hosted media servers. It connects to services like Jellyfin, Radarr, and Sonarr to track updates, downloads, and system status.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.0.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1697,
+    "github_contributors": 27,
+    "github_commits_this_year": 173,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://maintainerr.info",
+    "documentation": "https://docs.maintainerr.info",
+    "source_code": "https://github.com/Maintainerr/Maintainerr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/maintainerr.webp",
+    "issues": "https://github.com/Maintainerr/Maintainerr/issues",
+    "releases": "https://github.com/Maintainerr/Maintainerr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/maintainerr-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/maintainerr-collections-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/maintainerr-overview-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/maintainerr-rule-example-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/maintainerr-rules-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Maintenance Dashboard",
+      "description": "Monitor and manage media library issues",
+      "core_feature": true
+    },
+    {
+      "title": "Service Integration",
+      "description": "Integrate with supported media services",
+      "core_feature": true
+    },
+    {
+      "title": "Issue Detection",
+      "description": "Identify missing or problematic media items",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "View and manage issues through a browser"
+    },
+    {
+      "title": "Automation Rules",
+      "description": "Apply rules to handle detected issues"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the dashboard on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/maintainerr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "maintainerr",
+      "url": "https://apps.truenas.com/catalog/maintainerr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "plex-rewind",
+  "slug": "plex-rewind",
+  "tagline": "A self-hosted tool for generating recap clips from Plex shows",
+  "subtitle": "",
+  "description": "Plex-Rewind is a self-hosted tool that generates recap clips from shows in Plex. It extracts key scenes to create summaries, helping viewers refresh before watching the next episode.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v5.1.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 293,
+    "github_contributors": 7,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/RaunoT/plex-rewind",
+    "documentation": "https://github.com/RaunoT/plex-rewind",
+    "source_code": "https://github.com/RaunoT/plex-rewind",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/plex-rewind.webp",
+    "issues": "https://github.com/RaunoT/plex-rewind/issues",
+    "releases": "https://github.com/RaunoT/plex-rewind/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plex-rewind-activity.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plex-rewind-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plex-rewind-movies.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Viewing Statistics",
+      "description": "Analyze viewing history and playback stats",
+      "core_feature": true
+    },
+    {
+      "title": "Plex Integration",
+      "description": "Read activity data from Plex servers",
+      "core_feature": true
+    },
+    {
+      "title": "Usage Reports",
+      "description": "Generate summaries of viewing habits",
+      "core_feature": true
+    },
+    {
+      "title": "Time-Based Analysis",
+      "description": "View trends over time"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Explore statistics in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the analytics tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/plex-rewind/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

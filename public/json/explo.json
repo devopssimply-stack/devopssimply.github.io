@@ -1,0 +1,83 @@
+{
+  "name": "explo",
+  "slug": "explo",
+  "tagline": "A data exploration and dashboarding tool for databases and warehouses",
+  "subtitle": "",
+  "description": "Explo is a data exploration and dashboarding tool that connects to databases or warehouses and lets users build charts and dashboards visually. It’s designed to be used by analysts and engineers who prefer self-hosted analytics.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.11.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-02-02",
+    "github_stars": 985,
+    "github_contributors": 7,
+    "github_commits_this_year": 59,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/LumePart/Explo",
+    "documentation": "https://github.com/LumePart/Explo",
+    "source_code": "https://github.com/LumePart/Explo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/explo.webp",
+    "issues": "https://github.com/LumePart/Explo/issues",
+    "releases": "https://github.com/LumePart/Explo/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Expense Logging",
+      "description": "Logs personal expenses",
+      "core_feature": true
+    },
+    {
+      "title": "Tag-Based Organization",
+      "description": "Categorizes expenses using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Monthly Views",
+      "description": "Displays expenses by month"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches expense records"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Focuses on simple data entry"
+    },
+    {
+      "title": "Web Application",
+      "description": "Runs in the browser"
+    },
+    {
+      "title": "Local Data Control",
+      "description": "Keeps data under user ownership"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "container-hub",
+  "slug": "container-hub",
+  "tagline": "A web interface for browsing and managing Docker registry images",
+  "subtitle": "",
+  "description": "Docker Registry UI is a user-friendly interface for browsing and managing Docker images from a registry. It supports search, tags, delete operations, and provides a clean and simple dashboard.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": "v0.5.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-24",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 174,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/eznix86/docker-registry-ui",
+    "documentation": "https://github.com/eznix86/docker-registry-ui",
+    "source_code": "https://github.com/eznix86/docker-registry-ui",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/container-hub.webp",
+    "issues": "https://github.com/eznix86/docker-registry-ui/issues",
+    "releases": "https://github.com/eznix86/docker-registry-ui/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/container-hub-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/container-hub-image-list.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Docker Registry Interface",
+      "description": "Manages container images in a registry",
+      "core_feature": true
+    },
+    {
+      "title": "Image Browsing",
+      "description": "Lists repositories and tags",
+      "core_feature": true
+    },
+    {
+      "title": "Image Deletion",
+      "description": "Removes images from registry"
+    },
+    {
+      "title": "Authentication Support",
+      "description": "Restricts access to registry UI"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Manages registry through browser"
+    },
+    {
+      "title": "Self-Hosted UI",
+      "description": "Runs alongside Docker Registry"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/container-hub/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

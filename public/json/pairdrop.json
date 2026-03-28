@@ -1,0 +1,98 @@
+{
+  "name": "pairdrop",
+  "slug": "pairdrop",
+  "tagline": "An AirDrop-like self-hosted file transfer tool using WebRTC",
+  "subtitle": "",
+  "description": "PairDrop is a self-hosted AirDrop-like file transfer tool using WebRTC. It allows fast device-to-device sharing over your own network without third-party services.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.11.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-24",
+    "date_last_commit": "2025-02-25",
+    "github_stars": 9891,
+    "github_contributors": 82,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://pairdrop.net",
+    "documentation": "https://github.com/schlagmichdoch/PairDrop/blob/master/docs/host-your-own.md",
+    "source_code": "https://github.com/schlagmichdoch/PairDrop",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pairdrop.webp",
+    "issues": "https://github.com/schlagmichdoch/PairDrop/issues",
+    "releases": "https://github.com/schlagmichdoch/PairDrop/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pairdrop-main-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pairdrop-pair-devices-permanently.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pairdrop-temp-public-room.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Local File Sharing",
+      "description": "Share files between devices on the same network",
+      "core_feature": true
+    },
+    {
+      "title": "Browser-Based Transfer",
+      "description": "Send and receive files using a web browser",
+      "core_feature": true
+    },
+    {
+      "title": "Peer Discovery",
+      "description": "Automatically discover nearby devices"
+    },
+    {
+      "title": "No Registration",
+      "description": "Transfer files without user accounts"
+    },
+    {
+      "title": "Cross-Platform",
+      "description": "Share files across different operating systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pairdrop/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "pairdrop",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=pairdrop"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "pairdrop_ynh",
+      "url": "https://github.com/YunoHost-Apps/pairdrop_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "pairdrop",
+      "url": "https://apps.truenas.com/catalog/pairdrop"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

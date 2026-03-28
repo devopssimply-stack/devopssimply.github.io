@@ -1,0 +1,71 @@
+{
+  "name": "rapidforge",
+  "slug": "rapidforge",
+  "tagline": "A DevOps platform for automating environment creation and deployments",
+  "subtitle": "",
+  "description": "Release is a self-hosted DevOps platform that automates environment creation, previews, and deployments with a focus on simplifying cloud-native workflows via UI or API.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.13.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 18,
+    "github_contributors": 1,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://rapidforge.io/",
+    "documentation": "https://rapidforge.io/",
+    "source_code": "https://github.com/rapidforge-io/rapidforge/release",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/rapidforge.webp",
+    "issues": "https://github.com/rapidforge-io/rapidforge/release/issues",
+    "releases": "https://github.com/rapidforge-io/rapidforge/release/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/rapidforge-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Release Management",
+      "description": "Create and manage software releases",
+      "core_feature": true
+    },
+    {
+      "title": "Changelog Generation",
+      "description": "Generate release notes from commits",
+      "core_feature": true
+    },
+    {
+      "title": "Version Tracking",
+      "description": "Track versions across releases"
+    },
+    {
+      "title": "CI Integration",
+      "description": "Integrate release steps into CI pipelines"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage releases through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

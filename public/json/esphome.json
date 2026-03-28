@@ -1,0 +1,109 @@
+{
+  "name": "esphome",
+  "slug": "esphome",
+  "tagline": "A YAML-based system for building and managing ESP-based smart devices",
+  "subtitle": "",
+  "description": "ESPHome is a system for controlling ESP-based devices using simple YAML configuration. It compiles firmware, manages OTA updates, and integrates with Home Assistant, making custom smart-home devices approachable without deep embedded coding.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2026.2.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 10658,
+    "github_contributors": 470,
+    "github_commits_this_year": 1513,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 23
+  },
+  "resources": {
+    "website": "https://esphome.io/",
+    "documentation": "https://esphome.io/guides",
+    "source_code": "https://github.com/esphome/esphome",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/esphome.webp",
+    "issues": "https://github.com/esphome/esphome/issues",
+    "releases": "https://github.com/esphome/esphome/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/esphome-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "IoT Firmware Generation",
+      "description": "Generates firmware for ESP-based devices",
+      "core_feature": true
+    },
+    {
+      "title": "YAML Configuration",
+      "description": "Defines device behavior declaratively",
+      "core_feature": true
+    },
+    {
+      "title": "Home Automation Integration",
+      "description": "Integrates with Home Assistant",
+      "core_feature": true
+    },
+    {
+      "title": "OTA Updates",
+      "description": "Updates firmware over the air"
+    },
+    {
+      "title": "Sensor Support",
+      "description": "Supports many sensor types"
+    },
+    {
+      "title": "Device Discovery",
+      "description": "Detects devices on the network"
+    },
+    {
+      "title": "Encryption Support",
+      "description": "Secures device communication"
+    },
+    {
+      "title": "Self-Hosted Tooling",
+      "description": "Runs locally or on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/esphome/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "esphome",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=esphome"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "esphome_ynh",
+      "url": "https://github.com/YunoHost-Apps/esphome_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "esphome",
+      "url": "https://apps.truenas.com/catalog/esphome"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

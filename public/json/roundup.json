@@ -1,0 +1,74 @@
+{
+  "name": "roundup",
+  "slug": "roundup",
+  "tagline": "A flexible self-hosted issue and task tracking system",
+  "subtitle": "",
+  "description": "Roundup is a self-hosted issue tracker with a flexible schema, email support, and web-based interface for managing tasks and issues in software or business workflows.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-02",
+    "github_stars": 39,
+    "github_contributors": 18,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.roundup-tracker.org",
+    "documentation": "https://www.roundup-tracker.org/docs.html",
+    "source_code": "https://github.com/roundup-tracker/roundup",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/roundup.webp",
+    "issues": "https://github.com/roundup-tracker/roundup/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundup-tracker-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Issue Tracking",
+      "description": "Track bugs and tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Custom Fields",
+      "description": "Define custom issue attributes"
+    },
+    {
+      "title": "Workflow States",
+      "description": "Move issues through defined states"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage issues through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/roundup/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

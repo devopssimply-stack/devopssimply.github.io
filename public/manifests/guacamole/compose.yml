@@ -1,0 +1,61 @@
+# ===============================
+# Docker Compose (Apache Guacamole)
+# ===============================
+# host: http://localhost:8080/guacamole
+# username: guacadmin
+# password: guacadmin (change after first login)
+
+services:
+  guac-db:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=guacamole_db
+      - POSTGRES_USER=guacuser
+      - POSTGRES_PASSWORD=ChangeThisStrongPass
+    volumes:
+      - guac-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U guacuser -d guacamole_db"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  guacd:
+    image: guacamole/guacd:latest
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget --quiet --tries=1 --spider http://localhost:4822 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  guacamole:
+    image: guacamole/guacamole:latest
+    restart: unless-stopped
+    depends_on:
+      guac-db:
+        condition: service_healthy
+      guacd:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    environment:
+      # Database connection
+      - POSTGRES_HOSTNAME=guac-db
+      - POSTGRES_DATABASE=guacamole_db
+      - POSTGRES_USER=guacuser
+      - POSTGRES_PASSWORD=ChangeThisStrongPass
+      # guacd connection
+      - GUACD_HOSTNAME=guacd
+      - GUACD_PORT=4822
+      # Expose under /guacamole
+      - WEBAPP_CONTEXT=guacamole
+    healthcheck:
+      test: ["CMD-SHELL", "wget --quiet --tries=1 --spider http://localhost:8080/guacamole/ || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  guac-db-data:

@@ -1,0 +1,82 @@
+{
+  "name": "youtarr",
+  "slug": "youtarr",
+  "tagline": "A YouTube request and download manager integrated with *Arr media tools",
+  "subtitle": "",
+  "description": "Youtarr is a self-hosted YouTube request and download manager that coordinates with media servers and Arr tools. Users can request videos, which are then fetched and organized automatically.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "ISC",
+    "version": "v1.58.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-31",
+    "date_last_commit": "2026-02-01",
+    "github_stars": 845,
+    "github_contributors": 8,
+    "github_commits_this_year": 46,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/DialmasterOrg/Youtarr",
+    "documentation": "https://github.com/DialmasterOrg/Youtarr",
+    "source_code": "https://github.com/DialmasterOrg/Youtarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/youtarr.webp",
+    "issues": "https://github.com/DialmasterOrg/Youtarr/issues",
+    "releases": "https://github.com/DialmasterOrg/Youtarr/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Video Download Automation",
+      "description": "Automate downloads from video platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Downloads",
+      "description": "Schedule video downloads",
+      "core_feature": true
+    },
+    {
+      "title": "Quality Selection",
+      "description": "Choose download quality"
+    },
+    {
+      "title": "Download History",
+      "description": "Track downloaded videos"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the downloader on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/youtarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

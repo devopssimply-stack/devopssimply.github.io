@@ -1,0 +1,99 @@
+{
+  "name": "vaultwarden",
+  "slug": "vaultwarden",
+  "tagline": "A lightweight Bitwarden-compatible server for managing encrypted passwords",
+  "subtitle": "",
+  "description": "Vaultwarden is a self-hosted Bitwarden-compatible server written in Rust. It provides the backend for web, mobile, and browser clients to store and sync encrypted passwords and secrets.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.35.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 56388,
+    "github_contributors": 157,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/dani-garcia/vaultwarden",
+    "documentation": "https://github.com/dani-garcia/vaultwarden",
+    "source_code": "https://github.com/dani-garcia/vaultwarden",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/vaultwarden.webp",
+    "issues": "https://github.com/dani-garcia/vaultwarden/issues",
+    "releases": "https://github.com/dani-garcia/vaultwarden/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/vaultwarden-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/vaultwarden-dashboard-0.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/vaultwarden-dashboard-1.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Password Manager Server",
+      "description": "Host a password management backend",
+      "core_feature": true
+    },
+    {
+      "title": "Client Compatibility",
+      "description": "Work with Bitwarden-compatible clients",
+      "core_feature": true
+    },
+    {
+      "title": "Secure Vault Storage",
+      "description": "Store encrypted credentials",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage users and organizations"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/vaultwarden/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "vaultwarden",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=vaultwarden"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "vaultwarden_ynh",
+      "url": "https://github.com/YunoHost-Apps/vaultwarden_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "vaultwarden",
+      "url": "https://apps.truenas.com/catalog/vaultwarden"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "openbudgeteer",
+  "slug": "openbudgeteer",
+  "tagline": "A self-hosted personal budgeting tool inspired by envelope budgeting",
+  "subtitle": "",
+  "description": "OpenBudgeteer is a self-hosted personal budgeting tool inspired by YNAB. It allows managing envelopes, categories, and expenses across months using a clean, responsive interface.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-17",
+    "date_last_commit": "2026-01-10",
+    "github_stars": 945,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://theaxelander.github.io",
+    "documentation": "https://axelander.dev/latest/install",
+    "source_code": "https://github.com/TheAxelander/OpenBudgeteer",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openbudgeteer.webp",
+    "issues": "https://github.com/TheAxelander/OpenBudgeteer/issues",
+    "releases": "https://github.com/TheAxelander/OpenBudgeteer/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openbudgeteer-account.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openbudgeteer-bucket.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openbudgeteer-report.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openbudgeteer-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openbudgeteer-transaction.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Budgeting",
+      "description": "Track income, expenses, and savings goals",
+      "core_feature": true
+    },
+    {
+      "title": "Transaction Categorization",
+      "description": "Assign categories to financial transactions",
+      "core_feature": true
+    },
+    {
+      "title": "Reports and Summaries",
+      "description": "View spending summaries and reports"
+    },
+    {
+      "title": "Budget Targets",
+      "description": "Set and monitor budget limits"
+    },
+    {
+      "title": "Multi-Account Support",
+      "description": "Track multiple financial accounts"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage finances through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the budgeting app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/openbudgeteer/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

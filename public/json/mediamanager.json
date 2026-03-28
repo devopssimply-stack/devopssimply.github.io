@@ -1,0 +1,100 @@
+{
+  "name": "mediamanager",
+  "slug": "mediamanager",
+  "tagline": "A self-hosted platform for organizing and browsing media collections",
+  "subtitle": "",
+  "description": "MediaManager is a media collection organizer and categorizer. It provides a web interface to upload, tag, group, and browse files such as images, videos, and documents in a self-hosted environment.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.12.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-11",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 3125,
+    "github_contributors": 25,
+    "github_commits_this_year": 159,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/maxdorninger/MediaManager",
+    "documentation": "https://maxdorninger.github.io/MediaManager/latest/",
+    "source_code": "https://github.com/maxdorninger/MediaManager",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mediamanager.webp",
+    "issues": "https://github.com/maxdorninger/MediaManager/issues",
+    "releases": "https://github.com/maxdorninger/MediaManager/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediamanager-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediamanager-details-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediamanager-login-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediamanager-screenshot-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediamanager-screenshot-tv-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Library Management",
+      "description": "Organize local media collections",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Editing",
+      "description": "Edit titles and descriptions"
+    },
+    {
+      "title": "File Browsing",
+      "description": "Browse media files through a UI",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find media by name or metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage media through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the application on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mediamanager/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "mediamanager",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=mediamanager"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "media-manager",
+      "url": "https://apps.truenas.com/catalog/media-manager"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

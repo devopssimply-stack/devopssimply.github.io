@@ -1,0 +1,84 @@
+{
+  "name": "snapdrop",
+  "slug": "snapdrop",
+  "tagline": "A browser-based AirDrop-like file sharing tool for local networks",
+  "subtitle": "",
+  "description": "Snapdrop is a self-hosted web-based file sharing app that behaves like AirDrop in the browser. Devices on the same network can instantly exchange files without accounts.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-02-10",
+    "github_stars": 19693,
+    "github_contributors": 44,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://snapdrop.net",
+    "documentation": "https://github.com/SnapDrop/snapdrop",
+    "source_code": "https://github.com/SnapDrop/snapdrop",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/snapdrop.webp",
+    "issues": "https://github.com/SnapDrop/snapdrop/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/snapdrop-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Local File Sharing",
+      "description": "Share files directly between nearby devices",
+      "core_feature": true
+    },
+    {
+      "title": "Browser-Based Transfers",
+      "description": "Transfer files using a web browser",
+      "core_feature": true
+    },
+    {
+      "title": "Peer Discovery",
+      "description": "Discover devices on the local network",
+      "core_feature": true
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Share files across different operating systems"
+    },
+    {
+      "title": "No Account Requirement",
+      "description": "Transfer files without user accounts"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the service on your own network"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/snapdrop/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

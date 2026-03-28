@@ -1,0 +1,100 @@
+{
+  "name": "clamav",
+  "slug": "clamav",
+  "tagline": "An open-source antivirus engine for detecting malware and threats",
+  "subtitle": "",
+  "description": "ClamAV is an open-source antivirus engine designed for detecting malware, viruses, and threats. It can be used on mail servers, endpoints, and containerized environments, and offers a CLI scanner.",
+  "categories": [
+    11
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "clamav-1.5.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6321,
+    "github_contributors": 133,
+    "github_commits_this_year": 16,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://www.clamav.net/",
+    "documentation": "https://docs.clamav.net",
+    "source_code": "https://github.com/Cisco-Talos/clamav",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/clamav.webp",
+    "issues": "https://github.com/Cisco-Talos/clamav/issues",
+    "releases": "https://github.com/Cisco-Talos/clamav/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/clamav-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Malware Detection",
+      "description": "Scans files for malicious software",
+      "core_feature": true
+    },
+    {
+      "title": "Signature-Based Scanning",
+      "description": "Uses virus signature databases",
+      "core_feature": true
+    },
+    {
+      "title": "On-Demand Scans",
+      "description": "Scans files and directories manually"
+    },
+    {
+      "title": "Daemon Mode",
+      "description": "Runs as a background scanning service"
+    },
+    {
+      "title": "Update Mechanism",
+      "description": "Updates malware signatures regularly"
+    },
+    {
+      "title": "Command-Line Tools",
+      "description": "Controls scanning via CLI"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Runs on multiple operating systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [
+    "gui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/clamav/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "clamav",
+      "url": "https://apps.truenas.com/catalog/clamav"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

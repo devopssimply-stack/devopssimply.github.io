@@ -1,0 +1,91 @@
+{
+  "name": "authentik",
+  "slug": "authentik",
+  "tagline": "An identity and access management platform for authentication and authorization",
+  "subtitle": "",
+  "description": "Authentik is a self-hosted identity provider and access management platform that supports OAuth 2.0, SAML, and LDAP. It targets enterprises and self-hosters looking for a keycloak alternative with modern UI.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Enterprise License",
+    "version": "version/2026.2.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 20384,
+    "github_contributors": 460,
+    "github_commits_this_year": 881,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 16
+  },
+  "resources": {
+    "website": "https://goauthentik.io",
+    "documentation": "https://github.com/goauthentik/authentik",
+    "source_code": "https://github.com/goauthentik/authentik",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/authentik.webp",
+    "issues": "https://github.com/goauthentik/authentik/issues",
+    "releases": "https://github.com/goauthentik/authentik/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/authentik-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/authentik-dashboard-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/authentik-overview-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Identity Provider",
+      "description": "Centralized user authentication and identity",
+      "core_feature": true
+    },
+    {
+      "title": "Single Sign-On",
+      "description": "Provide SSO for connected applications",
+      "core_feature": true
+    },
+    {
+      "title": "Protocol Support",
+      "description": "Support OAuth2, OIDC, and SAML"
+    },
+    {
+      "title": "User and Group Management",
+      "description": "Manage users, groups, and roles"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Configure identity services via browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/authentik/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "authentik",
+      "url": "https://apps.truenas.com/catalog/authentik"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

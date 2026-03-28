@@ -1,0 +1,99 @@
+{
+  "name": "wallabag",
+  "slug": "wallabag",
+  "tagline": "A read-it-later service for saving and organizing web articles",
+  "subtitle": "",
+  "description": "Wallabag is a self-hosted read-it-later service. It saves articles from the web, cleans them up for reading, and organizes content with tags and full-text search, with mobile apps and browser integrations available.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.6.14",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-07",
+    "date_last_commit": "2026-02-02",
+    "github_stars": 12440,
+    "github_contributors": 241,
+    "github_commits_this_year": 67,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://wallabag.org",
+    "documentation": "https://doc.wallabag.org/admin/installation",
+    "source_code": "https://github.com/wallabag/wallabag",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wallabag.webp",
+    "issues": "https://github.com/wallabag/wallabag/issues",
+    "releases": "https://github.com/wallabag/wallabag/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wallabag-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wallabag-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Read-It-Later",
+      "description": "Save articles for later reading",
+      "core_feature": true
+    },
+    {
+      "title": "Content Extraction",
+      "description": "Extract readable article content",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize saved articles using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Offline Reading",
+      "description": "Access saved content offline"
+    },
+    {
+      "title": "Client Apps",
+      "description": "Access content from supported apps"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wallabag/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "wallabag",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=wallabag"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wallabag_ynh",
+      "url": "https://github.com/YunoHost-Apps/wallabag_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

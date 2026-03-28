@@ -1,0 +1,96 @@
+{
+  "name": "drop",
+  "slug": "drop",
+  "tagline": "A self-hosted file sharing service with drag-and-drop uploads",
+  "subtitle": "",
+  "description": "Drop is a minimalist, self-hosted file sharing service that allows drag-and-drop uploads and generates shareable links. It focuses on simplicity and speed, making it a handy replacement for generic file-drop services.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.3.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-04",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 604,
+    "github_contributors": 16,
+    "github_commits_this_year": 45,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://droposs.org",
+    "documentation": "https://github.com/Drop-OSS/drop",
+    "source_code": "https://github.com/Drop-OSS/drop",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/drop.webp",
+    "issues": "https://github.com/Drop-OSS/drop/issues",
+    "releases": "https://github.com/Drop-OSS/drop/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/drop-companyadmin.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/drop-devices.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/drop-importgameadmin.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/drop-importversionadmin.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/drop-store.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/drop-storepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Secure File Sharing",
+      "description": "Shares files using secure links",
+      "core_feature": true
+    },
+    {
+      "title": "Expiring Links",
+      "description": "Sets time-based file expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Access Limits",
+      "description": "Restricts number of downloads"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Uploads and shares files in browser"
+    },
+    {
+      "title": "Encryption Support",
+      "description": "Protects files during transfer"
+    },
+    {
+      "title": "Minimal Metadata Storage",
+      "description": "Limits stored file metadata"
+    },
+    {
+      "title": "Self-Hosted Sharing",
+      "description": "Runs on private servers"
+    },
+    {
+      "title": "Simple Deployment",
+      "description": "Deploys with minimal setup"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/drop/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

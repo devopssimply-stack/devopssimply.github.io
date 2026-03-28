@@ -1,0 +1,91 @@
+{
+  "name": "rallly",
+  "slug": "rallly",
+  "tagline": "A self-hosted meeting scheduler with voting and mobile-friendly UI",
+  "subtitle": "",
+  "description": "Rallly is a self-hosted meeting scheduler similar to Doodle. It allows participants to vote on preferred times and includes a clean mobile-friendly UI.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.7.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-14",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4992,
+    "github_contributors": 31,
+    "github_commits_this_year": 214,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 9
+  },
+  "resources": {
+    "website": "https://rallly.co",
+    "documentation": "https://support.rallly.co/self-hosting/introduction",
+    "source_code": "https://github.com/lukevella/rallly",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/rallly.webp",
+    "issues": "https://github.com/lukevella/rallly/issues",
+    "releases": "https://github.com/lukevella/rallly/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/rallly-home-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Event Scheduling",
+      "description": "Schedule events by collecting availability",
+      "core_feature": true
+    },
+    {
+      "title": "Poll Creation",
+      "description": "Propose multiple date and time options",
+      "core_feature": true
+    },
+    {
+      "title": "Participant Voting",
+      "description": "Let participants vote on availability",
+      "core_feature": true
+    },
+    {
+      "title": "Public Links",
+      "description": "Share scheduling pages via links"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage events through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the scheduler on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/rallly/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "rallly_ynh",
+      "url": "https://github.com/YunoHost-Apps/rallly_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

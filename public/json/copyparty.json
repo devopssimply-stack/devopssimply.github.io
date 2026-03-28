@@ -1,0 +1,109 @@
+{
+  "name": "copyparty",
+  "slug": "copyparty",
+  "tagline": "A lightweight self-hosted file server with web-based sharing",
+  "subtitle": "",
+  "description": "Copyparty is a self-hosted file server that combines SFTP-like features with web-based uploads, browsing, and file management without dependencies. It is lightweight, supports drag-and-drop, and has built-in media players.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.20.10",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 42969,
+    "github_contributors": 102,
+    "github_commits_this_year": 188,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://github.com/9001/copyparty",
+    "documentation": "https://github.com/9001/copyparty",
+    "source_code": "https://github.com/9001/copyparty",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/copyparty.webp",
+    "issues": "https://github.com/9001/copyparty/issues",
+    "releases": "https://github.com/9001/copyparty/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-audio.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-markdown-viewer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-play.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-player.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-search.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-thumbnail.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-unpost.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/copyparty-upload.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing Server",
+      "description": "Shares files over HTTP",
+      "core_feature": true
+    },
+    {
+      "title": "Upload and Download",
+      "description": "Transfers files through browser",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restricts file access"
+    },
+    {
+      "title": "Directory Browsing",
+      "description": "Navigates shared folders"
+    },
+    {
+      "title": "Lightweight Server",
+      "description": "Runs with minimal dependencies"
+    },
+    {
+      "title": "Cross-Platform",
+      "description": "Runs on multiple operating systems"
+    },
+    {
+      "title": "Self-Hosted Sharing",
+      "description": "Operates without external services"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/copyparty/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "copyparty_ynh",
+      "url": "https://github.com/YunoHost-Apps/copyparty_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "copyparty",
+      "url": "https://apps.truenas.com/catalog/copyparty"
+    }
+  },
+  "demo": {
+    "url": "https://a.ocv.me/pub/demo/",
+    "username": null,
+    "password": null
+  }
+}

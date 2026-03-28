@@ -1,0 +1,91 @@
+{
+  "name": "yourls",
+  "slug": "yourls",
+  "tagline": "A self-hosted URL shortener with custom keywords, stats, and plugin support",
+  "subtitle": "",
+  "description": "YOURLS is a self-hosted URL shortener that generates short links with optional custom keywords and stats. It supports plugins, APIs, and multiple users, offering a private alternative to public shortening services.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.10.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-11",
+    "date_last_commit": "2026-02-02",
+    "github_stars": 11844,
+    "github_contributors": 94,
+    "github_commits_this_year": 13,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://yourls.org",
+    "documentation": "https://yourls.org/docs",
+    "source_code": "https://github.com/YOURLS/YOURLS",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/yourls.webp",
+    "issues": "https://github.com/YOURLS/YOURLS/issues",
+    "releases": "https://github.com/YOURLS/YOURLS/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/yourls-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "URL Shortening",
+      "description": "Create and manage short URLs",
+      "core_feature": true
+    },
+    {
+      "title": "Custom Keywords",
+      "description": "Define custom short URL slugs",
+      "core_feature": true
+    },
+    {
+      "title": "Click Tracking",
+      "description": "Track link usage statistics",
+      "core_feature": true
+    },
+    {
+      "title": "API Access",
+      "description": "Manage links programmatically"
+    },
+    {
+      "title": "Plugin Support",
+      "description": "Extend functionality with plugins"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the shortener on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/yourls/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "yourls_ynh",
+      "url": "https://github.com/YunoHost-Apps/yourls_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

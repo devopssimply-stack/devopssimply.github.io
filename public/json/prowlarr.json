@@ -1,0 +1,104 @@
+{
+  "name": "prowlarr",
+  "slug": "prowlarr",
+  "tagline": "An indexer manager for Usenet and torrents integrating with *arr apps",
+  "subtitle": "",
+  "description": "Prowlarr is a self-hosted indexer manager for Usenet and torrent indexers. It integrates with Radarr, Sonarr, and Lidarr for managing indexer sources and fetching metadata via a unified UI.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.3.0.5236",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-16",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6177,
+    "github_contributors": 306,
+    "github_commits_this_year": 12,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://prowlarr.com",
+    "documentation": "https://wiki.servarr.com/prowlarr",
+    "source_code": "https://github.com/Prowlarr/Prowlarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/prowlarr.webp",
+    "issues": "https://github.com/Prowlarr/Prowlarr/issues",
+    "releases": "https://github.com/Prowlarr/Prowlarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/prowlarr-indexer-index.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Indexer Management",
+      "description": "Manage and configure indexers for media automation",
+      "core_feature": true
+    },
+    {
+      "title": "Application Integration",
+      "description": "Sync indexers with supported media applications",
+      "core_feature": true
+    },
+    {
+      "title": "Search Aggregation",
+      "description": "Perform unified searches across multiple indexers",
+      "core_feature": true
+    },
+    {
+      "title": "Health Monitoring",
+      "description": "Monitor indexer availability and errors"
+    },
+    {
+      "title": "API Access",
+      "description": "Expose indexer data via an API"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/prowlarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "prowlarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=prowlarr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "prowlarr_ynh",
+      "url": "https://github.com/YunoHost-Apps/prowlarr_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "prowlarr",
+      "url": "https://apps.truenas.com/catalog/prowlarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

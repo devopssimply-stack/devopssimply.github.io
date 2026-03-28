@@ -1,0 +1,60 @@
+# ===============================
+# Docker Compose (FreshRSS)
+# ===============================
+# host: http://localhost:8080
+# username: set via web UI (FreshRSS installer)
+# password: set via web UI
+
+services:
+  db:
+    image: mariadb:10.11
+    container_name: freshrss_db
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=ChangeRootDBPass
+      - MYSQL_DATABASE=freshrss
+      - MYSQL_USER=freshrss
+      - MYSQL_PASSWORD=ChangeFreshrssDBPass
+    volumes:
+      - freshrss_db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p$${MYSQL_ROOT_PASSWORD}"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  freshrss:
+    image: freshrss/freshrss:latest
+    container_name: freshrss
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    environment:
+      # Database connection
+      - FR_RSS_DB_TYPE=mysql
+      - FR_RSS_DB_HOST=db
+      - FR_RSS_DB_NAME=freshrss
+      - FR_RSS_DB_USER=freshrss
+      - FR_RSS_DB_PASS=ChangeFreshrssDBPass
+      - FR_RSS_DB_PORT=3306
+
+      # Optional recommended values
+      #- TZ=UTC
+      #- FR_RSS_PHP_MAX_EXECUTION_TIME=300
+      #- FR_RSS_PHP_MEMORY_LIMIT=512M
+    volumes:
+      # Persist user data and configs
+      - freshrss_data:/var/www/FreshRSS/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:80/p/ping.php || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  freshrss_db_data:
+  freshrss_data:

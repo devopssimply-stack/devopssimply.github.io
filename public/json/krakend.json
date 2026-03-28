@@ -1,0 +1,86 @@
+{
+  "name": "krakend",
+  "slug": "krakend",
+  "tagline": "An API gateway and aggregator for managing and scaling microservices",
+  "subtitle": "",
+  "description": "KrakenD CE is an API gateway and aggregator that sits in front of microservices. It combines and transforms responses, handles rate limiting and authentication, and lets teams define configurations as code for scalable API front ends.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v2.13.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2559,
+    "github_contributors": 26,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.krakend.io",
+    "documentation": "https://www.krakend.io/docs",
+    "source_code": "https://github.com/krakend/krakend-ce",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/krakend.webp",
+    "issues": "https://github.com/krakend/krakend-ce/issues",
+    "releases": "https://github.com/krakend/krakend-ce/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/krakend-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "API Gateway",
+      "description": "Route and aggregate requests to backend services",
+      "core_feature": true
+    },
+    {
+      "title": "Request Aggregation",
+      "description": "Combine responses from multiple services into one endpoint",
+      "core_feature": true
+    },
+    {
+      "title": "Protocol Support",
+      "description": "Handle HTTP-based APIs and services",
+      "core_feature": true
+    },
+    {
+      "title": "Traffic Management",
+      "description": "Control request flow and routing behavior"
+    },
+    {
+      "title": "Configuration-Based Setup",
+      "description": "Define gateway behavior using configuration files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the API gateway on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/krakend/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

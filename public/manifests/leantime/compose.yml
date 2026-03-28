@@ -1,0 +1,49 @@
+# ===============================
+# Docker Compose (Leantime)
+# ===============================
+# host: http://localhost:8080
+# username: admin (created on first setup)
+# password: (set during installation)
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: leantime-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: leantime
+      POSTGRES_USER: leantime
+      POSTGRES_PASSWORD: leantime
+    volumes:
+      - leantime_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U leantime"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  leantime:
+    image: leantime/leantime:latest
+    container_name: leantime
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      LEAN_DB_HOST: postgres
+      LEAN_DB_USER: leantime
+      LEAN_DB_PASSWORD: leantime
+      LEAN_DB_DATABASE: leantime
+    ports:
+      - "8080:80"
+    volumes:
+      - leantime_public_data:/var/www/html/userfiles
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  leantime_postgres_data:
+  leantime_public_data:

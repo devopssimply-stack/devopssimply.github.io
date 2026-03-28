@@ -1,0 +1,103 @@
+{
+  "name": "jellyfin",
+  "slug": "jellyfin",
+  "tagline": "A free and open source media server for streaming movies, shows, and music",
+  "subtitle": "",
+  "description": "Jellyfin is a free, open source media server that organizes and streams movies, shows and music to many devices. It offers multi user libraries, live TV, hardware transcoding and a wide ecosystem of clients, all fully self hosted.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v10.11.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-19",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 49094,
+    "github_contributors": 372,
+    "github_commits_this_year": 179,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://jellyfin.org",
+    "documentation": "https://jellyfin.org/docs",
+    "source_code": "https://github.com/jellyfin/jellyfin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jellyfin.webp",
+    "issues": "https://github.com/jellyfin/jellyfin/issues",
+    "releases": "https://github.com/jellyfin/jellyfin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellyfin-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellyfin-library.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellyfin-media.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellyfin-play.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Server",
+      "description": "Streams personal media libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organizes movies shows music",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Client Support",
+      "description": "Supports web mobile TV clients"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates libraries per user"
+    },
+    {
+      "title": "Metadata Fetching",
+      "description": "Retrieves artwork and descriptions"
+    },
+    {
+      "title": "Self-Hosted Streaming",
+      "description": "Runs media server locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/jellyfin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "jellyfin",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyfin"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "jellyfin_ynh",
+      "url": "https://github.com/YunoHost-Apps/jellyfin_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "jellyfin",
+      "url": "https://apps.truenas.com/catalog/jellyfin"
+    }
+  },
+  "demo": {
+    "url": "https://demo.jellyfin.org/stable/web/#/home",
+    "username": null,
+    "password": null
+  }
+}

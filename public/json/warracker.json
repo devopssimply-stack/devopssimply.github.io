@@ -1,0 +1,98 @@
+{
+  "name": "warracker",
+  "slug": "warracker",
+  "tagline": "A tracker for game achievements and competitive stats with dashboards",
+  "subtitle": "",
+  "description": "Warracker is a self-hosted tracker for game achievements or war reports, collecting stats and presenting them in dashboards and leaderboards via a browser interface.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.0.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-30",
+    "date_last_commit": "2026-02-02",
+    "github_stars": 1280,
+    "github_contributors": 7,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://warracker.com",
+    "documentation": "https://github.com/sassanix/Warracker",
+    "source_code": "https://github.com/sassanix/Warracker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/warracker.webp",
+    "issues": "https://github.com/sassanix/Warracker/issues",
+    "releases": "https://github.com/sassanix/Warracker/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warracker-dashboard-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warracker-dashboard-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/warracker-status-dashboard-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Warranty Tracking",
+      "description": "Track product warranties",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Alerts",
+      "description": "Receive alerts before warranty expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Product Records",
+      "description": "Store purchase and warranty details",
+      "core_feature": true
+    },
+    {
+      "title": "Document Storage",
+      "description": "Store warranty documents"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage warranties in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/warracker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "warracker",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=warracker"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "warracker",
+      "url": "https://apps.truenas.com/catalog/warracker"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

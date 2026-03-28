@@ -1,0 +1,85 @@
+{
+  "name": "operational",
+  "slug": "operational",
+  "tagline": "A platform for building and sharing team workflows and playbooks",
+  "subtitle": "",
+  "description": "Operational.co is a self-hosted platform for building shareable checklists, workflows, and playbooks. It features templates, permissions, and a modern UI for organizing processes across teams.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.3.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-10",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 438,
+    "github_contributors": 2,
+    "github_commits_this_year": 6,
+    "github_issues_open": 9,
+    "github_issues_closed_this_year": 1,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://operational.co",
+    "documentation": "https://operational.co/docs/start-here",
+    "source_code": "https://github.com/operational-co/operational.co",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/operational.webp",
+    "issues": "https://github.com/operational-co/operational.co/issues",
+    "releases": "https://github.com/operational-co/operational.co/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/operational-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/operational-events.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/operational-playground.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/operational-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Operational Visibility",
+      "description": "Track system and application status",
+      "core_feature": true
+    },
+    {
+      "title": "Incident Management",
+      "description": "Record and manage operational incidents"
+    },
+    {
+      "title": "Alerts",
+      "description": "Notify on operational anomalies"
+    },
+    {
+      "title": "Dashboards",
+      "description": "Visualize status and metrics"
+    },
+    {
+      "title": "Integration Support",
+      "description": "Connect with monitoring services"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the operations platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/operational/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://app.operational.co",
+    "username": null,
+    "password": null
+  }
+}

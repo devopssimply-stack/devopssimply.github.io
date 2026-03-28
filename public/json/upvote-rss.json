@@ -1,0 +1,91 @@
+{
+  "name": "upvote-rss",
+  "slug": "upvote-rss",
+  "tagline": "An RSS-based link sharing platform with voting and discussions",
+  "subtitle": "",
+  "description": "Upvote RSS is a self-hosted platform that turns RSS feeds into a link-sharing site with voting and discussion, similar to a lightweight social news or Hacker News clone.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.8.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-22",
+    "date_last_commit": "2025-09-22",
+    "github_stars": 467,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.upvote-rss.com/",
+    "documentation": "https://github.com/johnwarne/upvote-rss",
+    "source_code": "https://github.com/johnwarne/upvote-rss",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/upvote-rss.webp",
+    "issues": "https://github.com/johnwarne/upvote-rss/issues",
+    "releases": "https://github.com/johnwarne/upvote-rss/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/upvote-rss-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "RSS Generation",
+      "description": "Generate RSS feeds from upvoted content",
+      "core_feature": true
+    },
+    {
+      "title": "Platform Integration",
+      "description": "Pull data from supported platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Customization",
+      "description": "Configure generated feed content",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Updates",
+      "description": "Refresh feeds automatically"
+    },
+    {
+      "title": "Output Feeds",
+      "description": "Consume feeds in RSS readers"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the generator on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/upvote-rss/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "upvote-rss_ynh",
+      "url": "https://github.com/YunoHost-Apps/upvote-rss_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

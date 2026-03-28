@@ -1,0 +1,31 @@
+# ===============================
+# Docker Compose (Grimoire)
+# ===============================
+# host: http://localhost:5173
+# username: created via UI on first run
+# password: created via UI on first run
+
+services:
+  grimoire:
+    image: goniszewski/grimoire:latest
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    environment:
+      # Grimoire listens on this port internally
+      - PORT=5173
+      # Allow plain HTTP (disable HTTPS only if using reverse proxy)
+      - PUBLIC_HTTPS_ONLY=false
+      # Allow user signup via UI (toggle false to disable)
+      - PUBLIC_SIGNUP_DISABLED=false
+    volumes:
+      # Persistent data (bookmarks, users, metadata, etc.)
+      - grimoire-data:/app/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget --quiet --tries=1 --spider http://localhost:5173/api/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  grimoire-data:

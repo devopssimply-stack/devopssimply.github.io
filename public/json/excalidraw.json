@@ -1,0 +1,108 @@
+{
+  "name": "excalidraw",
+  "slug": "excalidraw",
+  "tagline": "A collaborative whiteboard for sketching diagrams with a hand-drawn style",
+  "subtitle": "",
+  "description": "Excalidraw is an open-source virtual whiteboard for hand-drawn style diagrams, sketches, and collaboration. It supports real-time multi-user sessions, exports, and can be embedded or self-hosted as part of documentation or design workflows.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.18.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-11",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 118135,
+    "github_contributors": 338,
+    "github_commits_this_year": 67,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://excalidraw.com",
+    "documentation": "https://docs.excalidraw.com/docs",
+    "source_code": "https://github.com/excalidraw/excalidraw",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/excalidraw.webp",
+    "issues": "https://github.com/excalidraw/excalidraw/issues",
+    "releases": "https://github.com/excalidraw/excalidraw/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/excalidraw-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Collaborative Whiteboard",
+      "description": "Draws diagrams collaboratively",
+      "core_feature": true
+    },
+    {
+      "title": "Freehand Drawing",
+      "description": "Creates hand-drawn style diagrams",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Collaboration",
+      "description": "Edits drawings with multiple users"
+    },
+    {
+      "title": "Export Options",
+      "description": "Exports drawings to image formats"
+    },
+    {
+      "title": "Infinite Canvas",
+      "description": "Provides unlimited drawing space"
+    },
+    {
+      "title": "Offline Support",
+      "description": "Works without network connection"
+    },
+    {
+      "title": "File Import",
+      "description": "Imports existing drawings"
+    },
+    {
+      "title": "Self-Hosted Option",
+      "description": "Can be deployed privately"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/excalidraw/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "excalidraw",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=excalidraw"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "excalidraw_ynh",
+      "url": "https://github.com/YunoHost-Apps/excalidraw_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "excalidraw",
+      "url": "https://apps.truenas.com/catalog/excalidraw"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

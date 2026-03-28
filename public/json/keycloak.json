@@ -1,0 +1,88 @@
+{
+  "name": "keycloak",
+  "slug": "keycloak",
+  "tagline": "An open source identity and access management platform with SSO",
+  "subtitle": "",
+  "description": "Keycloak is an open source identity and access management solution. It provides SSO, OAuth2 and OpenID Connect, user federation and fine grained authorization policies, and can be self hosted or used as part of managed offerings.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "26.5.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 33171,
+    "github_contributors": 325,
+    "github_commits_this_year": 554,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://www.keycloak.org",
+    "documentation": "https://www.keycloak.org/documentation.html",
+    "source_code": "https://github.com/keycloak/keycloak",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/keycloak.webp",
+    "issues": "https://github.com/keycloak/keycloak/issues",
+    "releases": "https://github.com/keycloak/keycloak/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Identity and Access Management",
+      "description": "Manage authentication and authorization for applications",
+      "core_feature": true
+    },
+    {
+      "title": "Single Sign-On",
+      "description": "Enable users to sign in once across multiple services",
+      "core_feature": true
+    },
+    {
+      "title": "User Federation",
+      "description": "Connect to external user directories"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the identity service on your own infrastructure",
+      "core_feature": true
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/keycloak/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "keycloak",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=keycloak"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "keycloak",
+      "url": "https://apps.truenas.com/catalog/keycloak"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

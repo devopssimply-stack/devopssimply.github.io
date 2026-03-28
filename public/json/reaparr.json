@@ -1,0 +1,84 @@
+{
+  "name": "reaparr",
+  "slug": "reaparr",
+  "tagline": "A dashboard and control panel for managing *arr media automation tools",
+  "subtitle": "",
+  "description": "Reaparr is a self-hosted automation dashboard for managing Pirate streaming tools like Sonarr and Radarr. It features status overviews, control tools, and link management.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.36.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 615,
+    "github_contributors": 5,
+    "github_commits_this_year": 321,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 15
+  },
+  "resources": {
+    "website": "https://www.reaparr.rocks",
+    "documentation": "https://www.reaparr.rocks/docs/getting-started",
+    "source_code": "https://github.com/Reaparr/Reaparr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/reaparr.webp",
+    "issues": "https://github.com/Reaparr/Reaparr/issues",
+    "releases": "https://github.com/Reaparr/Reaparr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reaparr-demo-3-movies-library-1-poster-table.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reaparr-demo-3-movies-library-2-table-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reaparr-demo-4-tv-show-library-1-detail-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reaparr-demo-4-tv-show-library-1-download-confirmation.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reaparr-demo-5-settings-ui-language-select.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reaparr-demo-7-download-screen.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Collection Automation",
+      "description": "Automate media downloads and organization",
+      "core_feature": true
+    },
+    {
+      "title": "Service Integration",
+      "description": "Integrate with media managers and downloaders",
+      "core_feature": true
+    },
+    {
+      "title": "Rule-Based Processing",
+      "description": "Apply rules to media handling"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage automation through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/reaparr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "misskey",
+  "slug": "misskey",
+  "tagline": "A modern federated social media platform with real-time interactions",
+  "subtitle": "",
+  "description": "Misskey is a modern, decentralized social media platform built with ActivityPub. It supports real-time interactions, reactions, custom emoji, themes, and federation across servers.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2026.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 11043,
+    "github_contributors": 292,
+    "github_commits_this_year": 91,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 10
+  },
+  "resources": {
+    "website": "https://misskey-hub.net/",
+    "documentation": "https://misskey-hub.net/en/docs",
+    "source_code": "https://github.com/misskey-dev/misskey",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/misskey.webp",
+    "issues": "https://github.com/misskey-dev/misskey/issues",
+    "releases": "https://github.com/misskey-dev/misskey/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/misskey-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/misskey-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Federated Social Platform",
+      "description": "Host a social networking server with federation",
+      "core_feature": true
+    },
+    {
+      "title": "Posts and Timelines",
+      "description": "Publish posts and view timelines",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage user profiles and settings",
+      "core_feature": true
+    },
+    {
+      "title": "Federation",
+      "description": "Interact with users on other servers",
+      "core_feature": true
+    },
+    {
+      "title": "Reactions",
+      "description": "React to posts with emojis"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manage content and users"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/misskey/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "misskey_ynh",
+      "url": "https://github.com/YunoHost-Apps/misskey_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

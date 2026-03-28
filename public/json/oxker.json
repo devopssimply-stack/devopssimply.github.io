@@ -1,0 +1,78 @@
+{
+  "name": "oxker",
+  "slug": "oxker",
+  "tagline": "A self-hosted dashboard for monitoring Docker containers and events",
+  "subtitle": "",
+  "description": "Oxker is a self-hosted dashboard for monitoring Docker containers. It provides a clean overview of images, container metrics, statuses, and event logs, ideal for homelab environments.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.13.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-02-23",
+    "github_stars": 1548,
+    "github_contributors": 9,
+    "github_commits_this_year": 17,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/mrjackwills/oxker",
+    "documentation": "https://github.com/mrjackwills/oxker",
+    "source_code": "https://github.com/mrjackwills/oxker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/oxker.webp",
+    "issues": "https://github.com/mrjackwills/oxker/issues",
+    "releases": "https://github.com/mrjackwills/oxker/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/oxker-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Browser Cache Viewer",
+      "description": "Inspect cached browser files",
+      "core_feature": true
+    },
+    {
+      "title": "File Extraction",
+      "description": "Extract specific cached items"
+    },
+    {
+      "title": "Search",
+      "description": "Find cached assets by name"
+    },
+    {
+      "title": "Local Usage",
+      "description": "Run the tool locally on a machine"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/oxker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

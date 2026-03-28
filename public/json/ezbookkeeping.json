@@ -1,0 +1,99 @@
+{
+  "name": "ezbookkeeping",
+  "slug": "ezbookkeeping",
+  "tagline": "A self-hosted bookkeeping app for tracking income, expenses, and budgets",
+  "subtitle": "",
+  "description": "ezBookkeeping is a self-hosted bookkeeping and finance management app. It tracks income, expenses, categories, accounts, and budgets, with charts and reports to help individuals or small businesses manage money.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.3.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-30",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 4403,
+    "github_contributors": 23,
+    "github_commits_this_year": 191,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://ezbookkeeping.mayswind.net",
+    "documentation": "https://github.com/mayswind/ezbookkeeping",
+    "source_code": "https://github.com/mayswind/ezbookkeeping",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ezbookkeeping.webp",
+    "issues": "https://github.com/mayswind/ezbookkeeping/issues",
+    "releases": "https://github.com/mayswind/ezbookkeeping/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ezbookkeeping-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ezbookkeeping-account.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ezbookkeeping-insight-explorer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ezbookkeeping-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ezbookkeeping-transaction-details.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Accounting",
+      "description": "Manages personal income and expenses",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Account Support",
+      "description": "Tracks multiple financial accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Category-Based Transactions",
+      "description": "Organizes records by categories",
+      "core_feature": true
+    },
+    {
+      "title": "Transfer Handling",
+      "description": "Records transfers between accounts"
+    },
+    {
+      "title": "Reports and Statistics",
+      "description": "Generates financial summaries"
+    },
+    {
+      "title": "Import and Export",
+      "description": "Imports and exports accounting data"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages finances through a browser"
+    },
+    {
+      "title": "Self-Hosted Accounting",
+      "description": "Runs on user-managed infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ezbookkeeping/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://ezbookkeeping-demo.mayswind.net/desktop#/login",
+    "username": "demo",
+    "password": "ezbookkeeping"
+  }
+}

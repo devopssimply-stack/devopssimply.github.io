@@ -1,0 +1,74 @@
+{
+  "name": "backuppc",
+  "slug": "backuppc",
+  "tagline": "A network backup system with deduplication and centralized management",
+  "subtitle": "",
+  "description": "BackupPC is a high-performance network backup system designed for servers and desktops. It features disk-based storage, deduplication, a web interface, and extensive scheduling for hands-off data protection.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "4.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2020-06-20",
+    "date_last_commit": "2025-12-17",
+    "github_stars": 1565,
+    "github_contributors": 44,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://backuppc.github.io/backuppc",
+    "documentation": "https://github.com/backuppc/backuppc",
+    "source_code": "https://github.com/backuppc/backuppc",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/backuppc.webp",
+    "issues": "https://github.com/backuppc/backuppc/issues",
+    "releases": "https://github.com/backuppc/backuppc/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/backuppc-backuplog.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/backuppc-edit-config.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network Backup System",
+      "description": "Perform centralized backups for multiple machines",
+      "core_feature": true
+    },
+    {
+      "title": "Incremental Backups",
+      "description": "Reduce storage usage using incremental backups",
+      "core_feature": true
+    },
+    {
+      "title": "File Restoration",
+      "description": "Restore files from previous backup versions"
+    },
+    {
+      "title": "Client Support",
+      "description": "Back up Linux, macOS, and Windows systems"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Monitor and manage backups through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

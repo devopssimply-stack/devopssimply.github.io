@@ -1,0 +1,85 @@
+{
+  "name": "operately",
+  "slug": "operately",
+  "tagline": "A team planning and execution platform for goals, updates, and meetings",
+  "subtitle": "",
+  "description": "Operately is a self-hosted planning and execution framework for teams. It enables goal setting, progress tracking, meeting agendas, and weekly updates in a clean collaborative dashboard.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "1.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 423,
+    "github_contributors": 12,
+    "github_commits_this_year": 207,
+    "github_issues_open": 130,
+    "github_issues_closed_this_year": 52,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://operately.com",
+    "documentation": "https://operately.com/install",
+    "source_code": "https://github.com/operately/operately",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/operately.webp",
+    "issues": "https://github.com/operately/operately/issues",
+    "releases": "https://github.com/operately/operately/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/operately-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/operately-sample-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Team Performance Reviews",
+      "description": "Conduct reviews and feedback cycles",
+      "core_feature": true
+    },
+    {
+      "title": "Goal Tracking",
+      "description": "Define and track performance goals"
+    },
+    {
+      "title": "Review Templates",
+      "description": "Use templates for consistent reviews"
+    },
+    {
+      "title": "Feedback Collection",
+      "description": "Collect peer and manager feedback"
+    },
+    {
+      "title": "Reporting",
+      "description": "View review outcomes and trends"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the performance platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/operately/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,50 @@
+# ===============================
+# Docker Compose (Zipline)
+# ===============================
+# host: http://localhost:3000
+# username: (create in app)
+# password: (create in app)
+
+services:
+  postgresql:
+    image: postgres:16
+    container_name: zipline_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: "zipline"
+      POSTGRES_PASSWORD: "changeme"
+      POSTGRES_DB: "zipline"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "zipline"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  zipline:
+    image: ghcr.io/diced/zipline:latest
+    container_name: zipline_app
+    restart: unless-stopped
+    depends_on:
+      postgresql:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "postgres://zipline:changeme@postgresql:5432/zipline"
+    volumes:
+      - uploads_data:/zipline/uploads
+      - public_data:/zipline/public
+      - themes_data:/zipline/themes
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/api/healthcheck"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  db_data:
+  uploads_data:
+  public_data:
+  themes_data:

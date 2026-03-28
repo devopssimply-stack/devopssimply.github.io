@@ -1,0 +1,90 @@
+{
+  "name": "hoodik",
+  "slug": "hoodik",
+  "tagline": "An open source platform for error and performance monitoring",
+  "subtitle": "",
+  "description": "Hoodik is an open source alternative to Sentry for error and performance monitoring. It collects application events and shows them in a unified dashboard with filtering and alerting to help developers fix issues faster.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "CC BY-NC 4.0",
+    "version": "v1.8.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-22",
+    "date_last_commit": "2025-12-22",
+    "github_stars": 1009,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/hudikhq/hoodik",
+    "documentation": "https://github.com/hudikhq/hoodik",
+    "source_code": "https://github.com/hudikhq/hoodik",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hoodik.webp",
+    "issues": "https://github.com/hudikhq/hoodik/issues",
+    "releases": "https://github.com/hudikhq/hoodik/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hoodik-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Community Platform",
+      "description": "Hosts community discussions and interactions",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Manages member identities"
+    },
+    {
+      "title": "Content Posting",
+      "description": "Allows publishing posts and updates"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Controls content and users"
+    },
+    {
+      "title": "Notification System",
+      "description": "Informs users about activity"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Accesses the platform via browser"
+    },
+    {
+      "title": "Role Management",
+      "description": "Assigns permissions to users"
+    },
+    {
+      "title": "Self-Hosted Community",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hoodik/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

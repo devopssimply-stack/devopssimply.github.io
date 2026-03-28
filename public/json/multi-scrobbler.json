@@ -1,0 +1,79 @@
+{
+  "name": "multi-scrobbler",
+  "slug": "multi-scrobbler",
+  "tagline": "A self-hosted service for scrobbling music listens across platforms",
+  "subtitle": "",
+  "description": "Multi-Scrobbler pulls listening data from multiple music services like Spotify and Last.fm and sends scrobbles to multiple platforms. It runs as a self-hosted background service with a minimal web configuration UI.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.11.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-12",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 953,
+    "github_contributors": 18,
+    "github_commits_this_year": 206,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://foxxmd.github.io/multi-scrobbler",
+    "documentation": "https://foxxmd.github.io/multi-scrobbler/installation",
+    "source_code": "https://github.com/FoxxMD/multi-scrobbler",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/multi-scrobbler.webp",
+    "issues": "https://github.com/FoxxMD/multi-scrobbler/issues",
+    "releases": "https://github.com/FoxxMD/multi-scrobbler/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/multi-scrobbler-status-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Scrobbling",
+      "description": "Send listening history to multiple services",
+      "core_feature": true
+    },
+    {
+      "title": "Service Integration",
+      "description": "Connect to supported scrobbling services",
+      "core_feature": true
+    },
+    {
+      "title": "Playback Monitoring",
+      "description": "Detect music playback events"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Configure services and credentials"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the scrobbler on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/multi-scrobbler/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://foxxmd.github.io/multi-scrobbler/playground/",
+    "username": null,
+    "password": null
+  }
+}

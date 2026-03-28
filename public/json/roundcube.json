@@ -1,0 +1,105 @@
+{
+  "name": "roundcube",
+  "slug": "roundcube",
+  "tagline": "A self-hosted webmail client with IMAP support and extensible plugins",
+  "subtitle": "",
+  "description": "Roundcube is a self-hosted webmail client with IMAP support, rich text editing, plugin architecture, and privacy-focused interface. It’s designed to be extensible and secure.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU",
+    "version": "1.6.13",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-08",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6835,
+    "github_contributors": 285,
+    "github_commits_this_year": 21,
+    "github_issues_open": 372,
+    "github_issues_closed_this_year": 29,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://roundcube.net",
+    "documentation": "https://github.com/roundcube/roundcubemail/blob/master/docs/INSTALL.md",
+    "source_code": "https://github.com/roundcube/roundcubemail",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/roundcube.webp",
+    "issues": "https://github.com/roundcube/roundcubemail/issues",
+    "releases": "https://github.com/roundcube/roundcubemail/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-compose.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-contacts-edit.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-contacts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-mailbox-cn.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-mailbox-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-mailbox-widescreen.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-settings-enigma.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-settings-folders.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-settings-identities.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-settings-managesieve.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-settings-preferences.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/roundcube-viewmail.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Webmail Client",
+      "description": "Send and receive email in a browser",
+      "core_feature": true
+    },
+    {
+      "title": "IMAP Support",
+      "description": "Connect to IMAP mail servers",
+      "core_feature": true
+    },
+    {
+      "title": "Folder Management",
+      "description": "Organize mail into folders"
+    },
+    {
+      "title": "Search",
+      "description": "Find messages by keyword"
+    },
+    {
+      "title": "Address Book",
+      "description": "Store and manage contacts"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/roundcube/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "roundcube_ynh",
+      "url": "https://github.com/YunoHost-Apps/roundcube_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "roundcube",
+      "url": "https://apps.truenas.com/catalog/roundcube"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

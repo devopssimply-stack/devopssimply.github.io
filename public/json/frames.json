@@ -1,0 +1,82 @@
+{
+  "name": "frames",
+  "slug": "frames",
+  "tagline": "A self-hosted framework for building simple dashboards and start pages",
+  "subtitle": "",
+  "description": "Frames is a simple self-hosted dashboard framework for presenting styled cards, metrics, and links. It allows users to create personalized start pages for servers or projects using a minimal config file.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-11-07",
+    "github_stars": 490,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/eleven-am/frames",
+    "documentation": "https://github.com/eleven-am/frames",
+    "source_code": "https://github.com/eleven-am/frames",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/frames.webp",
+    "issues": "https://github.com/eleven-am/frames/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Screenshot Management",
+      "description": "Capture and organize screenshots in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Image Gallery",
+      "description": "Browse screenshots in a structured gallery view",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Assign tags to screenshots for organization",
+      "core_feature": true
+    },
+    {
+      "title": "Image Metadata",
+      "description": "View capture time and image details"
+    },
+    {
+      "title": "Search",
+      "description": "Find screenshots using tags and text search"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the screenshot manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/frames/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "lurker",
+  "slug": "lurker",
+  "tagline": "A file system watcher that triggers scripts and automation workflows",
+  "subtitle": "",
+  "description": "Lurker monitors files and directories for changes and executes shell commands, scripts, or hooks. It’s ideal for build pipelines, development workflows, or automated tasks triggered by file system events.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-20",
+    "github_stars": 329,
+    "github_contributors": 8,
+    "github_commits_this_year": 2,
+    "github_issues_open": 9,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/oppiliappan/lurker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lurker.webp",
+    "issues": "https://github.com/oppiliappan/lurker/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-collapse.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-comments.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-gallery.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-home.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-invite.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-search.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-subreddit.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lurker-subs.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Repository Activity Viewer",
+      "description": "Browse commits, branches, and repository activity",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "View repository data through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Commit History",
+      "description": "Inspect commit messages and diffs",
+      "core_feature": true
+    },
+    {
+      "title": "Branch Navigation",
+      "description": "Switch and explore repository branches"
+    },
+    {
+      "title": "Read-Only Access",
+      "description": "Provide repository browsing without write access"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the repository viewer on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lurker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

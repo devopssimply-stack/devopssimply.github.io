@@ -1,0 +1,107 @@
+{
+  "name": "lidarr",
+  "slug": "lidarr",
+  "tagline": "An automated music management and download system for self-hosted libraries",
+  "subtitle": "",
+  "description": "Lidarr is an automated music management and download system. It integrates with download clients and metadata providers to automatically fetch albums or tracks while organizing your local music library.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v3.1.0.4875",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-16",
+    "date_last_commit": "2026-01-18",
+    "github_stars": 5097,
+    "github_contributors": 203,
+    "github_commits_this_year": 5,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "http://lidarr.audio/",
+    "documentation": "https://wiki.servarr.com/en/lidarr",
+    "source_code": "https://github.com/Lidarr/Lidarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lidarr.webp",
+    "issues": "https://github.com/Lidarr/Lidarr/issues",
+    "releases": "https://github.com/Lidarr/Lidarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lidarr-import-lists.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lidarr-metadata.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lidarr-organizr.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lidarr-self-hosted-main.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Library Management",
+      "description": "Manage and organize music libraries automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Artist Monitoring",
+      "description": "Monitor artists for new releases",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Downloads",
+      "description": "Download music using supported download clients",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Apply metadata and artwork to music files"
+    },
+    {
+      "title": "Library Organization",
+      "description": "Rename and organize files automatically"
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Manage the music library through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lidarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "lidarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=lidarr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "lidarr_ynh",
+      "url": "https://github.com/YunoHost-Apps/lidarr_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "lidarr",
+      "url": "https://apps.truenas.com/catalog/lidarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

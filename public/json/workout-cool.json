@@ -1,0 +1,92 @@
+{
+  "name": "workout-cool",
+  "slug": "workout-cool",
+  "tagline": "A simple web-based workout planner and tracker for routines and sessions",
+  "subtitle": "",
+  "description": "workout-cool is a self-hosted workout planner and tracker focused on simplicity. Users can define routines, record sessions, and review history via an accessible web UI suitable on desktop and mobile.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.3.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-07",
+    "date_last_commit": "2026-02-03",
+    "github_stars": 6965,
+    "github_contributors": 14,
+    "github_commits_this_year": 2,
+    "github_issues_open": 28,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://workout.cool",
+    "documentation": "https://github.com/Snouzy/workout-cool",
+    "source_code": "https://github.com/Snouzy/workout-cool",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/workout-cool.webp",
+    "issues": "https://github.com/Snouzy/workout-cool/issues",
+    "releases": "https://github.com/Snouzy/workout-cool/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/workout-cool-apps.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/workout-cool-leaderboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Workout Planning",
+      "description": "Plan workout routines",
+      "core_feature": true
+    },
+    {
+      "title": "Exercise Library",
+      "description": "Browse available exercises",
+      "core_feature": true
+    },
+    {
+      "title": "Progress Tracking",
+      "description": "Track workout progress",
+      "core_feature": true
+    },
+    {
+      "title": "Training History",
+      "description": "View past workouts"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage workouts in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the planner on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/workout-cool/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "workout-cool_ynh",
+      "url": "https://github.com/YunoHost-Apps/workout-cool_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

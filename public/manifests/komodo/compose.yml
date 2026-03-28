@@ -1,0 +1,26 @@
+# ===============================
+# Docker Compose (Komodo)
+# ===============================
+# host: http://localhost:3000
+# username: (set during setup)
+# password: (set during setup)
+
+services:
+  komodo:
+    image: ghcr.io/moghtech/komodo:latest
+    container_name: komodo
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      TZ: Etc/UTC
+    volumes:
+      - komodo_data:/app/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:3000 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  komodo_data:

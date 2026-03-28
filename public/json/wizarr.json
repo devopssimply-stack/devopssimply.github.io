@@ -1,0 +1,102 @@
+{
+  "name": "wizarr",
+  "slug": "wizarr",
+  "tagline": "An invite management portal for Plex and Jellyfin media servers",
+  "subtitle": "",
+  "description": "Wizarr is a self-hosted invite management portal for media servers like Jellyfin and Plex. It streamlines onboarding by generating invite links, collecting user details, and provisioning accounts via a friendly web front-end.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2025.12.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-09",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 2674,
+    "github_contributors": 105,
+    "github_commits_this_year": 78,
+    "github_issues_open": 84,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://docs.wizarr.dev",
+    "documentation": "https://docs.wizarr.dev",
+    "source_code": "https://github.com/wizarrrr/wizarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wizarr.webp",
+    "issues": "https://github.com/wizarrrr/wizarr/issues",
+    "releases": "https://github.com/wizarrrr/wizarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wizarr-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wizarr-edit-servers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wizarr-edit-wizard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wizarr-invitations.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wizarr-new-accept-plex-invite.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wizarr-users.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wizarr-wizard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Server Invitations",
+      "description": "Invite users to media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Onboarding Pages",
+      "description": "Provide guided onboarding for users",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Invitation Management",
+      "description": "Manage active invitations"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage invitations in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wizarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "wizarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=wizarr"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "wizarr",
+      "url": "https://apps.truenas.com/catalog/wizarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

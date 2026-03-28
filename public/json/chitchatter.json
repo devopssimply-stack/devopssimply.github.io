@@ -1,0 +1,94 @@
+{
+  "name": "chitchatter",
+  "slug": "chitchatter",
+  "tagline": "A peer-to-peer chat application running directly in the browser",
+  "subtitle": "",
+  "description": "Chitchatter is a self-hosted, peer-to-peer chat client that works directly in the browser without servers. It uses WebRTC for secure and decentralized communications and requires no login or signup.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-28",
+    "github_stars": 2190,
+    "github_contributors": 18,
+    "github_commits_this_year": 14,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/jeremyckahn/chitchatter",
+    "documentation": "https://github.com/jeremyckahn/chitchatter",
+    "source_code": "https://github.com/jeremyckahn/chitchatter",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/chitchatter.webp",
+    "issues": "https://github.com/jeremyckahn/chitchatter/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chitchatter-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Peer-to-Peer Messaging",
+      "description": "Direct messaging without centralized servers",
+      "core_feature": true
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Messages are securely encrypted between users",
+      "core_feature": true
+    },
+    {
+      "title": "Decentralized Chat",
+      "description": "Serverless communication using peer-to-peer networks"
+    },
+    {
+      "title": "Ephemeral Messages",
+      "description": "Messages disappear after being viewed or after a time"
+    },
+    {
+      "title": "Audio & Video Calls",
+      "description": "Supports secure voice and video communication"
+    },
+    {
+      "title": "Browser File Sharing",
+      "description": "Transfer files directly through the browser"
+    },
+    {
+      "title": "Self-Hosted Open Source",
+      "description": "Fully open-source and deployable on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/chitchatter/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "chitchatter_ynh",
+      "url": "https://github.com/YunoHost-Apps/chitchatter_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://chitchatter.im",
+    "username": null,
+    "password": null
+  }
+}

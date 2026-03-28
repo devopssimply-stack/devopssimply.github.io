@@ -1,0 +1,77 @@
+{
+  "name": "zoneminder",
+  "slug": "zoneminder",
+  "tagline": "A video surveillance system for monitoring, motion detection, and alerts",
+  "subtitle": "",
+  "description": "ZoneMinder is a self-hosted video surveillance system. It captures, monitors, and analyzes video from cameras, supports motion detection and alerting, and exposes a web UI for configuration and viewing.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "1.38.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-01",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 5759,
+    "github_contributors": 284,
+    "github_commits_this_year": 619,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "http://www.zoneminder.com/",
+    "documentation": "https://zoneminder.readthedocs.io/en/latest",
+    "source_code": "https://github.com/ZoneMinder/zoneminder",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zoneminder.webp",
+    "issues": "https://github.com/ZoneMinder/zoneminder/issues",
+    "releases": "https://github.com/ZoneMinder/zoneminder/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Video Surveillance",
+      "description": "Monitor and record camera feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Motion Detection",
+      "description": "Detect motion in video streams",
+      "core_feature": true
+    },
+    {
+      "title": "Camera Management",
+      "description": "Manage multiple cameras"
+    },
+    {
+      "title": "Event Recording",
+      "description": "Record events based on triggers"
+    },
+    {
+      "title": "Web Interface",
+      "description": "View cameras through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/zoneminder/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

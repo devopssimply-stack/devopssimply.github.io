@@ -1,0 +1,91 @@
+{
+  "name": "linkace",
+  "slug": "linkace",
+  "tagline": "A self-hosted bookmark archive with tags, notes, and link checking",
+  "subtitle": "",
+  "description": "LinkAce is a self-hosted bookmark archive with tags, notes, link checking, and archive.org integration. It allows saving and organizing web links privately or publicly and supports API and imports.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.5.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-12",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 3251,
+    "github_contributors": 24,
+    "github_commits_this_year": 11,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.linkace.org",
+    "documentation": "https://www.linkace.org/docs",
+    "source_code": "https://github.com/Kovah/LinkAce",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/linkace.webp",
+    "issues": "https://github.com/Kovah/LinkAce/issues",
+    "releases": "https://github.com/Kovah/LinkAce/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/linkace-dashboard-preview-2.0.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Bookmark Management",
+      "description": "Save and organize bookmarks in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize bookmarks using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Lists and Collections",
+      "description": "Group bookmarks into lists",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find bookmarks using full-text search"
+    },
+    {
+      "title": "Metadata Fetching",
+      "description": "Automatically retrieve titles and descriptions for links"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the bookmark manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/linkace/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "linkace_ynh",
+      "url": "https://github.com/YunoHost-Apps/linkace_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.linkace.org/guest/links",
+    "username": null,
+    "password": null
+  }
+}

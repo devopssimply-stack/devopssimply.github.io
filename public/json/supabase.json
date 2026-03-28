@@ -1,0 +1,94 @@
+{
+  "name": "supabase",
+  "slug": "supabase",
+  "tagline": "An open-source backend platform with Postgres, auth, storage, and real-time APIs",
+  "subtitle": "",
+  "description": "Supabase is an open-source Firebase alternative providing Postgres, authentication, storage, and real-time APIs. It can be self-hosted or used as a fully managed cloud service.",
+  "categories": [
+    17
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.26.03",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 98612,
+    "github_contributors": 389,
+    "github_commits_this_year": 897,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://supabase.com",
+    "documentation": "https://supabase.com/docs",
+    "source_code": "https://github.com/supabase/supabase",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/supabase.webp",
+    "issues": "https://github.com/supabase/supabase/issues",
+    "releases": "https://github.com/supabase/supabase/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-4.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-04-query-booking.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-05-make-booking.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-local-studio.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-logs-auth.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-logs-database.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-logs-explorer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-logs-functions-edge.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-logs-functions.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-logs-realtime.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/supabase-logs-storage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Backend Platform",
+      "description": "Provide backend services for web and mobile apps",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication",
+      "description": "Manage user authentication and sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Database",
+      "description": "Store application data in a managed database",
+      "core_feature": true
+    },
+    {
+      "title": "Storage",
+      "description": "Store and serve user-uploaded files"
+    },
+    {
+      "title": "Realtime APIs",
+      "description": "Receive real-time updates via APIs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/supabase/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

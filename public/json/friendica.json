@@ -1,0 +1,96 @@
+{
+  "name": "friendica",
+  "slug": "friendica",
+  "tagline": "A decentralized social network federated with ActivityPub platforms",
+  "subtitle": "",
+  "description": "Friendica is a decentralized social network that federates with platforms like Mastodon, Diaspora, and ActivityPub. It offers privacy controls, timeline views, and supports short-form posts, blogs, and private messaging.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2026.01",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-27",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1646,
+    "github_contributors": 154,
+    "github_commits_this_year": 367,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://friendi.ca",
+    "documentation": "https://friendi.ca/resources",
+    "source_code": "https://github.com/friendica/friendica",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/friendica.webp",
+    "issues": "https://github.com/friendica/friendica/issues",
+    "releases": "https://github.com/friendica/friendica/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Federated Social Network",
+      "description": "Connects with other networks using federation",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Manages personal profiles and posts",
+      "core_feature": true
+    },
+    {
+      "title": "ActivityPub Support",
+      "description": "Communicates with compatible platforms"
+    },
+    {
+      "title": "Private Messaging",
+      "description": "Sends direct messages between users"
+    },
+    {
+      "title": "Content Feeds",
+      "description": "Displays timelines and updates"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manages content and users"
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extends functionality"
+    },
+    {
+      "title": "Self-Hosted Social Platform",
+      "description": "Run the network on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/friendica/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "friendica_ynh",
+      "url": "https://github.com/YunoHost-Apps/friendica_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

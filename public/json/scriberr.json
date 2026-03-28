@@ -1,0 +1,89 @@
+{
+  "name": "scriberr",
+  "slug": "scriberr",
+  "tagline": "A self-hosted hierarchical note-taking app with Markdown and tags",
+  "subtitle": "",
+  "description": "Scriberr is a self-hosted note-taking app with hierarchical organization, tags, and markdown support. It’s built for productivity with an intuitive web interface.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-17",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 2337,
+    "github_contributors": 15,
+    "github_commits_this_year": 16,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://scriberr.app",
+    "documentation": "https://scriberr.app/docs/intro",
+    "source_code": "https://github.com/rishikanthc/Scriberr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/scriberr.webp",
+    "issues": "https://github.com/rishikanthc/Scriberr/issues",
+    "releases": "https://github.com/rishikanthc/Scriberr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/scriberr-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/scriberr-transcript-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Writing Platform",
+      "description": "Write and manage long-form content",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editor",
+      "description": "Compose content using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Organization",
+      "description": "Organize writing into projects",
+      "core_feature": true
+    },
+    {
+      "title": "Export",
+      "description": "Export content to files"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Write through a browser interface"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the writing platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/scriberr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

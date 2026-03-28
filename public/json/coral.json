@@ -1,0 +1,89 @@
+{
+  "name": "voxmedia-coral",
+  "slug": "coral",
+  "tagline": "A self-hosted comment platform with moderation and identity tools",
+  "subtitle": "",
+  "description": "Talk by Coral Project is an open-source comment platform that enables publishers to manage comment sections with moderation, identity tools, plugins, and spam filtering. It’s easy to self-host and integrates well across platforms.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v9.11.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-13",
+    "date_last_commit": "2026-01-13",
+    "github_stars": 1975,
+    "github_contributors": 59,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://coralproject.net",
+    "documentation": "https://docs.coralproject.net",
+    "source_code": "https://github.com/coralproject/talk",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/coral.webp",
+    "issues": "https://github.com/coralproject/talk/issues",
+    "releases": "https://github.com/coralproject/talk/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/coral-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/coral-group-creator.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/coral-moderation-queues.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Commenting Platform",
+      "description": "Adds commenting to websites",
+      "core_feature": true
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manages and moderates comments",
+      "core_feature": true
+    },
+    {
+      "title": "User Authentication",
+      "description": "Handles commenter accounts"
+    },
+    {
+      "title": "Real-Time Updates",
+      "description": "Updates comments live"
+    },
+    {
+      "title": "Community Guidelines",
+      "description": "Enforces moderation rules"
+    },
+    {
+      "title": "Analytics",
+      "description": "Shows engagement metrics"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/coral/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

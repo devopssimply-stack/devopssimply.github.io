@@ -1,0 +1,93 @@
+{
+  "name": "watcharr",
+  "slug": "watcharr",
+  "tagline": "A media watchlist and tracking app integrated with *Arr tools",
+  "subtitle": "",
+  "description": "Watcharr is a self-hosted media watchlist and tracking app. It lets users manage movies and series they want to watch, sync with external services, and see stats in a clean UI.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.1.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-15",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 1201,
+    "github_contributors": 20,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://watcharr.app",
+    "documentation": "https://watcharr.app/docs/introduction",
+    "source_code": "https://github.com/sbondCo/Watcharr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/watcharr.webp",
+    "issues": "https://github.com/sbondCo/Watcharr/issues",
+    "releases": "https://github.com/sbondCo/Watcharr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/watcharr-content-details-page-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/watcharr-content-details-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/watcharr-discover-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Watchlist Management",
+      "description": "Track movies and shows to watch",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Progress Tracking",
+      "description": "Track watched status",
+      "core_feature": true
+    },
+    {
+      "title": "Recommendations",
+      "description": "Get viewing suggestions"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage watchlists through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/watcharr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "watcharr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=watcharr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

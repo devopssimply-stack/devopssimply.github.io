@@ -1,0 +1,85 @@
+{
+  "name": "cwa-book-downloader",
+  "slug": "cwa-book-downloader",
+  "tagline": "An automated book downloader integrated with Calibre-Web libraries",
+  "subtitle": "",
+  "description": "Automated Book Downloader extends Calibre-Web by adding automatic ebook discovery and downloads via search providers. It integrates with libraries to streamline collection growth with minimal manual intervention.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.1.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2555,
+    "github_contributors": 38,
+    "github_commits_this_year": 89,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://github.com/calibrain/calibre-web-automated-book-downloader",
+    "documentation": "https://github.com/calibrain/calibre-web-automated-book-downloader",
+    "source_code": "https://github.com/calibrain/calibre-web-automated-book-downloader",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cwa-book-downloader.webp",
+    "issues": "https://github.com/calibrain/calibre-web-automated-book-downloader/issues",
+    "releases": "https://github.com/calibrain/calibre-web-automated-book-downloader/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cwa-book-downloader-downloads.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cwa-book-downloader-multi-source.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cwa-book-downloader-search-results.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Automated Book Downloading",
+      "description": "Downloads ebooks automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Calibre Integration",
+      "description": "Adds books to Calibre libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Matching",
+      "description": "Matches downloaded books to metadata"
+    },
+    {
+      "title": "Scheduled Tasks",
+      "description": "Runs downloads on schedules"
+    },
+    {
+      "title": "Format Handling",
+      "description": "Supports multiple ebook formats"
+    },
+    {
+      "title": "Self-Hosted Automation",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cwa-book-downloader/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

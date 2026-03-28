@@ -1,0 +1,109 @@
+{
+  "name": "dagu",
+  "slug": "dagu",
+  "tagline": "A task runner and scheduler with workflows, retries, and a web interface",
+  "subtitle": "",
+  "description": "Dagu is a CSV-based task runner and scheduler that simplifies batch job orchestration with a web UI. It supports workflows, logs, retryable tasks, and file-based configurations for lightweight self-hosted setups.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.1.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3129,
+    "github_contributors": 59,
+    "github_commits_this_year": 204,
+    "github_issues_open": 116,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://dagu.cloud",
+    "documentation": "https://docs.dagu.cloud",
+    "source_code": "https://github.com/dagu-org/dagu",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dagu.webp",
+    "issues": "https://github.com/dagu-org/dagu/issues",
+    "releases": "https://github.com/dagu-org/dagu/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dagu-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dagu-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dagu-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Workflow Orchestration",
+      "description": "Executes and manages workflows defined as directed acyclic graphs",
+      "core_feature": true
+    },
+    {
+      "title": "DAG-Based Scheduling",
+      "description": "Runs tasks based on dependency relationships",
+      "core_feature": true
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Visualizes workflows task status and execution history",
+      "core_feature": true
+    },
+    {
+      "title": "Cron Scheduling",
+      "description": "Triggers workflows using time-based schedules"
+    },
+    {
+      "title": "Parameterized Runs",
+      "description": "Executes workflows with runtime parameters"
+    },
+    {
+      "title": "Retry and Failure Handling",
+      "description": "Manages retries and failure states for tasks"
+    },
+    {
+      "title": "Log Management",
+      "description": "Stores and displays task execution logs"
+    },
+    {
+      "title": "CLI Support",
+      "description": "Controls workflows from the command line"
+    },
+    {
+      "title": "Self-Hosted Execution",
+      "description": "Runs on user-managed infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dagu/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "dagu_ynh",
+      "url": "https://github.com/YunoHost-Apps/dagu_ynh"
+    }
+  },
+  "demo": {
+    "url": "http://23.251.149.55:8525",
+    "username": "demouser",
+    "password": "demouser"
+  }
+}

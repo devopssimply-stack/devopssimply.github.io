@@ -1,0 +1,89 @@
+{
+  "name": "mobilizon",
+  "slug": "mobilizon",
+  "tagline": "A federated platform for event management and group organizing",
+  "subtitle": "",
+  "description": "Mobilizon is a decentralized event management and group organizing platform. It allows users to create, manage, and share events in a federated, privacy-friendly environment with custom groups.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": "https://mobilizon.org",
+    "documentation": "https://docs.mobilizon.org",
+    "source_code": "https://framagit.org/kaihuri/mobilizon",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mobilizon.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mobilizon-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mobilizon-events.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mobilizon-feature-group.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mobilizon-feature-profil.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Event Organization",
+      "description": "Create and manage events and groups",
+      "core_feature": true
+    },
+    {
+      "title": "Group Management",
+      "description": "Organize communities and collectives",
+      "core_feature": true
+    },
+    {
+      "title": "Event Registration",
+      "description": "Allow users to register for events"
+    },
+    {
+      "title": "Federation",
+      "description": "Share events across federated servers",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage profiles and participation"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mobilizon/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mobilizon_ynh",
+      "url": "https://github.com/YunoHost-Apps/mobilizon_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

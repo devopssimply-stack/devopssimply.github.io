@@ -1,0 +1,79 @@
+{
+  "name": "sandstorm",
+  "slug": "sandstorm",
+  "tagline": "A self-hosted platform for securely running and sandboxing web applications",
+  "subtitle": "",
+  "description": "Sandstorm is a self-hosted platform to run web apps securely in isolated sandboxes. It includes app packaging, updates, and permissions control, ideal for personal cloud services.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-24",
+    "github_stars": 7010,
+    "github_contributors": 102,
+    "github_commits_this_year": 7,
+    "github_issues_open": 623,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://sandstorm.org",
+    "documentation": "https://docs.sandstorm.io",
+    "source_code": "https://github.com/sandstorm-io/sandstorm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sandstorm.webp",
+    "issues": "https://github.com/sandstorm-io/sandstorm/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sandstorm-collection.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "App Hosting Platform",
+      "description": "Host self-contained web applications",
+      "core_feature": true
+    },
+    {
+      "title": "App Marketplace",
+      "description": "Install apps from a curated catalog",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and app access"
+    },
+    {
+      "title": "Security Isolation",
+      "description": "Isolate apps from each other"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sandstorm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.sandstorm.io",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "cloudbeaver",
+  "slug": "cloudbeaver",
+  "tagline": "A web-based database manager for viewing and editing cloud databases",
+  "subtitle": "",
+  "description": "CloudBeaver is a lightweight self-hosted cloud database manager built by the DBeaver team. It offers an intuitive web UI for viewing, editing, and managing databases, including PostgreSQL, MySQL, and Oracle.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4698,
+    "github_contributors": 60,
+    "github_commits_this_year": 120,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://dbeaver.com/",
+    "documentation": "https://github.com/dbeaver/cloudbeaver",
+    "source_code": "https://github.com/dbeaver/cloudbeaver",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cloudbeaver.webp",
+    "issues": "https://github.com/dbeaver/cloudbeaver/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudbeaver-create-connection.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudbeaver-data-transfer-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudbeaver-gis-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudbeaver-sql-editor-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Database Client",
+      "description": "Manages databases through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Database Support",
+      "description": "Connects to various database engines",
+      "core_feature": true
+    },
+    {
+      "title": "SQL Editor",
+      "description": "Executes and edits SQL queries",
+      "core_feature": true
+    },
+    {
+      "title": "User Authentication",
+      "description": "Controls access to database connections"
+    },
+    {
+      "title": "Role Permissions",
+      "description": "Manages user privileges"
+    },
+    {
+      "title": "Data Browsing",
+      "description": "Views tables and records"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cloudbeaver/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "cloudbeaver",
+      "url": "https://apps.truenas.com/catalog/cloudbeaver"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

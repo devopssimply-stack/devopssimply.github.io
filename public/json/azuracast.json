@@ -1,0 +1,86 @@
+{
+  "name": "azuracast",
+  "slug": "azuracast",
+  "tagline": "A self-hosted radio management platform for broadcasting internet stations",
+  "subtitle": "",
+  "description": "AzuraCast is a self-hosted web radio management platform with built-in auto-DJ, listener statistics, web media library, REST and WebSocket APIs, and public station pages. Designed to manage internet radio stations with minimal setup.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3743,
+    "github_contributors": 60,
+    "github_commits_this_year": 50,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.azuracast.com/",
+    "documentation": "https://github.com/AzuraCast/AzuraCast",
+    "source_code": "https://github.com/AzuraCast/AzuraCast",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/azuracast.webp",
+    "issues": "https://github.com/AzuraCast/AzuraCast/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/azuracast-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Radio Streaming Platform",
+      "description": "Host and manage online radio stations",
+      "core_feature": true
+    },
+    {
+      "title": "Media Library Management",
+      "description": "Organize music files and playlists",
+      "core_feature": true
+    },
+    {
+      "title": "Show Scheduling",
+      "description": "Schedule live shows and automated playlists"
+    },
+    {
+      "title": "Listener Statistics",
+      "description": "View audience and stream usage statistics"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage radio stations through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/azuracast/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "azuracast_ynh",
+      "url": "https://github.com/YunoHost-Apps/azuracast_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

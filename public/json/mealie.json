@@ -1,0 +1,98 @@
+{
+  "name": "mealie",
+  "slug": "mealie",
+  "tagline": "A self-hosted recipe manager with meal planning and shopping lists",
+  "subtitle": "",
+  "description": "Mealie is a self-hosted recipe management app that supports meal planning, shopping lists, and nutritional tracking. It offers multiple import methods, multi-user support, and a polished web UI.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.11.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 11607,
+    "github_contributors": 229,
+    "github_commits_this_year": 242,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://mealie.io",
+    "documentation": "https://docs.mealie.io",
+    "source_code": "https://github.com/mealie-recipes/mealie",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mealie.webp",
+    "issues": "https://github.com/mealie-recipes/mealie/issues",
+    "releases": "https://github.com/mealie-recipes/mealie/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mealie-dinner.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mealie-recipes.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mealie-timeline.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Recipe Management",
+      "description": "Store and manage recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Meal Planning",
+      "description": "Plan meals using saved recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Shopping Lists",
+      "description": "Generate shopping lists from meals",
+      "core_feature": true
+    },
+    {
+      "title": "Recipe Import",
+      "description": "Import recipes from external sources"
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Share recipes within households"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access recipes through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mealie/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "mealie",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=mealie"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "mealie",
+      "url": "https://apps.truenas.com/catalog/mealie"
+    }
+  },
+  "demo": {
+    "url": "https://demo.mealie.io/login",
+    "username": "changeme@example.com",
+    "password": "MyPassword"
+  }
+}

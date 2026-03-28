@@ -1,0 +1,96 @@
+{
+  "name": "syncthing",
+  "slug": "syncthing",
+  "tagline": "A secure peer-to-peer tool for syncing files directly between devices",
+  "subtitle": "",
+  "description": "Syncthing is a peer-to-peer file synchronization tool that securely syncs folders across devices without a central server, using a web UI and background service.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MPL-2.0",
+    "version": "v2.0.15",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 80556,
+    "github_contributors": 338,
+    "github_commits_this_year": 27,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://syncthing.net",
+    "documentation": "https://docs.syncthing.net/intro/getting-started.html",
+    "source_code": "https://github.com/syncthing/syncthing",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/syncthing.webp",
+    "issues": "https://github.com/syncthing/syncthing/issues",
+    "releases": "https://github.com/syncthing/syncthing/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/syncthing-gui1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/syncthing-screenshot-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Synchronization",
+      "description": "Sync files directly between devices",
+      "core_feature": true
+    },
+    {
+      "title": "Peer-to-Peer Transfer",
+      "description": "Transfer files without central servers",
+      "core_feature": true
+    },
+    {
+      "title": "Folder Versioning",
+      "description": "Keep previous file versions"
+    },
+    {
+      "title": "Device Discovery",
+      "description": "Discover peers automatically"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage sync settings via browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/syncthing/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "syncthing",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=syncthing"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "syncthing_ynh",
+      "url": "https://github.com/YunoHost-Apps/syncthing_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

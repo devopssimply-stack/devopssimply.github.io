@@ -1,0 +1,363 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "*arr",
+      "sort_order": 1,
+      "description": "Automation tools from the *Arr media management ecosystem",
+      "icon": "repeat",
+      "group": "Media & Content"
+    },
+    {
+      "id": 2,
+      "name": "2FA",
+      "sort_order": 2,
+      "description": "Two-factor authentication and second-factor tools",
+      "icon": "key",
+      "group": "Security & Monitoring"
+    },
+    {
+      "id": 3,
+      "name": "3D Printing",
+      "sort_order": 3,
+      "description": "Software and tooling for 3D printing workflows",
+      "icon": "box",
+      "group": "Other"
+    },
+    {
+      "id": 4,
+      "name": "Accessibility",
+      "sort_order": 4,
+      "description": "Accessibility features and assistive software",
+      "icon": "accessibility",
+      "group": "Other"
+    },
+    {
+      "id": 5,
+      "name": "Accounting",
+      "sort_order": 5,
+      "description": "Accounting and bookkeeping applications",
+      "icon": "file-text",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 6,
+      "name": "Federated Social",
+      "sort_order": 6,
+      "description": "ActivityPub, Fediverse platforms and federated social tools",
+      "icon": "globe",
+      "group": "Other"
+    },
+    {
+      "id": 7,
+      "name": "Ad Blocking & Filtering",
+      "sort_order": 7,
+      "description": "Ad-blocking tools and DNS-level content filters",
+      "icon": "slash",
+      "group": "Other"
+    },
+    {
+      "id": 8,
+      "name": "Ambient Sounds",
+      "sort_order": 8,
+      "description": "Apps that play ambient and background sounds",
+      "icon": "music",
+      "group": "Other"
+    },
+    {
+      "id": 9,
+      "name": "Analytics",
+      "sort_order": 9,
+      "description": "Data analytics, metrics and reporting tools",
+      "icon": "bar-chart",
+      "group": "Other"
+    },
+    {
+      "id": 10,
+      "name": "Mobile Apps",
+      "sort_order": 10,
+      "description": "Android and iOS applications and companions",
+      "icon": "smartphone",
+      "group": "Other"
+    },
+    {
+      "id": 11,
+      "name": "Antivirus & Malware",
+      "sort_order": 11,
+      "description": "Antivirus and malware protection software",
+      "icon": "shield",
+      "group": "Security & Monitoring"
+    },
+    {
+      "id": 12,
+      "name": "Archiving & Compression",
+      "sort_order": 12,
+      "description": "File archiving and compression utilities",
+      "icon": "archive",
+      "group": "Other"
+    },
+    {
+      "id": 13,
+      "name": "Artificial Intelligence",
+      "sort_order": 13,
+      "description": "AI frameworks, models, assistants and ML tools",
+      "icon": "cpu",
+      "group": "Other"
+    },
+    {
+      "id": 14,
+      "name": "Audiobooks",
+      "sort_order": 14,
+      "description": "Audiobook players, servers and library managers",
+      "icon": "book-open",
+      "group": "Media & Content"
+    },
+    {
+      "id": 15,
+      "name": "Authentication & Identity",
+      "sort_order": 15,
+      "description": "Authentication systems, identity and SSO platforms",
+      "icon": "unlock",
+      "group": "Security & Monitoring"
+    },
+    {
+      "id": 16,
+      "name": "Automation & Workflows",
+      "sort_order": 16,
+      "description": "Automation platforms and workflow orchestration tools",
+      "icon": "zap",
+      "group": "Other"
+    },
+    {
+      "id": 17,
+      "name": "Backend",
+      "sort_order": 17,
+      "description": "Backend services and server-side tooling",
+      "icon": "server",
+      "group": "Platform & Infrastructure"
+    },
+    {
+      "id": 18,
+      "name": "Backups",
+      "sort_order": 18,
+      "description": "Backup and data protection solutions",
+      "icon": "database",
+      "group": "Other"
+    },
+    {
+      "id": 19,
+      "name": "Blogging",
+      "sort_order": 19,
+      "description": "Blog engines and publishing platforms",
+      "icon": "pen-tool",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 20,
+      "name": "Bookmarks & Read Later",
+      "sort_order": 20,
+      "description": "Bookmark managers and read-later services",
+      "icon": "bookmark",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 21,
+      "name": "Books & Libraries",
+      "sort_order": 21,
+      "description": "Book libraries, readers and catalog systems",
+      "icon": "book",
+      "group": "Media & Content"
+    },
+    {
+      "id": 22,
+      "name": "Budgeting & Finance",
+      "sort_order": 22,
+      "description": "Personal finance, budgeting and expense tools",
+      "icon": "dollar-sign",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 23,
+      "name": "Calendars & Scheduling",
+      "sort_order": 23,
+      "description": "Calendar, CalDAV/CardDAV and scheduling systems",
+      "icon": "calendar",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 24,
+      "name": "Clipboard & Sync",
+      "sort_order": 24,
+      "description": "Clipboard managers and cross-device sync tools",
+      "icon": "clipboard",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 25,
+      "name": "Cloud & Object Storage",
+      "sort_order": 25,
+      "description": "Cloud file storage and S3-compatible services",
+      "icon": "cloud",
+      "group": "Platform & Infrastructure"
+    },
+    {
+      "id": 26,
+      "name": "Code & Development",
+      "sort_order": 26,
+      "description": "Developer tools, IDEs, CLIs and libraries",
+      "icon": "terminal",
+      "group": "Development"
+    },
+    {
+      "id": 27,
+      "name": "Containers & Docker",
+      "sort_order": 27,
+      "description": "Docker, containers and image registries",
+      "icon": "package",
+      "group": "Platform & Infrastructure"
+    },
+    {
+      "id": 28,
+      "name": "Dashboards & Visualization",
+      "sort_order": 28,
+      "description": "Dashboards, charts and data visualization tools",
+      "icon": "grid",
+      "group": "Platform & Infrastructure"
+    },
+    {
+      "id": 29,
+      "name": "Databases",
+      "sort_order": 29,
+      "description": "Relational, NoSQL and in-memory databases",
+      "icon": "database",
+      "group": "Platform & Infrastructure"
+    },
+    {
+      "id": 30,
+      "name": "Deployment & CI/CD",
+      "sort_order": 30,
+      "description": "Deployment tools, CI/CD pipelines and runners",
+      "icon": "upload-cloud",
+      "group": "Platform & Infrastructure"
+    },
+    {
+      "id": 31,
+      "name": "Documentation & Wiki",
+      "sort_order": 31,
+      "description": "Documentation systems and wiki platforms",
+      "icon": "book",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 32,
+      "name": "Email & Newsletters",
+      "sort_order": 32,
+      "description": "Email servers, clients and newsletter platforms",
+      "icon": "mail",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 33,
+      "name": "File Sharing & Sync",
+      "sort_order": 33,
+      "description": "File sharing, transfer and synchronization tools",
+      "icon": "share-2",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 34,
+      "name": "Media Streaming",
+      "sort_order": 34,
+      "description": "Music, video and live media streaming platforms",
+      "icon": "play-circle",
+      "group": "Media & Content"
+    },
+    {
+      "id": 35,
+      "name": "Monitoring & Observability",
+      "sort_order": 35,
+      "description": "Monitoring, logging, tracing and observability tools",
+      "icon": "eye",
+      "group": "Security & Monitoring"
+    },
+    {
+      "id": 36,
+      "name": "Networking",
+      "sort_order": 36,
+      "description": "Networking, DNS, VPN and connectivity tools",
+      "icon": "wifi",
+      "group": "Networking"
+    },
+    {
+      "id": 37,
+      "name": "Notes & Knowledge Base",
+      "sort_order": 37,
+      "description": "Note-taking, PKM and knowledge management tools",
+      "icon": "edit-3",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 38,
+      "name": "Passwords & Secrets",
+      "sort_order": 38,
+      "description": "Password managers and secret vaults",
+      "icon": "lock",
+      "group": "Security & Monitoring"
+    },
+    {
+      "id": 39,
+      "name": "Project & Task Management",
+      "sort_order": 39,
+      "description": "Projects, tasks, kanban and planning tools",
+      "icon": "check-square",
+      "group": "Business & Productivity"
+    },
+    {
+      "id": 40,
+      "name": "Search & Indexing",
+      "sort_order": 40,
+      "description": "Search engines, indexing and query platforms",
+      "icon": "search",
+      "group": "Other"
+    },
+    {
+      "id": 41,
+      "name": "Security & Privacy",
+      "sort_order": 41,
+      "description": "Security hardening, privacy and protection tools",
+      "icon": "shield",
+      "group": "Security & Monitoring"
+    },
+    {
+      "id": 42,
+      "name": "System Utilities",
+      "sort_order": 42,
+      "description": "General-purpose system and maintenance utilities",
+      "icon": "wrench",
+      "group": "Other"
+    },
+    {
+      "id": 43,
+      "name": "Web Platforms",
+      "sort_order": 43,
+      "description": "Web servers, CMS and web-based platforms",
+      "icon": "globe",
+      "group": "Platform & Infrastructure"
+    },
+    {
+      "id": 0,
+      "name": "Miscellaneous",
+      "sort_order": 999,
+      "description": "Tools that do not fit into a specific category",
+      "icon": "more-horizontal",
+      "group": "Other"
+    }
+  ],
+  "resources": {
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metadata-main-interface.webp"
+    ]
+  },
+  "install": [],
+  "manifests": {}
+}

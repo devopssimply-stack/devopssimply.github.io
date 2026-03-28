@@ -1,0 +1,86 @@
+{
+  "name": "frigate-notify",
+  "slug": "frigate-notify",
+  "tagline": "A notification service for forwarding camera events and alerts from Frigate",
+  "subtitle": "",
+  "description": "Frigate Notify is a companion tool for sending Frigate camera events into platforms like Apprise or SMS. It supports event triggers, notifications, and media previews for users running local security stacks.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.5.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-13",
+    "date_last_commit": "2026-02-19",
+    "github_stars": 336,
+    "github_contributors": 10,
+    "github_commits_this_year": 8,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://frigate-notify.0x2142.com/",
+    "documentation": "https://github.com/0x2142/frigate-notify",
+    "source_code": "https://github.com/0x2142/frigate-notify",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/frigate-notify.webp",
+    "issues": "https://github.com/0x2142/frigate-notify/issues",
+    "releases": "https://github.com/0x2142/frigate-notify/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Frigate Event Notifications",
+      "description": "Send notifications based on Frigate detection events",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Notification Channels",
+      "description": "Deliver alerts via supported messaging services",
+      "core_feature": true
+    },
+    {
+      "title": "Event Filtering",
+      "description": "Filter notifications by camera, object, or event type",
+      "core_feature": true
+    },
+    {
+      "title": "Message Customization",
+      "description": "Customize notification content and formatting"
+    },
+    {
+      "title": "Integration Configuration",
+      "description": "Configure notification behavior through settings files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the notification service alongside Frigate"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/frigate-notify/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

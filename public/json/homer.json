@@ -1,0 +1,107 @@
+{
+  "name": "homer",
+  "slug": "homer",
+  "tagline": "A simple static homepage for organizing links and basic widgets",
+  "subtitle": "",
+  "description": "Homer is a simple static homepage for organizing links and small informational widgets. Configuration is done via a YAML file and the resulting single page site can be hosted on any web server, ideal for lightweight dashboards.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v25.11.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-16",
+    "date_last_commit": "2026-01-25",
+    "github_stars": 11181,
+    "github_contributors": 137,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/bastienwirtz/homer",
+    "documentation": "https://github.com/bastienwirtz/homer/blob/main/README.md#table-of-contents",
+    "source_code": "https://github.com/bastienwirtz/homer",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/homer.webp",
+    "issues": "https://github.com/bastienwirtz/homer/issues",
+    "releases": "https://github.com/bastienwirtz/homer/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homer-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Static Service Dashboard",
+      "description": "Provides a static homepage for service links",
+      "core_feature": true
+    },
+    {
+      "title": "YAML Configuration",
+      "description": "Defines services and layout in YAML"
+    },
+    {
+      "title": "Lightweight Deployment",
+      "description": "Runs without a backend service"
+    },
+    {
+      "title": "Icon Support",
+      "description": "Displays icons for services"
+    },
+    {
+      "title": "Category Grouping",
+      "description": "Organizes services into sections"
+    },
+    {
+      "title": "Responsive Layout",
+      "description": "Works on mobile and desktop devices"
+    },
+    {
+      "title": "Custom Themes",
+      "description": "Adjusts appearance via themes"
+    },
+    {
+      "title": "Self-Hosted Homepage",
+      "description": "Host the page on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/homer/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "homer",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=homer"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "homer_ynh",
+      "url": "https://github.com/YunoHost-Apps/homer_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "homer",
+      "url": "https://apps.truenas.com/catalog/homer"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

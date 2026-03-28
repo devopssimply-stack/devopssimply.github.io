@@ -1,0 +1,89 @@
+{
+  "name": "ytptube",
+  "slug": "ytptube",
+  "tagline": "A web interface for automating YouTube downloads and organizing media",
+  "subtitle": "",
+  "description": "ytptube is a self-hosted interface and automation tool for downloading and organizing YouTube content, exposing a simple web UI and configuration for recurring downloads.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.2.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-08",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 810,
+    "github_contributors": 2,
+    "github_commits_this_year": 88,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://github.com/arabcoders/ytptube",
+    "documentation": "https://github.com/arabcoders/ytptube",
+    "source_code": "https://github.com/arabcoders/ytptube",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ytptube.webp",
+    "issues": "https://github.com/arabcoders/ytptube/issues",
+    "releases": "https://github.com/arabcoders/ytptube/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ytptube-short.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ytptube-simple.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Platform",
+      "description": "Host and stream video content",
+      "core_feature": true
+    },
+    {
+      "title": "Channel Management",
+      "description": "Manage video channels",
+      "core_feature": true
+    },
+    {
+      "title": "Uploads",
+      "description": "Upload videos to the platform",
+      "core_feature": true
+    },
+    {
+      "title": "Playback",
+      "description": "Play videos in a web player"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage user profiles"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ytptube/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

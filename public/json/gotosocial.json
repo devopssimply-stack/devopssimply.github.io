@@ -1,0 +1,86 @@
+{
+  "name": "gotosocial",
+  "slug": "gotosocial",
+  "tagline": "A self-hosted federated social server compatible with ActivityPub",
+  "subtitle": "",
+  "description": "GoToSocial is a self-hosted, federated social network server compatible with Mastodon and ActivityPub. It focuses on lightweight deployment and better moderation tools for smaller communities and individuals.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": "https://gotosocial.org",
+    "documentation": "https://docs.gotosocial.org/en",
+    "source_code": "https://codeberg.org/superseriousbusiness/gotosocial",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/gotosocial.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gotosocial-instancesplash.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Federated Social Networking",
+      "description": "Run a social media server using the ActivityPub protocol",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Create and manage local user profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline Views",
+      "description": "Browse local and federated timelines",
+      "core_feature": true
+    },
+    {
+      "title": "Media Attachments",
+      "description": "Share images and media in posts"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manage users and content with moderation features"
+    },
+    {
+      "title": "API Compatibility",
+      "description": "Provide APIs compatible with supported clients"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/gotosocial/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "gotosocial_ynh",
+      "url": "https://github.com/YunoHost-Apps/gotosocial_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "swetrix",
+  "slug": "swetrix",
+  "tagline": "A privacy-friendly web analytics platform without cookies or tracking",
+  "subtitle": "",
+  "description": "Swetrix is a privacy-focused web analytics platform that can be self-hosted or used as SaaS. It tracks visits without cookies and displays insights in a clean dashboard.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v5.0.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-08",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 901,
+    "github_contributors": 25,
+    "github_commits_this_year": 462,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://swetrix.com",
+    "documentation": "https://swetrix.com/docs/selfhosting/how-to",
+    "source_code": "https://github.com/Swetrix/swetrix",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/swetrix.webp",
+    "issues": "https://github.com/Swetrix/swetrix/issues",
+    "releases": "https://github.com/Swetrix/swetrix/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/swetrix-dashboard-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/swetrix-dashboard-lights.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Analytics",
+      "description": "Track website usage metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-Oriented Tracking",
+      "description": "Collect analytics without user profiling",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard",
+      "description": "View analytics data in dashboards",
+      "core_feature": true
+    },
+    {
+      "title": "Event Tracking",
+      "description": "Track custom user events"
+    },
+    {
+      "title": "Data Export",
+      "description": "Export analytics data"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run analytics on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/swetrix/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://swetrix.com/projects/STEzHcB1rALV",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "starbase-80",
+  "slug": "starbase-80",
+  "tagline": "A retro-themed dashboard for organizing links, widgets, and server stats",
+  "subtitle": "",
+  "description": "Starbase 80 is a self-hosted media and link dashboard styled like a retro space station. It organizes shortcuts, widgets, and stats into a playful, customizable homepage.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-10-18",
+    "github_stars": 518,
+    "github_contributors": 6,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://notclickable-jordan.github.io/starbase-80/",
+    "documentation": "https://github.com/notclickable-jordan/starbase-80",
+    "source_code": "https://github.com/notclickable-jordan/starbase-80",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/starbase-80.webp",
+    "issues": "https://github.com/notclickable-jordan/starbase-80/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/starbase-80-preview-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/starbase-80-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Dashboard",
+      "description": "Display links and widgets on a single page",
+      "core_feature": true
+    },
+    {
+      "title": "Widget Support",
+      "description": "Add widgets for various services",
+      "core_feature": true
+    },
+    {
+      "title": "Custom Layout",
+      "description": "Arrange dashboard items freely",
+      "core_feature": true
+    },
+    {
+      "title": "Theme Customization",
+      "description": "Customize appearance using themes"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Configure dashboard content"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the dashboard on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/starbase-80/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

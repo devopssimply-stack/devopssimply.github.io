@@ -1,0 +1,92 @@
+{
+  "name": "gravity",
+  "slug": "gravity",
+  "tagline": "A DNS filtering service for blocking ads malware and tracking domains",
+  "subtitle": "",
+  "description": "Gravity is a lightweight DNS and filtering proxy service for blocking malware, ads, and tracking. Designed for home networks and privacy enthusiasts, it supports per-device rules, stats, and a modern web UI.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.29.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 905,
+    "github_contributors": 6,
+    "github_commits_this_year": 92,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://gravity.beryju.io",
+    "documentation": "https://github.com/BeryJu/gravity",
+    "source_code": "https://github.com/BeryJu/gravity",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/gravity.webp",
+    "issues": "https://github.com/BeryJu/gravity/issues",
+    "releases": "https://github.com/BeryJu/gravity/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gravity-cluster-nodes.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gravity-dhcp-leases.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gravity-dns-records.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gravity-dns-zones.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gravity-grafana.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gravity-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "DNS Blocking",
+      "description": "Block ads and trackers using DNS filtering",
+      "core_feature": true
+    },
+    {
+      "title": "Blocklist Management",
+      "description": "Manage and update domain blocklists",
+      "core_feature": true
+    },
+    {
+      "title": "Query Logging",
+      "description": "View DNS queries and blocked requests",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based Dashboard",
+      "description": "Monitor DNS activity through a browser interface"
+    },
+    {
+      "title": "Statistics",
+      "description": "View summary statistics of blocked domains"
+    },
+    {
+      "title": "Network Deployment",
+      "description": "Use the DNS service within a local network"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/gravity/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": "borg",
+  "slug": "borg",
+  "tagline": "A deduplicating backup tool with compression and encrypted repositories",
+  "subtitle": "",
+  "description": "BorgBackup is a deduplicating backup program that supports compression and authentication, making backups fast and efficient. It's designed for individuals and sysadmins needing encrypted and space-efficient backups.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-3",
+    "version": "1.4.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 13052,
+    "github_contributors": 316,
+    "github_commits_this_year": 200,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.borgbackup.org/",
+    "documentation": "https://borgbackup.readthedocs.io/en/stable",
+    "source_code": "https://github.com/borgbackup/borg",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/borg.webp",
+    "issues": "https://github.com/borgbackup/borg/issues",
+    "releases": "https://github.com/borgbackup/borg/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/borg-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Deduplicating Backups",
+      "description": "Stores backups efficiently by reusing identical data blocks",
+      "core_feature": true
+    },
+    {
+      "title": "Encrypted Archives",
+      "description": "Protects backup data using authenticated encryption",
+      "core_feature": true
+    },
+    {
+      "title": "Incremental Snapshots",
+      "description": "Creates point-in-time snapshots without full duplication",
+      "core_feature": true
+    },
+    {
+      "title": "Compression Support",
+      "description": "Reduces storage usage using configurable compression algorithms"
+    },
+    {
+      "title": "Repository Integrity Checking",
+      "description": "Verifies backup data consistency and detects corruption"
+    },
+    {
+      "title": "Remote Backup Support",
+      "description": "Stores backups on remote servers over SSH"
+    },
+    {
+      "title": "Pruning Policies",
+      "description": "Automatically removes old backups based on retention rules"
+    },
+    {
+      "title": "File-Level Restore",
+      "description": "Restores individual files or directories from archives"
+    },
+    {
+      "title": "Cross-Platform Clients",
+      "description": "Runs on Linux, macOS, and other Unix-like systems"
+    },
+    {
+      "title": "Deduplicated Backups",
+      "description": "Stores backups using block-level deduplication",
+      "core_feature": true
+    },
+    {
+      "title": "Compression Options",
+      "description": "Reduces storage usage with compression"
+    },
+    {
+      "title": "Repository Verification",
+      "description": "Checks backup data integrity"
+    },
+    {
+      "title": "Retention Policies",
+      "description": "Manages backup pruning rules"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [
+    "cli"
+  ],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "borg_ynh",
+      "url": "https://github.com/YunoHost-Apps/borg_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://www.borgbackup.org/demo.html",
+    "username": null,
+    "password": null
+  }
+}

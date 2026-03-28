@@ -1,0 +1,29 @@
+# ===============================
+# Docker Compose (Headscale)
+# ===============================
+# host: http://localhost:8080
+# username:
+# password:
+
+services:
+  headscale:
+    image: headscale/headscale:latest
+    container_name: headscale
+    restart: unless-stopped
+    command: serve
+    ports:
+      - "8080:8080"
+    volumes:
+      - headscale_data:/var/lib/headscale
+      - headscale_config:/etc/headscale
+    environment:
+      - TZ=UTC
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  headscale_data:
+  headscale_config:

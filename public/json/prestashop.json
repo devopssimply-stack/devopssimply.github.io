@@ -1,0 +1,91 @@
+{
+  "name": "prestashop",
+  "slug": "prestashop",
+  "tagline": "A feature-rich self-hosted e-commerce platform for online stores",
+  "subtitle": "",
+  "description": "PrestaShop is a self-hosted e-commerce platform offering a feature-rich online store with support for custom themes, inventory, payments, and extensions. It is widely used for scalable, customizable e-commerce sites.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "OSL-3.0",
+    "version": "9.0.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 8997,
+    "github_contributors": 253,
+    "github_commits_this_year": 581,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://www.prestashop-project.org/",
+    "documentation": "https://github.com/PrestaShop/PrestaShop",
+    "source_code": "https://github.com/PrestaShop/PrestaShop",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/prestashop.webp",
+    "issues": "https://github.com/PrestaShop/PrestaShop/issues",
+    "releases": "https://github.com/PrestaShop/PrestaShop/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/prestashop-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "E-Commerce Platform",
+      "description": "Create and manage online stores",
+      "core_feature": true
+    },
+    {
+      "title": "Product Management",
+      "description": "Manage products, pricing, and inventory",
+      "core_feature": true
+    },
+    {
+      "title": "Order Processing",
+      "description": "Handle carts, checkout, and orders",
+      "core_feature": true
+    },
+    {
+      "title": "Payment Integration",
+      "description": "Integrate supported payment methods"
+    },
+    {
+      "title": "Theme and Module System",
+      "description": "Extend store functionality"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the shop on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/prestashop/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "prestashop_ynh",
+      "url": "https://github.com/YunoHost-Apps/prestashop_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

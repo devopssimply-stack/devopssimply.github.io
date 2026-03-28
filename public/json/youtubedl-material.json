@@ -1,0 +1,85 @@
+{
+  "name": "youtubedl-material",
+  "slug": "youtubedl-material",
+  "tagline": "A web front-end for yt-dlp/youtube-dl to manage video and audio downloads",
+  "subtitle": "",
+  "description": "YoutubeDL-Material is a self-hosted web front-end for yt-dlp/youtube-dl. It lets users queue, download, and manage videos and audio from many sites, storing them in organized folders with metadata.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.3.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2023-05-26",
+    "date_last_commit": "2025-08-16",
+    "github_stars": 3133,
+    "github_contributors": 74,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Tzahi12345/YoutubeDL-Material",
+    "documentation": "https://github.com/Tzahi12345/YoutubeDL-Material",
+    "source_code": "https://github.com/Tzahi12345/YoutubeDL-Material",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/youtubedl-material.webp",
+    "issues": "https://github.com/Tzahi12345/YoutubeDL-Material/issues",
+    "releases": "https://github.com/Tzahi12345/YoutubeDL-Material/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/youtubedl-material-dark-mode.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/youtubedl-material-dowload.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Downloader",
+      "description": "Download videos from supported sites",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage downloads through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Format Selection",
+      "description": "Choose video and audio formats",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Downloads",
+      "description": "Download entire playlists"
+    },
+    {
+      "title": "Download Queue",
+      "description": "Manage download queues"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the downloader on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/youtubedl-material/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

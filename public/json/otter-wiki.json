@@ -1,0 +1,82 @@
+{
+  "name": "an-otter-wiki",
+  "slug": "otter-wiki",
+  "tagline": "A lightweight self-hosted wiki with Git-based storage and Markdown",
+  "subtitle": "",
+  "description": "OtterWiki is a lightweight self-hosted wiki engine with a modern UI and Git-based storage. It supports Markdown, version control, and collaborative editing with user access controls.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.17.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-22",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 1337,
+    "github_contributors": 25,
+    "github_commits_this_year": 99,
+    "github_issues_open": 47,
+    "github_issues_closed_this_year": 28,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://otterwiki.com",
+    "documentation": "https://otterwiki.com/Installation",
+    "source_code": "https://github.com/redimp/otterwiki",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/otter-wiki.webp",
+    "issues": "https://github.com/redimp/otterwiki/issues",
+    "releases": "https://github.com/redimp/otterwiki/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/otter-wiki-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Wiki",
+      "description": "Create and manage a personal knowledge wiki",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Pages",
+      "description": "Write pages using Markdown"
+    },
+    {
+      "title": "Page Linking",
+      "description": "Create connections between wiki pages"
+    },
+    {
+      "title": "Search",
+      "description": "Find pages by text"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse and edit the wiki through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the wiki on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/otter-wiki/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.otterwiki.com",
+    "username": "demo@otterwiki.com",
+    "password": "wikidemo"
+  }
+}

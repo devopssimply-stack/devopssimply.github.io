@@ -1,0 +1,109 @@
+{
+  "name": "evcc",
+  "slug": "evcc",
+  "tagline": "An electric vehicle charging controller optimized for solar usage",
+  "subtitle": "",
+  "description": "evcc is an EV charging controller that optimizes car charging based on solar production, tariffs, and household loads. It connects to wallboxes, inverters, and meters, and offers a web UI to monitor and configure charging behavior.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.302.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 6227,
+    "github_contributors": 431,
+    "github_commits_this_year": 411,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 10
+  },
+  "resources": {
+    "website": "https://evcc.io",
+    "documentation": "https://github.com/evcc-io/evcc",
+    "source_code": "https://github.com/evcc-io/evcc",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/evcc.webp",
+    "issues": "https://github.com/evcc-io/evcc/issues",
+    "releases": "https://github.com/evcc-io/evcc/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/evcc-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/evcc-screenshoot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "EV Charging Management",
+      "description": "Controls and monitors EV charging",
+      "core_feature": true
+    },
+    {
+      "title": "Solar Integration",
+      "description": "Optimizes charging using solar power",
+      "core_feature": true
+    },
+    {
+      "title": "Home Energy Integration",
+      "description": "Integrates with home energy systems",
+      "core_feature": true
+    },
+    {
+      "title": "Charging Automation",
+      "description": "Automates charging rules"
+    },
+    {
+      "title": "Vehicle Support",
+      "description": "Supports multiple EV models"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages charging through a browser"
+    },
+    {
+      "title": "Metrics and History",
+      "description": "Displays charging statistics"
+    },
+    {
+      "title": "Self-Hosted Energy Control",
+      "description": "Runs on user-managed systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/evcc/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "evcc",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=evcc"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "evcc",
+      "url": "https://apps.truenas.com/catalog/evcc"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

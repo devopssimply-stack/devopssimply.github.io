@@ -1,0 +1,88 @@
+{
+  "name": "wol",
+  "slug": "wol",
+  "tagline": "A simple tool to send Wake-on-LAN packets for remote power management",
+  "subtitle": "",
+  "description": "wol is a small self-hosted tool for sending Wake-on-LAN packets to machines on your network. It provides a simple interface to store hosts and wake them remotely, making remote power management easier for homelab setups.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-05-16",
+    "date_last_commit": "2025-05-16",
+    "github_stars": 665,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 4,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Trugamr/wol",
+    "documentation": "https://github.com/Trugamr/wol",
+    "source_code": "https://github.com/Trugamr/wol",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wol.webp",
+    "issues": "https://github.com/Trugamr/wol/issues",
+    "releases": "https://github.com/Trugamr/wol/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wol-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Wake-on-LAN",
+      "description": "Wake devices over the network",
+      "core_feature": true
+    },
+    {
+      "title": "Device Configuration",
+      "description": "Configure target devices",
+      "core_feature": true
+    },
+    {
+      "title": "Command-Line Interface",
+      "description": "Trigger wake events via CLI",
+      "core_feature": true
+    },
+    {
+      "title": "Script Integration",
+      "description": "Use in automation scripts"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run the tool locally"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Use on supported operating systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wol/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

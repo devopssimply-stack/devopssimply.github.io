@@ -1,0 +1,62 @@
+# ===============================
+# Docker Compose (Lychee)
+# ===============================
+# host: http://localhost:8080
+# username:
+# password:
+
+services:
+  db:
+    image: postgres:16
+    container_name: lychee_db
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: lychee
+      POSTGRES_USER: lychee
+      POSTGRES_PASSWORD: strongpassword
+
+    volumes:
+      - lychee_db_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lychee"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  lychee:
+    image: lycheeorg/lychee:latest
+    container_name: lychee
+    restart: unless-stopped
+
+    depends_on:
+      db:
+        condition: service_healthy
+
+    ports:
+      - "8080:80"
+
+    environment:
+      DB_CONNECTION: pgsql
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: lychee
+      DB_USERNAME: lychee
+      DB_PASSWORD: strongpassword
+
+    volumes:
+      - lychee_uploads:/conf
+      - lychee_photos:/pictures
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+
+volumes:
+  lychee_db_data:
+  lychee_uploads:
+  lychee_photos:

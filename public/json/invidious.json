@@ -1,0 +1,108 @@
+{
+  "name": "invidious",
+  "slug": "invidious",
+  "tagline": "A privacy-focused alternative front end for watching YouTube without ads or tracking",
+  "subtitle": "",
+  "description": "Invidious is a privacy focused alternative front end for YouTube. It proxies video, search and subscriptions without ads or tracking, supports RSS feeds and multiple clients, and can be self hosted as a lightweight video portal.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.20260207.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-07",
+    "date_last_commit": "2026-02-24",
+    "github_stars": 18712,
+    "github_contributors": 270,
+    "github_commits_this_year": 29,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://invidious.io",
+    "documentation": "https://docs.invidious.io",
+    "source_code": "https://github.com/iv-org/invidious",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/invidious.webp",
+    "issues": "https://github.com/iv-org/invidious/issues",
+    "releases": "https://github.com/iv-org/invidious/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invidious-01-player.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invidious-02-preferences.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invidious-03-subscriptions.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invidious-04-description.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invidious-05-preferences.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invidious-06-subscriptions.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "YouTube Frontend",
+      "description": "Provides an alternative web interface for viewing YouTube content",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-Focused Viewing",
+      "description": "Allows video playback without Google accounts or tracking",
+      "core_feature": true
+    },
+    {
+      "title": "Video Playback",
+      "description": "Streams videos directly through the web interface"
+    },
+    {
+      "title": "Channel Subscriptions",
+      "description": "Follows channels and builds subscription feeds without sign-in"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches YouTube videos and channels"
+    },
+    {
+      "title": "Audio-Only Mode",
+      "description": "Plays video content as audio streams"
+    },
+    {
+      "title": "API Access",
+      "description": "Enables third-party clients to access video data"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Runs the frontend on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/invidious/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "invidious_ynh",
+      "url": "https://github.com/YunoHost-Apps/invidious_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "invidious",
+      "url": "https://apps.truenas.com/catalog/invidious"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "anchr",
+  "slug": "anchr",
+  "tagline": "A lightweight service for managing bookmarks and short links",
+  "subtitle": "",
+  "description": "Anchr is a lightweight personal bookmark and URL shortener service. It allows storing, tagging, and sharing bookmarks, shortening links, and managing them via a simple self-hosted web interface with REST API support.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "3.5.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-14",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 378,
+    "github_contributors": 5,
+    "github_commits_this_year": 4,
+    "github_issues_open": 9,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://anchr.io",
+    "documentation": "https://anchr.io",
+    "source_code": "https://github.com/muety/anchr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/anchr.webp",
+    "issues": "https://github.com/muety/anchr/issues",
+    "releases": "https://github.com/muety/anchr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/anchr-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Bookmark Archiving",
+      "description": "Save and archive bookmarked web pages",
+      "core_feature": true
+    },
+    {
+      "title": "Content Snapshot",
+      "description": "Store a local copy of linked content"
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize bookmarks using tags"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse archived bookmarks through a browser"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui",
+    "api"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/anchr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "py-medusa",
+  "slug": "medusa",
+  "tagline": "An automated TV show management and download system",
+  "subtitle": "",
+  "description": "Medusa is a fork of SickRage that automates the downloading and organization of TV shows. It integrates with usenet and torrent clients to fetch episodes, rename files, and manage libraries.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.0.25",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-12",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1946,
+    "github_contributors": 280,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://pymedusa.com",
+    "documentation": "https://github.com/pymedusa/Medusa/wiki/Installation-&-Configuration-Guides",
+    "source_code": "https://github.com/pymedusa/Medusa",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/medusa.webp",
+    "issues": "https://github.com/pymedusa/Medusa/issues",
+    "releases": "https://github.com/pymedusa/Medusa/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/medusa-details-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/medusa-media-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "TV Series Management",
+      "description": "Manage and organize TV show libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Episode Monitoring",
+      "description": "Track missing and upcoming episodes",
+      "core_feature": true
+    },
+    {
+      "title": "Download Automation",
+      "description": "Integrate with download clients",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Retrieval",
+      "description": "Fetch show and episode information"
+    },
+    {
+      "title": "File Organization",
+      "description": "Rename and organize downloaded files"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage shows through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/medusa/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "medusa",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=medusa"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "medusa_ynh",
+      "url": "https://github.com/YunoHost-Apps/medusa_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "tvheadend",
+  "slug": "tvheadend",
+  "tagline": "A TV streaming and recording server for DVB, IPTV, and broadcast sources",
+  "subtitle": "",
+  "description": "Tvheadend is a self-hosted TV streaming server and recorder for DVB, ATSC, IPTV and more. It offers channel management, EPG, recording rules, and streaming to clients via an integrated web interface.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 3349,
+    "github_contributors": 287,
+    "github_commits_this_year": 57,
+    "github_issues_open": 20,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://tvheadend.org",
+    "documentation": "https://github.com/tvheadend/tvheadend/blob/master/README.Docker.md",
+    "source_code": "https://github.com/tvheadend/tvheadend",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tvheadend.webp",
+    "issues": "https://github.com/tvheadend/tvheadend/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tvheadend-config.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tvheadend-dark-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "TV Streaming Server",
+      "description": "Stream live TV over a network",
+      "core_feature": true
+    },
+    {
+      "title": "Tuner Support",
+      "description": "Use supported TV tuners",
+      "core_feature": true
+    },
+    {
+      "title": "Recording",
+      "description": "Record live TV programs",
+      "core_feature": true
+    },
+    {
+      "title": "Electronic Program Guide",
+      "description": "View TV schedules and program data"
+    },
+    {
+      "title": "Client Support",
+      "description": "Connect using compatible clients"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the TV server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tvheadend/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "tvheadend_ynh",
+      "url": "https://github.com/YunoHost-Apps/tvheadend_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "tvheadend",
+      "url": "https://apps.truenas.com/catalog/tvheadend"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

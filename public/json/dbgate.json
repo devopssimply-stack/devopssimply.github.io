@@ -1,0 +1,99 @@
+{
+  "name": "dbgate",
+  "slug": "dbgate",
+  "tagline": "A database management interface for SQL and NoSQL data sources",
+  "subtitle": "",
+  "description": "DbGate is a modern database management tool with a web-based IDE for SQL, JSON, and CSV. It supports many database types like PostgreSQL, MySQL, MongoDB, and SQLite. Easy to deploy in Docker for self-hosting.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v7.1.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6800,
+    "github_contributors": 43,
+    "github_commits_this_year": 353,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 44
+  },
+  "resources": {
+    "website": "https://www.dbgate.io",
+    "documentation": "https://docs.dbgate.io",
+    "source_code": "https://github.com/dbgate/dbgate",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dbgate.webp",
+    "issues": "https://github.com/dbgate/dbgate/issues",
+    "releases": "https://github.com/dbgate/dbgate/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dbgate-screenshot1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dbgate-screenshot2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dbgate-screenshot3.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dbgate-screenshot4.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Database Management Client",
+      "description": "Manages databases through a unified interface",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Database Support",
+      "description": "Connects to many database engines",
+      "core_feature": true
+    },
+    {
+      "title": "SQL Editor",
+      "description": "Writes and executes SQL queries",
+      "core_feature": true
+    },
+    {
+      "title": "Data Browsing",
+      "description": "Views tables records and schemas"
+    },
+    {
+      "title": "Schema Management",
+      "description": "Edits database structure"
+    },
+    {
+      "title": "Desktop and Web Apps",
+      "description": "Runs as desktop or web client"
+    },
+    {
+      "title": "Connection Management",
+      "description": "Stores and organizes database connections"
+    },
+    {
+      "title": "Self-Hosted Option",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dbgate/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.dbgate.org",
+    "username": null,
+    "password": null
+  }
+}

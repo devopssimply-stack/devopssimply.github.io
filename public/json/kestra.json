@@ -1,0 +1,76 @@
+{
+  "name": "kestra",
+  "slug": "kestra",
+  "tagline": "An event-driven orchestration and workflow platform for data pipelines",
+  "subtitle": "",
+  "description": "Kestra is an event driven orchestration and workflow platform. It lets teams define data pipelines and tasks as code, schedule and monitor them, and run at scale on self hosted or managed infrastructure with a comprehensive web UI.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.3.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 26469,
+    "github_contributors": 406,
+    "github_commits_this_year": 578,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 31
+  },
+  "resources": {
+    "website": "https://kestra.io",
+    "documentation": "https://github.com/kestra-io/kestra",
+    "source_code": "https://github.com/kestra-io/kestra",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kestra.webp",
+    "issues": "https://github.com/kestra-io/kestra/issues",
+    "releases": "https://github.com/kestra-io/kestra/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kestra-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Workflow Orchestration",
+      "description": "Define and run workflows composed of multiple tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Execute workflows on schedules or triggers",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Monitor and manage workflow executions",
+      "core_feature": true
+    },
+    {
+      "title": "Plugin Tasks",
+      "description": "Extend workflows using built-in and custom task types"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kestra/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

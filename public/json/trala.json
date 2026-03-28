@@ -1,0 +1,85 @@
+{
+  "name": "trala",
+  "slug": "trala",
+  "tagline": "A personal finance and budgeting app for tracking transactions and spending",
+  "subtitle": "",
+  "description": "Trala is a self-hosted personal finance and budgeting application with transaction tracking, categorization, and summaries, giving individuals a clear overview of their money.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.13.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-11",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 255,
+    "github_contributors": 5,
+    "github_commits_this_year": 65,
+    "github_issues_open": 3,
+    "github_issues_closed_this_year": 2,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/dannybouwers/trala",
+    "documentation": "https://www.trala.fyi/docs/README",
+    "source_code": "https://github.com/dannybouwers/trala",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/trala.webp",
+    "issues": "https://github.com/dannybouwers/trala/issues",
+    "releases": "https://github.com/dannybouwers/trala/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/trala-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/trala-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Travel Planning",
+      "description": "Plan trips and itineraries",
+      "core_feature": true
+    },
+    {
+      "title": "Location Management",
+      "description": "Manage travel destinations",
+      "core_feature": true
+    },
+    {
+      "title": "Schedule Organization",
+      "description": "Organize activities by date",
+      "core_feature": true
+    },
+    {
+      "title": "Notes",
+      "description": "Add notes to travel plans"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Plan trips through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the planner on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/trala/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

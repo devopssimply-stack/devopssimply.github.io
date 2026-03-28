@@ -1,0 +1,82 @@
+{
+  "name": "screenlite",
+  "slug": "screenlite",
+  "tagline": "A self-hosted digital signage platform for scheduling and managing remote screens",
+  "subtitle": "",
+  "description": "Screenlite is a self-hosted digital signage tool that allows displaying custom media and messages on remote screens. It includes scheduling and multi-screen management.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-05",
+    "github_stars": 340,
+    "github_contributors": 3,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://screenlite.org",
+    "documentation": "https://github.com/screenlite/screenlite",
+    "source_code": "https://github.com/screenlite/screenlite",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/screenlite.webp",
+    "issues": "https://github.com/screenlite/screenlite/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Screen Recording",
+      "description": "Record screen activity",
+      "core_feature": true
+    },
+    {
+      "title": "Video Playback",
+      "description": "Play recorded screen videos",
+      "core_feature": true
+    },
+    {
+      "title": "Minimal Controls",
+      "description": "Control recording with simple actions",
+      "core_feature": true
+    },
+    {
+      "title": "Local Storage",
+      "description": "Save recordings locally"
+    },
+    {
+      "title": "Export",
+      "description": "Export recordings as video files"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run the recorder on supported systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/screenlite/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

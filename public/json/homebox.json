@@ -1,0 +1,115 @@
+{
+  "name": "homebox",
+  "slug": "homebox",
+  "tagline": "A self-hosted inventory manager for tracking items, locations, and warranties",
+  "subtitle": "",
+  "description": "Homebox is a self hosted inventory management app for home and office. It helps track items, locations, warranties and purchase details, with search and tagging features so you can quickly find what you own and where it is stored.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.24.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 5401,
+    "github_contributors": 112,
+    "github_commits_this_year": 99,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://homebox.software",
+    "documentation": "https://github.com/sysadminsmedia/homebox",
+    "source_code": "https://github.com/sysadminsmedia/homebox",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/homebox.webp",
+    "issues": "https://github.com/sysadminsmedia/homebox/issues",
+    "releases": "https://github.com/sysadminsmedia/homebox/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homebox-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homebox-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homebox-login-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homebox-search-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homebox-search.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Home Inventory Management",
+      "description": "Tracks household items and assets",
+      "core_feature": true
+    },
+    {
+      "title": "Item Categorization",
+      "description": "Organizes inventory by rooms and categories"
+    },
+    {
+      "title": "Asset Details",
+      "description": "Stores purchase dates values and notes"
+    },
+    {
+      "title": "Search and Filter",
+      "description": "Finds items quickly"
+    },
+    {
+      "title": "Image Attachments",
+      "description": "Attaches photos to inventory items"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages inventory through a browser"
+    },
+    {
+      "title": "Data Export",
+      "description": "Exports inventory data"
+    },
+    {
+      "title": "Self-Hosted Inventory",
+      "description": "Run the system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/homebox/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "homebox",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=homebox"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "homebox_ynh",
+      "url": "https://github.com/YunoHost-Apps/homebox_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "homebox",
+      "url": "https://apps.truenas.com/catalog/homebox"
+    }
+  },
+  "demo": {
+    "url": "https://demo.homebox.software",
+    "username": "demo@example.com",
+    "password": "demo"
+  }
+}

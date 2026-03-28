@@ -1,0 +1,91 @@
+{
+  "name": "feeds-fun",
+  "slug": "feeds-fun",
+  "tagline": "A playful self-hosted RSS reader for browsing and managing feeds",
+  "subtitle": "",
+  "description": "feeds.fun is a self-hosted RSS reading and aggregation tool focused on playful UX. It lets users subscribe to feeds, mark items as read, and browse posts in a colorful interface while keeping everything under their own control.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD 3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 345,
+    "github_contributors": 1,
+    "github_commits_this_year": 33,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://feeds.fun",
+    "documentation": "https://blog.feeds.fun/en/posts/documentation",
+    "source_code": "https://github.com/Tiendil/feeds.fun",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/feeds-fun.webp",
+    "issues": "https://github.com/Tiendil/feeds.fun/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/feeds-fun-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Feed Aggregation",
+      "description": "Collects content from RSS feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Web Reader",
+      "description": "Reads aggregated feeds in a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Discovery",
+      "description": "Helps find and subscribe to feeds"
+    },
+    {
+      "title": "Content Ranking",
+      "description": "Sorts items by relevance signals"
+    },
+    {
+      "title": "Tag-Based Navigation",
+      "description": "Browses content by tags"
+    },
+    {
+      "title": "Read Tracking",
+      "description": "Marks items as read"
+    },
+    {
+      "title": "Account Support",
+      "description": "Stores preferences per user"
+    },
+    {
+      "title": "Self-Hosted Reader",
+      "description": "Host the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/feeds-fun/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

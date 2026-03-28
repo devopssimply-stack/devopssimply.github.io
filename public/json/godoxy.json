@@ -1,0 +1,90 @@
+{
+  "name": "godoxy",
+  "slug": "godoxy",
+  "tagline": "A self-hosted HTTP inspection proxy for debugging and traffic analysis",
+  "subtitle": "",
+  "description": "Godoxy is a self-hosted proxy server designed for inspecting HTTP traffic and debugging. It provides a web interface and API for logging requests, useful for development and debugging processes.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.27.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 2894,
+    "github_contributors": 10,
+    "github_commits_this_year": 292,
+    "github_issues_open": 16,
+    "github_issues_closed_this_year": 19,
+    "github_releases_this_year": 16
+  },
+  "resources": {
+    "website": "https://docs.godoxy.dev",
+    "documentation": "https://docs.godoxy.dev",
+    "source_code": "https://github.com/yusing/godoxy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/godoxy.webp",
+    "issues": "https://github.com/yusing/godoxy/issues",
+    "releases": "https://github.com/yusing/godoxy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/godoxy-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/godoxy-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/godoxy-routes.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/godoxy-servers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/godoxy-webui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reverse Proxy",
+      "description": "Route incoming HTTP requests to backend services",
+      "core_feature": true
+    },
+    {
+      "title": "Automatic Configuration",
+      "description": "Generate proxy routes based on service definitions",
+      "core_feature": true
+    },
+    {
+      "title": "Container Integration",
+      "description": "Detect and route traffic to containerized services",
+      "core_feature": true
+    },
+    {
+      "title": "HTTPS Support",
+      "description": "Serve applications over HTTPS connections"
+    },
+    {
+      "title": "Service Discovery",
+      "description": "Discover backend services automatically"
+    },
+    {
+      "title": "Web-Based Administration",
+      "description": "Manage proxy behavior through configuration files"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/godoxy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.godoxy.dev",
+    "username": null,
+    "password": null
+  }
+}

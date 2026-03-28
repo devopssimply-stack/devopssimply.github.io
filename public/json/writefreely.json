@@ -1,0 +1,95 @@
+{
+  "name": "writefreely",
+  "slug": "writefreely",
+  "tagline": "A minimalist blogging and writing platform with ActivityPub support",
+  "subtitle": "",
+  "description": "WriteFreely is a minimalist, self-hosted blogging and writing platform. It supports multiple users, federated ActivityPub publishing, clean typography, and privacy-focused configuration for communities or individuals.",
+  "categories": [
+    19
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.16.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-29",
+    "date_last_commit": "2026-02-03",
+    "github_stars": 5065,
+    "github_contributors": 59,
+    "github_commits_this_year": 13,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://writefreely.org",
+    "documentation": "https://writefreely.org/start",
+    "source_code": "https://github.com/writefreely/writefreely",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/writefreely.webp",
+    "issues": "https://github.com/writefreely/writefreely/issues",
+    "releases": "https://github.com/writefreely/writefreely/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/writefreely-apps-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Publishing Platform",
+      "description": "Publish blogs and simple websites",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Writing",
+      "description": "Write posts using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Blog Support",
+      "description": "Host multiple blogs"
+    },
+    {
+      "title": "Minimal Design",
+      "description": "Focus on distraction-free writing"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/writefreely/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "writefreely_ynh",
+      "url": "https://github.com/YunoHost-Apps/writefreely_ynh"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "writefreely",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=writefreely"
+    }
+  },
+  "demo": {
+    "url": "https://write.as/new",
+    "username": null,
+    "password": null
+  }
+}

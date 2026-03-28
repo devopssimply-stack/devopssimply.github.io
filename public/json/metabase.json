@@ -1,0 +1,109 @@
+{
+  "name": "metabase",
+  "slug": "metabase",
+  "tagline": "An open source business intelligence and data exploration platform",
+  "subtitle": "",
+  "description": "Metabase is an open-source data exploration and BI tool that lets users build dashboards and run queries without SQL. It supports self-hosted and cloud deployments, with a clean, intuitive UI and permission-based access.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.59.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 46316,
+    "github_contributors": 392,
+    "github_commits_this_year": 1068,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 24
+  },
+  "resources": {
+    "website": "https://metabase.com",
+    "documentation": "https://www.metabase.com/docs/latest/installation-and-operation/installing-metabase",
+    "source_code": "https://github.com/metabase/metabase",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/metabase.webp",
+    "issues": "https://github.com/metabase/metabase/issues",
+    "releases": "https://github.com/metabase/metabase/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-accountsetup.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-add-data.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-add-filter.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-add-values.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-ai-chat.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-apply-row-and-column-security.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-atlas-connect.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-cross-filter.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-edit-visualization.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-embedded-example-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-generate-sql-from-natural-language-prompt.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-set-filter-values.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metabase-usage-analytics.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Business Intelligence",
+      "description": "Analyze data stored in databases",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard Creation",
+      "description": "Build dashboards with charts and tables",
+      "core_feature": true
+    },
+    {
+      "title": "Query Builder",
+      "description": "Explore data without writing SQL",
+      "core_feature": true
+    },
+    {
+      "title": "SQL Editor",
+      "description": "Write and run custom SQL queries"
+    },
+    {
+      "title": "Sharing",
+      "description": "Share dashboards and questions with others"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the analytics platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/metabase/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "metabase",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=metabase"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "metabase_ynh",
+      "url": "https://github.com/YunoHost-Apps/metabase_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

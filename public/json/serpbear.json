@@ -1,0 +1,84 @@
+{
+  "name": "serpbear",
+  "slug": "serpbear",
+  "tagline": "A self-hosted SEO rank tracker for monitoring keyword positions",
+  "subtitle": "",
+  "description": "SerpBear is a self-hosted SEO rank tracker that monitors keyword positions across search engines. It offers charts, projects, and scheduled checks via a clean, mobile-friendly web UI.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 1827,
+    "github_contributors": 14,
+    "github_commits_this_year": 28,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://docs.serpbear.com/",
+    "documentation": "https://github.com/towfiqi/serpbear",
+    "source_code": "https://github.com/towfiqi/serpbear",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/serpbear.webp",
+    "issues": "https://github.com/towfiqi/serpbear/issues",
+    "releases": "https://github.com/towfiqi/serpbear/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/serpbear-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Search Ranking Tracking",
+      "description": "Track keyword rankings in search engines",
+      "core_feature": true
+    },
+    {
+      "title": "Project Management",
+      "description": "Manage multiple tracking projects",
+      "core_feature": true
+    },
+    {
+      "title": "Historical Trends",
+      "description": "View ranking changes over time",
+      "core_feature": true
+    },
+    {
+      "title": "Location Support",
+      "description": "Track rankings by region"
+    },
+    {
+      "title": "Reports",
+      "description": "Generate ranking summary reports"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/serpbear/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

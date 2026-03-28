@@ -1,0 +1,95 @@
+{
+  "name": "signature-pdf",
+  "slug": "signature-pdf",
+  "tagline": "A browser-based tool for digitally signing PDF documents",
+  "subtitle": "",
+  "description": "signaturepdf is a self-hosted tool to digitally sign PDFs from the browser. Users can upload, place signatures, and download signed documents without sending files to third-party services.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.9.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-03",
+    "date_last_commit": "2025-12-05",
+    "github_stars": 742,
+    "github_contributors": 38,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://pdf.24eme.fr",
+    "documentation": "https://github.com/24eme/signaturepdf/blob/master/installation.md#deploy-with-docker",
+    "source_code": "https://github.com/24eme/signaturepdf",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/signature-pdf.webp",
+    "issues": "https://github.com/24eme/signaturepdf/issues",
+    "releases": "https://github.com/24eme/signaturepdf/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signature-pdf-compress.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signature-pdf-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signature-pdf-metadata.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signature-pdf-organize.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/signature-pdf-sign.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "PDF Signing",
+      "description": "Digitally sign PDF documents",
+      "core_feature": true
+    },
+    {
+      "title": "Upload and Download",
+      "description": "Upload PDFs and download signed files",
+      "core_feature": true
+    },
+    {
+      "title": "Signature Placement",
+      "description": "Place signatures on selected pages",
+      "core_feature": true
+    },
+    {
+      "title": "Preview",
+      "description": "Preview documents before signing"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Sign PDFs through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the signing tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/signature-pdf/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "signaturepdf_ynh",
+      "url": "https://github.com/YunoHost-Apps/signaturepdf_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://pdf.24eme.fr",
+    "username": null,
+    "password": null
+  }
+}

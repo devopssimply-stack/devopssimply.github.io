@@ -1,0 +1,87 @@
+{
+  "name": "thrifty",
+  "slug": "thrifty",
+  "tagline": "A personal finance app for tracking spending, income, and budgets",
+  "subtitle": "",
+  "description": "Thrifty is a self-hosted personal finance web app for tracking spending, income, and budgets. It offers charts, categories, and insights via a clean, mobile-friendly interface for managing everyday expenses.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-2-Clause",
+    "version": "v1.12.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 94,
+    "github_contributors": 3,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/tiehfood/thrifty",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/thrifty.webp",
+    "issues": "https://github.com/tiehfood/thrifty/issues",
+    "releases": "https://github.com/tiehfood/thrifty/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/thrifty-add-new-entry.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/thrifty-add-new-user.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/thrifty-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/thrifty-set-new-icon.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Expense Tracking",
+      "description": "Track personal expenses",
+      "core_feature": true
+    },
+    {
+      "title": "Category Organization",
+      "description": "Organize expenses by category",
+      "core_feature": true
+    },
+    {
+      "title": "Reports",
+      "description": "View spending summaries",
+      "core_feature": true
+    },
+    {
+      "title": "Budget Limits",
+      "description": "Set spending limits"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage expenses in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/thrifty/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "jellysweep",
+  "slug": "jellysweep",
+  "tagline": "A cleanup utility for maintaining and tidying Jellyfin media libraries",
+  "subtitle": "",
+  "description": "jellysweep is a cleanup tool for Jellyfin libraries. It scans media collections for missing, duplicate or orphaned entries and helps administrators keep their metadata and files tidy in large self hosted libraries.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.14.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 204,
+    "github_contributors": 6,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/jon4hz/jellysweep",
+    "documentation": "https://github.com/jon4hz/jellysweep",
+    "source_code": "https://github.com/jon4hz/jellysweep",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jellysweep.webp",
+    "issues": "https://github.com/jon4hz/jellysweep/issues",
+    "releases": "https://github.com/jon4hz/jellysweep/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellysweep-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellysweep-keep-or-sweep.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellysweep-request-queue.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellysweep-scheduler.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellysweep-stats.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Library Cleanup Tool",
+      "description": "Removes unused Jellyfin media",
+      "core_feature": true
+    },
+    {
+      "title": "Watch Status Filtering",
+      "description": "Targets watched or unwatched items"
+    },
+    {
+      "title": "Age-Based Cleanup",
+      "description": "Filters media by age"
+    },
+    {
+      "title": "Jellyfin API Usage",
+      "description": "Reads library metadata"
+    },
+    {
+      "title": "CLI Operation",
+      "description": "Runs cleanup from terminal"
+    },
+    {
+      "title": "Safe Deletion Options",
+      "description": "Supports dry-run execution"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/jellysweep/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

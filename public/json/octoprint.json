@@ -1,0 +1,99 @@
+{
+  "name": "octoprint",
+  "slug": "octoprint",
+  "tagline": "A web interface for remotely controlling and monitoring 3D printers",
+  "subtitle": "",
+  "description": "OctoPrint is a powerful web interface for controlling 3D printers remotely. It offers live streaming, gcode upload, plugins, and terminal access, making it ideal for self-hosted workshop setups.",
+  "categories": [
+    3
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.11.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 8915,
+    "github_contributors": 264,
+    "github_commits_this_year": 169,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://octoprint.org",
+    "documentation": "https://docs.octoprint.org",
+    "source_code": "https://github.com/OctoPrint/OctoPrint",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/octoprint.webp",
+    "issues": "https://github.com/OctoPrint/OctoPrint/issues",
+    "releases": "https://github.com/OctoPrint/OctoPrint/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/octoprint-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/octoprint-control-tab.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/octoprint-gcodeviewer-tab.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/octoprint-temperature-tab.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/octoprint-terminal-tab.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "3D Printer Control",
+      "description": "Control 3D printers through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Print Job Management",
+      "description": "Start, stop, and monitor print jobs",
+      "core_feature": true
+    },
+    {
+      "title": "Webcam Support",
+      "description": "View live camera feeds during printing"
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extend functionality using plugins",
+      "core_feature": true
+    },
+    {
+      "title": "Remote Access",
+      "description": "Access printer controls via a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the server on local or private hardware"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "octoprint",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=octoprint"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "octoprint_ynh",
+      "url": "https://github.com/YunoHost-Apps/octoprint_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "octoprint",
+      "url": "https://apps.truenas.com/catalog/octoprint"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

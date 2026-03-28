@@ -1,0 +1,83 @@
+{
+  "name": "mysql",
+  "slug": "mysql",
+  "tagline": "A widely used open source relational database management system",
+  "subtitle": "",
+  "description": "MySQL Server is a widely used open-source relational database management system. It's the backbone for many applications, offering full data control for self-hosted and enterprise database workloads.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL 2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-01-22",
+    "github_stars": 12209,
+    "github_contributors": 112,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://www.mysql.com/",
+    "documentation": "https://dev.mysql.com/doc",
+    "source_code": "https://github.com/mysql/mysql-server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mysql.webp",
+    "issues": "https://github.com/mysql/mysql-server/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mysql-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Relational Database",
+      "description": "Store and manage structured data",
+      "core_feature": true
+    },
+    {
+      "title": "SQL Support",
+      "description": "Query and modify data using SQL",
+      "core_feature": true
+    },
+    {
+      "title": "Transaction Support",
+      "description": "Ensure data consistency with transactions",
+      "core_feature": true
+    },
+    {
+      "title": "User and Privilege Management",
+      "description": "Control database access and permissions"
+    },
+    {
+      "title": "Replication",
+      "description": "Replicate data across servers"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the database on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "mysql",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=mysql"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

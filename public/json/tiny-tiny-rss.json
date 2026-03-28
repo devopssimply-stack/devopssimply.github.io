@@ -1,0 +1,77 @@
+{
+  "name": "tiny-tiny-rss",
+  "slug": "tiny-tiny-rss",
+  "tagline": "A full-featured web-based RSS and Atom feed reader you control",
+  "subtitle": "",
+  "description": "Tiny Tiny RSS (tt-rss) is a self-hosted web-based RSS/Atom feed reader. It supports filters, plugins, multiple users, and mobile-friendly themes, giving full control over news aggregation.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-05",
+    "github_stars": 643,
+    "github_contributors": 239,
+    "github_commits_this_year": 29,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://tt-rss.org",
+    "documentation": "https://github.com/tt-rss/tt-rss",
+    "source_code": "https://github.com/tt-rss/tt-rss",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tiny-tiny-rss.webp",
+    "issues": "https://github.com/tt-rss/tt-rss/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "RSS Feed Reader",
+      "description": "Subscribe to and read RSS feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Organization",
+      "description": "Organize feeds into categories",
+      "core_feature": true
+    },
+    {
+      "title": "Article Filtering",
+      "description": "Filter articles using rules"
+    },
+    {
+      "title": "Search",
+      "description": "Search feed content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Read feeds through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tiny-tiny-rss/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

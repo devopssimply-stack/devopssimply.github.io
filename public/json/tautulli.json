@@ -1,0 +1,102 @@
+{
+  "name": "tautulli",
+  "slug": "tautulli",
+  "tagline": "A monitoring and analytics dashboard for Plex Media Server activity",
+  "subtitle": "",
+  "description": "Tautulli is a self-hosted monitoring and analytics tool for Plex Media Server. It tracks user activity, watch history, performance, and library stats, providing rich reports and notifications via an intuitive web dashboard and API.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.16.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-15",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6392,
+    "github_contributors": 76,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://tautulli.com",
+    "documentation": "https://github.com/Tautulli/Tautulli/wiki/Installation",
+    "source_code": "https://github.com/Tautulli/Tautulli",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tautulli.webp",
+    "issues": "https://github.com/Tautulli/Tautulli/issues",
+    "releases": "https://github.com/Tautulli/Tautulli/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-activity.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-graphs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-history.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-libraries.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-library.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-media-item.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-notifications.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-user-info.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tautulli-users.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Plex Monitoring",
+      "description": "Monitor Plex Media Server activity",
+      "core_feature": true
+    },
+    {
+      "title": "User Activity Tracking",
+      "description": "View active streams and users",
+      "core_feature": true
+    },
+    {
+      "title": "Playback History",
+      "description": "Track watched media history"
+    },
+    {
+      "title": "Notifications",
+      "description": "Send alerts for playback events"
+    },
+    {
+      "title": "Statistics",
+      "description": "View usage and performance metrics"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tautulli/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "tautulli",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=tautulli"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "tautulli",
+      "url": "https://apps.truenas.com/catalog/tautulli"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

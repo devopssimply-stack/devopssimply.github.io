@@ -1,0 +1,90 @@
+{
+  "name": "tubesync",
+  "slug": "tubesync",
+  "tagline": "A tool for syncing YouTube channels and playlists to media servers",
+  "subtitle": "",
+  "description": "Tubesync is a self-hosted tool that syncs YouTube channels and playlists to media servers like Jellyfin, downloading and organizing videos automatically with minimal configuration.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.16.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 2639,
+    "github_contributors": 41,
+    "github_commits_this_year": 94,
+    "github_issues_open": 64,
+    "github_issues_closed_this_year": 39,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/meeb/tubesync",
+    "documentation": "https://github.com/meeb/tubesync",
+    "source_code": "https://github.com/meeb/tubesync",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tubesync.webp",
+    "issues": "https://github.com/meeb/tubesync/issues",
+    "releases": "https://github.com/meeb/tubesync/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tubesync-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tubesync-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tubesync-media-item-v0.5.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tubesync-media-item.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tubesync-media-v0.5.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tubesync-media.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tubesync-source.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Subscription Sync",
+      "description": "Download videos from subscribed channels",
+      "core_feature": true
+    },
+    {
+      "title": "Platform Support",
+      "description": "Sync content from supported video platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Downloads",
+      "description": "Fetch new videos automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Download History",
+      "description": "Track downloaded videos"
+    },
+    {
+      "title": "Configuration Options",
+      "description": "Configure download behavior"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tubesync/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

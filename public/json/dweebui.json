@@ -1,0 +1,92 @@
+{
+  "name": "dweebui",
+  "slug": "dweebui",
+  "tagline": "A customizable self-hosted dashboard for links, widgets, and status",
+  "subtitle": "",
+  "description": "DweebUI is a playful, customizable web dashboard for presenting information widgets, links, and status blocks. It’s designed for self-hosted homepages, homelabs, or personal start pages with a retro-inspired style.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.60",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-06-09",
+    "date_last_commit": "2025-06-25",
+    "github_stars": 1058,
+    "github_contributors": 5,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.dweebui.com/",
+    "documentation": "https://github.com/lllllllillllllillll/DweebUI",
+    "source_code": "https://github.com/lllllllillllllillll/DweebUI",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dweebui.webp",
+    "issues": "https://github.com/lllllllillllllillll/DweebUI/issues",
+    "releases": "https://github.com/lllllllillllllillll/DweebUI/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dweebui-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dweebui-preferences.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dweebui-settings.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Minimal Web Dashboard",
+      "description": "Displays system and service information",
+      "core_feature": true
+    },
+    {
+      "title": "Widget Display",
+      "description": "Shows data using simple widgets"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Manages layout through config"
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Adapts to different screen sizes"
+    },
+    {
+      "title": "Lightweight Frontend",
+      "description": "Uses minimal resources"
+    },
+    {
+      "title": "Service Status Display",
+      "description": "Shows service availability"
+    },
+    {
+      "title": "Simple Deployment",
+      "description": "Deploys as a static site"
+    },
+    {
+      "title": "Self-Hosted UI",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dweebui/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

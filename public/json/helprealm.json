@@ -1,0 +1,80 @@
+{
+  "name": "helprealm",
+  "slug": "helprealm",
+  "tagline": "An open source helpdesk and support ticket system for teams",
+  "subtitle": "",
+  "description": "dnyHelpRealm is a self hosted support ticket and helpdesk system. It lets users submit issues, track statuses and communicate with staff through an intuitive web interface suited for small teams and community projects.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2024-08-29",
+    "github_stars": 45,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/danielbrendel/dnyHelpRealm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/helprealm.webp",
+    "issues": "https://github.com/danielbrendel/dnyHelpRealm/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Helpdesk Platform",
+      "description": "Manages customer support tickets and requests",
+      "core_feature": true
+    },
+    {
+      "title": "Ticket Lifecycle Management",
+      "description": "Tracks tickets from creation to resolution"
+    },
+    {
+      "title": "User and Agent Roles",
+      "description": "Separates permissions between staff and requesters"
+    },
+    {
+      "title": "Knowledge Base",
+      "description": "Publishes help articles and documentation"
+    },
+    {
+      "title": "Email Integration",
+      "description": "Receives and responds to tickets via email"
+    },
+    {
+      "title": "Status Notifications",
+      "description": "Notifies users about ticket updates"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages support through a browser"
+    },
+    {
+      "title": "Self-Hosted Helpdesk",
+      "description": "Run the system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

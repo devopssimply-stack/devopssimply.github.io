@@ -1,0 +1,89 @@
+{
+  "name": "peertube",
+  "slug": "peertube",
+  "tagline": "A federated, self-hosted video hosting and streaming platform",
+  "subtitle": "",
+  "description": "PeerTube is a decentralized, federated video hosting platform based on ActivityPub. It supports streaming, playlists, federation, and custom instances, providing a self-hosted alternative to YouTube.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v8.0.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-27",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 14560,
+    "github_contributors": 293,
+    "github_commits_this_year": 303,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://joinpeertube.org/",
+    "documentation": "https://docs.joinpeertube.org",
+    "source_code": "https://github.com/Chocobozzz/PeerTube",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/peertube.webp",
+    "issues": "https://github.com/Chocobozzz/PeerTube/issues",
+    "releases": "https://github.com/Chocobozzz/PeerTube/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/peertube-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Hosting",
+      "description": "Host and stream videos",
+      "core_feature": true
+    },
+    {
+      "title": "Federation",
+      "description": "Share videos across federated servers",
+      "core_feature": true
+    },
+    {
+      "title": "Channels",
+      "description": "Organize videos into channels",
+      "core_feature": true
+    },
+    {
+      "title": "Live Streaming",
+      "description": "Stream live video content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse and manage videos in a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/peertube/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "peertube_ynh",
+      "url": "https://github.com/YunoHost-Apps/peertube_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

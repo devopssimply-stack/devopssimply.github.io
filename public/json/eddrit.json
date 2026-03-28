@@ -1,0 +1,91 @@
+{
+  "name": "eddrit",
+  "slug": "eddrit",
+  "tagline": "A privacy-friendly web client for browsing Reddit content",
+  "subtitle": "",
+  "description": "Eddrit is an alternative, privacy-friendly web client for Reddit. It focuses on a fast, clutter-free interface without heavy tracking scripts, allowing users to browse posts and comments from a self-hosted or public instance.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.18.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 164,
+    "github_contributors": 5,
+    "github_commits_this_year": 46,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://eddrit.com",
+    "documentation": "https://github.com/corenting/eddrit",
+    "source_code": "https://github.com/corenting/eddrit",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/eddrit.webp",
+    "issues": "https://github.com/corenting/eddrit/issues",
+    "releases": "https://github.com/corenting/eddrit/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eddrit-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reddit Content Reader",
+      "description": "Reads Reddit content without ads or tracking",
+      "core_feature": true
+    },
+    {
+      "title": "Feed-Based Browsing",
+      "description": "Displays posts in a clean feed layout",
+      "core_feature": true
+    },
+    {
+      "title": "Subreddit Navigation",
+      "description": "Browses posts by subreddit"
+    },
+    {
+      "title": "Comment Viewing",
+      "description": "Reads comment threads"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Focuses on distraction-free reading"
+    },
+    {
+      "title": "Privacy-Focused Design",
+      "description": "Avoids tracking and profiling"
+    },
+    {
+      "title": "Web Application",
+      "description": "Runs entirely in the browser"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Can be deployed on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/eddrit/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

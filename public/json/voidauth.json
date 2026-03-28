@@ -1,0 +1,89 @@
+{
+  "name": "voidauth",
+  "slug": "voidauth",
+  "tagline": "An authentication and authorization service for managing users and tokens",
+  "subtitle": "",
+  "description": "Voidauth is a self-hosted authentication and authorization service that handles user registration, login, and token-based access for multiple applications through a web UI and REST API.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.9.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1875,
+    "github_contributors": 12,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://voidauth.app",
+    "documentation": "http://voidauth.app/#/Getting-Started",
+    "source_code": "https://github.com/voidauth/voidauth",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/voidauth.webp",
+    "issues": "https://github.com/voidauth/voidauth/issues",
+    "releases": "https://github.com/voidauth/voidauth/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/voidauth-3f0b0afc-5bcf-436c-8def-f45e68adb019.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/voidauth-4122f143-e016-4dde-a6d2-4dbb5e3c9ef4.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/voidauth-admin-panel.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/voidauth-admin-password-resets.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/voidauth-f7cf9712-4259-43ce-bde1-fbe22a447763.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/voidauth-sign-up.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Authentication Service",
+      "description": "Provide authentication for applications",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage users and credentials",
+      "core_feature": true
+    },
+    {
+      "title": "Token Issuance",
+      "description": "Issue authentication tokens",
+      "core_feature": true
+    },
+    {
+      "title": "API Integration",
+      "description": "Integrate authentication via API"
+    },
+    {
+      "title": "Access Policies",
+      "description": "Define authentication rules"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/voidauth/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

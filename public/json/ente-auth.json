@@ -1,0 +1,84 @@
+{
+  "name": "ente-auth",
+  "slug": "ente-auth",
+  "tagline": "An authentication app for generating and managing encrypted two-factor codes",
+  "subtitle": "",
+  "description": "Ente is an end-to-end encrypted photo and file backup solution with open-source clients. It lets users back up and browse media across devices while keeping encryption keys under their control, and also offers a hosted cloud service.",
+  "categories": [
+    2
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "ensu-v0.1.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 24983,
+    "github_contributors": 286,
+    "github_commits_this_year": 2911,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://ente.io",
+    "documentation": "https://github.com/ente-io/ente",
+    "source_code": "https://github.com/ente-io/ente",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ente-auth.webp",
+    "issues": "https://github.com/ente-io/ente/issues",
+    "releases": "https://github.com/ente-io/ente/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ente-auth.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "End-to-End Encryption",
+      "description": "Photos encrypted before leaving your device. Zero-knowledge security",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Sync",
+      "description": "Access media on all your devices seamlessly. Synchronized everywhere"
+    },
+    {
+      "title": "Database Backup",
+      "description": "Never lose precious memories. Continuous protection",
+      "core_feature": true
+    },
+    {
+      "title": "Data Privacy",
+      "description": "You hold the encryption keys, not us. True privacy guaranteed"
+    },
+    {
+      "title": "Self-Hosted",
+      "description": "Run your own backup server. Complete data sovereignty"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ente-auth/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

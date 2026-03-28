@@ -1,0 +1,94 @@
+{
+  "name": "passbolt",
+  "slug": "passbolt",
+  "tagline": "A collaborative, self-hosted password manager for teams",
+  "subtitle": "",
+  "description": "Passbolt is a self-hosted, API-first password manager designed for team collaboration. It features encrypted password sharing, user controls, browser extensions, and auditing tools.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v5.9.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-26",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 5673,
+    "github_contributors": 282,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://passbolt.com",
+    "documentation": "https://github.com/passbolt/passbolt_api",
+    "source_code": "https://github.com/passbolt/passbolt_api",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/passbolt.webp",
+    "issues": "https://github.com/passbolt/passbolt_api/issues",
+    "releases": "https://github.com/passbolt/passbolt_api/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/passbolt-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/passbolt-hero.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/passbolt-product-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Password Management",
+      "description": "Store and share passwords securely",
+      "core_feature": true
+    },
+    {
+      "title": "Team Sharing",
+      "description": "Share credentials with team members",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Control who can access passwords",
+      "core_feature": true
+    },
+    {
+      "title": "Audit Logs",
+      "description": "Track access and changes"
+    },
+    {
+      "title": "API Backend",
+      "description": "Provide backend services for clients"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/passbolt/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "passbolt",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=passbolt"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "passbolt",
+      "url": "https://apps.truenas.com/catalog/passbolt"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

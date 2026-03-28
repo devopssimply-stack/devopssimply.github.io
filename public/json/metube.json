@@ -1,0 +1,92 @@
+{
+  "name": "metube",
+  "slug": "metube",
+  "tagline": "A self-hosted web UI for downloading and converting online videos",
+  "subtitle": "",
+  "description": "MeTube is a self-hosted YouTube downloader with a simple web UI to download and convert videos or audio from YouTube and similar sites. It supports batch downloads, playlists, and custom formats.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2026.03.06",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 12799,
+    "github_contributors": 75,
+    "github_commits_this_year": 57,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 23
+  },
+  "resources": {
+    "website": "https://github.com/alexta69/metube",
+    "documentation": "https://github.com/alexta69/metube",
+    "source_code": "https://github.com/alexta69/metube",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/metube.webp",
+    "issues": "https://github.com/alexta69/metube/issues",
+    "releases": "https://github.com/alexta69/metube/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/metube-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Downloading",
+      "description": "Download videos from supported platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Queue Management",
+      "description": "Manage multiple download tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Format Selection",
+      "description": "Choose video and audio formats"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Control downloads through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the downloader on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/metube/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "metube",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=metube"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "metube",
+      "url": "https://apps.truenas.com/catalog/metube"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

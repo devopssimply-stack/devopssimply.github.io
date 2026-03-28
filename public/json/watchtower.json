@@ -1,0 +1,82 @@
+{
+  "name": "watchtower",
+  "slug": "watchtower",
+  "tagline": "An automation tool that keeps Docker containers up to date",
+  "subtitle": "",
+  "description": "Watchtower is a self-hosted automation tool that monitors running Docker containers and automatically updates them when new images are available. It operates as a background container with configuration via environment variables and CLI.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.7.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2023-11-11",
+    "date_last_commit": "2025-12-17",
+    "github_stars": 24514,
+    "github_contributors": 131,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://containrrr.dev/watchtower",
+    "documentation": "https://containrrr.dev/watchtower/introduction",
+    "source_code": "https://github.com/containrrr/watchtower",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/watchtower.webp",
+    "issues": "https://github.com/containrrr/watchtower/issues",
+    "releases": "https://github.com/containrrr/watchtower/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/watchtower-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Container Update Automation",
+      "description": "Automatically update running containers",
+      "core_feature": true
+    },
+    {
+      "title": "Image Monitoring",
+      "description": "Monitor containers for new image versions",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Updates",
+      "description": "Run updates on a defined schedule"
+    },
+    {
+      "title": "Notification Support",
+      "description": "Send update notifications"
+    },
+    {
+      "title": "Docker Integration",
+      "description": "Work directly with Docker environments"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/watchtower/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

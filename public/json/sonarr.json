@@ -1,0 +1,104 @@
+{
+  "name": "sonarr",
+  "slug": "sonarr",
+  "tagline": "An automated TV series manager for Usenet and torrent users",
+  "subtitle": "",
+  "description": "Sonarr is a self-hosted TV series manager that automatically downloads, renames, and organizes episodes for Usenet and torrent users, integrating with indexers and media servers.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v4.0.16.2944",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-05",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 13403,
+    "github_contributors": 311,
+    "github_commits_this_year": 101,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://sonarr.tv",
+    "documentation": "https://wiki.servarr.com/sonarr",
+    "source_code": "https://github.com/Sonarr/Sonarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sonarr.webp",
+    "issues": "https://github.com/Sonarr/Sonarr/issues",
+    "releases": "https://github.com/Sonarr/Sonarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonarr-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "TV Series Management",
+      "description": "Manage and organize TV series libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Downloads",
+      "description": "Automatically download new episodes",
+      "core_feature": true
+    },
+    {
+      "title": "Episode Monitoring",
+      "description": "Monitor episode availability",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers"
+    },
+    {
+      "title": "Quality Profiles",
+      "description": "Control preferred download quality"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sonarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "sonarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=sonarr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "sonarr_ynh",
+      "url": "https://github.com/YunoHost-Apps/sonarr_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "sonarr",
+      "url": "https://apps.truenas.com/catalog/sonarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

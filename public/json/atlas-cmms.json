@@ -1,0 +1,82 @@
+{
+  "name": "atlas-cmms",
+  "slug": "atlas-cmms",
+  "tagline": "A maintenance management system for tracking equipment and work orders",
+  "subtitle": "",
+  "description": "CMMS is a web-based maintenance management system for tracking equipment, tasks, and service reports. Designed for small businesses and self-hosted setups.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 544,
+    "github_contributors": 7,
+    "github_commits_this_year": 493,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://atlas-cmms.com",
+    "documentation": "https://github.com/Grashjs/cmms",
+    "source_code": "https://github.com/Grashjs/cmms",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/atlas-cmms.webp",
+    "issues": "https://github.com/Grashjs/cmms/issues",
+    "releases": "https://github.com/Grashjs/cmms/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/atlas-cmms-analytics-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/atlas-cmms-assets.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/atlas-cmms-hero.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/atlas-cmms-work-order-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Maintenance Management System",
+      "description": "Manage equipment maintenance operations",
+      "core_feature": true
+    },
+    {
+      "title": "Work Orders",
+      "description": "Create and track maintenance jobs",
+      "core_feature": true
+    },
+    {
+      "title": "Asset Tracking",
+      "description": "Monitor machines and equipment"
+    },
+    {
+      "title": "Preventive Maintenance",
+      "description": "Schedule recurring maintenance tasks"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage maintenance through browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/atlas-cmms/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

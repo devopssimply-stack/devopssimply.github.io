@@ -1,0 +1,92 @@
+{
+  "name": "pixelfed",
+  "slug": "pixelfed",
+  "tagline": "A federated photo-sharing platform focused on privacy and decentralization",
+  "subtitle": "",
+  "description": "Pixelfed is a federated photo-sharing platform similar to Instagram. It supports albums, Stories, ActivityPub federation, and focuses on privacy and decentralization.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.12.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-02-25",
+    "github_stars": 6908,
+    "github_contributors": 177,
+    "github_commits_this_year": 116,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://pixelfed.org",
+    "documentation": "https://docs.pixelfed.org",
+    "source_code": "https://github.com/pixelfed/pixelfed",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pixelfed.webp",
+    "issues": "https://github.com/pixelfed/pixelfed/issues",
+    "releases": "https://github.com/pixelfed/pixelfed/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pixelfed-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pixelfed-product-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Photo Sharing Platform",
+      "description": "Share photos and images socially",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Create and manage user profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Timelines",
+      "description": "View posts in chronological feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Federated Networking",
+      "description": "Interact with other ActivityPub servers"
+    },
+    {
+      "title": "Media Attachments",
+      "description": "Upload and attach images to posts"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the photo network on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pixelfed/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "pixelfed_ynh",
+      "url": "https://github.com/YunoHost-Apps/pixelfed_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

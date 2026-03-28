@@ -1,0 +1,101 @@
+{
+  "name": "humhub",
+  "slug": "humhub",
+  "tagline": "A flexible social networking platform for communities and intranets",
+  "subtitle": "",
+  "description": "HumHub is a flexible social networking platform that can be used for communities, intranets and collaboration spaces. It offers user profiles, groups, streams, modules and permissions, all running on your own server.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.18.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 6638,
+    "github_contributors": 149,
+    "github_commits_this_year": 88,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://www.humhub.com",
+    "documentation": "https://docs.humhub.org",
+    "source_code": "https://github.com/humhub/humhub",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/humhub.webp",
+    "issues": "https://github.com/humhub/humhub/issues",
+    "releases": "https://github.com/humhub/humhub/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/humhub-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/humhub-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/humhub-info-corner.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/humhub-people.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/humhub-spaces.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Social Collaboration Platform",
+      "description": "Provides internal social networking features",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Manages member accounts and profiles"
+    },
+    {
+      "title": "Activity Streams",
+      "description": "Displays posts and interactions"
+    },
+    {
+      "title": "Spaces",
+      "description": "Organizes content into groups"
+    },
+    {
+      "title": "File Sharing",
+      "description": "Shares documents within spaces"
+    },
+    {
+      "title": "Notifications",
+      "description": "Alerts users about activity"
+    },
+    {
+      "title": "Module System",
+      "description": "Extends features through modules"
+    },
+    {
+      "title": "Self-Hosted Community Platform",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/humhub/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "humhub_ynh",
+      "url": "https://github.com/YunoHost-Apps/humhub_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://saas.humhub.com/en/demo",
+    "username": null,
+    "password": null
+  }
+}

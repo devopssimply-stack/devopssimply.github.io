@@ -1,0 +1,90 @@
+{
+  "name": "zitadel",
+  "slug": "zitadel",
+  "tagline": "An identity and access management platform supporting OpenID Connect and OAuth 2.0",
+  "subtitle": "",
+  "description": "Zitadel is a self-hosted identity and access management platform with OpenID Connect and OAuth 2.0 support. It offers multi-tenant projects, roles, and login flows and is available both self-hosted and as a managed cloud service.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.10.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-30",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 12922,
+    "github_contributors": 233,
+    "github_commits_this_year": 89,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://zitadel.com",
+    "documentation": "https://github.com/zitadel/zitadel",
+    "source_code": "https://github.com/zitadel/zitadel",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zitadel.webp",
+    "issues": "https://github.com/zitadel/zitadel/issues",
+    "releases": "https://github.com/zitadel/zitadel/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zitadel-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Identity and Access Management",
+      "description": "Manage users, authentication, and authorization",
+      "core_feature": true
+    },
+    {
+      "title": "OAuth and OpenID Connect",
+      "description": "Provide standard identity protocols",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage users and organizations"
+    },
+    {
+      "title": "Audit Logs",
+      "description": "Track authentication events"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run IAM on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/zitadel/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zitadel",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zitadel"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "keila",
+  "slug": "keila",
+  "tagline": "An open source email marketing and newsletter platform",
+  "subtitle": "",
+  "description": "Keila is an open source email marketing and newsletter tool. It enables list management, campaign design and sending, and basic analytics, providing a self hosted alternative for small organizations that want control over subscriber data.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.19.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 2022,
+    "github_contributors": 28,
+    "github_commits_this_year": 82,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://keila.io",
+    "documentation": "https://www.keila.io/docs",
+    "source_code": "https://github.com/pentacent/keila",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/keila.webp",
+    "issues": "https://github.com/pentacent/keila/issues",
+    "releases": "https://github.com/pentacent/keila/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keila-campaign-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/keila-keila-20211203.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Newsletter Management",
+      "description": "Create and manage email newsletters",
+      "core_feature": true
+    },
+    {
+      "title": "Subscriber Lists",
+      "description": "Maintain lists of newsletter subscribers",
+      "core_feature": true
+    },
+    {
+      "title": "Email Campaigns",
+      "description": "Send newsletters to selected audiences",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the newsletter platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/keila/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

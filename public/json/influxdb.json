@@ -1,0 +1,105 @@
+{
+  "name": "influxdb",
+  "slug": "influxdb",
+  "tagline": "A time-series database optimized for metrics, events, and analytics",
+  "subtitle": "",
+  "description": "InfluxDB is a high performance time series database optimized for metrics and events. It supports SQL like queries, retention policies and integrations with dashboards and agents, and can be run self hosted or in managed cloud offerings.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v3.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-27",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 31352,
+    "github_contributors": 317,
+    "github_commits_this_year": 37,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://influxdata.com",
+    "documentation": "https://docs.influxdata.com",
+    "source_code": "https://github.com/influxdata/influxdb",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/influxdb.webp",
+    "issues": "https://github.com/influxdata/influxdb/issues",
+    "releases": "https://github.com/influxdata/influxdb/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/influxdb-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/influxdb-ai-graph.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/influxdb-hero.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Time-Series Data Storage",
+      "description": "Stores timestamped data such as metrics events and sensor readings",
+      "core_feature": true
+    },
+    {
+      "title": "High Ingest Throughput",
+      "description": "Accepts frequent writes from monitoring and telemetry systems",
+      "core_feature": true
+    },
+    {
+      "title": "Query Capabilities",
+      "description": "Retrieves and aggregates time-series data using supported query languages"
+    },
+    {
+      "title": "Retention Policies",
+      "description": "Automatically expires data based on configured retention rules"
+    },
+    {
+      "title": "Authentication",
+      "description": "Controls access to databases and queries"
+    },
+    {
+      "title": "API Access",
+      "description": "Reads and writes data programmatically"
+    },
+    {
+      "title": "Visualization Integration",
+      "description": "Works with dashboards and monitoring tools"
+    },
+    {
+      "title": "Self-Hosted Database",
+      "description": "Runs the database on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/influxdb/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "influxdb",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=influxdb"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "influxdb",
+      "url": "https://apps.truenas.com/catalog/influxdb"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

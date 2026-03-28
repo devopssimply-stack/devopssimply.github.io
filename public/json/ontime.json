@@ -1,0 +1,87 @@
+{
+  "name": "ontime",
+  "slug": "ontime",
+  "tagline": "A self-hosted time tracking and reporting tool for teams and freelancers",
+  "subtitle": "",
+  "description": "Ontime is a self-hosted time tracking and visualization tool. It logs work sessions, generates reports, and provides a simple UI for freelancers or small teams to manage time and productivity.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL 3.0",
+    "version": "v4.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 845,
+    "github_contributors": 27,
+    "github_commits_this_year": 73,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://www.getontime.no",
+    "documentation": "https://docs.getontime.no/ontime",
+    "source_code": "https://github.com/cpvalente/ontime",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ontime.webp",
+    "issues": "https://github.com/cpvalente/ontime/issues",
+    "releases": "https://github.com/cpvalente/ontime/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ontime-editor.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Event Rundown Management",
+      "description": "Manage timing for live events and shows",
+      "core_feature": true
+    },
+    {
+      "title": "Timer Control",
+      "description": "Start and stop timers for agenda items",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Display",
+      "description": "Show timers to presenters and operators"
+    },
+    {
+      "title": "Schedule Editing",
+      "description": "Edit event rundowns"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Control events through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ontime/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

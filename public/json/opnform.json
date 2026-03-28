@@ -1,0 +1,81 @@
+{
+  "name": "opnform",
+  "slug": "opnform",
+  "tagline": "An open source form builder for creating and collecting responses",
+  "subtitle": "",
+  "description": "OpnForm is an open-source, Airtable-like form builder that allows users to create, share, and collect responses with an integrated UI. It supports REST APIs and can be self-hosted for full data control.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.13.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3199,
+    "github_contributors": 28,
+    "github_commits_this_year": 62,
+    "github_issues_open": 12,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://opnform.com",
+    "documentation": "https://github.com/OpnForm/OpnForm",
+    "source_code": "https://github.com/OpnForm/OpnForm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/opnform.webp",
+    "issues": "https://github.com/OpnForm/OpnForm/issues",
+    "releases": "https://github.com/OpnForm/OpnForm/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Form Builder",
+      "description": "Create and customize web forms",
+      "core_feature": true
+    },
+    {
+      "title": "Response Collection",
+      "description": "Collect submitted form responses",
+      "core_feature": true
+    },
+    {
+      "title": "Sharing",
+      "description": "Share forms via link or embed"
+    },
+    {
+      "title": "Result Export",
+      "description": "Export collected data"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Build forms through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the form platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/opnform/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

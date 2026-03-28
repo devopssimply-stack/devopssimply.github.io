@@ -1,0 +1,27 @@
+# ===============================
+# Docker Compose (Maloja)
+# ===============================
+# host: http://localhost:42010
+# username:
+# password:
+
+services:
+  maloja:
+    image: krateng/maloja:latest
+    container_name: maloja
+    restart: unless-stopped
+    environment:
+      MALOJA_HOST: 0.0.0.0
+      MALOJA_PORT: 42010
+    volumes:
+      - maloja_data:/mljdata
+    ports:
+      - "42010:42010"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:42010/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  maloja_data:

@@ -1,0 +1,84 @@
+{
+  "name": "deployrr",
+  "slug": "deployrr",
+  "tagline": "A deployment manager for automating setup and maintenance of Minecraft servers",
+  "subtitle": "",
+  "description": "Deployrr is a deployment manager for Minecraft servers built to automate installation, version upgrades, plugin management, and backups. It offers a clean web UI aimed at server admins and gaming communities.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Deployrr License",
+    "version": "v5.11.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-14",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 726,
+    "github_contributors": 7,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.deployrr.app",
+    "documentation": "https://docs.deployrr.app",
+    "source_code": "https://github.com/SimpleHomelab/Deployrr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/deployrr.webp",
+    "issues": "https://github.com/SimpleHomelab/Deployrr/issues",
+    "releases": "https://github.com/SimpleHomelab/Deployrr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/deployrr-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Application Deployment Automation",
+      "description": "Automates deployment of self-hosted applications",
+      "core_feature": true
+    },
+    {
+      "title": "Template-Based Deployments",
+      "description": "Uses predefined templates for common services",
+      "core_feature": true
+    },
+    {
+      "title": "Docker Integration",
+      "description": "Deploys applications using Docker containers",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Variable Management",
+      "description": "Configures applications through environment variables"
+    },
+    {
+      "title": "Update Handling",
+      "description": "Supports updating deployed applications"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Defines deployments using configuration files"
+    },
+    {
+      "title": "CLI Usage",
+      "description": "Manages deployments from the command line"
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

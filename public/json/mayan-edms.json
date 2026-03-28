@@ -1,0 +1,80 @@
+{
+  "name": "mayan-edms",
+  "slug": "mayan-edms",
+  "tagline": "An enterprise-grade electronic document management system with OCR",
+  "subtitle": "",
+  "description": "Mayan EDMS is an enterprise-grade electronic document management system with OCR, metadata extraction, and workflow automation. It’s designed for archival, search, and compliance needs in self-hosted environments.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU GPL 2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": "https://www.mayan-edms.com",
+    "documentation": "https://docs.mayan-edms.com/chapters/installation.html",
+    "source_code": "https://gitlab.com/mayan-edms/mayan-edms",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mayan-edms.webp",
+    "issues": null,
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mayan-edms-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mayan-edms-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Document Management",
+      "description": "Store and organize documents",
+      "core_feature": true
+    },
+    {
+      "title": "Document Indexing",
+      "description": "Index document content for searching",
+      "core_feature": true
+    },
+    {
+      "title": "Version Control",
+      "description": "Track document revisions"
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Attach metadata to documents",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict document access by role"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage documents through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mayan-edms/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

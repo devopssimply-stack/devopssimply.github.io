@@ -1,0 +1,58 @@
+# ===============================
+# Docker Compose (PhotoPrism)
+# ===============================
+# host: http://localhost:2342
+# username: admin
+# password: change_this_password
+
+services:
+
+  mariadb:
+    image: mariadb:11
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: photoprism
+      MARIADB_USER: photoprism
+      MARIADB_PASSWORD: change_this_password
+      MARIADB_ROOT_PASSWORD: change_root_password
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  photoprism:
+    image: photoprism/photoprism:latest
+    restart: unless-stopped
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    ports:
+      - "2342:2342"
+    environment:
+      PHOTOPRISM_ADMIN_USER: admin
+      PHOTOPRISM_ADMIN_PASSWORD: change_this_password
+      PHOTOPRISM_AUTH_MODE: password
+      PHOTOPRISM_SITE_URL: http://localhost:2342
+      PHOTOPRISM_DATABASE_DRIVER: mysql
+      PHOTOPRISM_DATABASE_SERVER: mariadb:3306
+      PHOTOPRISM_DATABASE_NAME: photoprism
+      PHOTOPRISM_DATABASE_USER: photoprism
+      PHOTOPRISM_DATABASE_PASSWORD: change_this_password
+      PHOTOPRISM_HTTP_COMPRESSION: gzip
+      PHOTOPRISM_BACKUP_DATABASE: "true"
+    volumes:
+      - photoprism_originals:/photoprism/originals
+      - photoprism_storage:/photoprism/storage
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:2342"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mariadb_data:
+  photoprism_originals:
+  photoprism_storage:

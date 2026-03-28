@@ -1,0 +1,90 @@
+{
+  "name": "chronoframe",
+  "slug": "chronoframe",
+  "tagline": "A self-hosted time tracking tool with task-based analytics",
+  "subtitle": "",
+  "description": "Chronoframe is a self-hosted time tracking and productivity tool designed to help users monitor how they spend their time across tasks. It features task categorization, analytics, and a web interface for easy management.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.14.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-28",
+    "date_last_commit": "2026-02-02",
+    "github_stars": 1664,
+    "github_contributors": 10,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://chronoframe.bh8.ga/",
+    "documentation": "https://github.com/HoshinoSuzumi/chronoframe",
+    "source_code": "https://github.com/HoshinoSuzumi/chronoframe",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/chronoframe.webp",
+    "issues": "https://github.com/HoshinoSuzumi/chronoframe/issues",
+    "releases": "https://github.com/HoshinoSuzumi/chronoframe/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chronoframe-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chronoframe-gallery.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chronoframe-image-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chronoframe-tag-location.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Timeline Video Browsing",
+      "description": "Navigate videos through an interactive timeline",
+      "core_feature": true
+    },
+    {
+      "title": "Frame-Accurate Navigation",
+      "description": "Move precisely between individual video frames",
+      "core_feature": true
+    },
+    {
+      "title": "Thumbnail Timeline Preview",
+      "description": "Displays preview thumbnails along the timeline"
+    },
+    {
+      "title": "Local Video Indexing",
+      "description": "Quickly scans and indexes local video files"
+    },
+    {
+      "title": "Lightweight Desktop UI",
+      "description": "Simple and efficient desktop interface"
+    },
+    {
+      "title": "Frame Extraction Engine",
+      "description": "Efficiently extracts frames from videos"
+    },
+    {
+      "title": "Open Source & Self-Hosted",
+      "description": "Fully open-source and runs locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/chronoframe/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://lens.bh8.ga",
+    "username": null,
+    "password": null
+  }
+}

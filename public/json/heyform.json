@@ -1,0 +1,84 @@
+{
+  "name": "heyform",
+  "slug": "heyform",
+  "tagline": "An open source form builder with logic rules and response analytics",
+  "subtitle": "",
+  "description": "HeyForm is an open source form builder and survey platform. It provides a modern drag and drop interface, logic rules and response analytics, suitable for contact forms, feedback and lead collection in self hosted environments.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.0.0-rc.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 8621,
+    "github_contributors": 26,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://heyform.net",
+    "documentation": "https://docs.heyform.net",
+    "source_code": "https://github.com/heyform/heyform",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/heyform.webp",
+    "issues": "https://github.com/heyform/heyform/issues",
+    "releases": "https://github.com/heyform/heyform/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/heyform-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Form Builder",
+      "description": "Create forms using a visual web-based editor",
+      "core_feature": true
+    },
+    {
+      "title": "Form Responses",
+      "description": "Collect and manage submitted form data",
+      "core_feature": true
+    },
+    {
+      "title": "Sharing Links",
+      "description": "Share forms using public URLs",
+      "core_feature": true
+    },
+    {
+      "title": "Field Types",
+      "description": "Use multiple input field types in forms"
+    },
+    {
+      "title": "Response Export",
+      "description": "Export collected responses for external use"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the form platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/heyform/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

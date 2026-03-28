@@ -1,0 +1,107 @@
+{
+  "name": "bugsink",
+  "slug": "bugsink",
+  "tagline": "A self-hosted error monitoring tool for collecting application failures",
+  "subtitle": "",
+  "description": "Bugsink is a self-hosted error monitoring and reporting tool for receiving error logs from applications and visualizing them in a clean UI. Ideal for dev teams who want to keep everything in-house.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "PolyForm Shield License 1.0.0",
+    "version": "2.0.14",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 1576,
+    "github_contributors": 18,
+    "github_commits_this_year": 117,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://www.bugsink.com/",
+    "documentation": "https://www.bugsink.com/docs  ",
+    "source_code": "https://github.com/bugsink/bugsink",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bugsink.webp",
+    "issues": "https://github.com/bugsink/bugsink/issues",
+    "releases": "https://github.com/bugsink/bugsink/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bugsink-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Error Tracking",
+      "description": "Collects and stores application error events",
+      "core_feature": true
+    },
+    {
+      "title": "Stack Trace Capture",
+      "description": "Records stack traces associated with errors",
+      "core_feature": true
+    },
+    {
+      "title": "Issue Grouping",
+      "description": "Groups similar errors into single issues",
+      "core_feature": true
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Displays errors and trends in a browser interface",
+      "core_feature": true
+    },
+    {
+      "title": "Release Tracking",
+      "description": "Associates errors with application versions"
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Filters errors by message, time, or release"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-controlled infrastructure"
+    },
+    {
+      "title": "API Ingestion",
+      "description": "Accepts error data via HTTP APIs"
+    },
+    {
+      "title": "Error Tracking Platform",
+      "description": "Collects and stores application errors",
+      "core_feature": true
+    },
+    {
+      "title": "Stack Trace Collection",
+      "description": "Records stack traces for debugging",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Runs on user-controlled infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bugsink/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

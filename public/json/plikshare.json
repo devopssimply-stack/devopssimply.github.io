@@ -1,0 +1,89 @@
+{
+  "name": "plikshare",
+  "slug": "plikshare",
+  "tagline": "A simple self-hosted file sharing service with expiring links",
+  "subtitle": "",
+  "description": "PlikShare is a self-hosted file sharing and upload system with expiration, public links, and optional password protection. It’s designed for simplicity and speed.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.1.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-04-13",
+    "date_last_commit": "2025-09-28",
+    "github_stars": 88,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://plikshare.com",
+    "documentation": "https://plikshare.com/docs/get-started",
+    "source_code": "https://github.com/damian-krychowski/plikshare",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/plikshare.webp",
+    "issues": "https://github.com/damian-krychowski/plikshare/issues",
+    "releases": "https://github.com/damian-krychowski/plikshare/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plikshare-entry-page-box-links.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plikshare-entry-page-complete-control-over-data.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plikshare-entry-page-storages.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plikshare-entry-page-streamlined-collaboration-config.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plikshare-entry-page-users.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plikshare-product-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing",
+      "description": "Share files using download links",
+      "core_feature": true
+    },
+    {
+      "title": "Upload Interface",
+      "description": "Upload files through a web UI",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Rules",
+      "description": "Automatically delete files after expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Download Limits",
+      "description": "Restrict number of downloads"
+    },
+    {
+      "title": "Access Control",
+      "description": "Protect files with passwords"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the file sharing service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/plikshare/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "joplin",
+  "slug": "joplin",
+  "tagline": "An open source note-taking and to-do app with end-to-end encryption",
+  "subtitle": "",
+  "description": "Joplin is an open source note taking and to do app with synchronization. It supports markdown, attachments, end to end encryption and tags, and can sync through self hosted backends like WebDAV or Nextcloud for full data ownership.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.5.13",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 53749,
+    "github_contributors": 433,
+    "github_commits_this_year": 406,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://joplinapp.org",
+    "documentation": "https://joplinapp.org/help",
+    "source_code": "https://github.com/laurent22/joplin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/joplin.webp",
+    "issues": "https://github.com/laurent22/joplin/issues",
+    "releases": "https://github.com/laurent22/joplin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/joplin-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/joplin-tabs-bottom-horizontal.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Taking",
+      "description": "Creates and manages notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Writes notes in Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Notebook Organization",
+      "description": "Organizes notes into notebooks"
+    },
+    {
+      "title": "Cross-Platform Clients",
+      "description": "Works on desktop mobile"
+    },
+    {
+      "title": "Sync Support",
+      "description": "Syncs notes across devices"
+    },
+    {
+      "title": "Self-Hosted Sync",
+      "description": "Uses own sync server"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/joplin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "joplin_ynh",
+      "url": "https://github.com/YunoHost-Apps/joplin_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "joplin",
+      "url": "https://apps.truenas.com/catalog/joplin"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

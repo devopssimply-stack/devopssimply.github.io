@@ -1,0 +1,74 @@
+{
+  "name": "basic-memory",
+  "slug": "basic-memory",
+  "tagline": "A minimal knowledge base for storing and organizing notes and text snippets",
+  "subtitle": "",
+  "description": "Basic Memory is a minimal self-hosted knowledge base and text snippet vault. It allows users to save, search, and organize information using a clean, markdown-powered web editor, prioritizing speed and privacy.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.18.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-20",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2594,
+    "github_contributors": 16,
+    "github_commits_this_year": 176,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 12
+  },
+  "resources": {
+    "website": "https://basicmemory.com",
+    "documentation": "https://github.com/basicmachines-co/basic-memory",
+    "source_code": "https://github.com/basicmachines-co/basic-memory",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/basic-memory.webp",
+    "issues": "https://github.com/basicmachines-co/basic-memory/issues",
+    "releases": "https://github.com/basicmachines-co/basic-memory/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/basic-memory-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/basic-memory-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Memory Archive",
+      "description": "Store notes, thoughts, and personal memories",
+      "core_feature": true
+    },
+    {
+      "title": "Tag Organization",
+      "description": "Organize entries using tags"
+    },
+    {
+      "title": "Search",
+      "description": "Search stored memories by content",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "View and manage memories through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the memory store on your infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

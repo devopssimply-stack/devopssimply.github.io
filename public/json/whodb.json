@@ -1,0 +1,91 @@
+{
+  "name": "whodb",
+  "slug": "whodb",
+  "tagline": "A modern, chat-style database explorer for multiple SQL and NoSQL databases",
+  "subtitle": "",
+  "description": "WhoDB is a next-generation, self-hostable database explorer with chat-style querying. It connects to Postgres, MySQL, SQLite, MongoDB, Redis and more, providing a modern interface for browsing schemas, running queries, and visualizing results.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "0.91.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-04",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 4549,
+    "github_contributors": 11,
+    "github_commits_this_year": 156,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://whodb.com",
+    "documentation": "https://docs.whodb.com",
+    "source_code": "https://github.com/clidey/whodb",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/whodb.webp",
+    "issues": "https://github.com/clidey/whodb/issues",
+    "releases": "https://github.com/clidey/whodb/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/whodb-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/whodb-album-table-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/whodb-table-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/whodb-trailer.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Database Browser",
+      "description": "Browse and inspect databases",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Database Support",
+      "description": "Connect to supported database engines",
+      "core_feature": true
+    },
+    {
+      "title": "Query Interface",
+      "description": "Run database queries",
+      "core_feature": true
+    },
+    {
+      "title": "Schema Exploration",
+      "description": "Explore database schemas"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access databases in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/whodb/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://whodb.com/demo/login?host=quick-container-491288b0-3138-48fa-93b4-1e730296c0b7.hello.svc.cluster.local&username=user&password=password&database=Adventureworks",
+    "username": null,
+    "password": null
+  }
+}

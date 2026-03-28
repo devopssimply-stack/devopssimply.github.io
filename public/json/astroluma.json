@@ -1,0 +1,80 @@
+{
+  "name": "astroluma",
+  "slug": "astroluma",
+  "tagline": "A personal dashboard for organizing tasks, routines, and notes",
+  "subtitle": "",
+  "description": "Astroluma is a personal dashboard that helps users manage tasks, routines, and notes in one place. It features activity tracking, dark mode, and is designed to be self-hosted for full data privacy.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.0.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-01-20",
+    "date_last_commit": "2025-07-04",
+    "github_stars": 773,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://getastroluma.com",
+    "documentation": "https://getastroluma.com",
+    "source_code": "https://github.com/Sanjeet990/Astroluma",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/astroluma.webp",
+    "issues": "https://github.com/Sanjeet990/Astroluma/issues",
+    "releases": "https://github.com/Sanjeet990/Astroluma/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/astroluma-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Home Dashboard",
+      "description": "Central dashboard for services and shortcuts",
+      "core_feature": true
+    },
+    {
+      "title": "Widget Layouts",
+      "description": "Add and arrange dashboard widgets"
+    },
+    {
+      "title": "Service Links",
+      "description": "Quick access to self-hosted services"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access dashboard from any browser"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/astroluma/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

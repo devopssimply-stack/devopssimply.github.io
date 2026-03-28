@@ -1,0 +1,76 @@
+{
+  "name": "file-wizard",
+  "slug": "file-wizard",
+  "tagline": "A lightweight web application for basic file management and sharing",
+  "subtitle": "",
+  "description": "Filewizard is a lightweight web application for file management, supporting directory navigation, uploads and sharing. It has a minimal UI and can be deployed quickly using Docker for self-hosted scenarios and local personal file sharing.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-25",
+    "date_last_commit": "2025-11-11",
+    "github_stars": 822,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/LoredCast/filewizard",
+    "documentation": "https://github.com/LoredCast/filewizard",
+    "source_code": "https://github.com/LoredCast/filewizard",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/file-wizard.webp",
+    "issues": "https://github.com/LoredCast/filewizard/issues",
+    "releases": "https://github.com/LoredCast/filewizard/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/file-wizard-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/file-wizard-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Upload Interface",
+      "description": "Upload files through a web-based interface",
+      "core_feature": true
+    },
+    {
+      "title": "File Management",
+      "description": "Browse, rename, and delete uploaded files",
+      "core_feature": true
+    },
+    {
+      "title": "Directory Navigation",
+      "description": "Navigate folders within the file storage"
+    },
+    {
+      "title": "Simple Web UI",
+      "description": "Access file operations using a minimal browser interface"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/file-wizard/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "kometa",
+  "slug": "kometa",
+  "tagline": "A media library metadata and automation tool for Plex and similar servers",
+  "subtitle": "",
+  "description": "Kometa is a metadata and library management tool for Plex or related media servers. It uses configuration files and scripts to create collections, apply artwork and keep libraries organized automatically, tailored for self hosted media setups.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-09",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3205,
+    "github_contributors": 90,
+    "github_commits_this_year": 43,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://kometa.wiki",
+    "documentation": "https://kometa.wiki/en/latest/",
+    "source_code": "https://github.com/Kometa-Team/Kometa",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kometa.webp",
+    "issues": "https://github.com/Kometa-Team/Kometa/issues",
+    "releases": "https://github.com/Kometa-Team/Kometa/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Media Library Automation",
+      "description": "Automate organization of media libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Apply metadata and artwork to media items",
+      "core_feature": true
+    },
+    {
+      "title": "Collection Creation",
+      "description": "Create and maintain media collections automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduler",
+      "description": "Run library automation tasks on a schedule"
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Define automation rules using configuration files"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kometa/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "kometa",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=kometa"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

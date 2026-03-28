@@ -1,0 +1,104 @@
+{
+  "name": "castopod",
+  "slug": "castopod",
+  "tagline": "A self-hosted podcast platform for publishing and federated distribution",
+  "subtitle": "",
+  "description": "Castopod is a self-hosted podcast hosting platform built to support social interaction and sharing. It supports multiple users, analytics, episode scheduling, and federated distribution with ActivityPub.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-01",
+    "github_stars": 827,
+    "github_contributors": 14,
+    "github_commits_this_year": 14,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://castopod.org",
+    "documentation": "https://docs.castopod.org/main/en/",
+    "source_code": "https://github.com/ad-aures/castopod",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/castopod.webp",
+    "issues": "https://github.com/ad-aures/castopod/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/castopod-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Podcast Hosting Platform",
+      "description": "Hosts and distributes podcast episodes",
+      "core_feature": true
+    },
+    {
+      "title": "RSS Feed Generation",
+      "description": "Exposes feed for podcast distribution",
+      "core_feature": true
+    },
+    {
+      "title": "Episode Management",
+      "description": "Uploads and organizes podcast episodes",
+      "core_feature": true
+    },
+    {
+      "title": "Analytics Dashboard",
+      "description": "Shows listener statistics and trends"
+    },
+    {
+      "title": "Web Player",
+      "description": "Embeds playable media for each episode"
+    },
+    {
+      "title": "Podcast Metadata",
+      "description": "Stores show and episode information"
+    },
+    {
+      "title": "Import Tools",
+      "description": "Imports shows from external feeds"
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Runs on user-managed web servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/castopod/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "castopod_ynh",
+      "url": "https://github.com/YunoHost-Apps/castopod_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "castopod",
+      "url": "https://apps.truenas.com/catalog/castopod"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

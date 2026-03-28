@@ -1,0 +1,91 @@
+{
+  "name": "steam-headless",
+  "slug": "steam-headless",
+  "tagline": "A headless Steam client in Docker for remote game management",
+  "subtitle": "",
+  "description": "docker-steam-headless provides a self-hosted, headless Steam client in Docker for remote game downloads or streaming setups. It exposes web-based management for sessions.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "0.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2023-09-29",
+    "date_last_commit": "2025-12-24",
+    "github_stars": 2692,
+    "github_contributors": 15,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Steam-Headless/docker-steam-headless",
+    "documentation": "https://github.com/Steam-Headless/docker-steam-headless",
+    "source_code": "https://github.com/Steam-Headless/docker-steam-headless",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/steam-headless.webp",
+    "issues": "https://github.com/Steam-Headless/docker-steam-headless/issues",
+    "releases": "https://github.com/Steam-Headless/docker-steam-headless/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/steam-headless-web-connect.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Headless Game Client",
+      "description": "Run Steam games without a graphical desktop",
+      "core_feature": true
+    },
+    {
+      "title": "Containerized Execution",
+      "description": "Run the game client in a container",
+      "core_feature": true
+    },
+    {
+      "title": "Remote Access",
+      "description": "Access games via remote streaming",
+      "core_feature": true
+    },
+    {
+      "title": "Controller Support",
+      "description": "Use supported game controllers"
+    },
+    {
+      "title": "Game Library Access",
+      "description": "Access owned Steam games"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the container on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/steam-headless/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "steam-headless",
+      "url": "https://apps.truenas.com/catalog/steam-headless"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

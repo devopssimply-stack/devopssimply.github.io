@@ -1,0 +1,100 @@
+{
+  "name": "domain-watchdog",
+  "slug": "domain-watchdog",
+  "tagline": "A monitoring tool for tracking domain availability and TLS certificate health",
+  "subtitle": "",
+  "description": "Domain Watchdog periodically checks domain names and websites for availability, SSL validity, and DNS issues. It offers a simple panel and notifications so that admins are alerted before outages or certificate expirations affect users.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.4.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-02-24",
+    "github_stars": 354,
+    "github_contributors": 5,
+    "github_commits_this_year": 11,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://domainwatchdog.eu",
+    "documentation": "https://domainwatchdog.eu/en/features",
+    "source_code": "https://github.com/maelgangloff/domain-watchdog",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/domain-watchdog.webp",
+    "issues": "https://github.com/maelgangloff/domain-watchdog/issues",
+    "releases": "https://github.com/maelgangloff/domain-watchdog/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-watchdog-domain.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-watchdog-statistic.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-watchdog-tld.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Domain Expiration Monitoring",
+      "description": "Monitors domain expiration status",
+      "core_feature": true
+    },
+    {
+      "title": "Change Detection",
+      "description": "Detects changes to domain records",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Checks",
+      "description": "Runs checks on defined intervals"
+    },
+    {
+      "title": "Alert Notifications",
+      "description": "Sends alerts when changes occur"
+    },
+    {
+      "title": "Multi-Domain Support",
+      "description": "Tracks multiple domains"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Manages domains via config"
+    },
+    {
+      "title": "Lightweight Service",
+      "description": "Uses minimal system resources"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Runs on user-controlled infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/domain-watchdog/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "domain-watchdog",
+      "url": "https://apps.truenas.com/catalog/domain-watchdog"
+    }
+  },
+  "demo": {
+    "url": "https://demo.domainwatchdog.eu",
+    "username": null,
+    "password": null
+  }
+}

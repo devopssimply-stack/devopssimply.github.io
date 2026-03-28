@@ -1,0 +1,78 @@
+{
+  "name": "mosquitto",
+  "slug": "mosquitto",
+  "tagline": "A lightweight MQTT broker for IoT and publish-subscribe messaging",
+  "subtitle": "",
+  "description": "Mosquitto is a lightweight MQTT broker for enabling publish/subscribe messaging in IoT environments. It supports MQTT v3.1 and v5, making it ideal for small devices, home automation, and distributed systems.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Eclipse Public License 2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 10690,
+    "github_contributors": 170,
+    "github_commits_this_year": 213,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://mosquitto.org",
+    "documentation": "https://mosquitto.org/documentation",
+    "source_code": "https://github.com/eclipse-mosquitto/mosquitto",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mosquitto.webp",
+    "issues": "https://github.com/eclipse-mosquitto/mosquitto/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mosquitto-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "MQTT Broker",
+      "description": "Route MQTT messages between clients",
+      "core_feature": true
+    },
+    {
+      "title": "Publish and Subscribe",
+      "description": "Support MQTT pub/sub messaging",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication",
+      "description": "Restrict access to the broker"
+    },
+    {
+      "title": "TLS Support",
+      "description": "Encrypt MQTT connections"
+    },
+    {
+      "title": "Lightweight Operation",
+      "description": "Run efficiently on limited hardware"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mosquitto_ynh",
+      "url": "https://github.com/YunoHost-Apps/mosquitto_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

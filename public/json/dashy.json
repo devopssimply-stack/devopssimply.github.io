@@ -1,0 +1,104 @@
+{
+  "name": "dashy",
+  "slug": "dashy",
+  "tagline": "A self-hosted dashboard for organizing services, links, and status widgets",
+  "subtitle": "",
+  "description": "Dashy is a highly configurable self-hosted dashboard for organizing links, services, and status widgets. It supports themes, authentication, custom YAML config, and integrates seamlessly with homelab setups.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "3.1.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-05-30",
+    "date_last_commit": "2026-02-15",
+    "github_stars": 24157,
+    "github_contributors": 175,
+    "github_commits_this_year": 9,
+    "github_issues_open": 166,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://dashy.to",
+    "documentation": "https://dashy.to/docs",
+    "source_code": "https://github.com/Lissy93/dashy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dashy.webp",
+    "issues": "https://github.com/Lissy93/dashy/issues",
+    "releases": "https://github.com/Lissy93/dashy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dashy-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dashy-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Self-Hosted Homepage",
+      "description": "Acts as a customizable homepage for services",
+      "core_feature": true
+    },
+    {
+      "title": "Widget System",
+      "description": "Displays services stats and links using widgets",
+      "core_feature": true
+    },
+    {
+      "title": "YAML Configuration",
+      "description": "Defines layout and content declaratively",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication Support",
+      "description": "Restricts access with login controls"
+    },
+    {
+      "title": "Status Monitoring",
+      "description": "Checks availability of linked services"
+    },
+    {
+      "title": "Theming and Branding",
+      "description": "Customizes appearance and colors"
+    },
+    {
+      "title": "Responsive Layout",
+      "description": "Works on desktop tablet and mobile"
+    },
+    {
+      "title": "Plugin Integrations",
+      "description": "Extends dashboard functionality"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs entirely on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dashy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "dashy",
+      "url": "https://apps.truenas.com/catalog/dashy"
+    }
+  },
+  "demo": {
+    "url": "https://demo.dashy.to",
+    "username": null,
+    "password": null
+  }
+}

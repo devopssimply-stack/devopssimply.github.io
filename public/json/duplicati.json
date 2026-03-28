@@ -1,0 +1,111 @@
+{
+  "name": "duplicati",
+  "slug": "duplicati",
+  "tagline": "A backup client for encrypted and incremental backups with a web UI",
+  "subtitle": "",
+  "description": "Duplicati is a backup client that stores encrypted, incremental backups on cloud storage services or local disks. It has a web interface for scheduling, restoring, and configuring backup jobs, and runs well on headless servers.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.2.0.3_stable_2026-01-06",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 14336,
+    "github_contributors": 180,
+    "github_commits_this_year": 592,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://duplicati.com",
+    "documentation": "https://docs.duplicati.com",
+    "source_code": "https://github.com/duplicati/duplicati",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/duplicati.webp",
+    "issues": "https://github.com/duplicati/duplicati/issues",
+    "releases": "https://github.com/duplicati/duplicati/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicati-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicati-backup.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicati-machine.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicati-organizaton.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Encrypted Backup Software",
+      "description": "Backs up data with encryption",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Backups",
+      "description": "Runs backups on schedules",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based Management",
+      "description": "Configures backups through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Storage Targets",
+      "description": "Backs up to local and cloud storage"
+    },
+    {
+      "title": "Incremental Backups",
+      "description": "Stores only changed data"
+    },
+    {
+      "title": "Compression",
+      "description": "Compresses backup data"
+    },
+    {
+      "title": "Restore Interface",
+      "description": "Restores data via web UI"
+    },
+    {
+      "title": "Cross-Platform Usage",
+      "description": "Runs on multiple operating systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/duplicati/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "duplicati",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=duplicati"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "duplicati",
+      "url": "https://apps.truenas.com/catalog/duplicati"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

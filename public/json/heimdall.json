@@ -1,0 +1,99 @@
+{
+  "name": "heimdall",
+  "slug": "heimdall",
+  "tagline": "A self-hosted dashboard for organizing and accessing your services",
+  "subtitle": "",
+  "description": "Heimdall is a self hosted application dashboard for organizing links to your services. It automatically detects many apps to show status and logos, making a clean, centralized homepage for homelab or server environments.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.7.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-15",
+    "date_last_commit": "2025-11-11",
+    "github_stars": 9034,
+    "github_contributors": 79,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://heimdall.site",
+    "documentation": "https://github.com/linuxserver/Heimdall",
+    "source_code": "https://github.com/linuxserver/Heimdall",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/heimdall.webp",
+    "issues": "https://github.com/linuxserver/Heimdall/issues",
+    "releases": "https://github.com/linuxserver/Heimdall/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/heimdall-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/heimdall-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/heimdall-screenie.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Application Dashboard",
+      "description": "Displays links to self-hosted services in a centralized interface",
+      "core_feature": true
+    },
+    {
+      "title": "Service Organization",
+      "description": "Groups services into categories for easier navigation"
+    },
+    {
+      "title": "Visual Service Cards",
+      "description": "Represents services with icons and descriptive labels"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Allows users to quickly locate services"
+    },
+    {
+      "title": "User Authentication",
+      "description": "Restricts access to authorized users"
+    },
+    {
+      "title": "Responsive Interface",
+      "description": "Adapts layout for desktop and mobile screens"
+    },
+    {
+      "title": "Configuration Storage",
+      "description": "Persists dashboard layout and settings"
+    },
+    {
+      "title": "Self-Hosted Dashboard",
+      "description": "Run the dashboard on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/heimdall/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "heimdall",
+      "url": "https://apps.truenas.com/catalog/heimdall"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

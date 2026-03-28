@@ -1,0 +1,91 @@
+{
+  "name": "owncloud",
+  "slug": "owncloud",
+  "tagline": "An open source platform for self-hosted file sync and sharing",
+  "subtitle": "",
+  "description": "ownCloud is an open-source platform for file sync and sharing. It offers desktop and mobile clients, user management, versioning, and plugins for collaborative work in self-hosted deployments.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 8743,
+    "github_contributors": 310,
+    "github_commits_this_year": 62,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://owncloud.com",
+    "documentation": "https://owncloud.com/docs-guides",
+    "source_code": "https://github.com/owncloud/core",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/owncloud.webp",
+    "issues": "https://github.com/owncloud/core/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/owncloud-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/owncloud-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sync and Share",
+      "description": "Store, sync, and share files",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and access permissions",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access files through a browser"
+    },
+    {
+      "title": "Desktop and Mobile Clients",
+      "description": "Sync files across devices"
+    },
+    {
+      "title": "Collaboration Features",
+      "description": "Share and comment on files"
+    },
+    {
+      "title": "App Extensions",
+      "description": "Add functionality using apps"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/owncloud/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "owncloud_ynh",
+      "url": "https://github.com/YunoHost-Apps/owncloud_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

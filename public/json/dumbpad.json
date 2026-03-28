@@ -1,0 +1,99 @@
+{
+  "name": "dumbpad",
+  "slug": "dumbpad",
+  "tagline": "A minimalist self-hosted notepad for quick browser-based notes",
+  "subtitle": "",
+  "description": "DumbPad is a minimalist online notepad you can self-host. It provides a single, persistent text area to jot down notes and ideas in the browser, intended as a private scratchpad without accounts or tracking.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.0.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-15",
+    "date_last_commit": "2025-12-31",
+    "github_stars": 430,
+    "github_contributors": 7,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/DumbWareio/DumbPad",
+    "documentation": "https://github.com/DumbWareio/DumbPad",
+    "source_code": "https://github.com/DumbWareio/DumbPad",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dumbpad.webp",
+    "issues": "https://github.com/DumbWareio/DumbPad/issues",
+    "releases": "https://github.com/DumbWareio/DumbPad/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dumbpad-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dumbpad-split-pane.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Taking",
+      "description": "Stores simple text notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Writes notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Web Editor",
+      "description": "Edits notes in the browser"
+    },
+    {
+      "title": "Folder Organization",
+      "description": "Organizes notes into folders"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches note content"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Focuses on writing"
+    },
+    {
+      "title": "Export Options",
+      "description": "Exports notes to files"
+    },
+    {
+      "title": "Self-Hosted Notes",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dumbpad/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "dumbpad_ynh",
+      "url": "https://github.com/YunoHost-Apps/dumbpad_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "corecontrol",
+  "slug": "corecontrol",
+  "tagline": "A self-hosted control center for monitoring and managing servers",
+  "subtitle": "",
+  "description": "CoreControl is a modern, self-hosted control center for managing multiple servers and services. It supports monitoring, commands, and management from a sleek web dashboard, ideal for home labs and sysadmins.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.0.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-04-30",
+    "date_last_commit": "2026-02-13",
+    "github_stars": 1283,
+    "github_contributors": 2,
+    "github_commits_this_year": 7,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/crocofied/CoreControl",
+    "documentation": "https://corecontrol.xyz",
+    "source_code": "https://github.com/crocofied/CoreControl",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/corecontrol.webp",
+    "issues": "https://github.com/crocofied/CoreControl/issues",
+    "releases": "https://github.com/crocofied/CoreControl/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/corecontrol-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/corecontrol-applications.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/corecontrol-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/corecontrol-login.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/corecontrol-network.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/corecontrol-server.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/corecontrol-servers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/corecontrol-uptime.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Hardware Monitoring Dashboard",
+      "description": "View real-time CPU, GPU, and system sensor data in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Fan and Power Control",
+      "description": "Adjust fan speeds and power limits for supported hardware",
+      "core_feature": true
+    },
+    {
+      "title": "GPU Performance Tuning",
+      "description": "Configure GPU clocks and performance profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Access system controls through a browser-based UI"
+    },
+    {
+      "title": "Preset Profiles",
+      "description": "Save and switch between predefined hardware configurations"
+    },
+    {
+      "title": "Linux System Support",
+      "description": "Operate hardware monitoring and control features on Linux systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/corecontrol/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

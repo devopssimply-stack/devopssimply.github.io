@@ -1,0 +1,93 @@
+{
+  "name": "logseq",
+  "slug": "logseq",
+  "tagline": "A privacy-first note-taking and knowledge management tool with graph views",
+  "subtitle": "",
+  "description": "Logseq is a privacy-first, open-source note-taking and knowledge management tool that uses a local-first approach. It supports visual graph views, Markdown, backlinks, and plugins with optional sync.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.10.15",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 41404,
+    "github_contributors": 299,
+    "github_commits_this_year": 622,
+    "github_issues_open": 960,
+    "github_issues_closed_this_year": 147,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://logseq.com",
+    "documentation": "https://docs.logseq.com",
+    "source_code": "https://github.com/logseq/logseq",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/logseq.webp",
+    "issues": "https://github.com/logseq/logseq/issues",
+    "releases": "https://github.com/logseq/logseq/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logseq-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logseq-all-pages.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logseq-flash-cards.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logseq-journals.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logseq-welcome-page-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logseq-whiteboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Knowledge Base",
+      "description": "Create interconnected notes in a graph structure",
+      "core_feature": true
+    },
+    {
+      "title": "Blocks and Linking",
+      "description": "Connect ideas using block references and links",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editing",
+      "description": "Write and format notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Query and Filtering",
+      "description": "Search and filter notes dynamically"
+    },
+    {
+      "title": "Plugin Support",
+      "description": "Extend functionality with plugins"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the note system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "logseq",
+      "url": "https://apps.truenas.com/catalog/logseq"
+    }
+  },
+  "demo": {
+    "url": "https://demo.logseq.com",
+    "username": null,
+    "password": null
+  }
+}

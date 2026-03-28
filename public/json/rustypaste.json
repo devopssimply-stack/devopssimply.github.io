@@ -1,0 +1,81 @@
+{
+  "name": "rustypaste",
+  "slug": "rustypaste",
+  "tagline": "A self-hosted pastebin service with expiration and file attachments",
+  "subtitle": "",
+  "description": "RustyPaste is a self-hosted pastebin service written in Rust. It provides secure paste storage with expiration, attachments, and a minimal web interface.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.16.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-21",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 1140,
+    "github_contributors": 32,
+    "github_commits_this_year": 16,
+    "github_issues_open": 12,
+    "github_issues_closed_this_year": 3,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/orhun/rustypaste",
+    "documentation": "https://github.com/orhun/rustypaste",
+    "source_code": "https://github.com/orhun/rustypaste",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/rustypaste.webp",
+    "issues": "https://github.com/orhun/rustypaste/issues",
+    "releases": "https://github.com/orhun/rustypaste/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Paste Service",
+      "description": "Share text and files",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Automatically delete pastes after expiry"
+    },
+    {
+      "title": "File Uploads",
+      "description": "Upload and share files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the paste service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/rustypaste/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "rustypaste",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=rustypaste"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

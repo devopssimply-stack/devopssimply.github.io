@@ -1,0 +1,81 @@
+{
+  "name": "appsmith",
+  "slug": "appsmith",
+  "tagline": "A low-code platform for building internal tools with APIs and databases",
+  "subtitle": "",
+  "description": "Appsmith is a low-code platform for building internal tools quickly using drag-and-drop widgets, custom queries, and REST/GraphQL integrations. It can be self-hosted and includes role-based access, versioning, and triggers.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.97",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 39336,
+    "github_contributors": 327,
+    "github_commits_this_year": 38,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.appsmith.com",
+    "documentation": "https://docs.appsmith.com",
+    "source_code": "https://github.com/appsmithorg/appsmith",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/appsmith.webp",
+    "issues": "https://github.com/appsmithorg/appsmith/issues",
+    "releases": "https://github.com/appsmithorg/appsmith/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/appsmith-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Internal Tool Builder",
+      "description": "Build internal tools using low-code UI",
+      "core_feature": true
+    },
+    {
+      "title": "Data Source Integration",
+      "description": "Connect to databases and APIs",
+      "core_feature": true
+    },
+    {
+      "title": "UI Components",
+      "description": "Build interfaces with reusable components"
+    },
+    {
+      "title": "Access Control",
+      "description": "Manage user permissions"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run Appsmith on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "web"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/appsmith/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

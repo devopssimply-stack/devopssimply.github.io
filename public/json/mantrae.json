@@ -1,0 +1,89 @@
+{
+  "name": "mantrae",
+  "slug": "mantrae",
+  "tagline": "A self-hosted app for managing personal mantras and daily affirmations",
+  "subtitle": "",
+  "description": "Mantrae is a self-hosted tool that helps users create and manage personal mantras for daily inspiration. It organizes affirmations into collections and presents them in a clean interface with reminders.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.8.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 441,
+    "github_contributors": 6,
+    "github_commits_this_year": 130,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://mizuchilabs.github.io/mantrae",
+    "documentation": "https://mantrae.pages.dev/docs",
+    "source_code": "https://github.com/MizuchiLabs/mantrae",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mantrae.webp",
+    "issues": "https://github.com/MizuchiLabs/mantrae/issues",
+    "releases": "https://github.com/MizuchiLabs/mantrae/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mantrae-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mantrae-routers.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Event Tracking",
+      "description": "Track application and user events",
+      "core_feature": true
+    },
+    {
+      "title": "Analytics Dashboard",
+      "description": "View event data in dashboards",
+      "core_feature": true
+    },
+    {
+      "title": "Filtering",
+      "description": "Filter events by attributes",
+      "core_feature": true
+    },
+    {
+      "title": "Time-Based Analysis",
+      "description": "Analyze events over time"
+    },
+    {
+      "title": "API Access",
+      "description": "Send events via API endpoints"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run analytics on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mantrae/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

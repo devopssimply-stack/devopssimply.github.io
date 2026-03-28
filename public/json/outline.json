@@ -1,0 +1,100 @@
+{
+  "name": "outline",
+  "slug": "outline",
+  "tagline": "A modern self-hosted wiki and team knowledge base",
+  "subtitle": "",
+  "description": "Outline is a modern self-hosted wiki and team knowledge base designed for internal documentation. It offers Git-like workflows, permissions, integrations, and a polished collaborative editor.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSL 1.1",
+    "version": "v1.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-15",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 37460,
+    "github_contributors": 218,
+    "github_commits_this_year": 339,
+    "github_issues_open": 37,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://www.getoutline.com",
+    "documentation": "https://docs.getoutline.com/s/guide",
+    "source_code": "https://github.com/outline/outline",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/outline.webp",
+    "issues": "https://github.com/outline/outline/issues",
+    "releases": "https://github.com/outline/outline/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/outline-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/outline-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Team Knowledge Base",
+      "description": "Create collaborative documentation",
+      "core_feature": true
+    },
+    {
+      "title": "Hierarchical Organization",
+      "description": "Structure info into nested collections"
+    },
+    {
+      "title": "Real-Time Collaboration",
+      "description": "Edit documents with multiple users"
+    },
+    {
+      "title": "Search",
+      "description": "Find content by keyword"
+    },
+    {
+      "title": "Embeds and Media",
+      "description": "Insert rich content within docs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the knowledge base on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/outline/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "outline",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=outline"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "outline_ynh",
+      "url": "https://github.com/YunoHost-Apps/outline_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "outline",
+      "url": "https://apps.truenas.com/catalog/outline"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

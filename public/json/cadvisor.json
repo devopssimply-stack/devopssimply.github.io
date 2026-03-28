@@ -1,0 +1,95 @@
+{
+  "name": "cadvisor",
+  "slug": "cadvisor",
+  "tagline": "A container monitoring service providing real-time resource metrics",
+  "subtitle": "",
+  "description": "cAdvisor (Container Advisor) provides insights into running containers’ resource usage and performance. It helps admins monitor CPU, memory, and process metrics in real time, and integrates with Prometheus and Grafana.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2",
+    "version": "v0.56.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-16",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 18942,
+    "github_contributors": 330,
+    "github_commits_this_year": 26,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/google/cadvisor",
+    "documentation": "https://github.com/google/cadvisor/tree/master/docs",
+    "source_code": "https://github.com/google/cadvisor",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cadvisor.webp",
+    "issues": "https://github.com/google/cadvisor/issues",
+    "releases": "https://github.com/google/cadvisor/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Container Resource Monitoring",
+      "description": "Collects CPU, memory, and disk usage for containers",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Metrics",
+      "description": "Exposes live resource usage statistics",
+      "core_feature": true
+    },
+    {
+      "title": "Historical Metrics",
+      "description": "Stores short-term container performance history",
+      "core_feature": true
+    },
+    {
+      "title": "Container Discovery",
+      "description": "Automatically detects running containers",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Displays metrics in a browser"
+    },
+    {
+      "title": "Prometheus Export",
+      "description": "Exposes metrics for Prometheus scraping"
+    },
+    {
+      "title": "Docker Integration",
+      "description": "Monitors Docker container environments"
+    },
+    {
+      "title": "Kubernetes Compatibility",
+      "description": "Integrates with Kubernetes monitoring setups"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [
+    "cli"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cadvisor/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

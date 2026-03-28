@@ -1,0 +1,93 @@
+{
+  "name": "leed",
+  "slug": "leed",
+  "tagline": "A lightweight self-hosted RSS feed aggregator for reading news",
+  "subtitle": "",
+  "description": "Leed is a lightweight RSS feed aggregator that can be self-hosted, offering a minimal web interface to subscribe, read, and categorize feeds. It stores articles locally and supports plug-ins for additional functionality.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.15.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-12",
+    "date_last_commit": "2026-01-12",
+    "github_stars": 231,
+    "github_contributors": 18,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/LeedRSS/Leed",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/leed.webp",
+    "issues": "https://github.com/LeedRSS/Leed/issues",
+    "releases": "https://github.com/LeedRSS/Leed/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "RSS Feed Reader",
+      "description": "Subscribe to and read RSS and Atom feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Organization",
+      "description": "Organize feeds into categories",
+      "core_feature": true
+    },
+    {
+      "title": "Article Management",
+      "description": "Mark articles as read or unread",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search across subscribed feeds"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Read feeds through a browser"
+    },
+    {
+      "title": "Import and Export",
+      "description": "Import and export subscriptions using OPML"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the reader on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/leed/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "leed_ynh",
+      "url": "https://github.com/YunoHost-Apps/leed_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

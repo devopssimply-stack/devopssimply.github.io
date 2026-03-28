@@ -1,0 +1,83 @@
+{
+  "name": "nextcloud-notes",
+  "slug": "nextcloud-notes",
+  "tagline": "A simple Markdown-based note-taking app with sync and sharing",
+  "subtitle": "",
+  "description": "Nextcloud Notes is a self-hosted note-taking application that uses Markdown with simple editing and sharing features. Notes sync across devices through the Nextcloud ecosystem.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.13.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-28",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 706,
+    "github_contributors": 76,
+    "github_commits_this_year": 113,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://apps.nextcloud.com/apps/notes",
+    "documentation": "https://github.com/nextcloud/notes",
+    "source_code": "https://github.com/nextcloud/notes",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nextcloud-notes.webp",
+    "issues": "https://github.com/nextcloud/notes/issues",
+    "releases": "https://github.com/nextcloud/notes/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-notes.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Taking",
+      "description": "Write and save simple notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Format notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Tag notes for easier organization"
+    },
+    {
+      "title": "Search",
+      "description": "Find notes by content or tags"
+    },
+    {
+      "title": "Sync Across Devices",
+      "description": "Keep notes in sync via Nextcloud clients"
+    },
+    {
+      "title": "Nextcloud Integration",
+      "description": "Access notes through the Nextcloud interface"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nextcloud-notes/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

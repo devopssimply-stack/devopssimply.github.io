@@ -1,0 +1,26 @@
+# ===============================
+# Docker Compose (Statping NG)
+# ===============================
+# host: https://localhost
+# username:
+# password:
+
+services:
+  statping-ng:
+    image: adamboutcher/statping-ng:latest
+    container_name: statping-ng
+    restart: unless-stopped
+    ports:
+      - "443:443"
+    volumes:
+      - statping_data:/app
+      - statping_tls:/app/tls
+    healthcheck:
+      test: ["CMD","wget","--no-check-certificate","--spider","-q","https://localhost"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  statping_data:
+  statping_tls:

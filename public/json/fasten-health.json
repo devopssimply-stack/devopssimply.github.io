@@ -1,0 +1,92 @@
+{
+  "name": "fasten-health",
+  "slug": "fasten-health",
+  "tagline": "A self-hosted personal health record system for aggregating medical data",
+  "subtitle": "",
+  "description": "Fasten On-Prem is a self-hosted personal health record system that aggregates medical data from providers and patient portals into one interface, giving individuals full control and long-term storage of their health history.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.1.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-10-01",
+    "date_last_commit": "2026-02-13",
+    "github_stars": 2651,
+    "github_contributors": 28,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/fastenhealth/fasten-onprem",
+    "documentation": "https://docs.connect.fastenhealth.com/home",
+    "source_code": "https://github.com/fastenhealth/fasten-onprem",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/fasten-health.webp",
+    "issues": "https://github.com/fastenhealth/fasten-onprem/issues",
+    "releases": "https://github.com/fastenhealth/fasten-onprem/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fasten-health-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Health Record",
+      "description": "Aggregates personal medical records from providers",
+      "core_feature": true
+    },
+    {
+      "title": "Provider Connectivity",
+      "description": "Connects to supported healthcare APIs",
+      "core_feature": true
+    },
+    {
+      "title": "Data Visualization",
+      "description": "Displays health data in charts and timelines"
+    },
+    {
+      "title": "Local Data Storage",
+      "description": "Stores health data on local infrastructure",
+      "core_feature": true
+    },
+    {
+      "title": "Import and Sync",
+      "description": "Periodically syncs updated medical records"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access health records through a browser"
+    },
+    {
+      "title": "Data Export",
+      "description": "Exports records in standard formats"
+    },
+    {
+      "title": "On-Prem Deployment",
+      "description": "Run the system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/fasten-health/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

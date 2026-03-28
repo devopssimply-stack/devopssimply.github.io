@@ -1,0 +1,89 @@
+{
+  "name": "the-lounge",
+  "slug": "the-lounge",
+  "tagline": "A persistent, web-based IRC client accessible from any device",
+  "subtitle": "",
+  "description": "The Lounge is a self-hosted, always-online web IRC client. It keeps you connected to IRC networks and provides a modern multi-user interface, letting you access chat from any device using a browser.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.4.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-04-06",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6180,
+    "github_contributors": 165,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://thelounge.chat",
+    "documentation": "https://github.com/thelounge/thelounge",
+    "source_code": "https://github.com/thelounge/thelounge",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/the-lounge.webp",
+    "issues": "https://github.com/thelounge/thelounge/issues",
+    "releases": "https://github.com/thelounge/thelounge/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Web IRC Client",
+      "description": "Connect to IRC networks through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Persistent Connections",
+      "description": "Stay connected even when offline",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Networks",
+      "description": "Join multiple IRC networks"
+    },
+    {
+      "title": "Message History",
+      "description": "View chat history"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the client on your own server"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/the-lounge/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "the-lounge",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=the-lounge"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "thelounge_ynh",
+      "url": "https://github.com/YunoHost-Apps/thelounge_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.thelounge.chat",
+    "username": null,
+    "password": null
+  }
+}

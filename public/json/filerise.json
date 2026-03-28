@@ -1,0 +1,83 @@
+{
+  "name": "filerise",
+  "slug": "filerise",
+  "tagline": "A self-hosted document viewer and converter for office files and PDFs",
+  "subtitle": "",
+  "description": "FileRise is an online self-hosted document viewer and converter supporting office documents, PDFs, and images with export capabilities. Built for quick previewing and sharing across teams without relying on third-party services.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.6.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 904,
+    "github_contributors": 4,
+    "github_commits_this_year": 84,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 26
+  },
+  "resources": {
+    "website": "https://filerise.net",
+    "documentation": "https://github.com/error311/FileRise/wiki",
+    "source_code": "https://github.com/error311/FileRise",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/filerise.webp",
+    "issues": "https://github.com/error311/FileRise/issues",
+    "releases": "https://github.com/error311/FileRise/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/filerise-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/filerise-v3.0.0.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Upload Service",
+      "description": "Upload files via a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Download Links",
+      "description": "Generate direct links for downloading uploaded files",
+      "core_feature": true
+    },
+    {
+      "title": "File Size Limits",
+      "description": "Enforce configurable limits on uploaded files"
+    },
+    {
+      "title": "Simple Web UI",
+      "description": "Provide a minimal interface for file sharing"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/filerise/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "filerise_ynh",
+      "url": "https://github.com/YunoHost-Apps/filerise_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.filerise.net",
+    "username": "demo",
+    "password": "demo"
+  }
+}

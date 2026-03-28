@@ -1,0 +1,91 @@
+{
+  "name": "clean-slate",
+  "slug": "clean-slate",
+  "tagline": "A self-hosted habit tracking app for building routines and visualizing progress",
+  "subtitle": "",
+  "description": "CleanSlate is a self-hosted app designed for habit tracking and lifestyle improvement. It allows users to log daily routines, visualize progress, and set goals for habit formation via an intuitive web interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v4.10.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 212,
+    "github_contributors": 9,
+    "github_commits_this_year": 33,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://cleanslate.sh",
+    "documentation": "https://github.com/successible/cleanslate",
+    "source_code": "https://github.com/successible/cleanslate",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/clean-slate.webp",
+    "issues": "https://github.com/successible/cleanslate/issues",
+    "releases": "https://github.com/successible/cleanslate/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/clean-slate-app-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Database Reset Tool",
+      "description": "Resets databases to a clean state",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Isolation",
+      "description": "Separates development and test data"
+    },
+    {
+      "title": "CLI Usage",
+      "description": "Runs reset operations from the command line"
+    },
+    {
+      "title": "Configuration Support",
+      "description": "Defines reset behavior via config"
+    },
+    {
+      "title": "Automation Friendly",
+      "description": "Integrates into scripts and CI"
+    },
+    {
+      "title": "Multi-Database Support",
+      "description": "Works with different database engines"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Runs on user systems"
+    }
+  ],
+  "hosting": [
+    "self_hosted",
+    "saas"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/clean-slate/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://app.cleanslate.sh",
+    "username": null,
+    "password": null
+  }
+}

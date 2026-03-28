@@ -1,0 +1,98 @@
+{
+  "name": "guacamole",
+  "slug": "guacamole",
+  "tagline": "A clientless remote desktop gateway for accessing servers via the browser",
+  "subtitle": "",
+  "description": "Apache Guacamole is a remote desktop gateway supporting RDP, VNC, SSH, and Kubernetes access via a browser. Users can access desktops and servers securely without client software.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-01",
+    "github_stars": 3731,
+    "github_contributors": 69,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://guacamole.apache.org",
+    "documentation": "https://guacamole.apache.org/doc/gug",
+    "source_code": "https://github.com/apache/guacamole-server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/guacamole.webp",
+    "issues": "https://github.com/apache/guacamole-server/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/guacamole-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Remote Desktop Gateway",
+      "description": "Provides VNC RDP and SSH access through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Protocol Translation",
+      "description": "Converts protocols for web clients",
+      "core_feature": true
+    },
+    {
+      "title": "User Access Control",
+      "description": "Manages credentials and permissions"
+    },
+    {
+      "title": "Session Recording",
+      "description": "Records remote sessions"
+    },
+    {
+      "title": "Connection Management",
+      "description": "Stores and organizes remote connections"
+    },
+    {
+      "title": "Authentication Extensions",
+      "description": "Integrates with external identity systems"
+    },
+    {
+      "title": "Proxy Support",
+      "description": "Routes connections through a gateway"
+    },
+    {
+      "title": "Self-Hosted Remote Access",
+      "description": "Host the gateway on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/guacamole/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "guacamole_ynh",
+      "url": "https://github.com/YunoHost-Apps/guacamole_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

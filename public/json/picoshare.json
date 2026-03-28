@@ -1,0 +1,84 @@
+{
+  "name": "picoshare",
+  "slug": "picoshare",
+  "tagline": "A minimal self-hosted file sharing service with expiring links",
+  "subtitle": "",
+  "description": "PicoShare is a self-hosted file sharing app designed for minimal configuration. It supports drag-and-drop uploads, shareable links, and expiration controls with a clean UI.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.5.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-24",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 2844,
+    "github_contributors": 13,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://pico.rocks",
+    "documentation": "https://github.com/mtlynch/picoshare",
+    "source_code": "https://github.com/mtlynch/picoshare",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/picoshare.webp",
+    "issues": "https://github.com/mtlynch/picoshare/issues",
+    "releases": "https://github.com/mtlynch/picoshare/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "File Sharing",
+      "description": "Share files using simple download links",
+      "core_feature": true
+    },
+    {
+      "title": "Upload Interface",
+      "description": "Upload files through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Options",
+      "description": "Automatically delete files after expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Download Limits",
+      "description": "Limit the number of downloads"
+    },
+    {
+      "title": "Minimal UI",
+      "description": "Use a simple interface for sharing"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the file sharing service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/picoshare/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.pico.rocks",
+    "username": null,
+    "password": null
+  }
+}

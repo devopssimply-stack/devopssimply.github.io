@@ -1,0 +1,75 @@
+{
+  "name": "mini-qr",
+  "slug": "mini-qr",
+  "tagline": "A minimalist web tool for generating and customizing QR codes",
+  "subtitle": "",
+  "description": "mini-qr is a minimalist web tool for generating and customizing QR codes in the browser. It supports various encoding modes and styles with a lightweight, self-hosted interface ideal for offline usage.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.26.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-21",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1892,
+    "github_contributors": 19,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/lyqht/mini-qr",
+    "documentation": "https://github.com/lyqht/mini-qr",
+    "source_code": "https://github.com/lyqht/mini-qr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mini-qr.webp",
+    "issues": "https://github.com/lyqht/mini-qr/issues",
+    "releases": "https://github.com/lyqht/mini-qr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mini-qr-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "QR Code Generation",
+      "description": "Generate QR codes for text and URLs",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Create QR codes through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Download Options",
+      "description": "Download generated QR codes as images"
+    },
+    {
+      "title": "Self-Hosted Tool",
+      "description": "Run the generator on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mini-qr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://mini-qr-code-generator.vercel.app",
+    "username": null,
+    "password": null
+  }
+}

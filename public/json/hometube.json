@@ -1,0 +1,90 @@
+{
+  "name": "hometube",
+  "slug": "hometube",
+  "tagline": "A self-hosted interface for browsing and streaming local video files",
+  "subtitle": "",
+  "description": "Hometube is a self hosted YouTube like interface for watching local video files. It scans directories, generates thumbnails and presents videos in a responsive grid, making a private streaming front end for your media library.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.8.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-30",
+    "date_last_commit": "2026-01-30",
+    "github_stars": 917,
+    "github_contributors": 2,
+    "github_commits_this_year": 15,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/EgalitarianMonkey/hometube",
+    "documentation": "https://github.com/EgalitarianMonkey/hometube",
+    "source_code": "https://github.com/EgalitarianMonkey/hometube",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hometube.webp",
+    "issues": "https://github.com/EgalitarianMonkey/hometube/issues",
+    "releases": "https://github.com/EgalitarianMonkey/hometube/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hometube-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "YouTube Subscription Viewer",
+      "description": "Displays YouTube subscriptions without Google accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Aggregation",
+      "description": "Aggregates videos from subscribed channels"
+    },
+    {
+      "title": "Chronological Sorting",
+      "description": "Orders videos by publish date"
+    },
+    {
+      "title": "Privacy-Focused Viewing",
+      "description": "Avoids tracking and ads"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Watches content in a browser"
+    },
+    {
+      "title": "Local Configuration",
+      "description": "Manages subscriptions locally"
+    },
+    {
+      "title": "Lightweight Backend",
+      "description": "Uses minimal system resources"
+    },
+    {
+      "title": "Self-Hosted Video Feed",
+      "description": "Run on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hometube/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

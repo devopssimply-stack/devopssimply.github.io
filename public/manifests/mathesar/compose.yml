@@ -1,0 +1,59 @@
+# ===============================
+# Docker Compose (Mathesar)
+# ===============================
+# host: http://localhost:8000
+# username: (created during first setup)
+# password: (created during first setup)
+# database user: mathesar
+# database password: change_this_password
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: mathesar-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: mathesar
+      POSTGRES_USER: mathesar
+      POSTGRES_PASSWORD: change_this_password
+    volumes:
+      - mathesar_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mathesar"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+
+  mathesar:
+    image: ghcr.io/mathesar-foundation/mathesar:latest
+    container_name: mathesar
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://mathesar:change_this_password@postgres:5432/mathesar
+      DJANGO_SETTINGS_MODULE: config.settings.production
+    ports:
+      - "8000:8000"
+    volumes:
+      - mathesar_media:/app/media
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8000/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+      - external
+
+volumes:
+  mathesar_postgres_data:
+  mathesar_media:
+
+networks:
+  internal:
+    internal: true
+  external:

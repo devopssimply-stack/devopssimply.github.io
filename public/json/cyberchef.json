@@ -1,0 +1,95 @@
+{
+  "name": "cyberchef",
+  "slug": "cyberchef",
+  "tagline": "A web-based toolbox for encoding, decoding, encryption, and data analysis",
+  "subtitle": "",
+  "description": "CyberChef is a web-based platform for performing a wide range of cyber operations like encoding, decoding, encryption, compression, analysis and data manipulation. It runs entirely in the browser and can be self-hosted.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v10.22.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-12",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 34221,
+    "github_contributors": 198,
+    "github_commits_this_year": 47,
+    "github_issues_open": 441,
+    "github_issues_closed_this_year": 36,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://gchq.github.io/CyberChef",
+    "documentation": "https://github.com/gchq/CyberChef",
+    "source_code": "https://github.com/gchq/CyberChef",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cyberchef.webp",
+    "issues": "https://github.com/gchq/CyberChef/issues",
+    "releases": "https://github.com/gchq/CyberChef/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cyberchef-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Data Transformation Toolkit",
+      "description": "Performs data decoding and analysis",
+      "core_feature": true
+    },
+    {
+      "title": "Recipe-Based Operations",
+      "description": "Chains transformations into recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Wide Operation Library",
+      "description": "Includes cryptographic and encoding tools",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Performs operations in browser"
+    },
+    {
+      "title": "Offline Usage",
+      "description": "Runs without internet access"
+    },
+    {
+      "title": "File Input Support",
+      "description": "Processes files and text"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cyberchef/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "cyberchef_ynh",
+      "url": "https://github.com/YunoHost-Apps/cyberchef_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://gchq.github.io/CyberChef",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "visio-meet",
+  "slug": "visio",
+  "tagline": "A self-hosted WebRTC-based video meeting platform for private conferencing",
+  "subtitle": "",
+  "description": "Meet is a self-hosted video meeting platform using WebRTC. It provides rooms, screensharing, and chat in a browser-based interface for secure, private conferencing.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.10.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1844,
+    "github_contributors": 0,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://visio.numerique.gouv.fr",
+    "documentation": "https://github.com/suitenumerique/meet/blob/main/docs/installation/README.md",
+    "source_code": "https://github.com/suitenumerique/meet",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/visio.webp",
+    "issues": "https://github.com/suitenumerique/meet/issues",
+    "releases": "https://github.com/suitenumerique/meet/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Video Conferencing",
+      "description": "Host real-time video meetings",
+      "core_feature": true
+    },
+    {
+      "title": "Audio and Video Streams",
+      "description": "Stream audio and video between participants",
+      "core_feature": true
+    },
+    {
+      "title": "Meeting Rooms",
+      "description": "Create and manage meeting rooms",
+      "core_feature": true
+    },
+    {
+      "title": "Screen Sharing",
+      "description": "Share screens during meetings"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Join meetings through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the meeting service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/visio/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://visio.numerique.gouv.fr",
+    "username": null,
+    "password": null
+  }
+}

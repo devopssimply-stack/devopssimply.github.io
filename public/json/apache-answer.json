@@ -1,0 +1,85 @@
+{
+  "name": "apache-answer",
+  "slug": "apache-answer",
+  "tagline": "A self-hosted question and answer platform for knowledge sharing",
+  "subtitle": "",
+  "description": "Answer is a self-hosted Q&A platform where users ask and answer questions, similar to StackOverflow. It includes tags, markdown, voting, and moderation features, designed for teams or communities who want full data control.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v2.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 15417,
+    "github_contributors": 103,
+    "github_commits_this_year": 60,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://answer.apache.org",
+    "documentation": "https://github.com/apache/answer",
+    "source_code": "https://github.com/apache/answer",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/apache-answer.webp",
+    "issues": "https://github.com/apache/answer/issues",
+    "releases": "https://github.com/apache/answer/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/apache-answer.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Q&A Platform",
+      "description": "Host a community question-and-answer site",
+      "core_feature": true
+    },
+    {
+      "title": "Question Management",
+      "description": "Ask, answer, and moderate questions",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and permissions"
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize questions by topic"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Use the platform through a browser"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/apache-answer/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "portracker",
+  "slug": "portracker",
+  "tagline": "A self-hosted tracker for manga comics and episodic content",
+  "subtitle": "",
+  "description": "Portracker is a self-hosted media tracker for manga, comics, or episodes. It supports user accounts, progress tracking, and a responsive UI for browsing content collections.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.3.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 1982,
+    "github_contributors": 1,
+    "github_commits_this_year": 15,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://github.com/mostafa-wahied/portracker",
+    "documentation": "https://portchecker.io/docs",
+    "source_code": "https://github.com/mostafa-wahied/portracker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/portracker.webp",
+    "issues": "https://github.com/mostafa-wahied/portracker/issues",
+    "releases": "https://github.com/mostafa-wahied/portracker/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/portracker-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/portracker-demo-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Portfolio Tracking",
+      "description": "Track investment portfolios",
+      "core_feature": true
+    },
+    {
+      "title": "Asset Management",
+      "description": "Manage stocks and assets",
+      "core_feature": true
+    },
+    {
+      "title": "Performance Metrics",
+      "description": "View gains and losses",
+      "core_feature": true
+    },
+    {
+      "title": "Historical Data",
+      "description": "Track portfolio history"
+    },
+    {
+      "title": "Charts",
+      "description": "Visualize portfolio performance"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/portracker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "portracker",
+      "url": "https://apps.truenas.com/catalog/portracker"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

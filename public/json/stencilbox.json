@@ -1,0 +1,86 @@
+{
+  "name": "stencilbox",
+  "slug": "stencilbox",
+  "tagline": "A visual editor for creating and exporting SVG diagrams and stencils",
+  "subtitle": "",
+  "description": "StencilBox is a self-hosted visual editor for creating SVG stencils and diagrams, offering drag-and-drop elements and export options.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2.5.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-02",
+    "date_last_commit": "2026-01-02",
+    "github_stars": 66,
+    "github_contributors": 2,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://jamesread.github.io/StencilBox",
+    "documentation": "https://jamesread.github.io/StencilBox",
+    "source_code": "https://github.com/jamesread/StencilBox",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/stencilbox.webp",
+    "issues": "https://github.com/jamesread/StencilBox/issues",
+    "releases": "https://github.com/jamesread/StencilBox/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/stencilbox-iframe-sidebar.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Configuration Backup",
+      "description": "Backup configuration files from systems",
+      "core_feature": true
+    },
+    {
+      "title": "Template Storage",
+      "description": "Store reusable configuration templates",
+      "core_feature": true
+    },
+    {
+      "title": "Version Tracking",
+      "description": "Track changes to configurations",
+      "core_feature": true
+    },
+    {
+      "title": "Restore Operations",
+      "description": "Restore configurations from backups"
+    },
+    {
+      "title": "Command-Line Interface",
+      "description": "Manage backups via CLI"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the backup tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/stencilbox/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

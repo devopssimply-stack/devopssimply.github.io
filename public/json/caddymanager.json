@@ -1,0 +1,88 @@
+{
+  "name": "caddymanager",
+  "slug": "caddymanager",
+  "tagline": "A web dashboard for managing Caddy web server configurations",
+  "subtitle": "",
+  "description": "CaddyManager is a GUI-based dashboard for managing Caddy web servers. It visualizes configurations, enables site deployment, SSL settings, and reverse proxy control through a friendly interface without editing plain configs.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.0.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-07",
+    "date_last_commit": "2026-02-20",
+    "github_stars": 928,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/caddymanager/caddymanager",
+    "documentation": "https://github.com/caddymanager/caddymanager",
+    "source_code": "https://github.com/caddymanager/caddymanager",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/caddymanager.webp",
+    "issues": "https://github.com/caddymanager/caddymanager/issues",
+    "releases": "https://github.com/caddymanager/caddymanager/releases",
+    "screenshots": [
+      "/uploads/caddy-manager-server.png"
+    ]
+  },
+  "features": [
+    {
+      "title": "Caddy Configuration UI",
+      "description": "Manages Caddy server configuration through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Site Management",
+      "description": "Creates and edits hosted sites",
+      "core_feature": true
+    },
+    {
+      "title": "Reverse Proxy Setup",
+      "description": "Configures backend services behind Caddy",
+      "core_feature": true
+    },
+    {
+      "title": "SSL Management",
+      "description": "Controls HTTPS settings for managed sites"
+    },
+    {
+      "title": "Configuration Validation",
+      "description": "Validates Caddy configuration changes"
+    },
+    {
+      "title": "User Authentication",
+      "description": "Restricts access to the management interface"
+    },
+    {
+      "title": "Self-Hosted Dashboard",
+      "description": "Runs alongside a Caddy instance"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/caddymanager/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

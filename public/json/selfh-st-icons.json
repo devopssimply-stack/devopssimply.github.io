@@ -1,0 +1,76 @@
+{
+  "name": "selfh-st-icons",
+  "slug": "selfh-st-icons",
+  "tagline": "A curated SVG icon set for self-hosted dashboards and services",
+  "subtitle": "",
+  "description": "selfh.st/icons is a collection of crisp, customizable SVG icons tailored for self-hosted dashboards. It provides consistent naming and theming, helping users visually organize services in tools like Homer, Dashy, or Heimdall.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "CC-BY-4.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 762,
+    "github_contributors": 3,
+    "github_commits_this_year": 61,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://selfh.st/icons",
+    "documentation": "https://github.com/selfhst/icons/wiki",
+    "source_code": "https://github.com/selfhst/icons",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/selfh-st-icons.webp",
+    "issues": "https://github.com/selfhst/icons/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/selfh-st-icons-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Icon Collection",
+      "description": "Provide icons for self-hosted applications",
+      "core_feature": true
+    },
+    {
+      "title": "Categorized Assets",
+      "description": "Organize icons by application and category",
+      "core_feature": true
+    },
+    {
+      "title": "SVG and PNG Formats",
+      "description": "Use icons in multiple image formats",
+      "core_feature": true
+    },
+    {
+      "title": "Community Contributions",
+      "description": "Accept icon contributions from users"
+    },
+    {
+      "title": "Versioned Assets",
+      "description": "Track updates to icon files"
+    },
+    {
+      "title": "Local Usage",
+      "description": "Use icons in locally hosted dashboards"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

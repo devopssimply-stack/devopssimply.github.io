@@ -1,0 +1,101 @@
+{
+  "name": "commafeed",
+  "slug": "commafeed",
+  "tagline": "A self-hosted RSS reader for organizing and reading news feeds",
+  "subtitle": "",
+  "description": "CommaFeed is a self-hosted RSS feed reader and Google Reader replacement. It provides categories, filtering, sharing, and a sleek UI with mobile support. Designed for users who want to keep control of their news feeds.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "7.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-21",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3469,
+    "github_contributors": 91,
+    "github_commits_this_year": 209,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://www.commafeed.com",
+    "documentation": "https://www.commafeed.com",
+    "source_code": "https://github.com/Athou/commafeed",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/commafeed.webp",
+    "issues": "https://github.com/Athou/commafeed/issues",
+    "releases": "https://github.com/Athou/commafeed/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/commafeed-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/commafeed-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "RSS Feed Reader",
+      "description": "Aggregates RSS and Atom feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Management",
+      "description": "Subscribes and organizes feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Reads feeds in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates feeds per user"
+    },
+    {
+      "title": "OPML Import Export",
+      "description": "Imports and exports feed lists"
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Searches feed content"
+    },
+    {
+      "title": "Self-Hosted Aggregation",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/commafeed/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "commafeed",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=commafeed"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "commafeed_ynh",
+      "url": "https://github.com/YunoHost-Apps/commafeed_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

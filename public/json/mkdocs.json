@@ -1,0 +1,82 @@
+{
+  "name": "mkdocs",
+  "slug": "mkdocs",
+  "tagline": "A static site generator for building documentation with Markdown",
+  "subtitle": "",
+  "description": "MkDocs is a static site generator designed for building documentation using Markdown. It features a live preview server, theming options, and a large plugin ecosystem, making it ideal for technical docs.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-2-Clause",
+    "version": "1.6.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-08-30",
+    "date_last_commit": "2025-10-20",
+    "github_stars": 21815,
+    "github_contributors": 231,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.mkdocs.org",
+    "documentation": "https://www.mkdocs.org/getting-started",
+    "source_code": "https://github.com/mkdocs/mkdocs",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mkdocs.webp",
+    "issues": "https://github.com/mkdocs/mkdocs/issues",
+    "releases": "https://github.com/mkdocs/mkdocs/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mkdocs-dashboard-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mkdocs-readthedocs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mkdocs-search.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Documentation Site Generator",
+      "description": "Build static documentation websites",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Authoring",
+      "description": "Write documentation using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Theme Support",
+      "description": "Apply and customize documentation themes"
+    },
+    {
+      "title": "Live Preview",
+      "description": "Preview documentation changes locally"
+    },
+    {
+      "title": "Static Output",
+      "description": "Generate static HTML files",
+      "core_feature": true
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mkdocs/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

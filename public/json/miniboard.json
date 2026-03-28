@@ -1,0 +1,79 @@
+{
+  "name": "miniboard",
+  "slug": "miniboard",
+  "tagline": "A lightweight self-hosted dashboard for displaying custom stats and text",
+  "subtitle": "",
+  "description": "Miniboard is a self-hosted browser-based dashboard that allows users to display custom text, stats, or system information. It’s highly lightweight, works via configuration files, and is ideal for homelabs.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.2.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2023-12-24",
+    "date_last_commit": "2023-12-24",
+    "github_stars": 235,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://hub.docker.com/r/aceberg/miniboard",
+    "documentation": "https://hub.docker.com/r/aceberg/miniboard",
+    "source_code": "https://github.com/aceberg/miniboard",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/miniboard.webp",
+    "issues": "https://github.com/aceberg/miniboard/issues",
+    "releases": "https://github.com/aceberg/miniboard/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/miniboard-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Lightweight Dashboard",
+      "description": "Display a simple dashboard for services",
+      "core_feature": true
+    },
+    {
+      "title": "Link Management",
+      "description": "Add and organize service links",
+      "core_feature": true
+    },
+    {
+      "title": "Minimal UI",
+      "description": "Provide a compact and simple interface"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Configure dashboard content via files"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Host the dashboard on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/miniboard/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "send-visee",
+  "slug": "send",
+  "tagline": "A self-hosted encrypted file sharing service with expiring links",
+  "subtitle": "",
+  "description": "timvisee/send is a community-maintained fork of Mozilla Send, a self-hosted encrypted file sharing service with expiring links. Files are end-to-end encrypted in the browser and can be shared via short URLs.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MOzilla Public License 2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://gitlab.com/timvisee/send/-/blob/master/docs/docker.md",
+    "source_code": "https://gitlab.com/timvisee/send",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/send.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Secure File Sharing",
+      "description": "Share files using encrypted download links",
+      "core_feature": true
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Encrypt files before upload",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Automatically expire shared files",
+      "core_feature": true
+    },
+    {
+      "title": "Download Limits",
+      "description": "Limit number of file downloads"
+    },
+    {
+      "title": "Password Protection",
+      "description": "Protect shared files with passwords"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the file sharing service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/send/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "send_ynh",
+      "url": "https://github.com/YunoHost-Apps/send_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://github.com/timvisee/send-instances",
+    "username": null,
+    "password": null
+  }
+}

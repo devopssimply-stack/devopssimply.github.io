@@ -1,0 +1,46 @@
+# ===============================
+# Docker Compose (Kinto)
+# ===============================
+# host: http://localhost:8888
+# username:
+# password:
+
+services:
+  kinto:
+    image: kinto/kinto-server:latest
+    container_name: kinto
+    restart: unless-stopped
+    ports:
+      - "8888:8888"
+    environment:
+      KINTO_STORAGE_BACKEND: kinto.core.storage.postgresql
+      KINTO_STORAGE_URL: postgresql://kinto:kinto@db:5432/kinto
+      KINTO_PERMISSION_BACKEND: kinto.core.permission.postgresql
+      KINTO_PERMISSION_URL: postgresql://kinto:kinto@db:5432/kinto
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:8888/v1/ || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  db:
+    image: postgres:latest
+    container_name: kinto_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: kinto
+      POSTGRES_USER: kinto
+      POSTGRES_PASSWORD: kinto
+    volumes:
+      - kinto_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kinto"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  kinto_db_data:

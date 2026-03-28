@@ -1,0 +1,85 @@
+{
+  "name": "zot-registry",
+  "slug": "zot",
+  "tagline": "A self-hosted OCI image registry with security, replication, and web UI",
+  "subtitle": "",
+  "description": "zot is a self-hosted OCI image registry focused on simplicity, security, and cloud-native workflows. It supports replication, access control, and a minimal web UI and APIs for managing container images.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v2.1.14",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-25",
+    "date_last_commit": "2026-02-05",
+    "github_stars": 1813,
+    "github_contributors": 58,
+    "github_commits_this_year": 25,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://zotregistry.dev",
+    "documentation": "https://zotregistry.dev",
+    "source_code": "https://github.com/project-zot/zot",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zot.webp",
+    "issues": "https://github.com/project-zot/zot/issues",
+    "releases": "https://github.com/project-zot/zot/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Container Registry",
+      "description": "Host and distribute container images",
+      "core_feature": true
+    },
+    {
+      "title": "OCI Compliance",
+      "description": "Support OCI image specifications",
+      "core_feature": true
+    },
+    {
+      "title": "Repository Management",
+      "description": "Manage image repositories",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Control access to repositories"
+    },
+    {
+      "title": "Artifact Signing",
+      "description": "Support signed artifacts"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the registry on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zot-registry",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zot-registry"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

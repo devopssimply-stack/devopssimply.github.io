@@ -1,0 +1,102 @@
+{
+  "name": "firefly-iii",
+  "slug": "firefly-iii",
+  "tagline": "A self-hosted personal finance manager for budgeting and expense tracking",
+  "subtitle": "",
+  "description": "Firefly III is a self-hosted personal finance manager designed for budgeting, expense tracking, and visual reporting. It supports multiple accounts, currencies, APIs, and detailed categorization. GDPR-compliant for full financial privacy.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v6.5.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 22603,
+    "github_contributors": 175,
+    "github_commits_this_year": 707,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 18
+  },
+  "resources": {
+    "website": "https://firefly-iii.org/",
+    "documentation": "https://github.com/firefly-iii/firefly-iii",
+    "source_code": "https://github.com/firefly-iii/firefly-iii",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/firefly-iii.webp",
+    "issues": "https://github.com/firefly-iii/firefly-iii/issues",
+    "releases": "https://github.com/firefly-iii/firefly-iii/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/firefly-iii-budget.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/firefly-iii-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/firefly-iii-imac-complete.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/firefly-iii-ipad-complete.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/firefly-iii-subscription.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Finance Management",
+      "description": "Tracks income expenses and transfers",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Account Support",
+      "description": "Manages multiple financial accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Budgeting",
+      "description": "Defines and tracks budgets",
+      "core_feature": true
+    },
+    {
+      "title": "Reporting",
+      "description": "Visualizes financial data with reports"
+    },
+    {
+      "title": "Transaction Categorization",
+      "description": "Organizes transactions using categories and tags"
+    },
+    {
+      "title": "Import Tools",
+      "description": "Imports data from bank exports"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with external tools"
+    },
+    {
+      "title": "Self-Hosted Finance App",
+      "description": "Run the system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "firefly-iii_ynh",
+      "url": "https://github.com/YunoHost-Apps/firefly-iii_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "firefly-iii",
+      "url": "https://apps.truenas.com/catalog/firefly-iii"
+    }
+  },
+  "demo": {
+    "url": "https://demo.firefly-iii.org/login",
+    "username": "demo@firefly-iii.org",
+    "password": "demo"
+  }
+}

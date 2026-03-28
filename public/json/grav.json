@@ -1,0 +1,98 @@
+{
+  "name": "grav",
+  "slug": "grav",
+  "tagline": "A fast flat file content management system without a database",
+  "subtitle": "",
+  "description": "Grav is a flat-file CMS that allows users to build websites without a database. It supports themes, plugins, markdown content, and runs extremely fast, suitable for blogs, documentation sites, or landing pages.",
+  "categories": [
+    19
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.7.49.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-11",
+    "date_last_commit": "2026-02-25",
+    "github_stars": 15405,
+    "github_contributors": 201,
+    "github_commits_this_year": 9,
+    "github_issues_open": 435,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://getgrav.org",
+    "documentation": "https://learn.getgrav.org",
+    "source_code": "https://github.com/getgrav/grav",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/grav.webp",
+    "issues": "https://github.com/getgrav/grav/issues",
+    "releases": "https://github.com/getgrav/grav/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grav-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grav-content-standard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Flat-File CMS",
+      "description": "Manages websites without a database",
+      "core_feature": true
+    },
+    {
+      "title": "Twig Templating",
+      "description": "Uses Twig for theme layouts"
+    },
+    {
+      "title": "Markdown Content",
+      "description": "Writes pages in Markdown"
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extends functionality through plugins"
+    },
+    {
+      "title": "Media Handling",
+      "description": "Serves images and files within pages"
+    },
+    {
+      "title": "Multilingual Support",
+      "description": "Provides translations for content"
+    },
+    {
+      "title": "CLI Tools",
+      "description": "Manages site from command line"
+    },
+    {
+      "title": "Self-Hosted Website",
+      "description": "Host the CMS on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/grav/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "grav_ynh",
+      "url": "https://github.com/YunoHost-Apps/grav_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

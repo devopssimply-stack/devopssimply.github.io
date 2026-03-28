@@ -1,0 +1,84 @@
+{
+  "name": "portall",
+  "slug": "portall",
+  "tagline": "A self-hosted dashboard for shortcuts stats and homelab services",
+  "subtitle": "",
+  "description": "Portall is a self-hosted dashboard that displays shortcuts to internal apps, stats, and widgets. Designed for homelab users, it simplifies navigation across multiple services.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.0.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-06-19",
+    "date_last_commit": "2025-06-21",
+    "github_stars": 835,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/need4swede/Portall",
+    "documentation": "https://github.com/need4swede/Portall",
+    "source_code": "https://github.com/need4swede/Portall",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/portall.webp",
+    "issues": "https://github.com/need4swede/Portall/issues",
+    "releases": "https://github.com/need4swede/Portall/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/portall-web-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Service Dashboard",
+      "description": "Organize links to self-hosted services",
+      "core_feature": true
+    },
+    {
+      "title": "Categorization",
+      "description": "Group services into categories",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find services quickly",
+      "core_feature": true
+    },
+    {
+      "title": "Custom Icons",
+      "description": "Assign icons to services"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access the dashboard in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the dashboard on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/portall/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

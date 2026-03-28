@@ -1,0 +1,29 @@
+# ===============================
+# Docker Compose (LibreSpeed)
+# ===============================
+# host: http://localhost:8080
+# username:
+# password:
+
+services:
+  librespeed:
+    image: linuxserver/librespeed:latest
+    container_name: librespeed
+    restart: unless-stopped
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Etc/UTC
+      PASSWORD: ""   # optional UI password (leave empty to disable)
+    volumes:
+      - librespeed_config:/config
+    ports:
+      - "8080:80"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  librespeed_config:

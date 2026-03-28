@@ -1,0 +1,92 @@
+{
+  "name": "tududi",
+  "slug": "tududi",
+  "tagline": "A simple to-do and task tracking app with projects and priorities",
+  "subtitle": "",
+  "description": "Tududi is a self-hosted to-do and task tracking application with projects, lists, and priorities. It offers a simple, responsive web UI for managing daily tasks.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.88.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-13",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2251,
+    "github_contributors": 15,
+    "github_commits_this_year": 78,
+    "github_issues_open": 3,
+    "github_issues_closed_this_year": 65,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://tududi.com/",
+    "documentation": "https://docs.tududi.com",
+    "source_code": "https://github.com/chrisvel/tududi",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tududi.webp",
+    "issues": "https://github.com/chrisvel/tududi/issues",
+    "releases": "https://github.com/chrisvel/tududi/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tududi-all-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tududi-all-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Task Management",
+      "description": "Create and manage personal tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Project Organization",
+      "description": "Organize tasks into projects",
+      "core_feature": true
+    },
+    {
+      "title": "Due Dates",
+      "description": "Assign deadlines to tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Priority Levels",
+      "description": "Set task priorities"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage tasks in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the task manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tududi/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "tududi",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=tududi"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

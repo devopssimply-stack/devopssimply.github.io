@@ -1,0 +1,95 @@
+{
+  "name": "pi-hole",
+  "slug": "pi-hole",
+  "tagline": "A network-wide DNS-based ad and tracker blocking solution",
+  "subtitle": "",
+  "description": "Pi-hole is a self-hosted network-wide ad blocker and DNS sinkhole. It blocks ads and trackers across devices with a lightweight DNS solution and a web-based dashboard for configuration.",
+  "categories": [
+    7
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "EUPL",
+    "version": "v6.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 55994,
+    "github_contributors": 223,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://pi-hole.net",
+    "documentation": "https://docs.pi-hole.net",
+    "source_code": "https://github.com/pi-hole/pi-hole",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pi-hole.webp",
+    "issues": "https://github.com/pi-hole/pi-hole/issues",
+    "releases": "https://github.com/pi-hole/pi-hole/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pi-hole-audit-log.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pi-hole-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pi-hole-dhcp.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pi-hole-query-log.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network Ad Blocking",
+      "description": "Block ads and trackers at the network level",
+      "core_feature": true
+    },
+    {
+      "title": "DNS Server",
+      "description": "Act as a local DNS resolver",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard",
+      "description": "View network queries and statistics",
+      "core_feature": true
+    },
+    {
+      "title": "Device Management",
+      "description": "Apply rules per device"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run on local or private hardware"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pi-hole/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "pihole",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "pihole_ynh",
+      "url": "https://github.com/YunoHost-Apps/pihole_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "cal-com",
+  "slug": "cal-com",
+  "tagline": "An open-source scheduling platform for appointment booking",
+  "subtitle": "",
+  "description": "Cal.com is an open-source scheduling platform designed to provide Calendly-like capabilities. It integrates with other apps, supports self-hosting, and includes role-based access, API triggers, and booking widgets.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v6.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 40471,
+    "github_contributors": 439,
+    "github_commits_this_year": 942,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 25
+  },
+  "resources": {
+    "website": "https://cal.com",
+    "documentation": "https://cal.com/docs",
+    "source_code": "https://github.com/calcom/cal.com",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cal-com.webp",
+    "issues": "https://github.com/calcom/cal.com/issues",
+    "releases": "https://github.com/calcom/cal.com/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cal-com-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Scheduling Platform",
+      "description": "Manages appointment scheduling and availability",
+      "core_feature": true
+    },
+    {
+      "title": "Calendar Integration",
+      "description": "Syncs with external calendar providers",
+      "core_feature": true
+    },
+    {
+      "title": "Booking Pages",
+      "description": "Generates public booking links",
+      "core_feature": true
+    },
+    {
+      "title": "Time Slot Management",
+      "description": "Controls availability rules and buffers",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Supports individual and team scheduling"
+    },
+    {
+      "title": "Video Conferencing Integration",
+      "description": "Connects bookings to video meeting tools"
+    },
+    {
+      "title": "Webhooks",
+      "description": "Sends events on booking actions"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-managed infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cal-com/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "calcom_ynh",
+      "url": "https://github.com/YunoHost-Apps/calcom_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

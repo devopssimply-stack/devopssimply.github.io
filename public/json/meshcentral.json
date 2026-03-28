@@ -1,0 +1,96 @@
+{
+  "name": "meshcentral",
+  "slug": "meshcentral",
+  "tagline": "A self-hosted remote support and device management platform",
+  "subtitle": "",
+  "description": "MeshCentral is a full-featured self-hosted remote support platform that provides remote desktop, terminal, file transfers, and agent-based monitoring across devices with user and group management.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "1.1.57",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 6213,
+    "github_contributors": 131,
+    "github_commits_this_year": 85,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://meshcentral.com",
+    "documentation": "https://meshcentral.com/docs/MeshCentral2InstallGuide.pdf",
+    "source_code": "https://github.com/Ylianst/MeshCentral",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/meshcentral.webp",
+    "issues": "https://github.com/Ylianst/MeshCentral/issues",
+    "releases": "https://github.com/Ylianst/MeshCentral/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/meshcentral-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Remote Device Management",
+      "description": "Manage and access remote devices",
+      "core_feature": true
+    },
+    {
+      "title": "Remote Desktop",
+      "description": "View and control remote screens",
+      "core_feature": true
+    },
+    {
+      "title": "Device Inventory",
+      "description": "Track registered devices"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and permissions",
+      "core_feature": true
+    },
+    {
+      "title": "File Transfer",
+      "description": "Transfer files to and from devices"
+    },
+    {
+      "title": "Self-Hosted Server",
+      "description": "Run the management server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/meshcentral/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "meshcentral",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=meshcentral"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "meshcentral",
+      "url": "https://apps.truenas.com/catalog/meshcentral"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

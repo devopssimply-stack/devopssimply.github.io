@@ -1,0 +1,99 @@
+{
+  "name": "mail-archiver",
+  "slug": "mail-archiver",
+  "tagline": "A self-hosted solution for archiving and searching emails",
+  "subtitle": "",
+  "description": "Mail Archiver is a small self-hosted solution that captures and archives emails for permanent searchable storage. It supports IMAP fetching and full-text search for compliance or personal records.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "2602.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1688,
+    "github_contributors": 9,
+    "github_commits_this_year": 50,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://github.com/s1t5/mail-archiver",
+    "documentation": "https://github.com/s1t5/mail-archiver",
+    "source_code": "https://github.com/s1t5/mail-archiver",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mail-archiver.webp",
+    "issues": "https://github.com/s1t5/mail-archiver/issues",
+    "releases": "https://github.com/s1t5/mail-archiver/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mail-archiver-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mail-archiver-archive.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mail-archiver-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mail-archiver-details.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Email Archiving",
+      "description": "Archive emails for long-term storage",
+      "core_feature": true
+    },
+    {
+      "title": "IMAP Integration",
+      "description": "Collect emails from IMAP mailboxes",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search archived emails",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Storage",
+      "description": "Preserve headers and message details"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse archived emails through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the archiver on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mail-archiver/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "mail-archiver",
+      "url": "https://apps.truenas.com/catalog/mail-archiver"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "mail-archiver",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=mail-archiver"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

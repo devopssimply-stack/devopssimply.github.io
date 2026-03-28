@@ -1,0 +1,100 @@
+{
+  "name": "meilisearch",
+  "slug": "meilisearch",
+  "tagline": "A fast, open source search engine with a simple REST API",
+  "subtitle": "",
+  "description": "Meilisearch is a lightning-fast, open-source search engine with instant results and typo tolerance. It exposes a simple REST API and is designed for simplicity, enabling developers to self-host a search service easily.",
+  "categories": [
+    40
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.37.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 56199,
+    "github_contributors": 215,
+    "github_commits_this_year": 389,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 13
+  },
+  "resources": {
+    "website": "https://www.meilisearch.com",
+    "documentation": "https://www.meilisearch.com/docs/home",
+    "source_code": "https://github.com/meilisearch/meilisearch",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/meilisearch.webp",
+    "issues": "https://github.com/meilisearch/meilisearch/issues",
+    "releases": "https://github.com/meilisearch/meilisearch/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/meilisearch-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Search Engine",
+      "description": "Provide fast full-text search for applications",
+      "core_feature": true
+    },
+    {
+      "title": "REST API",
+      "description": "Index and query data through an HTTP API",
+      "core_feature": true
+    },
+    {
+      "title": "Relevance Tuning",
+      "description": "Adjust ranking rules and search behavior"
+    },
+    {
+      "title": "Filtering and Sorting",
+      "description": "Filter and sort search results by attributes",
+      "core_feature": true
+    },
+    {
+      "title": "Language Support",
+      "description": "Handle multiple languages and tokenization rules"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the search engine on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/meilisearch/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "meilisearch",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=meilisearch"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "meilisearch_ynh",
+      "url": "https://github.com/YunoHost-Apps/meilisearch_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

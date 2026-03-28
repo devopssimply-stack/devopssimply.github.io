@@ -1,0 +1,97 @@
+{
+  "name": "hi-events",
+  "slug": "hi-events",
+  "tagline": "An open source event management and ticketing platform",
+  "subtitle": "",
+  "description": "Hi Events is an open source event management and ticketing system. It lets organizers publish event pages, handle registrations, issue QR tickets and track check ins, while keeping all attendee data on their own server.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.6.0-beta.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-26",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 3575,
+    "github_contributors": 34,
+    "github_commits_this_year": 29,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://hi.events",
+    "documentation": "https://hi.events/docs",
+    "source_code": "https://github.com/HiEventsDev/Hi.Events",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hi-events.webp",
+    "issues": "https://github.com/HiEventsDev/Hi.Events/issues",
+    "releases": "https://github.com/HiEventsDev/Hi.Events/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hi-events-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Event Management Platform",
+      "description": "Creates and manages public and private events",
+      "core_feature": true
+    },
+    {
+      "title": "Event Pages",
+      "description": "Publishes detailed event information pages"
+    },
+    {
+      "title": "Ticketing Support",
+      "description": "Manages event tickets and registrations"
+    },
+    {
+      "title": "Attendee Management",
+      "description": "Tracks registered participants"
+    },
+    {
+      "title": "Organizer Tools",
+      "description": "Allows organizers to manage multiple events"
+    },
+    {
+      "title": "Email Notifications",
+      "description": "Sends updates and confirmations to attendees"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Controls events through a browser interface"
+    },
+    {
+      "title": "Self-Hosted Events",
+      "description": "Run the platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hi-events/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "hi-events_ynh",
+      "url": "https://github.com/YunoHost-Apps/hi-events_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

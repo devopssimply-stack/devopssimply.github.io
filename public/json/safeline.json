@@ -1,0 +1,82 @@
+{
+  "name": "safeline",
+  "slug": "safeline",
+  "tagline": "A self-hosted web application firewall with AI-based attack detection",
+  "subtitle": "",
+  "description": "SafeLine is a self-hosted security platform that detects web application attacks using AI. It includes dashboards, threat intelligence, and supports scalable deployment.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v9.2.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-05",
+    "date_last_commit": "2025-11-05",
+    "github_stars": 20805,
+    "github_contributors": 21,
+    "github_commits_this_year": 0,
+    "github_issues_open": 76,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://ly.safepoint.cloud/fUxS0GW",
+    "documentation": "https://github.com/chaitin/SafeLine",
+    "source_code": "https://github.com/chaitin/SafeLine",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/safeline.webp",
+    "issues": "https://github.com/chaitin/SafeLine/issues",
+    "releases": "https://github.com/chaitin/SafeLine/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/safeline-waf-screenshot-1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/safeline-waf-screenshot-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/safeline-waf-screenshot-3.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/safeline-waf-screenshot-4.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Application Firewall",
+      "description": "Protect web apps from common attacks",
+      "core_feature": true
+    },
+    {
+      "title": "Traffic Inspection",
+      "description": "Analyze incoming HTTP traffic",
+      "core_feature": true
+    },
+    {
+      "title": "Rule-Based Blocking",
+      "description": "Block malicious requests"
+    },
+    {
+      "title": "Dashboard",
+      "description": "View security events and logs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the firewall on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/safeline/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

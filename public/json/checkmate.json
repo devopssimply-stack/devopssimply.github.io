@@ -1,0 +1,97 @@
+{
+  "name": "checkmate",
+  "slug": "checkmate",
+  "tagline": "A self-hosted platform for monitoring service uptime and performance",
+  "subtitle": "",
+  "description": "Checkmate is a self-hosted uptime and performance monitoring platform. It checks websites or APIs, sends alerts on downtime, and provides dashboards for visualizing availability history and performance data.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 9361,
+    "github_contributors": 129,
+    "github_commits_this_year": 993,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://checkmate.so/",
+    "documentation": "https://github.com/bluewave-labs/Checkmate",
+    "source_code": "https://github.com/bluewave-labs/Checkmate",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/checkmate.webp",
+    "issues": "https://github.com/bluewave-labs/Checkmate/issues",
+    "releases": "https://github.com/bluewave-labs/Checkmate/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/checkmate-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/checkmate-inframonitoring.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/checkmate-pagespeedmonitoring.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/checkmate-uptimemonitoring.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Infrastructure Monitoring",
+      "description": "Monitors services and system health",
+      "core_feature": true
+    },
+    {
+      "title": "Health Checks",
+      "description": "Performs checks on HTTP services and processes",
+      "core_feature": true
+    },
+    {
+      "title": "Alerting Rules",
+      "description": "Triggers alerts based on check conditions"
+    },
+    {
+      "title": "Dashboard View",
+      "description": "Displays service status and history"
+    },
+    {
+      "title": "Notification Channels",
+      "description": "Sends alerts through supported integrations"
+    },
+    {
+      "title": "Multi-Service Support",
+      "description": "Monitors multiple services concurrently"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Runs without external monitoring providers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/checkmate/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "checkmate",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=checkmate"
+    }
+  },
+  "demo": {
+    "url": "https://checkmate-demo.bluewavelabs.ca",
+    "username": "uptimedemo@demo.com",
+    "password": "Demouser1!"
+  }
+}

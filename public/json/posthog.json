@@ -1,0 +1,88 @@
+{
+  "name": "posthog",
+  "slug": "posthog",
+  "tagline": "An open-source product analytics platform with events heatmaps and recordings",
+  "subtitle": "",
+  "description": "PostHog is an open-source product analytics suite with heatmaps, session recording, event tracking, and feature flags. It's self-hostable or cloud-based, offering privacy-friendly data ownership for growth teams.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT Expat License",
+    "version": "posthog-cli-v0.7.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 31907,
+    "github_contributors": 398,
+    "github_commits_this_year": 4320,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 39
+  },
+  "resources": {
+    "website": "https://posthog.com",
+    "documentation": "https://posthog.com/docs",
+    "source_code": "https://github.com/PostHog/posthog",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/posthog.webp",
+    "issues": "https://github.com/PostHog/posthog/issues",
+    "releases": "https://github.com/PostHog/posthog/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/posthog-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Product Analytics",
+      "description": "Track user behavior and product usage",
+      "core_feature": true
+    },
+    {
+      "title": "Event Tracking",
+      "description": "Capture custom events from applications",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboards",
+      "description": "Visualize analytics data in charts",
+      "core_feature": true
+    },
+    {
+      "title": "Feature Flags",
+      "description": "Control feature rollout using flags"
+    },
+    {
+      "title": "Session Recording",
+      "description": "Review user sessions for analysis"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run analytics on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/posthog/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,30 @@
+# ===============================
+# Docker Compose (Puter)
+# ===============================
+# host: http://localhost:4100
+# username:
+# password:
+
+services:
+  puter:
+    image: ghcr.io/heyputer/puter:latest
+    container_name: puter
+    restart: unless-stopped
+    ports:
+      - "4100:4100"
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - puter_config:/etc/puter
+      - puter_data:/var/puter
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:4100/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  puter_config:
+  puter_data:

@@ -1,0 +1,86 @@
+{
+  "name": "apache-superset",
+  "slug": "apache-superset",
+  "tagline": "A data visualization and analytics platform for interactive dashboards",
+  "subtitle": "",
+  "description": "Apache Superset is an open-source data visualization and business intelligence platform that allows users to explore, visualize, and analyze data via dashboards and SQL queries. It is cloud-ready and supports plugins and rich visualizations.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "6.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 70823,
+    "github_contributors": 422,
+    "github_commits_this_year": 745,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://superset.apache.org",
+    "documentation": "https://superset.apache.org/docs/6.0.0/intro",
+    "source_code": "https://github.com/apache/superset",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/apache-superset.webp",
+    "issues": "https://github.com/apache/superset/issues",
+    "releases": "https://github.com/apache/superset/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/apache-superset-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/apache-superset.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Data Visualization Platform",
+      "description": "Explore and visualize data using dashboards",
+      "core_feature": true
+    },
+    {
+      "title": "SQL Querying",
+      "description": "Query data sources using SQL",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard Builder",
+      "description": "Create interactive dashboards"
+    },
+    {
+      "title": "Data Source Integration",
+      "description": "Connect to multiple databases"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access analytics through a browser"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/apache-superset/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

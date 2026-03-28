@@ -1,0 +1,101 @@
+{
+  "name": "nextexplorer",
+  "slug": "nextexplorer",
+  "tagline": "A self-hosted web file manager built for the Next.js ecosystem",
+  "subtitle": "",
+  "description": "nextExplorer is a self-hosted web file manager built to work within the Next.js ecosystem. It offers basic file operations, folder navigation, and an interface styled after modern file explorers.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.2.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-15",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 797,
+    "github_contributors": 6,
+    "github_commits_this_year": 105,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://deepwiki.com/vikramsoni2/nextExplorer",
+    "documentation": "https://explorer.nxz.ai/installation/deployment.html",
+    "source_code": "https://github.com/vikramsoni2/nextExplorer",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nextexplorer.webp",
+    "issues": "https://github.com/vikramsoni2/nextExplorer/issues",
+    "releases": "https://github.com/vikramsoni2/nextExplorer/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-3.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-6.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-directory-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-directory-list.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-directory.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-favorites-added.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-first-setup.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-home-screen.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-login-screen.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-sign-in.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextexplorer-upload.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Explorer",
+      "description": "Browse and manage files via web",
+      "core_feature": true
+    },
+    {
+      "title": "File Operations",
+      "description": "Copy, move, delete, and rename files",
+      "core_feature": true
+    },
+    {
+      "title": "Upload and Download",
+      "description": "Transfer files to and from the server"
+    },
+    {
+      "title": "Directory View",
+      "description": "View folder structures"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access file management through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nextexplorer/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "next-explorer",
+      "url": "https://apps.truenas.com/catalog/next-explorer"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "nextexplorer",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=nextexplorer"
+    }
+  },
+  "demo": {
+    "url": "https://explorer-latest.onrender.com",
+    "username": "demo@example.com",
+    "password": "password"
+  }
+}

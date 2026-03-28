@@ -1,0 +1,96 @@
+{
+  "name": "sonobarr",
+  "slug": "sonobarr",
+  "tagline": "A status and health dashboard for Sonarr and Radarr setups",
+  "subtitle": "",
+  "description": "Sonobarr is a self-hosted status and health dashboard for Sonarr/Radarr setups. It aggregates information, errors, and stats into a quick-glance bar-style UI.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.12.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 339,
+    "github_contributors": 2,
+    "github_commits_this_year": 35,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/Dodelidoo-Labs/sonobarr",
+    "documentation": "https://github.com/Dodelidoo-Labs/sonobarr",
+    "source_code": "https://github.com/Dodelidoo-Labs/sonobarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sonobarr.webp",
+    "issues": "https://github.com/Dodelidoo-Labs/sonobarr/issues",
+    "releases": "https://github.com/Dodelidoo-Labs/sonobarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonobarr-configuration-album.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonobarr-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonobarr-profile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonobarr-server-configuration.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonobarr-trailer-movies.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonobarr-user-management.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Audiobook Management",
+      "description": "Manage and organize audiobook libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Downloads",
+      "description": "Automatically fetch audiobooks",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Store and update audiobook metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers"
+    },
+    {
+      "title": "Quality Profiles",
+      "description": "Control preferred audiobook formats"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sonobarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "sonobarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=sonobarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

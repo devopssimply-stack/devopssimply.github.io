@@ -1,0 +1,82 @@
+{
+  "name": "pasta",
+  "slug": "pasta",
+  "tagline": "A simple self-hosted pastebin for sharing text snippets",
+  "subtitle": "",
+  "description": "Pasta is a simple self-hosted pastebin service for storing text snippets. It supports themes, expiration, and syntax highlighting with a minimal web interface.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": "2.2.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 416,
+    "github_contributors": 8,
+    "github_commits_this_year": 13,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://www.pastatool.com",
+    "documentation": "https://github.com/cglatot/pasta",
+    "source_code": "https://github.com/cglatot/pasta",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pasta.webp",
+    "issues": "https://github.com/cglatot/pasta/issues",
+    "releases": "https://github.com/cglatot/pasta/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Paste Service",
+      "description": "Share text snippets using links",
+      "core_feature": true
+    },
+    {
+      "title": "Syntax Highlighting",
+      "description": "Highlight code snippets",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Options",
+      "description": "Automatically delete pastes after expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Protect pastes with passwords"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Create and view pastes in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the paste service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pasta/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

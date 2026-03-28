@@ -1,0 +1,105 @@
+{
+  "name": "nextcloud",
+  "slug": "nextcloud",
+  "tagline": "A self-hosted file sync and collaboration platform with an app ecosystem",
+  "subtitle": "",
+  "description": "Nextcloud Server is a self-hosted file sync and share platform with extensible app ecosystem. It provides file storage, collaboration tools, and access control with full privacy and security.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v33.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 34259,
+    "github_contributors": 350,
+    "github_commits_this_year": 1368,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 19
+  },
+  "resources": {
+    "website": "https://nextcloud.com",
+    "documentation": "https://github.com/nextcloud/server",
+    "source_code": "https://github.com/nextcloud/server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nextcloud.webp",
+    "issues": "https://github.com/nextcloud/server/issues",
+    "releases": "https://github.com/nextcloud/server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-apps.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-deck-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-forms-question.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-forms-quetionare.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-forms-response.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-hero.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-mail.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-news.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-notes.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-office.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-social.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-tables.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-talk.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-tasks.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sync and Share",
+      "description": "Store, sync, and share files",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and access permissions",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access files through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Desktop and Mobile Clients",
+      "description": "Sync files across devices"
+    },
+    {
+      "title": "App Ecosystem",
+      "description": "Extend functionality using apps"
+    },
+    {
+      "title": "Self-Hosted Platform",
+      "description": "Run the collaboration server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nextcloud/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "nextcloud_ynh",
+      "url": "https://github.com/YunoHost-Apps/nextcloud_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

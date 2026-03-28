@@ -1,0 +1,91 @@
+# ===============================
+# Docker Compose (ShellHub)
+# ===============================
+# host: http://localhost:8080
+# username: admin
+# password: admin
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: shellhub_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: shellhub
+      POSTGRES_USER: shellhub
+      POSTGRES_PASSWORD: shellhubpassword
+    volumes:
+      - shellhub_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U shellhub -d shellhub"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7
+    container_name: shellhub_redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "no"]
+    volumes:
+      - shellhub_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  api:
+    image: shellhubio/api:latest
+    container_name: shellhub_api
+    restart: unless-stopped
+    environment:
+      DATABASE: postgres
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      POSTGRES_USERNAME: shellhub
+      POSTGRES_PASSWORD: shellhubpassword
+      POSTGRES_DATABASE: shellhub
+      SHELLHUB_DOMAIN: localhost
+      SHELLHUB_SSH_PORT: "2222"
+      SHELLHUB_HTTP_PORT: "8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  ssh:
+    image: shellhubio/ssh:latest
+    container_name: shellhub_ssh
+    restart: unless-stopped
+    environment:
+      SHELLHUB_INTERNAL_HTTP_CLIENT_API_BASE_URL: http://api:8080
+    ports:
+      - "2222:2222"
+    depends_on:
+      - api
+
+  ui:
+    image: shellhubio/ui:latest
+    container_name: shellhub_ui
+    restart: unless-stopped
+    depends_on:
+      - api
+
+  gateway:
+    image: shellhubio/gateway:latest
+    container_name: shellhub_gateway
+    restart: unless-stopped
+    environment:
+      SHELLHUB_DOMAIN: localhost
+      SHELLHUB_SSH_PORT: "2222"
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+      - ui
+
+volumes:
+  shellhub_postgres_data:
+  shellhub_redis_data:

@@ -1,0 +1,89 @@
+{
+  "name": "wakapi",
+  "slug": "wakapi",
+  "tagline": "A self-hosted coding activity tracker inspired by WakaTime",
+  "subtitle": "",
+  "description": "Wakapi is a self-hosted WakaTime-like coding statistics tracker. It records editor activity via plugins and displays programming time, language stats, and trends via a web UI and API.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.17.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-21",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 4123,
+    "github_contributors": 67,
+    "github_commits_this_year": 45,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://wakapi.dev",
+    "documentation": "https://github.com/muety/wakapi",
+    "source_code": "https://github.com/muety/wakapi",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wakapi.webp",
+    "issues": "https://github.com/muety/wakapi/issues",
+    "releases": "https://github.com/muety/wakapi/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wakapi-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wakapi-grafana-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Coding Activity Tracking",
+      "description": "Track time spent coding",
+      "core_feature": true
+    },
+    {
+      "title": "Editor Integration",
+      "description": "Collect activity from supported editors",
+      "core_feature": true
+    },
+    {
+      "title": "Statistics Dashboard",
+      "description": "View coding statistics",
+      "core_feature": true
+    },
+    {
+      "title": "Project Breakdown",
+      "description": "Analyze activity by project"
+    },
+    {
+      "title": "Data Export",
+      "description": "Export activity data"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wakapi/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

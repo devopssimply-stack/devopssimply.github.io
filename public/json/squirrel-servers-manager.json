@@ -1,0 +1,90 @@
+{
+  "name": "squirrel-servers-manager",
+  "slug": "squirrel-servers-manager",
+  "tagline": "A unified web interface for managing servers and containers with Ansible and Docker",
+  "subtitle": "",
+  "description": "Squirrel Servers Manager is a self-hosted management platform for servers and containers built on Ansible and Docker. It provides a unified GUI to configure, deploy, and monitor infrastructure.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-11-24",
+    "github_stars": 1017,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://squirrelserversmanager.io/",
+    "documentation": "https://github.com/SquirrelCorporation/SquirrelServersManager",
+    "source_code": "https://github.com/SquirrelCorporation/SquirrelServersManager",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/squirrel-servers-manager.webp",
+    "issues": "https://github.com/SquirrelCorporation/SquirrelServersManager/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/squirrel-servers-manager-home-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/squirrel-servers-manager-home-device-info.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/squirrel-servers-manager-home-devices.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/squirrel-servers-manager-home-new-device.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/squirrel-servers-manager-home-playbook.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/squirrel-servers-manager-home-services.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/squirrel-servers-manager-home-store.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Server Management",
+      "description": "Manage servers from a central interface",
+      "core_feature": true
+    },
+    {
+      "title": "Automation",
+      "description": "Automate server actions",
+      "core_feature": true
+    },
+    {
+      "title": "Monitoring",
+      "description": "Monitor server status",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Control access with user accounts"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage servers through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/squirrel-servers-manager/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

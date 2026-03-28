@@ -1,0 +1,93 @@
+{
+  "name": "upsnap",
+  "slug": "upsnap",
+  "tagline": "A Wake-on-LAN and device control dashboard for local networks",
+  "subtitle": "",
+  "description": "UpSnap is a self-hosted Wake-on-LAN and device control dashboard. It discovers devices, lets you wake or ping them, and provides quick access to service URLs in a tidy web UI.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "5.2.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-13",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 5222,
+    "github_contributors": 33,
+    "github_commits_this_year": 108,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/seriousm4x/UpSnap",
+    "documentation": "https://github.com/seriousm4x/UpSnap",
+    "source_code": "https://github.com/seriousm4x/UpSnap",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/upsnap.webp",
+    "issues": "https://github.com/seriousm4x/UpSnap/issues",
+    "releases": "https://github.com/seriousm4x/UpSnap/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Wake-on-LAN",
+      "description": "Wake devices over the network",
+      "core_feature": true
+    },
+    {
+      "title": "Device Management",
+      "description": "Manage registered devices",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Schedule wake-up events",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Control devices through a browser"
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access to controls"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/upsnap/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "upsnap",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=upsnap"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

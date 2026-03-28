@@ -1,0 +1,98 @@
+{
+  "name": "matomo",
+  "slug": "matomo",
+  "tagline": "A privacy-focused self-hosted web analytics platform",
+  "subtitle": "",
+  "description": "Matomo is a self-hosted web analytics platform that respects user privacy while providing detailed insights into web traffic. It supports tracking, heatmaps, A/B testing, and integrates with many CMS and eCommerce tools.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "5.8.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 21326,
+    "github_contributors": 337,
+    "github_commits_this_year": 158,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 26
+  },
+  "resources": {
+    "website": "https://matomo.org/",
+    "documentation": "https://github.com/matomo-org/matomo",
+    "source_code": "https://github.com/matomo-org/matomo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/matomo.webp",
+    "issues": "https://github.com/matomo-org/matomo/issues",
+    "releases": "https://github.com/matomo-org/matomo/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/matomo-acquistion.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/matomo-behaviour.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/matomo-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/matomo-forms-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/matomo-media-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/matomo-visitor-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Analytics",
+      "description": "Track website usage and visitor behavior",
+      "core_feature": true
+    },
+    {
+      "title": "Analytics Dashboard",
+      "description": "View traffic and engagement reports",
+      "core_feature": true
+    },
+    {
+      "title": "Event Tracking",
+      "description": "Track custom user interactions"
+    },
+    {
+      "title": "Data Ownership",
+      "description": "Store analytics data on your own servers",
+      "core_feature": true
+    },
+    {
+      "title": "Reporting",
+      "description": "Export reports in common formats"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the analytics platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/matomo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "matomo_ynh",
+      "url": "https://github.com/YunoHost-Apps/matomo_ynh"
+    }
+  },
+  "demo": {
+    "url": "demo.matomo.cloud",
+    "username": null,
+    "password": null
+  }
+}

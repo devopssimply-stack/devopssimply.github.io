@@ -1,0 +1,84 @@
+{
+  "name": "positive-intentions-chat",
+  "slug": "positive-intentions-chat",
+  "tagline": "A self-hosted real-time chat platform with channels and file sharing",
+  "subtitle": "",
+  "description": "Chat is a self-hosted messaging app with user accounts, channels, and real-time communication using WebSockets. It focuses on privacy and supports theming and file transfers through a modern UI.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-11",
+    "github_stars": 297,
+    "github_contributors": 2,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://chat.positive-intentions.com",
+    "documentation": "https://chat.positive-intentions.com",
+    "source_code": "https://github.com/positive-intentions/chat",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/positive-intentions-chat.webp",
+    "issues": "https://github.com/positive-intentions/chat/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/positive-intentions-chat-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Messaging Platform",
+      "description": "Exchange messages in real time",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and conversations",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Updates",
+      "description": "Deliver messages instantly",
+      "core_feature": true
+    },
+    {
+      "title": "Conversation Threads",
+      "description": "Organize messages into threads"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access chat through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the chat service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/positive-intentions-chat/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

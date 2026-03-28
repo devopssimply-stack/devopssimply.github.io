@@ -1,0 +1,96 @@
+{
+  "name": "audiobookshelf",
+  "slug": "audiobookshelf",
+  "tagline": "A self-hosted media server for audiobooks and podcasts",
+  "subtitle": "",
+  "description": "Audiobookshelf is a self-hosted audiobook and podcast server. It supports multi-user access, metadata syncing, offline listening, and mobile-friendly playback. It integrates with clients like Jellyfin and supports OPDS.",
+  "categories": [
+    14
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.32.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-23",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 11939,
+    "github_contributors": 331,
+    "github_commits_this_year": 33,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://audiobookshelf.org",
+    "documentation": "https://github.com/advplyr/audiobookshelf",
+    "source_code": "https://github.com/advplyr/audiobookshelf",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/audiobookshelf.webp",
+    "issues": "https://github.com/advplyr/audiobookshelf/issues",
+    "releases": "https://github.com/advplyr/audiobookshelf/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/audiobookshelf-demo-library.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Audiobook and Podcast Server",
+      "description": "Stream audiobooks and podcasts",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organize audiobook collections",
+      "core_feature": true
+    },
+    {
+      "title": "Playback Progress",
+      "description": "Track listening progress"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Support multiple listeners"
+    },
+    {
+      "title": "Web and Mobile Clients",
+      "description": "Listen across devices"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/audiobookshelf/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "audiobookshelf",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=audiobookshelf"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "audiobookshelf_ynh",
+      "url": "https://github.com/YunoHost-Apps/audiobookshelf_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "audiobookshelf",
+      "url": "https://apps.truenas.com/catalog/audiobookshelf"
+    }
+  },
+  "demo": {
+    "url": "https://audiobooks.dev",
+    "username": "demo",
+    "password": "demo"
+  }
+}

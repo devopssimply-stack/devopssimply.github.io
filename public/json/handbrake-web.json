@@ -1,0 +1,103 @@
+{
+  "name": "handbrake-web",
+  "slug": "handbrake-web",
+  "tagline": "A web interface for managing and queuing HandBrake video transcodes",
+  "subtitle": "",
+  "description": "Handbrake-Web is a web-based UI for the HandBrake video transcoder, allowing users to queue conversions, set presets, and manage encoding jobs without the desktop GUI.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.8.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-10",
+    "date_last_commit": "2026-02-09",
+    "github_stars": 713,
+    "github_contributors": 3,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/TheNickOfTime/handbrake-web",
+    "documentation": "https://github.com/TheNickOfTime/handbrake-web",
+    "source_code": "https://github.com/TheNickOfTime/handbrake-web",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/handbrake-web.webp",
+    "issues": "https://github.com/TheNickOfTime/handbrake-web/issues",
+    "releases": "https://github.com/TheNickOfTime/handbrake-web/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/handbrake-web-screenshot-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/handbrake-web-screenshot-presets.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/handbrake-web-screenshot-queue.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/handbrake-web-screenshot-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/handbrake-web-screenshot-watchers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/handbrake-web-screenshot-workers.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Transcoding Interface",
+      "description": "Provides a web interface for managing HandBrake video conversions",
+      "core_feature": true
+    },
+    {
+      "title": "Job Queue Management",
+      "description": "Queues and processes multiple video encoding jobs",
+      "core_feature": true
+    },
+    {
+      "title": "Preset Selection",
+      "description": "Applies predefined HandBrake encoding presets"
+    },
+    {
+      "title": "Progress Monitoring",
+      "description": "Displays real-time encoding progress and status"
+    },
+    {
+      "title": "Input File Handling",
+      "description": "Accepts and manages source video files"
+    },
+    {
+      "title": "Output Management",
+      "description": "Stores and organizes converted video files"
+    },
+    {
+      "title": "Browser-Based Control",
+      "description": "Controls encoding tasks from a web browser"
+    },
+    {
+      "title": "Self-Hosted Transcoding",
+      "description": "Run video processing on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/handbrake-web/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "handbrake-web",
+      "url": "https://apps.truenas.com/catalog/handbrake-web"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

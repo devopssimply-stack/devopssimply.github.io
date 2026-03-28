@@ -1,0 +1,79 @@
+{
+  "name": "nextcloud-social",
+  "slug": "nextcloud-social",
+  "tagline": "A federated social media app using ActivityPub within Nextcloud",
+  "subtitle": "",
+  "description": "Nextcloud Social is a federated social media app using ActivityPub. It enables posts, follows, and interaction with other platforms like Mastodon—all within the Nextcloud infrastructure.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2020-12-07",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 500,
+    "github_contributors": 38,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://apps.nextcloud.com/apps/social",
+    "documentation": "https://apps.nextcloud.com/apps/social",
+    "source_code": "https://github.com/nextcloud/social",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nextcloud-social.webp",
+    "issues": "https://github.com/nextcloud/social/issues",
+    "releases": "https://github.com/nextcloud/social/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-social.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Social Activity Stream",
+      "description": "View posts and updates from followed users",
+      "core_feature": true
+    },
+    {
+      "title": "Posting",
+      "description": "Share status updates and media",
+      "core_feature": true
+    },
+    {
+      "title": "Likes and Replies",
+      "description": "Interact with posts using likes and comments"
+    },
+    {
+      "title": "Follow Users",
+      "description": "Follow and unfollow other users"
+    },
+    {
+      "title": "Nextcloud Integration",
+      "description": "Use social features within Nextcloud"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nextcloud-social/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

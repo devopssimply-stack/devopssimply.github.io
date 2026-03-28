@@ -1,0 +1,84 @@
+{
+  "name": "neodb",
+  "slug": "neodb",
+  "tagline": "A self-hosted social catalog for tracking and rating media collections",
+  "subtitle": "",
+  "description": "Neodb is a social cataloging platform for movies, books, and music inspired by Douban. It enables self-hosted users to track and rate media collections with feeds, comments, and lists.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.12.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-01",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 789,
+    "github_contributors": 20,
+    "github_commits_this_year": 17,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://neodb.net",
+    "documentation": "https://github.com/neodb-social/neodb",
+    "source_code": "https://github.com/neodb-social/neodb",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/neodb.webp",
+    "issues": "https://github.com/neodb-social/neodb/issues",
+    "releases": "https://github.com/neodb-social/neodb/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/neodb-explore-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Cataloging",
+      "description": "Track and catalog books, movies, and music",
+      "core_feature": true
+    },
+    {
+      "title": "Ratings and Reviews",
+      "description": "Rate items and write reviews",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Maintain personal media collections",
+      "core_feature": true
+    },
+    {
+      "title": "Social Interaction",
+      "description": "Follow users and see shared activity"
+    },
+    {
+      "title": "Federation",
+      "description": "Exchange data with compatible servers"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse and manage collections through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/neodb/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

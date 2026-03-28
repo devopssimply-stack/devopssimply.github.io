@@ -1,0 +1,85 @@
+{
+  "name": "countly",
+  "slug": "countly",
+  "tagline": "A product analytics platform for tracking usage and user behavior",
+  "subtitle": "",
+  "description": "Countly is a product analytics solution allowing self-hosted or cloud deployments. It provides real-time metrics, funnels, crash analytics, push notifications and supports SDKs across platforms for complete user behavior insights.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "NOASSERTION",
+    "version": "25.03.37",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 5834,
+    "github_contributors": 88,
+    "github_commits_this_year": 313,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://countly.com",
+    "documentation": "https://github.com/Countly/countly-server",
+    "source_code": "https://github.com/Countly/countly-server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/countly.webp",
+    "issues": "https://github.com/Countly/countly-server/issues",
+    "releases": "https://github.com/Countly/countly-server/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Product Analytics Platform",
+      "description": "Collects application usage analytics",
+      "core_feature": true
+    },
+    {
+      "title": "Event Tracking",
+      "description": "Tracks custom user events",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Builds user behavior profiles"
+    },
+    {
+      "title": "Dashboards",
+      "description": "Visualizes analytics data"
+    },
+    {
+      "title": "Push Notifications",
+      "description": "Sends notifications to users"
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extends analytics functionality"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/countly/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

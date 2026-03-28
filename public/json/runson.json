@@ -1,0 +1,77 @@
+{
+  "name": "runson",
+  "slug": "runson",
+  "tagline": "A self-hosted platform for running GitHub Actions runners on your own infrastructure",
+  "subtitle": "",
+  "description": "Runs On is a self-hosted platform for running GitHub Actions runners on your own infrastructure, allowing full control over CI environments and secrets.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.11.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-23",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1142,
+    "github_contributors": 12,
+    "github_commits_this_year": 28,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 13,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://runs-on.com",
+    "documentation": "https://runs-on.com/docs",
+    "source_code": "https://github.com/runs-on/runs-on",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/runson.webp",
+    "issues": "https://github.com/runs-on/runs-on/issues",
+    "releases": "https://github.com/runs-on/runs-on/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/runson-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/runson-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Task Automation",
+      "description": "Automate recurring command execution",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Schedule tasks using defined intervals",
+      "core_feature": true
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Define tasks using configuration files",
+      "core_feature": true
+    },
+    {
+      "title": "Logging",
+      "description": "Record task execution results"
+    },
+    {
+      "title": "Manual Execution",
+      "description": "Run tasks on demand"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the automation service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

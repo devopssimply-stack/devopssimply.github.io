@@ -1,0 +1,84 @@
+{
+  "name": "spacepad",
+  "slug": "spacepad",
+  "tagline": "A collaborative note-taking and whiteboard app with real-time editing",
+  "subtitle": "",
+  "description": "Spacepad is a self-hosted collaborative note-taking and whiteboard app. It offers real-time editing, sharing, and a flexible canvas for brainstorming and documentation.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Sustainable Use License",
+    "version": "v1.7.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 285,
+    "github_contributors": 3,
+    "github_commits_this_year": 31,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://spacepad.io",
+    "documentation": "https://github.com/magweter/spacepad",
+    "source_code": "https://github.com/magweter/spacepad",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/spacepad.webp",
+    "issues": "https://github.com/magweter/spacepad/issues",
+    "releases": "https://github.com/magweter/spacepad/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/spacepad-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Collaborative Writing",
+      "description": "Write and edit documents collaboratively",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Editing",
+      "description": "See changes from other users live",
+      "core_feature": true
+    },
+    {
+      "title": "Document Management",
+      "description": "Create and organize documents",
+      "core_feature": true
+    },
+    {
+      "title": "Version History",
+      "description": "Track document changes"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Edit documents in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the editor on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/spacepad/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

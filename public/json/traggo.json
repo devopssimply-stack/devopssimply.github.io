@@ -1,0 +1,96 @@
+{
+  "name": "traggo",
+  "slug": "traggo",
+  "tagline": "A lightweight time tracking tool with tags and flexible time ranges",
+  "subtitle": "",
+  "description": "Traggo is a self-hosted time tracking system that lets users track work using tags and flexible time ranges. It emphasizes quick logging and visualizations in a lightweight web interface.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.8.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 1543,
+    "github_contributors": 15,
+    "github_commits_this_year": 21,
+    "github_issues_open": 58,
+    "github_issues_closed_this_year": 5,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://traggo.net",
+    "documentation": "https://github.com/traggo/server",
+    "source_code": "https://github.com/traggo/server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/traggo.webp",
+    "issues": "https://github.com/traggo/server/issues",
+    "releases": "https://github.com/traggo/server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traggo-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traggo-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traggo-list.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Time Tracking",
+      "description": "Track time spent on activities",
+      "core_feature": true
+    },
+    {
+      "title": "Project Organization",
+      "description": "Organize tracked time by project",
+      "core_feature": true
+    },
+    {
+      "title": "Reporting",
+      "description": "Generate time reports",
+      "core_feature": true
+    },
+    {
+      "title": "Calendar View",
+      "description": "View time entries in a calendar"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Track time through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/traggo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "traggo_ynh",
+      "url": "https://github.com/YunoHost-Apps/traggo_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

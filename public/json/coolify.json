@@ -1,0 +1,103 @@
+{
+  "name": "coolify",
+  "slug": "coolify",
+  "tagline": "A self-hosted platform for deploying applications and databases",
+  "subtitle": "",
+  "description": "Coolify is an open-source alternative to Heroku and Netlify designed for self-hosters. It provides an easy-to-use UI for deploying applications, databases, and static sites on your own infrastructure using Docker or Kubernetes.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v4.0.0-beta.463",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-09",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 51423,
+    "github_contributors": 412,
+    "github_commits_this_year": 266,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://coolify.io",
+    "documentation": "https://coolify.io/docs",
+    "source_code": "https://github.com/coollabsio/coolify",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/coolify.webp",
+    "issues": "https://github.com/coollabsio/coolify/issues",
+    "releases": "https://github.com/coollabsio/coolify/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/coolify-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/coolify-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/coolify-project.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/coolify-servers.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Application Hosting Platform",
+      "description": "Deploys applications to servers",
+      "core_feature": true
+    },
+    {
+      "title": "Docker-Based Deployment",
+      "description": "Runs apps as containers",
+      "core_feature": true
+    },
+    {
+      "title": "Git Integration",
+      "description": "Deploys from Git repositories",
+      "core_feature": true
+    },
+    {
+      "title": "Automatic HTTPS",
+      "description": "Issues TLS certificates"
+    },
+    {
+      "title": "Environment Variables",
+      "description": "Manages application configuration"
+    },
+    {
+      "title": "Resource Monitoring",
+      "description": "Displays application resource usage"
+    },
+    {
+      "title": "Self-Hosted PaaS",
+      "description": "Runs on user-managed infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/coolify/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "coolify",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=coolify"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "coolify",
+      "url": "https://apps.truenas.com/catalog/coolify"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

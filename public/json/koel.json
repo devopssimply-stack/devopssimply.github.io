@@ -1,0 +1,88 @@
+{
+  "name": "koel",
+  "slug": "koel",
+  "tagline": "A personal music streaming server with a clean web player",
+  "subtitle": "",
+  "description": "Koel is a web based personal music streaming server. It scans local audio files and serves them through a clean web player and mobile friendly UI, allowing users to enjoy their collection from anywhere while keeping full control of the files.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v8.3.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 17077,
+    "github_contributors": 92,
+    "github_commits_this_year": 27,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://koel.dev",
+    "documentation": "https://docs.koel.dev",
+    "source_code": "https://github.com/koel/koel",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/koel.webp",
+    "issues": "https://github.com/koel/koel/issues",
+    "releases": "https://github.com/koel/koel/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Music Streaming Server",
+      "description": "Stream music from a personal library",
+      "core_feature": true
+    },
+    {
+      "title": "Web Player",
+      "description": "Play music through a browser interface",
+      "core_feature": true
+    },
+    {
+      "title": "Library Scanning",
+      "description": "Import and index local music files",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Support multiple listeners with separate sessions"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/koel/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "koel_ynh",
+      "url": "https://github.com/YunoHost-Apps/koel_ynh"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "koel",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=koel"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

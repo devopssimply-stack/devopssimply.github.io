@@ -1,0 +1,117 @@
+{
+  "name": "immich",
+  "slug": "immich",
+  "tagline": "A self-hosted photo and video backup platform with smart organization",
+  "subtitle": "",
+  "description": "Immich is a self hosted photo and video backup solution for mobile and desktop. It offers automatic uploads, face recognition, maps, albums and multi user support, providing a private alternative to big cloud photo services.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.5.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-10",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 94133,
+    "github_contributors": 466,
+    "github_commits_this_year": 636,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://immich.app",
+    "documentation": "https://docs.immich.app",
+    "source_code": "https://github.com/immich-app/immich",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/immich.webp",
+    "issues": "https://github.com/immich-app/immich/issues",
+    "releases": "https://github.com/immich-app/immich/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-album.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-explore.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-kiosk-web-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-maps.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-photos.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-power-tools-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-public-proxy-url.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Backup",
+      "description": "Backs up photos and videos from client devices to a centralized server",
+      "core_feature": true
+    },
+    {
+      "title": "Media Library Management",
+      "description": "Organizes photos and videos into a searchable and browsable library",
+      "core_feature": true
+    },
+    {
+      "title": "Automatic Upload",
+      "description": "Synchronizes media automatically from supported clients",
+      "core_feature": true
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Allows media to be located using dates locations and metadata"
+    },
+    {
+      "title": "Albums and Sharing",
+      "description": "Groups media into albums and shares them with selected users"
+    },
+    {
+      "title": "Face and Object Recognition",
+      "description": "Identifies and groups media based on detected people and objects"
+    },
+    {
+      "title": "Web and Mobile Clients",
+      "description": "Accesses the media library through web and mobile applications"
+    },
+    {
+      "title": "Self-Hosted Media Server",
+      "description": "Runs the media platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/immich/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "immich",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=immich"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "immich_ynh",
+      "url": "https://github.com/YunoHost-Apps/immich_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "immich",
+      "url": "https://apps.truenas.com/catalog/immich"
+    }
+  },
+  "demo": {
+    "url": "https://demo.immich.app",
+    "username": "demo@immich.app",
+    "password": "demo"
+  }
+}

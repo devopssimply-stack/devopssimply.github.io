@@ -1,0 +1,111 @@
+{
+  "name": "glance",
+  "slug": "glance",
+  "tagline": "A self-hosted homepage and dashboard for displaying widgets and service status",
+  "subtitle": "",
+  "description": "Glance is a dynamic homepage and dashboard builder for self-hosted setups. It allows users to display widgets for services, schedules, weather, or links, all configured via simple YAML files.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.8.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-06-10",
+    "date_last_commit": "2025-12-10",
+    "github_stars": 32377,
+    "github_contributors": 70,
+    "github_commits_this_year": 0,
+    "github_issues_open": 213,
+    "github_issues_closed_this_year": 11,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/glanceapp/glance",
+    "documentation": "https://github.com/glanceapp/glance",
+    "source_code": "https://github.com/glanceapp/glance",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/glance.webp",
+    "issues": "https://github.com/glanceapp/glance/issues",
+    "releases": "https://github.com/glanceapp/glance/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glance-camouflage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glance-gaming-page-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glance-main-image.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glance-mobile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glance-readme-main-image.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/glance-theme.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Local File Preview",
+      "description": "Displays previews of local files",
+      "core_feature": true
+    },
+    {
+      "title": "Quick Search",
+      "description": "Searches files by name or content"
+    },
+    {
+      "title": "Image and Document Previews",
+      "description": "Shows previews for many file types"
+    },
+    {
+      "title": "System Integration",
+      "description": "Integrates with operating system UI"
+    },
+    {
+      "title": "Lightweight Tool",
+      "description": "Uses minimal system resources"
+    },
+    {
+      "title": "Keyboard Shortcuts",
+      "description": "Opens previews via hotkeys"
+    },
+    {
+      "title": "Focus Mode",
+      "description": "Highlights content without distractions"
+    },
+    {
+      "title": "Local Utility",
+      "description": "Run the tool on your own machine"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/glance/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "glance",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=glance"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "glance_ynh",
+      "url": "https://github.com/YunoHost-Apps/glance_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

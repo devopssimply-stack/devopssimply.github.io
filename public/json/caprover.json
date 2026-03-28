@@ -1,0 +1,94 @@
+{
+  "name": "caprover",
+  "slug": "caprover",
+  "tagline": "A server platform for deploying applications and databases using Docker",
+  "subtitle": "",
+  "description": "CapRover is a one-click app deployment and server management solution that works like Heroku. It runs on Docker and makes it easy to deploy web apps, databases, and static sites using a web UI and CLI.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v.14.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-11",
+    "date_last_commit": "2026-01-31",
+    "github_stars": 14886,
+    "github_contributors": 67,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://CapRover.com",
+    "documentation": "https://caprover.com/docs/get-started.html",
+    "source_code": "https://github.com/caprover/caprover",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/caprover.webp",
+    "issues": "https://github.com/caprover/caprover/issues",
+    "releases": "https://github.com/caprover/caprover/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/caprover-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/caprover-notification-setting.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/caprover-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Application Deployment Platform",
+      "description": "Provides one-click deployment of web applications",
+      "core_feature": true
+    },
+    {
+      "title": "Docker-Based Hosting",
+      "description": "Runs applications as Docker containers",
+      "core_feature": true
+    },
+    {
+      "title": "Web UI Management",
+      "description": "Controls apps through an administrative dashboard",
+      "core_feature": true
+    },
+    {
+      "title": "SSL Automation",
+      "description": "Issues TLS certificates for hosted domains"
+    },
+    {
+      "title": "Persistent Storage Support",
+      "description": "Mounts volumes for application data retention"
+    },
+    {
+      "title": "Template Marketplace",
+      "description": "Uses predefined templates for common apps"
+    },
+    {
+      "title": "User Access Control",
+      "description": "Manages teammates and admins"
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/caprover/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://captain.server.demo.caprover.com/#/login",
+    "username": null,
+    "password": "captain42"
+  }
+}

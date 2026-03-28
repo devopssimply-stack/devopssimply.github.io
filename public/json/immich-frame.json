@@ -1,0 +1,96 @@
+{
+  "name": "immich-frame",
+  "slug": "immich-frame",
+  "tagline": "A digital photo frame powered by Immich for displaying albums",
+  "subtitle": "",
+  "description": "ImmichFrame turns a device into a digital photo frame powered by Immich. It displays selected albums or recent uploads in a slideshow style UI, ideal for wall mounted tablets or always on screens showing your self hosted photo library.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.0.32.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1874,
+    "github_contributors": 31,
+    "github_commits_this_year": 120,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/immichFrame/ImmichFrame",
+    "documentation": "https://immichframe.dev/docs/overview",
+    "source_code": "https://github.com/immichFrame/ImmichFrame",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/immich-frame.webp",
+    "issues": "https://github.com/immichFrame/ImmichFrame/issues",
+    "releases": "https://github.com/immichFrame/ImmichFrame/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Digital Photo Frame",
+      "description": "Displays photos from an Immich library in a continuous slideshow format",
+      "core_feature": true
+    },
+    {
+      "title": "Slideshow Playback",
+      "description": "Automatically cycles through selected photos without user interaction",
+      "core_feature": true
+    },
+    {
+      "title": "Album Selection",
+      "description": "Limits displayed photos to chosen Immich albums"
+    },
+    {
+      "title": "Fullscreen Display",
+      "description": "Optimized for kiosk screens wall displays and tablets"
+    },
+    {
+      "title": "Immich API Usage",
+      "description": "Retrieves photo data using Immich APIs"
+    },
+    {
+      "title": "Browser-Based Viewer",
+      "description": "Runs as a web application in a browser environment"
+    },
+    {
+      "title": "Minimal Controls",
+      "description": "Focuses on passive viewing rather than active navigation"
+    },
+    {
+      "title": "Self-Hosted Photo Frame",
+      "description": "Uses photos hosted on your own Immich infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/immich-frame/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "immichframe",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=immichframe"
+    }
+  },
+  "demo": {
+    "url": "https://demo.immichframe.dev",
+    "username": null,
+    "password": null
+  }
+}

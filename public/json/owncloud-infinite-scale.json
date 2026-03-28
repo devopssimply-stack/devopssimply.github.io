@@ -1,0 +1,83 @@
+{
+  "name": "owncloud-infinite-scale",
+  "slug": "owncloud-infinite-scale",
+  "tagline": "A scalable self-hosted file sync and collaboration platform",
+  "subtitle": "",
+  "description": "OCIS (OwnCloud Infinite Scale) is a modern, scalable, self-hosted file synchronization and collaboration platform. It’s built in Go and offers advanced permissions, sharing, and cloud-native architecture.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v8.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-16",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1895,
+    "github_contributors": 105,
+    "github_commits_this_year": 307,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://owncloud.com",
+    "documentation": "https://doc.owncloud.com/ocis/next",
+    "source_code": "https://github.com/owncloud/ocis",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/owncloud-infinite-scale.webp",
+    "issues": "https://github.com/owncloud/ocis/issues",
+    "releases": "https://github.com/owncloud/ocis/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Cloud File Platform",
+      "description": "Provide core file sync and share services",
+      "core_feature": true
+    },
+    {
+      "title": "Microservices Architecture",
+      "description": "Run file services as modular components"
+    },
+    {
+      "title": "Authentication",
+      "description": "Manage user sign-in and permissions"
+    },
+    {
+      "title": "API Access",
+      "description": "Expose file services via APIs"
+    },
+    {
+      "title": "Storage Backends",
+      "description": "Support multiple storage options"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the cloud stack on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/owncloud-infinite-scale/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

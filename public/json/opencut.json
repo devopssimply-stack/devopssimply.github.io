@@ -1,0 +1,91 @@
+{
+  "name": "opencut",
+  "slug": "opencut",
+  "tagline": "A project planning and scheduling tool for makers and workshop workflows",
+  "subtitle": "",
+  "description": "OpenCut is a self-hosted project planner and scheduling tool focused on makers or fabricators. It provides cut lists, material usage, and order management for workshop environments.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 46392,
+    "github_contributors": 92,
+    "github_commits_this_year": 153,
+    "github_issues_open": 164,
+    "github_issues_closed_this_year": 5,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://opencut.app",
+    "documentation": "https://github.com/OpenCut-app/OpenCut",
+    "source_code": "https://github.com/OpenCut-app/OpenCut",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/opencut.webp",
+    "issues": "https://github.com/OpenCut-app/OpenCut/issues",
+    "releases": "https://github.com/OpenCut-app/OpenCut/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/opencut-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/opencut-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/opencut-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Editing",
+      "description": "Edit videos through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline Editing",
+      "description": "Arrange clips on a timeline"
+    },
+    {
+      "title": "Transitions and Effects",
+      "description": "Apply basic transitions and visual effects"
+    },
+    {
+      "title": "Export",
+      "description": "Export videos in common formats"
+    },
+    {
+      "title": "Media Import",
+      "description": "Upload source media for editing"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the editor on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/opencut/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "opencut_ynh",
+      "url": "https://github.com/YunoHost-Apps/opencut_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://opencut.app/projects",
+    "username": null,
+    "password": null
+  }
+}

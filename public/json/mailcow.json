@@ -1,0 +1,90 @@
+{
+  "name": "mailcow",
+  "slug": "mailcow",
+  "tagline": "A complete Docker-based mail server suite with admin UI",
+  "subtitle": "",
+  "description": "Mailcow is a complete mail server suite packaged with Docker. It includes Postfix, Dovecot, SOGo, and SpamAssassin, offering full email services with a modern admin UI for domain and mailbox management.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "2026-01",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-29",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 12298,
+    "github_contributors": 311,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://mailcow.email",
+    "documentation": "https://docs.mailcow.email",
+    "source_code": "https://github.com/mailcow/mailcow-dockerized",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mailcow.webp",
+    "issues": "https://github.com/mailcow/mailcow-dockerized/issues",
+    "releases": "https://github.com/mailcow/mailcow-dockerized/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mailcow-configuration.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mailcow-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mailcow-domain.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mailcow-grafana-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mailcow-mail-setup.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mailcow-screenshot1.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Mail Server Suite",
+      "description": "Provide email services for custom domains",
+      "core_feature": true
+    },
+    {
+      "title": "Webmail",
+      "description": "Access email through a browser interface",
+      "core_feature": true
+    },
+    {
+      "title": "User and Domain Management",
+      "description": "Manage mailboxes and domains",
+      "core_feature": true
+    },
+    {
+      "title": "Spam Filtering",
+      "description": "Filter incoming mail automatically"
+    },
+    {
+      "title": "Mail Protocol Support",
+      "description": "Support SMTP, IMAP, and POP3",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the mail server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mailcow/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.mailcow.email/admin/",
+    "username": "admin",
+    "password": "moohoo"
+  }
+}

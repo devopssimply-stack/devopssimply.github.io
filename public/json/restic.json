@@ -1,0 +1,91 @@
+{
+  "name": "restic",
+  "slug": "restic",
+  "tagline": "A fast and secure backup tool with encryption and deduplication",
+  "subtitle": "",
+  "description": "Restic is a secure, fast, self-hosted backup client. It supports encryption, deduplication, multiple backends, and CLI operations for efficient backup and restore workflows.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-2-Clause",
+    "version": "v0.18.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-21",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 32529,
+    "github_contributors": 403,
+    "github_commits_this_year": 79,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://restic.net",
+    "documentation": "https://restic.readthedocs.io/en/stable",
+    "source_code": "https://github.com/restic/restic",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/restic.webp",
+    "issues": "https://github.com/restic/restic/issues",
+    "releases": "https://github.com/restic/restic/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/restic-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Backup Tool",
+      "description": "Create encrypted backups of files and directories",
+      "core_feature": true
+    },
+    {
+      "title": "Incremental Backups",
+      "description": "Save space using deduplicated backups",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Backends",
+      "description": "Store backups on local or remote storage",
+      "core_feature": true
+    },
+    {
+      "title": "Restore",
+      "description": "Restore files from backups"
+    },
+    {
+      "title": "Command Line Interface",
+      "description": "Manage backups using CLI commands"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/restic/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "restic_ynh",
+      "url": "https://github.com/YunoHost-Apps/restic_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

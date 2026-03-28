@@ -1,0 +1,99 @@
+{
+  "name": "isponsorblocktv",
+  "slug": "isponsorblocktv",
+  "tagline": "A companion service for skipping sponsored segments in Jellyfin and TV clients",
+  "subtitle": "",
+  "description": "iSponsorBlockTV integrates the SponsorBlock database with Jellyfin or other video front ends to automatically skip sponsored segments. It runs alongside your media stack and helps provide ad free viewing of YouTube content on TV interfaces.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.6.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-19",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 5022,
+    "github_contributors": 30,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/dmunozv04/iSponsorBlockTV",
+    "documentation": "https://github.com/dmunozv04/iSponsorBlockTV/wiki/Installation",
+    "source_code": "https://github.com/dmunozv04/iSponsorBlockTV",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/isponsorblocktv.webp",
+    "issues": "https://github.com/dmunozv04/iSponsorBlockTV/issues",
+    "releases": "https://github.com/dmunozv04/iSponsorBlockTV/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Sponsor Segment Skipping",
+      "description": "Automatically skips sponsored segments during video playback",
+      "core_feature": true
+    },
+    {
+      "title": "SponsorBlock Integration",
+      "description": "Uses community-maintained SponsorBlock data",
+      "core_feature": true
+    },
+    {
+      "title": "TV Device Support",
+      "description": "Works with supported TV and media devices"
+    },
+    {
+      "title": "Automatic Operation",
+      "description": "Runs without manual interaction during playback"
+    },
+    {
+      "title": "Local Network Usage",
+      "description": "Operates within the local network environment"
+    },
+    {
+      "title": "Configuration Options",
+      "description": "Adjusts skipping behavior through settings"
+    },
+    {
+      "title": "Background Service",
+      "description": "Runs continuously while media is playing"
+    },
+    {
+      "title": "Self-Hosted Helper Service",
+      "description": "Runs on your own devices"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/isponsorblocktv/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "isponsorblocktv",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=isponsorblocktv"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

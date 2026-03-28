@@ -1,0 +1,82 @@
+{
+  "name": "spooty",
+  "slug": "spooty",
+  "tagline": "A Spotify-linked music discovery and library assistance dashboard",
+  "subtitle": "",
+  "description": "Spooty is a self-hosted request and metadata dashboard for Spotify-linked media libraries, helping manage playlists and discover tracks for local collections.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.4.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-07",
+    "date_last_commit": "2026-02-07",
+    "github_stars": 991,
+    "github_contributors": 5,
+    "github_commits_this_year": 15,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://github.com/Raiper34/spooty",
+    "documentation": "https://github.com/Raiper34/spooty",
+    "source_code": "https://github.com/Raiper34/spooty",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/spooty.webp",
+    "issues": "https://github.com/Raiper34/spooty/issues",
+    "releases": "https://github.com/Raiper34/spooty/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Music Streaming Client",
+      "description": "Stream music from Spotify",
+      "core_feature": true
+    },
+    {
+      "title": "Playback Controls",
+      "description": "Control music playback",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Browsing",
+      "description": "Browse and play playlists",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search for tracks and artists"
+    },
+    {
+      "title": "Desktop Interface",
+      "description": "Use a desktop application interface"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run the client locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/spooty/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

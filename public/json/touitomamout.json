@@ -1,0 +1,84 @@
+{
+  "name": "touitomamout",
+  "slug": "touitomamout",
+  "tagline": "A personal dashboard for reminders, notes, tasks, and quick links",
+  "subtitle": "",
+  "description": "Touitomamout is a self-hosted personal assistant and reminder dashboard, providing widgets for notes, tasks, and quick links in a friendly, customizable web UI.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.9.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-01-19",
+    "date_last_commit": "2025-01-19",
+    "github_stars": 250,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://louisgrasset.github.io/touitomamout",
+    "documentation": "https://louisgrasset.github.io/touitomamout/docs/discover",
+    "source_code": "https://github.com/louisgrasset/touitomamout",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/touitomamout.webp",
+    "issues": "https://github.com/louisgrasset/touitomamout/issues",
+    "releases": "https://github.com/louisgrasset/touitomamout/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/touitomamout-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Federated Microblogging Client",
+      "description": "Browse and post to federated timelines",
+      "core_feature": true
+    },
+    {
+      "title": "Account Management",
+      "description": "Manage multiple federated accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline Views",
+      "description": "View home and federated timelines",
+      "core_feature": true
+    },
+    {
+      "title": "Media Posting",
+      "description": "Attach media to posts"
+    },
+    {
+      "title": "Desktop Interface",
+      "description": "Use a desktop application interface"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run the client locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/touitomamout/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

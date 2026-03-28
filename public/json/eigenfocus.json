@@ -1,0 +1,95 @@
+{
+  "name": "eigenfocus",
+  "slug": "eigenfocus",
+  "tagline": "A personal productivity system for organizing projects and tasks",
+  "subtitle": "",
+  "description": "Eigenfocus is a personal productivity and task-management system that structures work into projects and focuses. It provides a web interface for planning, tracking, and reflecting on tasks while keeping data under your control.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Proprietary Internal Use License",
+    "version": "v1.5.0-free",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 913,
+    "github_contributors": 3,
+    "github_commits_this_year": 150,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://eigenfocus.com",
+    "documentation": "https://github.com/Eigenfocus/eigenfocus",
+    "source_code": "https://github.com/Eigenfocus/eigenfocus",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/eigenfocus.webp",
+    "issues": "https://github.com/Eigenfocus/eigenfocus/issues",
+    "releases": "https://github.com/Eigenfocus/eigenfocus/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eigenfocus-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eigenfocus-board.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eigenfocus-pending.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eigenfocus-report.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eigenfocus-timetracking.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Focus Timer",
+      "description": "Manages focused work sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Session Tracking",
+      "description": "Records completed focus sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Task Association",
+      "description": "Links focus sessions to tasks"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Reduces distractions during work"
+    },
+    {
+      "title": "Statistics View",
+      "description": "Displays productivity summaries"
+    },
+    {
+      "title": "Web Application",
+      "description": "Runs in the browser"
+    },
+    {
+      "title": "Local Data Storage",
+      "description": "Keeps focus data under user control"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/eigenfocus/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

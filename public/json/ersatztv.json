@@ -1,0 +1,102 @@
+{
+  "name": "ersatztv",
+  "slug": "ersatztv",
+  "tagline": "A tool for creating scheduled live TV channels from local media libraries",
+  "subtitle": "",
+  "description": "ErsatzTV lets you build pseudo-live TV channels from your local media library. It schedules content into linear streams, outputs via IPTV or other endpoints, and works alongside media servers like Jellyfin or Emby.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Zlib",
+    "version": "v26.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-02-26",
+    "github_stars": 2684,
+    "github_contributors": 19,
+    "github_commits_this_year": 84,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://ersatztv.org/",
+    "documentation": "https://ersatztv.org/docs",
+    "source_code": "https://github.com/ErsatzTV/ErsatzTV",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ersatztv.webp",
+    "issues": "https://github.com/ErsatzTV/ErsatzTV/issues",
+    "releases": "https://github.com/ErsatzTV/ErsatzTV/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ersatztv-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Virtual TV Channels",
+      "description": "Creates scheduled virtual television channels",
+      "core_feature": true
+    },
+    {
+      "title": "Media Scheduling",
+      "description": "Schedules media playback into channels",
+      "core_feature": true
+    },
+    {
+      "title": "Plex and Jellyfin Integration",
+      "description": "Integrates with existing media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Program Guide Generation",
+      "description": "Generates electronic program guides"
+    },
+    {
+      "title": "Streaming Output",
+      "description": "Streams channels over supported protocols"
+    },
+    {
+      "title": "Rule-Based Scheduling",
+      "description": "Automates channel programming"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages channels through a browser"
+    },
+    {
+      "title": "Self-Hosted Broadcasting",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ersatztv/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "ersatztv",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=ersatztv"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

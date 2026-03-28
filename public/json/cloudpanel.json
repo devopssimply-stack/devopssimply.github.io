@@ -1,0 +1,87 @@
+{
+  "name": "cloudpanel",
+  "slug": "cloudpanel",
+  "tagline": "A control panel for managing cloud servers, applications, and databases",
+  "subtitle": "",
+  "description": "CloudPanel is an open-source control panel for managing cloud servers. It supports PHP, Node.js, and databases, and includes automatic SSL, firewall, and user-friendly UI for managing production workloads.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": "v2.5.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-04",
+    "date_last_commit": "2025-12-04",
+    "github_stars": 1766,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/cloudpanel-io/cloudpanel-ce",
+    "documentation": "https://www.cloudpanel.io/docs/v2/getting-started",
+    "source_code": "https://github.com/cloudpanel-io/cloudpanel-ce",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cloudpanel.webp",
+    "issues": "https://github.com/cloudpanel-io/cloudpanel-ce/issues",
+    "releases": "https://github.com/cloudpanel-io/cloudpanel-ce/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudpanel-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Server Control Panel",
+      "description": "Manages web servers and applications",
+      "core_feature": true
+    },
+    {
+      "title": "Application Deployment",
+      "description": "Deploys PHP and Node applications",
+      "core_feature": true
+    },
+    {
+      "title": "Database Management",
+      "description": "Manages MySQL databases"
+    },
+    {
+      "title": "SSL Certificate Management",
+      "description": "Issues and renews TLS certificates"
+    },
+    {
+      "title": "User Management",
+      "description": "Controls server access"
+    },
+    {
+      "title": "Monitoring Dashboard",
+      "description": "Displays server resource usage"
+    },
+    {
+      "title": "Self-Hosted Panel",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cloudpanel/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.cloudpanel.io",
+    "username": null,
+    "password": null
+  }
+}

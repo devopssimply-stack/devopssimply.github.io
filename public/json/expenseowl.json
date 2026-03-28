@@ -1,0 +1,96 @@
+{
+  "name": "expenseowl",
+  "slug": "expenseowl",
+  "tagline": "A personal expense tracking application for recording spending and summaries",
+  "subtitle": "",
+  "description": "ExpenseOwl is a personal expense tracker that lets users record daily spending, categorize expenses, and view visual summaries. It aims to be easy to self-host and mobile-friendly so finances can be tracked privately.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-02",
+    "date_last_commit": "2025-10-18",
+    "github_stars": 1386,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Tanq16/ExpenseOwl",
+    "documentation": "https://github.com/Tanq16/ExpenseOwl",
+    "source_code": "https://github.com/Tanq16/ExpenseOwl",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/expenseowl.webp",
+    "issues": "https://github.com/Tanq16/ExpenseOwl/issues",
+    "releases": "https://github.com/Tanq16/ExpenseOwl/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/expenseowl-dark-main.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/expenseowl-light-main.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Expense Tracking",
+      "description": "Records daily expenses",
+      "core_feature": true
+    },
+    {
+      "title": "Category Management",
+      "description": "Organizes expenses into categories",
+      "core_feature": true
+    },
+    {
+      "title": "Budget Monitoring",
+      "description": "Tracks spending against budgets"
+    },
+    {
+      "title": "Charts and Summaries",
+      "description": "Visualizes expense data"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages expenses through a browser"
+    },
+    {
+      "title": "Data Export",
+      "description": "Exports financial records"
+    },
+    {
+      "title": "Simple Setup",
+      "description": "Requires minimal configuration"
+    },
+    {
+      "title": "Self-Hosted Finance",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/expenseowl/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

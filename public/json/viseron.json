@@ -1,0 +1,79 @@
+{
+  "name": "viseron",
+  "slug": "viseron",
+  "tagline": "A self-hosted surveillance system with real-time object detection",
+  "subtitle": "",
+  "description": "Viseron is a self-hosted surveillance system with real-time object detection. It ingests camera streams, performs AI detection, and exposes recorded events and snapshots via a web interface.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.4.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-16",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2520,
+    "github_contributors": 17,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://viseron.netlify.app",
+    "documentation": "https://viseron.netlify.app/docs/documentation",
+    "source_code": "https://github.com/roflcoopter/viseron",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/viseron.webp",
+    "issues": "https://github.com/roflcoopter/viseron/issues",
+    "releases": "https://github.com/roflcoopter/viseron/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/viseron-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Surveillance",
+      "description": "Monitor cameras and detect motion",
+      "core_feature": true
+    },
+    {
+      "title": "Object Detection",
+      "description": "Detect objects in video streams",
+      "core_feature": true
+    },
+    {
+      "title": "Recording Management",
+      "description": "Store and manage video recordings"
+    },
+    {
+      "title": "Web Interface",
+      "description": "View live and recorded footage"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run locally on your hardware"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/viseron/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

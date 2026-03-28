@@ -1,0 +1,90 @@
+{
+  "name": "tiddlywiki",
+  "slug": "tiddlywiki",
+  "tagline": "A self-contained wiki and personal knowledge base in a single HTML file",
+  "subtitle": "",
+  "description": "TiddlyWiki is a unique self-contained wiki and personal knowledge base that runs in the browser as a single HTML file. It supports plugins, scripting, and nonlinear note-taking, and can be self-hosted or stored locally.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD 3-Clause",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 8557,
+    "github_contributors": 281,
+    "github_commits_this_year": 129,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://tiddlywiki.com/",
+    "documentation": "https://github.com/TiddlyWiki/TiddlyWiki5",
+    "source_code": "https://github.com/TiddlyWiki/TiddlyWiki5",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tiddlywiki.webp",
+    "issues": "https://github.com/TiddlyWiki/TiddlyWiki5/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tiddlywiki-light.webp",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Personal Wiki",
+      "description": "Create and manage a personal wiki",
+      "core_feature": true
+    },
+    {
+      "title": "Single-File Storage",
+      "description": "Store the wiki in a single HTML file",
+      "core_feature": true
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extend functionality using plugins",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize content using tags"
+    },
+    {
+      "title": "Export Options",
+      "description": "Export wiki content"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the wiki on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tiddlywiki/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "tiddlywiki_ynh",
+      "url": "https://github.com/YunoHost-Apps/tiddlywiki_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

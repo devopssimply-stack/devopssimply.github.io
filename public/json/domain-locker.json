@@ -1,0 +1,108 @@
+{
+  "name": "domain-locker",
+  "slug": "domain-locker",
+  "tagline": "A self-hosted dashboard for tracking domains, DNS records, and SSL status",
+  "subtitle": "",
+  "description": "Domain Locker is a self-hosted dashboard and monitoring tool for domain names. It tracks expiry dates, DNS configuration, SSL status, and registrar details, helping operators avoid lapses and keep domain information organized.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.1.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-14",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1202,
+    "github_contributors": 8,
+    "github_commits_this_year": 46,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://domain-locker.com",
+    "documentation": "https://domain-locker.com/about",
+    "source_code": "https://github.com/Lissy93/domain-locker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/domain-locker.webp",
+    "issues": "https://github.com/Lissy93/domain-locker/issues",
+    "releases": "https://github.com/Lissy93/domain-locker/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-locker-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-locker-ip-address.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-locker-registrar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-locker-statistics.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-locker-valuation.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/domain-locker-web-monitoring.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Domain Protection Checks",
+      "description": "Audits domain security configuration",
+      "core_feature": true
+    },
+    {
+      "title": "Registrar Lock Detection",
+      "description": "Verifies domain transfer lock status",
+      "core_feature": true
+    },
+    {
+      "title": "DNS Security Checks",
+      "description": "Reviews DNS and nameserver settings"
+    },
+    {
+      "title": "Report Generation",
+      "description": "Produces security audit reports"
+    },
+    {
+      "title": "CLI Tool",
+      "description": "Runs checks from the command line"
+    },
+    {
+      "title": "Batch Domain Support",
+      "description": "Audits multiple domains"
+    },
+    {
+      "title": "Automation Friendly",
+      "description": "Integrates with scripts and CI"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Runs on user machines"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/domain-locker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "domain-locker",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=domain-locker"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "domain-locker",
+      "url": "https://apps.truenas.com/catalog/domain-locker"
+    }
+  },
+  "demo": {
+    "url": "https://demo.domain-locker.com",
+    "username": "demo@domain-locker.com",
+    "password": "domainlocker"
+  }
+}

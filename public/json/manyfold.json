@@ -1,0 +1,91 @@
+{
+  "name": "manyfold",
+  "slug": "manyfold",
+  "tagline": "A self-hosted multi-user repository for managing and previewing 3D models",
+  "subtitle": "",
+  "description": "Manyfold is a self-hosted, multi-user 3D model repository for sharing and previewing STL files. It includes 3D previews, categories, user permissions, and integrations for organizing models in teams.",
+  "categories": [
+    3
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.133.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1821,
+    "github_contributors": 35,
+    "github_commits_this_year": 931,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://manyfold.app",
+    "documentation": "https://github.com/manyfold3d/manyfold",
+    "source_code": "https://github.com/manyfold3d/manyfold",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/manyfold.webp",
+    "issues": "https://github.com/manyfold3d/manyfold/issues",
+    "releases": "https://github.com/manyfold3d/manyfold/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/manyfold-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "3D Model Library",
+      "description": "Organize and browse 3D model files",
+      "core_feature": true
+    },
+    {
+      "title": "Model Metadata",
+      "description": "Store information about models",
+      "core_feature": true
+    },
+    {
+      "title": "Preview Rendering",
+      "description": "Preview supported 3D formats",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Categorize models using tags"
+    },
+    {
+      "title": "Search",
+      "description": "Find models using search"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the model library on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/manyfold/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "manyfold",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=manyfold"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

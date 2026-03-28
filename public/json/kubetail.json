@@ -1,0 +1,89 @@
+{
+  "name": "kubetail",
+  "slug": "kubetail",
+  "tagline": "A CLI tool for tailing and aggregating logs from Kubernetes pods",
+  "subtitle": "",
+  "description": "Kubetail is a tool for tailing logs from multiple Kubernetes pods at once. It aggregates logs in a single stream, easing debugging in distributed systems, and is typically used as a CLI in terminal workflows.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "cli/v0.12.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1612,
+    "github_contributors": 57,
+    "github_commits_this_year": 91,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://www.kubetail.com",
+    "documentation": "https://www.kubetail.com/docs",
+    "source_code": "https://github.com/kubetail-org/kubetail",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kubetail.webp",
+    "issues": "https://github.com/kubetail-org/kubetail/issues",
+    "releases": "https://github.com/kubetail-org/kubetail/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kubetail-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kubetail-log-viewer-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Kubernetes Log Viewing",
+      "description": "Stream and view logs from Kubernetes pods",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Pod Log Aggregation",
+      "description": "Combine logs from multiple pods into one view",
+      "core_feature": true
+    },
+    {
+      "title": "Namespace Selection",
+      "description": "Filter logs by Kubernetes namespace",
+      "core_feature": true
+    },
+    {
+      "title": "Label-Based Filtering",
+      "description": "Select pods using label selectors"
+    },
+    {
+      "title": "Command-Line Interface",
+      "description": "Access log streaming using CLI commands"
+    },
+    {
+      "title": "Real-Time Streaming",
+      "description": "View logs as they are generated"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kubetail/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.kubetail.com",
+    "username": null,
+    "password": null
+  }
+}

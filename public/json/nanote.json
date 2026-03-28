@@ -1,0 +1,84 @@
+{
+  "name": "nanote",
+  "slug": "nanote",
+  "tagline": "A minimal self-hosted note-taking app with markdown and tags",
+  "subtitle": "",
+  "description": "Nanote is a minimal note-taking app with markdown support, tags, and search built for self-hosting. It’s designed to be lightweight, fast, and ideal for personal organization.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.11.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-28",
+    "date_last_commit": "2026-01-10",
+    "github_stars": 147,
+    "github_contributors": 2,
+    "github_commits_this_year": 5,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/omarmir/nanote",
+    "documentation": "https://github.com/omarmir/nanote",
+    "source_code": "https://github.com/omarmir/nanote",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nanote.webp",
+    "issues": "https://github.com/omarmir/nanote/issues",
+    "releases": "https://github.com/omarmir/nanote/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nanote-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Minimal Note Taking",
+      "description": "Write and store short notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Format notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize notes using tags"
+    },
+    {
+      "title": "Search",
+      "description": "Find notes by content or tags",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage notes through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the note app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nanote/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

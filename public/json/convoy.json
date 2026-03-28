@@ -1,0 +1,81 @@
+{
+  "name": "convoy",
+  "slug": "convoy",
+  "tagline": "A webhook delivery service for reliable event-driven integrations",
+  "subtitle": "",
+  "description": "Convoy is an open-source webhook service that offers reliable message delivery, retries, filtering, and transformations. Built for high-scale event-driven systems, it integrates with APIs and custom apps.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Elastic License 2.0",
+    "version": "v26.1.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-30",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2768,
+    "github_contributors": 33,
+    "github_commits_this_year": 64,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 15
+  },
+  "resources": {
+    "website": "https://getconvoy.io",
+    "documentation": "https://www.getconvoy.io/docs/home/quickstart",
+    "source_code": "https://github.com/frain-dev/convoy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/convoy.webp",
+    "issues": "https://github.com/frain-dev/convoy/issues",
+    "releases": "https://github.com/frain-dev/convoy/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Webhook Gateway",
+      "description": "Receives and delivers webhooks",
+      "core_feature": true
+    },
+    {
+      "title": "Event Routing",
+      "description": "Routes events to destinations",
+      "core_feature": true
+    },
+    {
+      "title": "Retry Handling",
+      "description": "Retries failed webhook deliveries"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Monitors webhook activity"
+    },
+    {
+      "title": "API Access",
+      "description": "Manages endpoints programmatically"
+    },
+    {
+      "title": "Self-Hosted Infrastructure",
+      "description": "Runs without external webhook services"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/convoy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

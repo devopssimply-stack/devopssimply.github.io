@@ -1,0 +1,102 @@
+{
+  "name": "jellyseerr",
+  "slug": "seerr",
+  "tagline": "A self-hosted media request manager for Jellyfin, Plex, Sonarr, and Radarr",
+  "subtitle": "",
+  "description": "Seerr is a fork of Overseerr, a self-hosted service for managing media requests in Plex, Sonarr, and Radarr setups. It offers user roles, search, and approval workflows.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-27",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 10048,
+    "github_contributors": 183,
+    "github_commits_this_year": 121,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://seerr.dev",
+    "documentation": "https://docs.seerr.dev",
+    "source_code": "https://github.com/seerr-team/seerr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/seerr.webp",
+    "issues": "https://github.com/seerr-team/seerr/issues",
+    "releases": "https://github.com/seerr-team/seerr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/seerr-screen-movie-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/seerr-screen-season-requests.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Request Management",
+      "description": "Request movies and TV shows",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "User Requests",
+      "description": "Allow users to submit requests",
+      "core_feature": true
+    },
+    {
+      "title": "Approval Workflow",
+      "description": "Review and approve requests"
+    },
+    {
+      "title": "Notifications",
+      "description": "Notify users of request status"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the request system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/seerr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "jellyseerr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyseerr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "jellyseerr_ynh",
+      "url": "https://github.com/YunoHost-Apps/jellyseerr_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "jellyseerr",
+      "url": "https://apps.truenas.com/catalog/jellyseerr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

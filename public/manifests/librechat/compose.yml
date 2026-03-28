@@ -1,0 +1,84 @@
+# ===============================
+# Docker Compose (LibreChat)
+# ===============================
+# host: http://localhost:3080
+# username:
+# password:
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: librechat-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: librechat
+      POSTGRES_USER: librechat
+      POSTGRES_PASSWORD: librechat
+    volumes:
+      - librechat_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U librechat"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mongodb:
+    image: mongo:latest
+    container_name: librechat-mongo
+    restart: unless-stopped
+    volumes:
+      - librechat_mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  meilisearch:
+    image: getmeili/meilisearch:latest
+    container_name: librechat-meilisearch
+    restart: unless-stopped
+    environment:
+      MEILI_NO_ANALYTICS: "true"
+    volumes:
+      - librechat_meili_data:/meili_data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7700/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  librechat:
+    image: ghcr.io/danny-avila/librechat:latest
+    container_name: librechat
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      meilisearch:
+        condition: service_healthy
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3080
+      POSTGRES_URI: postgres://librechat:librechat@postgres:5432/librechat
+      MONGO_URI: mongodb://mongodb:27017/librechat
+      MEILI_HOST: http://meilisearch:7700
+      OPENAI_API_KEY: sk-xxxxxxxxxxxxxxxx
+      ANTHROPIC_API_KEY: sk-ant-xxxxxxxxxxxx
+      GOOGLE_API_KEY: your-google-key
+      JWT_SECRET: replace_with_long_random_string
+      SESSION_SECRET: replace_with_long_random_string
+    ports:
+      - "3080:3080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3080/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  librechat_postgres_data:
+  librechat_mongo_data:
+  librechat_meili_data:

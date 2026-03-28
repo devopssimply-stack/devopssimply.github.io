@@ -1,0 +1,100 @@
+{
+  "name": "notifiarr",
+  "slug": "notifiarr",
+  "tagline": "A notification and alerting service for self-hosted media servers",
+  "subtitle": "",
+  "description": "Notifiarr integrates self-hosted media systems like Plex, Radarr, and Sonarr with alerts, stats, and automation. It sends user notifications and status updates across devices via a configurable UI.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.9.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 848,
+    "github_contributors": 12,
+    "github_commits_this_year": 212,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://notifiarr.wiki",
+    "documentation": "https://notifiarr.wiki",
+    "source_code": "https://github.com/Notifiarr/notifiarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/notifiarr.webp",
+    "issues": "https://github.com/Notifiarr/notifiarr/issues",
+    "releases": "https://github.com/Notifiarr/notifiarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/notifiarr-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/notifiarr-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/notifiarr-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Notification Aggregator",
+      "description": "Collect and route alerts from services",
+      "core_feature": true
+    },
+    {
+      "title": "Service Integrations",
+      "description": "Connect supported monitoring and automation tools",
+      "core_feature": true
+    },
+    {
+      "title": "Routing Rules",
+      "description": "Control how alerts are forwarded"
+    },
+    {
+      "title": "Alert Filtering",
+      "description": "Filter notifications by criteria"
+    },
+    {
+      "title": "Web UI",
+      "description": "View notification streams through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the aggregator on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/notifiarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "notifiarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=notifiarr"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "notifiarr",
+      "url": "https://apps.truenas.com/catalog/notifiarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

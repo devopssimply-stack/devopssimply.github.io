@@ -1,0 +1,99 @@
+{
+  "name": "zabbix",
+  "slug": "zabbix",
+  "tagline": "An enterprise-grade monitoring platform for servers, apps, and networks",
+  "subtitle": "",
+  "description": "Zabbix is an enterprise-grade self-hosted monitoring platform for servers, applications, and networks. It collects metrics, sends alerts, and visualizes data on dashboards, with both on-prem and cloud-hosted offerings.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-06",
+    "github_stars": 5631,
+    "github_contributors": 37,
+    "github_commits_this_year": 245,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.zabbix.com/",
+    "documentation": "https://github.com/zabbix/zabbix",
+    "source_code": "https://github.com/zabbix/zabbix",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zabbix.webp",
+    "issues": "https://github.com/zabbix/zabbix/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zabbix-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zabbix-generic-dashboard-geomap-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zabbix-generic-dashboard-geomap-3.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zabbix-kubernetes-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Infrastructure Monitoring",
+      "description": "Monitor servers, networks, and services",
+      "core_feature": true
+    },
+    {
+      "title": "Metrics Collection",
+      "description": "Collect system and application metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Alerting",
+      "description": "Notify on threshold breaches"
+    },
+    {
+      "title": "Dashboards",
+      "description": "Visualize monitoring data"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run monitoring on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/zabbix/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zabbix",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zabbix"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "zabbix_ynh",
+      "url": "https://github.com/YunoHost-Apps/zabbix_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "zabbix",
+      "url": "https://apps.truenas.com/catalog/zabbix"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

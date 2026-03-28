@@ -1,0 +1,92 @@
+{
+  "name": "docs-collaboration",
+  "slug": "docs",
+  "tagline": "A documentation portal with guides, API references, and collaborative content",
+  "subtitle": "",
+  "description": "Suite Numerique Docs is the documentation portal for the Suite Numerique project. It provides structured guides, API references, and usage examples for users deploying or integrating the suite into their own environments.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.6.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 16208,
+    "github_contributors": 59,
+    "github_commits_this_year": 172,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://docs.numerique.gouv.fr",
+    "documentation": "https://docs.numerique.gouv.fr",
+    "source_code": "https://github.com/suitenumerique/docs",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/docs.webp",
+    "issues": "https://github.com/suitenumerique/docs/issues",
+    "releases": "https://github.com/suitenumerique/docs/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/docs.png"
+    ]
+  },
+  "features": [
+    {
+      "title": "Collaborative Documentation Platform",
+      "description": "Creates and manages shared documentation",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Editing",
+      "description": "Allows multiple users to edit documents simultaneously",
+      "core_feature": true
+    },
+    {
+      "title": "Rich Text Editor",
+      "description": "Edits content using a modern editor",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Manages user roles and permissions"
+    },
+    {
+      "title": "Version History",
+      "description": "Tracks changes across document revisions"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches across documentation content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages documentation through a browser"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/docs/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

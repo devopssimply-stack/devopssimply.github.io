@@ -1,0 +1,92 @@
+{
+  "name": "dockcheck",
+  "slug": "dockcheck",
+  "tagline": "A command-line tool for checking and updating Docker containers",
+  "subtitle": "",
+  "description": "Dockcheck is a CLI tool to automate checking and updating Docker containers. It helps users be notified when new images are available, and supports automated restarts, making it ideal for self-hosted environments.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.7.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-29",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2227,
+    "github_contributors": 35,
+    "github_commits_this_year": 16,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/mag37/dockcheck",
+    "documentation": "https://github.com/mag37/dockcheck",
+    "source_code": "https://github.com/mag37/dockcheck",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dockcheck.webp",
+    "issues": "https://github.com/mag37/dockcheck/issues",
+    "releases": "https://github.com/mag37/dockcheck/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockcheck-cli-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Docker Container Update Checker",
+      "description": "Checks running containers for image updates",
+      "core_feature": true
+    },
+    {
+      "title": "Version Comparison",
+      "description": "Compares local images with registry versions",
+      "core_feature": true
+    },
+    {
+      "title": "CLI Tool",
+      "description": "Runs update checks from the command line",
+      "core_feature": true
+    },
+    {
+      "title": "Notification Output",
+      "description": "Reports available updates"
+    },
+    {
+      "title": "Multi-Container Support",
+      "description": "Checks multiple containers at once"
+    },
+    {
+      "title": "Automation Friendly",
+      "description": "Integrates with scripts and cron jobs"
+    },
+    {
+      "title": "Lightweight Utility",
+      "description": "Runs with minimal overhead"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Runs locally or on servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dockcheck/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

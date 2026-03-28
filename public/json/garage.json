@@ -1,0 +1,109 @@
+{
+  "name": "garage",
+  "slug": "garage",
+  "tagline": "A self-hosted distributed object storage system with an S3-compatible API",
+  "subtitle": "",
+  "description": "Garage is a distributed storage backend designed for self-hosted deployments. It replicates data across nodes, supports S3-compatible APIs, and is built for durability and low-overhead cloud-style storage.",
+  "categories": [
+    25
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3107,
+    "github_contributors": 78,
+    "github_commits_this_year": 129,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://garagehq.deuxfleurs.fr",
+    "documentation": "https://github.com/deuxfleurs-org/garage",
+    "source_code": "https://github.com/deuxfleurs-org/garage",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/garage.webp",
+    "issues": "https://github.com/deuxfleurs-org/garage/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/garage-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Object Storage Service",
+      "description": "Stores and retrieves unstructured data as objects",
+      "core_feature": true
+    },
+    {
+      "title": "S3-Compatible API",
+      "description": "Supports S3-compatible storage clients",
+      "core_feature": true
+    },
+    {
+      "title": "Distributed Storage",
+      "description": "Replicates data across multiple nodes",
+      "core_feature": true
+    },
+    {
+      "title": "Data Redundancy",
+      "description": "Preserves data across hardware failures"
+    },
+    {
+      "title": "Access Keys",
+      "description": "Controls access using credentials"
+    },
+    {
+      "title": "Bucket Management",
+      "description": "Organizes objects into buckets"
+    },
+    {
+      "title": "Web Administration",
+      "description": "Manages storage configuration via tools"
+    },
+    {
+      "title": "Self-Hosted Object Storage",
+      "description": "Run object storage on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/garage/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "garage",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=garage"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "garage_ynh",
+      "url": "https://github.com/YunoHost-Apps/garage_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "garage",
+      "url": "https://apps.truenas.com/catalog/garage"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

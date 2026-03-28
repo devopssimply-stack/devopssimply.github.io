@@ -1,0 +1,93 @@
+{
+  "name": "monica",
+  "slug": "monica",
+  "tagline": "An open source personal CRM for managing relationships and interactions",
+  "subtitle": "",
+  "description": "Monica is an open-source personal CRM designed to help individuals manage relationships, interactions, and important dates. It features reminders, custom properties, and self-hosted privacy control.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.1.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-05-04",
+    "date_last_commit": "2025-11-15",
+    "github_stars": 24315,
+    "github_contributors": 40,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://beta.monicahq.com",
+    "documentation": "https://github.com/monicahq/monica",
+    "source_code": "https://github.com/monicahq/monica",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/monica.webp",
+    "issues": "https://github.com/monicahq/monica/issues",
+    "releases": "https://github.com/monicahq/monica/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Personal Relationship Manager",
+      "description": "Track interactions and relationships with people",
+      "core_feature": true
+    },
+    {
+      "title": "Contact Management",
+      "description": "Store contact details and notes",
+      "core_feature": true
+    },
+    {
+      "title": "Activity Logging",
+      "description": "Record interactions and events"
+    },
+    {
+      "title": "Reminders",
+      "description": "Set reminders for follow-ups and dates"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage contacts through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the application on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/monica/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "monica",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=monica"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "monica_ynh",
+      "url": "https://github.com/YunoHost-Apps/monica_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

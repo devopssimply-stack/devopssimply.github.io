@@ -1,0 +1,79 @@
+{
+  "name": "simplelogin",
+  "slug": "simplelogin",
+  "tagline": "An email aliasing and forwarding service for privacy protection",
+  "subtitle": "",
+  "description": "SimpleLogin is an email aliasing and forwarding service that can be self-hosted or used as SaaS. It protects your real address using aliases, custom domains, and browser and mobile integrations.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.78.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 6487,
+    "github_contributors": 60,
+    "github_commits_this_year": 83,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 14
+  },
+  "resources": {
+    "website": "https://simplelogin.io",
+    "documentation": "https://simplelogin.io/docs",
+    "source_code": "https://github.com/simple-login/app",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/simplelogin.webp",
+    "issues": "https://github.com/simple-login/app/issues",
+    "releases": "https://github.com/simple-login/app/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/simplelogin-hero.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Email Alias Management",
+      "description": "Create and manage email aliases",
+      "core_feature": true
+    },
+    {
+      "title": "Forwarding Rules",
+      "description": "Forward emails to real inboxes",
+      "core_feature": true
+    },
+    {
+      "title": "Spam Control",
+      "description": "Disable or delete aliases"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage aliases through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service yourself"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/simplelogin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

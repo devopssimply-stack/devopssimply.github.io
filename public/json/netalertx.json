@@ -1,0 +1,92 @@
+{
+  "name": "netalertx",
+  "slug": "netalertx",
+  "tagline": "A self-hosted network scanning and device monitoring tool with alerts",
+  "subtitle": "",
+  "description": "NetAlertX is a network scanning and monitoring tool designed for self-hosting. It visualizes devices, alerts users when new devices connect, and integrates with Home Assistant for network awareness.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v26.2.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 5861,
+    "github_contributors": 131,
+    "github_commits_this_year": 621,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://netalertx.com",
+    "documentation": "https://docs.netalertx.com",
+    "source_code": "https://github.com/jokob-sk/NetAlertX",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/netalertx.webp",
+    "issues": "https://github.com/jokob-sk/NetAlertX/issues",
+    "releases": "https://github.com/jokob-sk/NetAlertX/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-device-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-device-tools.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-devices-split.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-maintenance.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-network.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-presence.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-report-sample.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netalertx-sync-hub.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network Device Monitoring",
+      "description": "Detect and track devices on a network",
+      "core_feature": true
+    },
+    {
+      "title": "Device Inventory",
+      "description": "Maintain a list of known network devices",
+      "core_feature": true
+    },
+    {
+      "title": "Change Detection",
+      "description": "Detect new or unknown devices",
+      "core_feature": true
+    },
+    {
+      "title": "Notifications",
+      "description": "Send alerts for network changes"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "View network status through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the monitor on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/netalertx/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

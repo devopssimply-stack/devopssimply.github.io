@@ -1,0 +1,88 @@
+{
+  "name": "liwan",
+  "slug": "liwan",
+  "tagline": "A lightweight, privacy-friendly YouTube front end for ad-free viewing",
+  "subtitle": "",
+  "description": "Liwan is a lightweight YouTube front-end. It provides ad-free playback, basic privacy filters, and a clean UI for browsing and viewing, ideal for those looking to avoid tracking in video consumption.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "liwan-v1.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-11",
+    "date_last_commit": "2026-02-05",
+    "github_stars": 162,
+    "github_contributors": 1,
+    "github_commits_this_year": 15,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://liwan.dev",
+    "documentation": "https://liwan.dev/getting-started",
+    "source_code": "https://github.com/explodingcamera/liwan",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/liwan.webp",
+    "issues": "https://github.com/explodingcamera/liwan/issues",
+    "releases": "https://github.com/explodingcamera/liwan/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/liwan-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/liwan-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Website Generator",
+      "description": "Generate a personal website from content files",
+      "core_feature": true
+    },
+    {
+      "title": "Content Pages",
+      "description": "Create static pages using templates",
+      "core_feature": true
+    },
+    {
+      "title": "Theme Support",
+      "description": "Apply visual themes to the site",
+      "core_feature": true
+    },
+    {
+      "title": "Static Output",
+      "description": "Generate static files for deployment"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Customize site behavior via config files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the generated site on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/liwan/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.liwan.dev/p/liwan.dev",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "quickdrop",
+  "slug": "quickdrop",
+  "tagline": "A simple self-hosted file sharing app for fast drag-and-drop transfers",
+  "subtitle": "",
+  "description": "QuickDrop is a self-hosted file sharing app optimized for dropping large files across devices over local network or public access. It has a straightforward UI and supports drag-and-drop transfers.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.5.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-27",
+    "date_last_commit": "2026-01-27",
+    "github_stars": 413,
+    "github_contributors": 6,
+    "github_commits_this_year": 10,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/RoastSlav/quickdrop",
+    "documentation": "https://github.com/RoastSlav/quickdrop",
+    "source_code": "https://github.com/RoastSlav/quickdrop",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/quickdrop.webp",
+    "issues": "https://github.com/RoastSlav/quickdrop/issues",
+    "releases": "https://github.com/RoastSlav/quickdrop/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/quickdrop-file-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/quickdrop-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/quickdrop-upload.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Temporary File Sharing",
+      "description": "Share files using short-lived links",
+      "core_feature": true
+    },
+    {
+      "title": "Drag-and-Drop Upload",
+      "description": "Upload files through a browser interface",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Automatically remove files after expiration"
+    },
+    {
+      "title": "Download Links",
+      "description": "Share files using generated URLs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/quickdrop/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

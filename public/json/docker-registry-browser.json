@@ -1,0 +1,93 @@
+{
+  "name": "docker-registry-browser",
+  "slug": "docker-registry-browser",
+  "tagline": "A web interface for browsing and managing Docker registry images",
+  "subtitle": "",
+  "description": "Docker Registry Browser provides a web-based UI for browsing, analyzing, and deleting Docker images from a private registry. It offers tagging, search, and simple deployment via Docker.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.9.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-31",
+    "date_last_commit": "2026-02-21",
+    "github_stars": 675,
+    "github_contributors": 19,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/klausmeyer/docker-registry-browser",
+    "documentation": "https://github.com/klausmeyer/docker-registry-browser",
+    "source_code": "https://github.com/klausmeyer/docker-registry-browser",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/docker-registry-browser.webp",
+    "issues": "https://github.com/klausmeyer/docker-registry-browser/issues",
+    "releases": "https://github.com/klausmeyer/docker-registry-browser/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docker-registry-browser-company.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docker-registry-browser-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docker-registry-browser-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Docker Registry Browser",
+      "description": "Browses container images in a Docker registry",
+      "core_feature": true
+    },
+    {
+      "title": "Repository Listing",
+      "description": "Lists repositories and tags",
+      "core_feature": true
+    },
+    {
+      "title": "Image Metadata View",
+      "description": "Displays image size and layers"
+    },
+    {
+      "title": "Search Capability",
+      "description": "Searches images by name"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Accesses registry data through a browser"
+    },
+    {
+      "title": "Authentication Support",
+      "description": "Works with secured registries"
+    },
+    {
+      "title": "Lightweight UI",
+      "description": "Focuses on simple browsing"
+    },
+    {
+      "title": "Self-Hosted Tool",
+      "description": "Runs alongside private registries"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/docker-registry-browser/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

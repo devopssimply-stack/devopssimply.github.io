@@ -1,0 +1,91 @@
+{
+  "name": "habitsync",
+  "slug": "habitsync",
+  "tagline": "A self-hosted habit tracker that synchronizes routines and progress",
+  "subtitle": "",
+  "description": "HabitSync is a self-hosted habit tracker that syncs daily routines and progress between devices. It supports streaks, charts, and reminders designed with a focus on privacy and data control.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-3-Clause",
+    "version": "v0.18.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-15",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 282,
+    "github_contributors": 3,
+    "github_commits_this_year": 93,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 25
+  },
+  "resources": {
+    "website": "https://demo.habitsync.de",
+    "documentation": "https://github.com/jofoerster/habitsync",
+    "source_code": "https://github.com/jofoerster/habitsync",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/habitsync.webp",
+    "issues": "https://github.com/jofoerster/habitsync/issues",
+    "releases": "https://github.com/jofoerster/habitsync/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habitsync-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Habit Data Synchronization",
+      "description": "Synchronizes habit and task data between different habit tracking systems",
+      "core_feature": true
+    },
+    {
+      "title": "Habitica Integration",
+      "description": "Connects directly to Habitica accounts to read and update habit data",
+      "core_feature": true
+    },
+    {
+      "title": "Bidirectional Sync",
+      "description": "Propagates changes in both directions between connected services"
+    },
+    {
+      "title": "Conflict Handling",
+      "description": "Detects conflicting updates and applies defined resolution rules"
+    },
+    {
+      "title": "Command-Line Operation",
+      "description": "Runs synchronization tasks from a command-line interface"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Defines sync behavior and credentials using configuration files"
+    },
+    {
+      "title": "Logging",
+      "description": "Records synchronization activity and errors"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run synchronization on your own machine or servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/habitsync/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.habitsync.de",
+    "username": null,
+    "password": null
+  }
+}

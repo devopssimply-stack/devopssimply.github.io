@@ -1,0 +1,74 @@
+{
+  "name": "littlelink",
+  "slug": "littlelink",
+  "tagline": "A self-hosted link-in-bio page with themes and icons",
+  "subtitle": "",
+  "description": "LittleLink is a customizable link page for hosting your own link-in-bio site similar to Linktree. It supports themes, icons, and self-hosting for complete brand control and privacy.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.10.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-28",
+    "date_last_commit": "2026-01-28",
+    "github_stars": 2870,
+    "github_contributors": 41,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://littlelink.io",
+    "documentation": "https://github.com/sethcottle/littlelink",
+    "source_code": "https://github.com/sethcottle/littlelink",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/littlelink.webp",
+    "issues": "https://github.com/sethcottle/littlelink/issues",
+    "releases": "https://github.com/sethcottle/littlelink/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Personal Link Page",
+      "description": "Display a simple page of personal links",
+      "core_feature": true
+    },
+    {
+      "title": "Static Configuration",
+      "description": "Configure links using static files",
+      "core_feature": true
+    },
+    {
+      "title": "Social Platform Icons",
+      "description": "Show icons for supported platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Minimal Design",
+      "description": "Use a clean and minimal layout"
+    },
+    {
+      "title": "Custom Styling",
+      "description": "Adjust colors and appearance"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the page on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://littlelink.io",
+    "username": null,
+    "password": null
+  }
+}

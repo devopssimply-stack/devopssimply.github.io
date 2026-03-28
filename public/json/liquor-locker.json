@@ -1,0 +1,85 @@
+{
+  "name": "liquor-locker",
+  "slug": "liquor-locker",
+  "tagline": "A self-hosted app for tracking and managing personal liquor collections",
+  "subtitle": "",
+  "description": "Liquor Locker is a simple web app to manage personal wine or liquor collections. It supports bottle tracking, tagging, and notes, with a sleek modern UI built for self-hosting and personal consumption tracking.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-3-Clause",
+    "version": "v2.1.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-01",
+    "date_last_commit": "2026-02-04",
+    "github_stars": 66,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/nguyenjessev/liquor-locker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/liquor-locker.webp",
+    "issues": "https://github.com/nguyenjessev/liquor-locker/issues",
+    "releases": "https://github.com/nguyenjessev/liquor-locker/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/liquor-locker-bottles.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/liquor-locker-magic-bartender.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Inventory Tracking",
+      "description": "Track bottles and quantities in a liquor collection",
+      "core_feature": true
+    },
+    {
+      "title": "Bottle Metadata",
+      "description": "Store details such as brand, type, and notes",
+      "core_feature": true
+    },
+    {
+      "title": "Consumption Tracking",
+      "description": "Record usage and remaining amounts",
+      "core_feature": true
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Find bottles using filters and search"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage the collection through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/liquor-locker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

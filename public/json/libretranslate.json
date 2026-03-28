@@ -1,0 +1,96 @@
+{
+  "name": "libretranslate",
+  "slug": "libretranslate",
+  "tagline": "A self-hosted machine translation API and web interface",
+  "subtitle": "",
+  "description": "LibreTranslate is a self-hosted, free machine translation API and web UI. It supports multiple languages, integrates models like Argos, and can run entirely locally, offering a privacy-friendly alternative to cloud translation APIs.",
+  "categories": [
+    13
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.9.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 13886,
+    "github_contributors": 224,
+    "github_commits_this_year": 78,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://libretranslate.com",
+    "documentation": "https://docs.libretranslate.com",
+    "source_code": "https://github.com/LibreTranslate/LibreTranslate",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/libretranslate.webp",
+    "issues": "https://github.com/LibreTranslate/LibreTranslate/issues",
+    "releases": "https://github.com/LibreTranslate/LibreTranslate/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/libretranslate-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Machine Translation API",
+      "description": "Translate text between supported languages",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Translate text using a browser-based UI",
+      "core_feature": true
+    },
+    {
+      "title": "Language Detection",
+      "description": "Automatically detect source language",
+      "core_feature": true
+    },
+    {
+      "title": "API Access",
+      "description": "Integrate translation features into applications"
+    },
+    {
+      "title": "Offline Operation",
+      "description": "Run translation services without external APIs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the translation service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/libretranslate/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "libretranslate",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=libretranslate"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "libretranslate_ynh",
+      "url": "https://github.com/YunoHost-Apps/libretranslate_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://libretranslate.com",
+    "username": null,
+    "password": null
+  }
+}

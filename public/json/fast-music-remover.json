@@ -1,0 +1,91 @@
+{
+  "name": "fast-music-remover",
+  "slug": "fast-music-remover",
+  "tagline": "A command-line tool for removing background music and isolating vocals",
+  "subtitle": "",
+  "description": "fast-music-remover is a command-line tool that detects and removes background music from audio using machine learning models. It is geared towards podcasters, editors, and creators who need quick vocal isolation.",
+  "categories": [
+    13
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-01-15",
+    "github_stars": 704,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/omeryusufyagci/fast-music-remover",
+    "documentation": "https://github.com/omeryusufyagci/fast-music-remover",
+    "source_code": "https://github.com/omeryusufyagci/fast-music-remover",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/fast-music-remover.webp",
+    "issues": "https://github.com/omeryusufyagci/fast-music-remover/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fast-music-remover-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Source Separation",
+      "description": "Removes music tracks from audio files",
+      "core_feature": true
+    },
+    {
+      "title": "Batch Processing",
+      "description": "Processes multiple audio files at once",
+      "core_feature": true
+    },
+    {
+      "title": "Audio File Support",
+      "description": "Works with common audio formats"
+    },
+    {
+      "title": "CLI Interface",
+      "description": "Runs audio processing from the command line"
+    },
+    {
+      "title": "Offline Processing",
+      "description": "Performs processing without network access"
+    },
+    {
+      "title": "Output Audio Files",
+      "description": "Produces speech-focused audio output"
+    },
+    {
+      "title": "Configurable Models",
+      "description": "Selects separation models"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run processing on your own machines"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/fast-music-remover/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

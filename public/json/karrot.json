@@ -1,0 +1,71 @@
+{
+  "name": "karrot",
+  "slug": "karrot",
+  "tagline": "A community organizing platform for food sharing and local coordination",
+  "subtitle": "",
+  "description": "Karrot is a community organizing platform focused on food sharing and mutual aid. The backend powers groups, activities, messaging and notifications, enabling local communities to coordinate pickups and events using self hosted instances.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU-AGPL 3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": "https://karrot.world",
+    "documentation": "https://docs.karrot.world/self-host/getting-started",
+    "source_code": "https://codeberg.org/karrot/karrot-backend",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/karrot.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/karrot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/karrot-screenshot-browser.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Community Platform Backend",
+      "description": "Provide backend services for community-driven food sharing",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage user registration and authentication",
+      "core_feature": true
+    },
+    {
+      "title": "Group Coordination",
+      "description": "Support groups organizing shared activities"
+    },
+    {
+      "title": "API Services",
+      "description": "Expose data and actions to frontend clients"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/karrot/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

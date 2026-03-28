@@ -1,0 +1,95 @@
+{
+  "name": "netdata",
+  "slug": "netdata",
+  "tagline": "A real-time performance monitoring platform for servers and containers",
+  "subtitle": "",
+  "description": "Netdata is a real-time performance monitoring platform for servers, containers, and applications. It provides actionable dashboards with alerts and metrics, supporting both self-hosted and SaaS deployments.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.9.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-16",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 77967,
+    "github_contributors": 405,
+    "github_commits_this_year": 383,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://www.netdata.cloud",
+    "documentation": "https://learn.netdata.cloud",
+    "source_code": "https://github.com/netdata/netdata",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/netdata.webp",
+    "issues": "https://github.com/netdata/netdata/issues",
+    "releases": "https://github.com/netdata/netdata/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netdata-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netdata-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Real-Time Monitoring",
+      "description": "Monitor system and application metrics in real time",
+      "core_feature": true
+    },
+    {
+      "title": "Metrics Dashboard",
+      "description": "Visualize metrics using interactive charts",
+      "core_feature": true
+    },
+    {
+      "title": "Alerting",
+      "description": "Receive alerts for metric anomalies",
+      "core_feature": true
+    },
+    {
+      "title": "Agent-Based Collection",
+      "description": "Collect metrics from monitored systems"
+    },
+    {
+      "title": "Long-Term Storage",
+      "description": "Store historical metrics data"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Run monitoring on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/netdata/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "netdata_ynh",
+      "url": "https://github.com/YunoHost-Apps/netdata_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://app.netdata.cloud/spaces/netdata-demo",
+    "username": null,
+    "password": null
+  }
+}

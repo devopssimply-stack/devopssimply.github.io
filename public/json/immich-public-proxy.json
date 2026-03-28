@@ -1,0 +1,84 @@
+{
+  "name": "immich-public-proxy",
+  "slug": "immich-public-proxy",
+  "tagline": "A proxy service for safely exposing public Immich shares",
+  "subtitle": "",
+  "description": "Immich Public Proxy exposes public sharing features of Immich through a small proxy service. It helps safely publish shared albums or links while keeping the main Immich instance protected behind authentication.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.15.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 1593,
+    "github_contributors": 16,
+    "github_commits_this_year": 27,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://github.com/alangrainger/immich-public-proxy",
+    "documentation": "https://github.com/alangrainger/immich-public-proxy#table-of-contents",
+    "source_code": "https://github.com/alangrainger/immich-public-proxy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/immich-public-proxy.webp",
+    "issues": "https://github.com/alangrainger/immich-public-proxy/issues",
+    "releases": "https://github.com/alangrainger/immich-public-proxy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/immich-public-proxy-url.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Public Sharing Proxy",
+      "description": "Expose selected Immich content through public URLs",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict which assets are accessible publicly",
+      "core_feature": true
+    },
+    {
+      "title": "Reverse Proxy",
+      "description": "Forward requests to an internal Immich instance",
+      "core_feature": true
+    },
+    {
+      "title": "URL Mapping",
+      "description": "Map public paths to internal Immich resources"
+    },
+    {
+      "title": "Lightweight Service",
+      "description": "Run a minimal proxy with simple configuration"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the proxy on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/immich-public-proxy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

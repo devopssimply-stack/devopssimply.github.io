@@ -1,0 +1,96 @@
+{
+  "name": "exercise-diary",
+  "slug": "exercise-diary",
+  "tagline": "A self-hosted fitness tracking app for logging workouts and progress",
+  "subtitle": "",
+  "description": "ExerciseDiary is a simple fitness tracking app for logging workouts, exercises, and progress over time. It runs as a self-hosted web app, giving users privacy over their health data while providing charts and summaries.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.1.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-10-26",
+    "date_last_commit": "2024-11-15",
+    "github_stars": 441,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/aceberg/ExerciseDiary",
+    "documentation": "https://github.com/aceberg/ExerciseDiary",
+    "source_code": "https://github.com/aceberg/ExerciseDiary",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/exercise-diary.webp",
+    "issues": "https://github.com/aceberg/ExerciseDiary/issues",
+    "releases": "https://github.com/aceberg/ExerciseDiary/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/exercise-diary-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Exercise Tracking",
+      "description": "Logs workout activities",
+      "core_feature": true
+    },
+    {
+      "title": "Exercise Database",
+      "description": "Stores exercise definitions",
+      "core_feature": true
+    },
+    {
+      "title": "Training History",
+      "description": "Tracks past workouts"
+    },
+    {
+      "title": "Progress Visualization",
+      "description": "Displays workout statistics"
+    },
+    {
+      "title": "Calendar View",
+      "description": "Shows workouts by date"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages diary through a browser"
+    },
+    {
+      "title": "Lightweight Design",
+      "description": "Uses minimal system resources"
+    },
+    {
+      "title": "Self-Hosted Fitness Log",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/exercise-diary/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

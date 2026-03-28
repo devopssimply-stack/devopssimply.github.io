@@ -1,0 +1,84 @@
+{
+  "name": "suggestarr",
+  "slug": "suggestarr",
+  "tagline": "A recommendation engine for Plex and *Arr libraries to suggest what to watch next",
+  "subtitle": "",
+  "description": "SuggestArr is a self-hosted recommendation tool for Plex/Radarr libraries that suggests content to watch next based on ratings and history.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1053,
+    "github_contributors": 10,
+    "github_commits_this_year": 296,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 12
+  },
+  "resources": {
+    "website": "https://github.com/giuseppe99barchetta/SuggestArr",
+    "documentation": "https://github.com/giuseppe99barchetta/SuggestArr",
+    "source_code": "https://github.com/giuseppe99barchetta/SuggestArr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/suggestarr.webp",
+    "issues": "https://github.com/giuseppe99barchetta/SuggestArr/issues",
+    "releases": "https://github.com/giuseppe99barchetta/SuggestArr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/suggestarr-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Recommendations",
+      "description": "Suggest movies and TV shows",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Suggestions",
+      "description": "Generate recommendations automatically",
+      "core_feature": true
+    },
+    {
+      "title": "User Preferences",
+      "description": "Customize recommendation criteria"
+    },
+    {
+      "title": "Notification Support",
+      "description": "Notify users of suggestions"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the recommendation service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/suggestarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

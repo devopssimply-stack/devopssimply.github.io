@@ -1,0 +1,111 @@
+{
+  "name": "leantime",
+  "slug": "leantime",
+  "tagline": "An open source project management platform for teams and startups",
+  "subtitle": "",
+  "description": "Leantime is an open-source project management system designed for teams and startups. It combines lean methodology with strategic planning, task management, idea boards, and reporting—all in a modern self-hosted web UI.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.7.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-22",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9364,
+    "github_contributors": 153,
+    "github_commits_this_year": 211,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://leantime.io",
+    "documentation": "https://docs.leantime.io",
+    "source_code": "https://github.com/Leantime/leantime",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/leantime.webp",
+    "issues": "https://github.com/Leantime/leantime/issues",
+    "releases": "https://github.com/Leantime/leantime/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-docs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-goals.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-kanban.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-projectdashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-table.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-timeline.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/leantime-timesheet.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Project Management",
+      "description": "Plan and track work across projects",
+      "core_feature": true
+    },
+    {
+      "title": "Task Management",
+      "description": "Create and track tasks with priorities and statuses",
+      "core_feature": true
+    },
+    {
+      "title": "Time Tracking",
+      "description": "Record time spent on tasks and projects",
+      "core_feature": true
+    },
+    {
+      "title": "Milestones",
+      "description": "Group tasks into milestones and goals"
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Support multiple users working together"
+    },
+    {
+      "title": "Roles and Permissions",
+      "description": "Control access based on user roles"
+    },
+    {
+      "title": "Reporting",
+      "description": "View summaries of project progress"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/leantime/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "leantime",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=leantime"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "leantime_ynh",
+      "url": "https://github.com/YunoHost-Apps/leantime_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

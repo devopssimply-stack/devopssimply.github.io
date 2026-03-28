@@ -1,0 +1,84 @@
+{
+  "name": "hemmelig",
+  "slug": "hemmelig",
+  "tagline": "A self-hosted service for sharing encrypted secrets with expiration",
+  "subtitle": "",
+  "description": "Hemmelig is a self hosted secret sharing application for sending encrypted notes that expire after viewing or a set time. It is useful for delivering passwords or confidential messages without leaving data on third party services.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "O'Saasy License",
+    "version": "v7.4.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 1126,
+    "github_contributors": 39,
+    "github_commits_this_year": 33,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://hemmelig.app",
+    "documentation": "https://github.com/HemmeligOrg/Hemmelig.app#quick-start",
+    "source_code": "https://github.com/HemmeligOrg/Hemmelig.app",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hemmelig.webp",
+    "issues": "https://github.com/HemmeligOrg/Hemmelig.app/issues",
+    "releases": "https://github.com/HemmeligOrg/Hemmelig.app/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hemmelig-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Secret Sharing",
+      "description": "Share sensitive text using one-time access links",
+      "core_feature": true
+    },
+    {
+      "title": "Automatic Expiration",
+      "description": "Remove secrets after being viewed or expired",
+      "core_feature": true
+    },
+    {
+      "title": "Password Protection",
+      "description": "Protect shared secrets with an optional password",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Create and access secrets through a browser"
+    },
+    {
+      "title": "Minimal Data Retention",
+      "description": "Avoid long-term storage of shared content"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the secret sharing service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hemmelig/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://hemmelig.app",
+    "username": null,
+    "password": null
+  }
+}

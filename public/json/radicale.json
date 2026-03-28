@@ -1,0 +1,95 @@
+{
+  "name": "radicale",
+  "slug": "radicale",
+  "tagline": "A lightweight CalDAV and CardDAV server for syncing calendars and contacts",
+  "subtitle": "",
+  "description": "Radicale is a self-hosted CalDAV and CardDAV server for contact and calendar syncing across devices. It’s lightweight and easy to deploy with a minimal configuration.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v3.6.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 4438,
+    "github_contributors": 127,
+    "github_commits_this_year": 282,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://radicale.org",
+    "documentation": "https://radicale.org/v3.html",
+    "source_code": "https://github.com/Kozea/Radicale",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/radicale.webp",
+    "issues": "https://github.com/Kozea/Radicale/issues",
+    "releases": "https://github.com/Kozea/Radicale/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "CalDAV and CardDAV Server",
+      "description": "Host calendars and address books",
+      "core_feature": true
+    },
+    {
+      "title": "Standards Compliance",
+      "description": "Support CalDAV and CardDAV clients",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separate calendars by user"
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access using authentication",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/radicale/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "radicale",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=radicale"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "radicale_ynh",
+      "url": "https://github.com/YunoHost-Apps/radicale_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "radicale",
+      "url": "https://apps.truenas.com/catalog/radicale"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

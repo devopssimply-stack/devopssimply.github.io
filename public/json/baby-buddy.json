@@ -1,0 +1,85 @@
+{
+  "name": "baby-buddy",
+  "slug": "baby-buddy",
+  "tagline": "A parenting tracker for logging infant care activities and milestones",
+  "subtitle": "",
+  "description": "Baby Buddy is a self-hosted parenting tracker for infants and toddlers. It allows logging feedings, sleep, diaper changes, developmental milestones, and more, with optional charts and statistics for deeper insights.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-2-Clause",
+    "version": "v2.7.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-22",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 2696,
+    "github_contributors": 91,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://docs.baby-buddy.net",
+    "documentation": "https://docs.baby-buddy.net",
+    "source_code": "https://github.com/babybuddy/babybuddy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/baby-buddy.webp",
+    "issues": "https://github.com/babybuddy/babybuddy/issues",
+    "releases": "https://github.com/babybuddy/babybuddy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/babybuddy/babybuddy/refs/heads/master/screenshot.png"
+    ]
+  },
+  "features": [
+    {
+      "title": "Baby Activity Tracking",
+      "description": "Track feeding, sleep, diaper changes, and activities",
+      "core_feature": true
+    },
+    {
+      "title": "Growth Tracking",
+      "description": "Record height, weight, and growth milestones"
+    },
+    {
+      "title": "Timeline View",
+      "description": "View daily activity history in chronological order"
+    },
+    {
+      "title": "Multi-Child Support",
+      "description": "Track data for multiple children"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage records through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/baby-buddy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "babybuddy",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=babybuddy"
+    }
+  },
+  "demo": {
+    "url": "https://demo.baby-buddy.net/login",
+    "username": "admin",
+    "password": "admin"
+  }
+}

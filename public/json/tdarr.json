@@ -1,0 +1,95 @@
+{
+  "name": "tdarr",
+  "slug": "tdarr",
+  "tagline": "A distributed platform for automating video transcoding and media optimization",
+  "subtitle": "",
+  "description": "Tdarr is a distributed, self-hosted video transcoding and library optimization platform. It uses plugins, workers, and rules to automatically transcode, scan, and clean up media libraries via a powerful web UI.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "NOASSERTION",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-11-14",
+    "github_stars": 3979,
+    "github_contributors": 10,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/HaveAGitGat/Tdarr",
+    "documentation": "https://docs.tdarr.io/docs/welcome/what",
+    "source_code": "https://github.com/HaveAGitGat/Tdarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tdarr.webp",
+    "issues": "https://github.com/HaveAGitGat/Tdarr/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tdarr-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Transcoding Automation",
+      "description": "Automate video transcoding workflows",
+      "core_feature": true
+    },
+    {
+      "title": "Library Scanning",
+      "description": "Scan media libraries for processing",
+      "core_feature": true
+    },
+    {
+      "title": "Rule-Based Processing",
+      "description": "Apply transcoding rules automatically"
+    },
+    {
+      "title": "Distributed Nodes",
+      "description": "Run processing across multiple machines"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage workflows through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tdarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "tdarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=tdarr"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "tdarr",
+      "url": "https://apps.truenas.com/catalog/tdarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

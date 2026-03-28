@@ -1,0 +1,95 @@
+{
+  "name": "libredesk",
+  "slug": "libredesk",
+  "tagline": "A self-hosted helpdesk and ticketing system for customer support",
+  "subtitle": "",
+  "description": "LibreDesk is a ticketing system that helps manage customer interactions, support issues, and service requests. Completely self-hosted, it features a clean dashboard, email integration, and user management tools.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.0.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 2340,
+    "github_contributors": 11,
+    "github_commits_this_year": 80,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://libredesk.io",
+    "documentation": "https://docs.libredesk.io/introduction",
+    "source_code": "https://github.com/abhinavxd/libredesk",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/libredesk.webp",
+    "issues": "https://github.com/abhinavxd/libredesk/issues",
+    "releases": "https://github.com/abhinavxd/libredesk/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/libredesk-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/libredesk-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/libredesk-inbox-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/libredesk-inbox-team.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Helpdesk Ticketing",
+      "description": "Manage customer support tickets",
+      "core_feature": true
+    },
+    {
+      "title": "Ticket Workflow",
+      "description": "Track ticket status and responses",
+      "core_feature": true
+    },
+    {
+      "title": "Email Integration",
+      "description": "Receive and reply to tickets via email",
+      "core_feature": true
+    },
+    {
+      "title": "Agent Management",
+      "description": "Assign tickets to support agents"
+    },
+    {
+      "title": "Knowledge Base",
+      "description": "Publish help articles for common issues"
+    },
+    {
+      "title": "Customer Portal",
+      "description": "Allow users to submit and track tickets"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage support operations through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/libredesk/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.libredesk.io",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "smokeping",
+  "slug": "smokeping",
+  "tagline": "A network latency and packet loss monitoring tool",
+  "subtitle": "",
+  "description": "SmokePing is a latency monitoring tool for network links. It runs scheduled pings and visualizes performance and packet loss in RRD graphs via a web interface.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v2.9.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-19",
+    "date_last_commit": "2026-02-19",
+    "github_stars": 1834,
+    "github_contributors": 69,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://www.smokeping.org",
+    "documentation": "https://github.com/oetiker/SmokePing/blob/master/doc/smokeping_install.pod",
+    "source_code": "https://github.com/oetiker/SmokePing",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/smokeping.webp",
+    "issues": "https://github.com/oetiker/SmokePing/issues",
+    "releases": "https://github.com/oetiker/SmokePing/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/smokeping-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network Latency Monitoring",
+      "description": "Measure network latency and packet loss",
+      "core_feature": true
+    },
+    {
+      "title": "Time-Series Graphs",
+      "description": "Visualize latency over time",
+      "core_feature": true
+    },
+    {
+      "title": "Probe Configuration",
+      "description": "Monitor multiple network targets",
+      "core_feature": true
+    },
+    {
+      "title": "Alerting",
+      "description": "Notify on latency or packet loss issues"
+    },
+    {
+      "title": "Historical Analysis",
+      "description": "Analyze long-term network performance"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the monitoring tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "smokeping",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=smokeping"
+    }
+  },
+  "demo": {
+    "url": "https://smokeping.oetiker.ch/?target=Customers",
+    "username": null,
+    "password": null
+  }
+}

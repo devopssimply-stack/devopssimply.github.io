@@ -1,0 +1,100 @@
+{
+  "name": "sftpgo",
+  "slug": "sftpgo",
+  "tagline": "A secure multi-protocol file server supporting SFTP, FTP, WebDAV, and HTTP",
+  "subtitle": "",
+  "description": "SFTPGo is a fully featured SFTP, FTP, WebDAV, and HTTP file server. It supports virtual users, storage backends, quotas, and a modern admin web UI, making it ideal for secure self-hosted file transfer.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-23",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 11744,
+    "github_contributors": 70,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://sftpgo.com",
+    "documentation": "https://docs.sftpgo.com/2.7",
+    "source_code": "https://github.com/drakkan/sftpgo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sftpgo.webp",
+    "issues": "https://github.com/drakkan/sftpgo/issues",
+    "releases": "https://github.com/drakkan/sftpgo/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sftpgo-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "SFTP Server",
+      "description": "Provide secure file transfer services",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage users and access",
+      "core_feature": true
+    },
+    {
+      "title": "Virtual Folders",
+      "description": "Map storage backends to users"
+    },
+    {
+      "title": "Audit Logs",
+      "description": "Track file access and changes"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage server through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sftpgo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "sftpgo",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=sftpgo"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "sftpgo_ynh",
+      "url": "https://github.com/YunoHost-Apps/sftpgo_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "sftpgo",
+      "url": "https://apps.truenas.com/catalog/sftpgo"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

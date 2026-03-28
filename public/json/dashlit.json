@@ -1,0 +1,92 @@
+{
+  "name": "dashlit",
+  "slug": "dashlit",
+  "tagline": "A minimalist dashboard for displaying custom metrics and widgets",
+  "subtitle": "",
+  "description": "Dashlit is a minimalist dashboard for collecting and displaying custom metrics, built for developers and homelab users. It supports widgets, Markdown, and embeds, designed for low-overhead setup and rapid data visualization.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.0.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-06-30",
+    "date_last_commit": "2025-06-30",
+    "github_stars": 331,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 10,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://dashlit.cwec.dev/",
+    "documentation": "https://dashlit.cwec.dev/guide/getting-started.html",
+    "source_code": "https://github.com/codewec/dashlit",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dashlit.webp",
+    "issues": "https://github.com/codewec/dashlit/issues",
+    "releases": "https://github.com/codewec/dashlit/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dashlit-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dashlit-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Dashboard",
+      "description": "Aggregates links and services into one interface",
+      "core_feature": true
+    },
+    {
+      "title": "Widget-Based Layout",
+      "description": "Displays services using configurable widgets",
+      "core_feature": true
+    },
+    {
+      "title": "Custom Theming",
+      "description": "Adjusts appearance using themes"
+    },
+    {
+      "title": "YAML Configuration",
+      "description": "Defines dashboard structure via config files"
+    },
+    {
+      "title": "Service Grouping",
+      "description": "Organizes links into logical sections"
+    },
+    {
+      "title": "Responsive Web UI",
+      "description": "Works across desktop and mobile screens"
+    },
+    {
+      "title": "Lightweight Frontend",
+      "description": "Runs as a static web application"
+    },
+    {
+      "title": "Self-Hosted Dashboard",
+      "description": "Operates without external dependencies"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dashlit/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.dashlit.cwec.dev",
+    "username": null,
+    "password": null
+  }
+}

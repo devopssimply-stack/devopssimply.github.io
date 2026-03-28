@@ -1,0 +1,83 @@
+{
+  "name": "jitsi-meet",
+  "slug": "jitsi-meet",
+  "tagline": "A self-hosted video conferencing platform for secure online meetings",
+  "subtitle": "",
+  "description": "Jitsi Meet is a WebRTC based video conferencing platform that can be self hosted. It supports multi party meetings, screen sharing, chat and recording, all accessible from a browser or mobile apps without requiring user accounts.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "stable/jitsi-meet_10741",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 28741,
+    "github_contributors": 362,
+    "github_commits_this_year": 161,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://jitsi.org/meet",
+    "documentation": "https://jitsi.github.io/handbook/docs",
+    "source_code": "https://github.com/jitsi/jitsi-meet",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jitsi-meet.webp",
+    "issues": "https://github.com/jitsi/jitsi-meet/issues",
+    "releases": "https://github.com/jitsi/jitsi-meet/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jitsi-meet-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Conferencing",
+      "description": "Hosts real-time video meetings",
+      "core_feature": true
+    },
+    {
+      "title": "Browser-Based Calls",
+      "description": "Joins meetings without installs",
+      "core_feature": true
+    },
+    {
+      "title": "Screen Sharing",
+      "description": "Shares screens during meetings"
+    },
+    {
+      "title": "Chat Messaging",
+      "description": "Sends text messages in-call"
+    },
+    {
+      "title": "Multi-Participant Support",
+      "description": "Handles group video sessions"
+    },
+    {
+      "title": "Self-Hosted Meetings",
+      "description": "Runs conferencing on servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/jitsi-meet/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

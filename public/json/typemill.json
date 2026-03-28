@@ -1,0 +1,79 @@
+{
+  "name": "typemill",
+  "slug": "typemill",
+  "tagline": "A flat-file CMS for documentation and small websites using Markdown",
+  "subtitle": "",
+  "description": "Typemill is a self-hosted flat-file CMS optimized for documentation and small websites. It provides a Markdown editor, navigation management, and themes through a straightforward web interface.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.21.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 578,
+    "github_contributors": 16,
+    "github_commits_this_year": 24,
+    "github_issues_open": 41,
+    "github_issues_closed_this_year": 5,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://typemill.net",
+    "documentation": "https://typemill.net/starter-guide/installation",
+    "source_code": "https://github.com/typemill/typemill",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/typemill.webp",
+    "issues": "https://github.com/typemill/typemill/issues",
+    "releases": "https://github.com/typemill/typemill/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/typemill-content.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Flat-File CMS",
+      "description": "Publish websites using Markdown files",
+      "core_feature": true
+    },
+    {
+      "title": "Visual Editor",
+      "description": "Edit content through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Page Hierarchy",
+      "description": "Organize pages in a tree structure"
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extend CMS functionality"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the CMS on your own server"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/typemill/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://try.typemill.net/tm/login",
+    "username": "demouser",
+    "password": "demopass"
+  }
+}

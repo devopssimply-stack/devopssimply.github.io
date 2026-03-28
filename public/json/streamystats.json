@@ -1,0 +1,90 @@
+{
+  "name": "streamystats",
+  "slug": "streamystats",
+  "tagline": "An analytics dashboard for visualizing Twitch streaming performance and stats",
+  "subtitle": "",
+  "description": "StreamyStats is a self-hosted analytics dashboard for Twitch streamers, aggregating stream data into charts and performance insights.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": "v2.16.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-31",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 641,
+    "github_contributors": 18,
+    "github_commits_this_year": 49,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/fredrikburmester/streamystats",
+    "documentation": "https://github.com/fredrikburmester/streamystats",
+    "source_code": "https://github.com/fredrikburmester/streamystats",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/streamystats.webp",
+    "issues": "https://github.com/fredrikburmester/streamystats/issues",
+    "releases": "https://github.com/fredrikburmester/streamystats/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/streamystats-ai-assistant.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/streamystats-client-statistics.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/streamystats-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/streamystats-history.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/streamystats-recommendation.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/streamystats-security-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/streamystats-user-location.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Streaming Analytics",
+      "description": "Analyze media server activity",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with supported streaming servers",
+      "core_feature": true
+    },
+    {
+      "title": "Viewing Statistics",
+      "description": "Track playback metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Historical Trends",
+      "description": "Analyze activity over time"
+    },
+    {
+      "title": "Dashboard",
+      "description": "View statistics in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run analytics on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/streamystats/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

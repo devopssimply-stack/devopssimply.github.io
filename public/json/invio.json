@@ -1,0 +1,93 @@
+{
+  "name": "invio",
+  "slug": "invio",
+  "tagline": "A self-hosted URL shortener and branded link management service",
+  "subtitle": "",
+  "description": "Invio is a self hosted URL shortener and branded link management service. It generates short links, tracks clicks and referrers, and provides a minimal dashboard so teams can manage campaigns without relying on third party link platforms.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Unlicense",
+    "version": "v1.15.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-20",
+    "date_last_commit": "2026-02-20",
+    "github_stars": 746,
+    "github_contributors": 9,
+    "github_commits_this_year": 61,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://invio.dev",
+    "documentation": "https://github.com/kittendevv/Invio/wiki",
+    "source_code": "https://github.com/kittendevv/Invio",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/invio.webp",
+    "issues": "https://github.com/kittendevv/Invio/issues",
+    "releases": "https://github.com/kittendevv/Invio/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invio-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invio-new-invoices.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invio-print.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invio-settings.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Transactional Email Service",
+      "description": "Sends application-generated transactional emails",
+      "core_feature": true
+    },
+    {
+      "title": "SMTP Integration",
+      "description": "Connects to SMTP servers for email delivery"
+    },
+    {
+      "title": "Email Templates",
+      "description": "Manages reusable templates for consistent emails"
+    },
+    {
+      "title": "Delivery Tracking",
+      "description": "Records sent messages and delivery status"
+    },
+    {
+      "title": "API Access",
+      "description": "Sends emails programmatically from applications"
+    },
+    {
+      "title": "Web Dashboard",
+      "description": "Manages configuration and email activity in a browser"
+    },
+    {
+      "title": "Asynchronous Delivery",
+      "description": "Processes email sending in background queues"
+    },
+    {
+      "title": "Self-Hosted Email Service",
+      "description": "Runs the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/invio/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.invio.dev/login",
+    "username": "demo",
+    "password": "demo"
+  }
+}

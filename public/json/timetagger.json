@@ -1,0 +1,79 @@
+{
+  "name": "timetagger",
+  "slug": "timetagger",
+  "tagline": "A simple time tracking app for logging and analyzing work sessions",
+  "subtitle": "",
+  "description": "TimeTagger is a self-hosted time tracking app that makes it easy to start, stop, and categorize work sessions. It offers reporting, tags, and flexible views through a responsive browser interface.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v26.1.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-02",
+    "date_last_commit": "2026-02-02",
+    "github_stars": 1682,
+    "github_contributors": 25,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://timetagger.app",
+    "documentation": "https://github.com/almarklein/timetagger",
+    "source_code": "https://github.com/almarklein/timetagger",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/timetagger.webp",
+    "issues": "https://github.com/almarklein/timetagger/issues",
+    "releases": "https://github.com/almarklein/timetagger/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/timetagger-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Time Tracking",
+      "description": "Track time spent on activities",
+      "core_feature": true
+    },
+    {
+      "title": "Tag-Based Entries",
+      "description": "Organize time entries using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Reports",
+      "description": "View summaries and charts"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Track time through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/timetagger/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://timetagger.app/app/demo",
+    "username": null,
+    "password": null
+  }
+}

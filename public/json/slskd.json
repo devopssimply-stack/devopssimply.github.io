@@ -1,0 +1,99 @@
+{
+  "name": "slskd",
+  "slug": "slskd",
+  "tagline": "A self-hosted Soulseek client with a modern web interface",
+  "subtitle": "",
+  "description": "slskd is a modern self-hosted Soulseek client daemon with a web UI. It allows searching, downloading, and managing peer-to-peer music transfers on headless servers.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.24.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 2853,
+    "github_contributors": 47,
+    "github_commits_this_year": 208,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/slskd/slskd",
+    "documentation": "https://github.com/slskd/slskd/blob/master/docs/docker.md",
+    "source_code": "https://github.com/slskd/slskd",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/slskd.webp",
+    "issues": "https://github.com/slskd/slskd/issues",
+    "releases": "https://github.com/slskd/slskd/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/slskd-download-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/slskd-result-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing Client",
+      "description": "Share and download files on Soulseek",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Control transfers through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search files across the network",
+      "core_feature": true
+    },
+    {
+      "title": "Transfer Management",
+      "description": "Manage uploads and downloads"
+    },
+    {
+      "title": "User Authentication",
+      "description": "Authenticate with Soulseek credentials"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the client on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/slskd/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "slskd",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=slskd"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "slskd",
+      "url": "https://apps.truenas.com/catalog/slskd"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,26 @@
+# ===============================
+# Docker Compose (Kavita)
+# ===============================
+# host: http://localhost:5000
+# username: (set during setup)
+# password: (set during setup)
+
+services:
+  kavita:
+    image: kareadita/kavita:latest
+    container_name: kavita
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - kavita_config:/kavita/config
+      - kavita_library:/library
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:5000 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  kavita_config:
+  kavita_library:

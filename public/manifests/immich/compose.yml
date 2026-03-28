@@ -1,0 +1,69 @@
+# ===============================
+# Docker Compose (Immich)
+# ===============================
+# host: http://localhost:2283
+# username: (created on first login)
+# password: (created on first login)
+
+services:
+
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: immich
+      POSTGRES_USER: immich
+      POSTGRES_PASSWORD: immich_secure_password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U immich -d immich"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  immich-server:
+    image: ghcr.io/immich-app/immich-server:release
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      DB_HOSTNAME: postgres
+      DB_USERNAME: immich
+      DB_PASSWORD: immich_secure_password
+      DB_DATABASE_NAME: immich
+      REDIS_HOSTNAME: redis
+      UPLOAD_LOCATION: /usr/src/app/upload
+    volumes:
+      - upload:/usr/src/app/upload
+    ports:
+      - "2283:2283"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:2283/server-info/ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  immich-machine-learning:
+    image: ghcr.io/immich-app/immich-machine-learning:release
+    restart: unless-stopped
+    volumes:
+      - model-cache:/cache
+
+volumes:
+  pgdata:
+  redisdata:
+  upload:
+  model-cache:

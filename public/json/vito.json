@@ -1,0 +1,85 @@
+{
+  "name": "vito",
+  "slug": "vito",
+  "tagline": "A deployment and release dashboard for managing environments and services",
+  "subtitle": "",
+  "description": "Vito is a self-hosted deployment and release dashboard for web services. It organizes environments, releases, and health checks into a unified web interface for teams.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "3.20.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3057,
+    "github_contributors": 0,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://vitodeploy.com",
+    "documentation": "https://vitodeploy.com/docs",
+    "source_code": "https://github.com/vitodeploy/vito",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/vito.webp",
+    "issues": "https://github.com/vitodeploy/vito/issues",
+    "releases": "https://github.com/vitodeploy/vito/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/vito-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/vito-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Application Deployment",
+      "description": "Deploy applications to servers",
+      "core_feature": true
+    },
+    {
+      "title": "Server Management",
+      "description": "Manage connected servers",
+      "core_feature": true
+    },
+    {
+      "title": "Deployment Automation",
+      "description": "Automate build and deployment steps",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Variables",
+      "description": "Configure environment settings"
+    },
+    {
+      "title": "Deployment History",
+      "description": "View past deployments"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the deployment tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/vito/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "pyshelf",
+  "slug": "pyshelf",
+  "tagline": "A lightweight self-hosted ebook and publication library manager",
+  "subtitle": "",
+  "description": "pyShelf is a lightweight self-hosted media management tool designed for organizing ebooks and publications. It allows browsing and downloading through a simple web UI.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-08-14",
+    "github_stars": 528,
+    "github_contributors": 7,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/th3r00t/pyShelf",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pyshelf.webp",
+    "issues": "https://github.com/th3r00t/pyShelf/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pyshelf-desktop-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Library",
+      "description": "Catalog and manage personal book collections",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Store details about books and authors",
+      "core_feature": true
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Find books using search and filters",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Status",
+      "description": "Track reading progress"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage the library through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the library system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pyshelf/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "dim",
+  "slug": "dim",
+  "tagline": "A personal media manager for organizing and tagging local collections",
+  "subtitle": "",
+  "description": "Dim is an open-source personal media manager designed to organize local media files and tag them with metadata. It includes a responsive web UI and indexing support, tailored for use alongside tools like Jellyfin.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.3.0-rc6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2021-10-19",
+    "date_last_commit": "2025-09-21",
+    "github_stars": 4059,
+    "github_contributors": 30,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Dusk-Labs/dim",
+    "documentation": "https://github.com/Dusk-Labs/dim",
+    "source_code": "https://github.com/Dusk-Labs/dim",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dim.webp",
+    "issues": "https://github.com/Dusk-Labs/dim/issues",
+    "releases": "https://github.com/Dusk-Labs/dim/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dim-add-library.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dim-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dim-login-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dim-media-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Server",
+      "description": "Streams personal video content",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organizes media into libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Web Player",
+      "description": "Plays media directly in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Handling",
+      "description": "Associates metadata with media files"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manages access for multiple users"
+    },
+    {
+      "title": "Streaming Controls",
+      "description": "Supports seeking and playback control"
+    },
+    {
+      "title": "Self-Hosted Streaming",
+      "description": "Runs on private infrastructure"
+    },
+    {
+      "title": "Cross-Platform Clients",
+      "description": "Accesses content from multiple devices"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dim/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

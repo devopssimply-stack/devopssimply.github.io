@@ -1,0 +1,91 @@
+{
+  "name": "ftpgrab",
+  "slug": "ftpgrab",
+  "tagline": "A command-line tool for automatically downloading files from FTP servers",
+  "subtitle": "",
+  "description": "FTPGrab is a CLI utility that monitors FTP/SFTP directories and downloads new files automatically. Designed for automation tasks and syncing workflows in combination with cron or container execution.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v7.11.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-24",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 552,
+    "github_contributors": 5,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://crazymax.dev/ftpgrab/",
+    "documentation": "https://crazymax.dev/ftpgrab/",
+    "source_code": "https://github.com/crazy-max/ftpgrab",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ftpgrab.webp",
+    "issues": "https://github.com/crazy-max/ftpgrab/issues",
+    "releases": "https://github.com/crazy-max/ftpgrab/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ftpgrab-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "FTP Download Automation",
+      "description": "Download files from FTP servers automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Downloads",
+      "description": "Run FTP download jobs on a schedule",
+      "core_feature": true
+    },
+    {
+      "title": "Resume Support",
+      "description": "Resume interrupted file downloads",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication Support",
+      "description": "Connect to FTP servers using credentials"
+    },
+    {
+      "title": "Logging",
+      "description": "Record download activity and errors"
+    },
+    {
+      "title": "Command-Line Interface",
+      "description": "Control download behavior using CLI options"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ftpgrab/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "ftpgrab_ynh",
+      "url": "https://github.com/YunoHost-Apps/ftpgrab_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

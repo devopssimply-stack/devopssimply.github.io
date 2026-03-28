@@ -1,0 +1,89 @@
+{
+  "name": "minne",
+  "slug": "minne",
+  "tagline": "A simple self-hosted budgeting tool for personal finance tracking",
+  "subtitle": "",
+  "description": "Minne is a simple self-hosted budgeting tool designed for personal finance tracking. It supports categories, transaction entry, and charts, with a fully responsive and clean user interface.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.0.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-15",
+    "date_last_commit": "2026-02-15",
+    "github_stars": 215,
+    "github_contributors": 2,
+    "github_commits_this_year": 31,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/perstarkse/minne",
+    "documentation": "https://github.com/perstarkse/minne",
+    "source_code": "https://github.com/perstarkse/minne",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/minne.webp",
+    "issues": "https://github.com/perstarkse/minne/issues",
+    "releases": "https://github.com/perstarkse/minne/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/minne-content.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/minne-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/minne-knowledge.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Notes",
+      "description": "Write and store personal notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editing",
+      "description": "Format notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize notes with tags"
+    },
+    {
+      "title": "Search",
+      "description": "Find notes by content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage notes through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/minne/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://minne.stark.pub/signin",
+    "username": "demo@domain.com",
+    "password": "Demodemo1"
+  }
+}

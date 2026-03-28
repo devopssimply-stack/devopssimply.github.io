@@ -1,0 +1,87 @@
+{
+  "name": "weddingshare",
+  "slug": "weddingshare",
+  "tagline": "A private platform for sharing wedding and event photos securely",
+  "subtitle": "",
+  "description": "WeddingShare is a self-hosted photo and media sharing platform for weddings and events. Guests can upload, view, and download pictures in a private, beautifully themed gallery.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "1.8.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-30",
+    "date_last_commit": "2026-01-31",
+    "github_stars": 821,
+    "github_contributors": 2,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://docs.wedding-share.org",
+    "documentation": "https://docs.wedding-share.org/docs/intro",
+    "source_code": "https://github.com/Cirx08/WeddingShare",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/weddingshare.webp",
+    "issues": "https://github.com/Cirx08/WeddingShare/issues",
+    "releases": "https://github.com/Cirx08/WeddingShare/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/weddingshare-admin.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/weddingshare-gallery-presentation.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/weddingshare-gallery-slideshow.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/weddingshare-gallery.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Photo Sharing",
+      "description": "Share wedding photos with guests",
+      "core_feature": true
+    },
+    {
+      "title": "Album Organization",
+      "description": "Organize photos into albums",
+      "core_feature": true
+    },
+    {
+      "title": "Guest Uploads",
+      "description": "Allow guests to upload photos",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access to invited users"
+    },
+    {
+      "title": "Web Interface",
+      "description": "View and upload photos in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/weddingshare/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

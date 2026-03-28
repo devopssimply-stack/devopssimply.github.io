@@ -1,0 +1,95 @@
+{
+  "name": "music-assistant",
+  "slug": "music-assistant",
+  "tagline": "A self-hosted music management and streaming platform integrated with Home Assistant",
+  "subtitle": "",
+  "description": "Music Assistant is a self-hosted music management and streaming platform that integrates with Home Assistant. It pulls media from services like Spotify or local libraries into structured playlists and collections.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "2.7.10",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1370,
+    "github_contributors": 137,
+    "github_commits_this_year": 544,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 94
+  },
+  "resources": {
+    "website": "https://music-assistant.io",
+    "documentation": "https://www.music-assistant.io/installation",
+    "source_code": "https://github.com/music-assistant/server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/music-assistant.webp",
+    "issues": "https://github.com/music-assistant/server/issues",
+    "releases": "https://github.com/music-assistant/server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/music-assistant-artist.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/music-assistant-home-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/music-assistant-home-player.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/music-assistant-sync-showcase.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Library Aggregation",
+      "description": "Aggregate music from multiple sources",
+      "core_feature": true
+    },
+    {
+      "title": "Playback Control",
+      "description": "Control playback on supported players",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Normalization",
+      "description": "Normalize metadata across sources"
+    },
+    {
+      "title": "Multi-Room Audio",
+      "description": "Play music across multiple rooms"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage music through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/music-assistant/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "music-assistant",
+      "url": "https://apps.truenas.com/catalog/music-assistant"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "bookwyrm",
+  "slug": "bookwyrm",
+  "tagline": "A federated social network for tracking, reviewing, and discussing books",
+  "subtitle": "",
+  "description": "BookWyrm is a federated social network for tracking and discussing books. Built on ActivityPub, it lets users follow others, share reviews, manage shelves, and join the federated book community using a self-hosted instance.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "ANTI-CAPITALIST SOFTWARE LICENSE",
+    "version": "v0.8.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-07",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 2662,
+    "github_contributors": 126,
+    "github_commits_this_year": 332,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "http://joinbookwyrm.com/",
+    "documentation": "https://docs.joinbookwyrm.com",
+    "source_code": "https://github.com/bookwyrm-social/bookwyrm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bookwyrm.webp",
+    "issues": "https://github.com/bookwyrm-social/bookwyrm/issues",
+    "releases": "https://github.com/bookwyrm-social/bookwyrm/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookwyrm-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Federated Book Catalog",
+      "description": "Manages personal book collections with federation support",
+      "core_feature": true
+    },
+    {
+      "title": "ActivityPub Integration",
+      "description": "Shares reading activity across federated social platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Status Tracking",
+      "description": "Tracks reading progress and book statuses",
+      "core_feature": true
+    },
+    {
+      "title": "Reviews and Ratings",
+      "description": "Allows users to write reviews and rate books",
+      "core_feature": true
+    },
+    {
+      "title": "Social Interactions",
+      "description": "Supports follows, comments, and discussions"
+    },
+    {
+      "title": "Privacy Controls",
+      "description": "Controls visibility of reading activity"
+    },
+    {
+      "title": "Metadata Import",
+      "description": "Retrieves book data from external catalogs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-controlled servers"
+    },
+    {
+      "title": "Federated Reading Platform",
+      "description": "Manages reading activity with federation support",
+      "core_feature": true
+    },
+    {
+      "title": "ActivityPub Federation",
+      "description": "Connects with other federated social platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Status Updates",
+      "description": "Shares reading progress and statuses",
+      "core_feature": true
+    },
+    {
+      "title": "Book Metadata Import",
+      "description": "Imports data from external book sources"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bookwyrm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "bookwyrm_ynh",
+      "url": "https://github.com/YunoHost-Apps/bookwyrm_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

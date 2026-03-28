@@ -1,0 +1,131 @@
+# ===============================
+# Docker Compose (NewsBlur)
+# ===============================
+# host: http://localhost
+# username: (create via UI)
+# password:
+
+services:
+
+  newsblur_web:
+    image: newsblur/newsblur_python3:latest
+    container_name: newsblur-web
+    restart: unless-stopped
+    depends_on:
+      db_postgres:
+        condition: service_healthy
+      db_mongo:
+        condition: service_healthy
+      db_redis:
+        condition: service_healthy
+      db_elasticsearch:
+        condition: service_started
+    ports:
+      - "8000:8000"
+    environment:
+      - DOCKERBUILD=True
+    volumes:
+      - newsblur_app:/srv/newsblur
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--spider", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  newsblur_node:
+    image: newsblur/newsblur_node:latest
+    container_name: newsblur-node
+    restart: unless-stopped
+    depends_on:
+      - db_mongo
+      - db_postgres
+      - db_redis
+    ports:
+      - "8008:8008"
+
+  task_celery:
+    image: newsblur/newsblur_python3:latest
+    container_name: newsblur-celery
+    restart: unless-stopped
+    command: celery worker -A newsblur_web -B --loglevel=INFO
+    depends_on:
+      - db_mongo
+      - db_postgres
+      - db_redis
+
+  imageproxy:
+    image: yusukeito/imageproxy:v0.11.2
+    container_name: newsblur-imageproxy
+    restart: unless-stopped
+    command: /app/imageproxy -addr 0.0.0.0:8088 -cache /tmp/imageproxy
+    ports:
+      - "8088:8088"
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: newsblur-nginx
+    restart: unless-stopped
+    depends_on:
+      - newsblur_web
+      - newsblur_node
+    ports:
+      - "80:80"
+    volumes:
+      - newsblur_nginx:/etc/nginx
+
+  db_postgres:
+    image: postgres:17-alpine
+    container_name: newsblur-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=newsblur
+      - POSTGRES_USER=newsblur
+      - POSTGRES_PASSWORD=change_postgres_password
+    volumes:
+      - newsblur_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U newsblur -d newsblur"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  db_redis:
+    image: redis:7-alpine
+    container_name: newsblur-redis
+    restart: unless-stopped
+    volumes:
+      - newsblur_redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  db_mongo:
+    image: mongo:7
+    container_name: newsblur-mongo
+    restart: unless-stopped
+    volumes:
+      - newsblur_mongo:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  db_elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.18
+    container_name: newsblur-elasticsearch
+    restart: unless-stopped
+    environment:
+      - discovery.type=single-node
+    volumes:
+      - newsblur_es:/usr/share/elasticsearch/data
+
+volumes:
+  newsblur_app:
+  newsblur_nginx:
+  newsblur_postgres:
+  newsblur_redis:
+  newsblur_mongo:
+  newsblur_es:

@@ -1,0 +1,103 @@
+{
+  "name": "traefik",
+  "slug": "traefik",
+  "tagline": "A dynamic reverse proxy and load balancer for modern infrastructure",
+  "subtitle": "",
+  "description": "Traefik is a modern reverse proxy and load balancer that dynamically discovers services and routes traffic. It supports Kubernetes, Docker, and more, with a simple configuration, web dashboard, and extensive HTTP API.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.6.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 62056,
+    "github_contributors": 416,
+    "github_commits_this_year": 145,
+    "github_issues_open": 670,
+    "github_issues_closed_this_year": 72,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://traefik.io",
+    "documentation": "https://doc.traefik.io/traefik/reference/install-configuration/providers/docker",
+    "source_code": "https://github.com/traefik/traefik",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/traefik.webp",
+    "issues": "https://github.com/traefik/traefik/issues",
+    "releases": "https://github.com/traefik/traefik/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-client.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-geography.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-logs-filter.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-logs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-system.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-log-dashboard-traffic.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traefik-webui-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reverse Proxy",
+      "description": "Route traffic to backend services",
+      "core_feature": true
+    },
+    {
+      "title": "Dynamic Configuration",
+      "description": "Update routing without restarts",
+      "core_feature": true
+    },
+    {
+      "title": "Load Balancing",
+      "description": "Distribute traffic across services"
+    },
+    {
+      "title": "TLS Management",
+      "description": "Handle HTTPS certificates"
+    },
+    {
+      "title": "Metrics",
+      "description": "Expose traffic and performance metrics"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/traefik/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "traefik",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=traefik"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "traefik",
+      "url": "https://apps.truenas.com/catalog/traefik"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

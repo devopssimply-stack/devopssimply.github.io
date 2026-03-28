@@ -1,0 +1,106 @@
+{
+  "name": "black-candy",
+  "slug": "black-candy",
+  "tagline": "A self-hosted music streaming server for personal music libraries",
+  "subtitle": "",
+  "description": "BlackCandy is a self-hosted music streaming server that works with your personal music library. It provides multi-user support, playlist management, and a friendly web UI, making it a lightweight music streaming alternative.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-06-18",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 4154,
+    "github_contributors": 7,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/blackcandy-org/blackcandy",
+    "documentation": "https://github.com/blackcandy-org/blackcandy",
+    "source_code": "https://github.com/blackcandy-org/blackcandy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/black-candy.webp",
+    "issues": "https://github.com/blackcandy-org/blackcandy/issues",
+    "releases": "https://github.com/blackcandy-org/blackcandy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/black-candy-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Streaming Server",
+      "description": "Streams music from a personal library",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organizes music by artist, album, and genre",
+      "core_feature": true
+    },
+    {
+      "title": "Web Player",
+      "description": "Plays audio directly in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Support",
+      "description": "Creates and manages custom playlists"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates listening data per user"
+    },
+    {
+      "title": "Mobile-Friendly Interface",
+      "description": "Adapts the UI for mobile devices"
+    },
+    {
+      "title": "Self-Hosted Streaming",
+      "description": "Runs without third-party music services"
+    },
+    {
+      "title": "Library Indexing",
+      "description": "Indexes music files and metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Web Audio Player",
+      "description": "Plays music directly in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Management",
+      "description": "Creates and manages custom playlists"
+    },
+    {
+      "title": "Audio Format Support",
+      "description": "Supports common audio file formats"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/black-candy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

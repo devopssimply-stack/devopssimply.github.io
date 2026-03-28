@@ -1,0 +1,96 @@
+{
+  "name": "many-notes",
+  "slug": "many-notes",
+  "tagline": "A plain-text, Markdown-based note-taking platform with folders and tags",
+  "subtitle": "",
+  "description": "Many Notes is a plain-text, Markdown-based note-taking platform with a focus on full control and simplicity. It allows organizing notes into folders with tags and supports self-hosted syncing and search.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.15.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-08",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 923,
+    "github_contributors": 3,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/brufdev/many-notes",
+    "documentation": "https://github.com/brufdev/many-notes",
+    "source_code": "https://github.com/brufdev/many-notes",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/many-notes.webp",
+    "issues": "https://github.com/brufdev/many-notes/issues",
+    "releases": "https://github.com/brufdev/many-notes/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/many-notes-theme-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Management",
+      "description": "Create and manage multiple notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editing",
+      "description": "Write notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize notes using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find notes using text search"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Edit notes in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the notes app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/many-notes/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "many-notes_ynh",
+      "url": "https://github.com/YunoHost-Apps/many-notes_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "many-notes",
+      "url": "https://apps.truenas.com/catalog/many-notes"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

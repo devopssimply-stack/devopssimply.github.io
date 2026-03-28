@@ -1,0 +1,87 @@
+{
+  "name": "osticket",
+  "slug": "osticket",
+  "tagline": "An open source support ticketing system for managing customer requests",
+  "subtitle": "",
+  "description": "osTicket is a widely used open-source support ticketing system. It helps teams track, organize, and manage customer support queries via email, web forms, and APIs with a built-in web UI.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v1.18.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-15",
+    "date_last_commit": "2026-01-28",
+    "github_stars": 3684,
+    "github_contributors": 121,
+    "github_commits_this_year": 48,
+    "github_issues_open": 864,
+    "github_issues_closed_this_year": 5,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "osticket.com",
+    "documentation": "https://docs.osticket.com/en/latest",
+    "source_code": "https://github.com/osTicket/osTicket",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/osticket.webp",
+    "issues": "https://github.com/osTicket/osTicket/issues",
+    "releases": "https://github.com/osTicket/osTicket/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/osticket-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Helpdesk Ticketing",
+      "description": "Track and manage support tickets",
+      "core_feature": true
+    },
+    {
+      "title": "Email Integration",
+      "description": "Create tickets from email",
+      "core_feature": true
+    },
+    {
+      "title": "Customer Portal",
+      "description": "Allow users to submit and track tickets",
+      "core_feature": true
+    },
+    {
+      "title": "SLA Management",
+      "description": "Define and monitor service level agreements"
+    },
+    {
+      "title": "Assignments",
+      "description": "Assign tickets to agents"
+    },
+    {
+      "title": "Reporting",
+      "description": "Generate support metrics"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the helpdesk on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "osticket_ynh",
+      "url": "https://github.com/YunoHost-Apps/osticket_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

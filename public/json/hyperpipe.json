@@ -1,0 +1,85 @@
+{
+  "name": "hyperpipe",
+  "slug": "hyperpipe",
+  "tagline": "A privacy-friendly YouTube front end without ads or tracking",
+  "subtitle": "",
+  "description": "Hyperpipe is a privacy friendly YouTube front end that can be self hosted. It proxies video and audio streams, removes tracking and ads, and presents content in a clean interface for safer watching.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://codeberg.org/Hyperpipe/Hyperpipe",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hyperpipe.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hyperpipe-playlist.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Streaming Platform",
+      "description": "Streams audio and video content",
+      "core_feature": true
+    },
+    {
+      "title": "Channel Management",
+      "description": "Organizes streams into channels"
+    },
+    {
+      "title": "Live and On-Demand Content",
+      "description": "Supports live streams and recorded media"
+    },
+    {
+      "title": "Web Player",
+      "description": "Plays media in a browser"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manages viewer access"
+    },
+    {
+      "title": "Content Scheduling",
+      "description": "Schedules stream availability"
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Stores titles and descriptions"
+    },
+    {
+      "title": "Self-Hosted Streaming",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hyperpipe/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://hyperpipe.surge.sh",
+    "username": null,
+    "password": null
+  }
+}

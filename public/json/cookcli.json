@@ -1,0 +1,90 @@
+{
+  "name": "cookcli",
+  "slug": "cookcli",
+  "tagline": "A command-line tool for managing and scaling recipes as text",
+  "subtitle": "",
+  "description": "CookCLI is a command-line tool for parsing, scaling, and organizing recipes using CookLang format. It's ideal for developers or chefs wanting to automate recipe management and cooking workflows.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.24.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1143,
+    "github_contributors": 31,
+    "github_commits_this_year": 172,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://cooklang.org",
+    "documentation": "https://cooklang.org/docs/",
+    "source_code": "https://github.com/cooklang/cookcli",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cookcli.webp",
+    "issues": "https://github.com/cooklang/cookcli/issues",
+    "releases": "https://github.com/cooklang/cookcli/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cookcli-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cookcli-ingridents.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cookcli-pantry-inventory.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cookcli-shopping-list.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Recipe Parsing",
+      "description": "Parses recipes written in Cooklang",
+      "core_feature": true
+    },
+    {
+      "title": "CLI Tool",
+      "description": "Operates from the command line",
+      "core_feature": true
+    },
+    {
+      "title": "Ingredient Extraction",
+      "description": "Extracts ingredients from recipes"
+    },
+    {
+      "title": "Shopping List Generation",
+      "description": "Generates ingredient lists"
+    },
+    {
+      "title": "Unit Handling",
+      "description": "Handles quantities and units"
+    },
+    {
+      "title": "Local Usage",
+      "description": "Runs on local machines"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cookcli/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

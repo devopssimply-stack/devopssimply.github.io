@@ -1,0 +1,102 @@
+{
+  "name": "reactive-resume",
+  "slug": "reactive-resume",
+  "tagline": "A self-hosted resume builder with templates and privacy-focused design",
+  "subtitle": "",
+  "description": "Reactive Resume is a self-hosted resume builder that allows users to design and export resumes easily using templates. It emphasizes privacy and modern UI with support for multiple languages.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v5.0.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 35588,
+    "github_contributors": 169,
+    "github_commits_this_year": 310,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://rxresu.me",
+    "documentation": "https://docs.rxresu.me/getting-started",
+    "source_code": "https://github.com/AmruthPillai/Reactive-Resume",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/reactive-resume.webp",
+    "issues": "https://github.com/AmruthPillai/Reactive-Resume/issues",
+    "releases": "https://github.com/AmruthPillai/Reactive-Resume/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reactive-resume-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/reactive-resume-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Resume Builder",
+      "description": "Create resumes using structured data",
+      "core_feature": true
+    },
+    {
+      "title": "Template Selection",
+      "description": "Choose from resume templates",
+      "core_feature": true
+    },
+    {
+      "title": "Live Preview",
+      "description": "See resume updates instantly"
+    },
+    {
+      "title": "PDF Export",
+      "description": "Export resumes as PDF files",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Build resumes in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the builder on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/reactive-resume/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "reactive-resume",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=reactive-resume"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "reactive-resume_ynh",
+      "url": "https://github.com/YunoHost-Apps/reactive-resume_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "reactive-resume",
+      "url": "https://apps.truenas.com/catalog/reactive-resume"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

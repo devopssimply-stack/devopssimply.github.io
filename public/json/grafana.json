@@ -1,0 +1,110 @@
+{
+  "name": "grafana",
+  "slug": "grafana",
+  "tagline": "A platform for visualizing metrics monitoring data and alerts",
+  "subtitle": "",
+  "description": "Grafana is a powerful data visualization and dashboarding platform that integrates with various data sources. It allows teams to build and share dashboards, alerts, and monitoring views. Available for self-hosting or managed cloud.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v12.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 72517,
+    "github_contributors": 369,
+    "github_commits_this_year": 2003,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 19
+  },
+  "resources": {
+    "website": "https://grafana.com",
+    "documentation": "https://github.com/grafana/grafana",
+    "source_code": "https://github.com/grafana/grafana",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/grafana.webp",
+    "issues": "https://github.com/grafana/grafana/issues",
+    "releases": "https://github.com/grafana/grafana/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grafana-workflow-1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grafana-workflow-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grafana-workflow-3.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Dashboarding and Visualization",
+      "description": "Creates visual dashboards for metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Data Source Integrations",
+      "description": "Connects to many databases and time-series sources",
+      "core_feature": true
+    },
+    {
+      "title": "Panel Types",
+      "description": "Includes graphs gauges and tables"
+    },
+    {
+      "title": "Alerting",
+      "description": "Sends alerts based on threshold conditions"
+    },
+    {
+      "title": "User Access Control",
+      "description": "Manages roles and permissions"
+    },
+    {
+      "title": "Panel Customization",
+      "description": "Configures appearance and queries"
+    },
+    {
+      "title": "Annotation Support",
+      "description": "Marks events on charts"
+    },
+    {
+      "title": "Self-Hosted Monitoring UI",
+      "description": "Host dashboards on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/grafana/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "grafana",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "grafana_ynh",
+      "url": "https://github.com/YunoHost-Apps/grafana_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "grafana",
+      "url": "https://apps.truenas.com/catalog/grafana"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

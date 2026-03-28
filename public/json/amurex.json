@@ -1,0 +1,83 @@
+{
+  "name": "amurex",
+  "slug": "amurex",
+  "tagline": "A backend system for building memory-based AI assistants",
+  "subtitle": "",
+  "description": "Amurex is the backend system behind memory-based AI assistants. It provides neural memory and intelligent recall features using a flexible API and vector database, aimed at building personalized knowledge-driven AI apps.",
+  "categories": [
+    13
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-04-06",
+    "github_stars": 146,
+    "github_contributors": 7,
+    "github_commits_this_year": 0,
+    "github_issues_open": 21,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://api.amurex.ai",
+    "documentation": "https://api.amurex.ai",
+    "source_code": "https://github.com/thepersonalaicompany/amurex-backend",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/amurex.webp",
+    "issues": "https://github.com/thepersonalaicompany/amurex-backend/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/amurex-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/amurex-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "AI Agent Backend",
+      "description": "Provide backend services for AI agents",
+      "core_feature": true
+    },
+    {
+      "title": "Task Execution",
+      "description": "Run and coordinate agent tasks",
+      "core_feature": true
+    },
+    {
+      "title": "API Access",
+      "description": "Interact with agents programmatically"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the backend on your own infrastructure"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "linux",
+    "web"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/amurex/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

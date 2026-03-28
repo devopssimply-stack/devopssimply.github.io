@@ -1,0 +1,96 @@
+{
+  "name": "ghostfolio",
+  "slug": "ghostfolio",
+  "tagline": "A self-hosted investment and portfolio tracker with analytics dashboards",
+  "subtitle": "",
+  "description": "Ghostfolio is a self-hosted investment and portfolio tracker with detailed analytics, portfolio breakdowns, and financial dashboards. It supports multiple brokers and integrates live data with a privacy-first approach.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2.247.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 7873,
+    "github_contributors": 264,
+    "github_commits_this_year": 202,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 67,
+    "github_releases_this_year": 25
+  },
+  "resources": {
+    "website": "https://Ghostfol.io",
+    "documentation": "https://github.com/ghostfolio/ghostfolio",
+    "source_code": "https://github.com/ghostfolio/ghostfolio",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ghostfolio.webp",
+    "issues": "https://github.com/ghostfolio/ghostfolio/issues",
+    "releases": "https://github.com/ghostfolio/ghostfolio/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Personal Finance Tracker",
+      "description": "Tracks assets liabilities and net worth",
+      "core_feature": true
+    },
+    {
+      "title": "Account Integration",
+      "description": "Connects to financial institutions for balances",
+      "core_feature": true
+    },
+    {
+      "title": "Portfolio Overview",
+      "description": "Summarizes investment and cash positions"
+    },
+    {
+      "title": "Historical Charts",
+      "description": "Shows value trends over time"
+    },
+    {
+      "title": "Transaction Management",
+      "description": "Records deposits withdrawals and transfers"
+    },
+    {
+      "title": "Reporting",
+      "description": "Produces structured financial reports"
+    },
+    {
+      "title": "User Preferences",
+      "description": "Stores personalized settings"
+    },
+    {
+      "title": "Self-Hosted Finance App",
+      "description": "Host the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ghostfolio/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "ghostfolio",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=ghostfolio"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

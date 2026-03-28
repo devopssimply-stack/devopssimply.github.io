@@ -1,0 +1,87 @@
+{
+  "name": "logforge",
+  "slug": "logforge",
+  "tagline": "A lightweight self-hosted log management service with real-time querying",
+  "subtitle": "",
+  "description": "LogForge is a lightweight and fast self-hosted log management service that provides real-time monitoring and querying of application logs through a modern web UI. It integrates easily with Docker and cloud-native environments.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Source-Available License (Non-Comercial)",
+    "version": "v2.0.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-05",
+    "date_last_commit": "2025-11-05",
+    "github_stars": 286,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 4,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.logforge.dev/",
+    "documentation": "https://github.com/log-forge/logforge",
+    "source_code": "https://github.com/log-forge/logforge",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/logforge.webp",
+    "issues": "https://github.com/log-forge/logforge/issues",
+    "releases": "https://github.com/log-forge/logforge/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logforge-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logforge-main-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logforge-main-engine.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logforge-notifier.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Log Management",
+      "description": "Centralize logs from various services",
+      "core_feature": true
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Find log entries using search and filters",
+      "core_feature": true
+    },
+    {
+      "title": "Alerting",
+      "description": "Trigger alerts based on log patterns",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard Views",
+      "description": "Visualize logs in dashboards"
+    },
+    {
+      "title": "Multi-Tenant Support",
+      "description": "Separate log data for multiple users"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Deploy the log platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/logforge/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

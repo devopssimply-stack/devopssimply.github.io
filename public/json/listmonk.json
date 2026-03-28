@@ -1,0 +1,110 @@
+{
+  "name": "listmonk",
+  "slug": "listmonk",
+  "tagline": "A high-performance self-hosted mailing list and newsletter manager",
+  "subtitle": "",
+  "description": "Listmonk is a high-performance self-hosted mailing list and newsletter manager with a slick UI. It supports subscriber segmentation, templating, API integration, and sending bulk email through SMTP providers.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v6.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 19200,
+    "github_contributors": 223,
+    "github_commits_this_year": 60,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://listmonk.app",
+    "documentation": "https://listmonk.app/docs",
+    "source_code": "https://github.com/knadh/listmonk",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/listmonk.webp",
+    "issues": "https://github.com/knadh/listmonk/issues",
+    "releases": "https://github.com/knadh/listmonk/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/listmonk-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/listmonk-analytics.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/listmonk-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/listmonk-lists.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/listmonk-performance.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/listmonk-templating.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Mailing List Management",
+      "description": "Manage subscribers and mailing lists",
+      "core_feature": true
+    },
+    {
+      "title": "Campaign Sending",
+      "description": "Send newsletters and announcements via email",
+      "core_feature": true
+    },
+    {
+      "title": "Subscriber Segmentation",
+      "description": "Group subscribers using attributes and filters",
+      "core_feature": true
+    },
+    {
+      "title": "Template Management",
+      "description": "Create and reuse email templates"
+    },
+    {
+      "title": "Analytics",
+      "description": "Track opens and delivery statistics"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the mailing list manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/listmonk/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "listmonk",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=listmonk"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "listmonk_ynh",
+      "url": "https://github.com/YunoHost-Apps/listmonk_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "listmonk",
+      "url": "https://apps.truenas.com/catalog/listmonk"
+    }
+  },
+  "demo": {
+    "url": "https://demo.listmonk.app",
+    "username": null,
+    "password": null
+  }
+}

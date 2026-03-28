@@ -1,0 +1,98 @@
+{
+  "name": "openemr",
+  "slug": "openemr",
+  "tagline": "An open source electronic medical records and practice management system",
+  "subtitle": "",
+  "description": "OpenEMR is a fully-featured electronic medical records and practice management system. It includes patient records, prescriptions, billing, and scheduling, suitable for small medical clinics.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4996,
+    "github_contributors": 254,
+    "github_commits_this_year": 583,
+    "github_issues_open": 540,
+    "github_issues_closed_this_year": 321,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://open-emr.org/",
+    "documentation": "https://www.open-emr.org/wiki/index.php/OpenEMR_Wiki_Home_Page",
+    "source_code": "https://github.com/openemr/openemr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openemr.webp",
+    "issues": "https://github.com/openemr/openemr/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openemr-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openemr-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openemr-admin-dashboard-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openemr-flow-board.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openemr-patient-finder-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Electronic Medical Records",
+      "description": "Manage patient records and clinical data",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Schedule patient appointments",
+      "core_feature": true
+    },
+    {
+      "title": "Billing and Claims",
+      "description": "Handle billing and insurance claims"
+    },
+    {
+      "title": "Clinical Notes",
+      "description": "Record and organize clinical observations"
+    },
+    {
+      "title": "Patient Portal",
+      "description": "Allow patients to view records and appointments"
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access based on roles"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the medical system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/openemr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "openemr_ynh",
+      "url": "https://github.com/YunoHost-Apps/openemr_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://www.open-emr.org/demo",
+    "username": null,
+    "password": null
+  }
+}

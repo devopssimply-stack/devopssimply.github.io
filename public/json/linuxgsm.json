@@ -1,0 +1,84 @@
+{
+  "name": "linuxgsm",
+  "slug": "linuxgsm",
+  "tagline": "A CLI tool for deploying and managing dedicated game servers",
+  "subtitle": "",
+  "description": "LinuxGSM is a CLI tool to deploy and manage dedicated game servers. It supports over 100 games and simplifies installation, updates, backups, and monitoring using a terminal-first interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v25.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-08",
+    "date_last_commit": "2026-02-21",
+    "github_stars": 4772,
+    "github_contributors": 203,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://linuxgsm.com",
+    "documentation": "https://docs.linuxgsm.com",
+    "source_code": "https://github.com/GameServerManagers/LinuxGSM",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/linuxgsm.webp",
+    "issues": "https://github.com/GameServerManagers/LinuxGSM/issues",
+    "releases": "https://github.com/GameServerManagers/LinuxGSM/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/linuxgsm-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Game Server Management",
+      "description": "Install and manage dedicated game servers",
+      "core_feature": true
+    },
+    {
+      "title": "Automated Updates",
+      "description": "Update game servers using scripted commands",
+      "core_feature": true
+    },
+    {
+      "title": "Server Monitoring",
+      "description": "Monitor server status and resource usage",
+      "core_feature": true
+    },
+    {
+      "title": "Backup Management",
+      "description": "Create and manage server backups"
+    },
+    {
+      "title": "Command-Line Interface",
+      "description": "Control servers using CLI commands"
+    },
+    {
+      "title": "Multi-Game Support",
+      "description": "Manage servers for multiple supported games"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/linuxgsm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "kener",
+  "slug": "kener",
+  "tagline": "A lightweight uptime and endpoint monitoring service",
+  "subtitle": "",
+  "description": "Kener is a simple uptime and endpoint monitoring service. It sends requests to configured URLs, records response status and times, and shows checks in a minimal dashboard suitable for monitoring small fleets of services.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.0.12",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 4774,
+    "github_contributors": 37,
+    "github_commits_this_year": 204,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 13
+  },
+  "resources": {
+    "website": "https://kener.ing/",
+    "documentation": "https://kener.ing/docs/home",
+    "source_code": "https://github.com/rajnandan1/kener",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kener.webp",
+    "issues": "https://github.com/rajnandan1/kener/issues",
+    "releases": "https://github.com/rajnandan1/kener/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kener-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kener-newbg.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Status Page",
+      "description": "Publish service availability and incident updates",
+      "core_feature": true
+    },
+    {
+      "title": "Service Monitoring",
+      "description": "Track uptime for configured services",
+      "core_feature": true
+    },
+    {
+      "title": "Incident History",
+      "description": "Display past incidents and resolutions"
+    },
+    {
+      "title": "Custom Branding",
+      "description": "Adjust appearance to match your organization"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kener/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

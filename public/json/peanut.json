@@ -1,0 +1,97 @@
+{
+  "name": "peanut",
+  "slug": "peanut",
+  "tagline": "A network visualization tool for exploring devices and topology",
+  "subtitle": "",
+  "description": "PeaNUT is a self-hosted network visualization tool that provides insights into connected devices and services within homelab environments. It offers graph views for network topology and metadata.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v5.22.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-08",
+    "date_last_commit": "2026-02-23",
+    "github_stars": 1319,
+    "github_contributors": 16,
+    "github_commits_this_year": 40,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://github.com/Brandawg93/PeaNUT",
+    "documentation": "https://github.com/Brandawg93/PeaNUT",
+    "source_code": "https://github.com/Brandawg93/PeaNUT",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/peanut.webp",
+    "issues": "https://github.com/Brandawg93/PeaNUT/issues",
+    "releases": "https://github.com/Brandawg93/PeaNUT/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/peanut-charts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/peanut-table.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "UPS Monitoring",
+      "description": "Monitor UPS status and power metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Network UPS Tools Integration",
+      "description": "Integrate with NUT-compatible devices",
+      "core_feature": true
+    },
+    {
+      "title": "Status Dashboard",
+      "description": "View UPS metrics in a web UI",
+      "core_feature": true
+    },
+    {
+      "title": "Alerts",
+      "description": "Receive alerts on power events"
+    },
+    {
+      "title": "History Tracking",
+      "description": "View historical power data"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the monitoring service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/peanut/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "peanut",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=peanut"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "peanut",
+      "url": "https://apps.truenas.com/catalog/peanut"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

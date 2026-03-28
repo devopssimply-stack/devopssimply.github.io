@@ -1,0 +1,96 @@
+{
+  "name": "diun",
+  "slug": "diun",
+  "tagline": "A notification service that alerts when Docker images receive updates",
+  "subtitle": "",
+  "description": "Diun (Docker Image Update Notifier) is a CLI and webhook-based tool that notifies you when Docker images are updated. It's ideal for automated maintenance and integrates well with CI/CD pipelines.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.31.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-24",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4450,
+    "github_contributors": 40,
+    "github_commits_this_year": 15,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://crazymax.dev/diun/",
+    "documentation": "https://crazymax.dev/diun",
+    "source_code": "https://github.com/crazy-max/diun",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/diun.webp",
+    "issues": "https://github.com/crazy-max/diun/issues",
+    "releases": "https://github.com/crazy-max/diun/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/diun-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Container Image Update Monitoring",
+      "description": "Monitors Docker images for updates",
+      "core_feature": true
+    },
+    {
+      "title": "Registry Integration",
+      "description": "Checks images across container registries",
+      "core_feature": true
+    },
+    {
+      "title": "Notification System",
+      "description": "Sends alerts when updates are detected",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Scans",
+      "description": "Runs image checks on a schedule"
+    },
+    {
+      "title": "Multiple Notification Backends",
+      "description": "Supports various notification services"
+    },
+    {
+      "title": "Configuration via Files",
+      "description": "Manages settings using configuration files"
+    },
+    {
+      "title": "Container Deployment",
+      "description": "Runs as a Docker container"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Operates on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/diun/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

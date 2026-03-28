@@ -1,0 +1,82 @@
+{
+  "name": "silex",
+  "slug": "silex",
+  "tagline": "A browser-based website builder for creating and publishing static sites",
+  "subtitle": "",
+  "description": "Silex is a self-hosted website builder and CMS that runs entirely in the browser. Users can visually design responsive websites with drag-and-drop elements and publish static sites easily.",
+  "categories": [
+    19
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.5.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-14",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 2726,
+    "github_contributors": 3,
+    "github_commits_this_year": 31,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.silex.me",
+    "documentation": "https://docs.silex.me/en/dev/run",
+    "source_code": "https://github.com/silexlabs/Silex",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/silex.webp",
+    "issues": "https://github.com/silexlabs/Silex/issues",
+    "releases": "https://github.com/silexlabs/Silex/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Website Builder",
+      "description": "Build websites using a visual editor",
+      "core_feature": true
+    },
+    {
+      "title": "Drag-and-Drop Editing",
+      "description": "Edit pages visually without coding",
+      "core_feature": true
+    },
+    {
+      "title": "Static Site Output",
+      "description": "Export sites as static files",
+      "core_feature": true
+    },
+    {
+      "title": "Asset Management",
+      "description": "Manage images and media assets"
+    },
+    {
+      "title": "Hosting Flexibility",
+      "description": "Deploy generated sites anywhere"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the editor on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/silex/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

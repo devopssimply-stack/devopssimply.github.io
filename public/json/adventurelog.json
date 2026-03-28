@@ -1,0 +1,103 @@
+{
+  "name": "adventurelog",
+  "slug": "adventurelog",
+  "tagline": "A web-based journaling app for recording travels and adventures",
+  "subtitle": "",
+  "description": "AdventureLog is a web-based adventure journaling app where users can track their travels, add stories, locations and timelines. It supports rich posts with media and is ideal for self-hosted digital travel diaries and adventure logs.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU GPL 3.0",
+    "version": "v0.12.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 2813,
+    "github_contributors": 29,
+    "github_commits_this_year": 6,
+    "github_issues_open": 179,
+    "github_issues_closed_this_year": 64,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://adventurelog.app",
+    "documentation": "https://github.com/seanmorley15/AdventureLog",
+    "source_code": "https://github.com/seanmorley15/AdventureLog",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/adventurelog.webp",
+    "issues": "https://github.com/seanmorley15/AdventureLog/issues",
+    "releases": "https://github.com/seanmorley15/AdventureLog/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/adventurelog-adventures.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/adventurelog-countries.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/adventurelog-itinerary.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/adventurelog-map-satellite.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/adventurelog-map.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Adventure Tracking",
+      "description": "Records outdoor activities such as hikes and trips",
+      "core_feature": true
+    },
+    {
+      "title": "Location Logging",
+      "description": "Associates adventures with geographic locations",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline View",
+      "description": "Displays logged adventures in chronological order"
+    },
+    {
+      "title": "Media Attachments",
+      "description": "Allows photos to be attached to adventure entries"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui",
+    "api"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/adventurelog/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "adventurelog",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=adventurelog"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "adventurelog_ynh",
+      "url": "https://github.com/YunoHost-Apps/adventurelog_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "adventurelog",
+      "url": "https://apps.truenas.com/catalog/adventurelog"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

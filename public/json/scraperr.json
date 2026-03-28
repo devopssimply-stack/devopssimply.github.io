@@ -1,0 +1,84 @@
+{
+  "name": "scraperr",
+  "slug": "scraperr",
+  "tagline": "A self-hosted metadata fetcher for Plex, Jellyfin, and Kodi media libraries",
+  "subtitle": "",
+  "description": "Scraperr is a self-hosted metadata fetcher for Plex, Kodi, and Jellyfin that uses various APIs to enrich posters, summaries, and metadata in media libraries.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.1.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-13",
+    "date_last_commit": "2025-10-12",
+    "github_stars": 4876,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 3,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://scraperr-docs.pages.dev",
+    "documentation": "https://scraperr-docs.pages.dev",
+    "source_code": "https://github.com/jaypyles/Scraperr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/scraperr.webp",
+    "issues": "https://github.com/jaypyles/Scraperr/issues",
+    "releases": "https://github.com/jaypyles/Scraperr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/scraperr-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Scraping",
+      "description": "Extract data from web pages",
+      "core_feature": true
+    },
+    {
+      "title": "Source Configuration",
+      "description": "Configure scraping targets",
+      "core_feature": true
+    },
+    {
+      "title": "Data Export",
+      "description": "Export scraped data",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Run scrapers on a schedule"
+    },
+    {
+      "title": "Logging",
+      "description": "Record scraping activity"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the scraper on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/scraperr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "docker-staticmaps",
+  "slug": "docker-staticmaps",
+  "tagline": "A self-hosted service for serving static maps and map tiles",
+  "subtitle": "",
+  "description": "Docker Static Maps is a simple system for hosting static maps and tile images for web apps, without relying on external services. Useful for mapping features in web and embedded applications.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.9.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 119,
+    "github_contributors": 7,
+    "github_commits_this_year": 37,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/dietrichmax/docker-staticmaps",
+    "documentation": "https://github.com/dietrichmax/docker-staticmaps",
+    "source_code": "https://github.com/dietrichmax/docker-staticmaps",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/docker-staticmaps.webp",
+    "issues": "https://github.com/dietrichmax/docker-staticmaps/issues",
+    "releases": "https://github.com/dietrichmax/docker-staticmaps/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docker-staticmaps-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Static Map Rendering",
+      "description": "Generates static map images",
+      "core_feature": true
+    },
+    {
+      "title": "Tile Server Integration",
+      "description": "Uses map tile providers",
+      "core_feature": true
+    },
+    {
+      "title": "HTTP API",
+      "description": "Generates maps via URL requests"
+    },
+    {
+      "title": "Marker and Path Support",
+      "description": "Draws markers and routes on maps"
+    },
+    {
+      "title": "Caching",
+      "description": "Caches generated map images"
+    },
+    {
+      "title": "Container Deployment",
+      "description": "Runs as a Docker service"
+    },
+    {
+      "title": "Self-Hosted Mapping",
+      "description": "Operates without external APIs"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/docker-staticmaps/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,47 @@
+# ===============================
+# Docker Compose (Nextcloud AIO)
+# ===============================
+# host: http://localhost
+# username: set during AIO setup
+# password: set during AIO setup
+
+services:
+  nextcloud-aio-mastercontainer:
+    image: nextcloud/all-in-one:latest
+    init: true
+    restart: unless-stopped
+    container_name: nextcloud-aio-mastercontainer
+
+    ports:
+      - "80:80"
+      - "8080:8080"
+      - "8443:8443"
+
+    network_mode: bridge
+
+    volumes:
+      - nextcloud_aio_mastercontainer:/mnt/docker-aio-config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+    environment:
+      TZ: UTC
+      # Uncomment ONLY on first install if you want auto-installed apps
+      # NEXTCLOUD_STARTUP_APPS: tasks calendar contacts notes mail
+
+    deploy:
+      resources:
+        limits:
+          cpus: "4.0"
+          memory: 8G
+        reservations:
+          memory: 2G
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  nextcloud_aio_mastercontainer:
+    name: nextcloud_aio_mastercontainer

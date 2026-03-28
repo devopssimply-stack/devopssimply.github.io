@@ -1,0 +1,87 @@
+{
+  "name": "librum",
+  "slug": "librum",
+  "tagline": "A self-hosted ebook reader and digital library manager",
+  "subtitle": "",
+  "description": "Librum is a self-hosted eBook reader and digital library manager. It allows organizing, searching, and reading ebooks directly from the browser, with support for multiple formats and synced reading progress.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v.0.12.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-03-29",
+    "date_last_commit": "2025-07-08",
+    "github_stars": 5275,
+    "github_contributors": 11,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://librumreader.com",
+    "documentation": "https://librumreader.com",
+    "source_code": "https://github.com/Librum-Reader/Librum",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/librum.webp",
+    "issues": "https://github.com/Librum-Reader/Librum/issues",
+    "releases": "https://github.com/Librum-Reader/Librum/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/librum-create-folder.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/librum-dashboard-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/librum-setting-appearance.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/librum-simple-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Ebook Library",
+      "description": "Organize and read ebooks in a desktop application",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Interface",
+      "description": "Read ebooks with adjustable layout and fonts",
+      "core_feature": true
+    },
+    {
+      "title": "Library Organization",
+      "description": "Group and manage ebooks in collections",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Progress",
+      "description": "Track reading position within books"
+    },
+    {
+      "title": "Metadata Management",
+      "description": "View and edit ebook metadata"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Run the reader on multiple operating systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/librum/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

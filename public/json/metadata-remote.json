@@ -1,0 +1,81 @@
+{
+  "name": "metadata-remote",
+  "slug": "metadata-remote",
+  "tagline": "A self-hosted backend for caching and serving media metadata",
+  "subtitle": "",
+  "description": "Metadata Remote is a self-hosted backend for fetching and serving TV and movie metadata for media servers. It supports integrations with Plex, Emby, or Jellyfin and allows local caching of metadata.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-21",
+    "date_last_commit": "2025-07-22",
+    "github_stars": 647,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/wow-signal-dev/metadata-remote",
+    "documentation": "https://github.com/wow-signal-dev/metadata-remote",
+    "source_code": "https://github.com/wow-signal-dev/metadata-remote",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/metadata-remote.webp",
+    "issues": "https://github.com/wow-signal-dev/metadata-remote/issues",
+    "releases": "https://github.com/wow-signal-dev/metadata-remote/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Metadata Fetching",
+      "description": "Retrieve metadata from remote sources",
+      "core_feature": true
+    },
+    {
+      "title": "API Service",
+      "description": "Expose metadata through an HTTP API",
+      "core_feature": true
+    },
+    {
+      "title": "Caching",
+      "description": "Cache metadata to reduce repeated requests"
+    },
+    {
+      "title": "Source Configuration",
+      "description": "Configure supported metadata sources"
+    },
+    {
+      "title": "Integration Support",
+      "description": "Integrate metadata into other services"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the metadata service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/metadata-remote/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

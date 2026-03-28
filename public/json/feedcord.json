@@ -1,0 +1,91 @@
+{
+  "name": "feedcord",
+  "slug": "feedcord",
+  "tagline": "A bridge service that delivers RSS feed updates to Discord channels",
+  "subtitle": "",
+  "description": "FeedCord is a tool that forwards RSS feed updates into Discord channels. It lets users subscribe to feeds and customize delivery, acting as a self-hosted bridge between websites and Discord servers.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-20",
+    "date_last_commit": "2025-07-01",
+    "github_stars": 296,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Qolors/FeedCord",
+    "documentation": "https://github.com/Qolors/FeedCord",
+    "source_code": "https://github.com/Qolors/FeedCord",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/feedcord.webp",
+    "issues": "https://github.com/Qolors/FeedCord/issues",
+    "releases": "https://github.com/Qolors/FeedCord/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/feedcord-gallery-1.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Discord Feed Delivery",
+      "description": "Sends RSS feed updates to Discord channels",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Subscription Management",
+      "description": "Configures which feeds are monitored",
+      "core_feature": true
+    },
+    {
+      "title": "Message Formatting",
+      "description": "Formats feed entries for Discord messages"
+    },
+    {
+      "title": "Update Scheduling",
+      "description": "Checks feeds at regular intervals"
+    },
+    {
+      "title": "Multi-Server Support",
+      "description": "Posts updates to multiple Discord servers"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Manages settings via config files"
+    },
+    {
+      "title": "Logging",
+      "description": "Records delivery activity"
+    },
+    {
+      "title": "Self-Hosted Bot",
+      "description": "Run the bot on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/feedcord/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

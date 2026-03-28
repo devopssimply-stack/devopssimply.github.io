@@ -1,0 +1,84 @@
+{
+  "name": "cup-updates",
+  "slug": "cup",
+  "tagline": "A lightweight self-hosted pastebin with syntax highlighting and expiring pastes",
+  "subtitle": "",
+  "description": "Cup is a lightweight, self-hosted online pastebin service that supports syntax highlighting and temporary or permanent pastes. It focuses on simplicity, privacy, and a clean UI for sharing code or text snippets via a web interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.5.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-21",
+    "date_last_commit": "2026-02-05",
+    "github_stars": 1250,
+    "github_contributors": 10,
+    "github_commits_this_year": 0,
+    "github_issues_open": 36,
+    "github_issues_closed_this_year": 1,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://cup.sergi0g.dev",
+    "documentation": "https://cup.sergi0g.dev/docs",
+    "source_code": "https://github.com/sergi0g/cup",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cup.webp",
+    "issues": "https://github.com/sergi0g/cup/issues",
+    "releases": "https://github.com/sergi0g/cup/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cup-cup-og.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cup-hero-mobile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cup-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cup-web-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Dependency Update Checker",
+      "description": "Checks for outdated dependencies",
+      "core_feature": true
+    },
+    {
+      "title": "CLI Interface",
+      "description": "Runs checks from command line",
+      "core_feature": true
+    },
+    {
+      "title": "Language Support",
+      "description": "Supports multiple ecosystems"
+    },
+    {
+      "title": "Update Reporting",
+      "description": "Reports available updates"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Runs on developer machines"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cup/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

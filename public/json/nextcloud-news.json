@@ -1,0 +1,86 @@
+{
+  "name": "nextcloud-news",
+  "slug": "nextcloud-news",
+  "tagline": "An RSS and Atom feed reader integrated into the Nextcloud ecosystem",
+  "subtitle": "",
+  "description": "Nextcloud News is an RSS/Atom feed reader app integrated into a Nextcloud instance. It can sync across devices, categorize feeds, and offers simple offline reading capabilities.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "28.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 961,
+    "github_contributors": 173,
+    "github_commits_this_year": 154,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://apps.nextcloud.com/apps/news",
+    "documentation": "https://github.com/nextcloud/news",
+    "source_code": "https://github.com/nextcloud/news",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nextcloud-news.webp",
+    "issues": "https://github.com/nextcloud/news/issues",
+    "releases": "https://github.com/nextcloud/news/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-news.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "RSS Feed Reader",
+      "description": "Subscribe to and read RSS and Atom feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Folder Organization",
+      "description": "Group feeds into folders",
+      "core_feature": true
+    },
+    {
+      "title": "Article Status",
+      "description": "Mark articles as read or unread",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search articles by keyword"
+    },
+    {
+      "title": "Nextcloud Integration",
+      "description": "Use feeds within the Nextcloud ecosystem"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Read feeds through the Nextcloud UI"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nextcloud-news/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

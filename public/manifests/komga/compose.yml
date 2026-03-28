@@ -1,0 +1,28 @@
+# ===============================
+# Docker Compose (Komga)
+# ===============================
+# host: http://localhost:25600
+# username: (created during setup)
+# password: (created during setup)
+
+services:
+  komga:
+    image: gotson/komga:latest
+    container_name: komga
+    restart: unless-stopped
+    ports:
+      - "25600:25600"
+    environment:
+      TZ: Etc/UTC
+    volumes:
+      - komga_config:/config
+      - komga_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:25600 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  komga_config:
+  komga_data:

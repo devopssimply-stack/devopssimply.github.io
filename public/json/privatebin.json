@@ -1,0 +1,96 @@
+{
+  "name": "privatebin",
+  "slug": "privatebin",
+  "tagline": "A zero-knowledge pastebin with client-side encryption and expiration",
+  "subtitle": "",
+  "description": "PrivateBin is a self-hosted pastebin where the server has no knowledge of pasted data. Supports client-side encryption, expiration, and password protection for sharing text securely.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD 3-Clause",
+    "version": "2.0.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-12",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 8062,
+    "github_contributors": 135,
+    "github_commits_this_year": 109,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://privatebin.info/",
+    "documentation": "https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md",
+    "source_code": "https://github.com/PrivateBin/PrivateBin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/privatebin.webp",
+    "issues": "https://github.com/PrivateBin/PrivateBin/issues",
+    "releases": "https://github.com/PrivateBin/PrivateBin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/privatebin-sample-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Paste Service",
+      "description": "Share text snippets securely",
+      "core_feature": true
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Encrypt pastes in the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Options",
+      "description": "Automatically delete pastes after expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Password Protection",
+      "description": "Protect pastes with passwords"
+    },
+    {
+      "title": "Syntax Highlighting",
+      "description": "Highlight code snippets"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the paste service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/privatebin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "privatebin",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=privatebin"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "privatebin_ynh",
+      "url": "https://github.com/YunoHost-Apps/privatebin_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

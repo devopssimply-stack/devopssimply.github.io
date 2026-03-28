@@ -1,0 +1,91 @@
+{
+  "name": "fenrus",
+  "slug": "fenrus",
+  "tagline": "A self-hosted start page for organizing links, search, and widgets",
+  "subtitle": "",
+  "description": "Fenrus is a personal start page and self-hosted dashboard that lets users pin links, widgets, and search to a customizable home screen. It’s designed for homelabs and personal servers as a central access hub.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-01-31",
+    "github_stars": 763,
+    "github_contributors": 13,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/revenz/Fenrus",
+    "documentation": "https://github.com/revenz/Fenrus",
+    "source_code": "https://github.com/revenz/Fenrus",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/fenrus.webp",
+    "issues": "https://github.com/revenz/Fenrus/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fenrus-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Service Dashboard",
+      "description": "Displays links to self-hosted services",
+      "core_feature": true
+    },
+    {
+      "title": "Card-Based Layout",
+      "description": "Organizes services as visual cards",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication",
+      "description": "Restricts dashboard access"
+    },
+    {
+      "title": "Search",
+      "description": "Quickly finds services"
+    },
+    {
+      "title": "Custom Icons",
+      "description": "Assigns icons to services"
+    },
+    {
+      "title": "Responsive UI",
+      "description": "Works across screen sizes"
+    },
+    {
+      "title": "Configuration Storage",
+      "description": "Saves dashboard layout and settings"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Host the dashboard on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/fenrus/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

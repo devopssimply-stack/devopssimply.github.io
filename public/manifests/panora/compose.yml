@@ -1,0 +1,84 @@
+# ===============================
+# Docker Compose (Panora)
+# ===============================
+# host: http://localhost
+# username:
+# password:
+
+services:
+
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: panora
+      POSTGRES_PASSWORD: panora_password
+      POSTGRES_DB: panora_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U panora"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: valkey/valkey:7.2-alpine
+    restart: unless-stopped
+    command: valkey-server --requirepass redispassword
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "redispassword", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    image: panora.docker.scarf.sh/panoradotdev/backend-api:selfhosted
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    environment:
+      ENV: production
+      DISTRIBUTION: selfhost
+      DATABASE_URL: postgresql://panora:panora_password@postgres:5432/panora_db?ssl=false
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_PASS: redispassword
+      REDIS_DB: 0
+      WEBAPP_URL: http://localhost
+      JWT_SECRET: change_this_secret
+      ENCRYPT_CRYPTO_SECRET_KEY: change_this_secret
+      POSTHOG_HOST: https://us.i.posthog.com
+      POSTHOG_KEY: phc_example
+      PH_TELEMETRY: "TRUE"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  webapp:
+    image: panora.docker.scarf.sh/panoradotdev/frontend-webapp:selfhosted
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "80:8090"
+    environment:
+      NEXT_PUBLIC_DISTRIBUTION: selfhost
+      NEXT_PUBLIC_BACKEND_DOMAIN: http://api:3000
+      NEXT_PUBLIC_WEBAPP_DOMAIN: http://localhost
+      NEXT_PUBLIC_POSTHOG_HOST: https://us.i.posthog.com
+      NEXT_PUBLIC_POSTHOG_KEY: phc_example
+
+volumes:
+  postgres_data:
+  redis_data:

@@ -1,0 +1,86 @@
+{
+  "name": "podsync",
+  "slug": "podsync",
+  "tagline": "A YouTube-to-podcast converter that generates podcast RSS feeds",
+  "subtitle": "",
+  "description": "Podsync is a self-hosted YouTube-to-podcast converter that turns YouTube channels into RSS feeds. It downloads and serves audio files, making content available in podcast apps.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.8.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-14",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1853,
+    "github_contributors": 41,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/mxpv/podsync",
+    "documentation": "https://github.com/mxpv/podsync",
+    "source_code": "https://github.com/mxpv/podsync",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/podsync.webp",
+    "issues": "https://github.com/mxpv/podsync/issues",
+    "releases": "https://github.com/mxpv/podsync/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Podcast Synchronization",
+      "description": "Convert media sources into podcast feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Generation",
+      "description": "Generate RSS feeds automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Media Download",
+      "description": "Download and cache media files",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduler",
+      "description": "Update feeds on a schedule"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Define feeds using configuration files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the sync service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/podsync/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

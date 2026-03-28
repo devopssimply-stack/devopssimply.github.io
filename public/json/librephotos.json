@@ -1,0 +1,97 @@
+{
+  "name": "librephotos",
+  "slug": "librephotos",
+  "tagline": "A self-hosted photo management platform with AI-powered organization",
+  "subtitle": "",
+  "description": "LibrePhotos is a self-hosted photo management platform, similar to Google Photos. It automatically organizes photos using AI, supports face recognition, timelines, tagging, and maps, while protecting user privacy.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-04",
+    "github_stars": 7940,
+    "github_contributors": 61,
+    "github_commits_this_year": 120,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/LibrePhotos/librephotos",
+    "documentation": "https://github.com/LibrePhotos/librephotos",
+    "source_code": "https://github.com/LibrePhotos/librephotos",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/librephotos.webp",
+    "issues": "https://github.com/LibrePhotos/librephotos/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/librephotos-data-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/librephotos-face-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/librephotos-photos-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Photo Library Management",
+      "description": "Store and browse personal photo collections",
+      "core_feature": true
+    },
+    {
+      "title": "Automatic Indexing",
+      "description": "Scan and index photos from configured folders",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline View",
+      "description": "Browse photos by date",
+      "core_feature": true
+    },
+    {
+      "title": "Face Recognition",
+      "description": "Group photos by detected faces"
+    },
+    {
+      "title": "Location View",
+      "description": "View photos by geographic location"
+    },
+    {
+      "title": "Search",
+      "description": "Search photos using metadata and tags"
+    },
+    {
+      "title": "Self-Hosted Gallery",
+      "description": "Run the photo service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/librephotos/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "librephotos_ynh",
+      "url": "https://github.com/YunoHost-Apps/librephotos_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo1.librephotos.com",
+    "username": "demo",
+    "password": "demo1234"
+  }
+}

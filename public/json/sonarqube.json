@@ -1,0 +1,91 @@
+{
+  "name": "sonarqube",
+  "slug": "sonarqube",
+  "tagline": "A platform for continuous code quality and security analysis",
+  "subtitle": "",
+  "description": "SonarQube is a code quality and security analysis platform. It scans codebases for bugs, vulnerabilities, and code smells, presenting dashboards, trends, and gating rules for CI pipelines.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "LGPL-3.0",
+    "version": "26.3.0.120487",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 10302,
+    "github_contributors": 295,
+    "github_commits_this_year": 231,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "http://www.sonarqube.org",
+    "documentation": "https://docs.sonarsource.com",
+    "source_code": "https://github.com/SonarSource/sonarqube",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sonarqube.webp",
+    "issues": "https://github.com/SonarSource/sonarqube/issues",
+    "releases": "https://github.com/SonarSource/sonarqube/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sonarqube-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Code Quality Analysis",
+      "description": "Analyze source code for quality issues",
+      "core_feature": true
+    },
+    {
+      "title": "Static Analysis",
+      "description": "Detect bugs and code smells",
+      "core_feature": true
+    },
+    {
+      "title": "Security Scanning",
+      "description": "Identify security vulnerabilities",
+      "core_feature": true
+    },
+    {
+      "title": "Project Dashboards",
+      "description": "View analysis results in dashboards"
+    },
+    {
+      "title": "CI Integration",
+      "description": "Integrate analysis into CI pipelines"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the analysis platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sonarqube/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "sonarqube",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=sonarqube"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

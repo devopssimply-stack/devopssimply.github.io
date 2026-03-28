@@ -1,0 +1,84 @@
+{
+  "name": "spacebar",
+  "slug": "spacebar",
+  "tagline": "A self-hosted chat platform inspired by Discord with channels and roles",
+  "subtitle": "",
+  "description": "SpacebarChat is a self-hosted chat platform inspired by Discord and Revolt. It features channels, roles, voice, and federation-ready protocols in a modern web UI.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-13",
+    "github_stars": 6603,
+    "github_contributors": 34,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://spacebar.chat",
+    "documentation": "https://docs.spacebar.chat",
+    "source_code": "https://github.com/spacebarchat/spacebarchat",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/spacebar.webp",
+    "issues": "https://github.com/spacebarchat/spacebarchat/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/spacebar-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Chat Platform",
+      "description": "Exchange real-time messages",
+      "core_feature": true
+    },
+    {
+      "title": "Channels",
+      "description": "Organize conversations into channels",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Media Sharing",
+      "description": "Share files and images in chats"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access chat through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the chat server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/spacebar/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://spacebar-explorer.sovr.top",
+    "username": null,
+    "password": null
+  }
+}

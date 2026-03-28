@@ -1,0 +1,87 @@
+{
+  "name": "ktistec",
+  "slug": "ktistec",
+  "tagline": "A minimal ActivityPub microblogging server for the Fediverse",
+  "subtitle": "",
+  "description": "Ktistec is a small ActivityPub capable microblogging server written in Rust. It allows users to host their own federated social account with timelines, follows and posts, talking to the wider Fediverse from a minimal codebase.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.3.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 425,
+    "github_contributors": 7,
+    "github_commits_this_year": 255,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://github.com/toddsundsted/ktistec",
+    "documentation": "https://github.com/toddsundsted/ktistec",
+    "source_code": "https://github.com/toddsundsted/ktistec",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ktistec.webp",
+    "issues": "https://github.com/toddsundsted/ktistec/issues",
+    "releases": "https://github.com/toddsundsted/ktistec/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ktistec-88hvqq.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ktistec-d8kf0q.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ktistec-eaxx1q.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ktistec-metrics.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Federated Social Networking",
+      "description": "Host a social server using the ActivityPub protocol",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Create and manage local user profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline Views",
+      "description": "View local and federated posts",
+      "core_feature": true
+    },
+    {
+      "title": "Media Attachments",
+      "description": "Attach images and media to posts"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manage content and user interactions"
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Access the social server through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ktistec/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

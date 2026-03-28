@@ -1,0 +1,86 @@
+{
+  "name": "vernemq",
+  "slug": "vernemq",
+  "tagline": "A scalable, high-availability MQTT broker for IoT and messaging workloads",
+  "subtitle": "",
+  "description": "VerneMQ is a scalable, high-availability MQTT broker designed for IoT and messaging workloads. It supports clustering, plugins, and standard MQTT clients, operated through configuration and CLI tools.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "2.1.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-14",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 3539,
+    "github_contributors": 62,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://vernemq.com",
+    "documentation": "https://docs.vernemq.com",
+    "source_code": "https://github.com/vernemq/vernemq",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/vernemq.webp",
+    "issues": "https://github.com/vernemq/vernemq/issues",
+    "releases": "https://github.com/vernemq/vernemq/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/vernemq-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "MQTT Broker",
+      "description": "Route MQTT messages between connected clients",
+      "core_feature": true
+    },
+    {
+      "title": "High Availability",
+      "description": "Run clustered brokers for fault tolerance",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication and Authorization",
+      "description": "Control client access to topics",
+      "core_feature": true
+    },
+    {
+      "title": "Protocol Support",
+      "description": "Support MQTT protocol versions"
+    },
+    {
+      "title": "Metrics",
+      "description": "Expose broker metrics for monitoring"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the broker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/vernemq/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

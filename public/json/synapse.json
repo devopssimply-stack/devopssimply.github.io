@@ -1,0 +1,93 @@
+{
+  "name": "synapse",
+  "slug": "synapse",
+  "tagline": "A federated Matrix homeserver for secure, decentralized messaging",
+  "subtitle": "",
+  "description": "Synapse is a reference Matrix homeserver implementation, enabling self-hosted federated chat. It powers encrypted messaging, VoIP, and bridging with a robust API surface.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.148.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 3799,
+    "github_contributors": 371,
+    "github_commits_this_year": 124,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 13
+  },
+  "resources": {
+    "website": "https://element-hq.github.io/synapse",
+    "documentation": "https://github.com/element-hq/synapse/tree/develop/docker",
+    "source_code": "https://github.com/element-hq/synapse",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/synapse.webp",
+    "issues": "https://github.com/element-hq/synapse/issues",
+    "releases": "https://github.com/element-hq/synapse/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/synapse-light.webp",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Matrix Server",
+      "description": "Host a Matrix-compatible messaging server",
+      "core_feature": true
+    },
+    {
+      "title": "Federation",
+      "description": "Communicate with other Matrix servers",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage users and rooms",
+      "core_feature": true
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Support encrypted messaging"
+    },
+    {
+      "title": "Client Compatibility",
+      "description": "Connect using Matrix clients"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/synapse/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "synapse_ynh",
+      "url": "https://github.com/YunoHost-Apps/synapse_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

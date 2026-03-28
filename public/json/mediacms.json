@@ -1,0 +1,100 @@
+{
+  "name": "mediacms",
+  "slug": "mediacms",
+  "tagline": "An open source platform for uploading and streaming video and media",
+  "subtitle": "",
+  "description": "MediaCMS is an open-source media sharing platform that enables users to upload, transcode, and stream videos and photos. It includes advanced admin controls, metadata, and API, ideal for content hosting.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v7.6.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-07",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4760,
+    "github_contributors": 44,
+    "github_commits_this_year": 12,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://mediacms.io",
+    "documentation": "https://github.com/mediacms-io/mediacms/tree/main/docs",
+    "source_code": "https://github.com/mediacms-io/mediacms",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mediacms.webp",
+    "issues": "https://github.com/mediacms-io/mediacms/issues",
+    "releases": "https://github.com/mediacms-io/mediacms/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-captions-player.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-embedded.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-enhanced-player.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-multiple-publishing-workflows.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-multiple-types.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-playlist.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-rbac.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-saml.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-search.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mediacms-trimmer.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Hosting Platform",
+      "description": "Host and stream video content",
+      "core_feature": true
+    },
+    {
+      "title": "Media Upload",
+      "description": "Upload media files through the web",
+      "core_feature": true
+    },
+    {
+      "title": "Channels",
+      "description": "Organize videos into channels"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage creators and viewers",
+      "core_feature": true
+    },
+    {
+      "title": "Comments",
+      "description": "Enable discussion on media content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "View and manage media through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mediacms/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mediacms_ynh",
+      "url": "https://github.com/YunoHost-Apps/mediacms_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.mediacms.io",
+    "username": null,
+    "password": null
+  }
+}

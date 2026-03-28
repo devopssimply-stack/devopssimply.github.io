@@ -1,0 +1,96 @@
+{
+  "name": "pocketbase",
+  "slug": "pocketbase",
+  "tagline": "A single-binary backend platform with database auth and real-time APIs",
+  "subtitle": "",
+  "description": "PocketBase is a backend-as-a-service in a single executable. It offers database, auth, file storage, and real-time API, ideal for building self-hosted app backends quickly.",
+  "categories": [
+    17
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.36.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 56576,
+    "github_contributors": 44,
+    "github_commits_this_year": 69,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://pocketbase.io",
+    "documentation": "https://pocketbase.io/docs",
+    "source_code": "https://github.com/pocketbase/pocketbase",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pocketbase.webp",
+    "issues": "https://github.com/pocketbase/pocketbase/issues",
+    "releases": "https://github.com/pocketbase/pocketbase/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pocketbase-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pocketbase-example-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Backend Service",
+      "description": "Provide backend APIs and data storage",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication",
+      "description": "Handle user authentication and authorization",
+      "core_feature": true
+    },
+    {
+      "title": "Database Management",
+      "description": "Manage data using a built-in database",
+      "core_feature": true
+    },
+    {
+      "title": "File Storage",
+      "description": "Store and serve uploaded files"
+    },
+    {
+      "title": "Admin Interface",
+      "description": "Manage data through an admin UI"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the backend on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pocketbase/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "pocketbase",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=pocketbase"
+    }
+  },
+  "demo": {
+    "url": "https://pocketbase.io/demo",
+    "username": "test@example.com",
+    "password": "123456"
+  }
+}

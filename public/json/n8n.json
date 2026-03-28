@@ -1,0 +1,107 @@
+{
+  "name": "n8n",
+  "slug": "n8n",
+  "tagline": "A self-hosted workflow automation platform with node-based editing",
+  "subtitle": "",
+  "description": "n8n is a workflow automation platform and alternative to Zapier, enabling self-hosted automations with node-based editing. It offers integrations, triggers, custom code, and an extensible runtime.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Sustainable Use License",
+    "version": "n8n@2.10.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 177862,
+    "github_contributors": 428,
+    "github_commits_this_year": 1196,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 73
+  },
+  "resources": {
+    "website": "https://n8n.io",
+    "documentation": "https://docs.n8n.io",
+    "source_code": "https://github.com/n8n-io/n8n",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/n8n.webp",
+    "issues": "https://github.com/n8n-io/n8n/issues",
+    "releases": "https://github.com/n8n-io/n8n/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/n8n-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/n8n-images.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/n8n-screenshot-readme.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Workflow Automation",
+      "description": "Build automated workflows connecting apps and services",
+      "core_feature": true
+    },
+    {
+      "title": "Visual Workflow Editor",
+      "description": "Design workflows using a visual editor",
+      "core_feature": true
+    },
+    {
+      "title": "App Integrations",
+      "description": "Connect to a wide range of third-party services",
+      "core_feature": true
+    },
+    {
+      "title": "Trigger-Based Execution",
+      "description": "Run workflows based on events or schedules"
+    },
+    {
+      "title": "Data Transformation",
+      "description": "Transform and map data between workflow steps"
+    },
+    {
+      "title": "Execution History",
+      "description": "View past workflow runs and logs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the automation platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/n8n/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "n8n",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=n8n"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "n8n_ynh",
+      "url": "https://github.com/YunoHost-Apps/n8n_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "n8n",
+      "url": "https://apps.truenas.com/catalog/n8n"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

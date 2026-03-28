@@ -1,0 +1,77 @@
+{
+  "name": "rotki",
+  "slug": "rotki",
+  "tagline": "A privacy-focused portfolio and accounting tool for crypto and DeFi assets",
+  "subtitle": "",
+  "description": "Rotki is a self-hosted portfolio tracking and accounting tool for cryptocurrencies and DeFi platforms with full privacy. It features real-time reporting, tax tools, and a GUI with encrypted storage.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.42.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-20",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3712,
+    "github_contributors": 198,
+    "github_commits_this_year": 755,
+    "github_issues_open": 399,
+    "github_issues_closed_this_year": 69,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://rotki.com",
+    "documentation": "https://docs.rotki.com/requirement-and-installation",
+    "source_code": "https://github.com/rotki/rotki",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/rotki.webp",
+    "issues": "https://github.com/rotki/rotki/issues",
+    "releases": "https://github.com/rotki/rotki/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Portfolio Tracking",
+      "description": "Track cryptocurrency and asset portfolios",
+      "core_feature": true
+    },
+    {
+      "title": "Transaction History",
+      "description": "Record and analyze transactions",
+      "core_feature": true
+    },
+    {
+      "title": "Profit and Loss",
+      "description": "Calculate gains and losses"
+    },
+    {
+      "title": "Local Data Storage",
+      "description": "Keep financial data locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/rotki/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

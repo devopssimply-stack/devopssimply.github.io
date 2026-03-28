@@ -1,0 +1,91 @@
+{
+  "name": "lancommander",
+  "slug": "lancommander",
+  "tagline": "A self-hosted platform for managing and launching games over LAN",
+  "subtitle": "",
+  "description": "LANCommander is a self hosted platform for managing and launching games over a local network. It centralizes game files, metadata and launch configurations so LAN parties or shared setups can quickly start multiplayer sessions.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 373,
+    "github_contributors": 14,
+    "github_commits_this_year": 145,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 9
+  },
+  "resources": {
+    "website": "https://lancommander.app",
+    "documentation": "https://docs.lancommander.app/Overview",
+    "source_code": "https://github.com/LANCommander/LANCommander",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lancommander.webp",
+    "issues": "https://github.com/LANCommander/LANCommander/issues",
+    "releases": "https://github.com/LANCommander/LANCommander/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lancommander-light.webp",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "LAN Game Distribution",
+      "description": "Distribute games to clients over a local network",
+      "core_feature": true
+    },
+    {
+      "title": "Game Library Management",
+      "description": "Organize games and versions in a central library",
+      "core_feature": true
+    },
+    {
+      "title": "Client Management",
+      "description": "Register and manage connected LAN clients",
+      "core_feature": true
+    },
+    {
+      "title": "Patch and Update Delivery",
+      "description": "Provide updates to installed games"
+    },
+    {
+      "title": "Offline Operation",
+      "description": "Operate entirely without internet connectivity"
+    },
+    {
+      "title": "Authentication",
+      "description": "Control access to the server and clients"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage games and clients through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lancommander/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

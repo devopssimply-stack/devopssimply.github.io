@@ -1,0 +1,98 @@
+{
+  "name": "bentopdf",
+  "slug": "bentopdf",
+  "tagline": "A utility for converting Markdown documents into styled PDF files",
+  "subtitle": "",
+  "description": "Bentopdf is a utility that converts Markdown documents into polished, print-ready PDF outputs using custom style templates. It’s ideal for authors, documentation teams, and developers needing minimal formatting tools.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 11816,
+    "github_contributors": 49,
+    "github_commits_this_year": 245,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://bentopdf.com/",
+    "documentation": "https://github.com/alam00000/bentopdf",
+    "source_code": "https://github.com/alam00000/bentopdf",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bentopdf.webp",
+    "issues": "https://github.com/alam00000/bentopdf/issues",
+    "releases": "https://github.com/alam00000/bentopdf/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bentopdf-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bentopdf-edit-pdf.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bentopdf-tools-list.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "PDF Processing Toolkit",
+      "description": "Perform common PDF editing operations",
+      "core_feature": true
+    },
+    {
+      "title": "Merge and Split PDFs",
+      "description": "Combine or split PDF documents",
+      "core_feature": true
+    },
+    {
+      "title": "File Conversion",
+      "description": "Convert PDFs to other formats"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Edit PDF files through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run PDF tools on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bentopdf/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "bentopdf",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=bentopdf"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "bentopdf",
+      "url": "https://apps.truenas.com/catalog/bentopdf"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "bentopdf_ynh",
+      "url": "https://github.com/YunoHost-Apps/bentopdf_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

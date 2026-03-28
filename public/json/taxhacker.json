@@ -1,0 +1,72 @@
+{
+  "name": "taxhacker",
+  "slug": "taxhacker",
+  "tagline": "A toolkit for automating and estimating taxes using reproducible calculations",
+  "subtitle": "",
+  "description": "TaxHacker is a self-hosted script and toolkit that helps calculate and optimize income or investment taxes using country-specific rules. It focuses on automation, reproducible calculations, and transparent tax estimation from local data.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.6.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-23",
+    "date_last_commit": "2026-01-25",
+    "github_stars": 1128,
+    "github_contributors": 4,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://taxhacker.app",
+    "documentation": "https://github.com/vas3k/TaxHacker",
+    "source_code": "https://github.com/vas3k/TaxHacker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/taxhacker.webp",
+    "issues": "https://github.com/vas3k/TaxHacker/issues",
+    "releases": "https://github.com/vas3k/TaxHacker/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Tax Calculation Tool",
+      "description": "Calculate taxes based on income rules",
+      "core_feature": true
+    },
+    {
+      "title": "Scenario Comparison",
+      "description": "Compare tax outcomes across scenarios"
+    },
+    {
+      "title": "Rule Configuration",
+      "description": "Adjust tax rules and assumptions"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Perform calculations in a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/taxhacker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

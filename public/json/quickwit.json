@@ -1,0 +1,87 @@
+{
+  "name": "quickwit",
+  "slug": "quickwit",
+  "tagline": "A cloud-native search engine optimized for large-scale log indexing",
+  "subtitle": "",
+  "description": "Quickwit is a cloud-native search engine for large-scale log storage and querying. It offers web-based query UI, REST APIs, and is optimized for low storage costs and fast indexing.",
+  "categories": [
+    40
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.8.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-06-17",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 10944,
+    "github_contributors": 107,
+    "github_commits_this_year": 67,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://quickwit.io",
+    "documentation": "https://quickwit.io/docs/get-started/installation",
+    "source_code": "https://github.com/quickwit-oss/quickwit",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/quickwit.webp",
+    "issues": "https://github.com/quickwit-oss/quickwit/issues",
+    "releases": "https://github.com/quickwit-oss/quickwit/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/quickwit-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Log and Search Engine",
+      "description": "Index and search large volumes of data",
+      "core_feature": true
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Perform fast text-based searches",
+      "core_feature": true
+    },
+    {
+      "title": "Ingestion Pipelines",
+      "description": "Ingest logs and events from multiple sources"
+    },
+    {
+      "title": "Query API",
+      "description": "Search indexed data via API",
+      "core_feature": true
+    },
+    {
+      "title": "Distributed Architecture",
+      "description": "Scale indexing and search across nodes"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the engine on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/quickwit/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

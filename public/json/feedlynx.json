@@ -1,0 +1,88 @@
+{
+  "name": "feedlynx",
+  "slug": "feedlynx",
+  "tagline": "A self-hosted service for subscribing websites to RSS feeds via a web flow",
+  "subtitle": "",
+  "description": "FeedLynx is a small self-hosted service for subscribing a website’s feed directly into a user’s feed reader via web-based subscriptions. It provides a simple UI and acts as a helper between visitors and feed applications.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "0.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-04",
+    "date_last_commit": "2026-01-04",
+    "github_stars": 107,
+    "github_contributors": 5,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/wezm/feedlynx",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/feedlynx.webp",
+    "issues": "https://github.com/wezm/feedlynx/issues",
+    "releases": "https://github.com/wezm/feedlynx/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Feed Bookmarking",
+      "description": "Saves and organizes RSS feed URLs",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Labels feeds with tags"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages feeds through a browser"
+    },
+    {
+      "title": "Import and Export",
+      "description": "Supports OPML import and export"
+    },
+    {
+      "title": "Minimal UI",
+      "description": "Focuses on feed organization only"
+    },
+    {
+      "title": "User Authentication",
+      "description": "Restricts access to saved feeds"
+    },
+    {
+      "title": "Database Storage",
+      "description": "Persists feed metadata"
+    },
+    {
+      "title": "Self-Hosted Feed Tool",
+      "description": "Run the application on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/feedlynx/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

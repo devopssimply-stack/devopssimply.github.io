@@ -1,0 +1,95 @@
+{
+  "name": "giftmanager",
+  "slug": "giftmanager",
+  "tagline": "A self-hosted app for organizing gift ideas, budgets, and purchases",
+  "subtitle": "",
+  "description": "GiftManager is a self-hosted app for organizing gift ideas, budgets, and purchase tracking for events like holidays or birthdays. It provides lists, budgets, and reminders through a lightweight web UI.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-26",
+    "date_last_commit": "2026-02-23",
+    "github_stars": 244,
+    "github_contributors": 5,
+    "github_commits_this_year": 5,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/icbestCA/giftmanager",
+    "documentation": "https://github.com/icbestCA/giftmanager",
+    "source_code": "https://github.com/icbestCA/giftmanager",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/giftmanager.webp",
+    "issues": "https://github.com/icbestCA/giftmanager/issues",
+    "releases": "https://github.com/icbestCA/giftmanager/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/giftmanager-add-ideas.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/giftmanager-list-ideas.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/giftmanager-manage-groups.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/giftmanager-manage-users.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/giftmanager-setup-oidc.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/giftmanager-users.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Gift List Management",
+      "description": "Tracks gift ideas and recipients",
+      "core_feature": true
+    },
+    {
+      "title": "Budget Tracking",
+      "description": "Manages gift budgets"
+    },
+    {
+      "title": "Recipient Profiles",
+      "description": "Stores details per gift recipient"
+    },
+    {
+      "title": "Status Tracking",
+      "description": "Marks gifts as purchased or pending"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages gifts through a browser"
+    },
+    {
+      "title": "Notifications",
+      "description": "Reminds upcoming gift occasions"
+    },
+    {
+      "title": "Import/Export",
+      "description": "Transfers lists to common formats"
+    },
+    {
+      "title": "Self-Hosted List Tool",
+      "description": "Run the tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/giftmanager/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://giftmanagerdemo.pages.dev/dashboard.htm",
+    "username": null,
+    "password": null
+  }
+}

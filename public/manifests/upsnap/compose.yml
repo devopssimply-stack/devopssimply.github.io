@@ -1,0 +1,29 @@
+# ===============================
+# Docker Compose (Upsnap)
+# ===============================
+# host: http://localhost:8090
+# username:
+# password:
+
+services:
+  upsnap:
+    image: ghcr.io/seriousm4x/upsnap:5
+    container_name: upsnap
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      TZ: Europe/Berlin
+      UPSNAP_HTTP_LISTEN: 127.0.0.1:8090
+      UPSNAP_INTERVAL: "*/10 * * * * *"
+      UPSNAP_SCAN_RANGE: 192.168.1.0/24
+      UPSNAP_SCAN_TIMEOUT: 500ms
+      UPSNAP_PING_PRIVILEGED: "true"
+      UPSNAP_WEBSITE_TITLE: Custom name
+    volumes:
+      - upsnap-data:/app/pb_data
+    dns:
+      - 192.18.0.1
+      - 192.18.0.2
+
+volumes:
+  upsnap-data:

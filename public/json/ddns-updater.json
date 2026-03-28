@@ -1,0 +1,103 @@
+{
+  "name": "ddns-updater",
+  "slug": "ddns-updater",
+  "tagline": "A container-based dynamic DNS updater with a web interface",
+  "subtitle": "",
+  "description": "DDNS-Updater is a dockerized dynamic DNS updater that works with many providers. It has a simple web UI for configuration, handles IPv4/IPv6, and is easy to deploy alongside other self-hosted services.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.9.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-12-24",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 2916,
+    "github_contributors": 63,
+    "github_commits_this_year": 23,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/qdm12/ddns-updater",
+    "documentation": "https://github.com/qdm12/ddns-updater",
+    "source_code": "https://github.com/qdm12/ddns-updater",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ddns-updater.webp",
+    "issues": "https://github.com/qdm12/ddns-updater/issues",
+    "releases": "https://github.com/qdm12/ddns-updater/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ddns-updater-desktop.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Dynamic DNS Client",
+      "description": "Automatically updates DNS records",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Provider Support",
+      "description": "Supports many DNS services",
+      "core_feature": true
+    },
+    {
+      "title": "Container-Based Deployment",
+      "description": "Runs as a Docker container",
+      "core_feature": true
+    },
+    {
+      "title": "IPv4 and IPv6 Detection",
+      "description": "Detects public IP addresses"
+    },
+    {
+      "title": "Web UI",
+      "description": "Configures providers through a browser"
+    },
+    {
+      "title": "Health Monitoring",
+      "description": "Exposes container health status"
+    },
+    {
+      "title": "Scheduled Updates",
+      "description": "Runs periodic DNS updates"
+    },
+    {
+      "title": "Self-Hosted Networking",
+      "description": "Runs on user-managed infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ddns-updater/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "ddns-updater",
+      "url": "https://apps.truenas.com/catalog/ddns-updater"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

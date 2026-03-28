@@ -1,0 +1,69 @@
+{
+  "name": "stackspin",
+  "slug": "stackspin",
+  "tagline": "A Kubernetes-based platform for deploying and managing curated open-source apps",
+  "subtitle": "",
+  "description": "Stackspin is a self-hosted Kubernetes-based platform for deploying curated open-source applications. It provides tooling and configuration for running a managed app stack.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://docs.stackspin.net/en/v2/index.html",
+    "source_code": "https://open.greenhost.net/stackspin/stackspin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/stackspin.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Platform Deployment",
+      "description": "Deploy applications using predefined stacks",
+      "core_feature": true
+    },
+    {
+      "title": "Kubernetes Integration",
+      "description": "Run applications on Kubernetes clusters",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Tenant Support",
+      "description": "Host multiple projects on a shared platform",
+      "core_feature": true
+    },
+    {
+      "title": "Application Templates",
+      "description": "Use templates for common services"
+    },
+    {
+      "title": "Access Management",
+      "description": "Manage users and project access"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

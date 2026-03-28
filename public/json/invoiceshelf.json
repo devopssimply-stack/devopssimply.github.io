@@ -1,0 +1,98 @@
+{
+  "name": "invoiceshelf",
+  "slug": "invoiceshelf",
+  "tagline": "An open source invoicing and billing solution with estimates and PDFs",
+  "subtitle": "",
+  "description": "InvoiceShelf is an open source invoicing, estimates and billing solution. It supports customer management, PDF invoices, taxes and discounts, with a responsive web UI intended to be self hosted for complete control of financial records.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2.1.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-05",
+    "date_last_commit": "2026-02-27",
+    "github_stars": 1592,
+    "github_contributors": 118,
+    "github_commits_this_year": 8,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://invoiceshelf.com",
+    "documentation": "https://github.com/InvoiceShelf/InvoiceShelf",
+    "source_code": "https://github.com/InvoiceShelf/InvoiceShelf",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/invoiceshelf.webp",
+    "issues": "https://github.com/InvoiceShelf/InvoiceShelf/issues",
+    "releases": "https://github.com/InvoiceShelf/InvoiceShelf/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invoiceshelf-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invoiceshelf-expenses.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Billing and Invoicing",
+      "description": "Manages invoices estimates and customer billing",
+      "core_feature": true
+    },
+    {
+      "title": "Client Management",
+      "description": "Organizes customer profiles and billing information"
+    },
+    {
+      "title": "Recurring Invoices",
+      "description": "Generates invoices on recurring schedules"
+    },
+    {
+      "title": "Expense Management",
+      "description": "Records and categorizes business expenses"
+    },
+    {
+      "title": "Tax Handling",
+      "description": "Configures tax rules for billing calculations"
+    },
+    {
+      "title": "Reporting",
+      "description": "Produces financial and billing summaries"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages billing operations through a browser"
+    },
+    {
+      "title": "Self-Hosted Billing Platform",
+      "description": "Runs the system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/invoiceshelf/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "invoiceshelf_ynh",
+      "url": "https://github.com/YunoHost-Apps/invoiceshelf_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

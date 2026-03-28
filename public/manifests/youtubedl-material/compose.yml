@@ -1,0 +1,52 @@
+# ===============================
+# Docker Compose (YoutubeDL-Material)
+# ===============================
+# host: http://localhost:8998
+# username: (set in app)
+# password: (set in app)
+
+services:
+  mongo:
+    image: mongo:6
+    container_name: ytdl_mongo
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  ytdl_material:
+    image: tzahi12345/youtubedl-material:latest
+    container_name: ytdl_material
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+    ports:
+      - "8998:17442"
+    environment:
+      ytdl_mongodb_connection_string: "mongodb://mongo:27017"
+      ytdl_use_local_db: "false"
+      write_ytdl_config: "true"
+    volumes:
+      - appdata:/app/appdata
+      - audio:/app/audio
+      - video:/app/video
+      - subscriptions:/app/subscriptions
+      - users:/app/users
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:17442"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  mongo_data:
+  appdata:
+  audio:
+  video:
+  subscriptions:
+  users:

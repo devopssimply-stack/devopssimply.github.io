@@ -1,0 +1,103 @@
+{
+  "name": "4ga-boards",
+  "slug": "4ga-boards",
+  "tagline": "A collaborative Kanban board for managing projects and tasks",
+  "subtitle": "",
+  "description": "4gaBoards is an open-source, self-hostable Kanban-style task-management web app designed for real-time collaboration. It features dark mode, intuitive drag-&-drop boards with multi-level hierarchy (projects → boards → lists → cards → tasks), advanced Markdown editing, import/export support (including from Trello), and simplified wide-screen UI with minimal clutter. Built with React/Redux on the front end and Sails.js/Knex/PostgreSQL on the back end, 4gaBoards is published under the MIT License and supports Docker / Kubernetes deployment.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.3.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 463,
+    "github_contributors": 41,
+    "github_commits_this_year": 154,
+    "github_issues_open": 143,
+    "github_issues_closed_this_year": 6,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://4gaboards.com",
+    "documentation": "https://github.com/RARgames/4gaBoards",
+    "source_code": "https://github.com/RARgames/4gaBoards",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/4ga-boards.webp",
+    "issues": "https://github.com/RARgames/4gaBoards/issues",
+    "releases": "https://github.com/RARgames/4gaBoards/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/4ga-boards-board.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Imageboard Engine",
+      "description": "Provides a web-based imageboard system for posting threads and replies with media attachments",
+      "core_feature": true
+    },
+    {
+      "title": "Anonymous Posting",
+      "description": "Allows users to create posts without requiring user accounts or personal identification",
+      "core_feature": true
+    },
+    {
+      "title": "Threaded Discussions",
+      "description": "Organizes posts into threads with replies displayed in a hierarchical or chronological structure",
+      "core_feature": true
+    },
+    {
+      "title": "Media Upload Support",
+      "description": "Supports attaching images and other media files to posts within threads"
+    },
+    {
+      "title": "Board Management",
+      "description": "Enables creation and configuration of multiple boards with separate topics or rules"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Provides basic controls for removing posts, threads, or inappropriate content"
+    },
+    {
+      "title": "Lightweight Deployment",
+      "description": "Designed to run with minimal dependencies and simple server-side setup"
+    }
+  ],
+  "hosting": [
+    "self_hosted",
+    "saas"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui",
+    "gui",
+    "api"
+  ],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/4ga-boards/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/4ga-boards/script.sh"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

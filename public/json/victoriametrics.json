@@ -1,0 +1,93 @@
+{
+  "name": "victoriametrics",
+  "slug": "victoriametrics",
+  "tagline": "A high-performance time series database compatible with Prometheus metrics",
+  "subtitle": "",
+  "description": "VictoriaMetrics is a fast, cost-effective time series database and monitoring solution. It can act as Prometheus-compatible storage, supports clustering, and exposes a web UI and HTTP APIs for queries and metrics.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.137.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 16449,
+    "github_contributors": 0,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://victoriametrics.com",
+    "documentation": "https://docs.victoriametrics.com",
+    "source_code": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/victoriametrics.webp",
+    "issues": "https://github.com/VictoriaMetrics/VictoriaMetrics/issues",
+    "releases": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/victoriametrics-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/victoriametrics-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/victoriametrics-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/victoriametrics-query.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Time-Series Database",
+      "description": "Store and query time-series metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Metrics Ingestion",
+      "description": "Ingest metrics at high throughput",
+      "core_feature": true
+    },
+    {
+      "title": "Query API",
+      "description": "Query metrics using supported APIs"
+    },
+    {
+      "title": "Data Retention",
+      "description": "Configure metric retention policies"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the database on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/victoriametrics/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "victoriametrics",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=victoriametrics"
+    }
+  },
+  "demo": {
+    "url": "https://play.victoriametrics.com",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "vaultls",
+  "slug": "vaultls",
+  "tagline": "A tool for automating TLS certificate management using HashiCorp Vault",
+  "subtitle": "",
+  "description": "VaulTLS is a self-hosted tool for managing TLS certificates via HashiCorp Vault, automating issuance and renewal for services through CLI commands and scripts.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.11.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 324,
+    "github_contributors": 4,
+    "github_commits_this_year": 31,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/7ritn/VaulTLS",
+    "documentation": "https://github.com/7ritn/VaulTLS",
+    "source_code": "https://github.com/7ritn/VaulTLS",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/vaultls.webp",
+    "issues": "https://github.com/7ritn/VaulTLS/issues",
+    "releases": "https://github.com/7ritn/VaulTLS/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/vaultls-screenshot-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/vaultls-screenshot-user.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "TLS Certificate Management",
+      "description": "Manage TLS certificates and keys",
+      "core_feature": true
+    },
+    {
+      "title": "Secure Storage",
+      "description": "Store certificates securely",
+      "core_feature": true
+    },
+    {
+      "title": "Access Policies",
+      "description": "Control access to certificates",
+      "core_feature": true
+    },
+    {
+      "title": "API Access",
+      "description": "Manage certificates programmatically"
+    },
+    {
+      "title": "Rotation Support",
+      "description": "Rotate certificates when needed"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/vaultls/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

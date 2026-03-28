@@ -1,0 +1,75 @@
+{
+  "name": "uncloud",
+  "slug": "uncloud",
+  "tagline": "A unified manager for multiple cloud storage providers",
+  "subtitle": "",
+  "description": "Uncloud is a self-hosted centralized cloud account manager that aggregates multiple cloud storage providers, giving a unified view and operations from a single web interface.",
+  "categories": [
+    25
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.17.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4698,
+    "github_contributors": 17,
+    "github_commits_this_year": 64,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://uncloud.run",
+    "documentation": "https://uncloud.run/docs",
+    "source_code": "https://github.com/psviderski/uncloud",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/uncloud.webp",
+    "issues": "https://github.com/psviderski/uncloud/issues",
+    "releases": "https://github.com/psviderski/uncloud/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/uncloud-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/uncloud-compose-deploy.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Cloud Platform",
+      "description": "Deploy and manage self-hosted services",
+      "core_feature": true
+    },
+    {
+      "title": "Service Templates",
+      "description": "Install services using predefined templates",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Configuration",
+      "description": "Configure services with environment variables"
+    },
+    {
+      "title": "Local Deployment",
+      "description": "Run services on personal infrastructure"
+    },
+    {
+      "title": "CLI Tooling",
+      "description": "Manage deployments from the command line"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

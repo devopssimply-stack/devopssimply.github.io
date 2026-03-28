@@ -1,0 +1,103 @@
+{
+  "name": "melody-auth",
+  "slug": "melody-auth",
+  "tagline": "An authentication and SSO service for managing users and permissions",
+  "subtitle": "",
+  "description": "Melody Auth is an authentication service designed for SSO and user/token management. It supports OAuth2 and a minimal admin UI for managing users, apps, and permissions in self-hosted environments.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.3.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-21",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 593,
+    "github_contributors": 5,
+    "github_commits_this_year": 9,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://auth.valuemelody.com/",
+    "documentation": "https://auth.valuemelody.com",
+    "source_code": "https://github.com/ValueMelody/melody-auth",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/melody-auth.webp",
+    "issues": "https://github.com/ValueMelody/melody-auth/issues",
+    "releases": "https://github.com/ValueMelody/melody-auth/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-account.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-app-banner-create.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-app-banner.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-app-create.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-app.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-apps.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-email-log.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-logs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-org-create.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-orgs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-role-create.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-role.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-roles.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-saml-create.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-saml.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-samls.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-scope-create.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-scope.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-scopes.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-sign-in-log.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-sms-log.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-user-attribute-create.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-user-attribute.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-user-attributes.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-user.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/melody-auth-admin-panel-users.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Authentication Service",
+      "description": "Provide authentication for applications",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage registered users and credentials",
+      "core_feature": true
+    },
+    {
+      "title": "Token-Based Auth",
+      "description": "Issue tokens for authenticated sessions",
+      "core_feature": true
+    },
+    {
+      "title": "API Integration",
+      "description": "Integrate authentication into external services"
+    },
+    {
+      "title": "Role Management",
+      "description": "Assign roles to control access"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the auth service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://auth-demo-server.valuemelody.com",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "olivetin",
+  "slug": "olivetin",
+  "tagline": "A web interface for securely running predefined shell commands",
+  "subtitle": "",
+  "description": "OliveTin is a simple web interface to run shell commands securely on servers via buttons. It’s aimed at simplifying routine tasks or delegating operations in a clean, self-hosted interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "3000.11.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 3458,
+    "github_contributors": 18,
+    "github_commits_this_year": 189,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 13
+  },
+  "resources": {
+    "website": "https://olivetin.app",
+    "documentation": "https://docs.olivetin.app",
+    "source_code": "https://github.com/OliveTin/OliveTin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/olivetin.webp",
+    "issues": "https://github.com/OliveTin/OliveTin/issues",
+    "releases": "https://github.com/OliveTin/OliveTin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/olivetin-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Command Execution UI",
+      "description": "Run predefined commands through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Access Restrictions",
+      "description": "Limit which commands users can run",
+      "core_feature": true
+    },
+    {
+      "title": "Button-Based Actions",
+      "description": "Trigger commands using buttons"
+    },
+    {
+      "title": "Audit Logging",
+      "description": "Record executed actions"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the interface on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/olivetin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "olivetin_ynh",
+      "url": "https://github.com/YunoHost-Apps/olivetin_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

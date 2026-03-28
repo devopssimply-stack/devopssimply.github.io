@@ -1,0 +1,95 @@
+{
+  "name": "logdy",
+  "slug": "logdy",
+  "tagline": "A real-time log collection and analysis platform for distributed systems",
+  "subtitle": "",
+  "description": "Logdy Core is a platform for collecting and analyzing logs in real-time from distributed systems. It features streaming dashboards, filterable views, and storage that works in both cloud and self-hosted environments.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.17.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-06-02",
+    "date_last_commit": "2025-08-25",
+    "github_stars": 2114,
+    "github_contributors": 6,
+    "github_commits_this_year": 0,
+    "github_issues_open": 32,
+    "github_issues_closed_this_year": 1,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://logdy.dev",
+    "documentation": "https://logdy.dev/docs/quick-start",
+    "source_code": "https://github.com/logdyhq/logdy-core",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/logdy.webp",
+    "issues": "https://github.com/logdyhq/logdy-core/issues",
+    "releases": "https://github.com/logdyhq/logdy-core/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/logdy-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Log Collection",
+      "description": "Collect logs from multiple sources",
+      "core_feature": true
+    },
+    {
+      "title": "Log Streaming",
+      "description": "Stream logs to connected dashboards",
+      "core_feature": true
+    },
+    {
+      "title": "Filtering",
+      "description": "Filter log entries by content and metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Storage Backend",
+      "description": "Persist logs to a storage backend"
+    },
+    {
+      "title": "Query Interface",
+      "description": "Query stored logs interactively"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the logging system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/logdy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "logdy_ynh",
+      "url": "https://github.com/YunoHost-Apps/logdy_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.logdy.dev",
+    "username": null,
+    "password": null
+  }
+}

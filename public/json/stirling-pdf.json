@@ -1,0 +1,106 @@
+{
+  "name": "stirling-pdf",
+  "slug": "stirling-pdf",
+  "tagline": "An all-in-one web-based toolkit for editing and converting PDF files",
+  "subtitle": "",
+  "description": "Stirling-PDF is a self-hosted all-in-one PDF toolkit that supports merging, splitting, converting, editing, and OCR through a powerful web interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 75008,
+    "github_contributors": 262,
+    "github_commits_this_year": 271,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 17
+  },
+  "resources": {
+    "website": "https://stirlingpdf.com",
+    "documentation": "https://docs.stirlingpdf.com",
+    "source_code": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/stirling-pdf.webp",
+    "issues": "https://github.com/Stirling-Tools/Stirling-PDF/issues",
+    "releases": "https://github.com/Stirling-Tools/Stirling-PDF/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/stirling-pdf-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/stirling-pdf-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "PDF Toolkit",
+      "description": "Perform common PDF operations",
+      "core_feature": true
+    },
+    {
+      "title": "Merge and Split",
+      "description": "Combine or split PDF files",
+      "core_feature": true
+    },
+    {
+      "title": "Conversion",
+      "description": "Convert PDFs to and from other formats",
+      "core_feature": true
+    },
+    {
+      "title": "Compression",
+      "description": "Reduce PDF file size"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage PDFs through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the PDF tools on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/stirling-pdf/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "stirling-pdf",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=stirling-pdf"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "stirling-pdf_ynh",
+      "url": "https://github.com/YunoHost-Apps/stirling-pdf_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "stirling-pdf",
+      "url": "https://apps.truenas.com/catalog/stirling-pdf"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

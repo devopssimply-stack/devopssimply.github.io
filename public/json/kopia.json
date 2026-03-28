@@ -1,0 +1,89 @@
+{
+  "name": "kopia",
+  "slug": "kopia",
+  "tagline": "An open source backup tool with encryption and deduplication",
+  "subtitle": "",
+  "description": "Kopia is an open source backup tool for files and snapshots. It supports encryption, deduplication and multiple storage backends, with both CLI and web UI, enabling safe incremental backups on self hosted infrastructure.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.22.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-02",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 12729,
+    "github_contributors": 140,
+    "github_commits_this_year": 51,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://kopia.io",
+    "documentation": "https://github.com/kopia/kopia",
+    "source_code": "https://github.com/kopia/kopia",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kopia.webp",
+    "issues": "https://github.com/kopia/kopia/issues",
+    "releases": "https://github.com/kopia/kopia/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kopia-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kopia-screnshots.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Backup Creation",
+      "description": "Create encrypted backups of files and directories",
+      "core_feature": true
+    },
+    {
+      "title": "Snapshot Management",
+      "description": "Manage point-in-time backup snapshots",
+      "core_feature": true
+    },
+    {
+      "title": "Restore Operations",
+      "description": "Restore files and directories from backups",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Storage Targets",
+      "description": "Store backups on local or remote storage locations"
+    },
+    {
+      "title": "Compression and Deduplication",
+      "description": "Reduce storage usage using compression and deduplication"
+    },
+    {
+      "title": "Command-Line and Web UI",
+      "description": "Manage backups using CLI or web-based interface"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kopia/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

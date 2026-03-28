@@ -1,0 +1,93 @@
+{
+  "name": "docassemble",
+  "slug": "docassemble",
+  "tagline": "A platform for building guided interviews and automated document workflows",
+  "subtitle": "",
+  "description": "Docassemble is a platform for building guided interviews and document assembly workflows. It helps create legal documents and forms using a python-based logic, web UI, and YAML-driven interview templates. Widely used in legal tech.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 926,
+    "github_contributors": 32,
+    "github_commits_this_year": 30,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://docassemble.org",
+    "documentation": "https://github.com/jhpyle/docassemble",
+    "source_code": "https://github.com/jhpyle/docassemble",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/docassemble.webp",
+    "issues": "https://github.com/jhpyle/docassemble/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/docassemble-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/docassemble-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Document Assembly Platform",
+      "description": "Generates documents through guided interviews",
+      "core_feature": true
+    },
+    {
+      "title": "Logic-Based Questionnaires",
+      "description": "Adapts questions based on user input",
+      "core_feature": true
+    },
+    {
+      "title": "Document Templates",
+      "description": "Produces documents from templates",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based Interviews",
+      "description": "Conducts interviews in a browser"
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Supports multiple users and sessions"
+    },
+    {
+      "title": "Data Storage",
+      "description": "Stores interview responses securely"
+    },
+    {
+      "title": "Integration Capabilities",
+      "description": "Integrates with external services"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/docassemble/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.docassemble.org",
+    "username": null,
+    "password": null
+  }
+}

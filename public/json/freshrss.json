@@ -1,0 +1,110 @@
+{
+  "name": "freshrss",
+  "slug": "freshrss",
+  "tagline": "A self-hosted RSS reader for aggregating, filtering, and reading feeds",
+  "subtitle": "",
+  "description": "FreshRSS is a self-hosted RSS feed aggregator for individuals or small teams. It supports multiple accounts, tags, filtering, and mobile-friendly UI with plugins and API integration for external apps.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.28.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-25",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 14227,
+    "github_contributors": 343,
+    "github_commits_this_year": 96,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://freshrss.org",
+    "documentation": "https://github.com/FreshRSS/FreshRSS",
+    "source_code": "https://github.com/FreshRSS/FreshRSS",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/freshrss.webp",
+    "issues": "https://github.com/FreshRSS/FreshRSS/issues",
+    "releases": "https://github.com/FreshRSS/FreshRSS/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freshrss-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freshrss-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/freshrss-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Feed Aggregation",
+      "description": "Collects RSS and Atom feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Web Feed Reader",
+      "description": "Reads feeds in a browser interface",
+      "core_feature": true
+    },
+    {
+      "title": "Category Management",
+      "description": "Organizes feeds into categories"
+    },
+    {
+      "title": "Read Status Tracking",
+      "description": "Tracks read and unread entries"
+    },
+    {
+      "title": "Search",
+      "description": "Searches feed content"
+    },
+    {
+      "title": "API Support",
+      "description": "Integrates with compatible clients"
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Separates data per user"
+    },
+    {
+      "title": "Self-Hosted RSS Reader",
+      "description": "Host the reader on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/freshrss/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "freshrss",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=freshrss"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "freshrss_ynh",
+      "url": "https://github.com/YunoHost-Apps/freshrss_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "freshrss",
+      "url": "https://apps.truenas.com/catalog/freshrss"
+    }
+  },
+  "demo": {
+    "url": "https://demo.freshrss.org",
+    "username": null,
+    "password": null
+  }
+}

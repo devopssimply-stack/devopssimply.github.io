@@ -1,0 +1,98 @@
+{
+  "name": "dozzle",
+  "slug": "dozzle",
+  "tagline": "A real-time web interface for viewing Docker container logs",
+  "subtitle": "",
+  "description": "Dozzle is a lightweight, real-time log viewer for Docker containers. It runs as a container and provides a web UI to browse and filter logs across containers, making it easy to debug and monitor running services.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v10.0.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 11926,
+    "github_contributors": 93,
+    "github_commits_this_year": 162,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 12
+  },
+  "resources": {
+    "website": "https://dozzle.dev/",
+    "documentation": "https://github.com/amir20/dozzle",
+    "source_code": "https://github.com/amir20/dozzle",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dozzle.webp",
+    "issues": "https://github.com/amir20/dozzle/issues",
+    "releases": "https://github.com/amir20/dozzle/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dozzle-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Container Log Viewer",
+      "description": "Streams Docker container logs",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Streaming",
+      "description": "Displays logs as they are generated",
+      "core_feature": true
+    },
+    {
+      "title": "Container Selection",
+      "description": "Filters logs by container"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Views logs in the browser"
+    },
+    {
+      "title": "Lightweight Deployment",
+      "description": "Runs with minimal configuration"
+    },
+    {
+      "title": "Read-Only Access",
+      "description": "Does not modify containers"
+    },
+    {
+      "title": "Search Capability",
+      "description": "Searches log output"
+    },
+    {
+      "title": "Self-Hosted Logging",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dozzle/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "dozzle",
+      "url": "https://apps.truenas.com/catalog/dozzle"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

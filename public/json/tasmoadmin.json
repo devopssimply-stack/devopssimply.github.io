@@ -1,0 +1,88 @@
+{
+  "name": "tasmoadmin",
+  "slug": "tasmoadmin",
+  "tagline": "A centralized admin panel for managing and monitoring Tasmota IoT devices",
+  "subtitle": "",
+  "description": "TasmoAdmin is a self-hosted administration panel for managing Tasmota-flashed IoT devices. It allows firmware updates, configuration, and monitoring from a centralized UI.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v4.3.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 959,
+    "github_contributors": 35,
+    "github_commits_this_year": 35,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/TasmoAdmin/TasmoAdmin",
+    "documentation": "https://github.com/TasmoAdmin/TasmoAdmin",
+    "source_code": "https://github.com/TasmoAdmin/TasmoAdmin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tasmoadmin.webp",
+    "issues": "https://github.com/TasmoAdmin/TasmoAdmin/issues",
+    "releases": "https://github.com/TasmoAdmin/TasmoAdmin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tasmoadmin-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Tasmota Device Management",
+      "description": "Manage Tasmota-based IoT devices",
+      "core_feature": true
+    },
+    {
+      "title": "Firmware Updates",
+      "description": "Update device firmware remotely",
+      "core_feature": true
+    },
+    {
+      "title": "Device Configuration",
+      "description": "Configure device settings centrally"
+    },
+    {
+      "title": "Device Overview",
+      "description": "View connected devices and status"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Control devices through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tasmoadmin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "tasmoadmin",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=tasmoadmin"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

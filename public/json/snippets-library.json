@@ -1,0 +1,84 @@
+{
+  "name": "snippets-library",
+  "slug": "snippets-library",
+  "tagline": "A self-hosted code snippet manager for developers",
+  "subtitle": "",
+  "description": "snippetslibrary.com provides a self-hosted code snippet manager with tagging, search, and categorization. It’s built for developers to store and quickly retrieve reusable code.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-13",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 62,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://snippetslibrary.com/",
+    "documentation": "https://github.com/cojocaru-david/snippetslibrary.com",
+    "source_code": "https://github.com/cojocaru-david/snippetslibrary.com",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/snippets-library.webp",
+    "issues": "https://github.com/cojocaru-david/snippetslibrary.com/issues",
+    "releases": "https://github.com/cojocaru-david/snippetslibrary.com/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/snippets-library-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Code Snippet Management",
+      "description": "Store and organize code snippets",
+      "core_feature": true
+    },
+    {
+      "title": "Syntax Highlighting",
+      "description": "Display snippets with syntax highlighting",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize snippets using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search snippets by content or tags"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage snippets through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the snippet library on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/snippets-library/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

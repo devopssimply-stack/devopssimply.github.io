@@ -1,0 +1,87 @@
+{
+  "name": "openspeedtest",
+  "slug": "openspeedtest",
+  "tagline": "A self-hosted internet speed test with a responsive web interface",
+  "subtitle": "",
+  "description": "OpenSpeedTest is a self-hosted internet speed test tool with a responsive web interface. It measures download, upload, and latency through your browser without plugins or dependencies.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2024-06-04",
+    "github_stars": 3435,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 46,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://openspeedtest.com",
+    "documentation": "https://github.com/openspeedtest/Speed-Test#self-hosted-on-premise--docker-imagesource-code",
+    "source_code": "https://github.com/openspeedtest/Speed-Test",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openspeedtest.webp",
+    "issues": "https://github.com/openspeedtest/Speed-Test/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openspeedtest-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openspeedtest-sample-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network Speed Testing",
+      "description": "Measure download, upload, and latency",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Run speed tests through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Result Sharing",
+      "description": "Share test results with others"
+    },
+    {
+      "title": "Client Metrics",
+      "description": "Display connection details during tests"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Host the speed test on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/openspeedtest/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "open-speed-test",
+      "url": "https://apps.truenas.com/catalog/open-speed-test"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

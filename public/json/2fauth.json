@@ -1,0 +1,109 @@
+{
+  "name": "2fauth",
+  "slug": "2fauth",
+  "tagline": "A web application for managing and generating two-factor authentication codes",
+  "description": "2FAuth is an open-source, self-hosted web application built to manage your two-factor authentication (2FA) accounts and generate their security codes (TOTP/HOTP and Steam Guard). It supports features like adding accounts via QR code or manually, organising accounts into groups, encryption of sensitive data, auto-logout on inactivity, and single-user usage. It's designed for both mobile and desktop access, giving you an alternative to smartphone-only apps like Google Authenticator—so you can run 2FAuth on your own server, backup your database, and avoid relying solely on a mobile device.",
+  "categories": [
+    2
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v6.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-14",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 3811,
+    "github_contributors": 19,
+    "github_commits_this_year": 6,
+    "github_issues_open": 27,
+    "github_issues_closed_this_year": 25,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://docs.2fauth.app",
+    "documentation": "https://github.com/Bubka/2FAuth",
+    "source_code": "https://github.com/Bubka/2FAuth",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/2fauth.webp",
+    "issues": "https://github.com/Bubka/2FAuth/issues",
+    "releases": "https://github.com/Bubka/2FAuth/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/2fauth-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/2fauth-screenshots-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Two-Factor Authentication Codes",
+      "description": "Generate TOTP, HOTP, and Steam Guard codes",
+      "core_feature": true
+    },
+    {
+      "title": "Account Management",
+      "description": "Add and manage multiple 2FA accounts",
+      "core_feature": true
+    },
+    {
+      "title": "QR Code Import",
+      "description": "Add accounts using QR codes",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access 2FA codes through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Encryption",
+      "description": "Encrypt stored authentication secrets"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the application on your own servers"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android",
+    "ios",
+    "web"
+  ],
+  "interface": [
+    "web_ui",
+    "gui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/2fauth/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "2fauth",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=2fauth"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "2FAuth_ynh",
+      "url": "https://github.com/YunoHost-Apps/2FAuth_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.2fauth.app",
+    "username": "demo@2fauth.app",
+    "password": "demo"
+  }
+}

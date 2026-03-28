@@ -1,0 +1,84 @@
+{
+  "name": "teemii",
+  "slug": "teemii",
+  "tagline": "A simple team and project management board for tracking tasks and progress",
+  "subtitle": "",
+  "description": "Teemii is a self-hosted team and project management board with tasks, statuses, and collaboration features. It provides a simple, responsive web UI for managing workloads and progress across teams.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.8.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-01-15",
+    "date_last_commit": "2024-03-08",
+    "github_stars": 449,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.teemii.io",
+    "documentation": "https://docs.teemii.io/Quick-Start",
+    "source_code": "https://github.com/dokkaner/teemii",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/teemii.webp",
+    "issues": "https://github.com/dokkaner/teemii/issues",
+    "releases": "https://github.com/dokkaner/teemii/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teemii-manga-detail.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Team Collaboration",
+      "description": "Manage team discussions and tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Task Tracking",
+      "description": "Track work items and progress",
+      "core_feature": true
+    },
+    {
+      "title": "Messaging",
+      "description": "Communicate within teams",
+      "core_feature": true
+    },
+    {
+      "title": "Project Organization",
+      "description": "Organize work by projects"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access collaboration tools through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the collaboration platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/teemii/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

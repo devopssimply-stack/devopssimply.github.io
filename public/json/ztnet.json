@@ -1,0 +1,87 @@
+{
+  "name": "ztnet",
+  "slug": "ztnet",
+  "tagline": "A management UI for ZeroTier networks to control members and access rules",
+  "subtitle": "",
+  "description": "ztnet is a self-hosted controller and management UI for ZeroTier networks. It lets administrators manage networks, members, and access rules via a central, easy-to-use web dashboard.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.7.14",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-12",
+    "date_last_commit": "2026-02-07",
+    "github_stars": 1061,
+    "github_contributors": 19,
+    "github_commits_this_year": 10,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://ztnet.network",
+    "documentation": "https://github.com/sinamics/ztnet",
+    "source_code": "https://github.com/sinamics/ztnet",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ztnet.webp",
+    "issues": "https://github.com/sinamics/ztnet/issues",
+    "releases": "https://github.com/sinamics/ztnet/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ztnet-admin-users.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ztnet-member-options.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ztnet-organization-layout.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ztnet-profile.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network Management",
+      "description": "Manage ZeroTier networks",
+      "core_feature": true
+    },
+    {
+      "title": "Member Management",
+      "description": "Manage network members and permissions",
+      "core_feature": true
+    },
+    {
+      "title": "Status Monitoring",
+      "description": "Monitor network status",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage networks in a browser"
+    },
+    {
+      "title": "Access Policies",
+      "description": "Configure network rules"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ztnet/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "sunshine",
+  "slug": "sunshine",
+  "tagline": "A low-latency self-hosted game streaming server compatible with Moonlight",
+  "subtitle": "",
+  "description": "Sunshine is a self-hosted game streaming host that works with Moonlight and similar clients. It captures and streams your desktop or games with low-latency encoding.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2025.924.154138",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-24",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 34983,
+    "github_contributors": 160,
+    "github_commits_this_year": 116,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "http://app.lizardbyte.dev/Sunshine",
+    "documentation": "https://docs.lizardbyte.dev/projects/sunshine/latest",
+    "source_code": "https://github.com/LizardByte/Sunshine",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sunshine.webp",
+    "issues": "https://github.com/LizardByte/Sunshine/issues",
+    "releases": "https://github.com/LizardByte/Sunshine/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sunshine-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Game Streaming Server",
+      "description": "Stream games from a host machine to clients",
+      "core_feature": true
+    },
+    {
+      "title": "Hardware Encoding",
+      "description": "Use GPU acceleration for streaming",
+      "core_feature": true
+    },
+    {
+      "title": "Client Compatibility",
+      "description": "Stream to supported client applications",
+      "core_feature": true
+    },
+    {
+      "title": "Input Forwarding",
+      "description": "Forward controller and keyboard input"
+    },
+    {
+      "title": "Stream Configuration",
+      "description": "Configure streaming quality and settings"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the streaming server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sunshine/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

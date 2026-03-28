@@ -1,0 +1,91 @@
+{
+  "name": "baikal",
+  "slug": "baikal",
+  "tagline": "A lightweight CalDAV and CardDAV server for calendars and contacts",
+  "subtitle": "",
+  "description": "Baikal is a lightweight CalDAV and CardDAV server that enables users to host their own calendars and contact lists. Ideal for minimal self-hosted setups, it supports syncing with desktop and mobile clients via standard protocols.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "0.11.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-30",
+    "date_last_commit": "2026-01-06",
+    "github_stars": 3089,
+    "github_contributors": 55,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://sabre.io/baikal/",
+    "documentation": "https://sabre.io/baikal/",
+    "source_code": "https://github.com/sabre-io/Baikal",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/baikal.webp",
+    "issues": "https://github.com/sabre-io/Baikal/issues",
+    "releases": "https://github.com/sabre-io/Baikal/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/baikal-web-admin.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Calendar and Contacts Server",
+      "description": "Host calendars and address books using open standards",
+      "core_feature": true
+    },
+    {
+      "title": "CalDAV and CardDAV Support",
+      "description": "Sync with compatible calendar and contact clients",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage users and their calendars"
+    },
+    {
+      "title": "Web Administration",
+      "description": "Configure server settings through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/baikal/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "baikal",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=baikal"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "baikal_ynh",
+      "url": "https://github.com/YunoHost-Apps/baikal_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

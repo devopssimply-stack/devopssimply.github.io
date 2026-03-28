@@ -1,0 +1,84 @@
+{
+  "name": "cryptgeon",
+  "slug": "cryptgeon",
+  "tagline": "A self-hosted service for sharing encrypted messages with automatic expiration",
+  "subtitle": "",
+  "description": "Cryptgeon is a self-hosted note sharing service focused on encryption and automatic expiration. Users can create messages or files that auto-delete after being viewed, ideal for private link sharing via a temporary UI.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.9.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-27",
+    "date_last_commit": "2025-04-04",
+    "github_stars": 1367,
+    "github_contributors": 18,
+    "github_commits_this_year": 0,
+    "github_issues_open": 18,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://cryptgeon.org/",
+    "documentation": "https://github.com/cupcakearmy/cryptgeon",
+    "source_code": "https://github.com/cupcakearmy/cryptgeon",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cryptgeon.webp",
+    "issues": "https://github.com/cupcakearmy/cryptgeon/issues",
+    "releases": "https://github.com/cupcakearmy/cryptgeon/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cryptgeon-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cryptgeon-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Secure Secret Sharing",
+      "description": "Shares secrets with client-side encryption",
+      "core_feature": true
+    },
+    {
+      "title": "One-Time Links",
+      "description": "Expires secrets after access",
+      "core_feature": true
+    },
+    {
+      "title": "Password Protection",
+      "description": "Protects secrets with passphrases"
+    },
+    {
+      "title": "Expiration Control",
+      "description": "Sets time-based expiration"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Shares secrets through browser"
+    },
+    {
+      "title": "Self-Hosted Privacy",
+      "description": "Runs without external services"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cryptgeon/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://cryptgeon.org",
+    "username": null,
+    "password": null
+  }
+}

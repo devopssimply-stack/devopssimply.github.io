@@ -1,0 +1,95 @@
+{
+  "name": "dashdot",
+  "slug": "dash",
+  "tagline": "A modern dashboard for monitoring system health and resource usage",
+  "subtitle": "",
+  "description": "Dashdot is a modern, customizable dashboard for monitoring system health. It provides resource graphs, hardware info, network stats, and works with systems running Docker or Linux, all in a polished web UI.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v6.3.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3365,
+    "github_contributors": 26,
+    "github_commits_this_year": 99,
+    "github_issues_open": 43,
+    "github_issues_closed_this_year": 10,
+    "github_releases_this_year": 9
+  },
+  "resources": {
+    "website": "https://getdashdot.com/",
+    "documentation": "https://getdashdot.com/docs/installation/docker",
+    "source_code": "https://github.com/MauriceNino/dashdot",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dash.webp",
+    "issues": "https://github.com/MauriceNino/dashdot/issues",
+    "releases": "https://github.com/MauriceNino/dashdot/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dash-darkmode.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dash-lightmode.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dash-screenshot-darkmode.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dash-screenshot-lightmode.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "System Resource Dashboard",
+      "description": "Displays system resource usage in real time",
+      "core_feature": true
+    },
+    {
+      "title": "Hardware Monitoring",
+      "description": "Shows CPU memory disk and network statistics",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Updates",
+      "description": "Updates metrics continuously",
+      "core_feature": true
+    },
+    {
+      "title": "Minimal Web UI",
+      "description": "Presents data in a clean browser interface"
+    },
+    {
+      "title": "Container Support",
+      "description": "Runs inside container environments"
+    },
+    {
+      "title": "Low Resource Usage",
+      "description": "Operates with minimal overhead"
+    },
+    {
+      "title": "Responsive Layout",
+      "description": "Adapts display to different screen sizes"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Runs locally or on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dash/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://dash.mauz.dev",
+    "username": null,
+    "password": null
+  }
+}

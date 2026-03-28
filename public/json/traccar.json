@@ -1,0 +1,99 @@
+{
+  "name": "traccar",
+  "slug": "traccar",
+  "tagline": "A GPS tracking platform with real-time maps, alerts, and historical reports",
+  "subtitle": "",
+  "description": "Traccar is a self-hosted GPS tracking platform that collects location data from various devices and mobile apps. It features real-time map views, alerts, and reports via a rich web UI and mobile-friendly tools, plus a hosted cloud option.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v6.12.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-27",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 7054,
+    "github_contributors": 198,
+    "github_commits_this_year": 72,
+    "github_issues_open": 414,
+    "github_issues_closed_this_year": 11,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.traccar.org",
+    "documentation": "https://www.traccar.org/documentation",
+    "source_code": "https://github.com/traccar/traccar",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/traccar.webp",
+    "issues": "https://github.com/traccar/traccar/issues",
+    "releases": "https://github.com/traccar/traccar/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/traccar-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "GPS Tracking Platform",
+      "description": "Track vehicles and assets using GPS",
+      "core_feature": true
+    },
+    {
+      "title": "Device Support",
+      "description": "Support many GPS tracker models",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Tracking",
+      "description": "View live location updates"
+    },
+    {
+      "title": "History Playback",
+      "description": "Review past routes and trips"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage tracking through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/traccar/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "traccar",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=traccar"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "traccar_ynh",
+      "url": "https://github.com/YunoHost-Apps/traccar_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "traccar",
+      "url": "https://apps.truenas.com/catalog/traccar"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

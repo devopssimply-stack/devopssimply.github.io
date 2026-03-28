@@ -1,0 +1,90 @@
+{
+  "name": "palmr",
+  "slug": "palmr",
+  "tagline": "A self-hosted personal finance app for tracking expenses and budgets",
+  "subtitle": "",
+  "description": "Palmr is a self-hosted personal finance tool built on Next.js. It offers expense tracking, budget categories, and insights with a modern, customizable web UI and a responsive design.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v3.3.2-beta",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-10",
+    "date_last_commit": "2026-02-27",
+    "github_stars": 2422,
+    "github_contributors": 15,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://palmr.kyantech.com.br",
+    "documentation": "https://github.com/kyantech/Palmr",
+    "source_code": "https://github.com/kyantech/Palmr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/palmr.webp",
+    "issues": "https://github.com/kyantech/Palmr/issues",
+    "releases": "https://github.com/kyantech/Palmr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-file-list-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-file-shared-management.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-files-card-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-forgot-password.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-profile-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-receive-files.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-reverse-share.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-settings-panel.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-user-management.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/palmr-we-transfer-style.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing Service",
+      "description": "Upload and share files using links",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Rules",
+      "description": "Set time limits for shared files"
+    },
+    {
+      "title": "Access Control",
+      "description": "Protect shared files with passwords"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Upload and manage files through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/palmr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

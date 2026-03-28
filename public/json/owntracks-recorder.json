@@ -1,0 +1,76 @@
+{
+  "name": "owntracks-recorder",
+  "slug": "owntracks-recorder",
+  "tagline": "A lightweight server for storing and replaying OwnTracks location data",
+  "subtitle": "",
+  "description": "OwnTracks Recorder is a lightweight self-hosted server for storing and accessing location data from OwnTracks apps. It allows replaying and visualizing historical location events with a minimal UI.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL",
+    "version": "1.0.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-12",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1133,
+    "github_contributors": 44,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/owntracks/recorder",
+    "documentation": "https://github.com/owntracks/recorder",
+    "source_code": "https://github.com/owntracks/recorder",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/owntracks-recorder.webp",
+    "issues": "https://github.com/owntracks/recorder/issues",
+    "releases": "https://github.com/owntracks/recorder/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Location Recording",
+      "description": "Store location data from devices",
+      "core_feature": true
+    },
+    {
+      "title": "Time Series Storage",
+      "description": "Save location history over time"
+    },
+    {
+      "title": "Query API",
+      "description": "Retrieve location data programmatically"
+    },
+    {
+      "title": "Device Filtering",
+      "description": "Filter data by device"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the recorder on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/owntracks-recorder/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

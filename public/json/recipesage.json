@@ -1,0 +1,90 @@
+{
+  "name": "recipesage",
+  "slug": "recipesage",
+  "tagline": "A self-hosted recipe manager with meal planning and cooking tools",
+  "subtitle": "",
+  "description": "RecipeSage is a self-hosted recipe manager with tagging, meal planning, ingredient scaling, and import features. It includes a mobile-friendly UI for organizing and cooking at home.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": "v3.3.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-31",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 841,
+    "github_contributors": 56,
+    "github_commits_this_year": 368,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 20
+  },
+  "resources": {
+    "website": "https://recipesage.com",
+    "documentation": "https://github.com/julianpoy/RecipeSage",
+    "source_code": "https://github.com/julianpoy/RecipeSage",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/recipesage.webp",
+    "issues": "https://github.com/julianpoy/RecipeSage/issues",
+    "releases": "https://github.com/julianpoy/RecipeSage/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-mealplan-desktop.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-myrecipes-desktop.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-recipesage.com-(1280x800)---extension-open.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-recipesage.com-(1280x800).webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-screenshot-20190511-135819.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-screenshot-20190511-135938.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-screenshot-20190511-140019.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/recipesage-screenshot-20190511-140559.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Recipe Management",
+      "description": "Store and manage cooking recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Recipe Import",
+      "description": "Import recipes from URLs",
+      "core_feature": true
+    },
+    {
+      "title": "Meal Planning",
+      "description": "Plan meals using saved recipes"
+    },
+    {
+      "title": "Shopping Lists",
+      "description": "Generate shopping lists from recipes"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access recipes through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/recipesage/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

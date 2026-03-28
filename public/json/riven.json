@@ -1,0 +1,85 @@
+{
+  "name": "riven",
+  "slug": "riven",
+  "tagline": "A media automation platform for managing movies, TV, and music libraries",
+  "subtitle": "",
+  "description": "Riven is a self-hosted media automation platform similar to Sonarr/Radarr but built for managing music, movies, and TV libraries with customizable pipelines.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.23.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-24",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 749,
+    "github_contributors": 31,
+    "github_commits_this_year": 16,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://riven.tv",
+    "documentation": "https://riven.tv/docs",
+    "source_code": "https://github.com/rivenmedia/riven",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/riven.webp",
+    "issues": "https://github.com/rivenmedia/riven/issues",
+    "releases": "https://github.com/rivenmedia/riven/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/riven-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/riven-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Server",
+      "description": "Organize and stream media libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Manage movies and series collections",
+      "core_feature": true
+    },
+    {
+      "title": "Playback Interface",
+      "description": "Play media through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Handling",
+      "description": "Display metadata for media items"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage access with user profiles"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the media server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/riven/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

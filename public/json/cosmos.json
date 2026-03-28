@@ -1,0 +1,100 @@
+{
+  "name": "cosmos-server",
+  "slug": "cosmos",
+  "tagline": "A self-hosted platform for deploying and managing containerized services",
+  "subtitle": "",
+  "description": "Cosmos Server is a self-hosted platform that provides a lightweight framework for building and hosting AI-powered services. It simplifies deploying web services using containers with an elegant UI.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.21.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 5751,
+    "github_contributors": 19,
+    "github_commits_this_year": 61,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 32
+  },
+  "resources": {
+    "website": "https://cosmos-cloud.io",
+    "documentation": "https://cosmos-cloud.io/docs/index",
+    "source_code": "https://github.com/azukaar/Cosmos-Server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cosmos.webp",
+    "issues": "https://github.com/azukaar/Cosmos-Server/issues",
+    "releases": "https://github.com/azukaar/Cosmos-Server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cosmos-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cosmos-2fa.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cosmos-market-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cosmos-monitoring.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cosmos-urls.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cosmos-users.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cosmos-vpn.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Server Management Dashboard",
+      "description": "Manages self-hosted services",
+      "core_feature": true
+    },
+    {
+      "title": "Reverse Proxy",
+      "description": "Routes traffic to applications",
+      "core_feature": true
+    },
+    {
+      "title": "Application Catalog",
+      "description": "Installs apps from templates"
+    },
+    {
+      "title": "Authentication Layer",
+      "description": "Secures hosted services"
+    },
+    {
+      "title": "Container Management",
+      "description": "Manages Docker containers"
+    },
+    {
+      "title": "Web-Based UI",
+      "description": "Controls server through browser"
+    },
+    {
+      "title": "Self-Hosted Control Panel",
+      "description": "Runs on user servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cosmos/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "cosmos",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=cosmos"
+    }
+  },
+  "demo": {
+    "url": "https://cosmos-cloud.io/cosmos-ui/",
+    "username": null,
+    "password": null
+  }
+}

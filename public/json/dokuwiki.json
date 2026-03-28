@@ -1,0 +1,99 @@
+{
+  "name": "dokuwiki",
+  "slug": "dokuwiki",
+  "tagline": "A file-based wiki engine for documentation and internal knowledge bases",
+  "subtitle": "",
+  "description": "DokuWiki is a simple, file-based wiki engine designed for documentation, knowledge bases, and intranets. It stores content in plain text files, offers plugins and templates, and requires no database, making it easy to run on modest servers.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "release-2025-05-14b",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-09",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 4574,
+    "github_contributors": 278,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://www.dokuwiki.org",
+    "documentation": "https://github.com/dokuwiki/dokuwiki",
+    "source_code": "https://github.com/dokuwiki/dokuwiki",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dokuwiki.webp",
+    "issues": "https://github.com/dokuwiki/dokuwiki/issues",
+    "releases": "https://github.com/dokuwiki/dokuwiki/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dokuwiki-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Wiki Platform",
+      "description": "Creates and manages wiki content",
+      "core_feature": true
+    },
+    {
+      "title": "File-Based Storage",
+      "description": "Stores pages as plain text files",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Manages user permissions",
+      "core_feature": true
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extends wiki functionality"
+    },
+    {
+      "title": "Template Support",
+      "description": "Customizes wiki appearance"
+    },
+    {
+      "title": "Revision History",
+      "description": "Tracks page changes"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches wiki content"
+    },
+    {
+      "title": "Self-Hosted Wiki",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dokuwiki/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "dokuwiki_ynh",
+      "url": "https://github.com/YunoHost-Apps/dokuwiki_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

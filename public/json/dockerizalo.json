@@ -1,0 +1,94 @@
+{
+  "name": "dockerizalo",
+  "slug": "dockerizalo",
+  "tagline": "A platform for deploying Docker-based applications using predefined stacks",
+  "subtitle": "",
+  "description": "Dockerizalo provides an easy way to deploy and orchestrate Docker-based apps using pre-configured stacks. It includes automated setup scripts and templates for self-hosting common tools and services.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-07-08",
+    "date_last_commit": "2025-07-08",
+    "github_stars": 488,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://github.com/undernightcore/dockerizalo",
+    "source_code": "https://github.com/undernightcore/dockerizalo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dockerizalo.webp",
+    "issues": "https://github.com/undernightcore/dockerizalo/issues",
+    "releases": "https://github.com/undernightcore/dockerizalo/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockerizalo-builds.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockerizalo-home.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockerizalo-ports.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dockerizalo-tokens.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Docker Deployment Generator",
+      "description": "Generates Docker deployment files from configuration",
+      "core_feature": true
+    },
+    {
+      "title": "Template-Based Setup",
+      "description": "Uses templates to standardize container setups",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Variable Handling",
+      "description": "Injects environment variables into generated configs"
+    },
+    {
+      "title": "Multi-Service Support",
+      "description": "Generates configurations for multiple services"
+    },
+    {
+      "title": "CLI Interface",
+      "description": "Runs generation tasks from the command line"
+    },
+    {
+      "title": "Configuration Validation",
+      "description": "Validates generated Docker files"
+    },
+    {
+      "title": "Automation Friendly",
+      "description": "Integrates into CI and scripts"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Runs on user machines"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dockerizalo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

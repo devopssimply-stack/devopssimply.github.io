@@ -1,0 +1,98 @@
+{
+  "name": "duplicacy",
+  "slug": "duplicacy",
+  "tagline": "A backup tool with deduplication and encryption for local and cloud storage",
+  "subtitle": "",
+  "description": "Duplicacy is a cross-platform backup tool with deduplication and encryption, designed to back up to various cloud and local storage providers. It focuses on reliability and space efficiency for desktops and servers.",
+  "categories": [
+    18
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Acrosync License",
+    "version": "v3.2.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-05-03",
+    "date_last_commit": "2025-05-03",
+    "github_stars": 5630,
+    "github_contributors": 51,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://duplicacy.com",
+    "documentation": "https://duplicacy.com/guide.html",
+    "source_code": "https://github.com/gilbertchen/duplicacy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/duplicacy.webp",
+    "issues": "https://github.com/gilbertchen/duplicacy/issues",
+    "releases": "https://github.com/gilbertchen/duplicacy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-dwe-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-backup-added.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-backup-start.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-job-added.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-restore-files.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-restore-start.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-schedule-added.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-schedule-new.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-set-passwords.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-setting.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-start.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/duplicacy-web-storage-added.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Encrypted Backup",
+      "description": "Creates encrypted backups",
+      "core_feature": true
+    },
+    {
+      "title": "Deduplication",
+      "description": "Avoids storing duplicate data",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Storage Backends",
+      "description": "Supports local and cloud storage",
+      "core_feature": true
+    },
+    {
+      "title": "Snapshot-Based Backups",
+      "description": "Uses snapshot versioning"
+    },
+    {
+      "title": "Command Line Tool",
+      "description": "Manages backups via CLI"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Runs on major operating systems"
+    },
+    {
+      "title": "Restore Capabilities",
+      "description": "Restores files from backups"
+    },
+    {
+      "title": "Self-Hosted Backups",
+      "description": "Runs on user-managed systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

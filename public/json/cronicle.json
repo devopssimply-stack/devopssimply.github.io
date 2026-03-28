@@ -1,0 +1,95 @@
+{
+  "name": "cronicle",
+  "slug": "cronicle",
+  "tagline": "A distributed task scheduler with a web-based management interface",
+  "subtitle": "",
+  "description": "Cronicle is a self-hosted distributed task scheduler with a web-based GUI for managing jobs across multiple servers. It supports load balancing, per-job permissions, job history, plugins, and notifications.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.9.107",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-02-23",
+    "github_stars": 5522,
+    "github_contributors": 12,
+    "github_commits_this_year": 16,
+    "github_issues_open": 319,
+    "github_issues_closed_this_year": 5,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "http://cronicle.net",
+    "documentation": "https://github.com/jhuckaby/Cronicle",
+    "source_code": "https://github.com/jhuckaby/Cronicle",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cronicle.webp",
+    "issues": "https://github.com/jhuckaby/Cronicle/issues",
+    "releases": "https://github.com/jhuckaby/Cronicle/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cronicle-analytics.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cronicle-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Distributed Job Scheduler",
+      "description": "Schedules and runs cron jobs",
+      "core_feature": true
+    },
+    {
+      "title": "Web-Based UI",
+      "description": "Manages jobs through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Node Execution",
+      "description": "Runs jobs across multiple servers"
+    },
+    {
+      "title": "Job Monitoring",
+      "description": "Tracks job execution status"
+    },
+    {
+      "title": "Logging",
+      "description": "Stores job output logs"
+    },
+    {
+      "title": "Access Control",
+      "description": "Manages user permissions"
+    },
+    {
+      "title": "Self-Hosted Scheduler",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cronicle/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "cronicle",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=cronicle"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

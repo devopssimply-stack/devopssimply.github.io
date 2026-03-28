@@ -1,0 +1,111 @@
+{
+  "name": "headscale",
+  "slug": "headscale",
+  "tagline": "A self-hosted control server for managing private WireGuard mesh networks",
+  "subtitle": "",
+  "description": "Headscale is an open-source control server for Tailscale networks. It manages lightweight peer-to-peer VPN meshes using WireGuard, enabling private secure networking without relying on external cloud services.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-3-Clause",
+    "version": "v0.28.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 36154,
+    "github_contributors": 226,
+    "github_commits_this_year": 204,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "hhttps://headscale.net",
+    "documentation": "https://headscale.net/stable/ref/configuration/",
+    "source_code": "https://github.com/juanfont/headscale",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/headscale.webp",
+    "issues": "https://github.com/juanfont/headscale/issues",
+    "releases": "https://github.com/juanfont/headscale/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/headscale-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Tailscale Control Server",
+      "description": "Acts as a coordination server for Tailscale clients",
+      "core_feature": true
+    },
+    {
+      "title": "Device Registration",
+      "description": "Registers and manages connected devices",
+      "core_feature": true
+    },
+    {
+      "title": "Network Coordination",
+      "description": "Enables peer-to-peer connectivity between nodes"
+    },
+    {
+      "title": "Access Control Lists",
+      "description": "Controls which devices can communicate"
+    },
+    {
+      "title": "User Namespaces",
+      "description": "Separates devices by user or organization"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates network management with automation tools"
+    },
+    {
+      "title": "Management Interface",
+      "description": "Views and manages nodes using supported interfaces"
+    },
+    {
+      "title": "Self-Hosted VPN Control",
+      "description": "Run the control server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/headscale/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "headscale",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=headscale"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "headscale_ynh",
+      "url": "https://github.com/YunoHost-Apps/headscale_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "headscale",
+      "url": "https://apps.truenas.com/catalog/headscale"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

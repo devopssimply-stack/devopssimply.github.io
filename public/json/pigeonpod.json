@@ -1,0 +1,86 @@
+{
+  "name": "pigeonpod",
+  "slug": "pigeonpod",
+  "tagline": "A self-hosted podcast tracker for organizing shows and episodes",
+  "subtitle": "",
+  "description": "Pigeon Pod is a self-hosted web app for tracking podcasts and episodes, offering tags, lists, and listening history for enthusiasts who want privacy and custom organization.",
+  "categories": [
+    14
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "1.23.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 922,
+    "github_contributors": 2,
+    "github_commits_this_year": 83,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://pigeonpod.cloud",
+    "documentation": "https://github.com/aizhimou/pigeon-pod",
+    "source_code": "https://github.com/aizhimou/pigeon-pod",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pigeonpod.webp",
+    "issues": "https://github.com/aizhimou/pigeon-pod/issues",
+    "releases": "https://github.com/aizhimou/pigeon-pod/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigeonpod-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigeonpod-feed.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigeonpod-home.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Podcast Aggregation",
+      "description": "Aggregate podcast feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Episode Management",
+      "description": "Browse and manage podcast episodes",
+      "core_feature": true
+    },
+    {
+      "title": "Playback Interface",
+      "description": "Play podcast episodes",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Import",
+      "description": "Import podcast RSS feeds"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access podcasts through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the podcast service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pigeonpod/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

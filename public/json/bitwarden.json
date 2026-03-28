@@ -1,0 +1,94 @@
+{
+  "name": "bitwarden",
+  "slug": "bitwarden",
+  "tagline": "A secure password manager with encrypted vaults and multi-device sync",
+  "subtitle": "",
+  "description": "Bitwarden is a secure, open-source password manager with browser, mobile, and desktop clients. It allows self-hosted password vaults, secure sharing, autofill, and zero-knowledge encryption with sync across devices.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2026.2.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 18213,
+    "github_contributors": 214,
+    "github_commits_this_year": 271,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://bitwarden.com/open-source",
+    "documentation": "https://github.com/bitwarden/server",
+    "source_code": "https://github.com/bitwarden/server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bitwarden.webp",
+    "issues": "https://github.com/bitwarden/server/issues",
+    "releases": "https://github.com/bitwarden/server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bitwarden-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bitwarden-desktop.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Password Vault Hosting",
+      "description": "Hosts encrypted password vaults for Bitwarden clients",
+      "core_feature": true
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Ensures only client devices can decrypt stored data",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Organizations",
+      "description": "Supports shared vaults for teams and organizations",
+      "core_feature": true
+    },
+    {
+      "title": "Cross-Device Synchronization",
+      "description": "Syncs vault data across desktop and mobile clients",
+      "core_feature": true
+    },
+    {
+      "title": "Role-Based Access Control",
+      "description": "Manages permissions for users and organizations"
+    },
+    {
+      "title": "Audit Logging",
+      "description": "Records security-related account activity"
+    },
+    {
+      "title": "API Compatibility",
+      "description": "Maintains compatibility with official Bitwarden clients"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-controlled infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bitwarden/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

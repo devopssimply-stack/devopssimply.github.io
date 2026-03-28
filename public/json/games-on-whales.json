@@ -1,0 +1,83 @@
+{
+  "name": "games-on-whales",
+  "slug": "games-on-whales",
+  "tagline": "A framework for orchestrating containerized Windows gaming environments on Linux",
+  "subtitle": "",
+  "description": "WOLF (Whales On Linux Framework) orchestrates Docker containers that simulate Windows gaming environments for Linux. It helps automate game installations via Wine or Proton in self-contained sandboxed setups.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2024.07",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-07-10",
+    "date_last_commit": "2026-02-07",
+    "github_stars": 1670,
+    "github_contributors": 35,
+    "github_commits_this_year": 54,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://games-on-whales.github.io/wolf/stable/",
+    "documentation": "https://github.com/games-on-whales/wolf",
+    "source_code": "https://github.com/games-on-whales/wolf",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/games-on-whales.webp",
+    "issues": "https://github.com/games-on-whales/wolf/issues",
+    "releases": "https://github.com/games-on-whales/wolf/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Cloud Gaming Server",
+      "description": "Streams games from a host machine to remote clients",
+      "core_feature": true
+    },
+    {
+      "title": "GPU Acceleration",
+      "description": "Uses available GPUs for game rendering and streaming",
+      "core_feature": true
+    },
+    {
+      "title": "Container-Based Deployment",
+      "description": "Runs game sessions in isolated containers",
+      "core_feature": true
+    },
+    {
+      "title": "Input Forwarding",
+      "description": "Forwards keyboard mouse and controller input to games",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Sessions",
+      "description": "Supports multiple concurrent players"
+    },
+    {
+      "title": "Audio and Video Streaming",
+      "description": "Streams game audio and video to clients"
+    },
+    {
+      "title": "Linux Host Support",
+      "description": "Runs on Linux-based servers"
+    },
+    {
+      "title": "Self-Hosted Game Streaming",
+      "description": "Host game streaming on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

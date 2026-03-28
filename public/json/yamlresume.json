@@ -1,0 +1,84 @@
+{
+  "name": "yamlresume",
+  "slug": "yamlresume",
+  "tagline": "A YAML-based resume generator for versionable, text-first CVs",
+  "subtitle": "",
+  "description": "yamlresume lets you define resumes in YAML and generate presentable documents or websites from them. It’s a self-hosted, text-first workflow that keeps CVs versionable and easy to maintain.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.11.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-02-04",
+    "github_stars": 1206,
+    "github_contributors": 14,
+    "github_commits_this_year": 43,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://yamlresume.dev",
+    "documentation": "https://yamlresume.dev/docs",
+    "source_code": "https://github.com/yamlresume/yamlresume",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/yamlresume.webp",
+    "issues": "https://github.com/yamlresume/yamlresume/issues",
+    "releases": "https://github.com/yamlresume/yamlresume/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/yamlresume-playground.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Resume Generation",
+      "description": "Generate resumes from YAML files",
+      "core_feature": true
+    },
+    {
+      "title": "Template Support",
+      "description": "Use templates for resume layouts",
+      "core_feature": true
+    },
+    {
+      "title": "Export Formats",
+      "description": "Export resumes to PDF and HTML",
+      "core_feature": true
+    },
+    {
+      "title": "CLI Tool",
+      "description": "Generate resumes from the command line"
+    },
+    {
+      "title": "Custom Styling",
+      "description": "Customize resume appearance"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Run the generator locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/yamlresume/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://yamlresume.dev/playground",
+    "username": null,
+    "password": null
+  }
+}

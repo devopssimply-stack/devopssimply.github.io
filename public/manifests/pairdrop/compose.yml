@@ -1,0 +1,25 @@
+# ===============================
+# Docker Compose (PairDrop)
+# ===============================
+# host: http://localhost:3000
+# username:
+# password:
+
+services:
+  pairdrop:
+    image: lscr.io/linuxserver/pairdrop:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Etc/UTC
+      WS_FALLBACK: "false"
+      RATE_LIMIT: "false"
+      DEBUG_MODE: "false"
+    volumes:
+      - pairdrop_config:/config
+
+volumes:
+  pairdrop_config:

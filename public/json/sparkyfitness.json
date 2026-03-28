@@ -1,0 +1,98 @@
+{
+  "name": "sparkyfitness",
+  "slug": "sparkyfitness",
+  "tagline": "A self-hosted fitness and workout tracking application",
+  "subtitle": "",
+  "description": "SparkyFitness is a self-hosted fitness tracker that logs workouts, goals, and progress over time. It includes stats and charts in a web UI suited for personal training logs.",
+  "categories": [
+    8
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "NOASSERTION",
+    "version": "v0.16.4.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2847,
+    "github_contributors": 36,
+    "github_commits_this_year": 935,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 16
+  },
+  "resources": {
+    "website": "https://github.com/CodeWithCJ/SparkyFitness",
+    "documentation": "https://codewithcj.github.io/SparkyFitness",
+    "source_code": "https://github.com/CodeWithCJ/SparkyFitness",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sparkyfitness.webp",
+    "issues": "https://github.com/CodeWithCJ/SparkyFitness/issues",
+    "releases": "https://github.com/CodeWithCJ/SparkyFitness/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sparkyfitness-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Workout Tracking",
+      "description": "Track workouts and exercises",
+      "core_feature": true
+    },
+    {
+      "title": "Exercise Library",
+      "description": "Manage exercise definitions",
+      "core_feature": true
+    },
+    {
+      "title": "Progress Tracking",
+      "description": "Track fitness progress over time",
+      "core_feature": true
+    },
+    {
+      "title": "Workout History",
+      "description": "View past workout sessions"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage workouts through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the fitness tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sparkyfitness/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "sparkyfitness_ynh",
+      "url": "https://github.com/YunoHost-Apps/sparkyfitness_ynh"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "sparkyfitness",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=sparkyfitness"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

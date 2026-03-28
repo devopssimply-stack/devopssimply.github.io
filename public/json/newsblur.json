@@ -1,0 +1,85 @@
+{
+  "name": "newsblur",
+  "slug": "newsblur",
+  "tagline": "A feature-rich self-hosted RSS reader with social and filtering features",
+  "subtitle": "",
+  "description": "NewsBlur is a feature-rich, self-hosted RSS reader with social features, saved stories, and training filters. It supports folders, tags, web and mobile clients, and optional hosted services.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "Android_13.12.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 7333,
+    "github_contributors": 90,
+    "github_commits_this_year": 990,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "http://www.newsblur.com",
+    "documentation": "https://github.com/samuelclay/NewsBlur",
+    "source_code": "https://github.com/samuelclay/NewsBlur",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/newsblur.webp",
+    "issues": "https://github.com/samuelclay/NewsBlur/issues",
+    "releases": "https://github.com/samuelclay/NewsBlur/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/newsblur-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "RSS Feed Reader",
+      "description": "Subscribe to and read RSS feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Intelligence",
+      "description": "Highlight important stories based on preferences",
+      "core_feature": true
+    },
+    {
+      "title": "Offline Reading",
+      "description": "Read saved stories without connectivity"
+    },
+    {
+      "title": "Search",
+      "description": "Search across subscribed feeds"
+    },
+    {
+      "title": "Web and Mobile Access",
+      "description": "Read feeds across supported platforms"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the reader on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/newsblur/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

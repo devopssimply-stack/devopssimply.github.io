@@ -1,0 +1,94 @@
+{
+  "name": "hymnoscribe",
+  "slug": "hymnoscribe",
+  "tagline": "A hymn and song management application for organizing lyrics and service sets",
+  "subtitle": "",
+  "description": "HymnoScribe is a hymn and song management application for churches or music leaders. It organizes lyrics, chords and sets, and provides a web interface for planning services and exporting or displaying song sheets.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-08-08",
+    "date_last_commit": "2025-07-26",
+    "github_stars": 6,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://hymnoscribe.de",
+    "documentation": "https://hymnoscribe.de",
+    "source_code": "https://github.com/Revisor01/HymnoScribe",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hymnoscribe.webp",
+    "issues": "https://github.com/Revisor01/HymnoScribe/issues",
+    "releases": "https://github.com/Revisor01/HymnoScribe/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hymnoscribe-1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hymnoscribe-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hymnoscribe-3.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hymnoscribe-4.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hymnoscribe-5.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Transcription",
+      "description": "Transcribes melodies into sheet music",
+      "core_feature": true
+    },
+    {
+      "title": "Audio Input",
+      "description": "Accepts recorded or uploaded audio"
+    },
+    {
+      "title": "Note Detection",
+      "description": "Identifies musical notes from audio"
+    },
+    {
+      "title": "Sheet Music Output",
+      "description": "Generates readable notation"
+    },
+    {
+      "title": "Editing Tools",
+      "description": "Allows manual correction of transcriptions"
+    },
+    {
+      "title": "Export Formats",
+      "description": "Exports notation to common formats"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Works through a browser"
+    },
+    {
+      "title": "Self-Hosted Music Tool",
+      "description": "Run on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hymnoscribe/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

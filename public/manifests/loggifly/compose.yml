@@ -1,0 +1,50 @@
+# ===============================
+# Docker Compose (LoggiFly)
+# ===============================
+# host: http://localhost:8080
+# username:
+# password:
+
+services:
+  loggifly:
+    image: ghcr.io/clemcer/loggifly:latest
+    container_name: loggifly
+    restart: unless-stopped
+    read_only: true
+
+    ports:
+      - "8080:8080"
+
+    environment:
+      TZ: Europe/Berlin
+
+      # --- Notification (choose at least one) ---
+      NTFY_URL: https://ntfy.sh
+      NTFY_TOPIC: your_topic
+      # NTFY_TOKEN:
+      # NTFY_USERNAME:
+      # NTFY_PASSWORD:
+
+      APPRISE_URL: discord://...
+
+      # --- Monitoring ---
+      CONTAINERS: vaultwarden,audiobookshelf
+      GLOBAL_KEYWORDS: error,failed login,password
+      GLOBAL_KEYWORDS_WITH_ATTACHMENT: critical
+
+    volumes:
+      - loggifly_config:/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+    tmpfs:
+      - /tmp
+
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+
+volumes:
+  loggifly_config:

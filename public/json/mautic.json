@@ -1,0 +1,94 @@
+{
+  "name": "mautic",
+  "slug": "mautic",
+  "tagline": "An open source marketing automation platform for email campaigns and workflows",
+  "subtitle": "",
+  "description": "Mautic is an open-source marketing automation platform that helps teams create email campaigns, segments, and landing pages. It supports automation workflows, customer tracking, and can be run fully self-hosted.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU GPL 3.0",
+    "version": "7.0.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9280,
+    "github_contributors": 285,
+    "github_commits_this_year": 400,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://www.mautic.org",
+    "documentation": "https://docs.mautic.org",
+    "source_code": "https://github.com/mautic/mautic",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mautic.webp",
+    "issues": "https://github.com/mautic/mautic/issues",
+    "releases": "https://github.com/mautic/mautic/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mautic-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mautic-company.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mautic-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Marketing Automation",
+      "description": "Automate marketing workflows and campaigns",
+      "core_feature": true
+    },
+    {
+      "title": "Contact Management",
+      "description": "Store and segment contacts",
+      "core_feature": true
+    },
+    {
+      "title": "Campaign Builder",
+      "description": "Design multi-step campaigns",
+      "core_feature": true
+    },
+    {
+      "title": "Email Marketing",
+      "description": "Send targeted email communications",
+      "core_feature": true
+    },
+    {
+      "title": "Analytics",
+      "description": "Track campaign performance"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mautic/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mautic_ynh",
+      "url": "https://github.com/YunoHost-Apps/mautic_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

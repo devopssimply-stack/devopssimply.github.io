@@ -1,0 +1,96 @@
+{
+  "name": "z-wave-js-ui",
+  "slug": "z-wave-js-ui",
+  "tagline": "A control dashboard for managing Z-Wave networks with nodes and diagnostics",
+  "subtitle": "",
+  "description": "Z-Wave JS UI is a self-hosted control and management UI for Z-Wave networks using Z-Wave JS. It provides node inclusion, configuration, and diagnostics with dashboards and charts.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v11.11.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-02-03",
+    "github_stars": 1179,
+    "github_contributors": 135,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://zwave-js.github.io/zwave-js-ui",
+    "documentation": "https://github.com/zwave-js/zwave-js-ui",
+    "source_code": "https://github.com/zwave-js/zwave-js-ui",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/z-wave-js-ui.webp",
+    "issues": "https://github.com/zwave-js/zwave-js-ui/issues",
+    "releases": "https://github.com/zwave-js/zwave-js-ui/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Z-Wave Network Management",
+      "description": "Manage Z-Wave devices and networks",
+      "core_feature": true
+    },
+    {
+      "title": "Device Configuration",
+      "description": "Configure Z-Wave device settings",
+      "core_feature": true
+    },
+    {
+      "title": "Network Visualization",
+      "description": "View Z-Wave network topology"
+    },
+    {
+      "title": "Home Automation Integration",
+      "description": "Integrate with supported automation systems"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage devices through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/z-wave-js-ui/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zwave-js-ui",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zwave-js-ui"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "zwave-js-ui_ynh",
+      "url": "https://github.com/YunoHost-Apps/zwave-js-ui_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "zwave-js-ui",
+      "url": "https://apps.truenas.com/catalog/zwave-js-ui"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

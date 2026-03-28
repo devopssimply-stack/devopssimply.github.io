@@ -1,0 +1,97 @@
+{
+  "name": "projectsend",
+  "slug": "projectsend",
+  "tagline": "A self-hosted file sharing platform for teams and clients",
+  "subtitle": "",
+  "description": "ProjectSend is a self-hosted file sharing platform that allows organizations to upload files and make them available to specific clients or users. It supports permissions, groups, and secure transfers.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "r1945",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-10",
+    "date_last_commit": "2026-02-25",
+    "github_stars": 1827,
+    "github_contributors": 62,
+    "github_commits_this_year": 11,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.projectsend.org",
+    "documentation": "https://docs.projectsend.org/about",
+    "source_code": "https://github.com/projectsend/projectsend",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/projectsend.webp",
+    "issues": "https://github.com/projectsend/projectsend/issues",
+    "releases": "https://github.com/projectsend/projectsend/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/projectsend-demo-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/projectsend-demo-file-editor.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing",
+      "description": "Share files with users and clients",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage access with user accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Upload Management",
+      "description": "Upload and organize shared files",
+      "core_feature": true
+    },
+    {
+      "title": "Access Permissions",
+      "description": "Control who can access files"
+    },
+    {
+      "title": "Activity Logs",
+      "description": "Track file access and uploads"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the file sharing system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/projectsend/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "projectsend",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=projectsend"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "projectsend_ynh",
+      "url": "https://github.com/YunoHost-Apps/projectsend_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.projectsend.org",
+    "username": "admin",
+    "password": "admin"
+  }
+}

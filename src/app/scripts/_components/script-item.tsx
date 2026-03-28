@@ -1,0 +1,759 @@
+"use client";
+
+import { BookOpenText, Tag, Code, Globe, Layers, LayoutGrid, Monitor, Stars, X, Activity, CheckCircle, RefreshCcw, Clock3, Moon, Archive, Hexagon, Scale, Flag } from "lucide-react";
+import { FaGithub } from "react-icons/fa6";
+import { Suspense, useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
+import { createPortal } from "react-dom";
+
+import type { Script } from "@/lib/types";
+import { getHosting, getPlatforms, getInterface, getInstall, getPlatformLabels } from "@/lib/platform-utils";
+
+import { Separator } from "@/components/ui/separator";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { useRepositoryStatus } from "@/hooks/use-repository-status";
+import { formatRelativeTime } from "@/lib/repository-status";
+import { ReportModal } from "@/components/report-modal";
+import { Button } from "@/components/ui/button";
+import { repoName } from "@/config/site-config";
+
+import InstallCommand from "./script-items/install-command";
+import Description from "./script-items/description";
+import ConfigFile from "./script-items/config-file";
+import InterFaces from "./script-items/interfaces";
+import Alerts from "./script-items/alerts";
+import RelatedTools from "./script-items/related-tools";
+import CommunityStatsHeader from "./script-items/community-stats-header";
+import CommunityIntegrations from "./script-items/community-integrations";
+import DemoCard from "./script-items/demo-card";
+import { useFavoriteCount } from "@/components/favorite-button";
+import { CommunityLikes } from "@/components/community-likes";
+
+import type { Category } from "@/lib/types";
+
+// Screenshot Preview with Lightbox
+function ScreenshotPreview({ src, alt }: { src: string; alt: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [hasError, setHasError] = useState(false);
+
+  // Hide component if image fails to load or src is empty
+  if (hasError || !src || src.trim() === "") {
+    return null;
+  }
+
+  return (
+    <>
+      {/* Thumbnail */}
+      <div className="flex justify-center">
+        <button
+          onClick={() => setIsOpen(true)}
+          className="w-full max-w-[860px] rounded-xl overflow-hidden border bg-muted/30 cursor-zoom-in hover:border-primary/50 transition-colors"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={src}
+            alt={alt}
+            className="w-full h-auto object-contain"
+            onError={() => setHasError(true)}
+          />
+        </button>
+      </div>
+
+      {/* Lightbox - Click anywhere to close */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center cursor-pointer backdrop-blur-xl bg-black/20 dark:bg-white/10"
+          onClick={() => setIsOpen(false)}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={src}
+            alt={alt}
+            className="max-w-[90vw] max-h-[90vh] object-contain"
+          />
+        </div>
+      )}
+    </>
+  );
+}
+
+type ScriptItemProps = {
+  item: Script;
+  setSelectedScript: (script: string | null) => void;
+  allCategories?: Category[];
+};
+
+type InstallMethodWithPlatform = any;
+
+function SecondaryMeta({ item }: { item: Script }) {
+  const { repositoryInfo, loading } = useRepositoryStatus(item);
+  
+  // Helper function to ensure URL has proper protocol
+  const ensureHttps = (url: string): string => {
+    if (!url)
+      return url;
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+      return url;
+    }
+    return `https://${url}`;
+  };
+
+  const parts: { id: string; label: string; href?: string; icon: React.ReactNode; tooltip?: string }[] = [];
+
+  // ⚖️ License
+  if (item.metadata?.license && item.metadata.license !== 'NOASSERTION') {
+    parts.push({
+      id: 'license',
+      label: item.metadata.license,
+      icon: <Scale className="h-4 w-4 text-foreground/60" />,
+      tooltip: `License: ${item.metadata.license}`,
+    });
+  }
+
+  // 🏷️ Last Release
+  if (!loading && repositoryInfo?.lastRelease) {
+    const releaseTime = formatRelativeTime(repositoryInfo.lastRelease);
+    const releaseLabel = releaseTime === 'today' ? releaseTime : releaseTime.replace(' ago', '') + ' ago';
+    const releaseDate = repositoryInfo.lastRelease.toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric' 
+    });
+    parts.push({
+      id: 'last-release',
+      label: releaseLabel,
+      icon: <Tag className="h-4 w-4 text-foreground/60" />,
+      tooltip: `Last release: ${releaseDate}`,
+    });
+  }
+
+  // 🏷️ Last Commit
+  if (!loading && repositoryInfo?.lastCommit) {
+    const commitTime = formatRelativeTime(repositoryInfo.lastCommit);
+    const commitLabel = commitTime === 'today' ? commitTime : commitTime.replace(' ago', '') + ' ago';
+    const commitDate = repositoryInfo.lastCommit.toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric' 
+    });
+    parts.push({
+      id: 'last-commit',
+      label: commitLabel,
+      icon: <Hexagon className="h-4 w-4 text-foreground/60" />,
+      tooltip: `Last commit: ${commitDate}`,
+    });
+  }
+
+  // 🌐 Website
+  if (item.resources?.website) {
+    parts.push({
+      id: 'website',
+      label: "Website",
+      href: item.resources.website,
+      icon: <Globe className="h-4 w-4 text-foreground/60" />,
+      tooltip: `Website: ${item.resources.website}`,
+    });
+  }
+
+  // 📖 Docs
+  if (item.resources?.documentation) {
+    parts.push({
+      id: 'docs',
+      label: "Docs",
+      href: item.resources.documentation,
+      icon: <BookOpenText className="h-4 w-4 text-foreground/60" />,
+      tooltip: `Documentation: ${item.resources.documentation}`,
+    });
+  }
+
+  // 💻 Source code
+  if (item.resources?.source_code) {
+    parts.push({
+      id: 'source-code',
+      label: "Source code",
+      href: item.resources.source_code,
+      icon: <Code className="h-4 w-4 text-foreground/60" />,
+      tooltip: `Repository: ${item.resources.source_code}`,
+    });
+  }
+
+  // ⭐ Github stars
+  if (item.metadata?.github_stars) {
+    // Format star count (e.g., 3663 -> "3.7k")
+    const formatStars = (stars: number): string => {
+      if (stars >= 1000000)
+        return `${(stars / 1000000).toFixed(1)}m`;
+      if (stars >= 1000)
+        return `${(stars / 1000).toFixed(1)}k`;
+      return stars.toString();
+    };
+
+    parts.push({
+      id: 'github-stars',
+      label: formatStars(item.metadata.github_stars),
+      icon: <Stars className="h-4 w-4 text-foreground/60" />,
+      tooltip: `${item.metadata.github_stars.toLocaleString()} GitHub stars`,
+    });
+  }
+
+  if (!parts.length)
+    return null;
+
+  return (
+    <div
+      className="mt-1 mb-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-medium text-foreground/80"
+    >
+      {parts.flatMap((p, i) => {
+        const element = (
+          <div
+            key={p.id}
+            className="flex items-center gap-1 group transition-colors"
+          >
+            {p.tooltip ? (
+              <TooltipProvider>
+                <Tooltip delayDuration={200}>
+                  <TooltipTrigger asChild>
+                    <span className="flex items-center gap-1 cursor-help">
+                      {p.icon}
+                      {p.href
+                        ? (
+                          <a
+                            href={p.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="rounded-md bg-accent/10 px-1.5 py-0.5 text-primary transition-all hover:bg-accent/20 hover:text-primary"
+                          >
+                            {p.label}
+                          </a>
+                        )
+                        : (
+                          <span>{p.label}</span>
+                        )}
+                    </span>
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom" className="font-medium">
+                    <p>{p.tooltip}</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            ) : (
+              <span className="flex items-center gap-1">
+                {p.icon}
+                {p.href
+                  ? (
+                    <a
+                      href={p.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-md bg-accent/10 px-1.5 py-0.5 text-primary transition-all hover:bg-accent/20 hover:text-primary"
+                    >
+                      {p.label}
+                    </a>
+                  )
+                  : (
+                    <span>{p.label}</span>
+                  )}
+              </span>
+            )}
+          </div>
+        );
+        
+        if (i === 0) {
+          return [element];
+        }
+        
+        return [
+          <span key={`sep-${p.id}`} className="text-muted-foreground/60 select-none hidden sm:inline">•</span>,
+          element
+        ];
+      })}
+    </div>
+  );
+}
+
+function PlatformRow({
+  label,
+  items,
+  icon,
+  variant = "default",
+}: {
+  label: string;
+  items: string[];
+  icon: React.ReactNode;
+  variant?: "filled" | "outline" | "minimal" | "default";
+}) {
+  if (!items.length)
+    return null;
+
+  const chipStyles = {
+    filled: "bg-primary/10 border-primary/20 text-primary font-semibold",
+    outline: "border border-border/60 text-foreground/80",
+    minimal: "border border-border/30 text-muted-foreground",
+    default: "border border-border/50 text-foreground/70",
+  };
+
+  return (
+    <div className="flex items-start gap-3">
+      <div className="flex items-center gap-3 min-w-[110px] pt-0.5">
+        <div className="flex items-center justify-center w-5 h-5 text-muted-foreground/70">
+          {icon}
+        </div>
+        <span className="text-[12px] font-semibold text-foreground/80 capitalize">
+          {label}
+        </span>
+      </div>
+      <div className="flex flex-wrap gap-1.5 flex-1">
+        {items.map(item => (
+          <span
+            key={item}
+            className={`rounded-full px-2.5 py-1 text-[11px] leading-none transition-colors hover:bg-accent/50 ${chipStyles[variant]}`}
+          >
+            {item}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function CommunityLikesSection({ slug, appName, appDescription }: { slug: string; appName?: string; appDescription?: string }) {
+  const count = useFavoriteCount(slug);
+  
+  return <CommunityLikes slug={slug} count={count} appName={appName} appDescription={appDescription} />;
+}
+
+function PlatformSummary({ item }: { item: Script }) {
+  // Use utility functions to support both new and legacy structure
+  const hosting = getHosting(item);
+  const platforms = getPlatforms(item);
+  const interfaces = getInterface(item);
+  const install = getInstall(item);
+
+  if (!hosting.length && !platforms.length && !interfaces.length && !install.length)
+    return null;
+
+  // Get platform labels
+  const platformItems = getPlatformLabels(item);
+
+  // Map hosting and install to deployment labels
+  const hostingLabels: Record<string, string> = {
+    self_hosted: "Self-hosted",
+    saas: "SaaS",
+    managed_cloud: "Managed Cloud",
+    standalone: "Standalone",
+  };
+  
+  const installLabels: Record<string, string> = {
+    docker: "Docker",
+    docker_compose: "Docker Compose",
+    kubernetes: "Kubernetes",
+    helm: "Helm",
+    script: "Script",
+    terraform: "Terraform",
+    binary: "Binary",
+    package_manager: "Package Manager",
+  };
+  
+  const deploymentItems = [
+    ...hosting.map(h => hostingLabels[h] || h),
+    ...install.map(i => installLabels[i] || i)
+  ];
+
+  // Map interface to UI labels
+  const interfaceLabels: Record<string, string> = {
+    cli: "CLI",
+    tui: "TUI",
+    gui: "GUI",
+    web_ui: "Web UI",
+    api: "API"
+  };
+  
+  const uiItems = interfaces.map(i => interfaceLabels[i] || i);
+
+  if (!platformItems.length && !deploymentItems.length && !uiItems.length) {
+    return null;
+  }
+
+  return (
+    <div className="flex flex-col space-y-3 rounded-lg bg-accent/5 p-4 border border-border/50 w-full">
+      <div className="text-[13px] font-bold text-foreground/90 mb-1">
+        Platform & Deployment
+      </div>
+
+      {platformItems.length > 0 && (
+        <PlatformRow
+          label="Platforms"
+          items={platformItems}
+          icon={<Monitor className="h-4 w-4" />}
+          variant="filled"
+        />
+      )}
+
+      {deploymentItems.length > 0 && (
+        <PlatformRow
+          label="Deployment"
+          items={deploymentItems}
+          icon={<Code className="h-4 w-4" />}
+          variant="outline"
+        />
+      )}
+
+      {uiItems.length > 0 && (
+        <PlatformRow
+          label="Interface"
+          items={uiItems}
+          icon={<Layers className="h-4 w-4" />}
+          variant="minimal"
+        />
+      )}
+    </div>
+  );
+} 
+
+// Get status tooltip text
+function getStatusTooltip(status: string): string {
+  switch (status) {
+    case 'active':
+      return 'Active: Actively Updated within 30 days';
+    case 'regular':
+      return 'Regular: Regularly Updated within 6 months';
+    case 'occasional':
+      return 'Occasional: Occasionally Updated within 1 year';
+    case 'dormant':
+      return 'Dormant: No Updates in the last 1 year';
+    case 'archived':
+      return 'Archived: Read Only, no longer maintained';
+    default:
+      return 'Status Unknown';
+  }
+}
+
+function RepositoryActivityIndicator({ item }: { item: Script }) {
+  const { repositoryInfo, loading } = useRepositoryStatus(item);
+
+  if (loading) {
+    return (
+      <div className="flex items-center gap-3 text-sm text-muted-foreground">
+        <div className="animate-pulse h-4 w-4 bg-muted rounded-full" />
+        <span>Checking repository status...</span>
+      </div>
+    );
+  }
+
+  if (!repositoryInfo || repositoryInfo.status === 'unknown') {
+    return null;
+  }
+
+  const getStatusColor = (status: string) => {
+    switch (status) {
+      case 'active':
+        return 'text-green-600 bg-green-50 border-green-200 dark:text-green-400 dark:bg-green-950 dark:border-green-800';
+      case 'regular':
+        return 'text-amber-600 bg-amber-50 border-amber-200 dark:text-amber-400 dark:bg-amber-950 dark:border-amber-800';
+      case 'occasional':
+        return 'text-orange-600 bg-orange-50 border-orange-200 dark:text-orange-400 dark:bg-orange-950 dark:border-orange-800';
+      case 'dormant':
+        return 'text-red-600 bg-red-50 border-red-200 dark:text-red-400 dark:bg-red-950 dark:border-red-800';
+      case 'archived':
+        return 'text-gray-600 bg-gray-50 border-gray-200 dark:text-gray-400 dark:bg-gray-950 dark:border-gray-800';
+      default:
+        return 'text-gray-600 bg-gray-50 border-gray-200 dark:text-gray-400 dark:bg-gray-950 dark:border-gray-800';
+    }
+  };
+
+  const getStatusIcon = (status: string) => {
+    const iconProps = { className: "h-4 w-4" };
+    
+    switch (status) {
+      case 'active':
+        return <Activity {...iconProps} />;
+      case 'regular':
+        return <RefreshCcw {...iconProps} />;
+      case 'occasional':
+        return <Clock3 {...iconProps} />;
+      case 'dormant':
+        return <Moon {...iconProps} />;
+      case 'archived':
+        return <Archive {...iconProps} />;
+      default:
+        return <Activity {...iconProps} />;
+    }
+  };
+}
+
+
+
+function ScriptHeader({ item }: { item: Script }) {
+  const [showFallback, setShowFallback] = useState(!item.resources?.logo || item.resources.logo.trim() === "");
+  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const { repositoryInfo, loading } = useRepositoryStatus(item);
+
+  // Detect theme changes
+  useEffect(() => {
+    const checkTheme = () => {
+      const isDark = document.documentElement.classList.contains('dark');
+      setTheme(isDark ? 'dark' : 'light');
+    };
+
+    checkTheme();
+    
+    // Watch for theme changes
+    const observer = new MutationObserver(checkTheme);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class'],
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
+  // Get the appropriate logo based on theme
+  // In dark mode, use light variant if available (for visibility)
+  const currentLogo = (theme === 'dark' && item.resources?.logo_light) 
+    ? item.resources.logo_light 
+    : item.resources?.logo || '';
+
+  // Reset fallback state when item or logo changes
+  useEffect(() => {
+    setShowFallback(!currentLogo || currentLogo.trim() === "");
+  }, [currentLogo, item.slug]);
+
+  return (
+    <div className="-m-8 mb-0 p-8 rounded-t-xl bg-gradient-to-br from-card/50 to-accent/10">
+      <div className="flex flex-col lg:flex-row gap-6 w-full">
+        <div className="flex flex-col md:flex-row gap-6 flex-grow">
+          <div className="flex-shrink-0 self-start relative h-28 w-28 rounded-xl bg-gradient-to-br from-accent/40 to-accent/60 shadow-lg transition-transform hover:scale-105 overflow-hidden p-3">
+            {showFallback ? (
+              <div className="flex items-center justify-center bg-accent/20 rounded-md w-full h-full">
+                <LayoutGrid className="h-14 w-14 text-muted-foreground" />
+              </div>
+            ) : (
+              <img
+                src={currentLogo}
+                width={112}
+                height={112}
+                alt={item.name}
+                loading="eager"
+                className="w-full h-full object-contain"
+                onError={() => setShowFallback(true)}
+              />
+            )}
+          </div>
+          <div className="flex flex-col justify-between flex-grow space-y-4">
+            <div className="space-y-3">
+              <div className="flex items-start justify-between gap-4">
+                <div className="space-y-3 flex-1">
+                  <div className="flex items-center gap-3 flex-wrap">
+                    <h1 className="text-4xl font-extrabold tracking-tight flex items-center gap-3">
+                      {item.name}
+                      {/* Status Badge - conditional based on repository status */}
+                      {!loading && repositoryInfo && repositoryInfo.status !== 'unknown' && (
+                        <TooltipProvider>
+                          <Tooltip delayDuration={200}>
+                            <TooltipTrigger asChild>
+                              <motion.span
+                                initial={{ scale: 0.8, opacity: 0 }}
+                                animate={{ scale: 1, opacity: 1 }}
+                                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                                className="inline-flex items-center justify-center cursor-help"
+                              >
+                                {repositoryInfo.status === 'active' && (
+                                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-green-500 dark:bg-green-600 text-white shadow-sm">
+                                    <CheckCircle className="h-4 w-4 stroke-[3]" />
+                                  </div>
+                                )}
+                                {repositoryInfo.status === 'regular' && (
+                                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-amber-500 dark:bg-amber-600 text-white shadow-sm">
+                                    <RefreshCcw className="h-4 w-4 stroke-[3]" />
+                                  </div>
+                                )}
+                                {repositoryInfo.status === 'occasional' && (
+                                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500 dark:bg-orange-600 text-white shadow-sm">
+                                    <Clock3 className="h-4 w-4 stroke-[3]" />
+                                  </div>
+                                )}
+                                {repositoryInfo.status === 'dormant' && (
+                                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-500 dark:bg-red-600 text-white shadow-sm">
+                                    <Moon className="h-4 w-4 stroke-[3]" />
+                                  </div>
+                                )}
+                                {repositoryInfo.status === 'archived' && (
+                                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-500 dark:bg-gray-600 text-white shadow-sm">
+                                    <Archive className="h-4 w-4 stroke-[3]" />
+                                  </div>
+                                )}
+                              </motion.span>
+                            </TooltipTrigger>
+                            <TooltipContent side="bottom" className="font-medium">
+                              <p>{getStatusTooltip(repositoryInfo.status)}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      )}
+                    </h1>
+                    {/* Optional version badge */}
+                    {!loading && repositoryInfo?.version && (
+                      <TooltipProvider>
+                        <Tooltip delayDuration={200}>
+                          <TooltipTrigger asChild>
+                            <span className="text-[1.05rem] font-mono font-semibold text-foreground/90 tracking-tight cursor-help">
+                              {repositoryInfo.version}
+                            </span>
+                          </TooltipTrigger>
+                          <TooltipContent side="bottom" className="font-medium">
+                            <p>Latest version</p>
+                          </TooltipContent>
+                        </Tooltip>
+                      </TooltipProvider>
+                    )}
+                  </div>
+
+                  {/* 1. Metadata repo */}
+                  <SecondaryMeta item={item} />
+                  <CommunityStatsHeader item={item} />
+                  <div className="mt-3">
+                    <RepositoryActivityIndicator item={item} />
+                  </div>
+                  
+                  {/* Platform & Deployment */}
+                  <PlatformSummary item={item} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 justify-between">
+          <InterFaces item={item} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function ScriptItem({ item, setSelectedScript, allCategories = [] }: ScriptItemProps) {
+  const router = useRouter();
+  const [showReportModal, setShowReportModal] = useState(false);
+
+  const closeScript = () => {
+    // Clear the selection and remove URL parameters
+    setSelectedScript(null);
+    router.push("/");
+  };
+
+  return (
+    <div className="w-full mx-auto">
+      <div className="flex w-full flex-col">
+        <div className="flex items-center justify-between mb-2">
+          <h2 className="text-sm font-medium tracking-tight text-muted-foreground uppercase">
+            Selected Script
+          </h2>
+          <button
+            onClick={closeScript}
+            className="rounded-full p-2 text-muted-foreground hover:bg-card/50 transition-all duration-200 hover:rotate-90 active:scale-90"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        </div>
+
+        <div
+          className="rounded-xl border border-border bg-accent/30 backdrop-blur-sm shadow-lg transition-all duration-300 hover:shadow-xl relative"
+        >
+          {/* Report Button - Top Right */}
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => setShowReportModal(true)}
+            className="absolute top-4 right-4 text-muted-foreground hover:text-foreground z-10"
+          >
+            <Flag className="h-4 w-4 mr-1" />
+            Report
+          </Button>
+
+          <div className="p-4 space-y-6">
+            <Suspense fallback={<div className="animate-pulse h-32 bg-accent/20 rounded-xl" />}>
+              <ScriptHeader item={item} />
+            </Suspense>
+
+            <Separator className="my-2" />
+
+            {/* 2. Tagline + 3. Description + 4. Key Features (handled in Description component) */}
+            <Description item={item} />
+            
+            {/* 5. Community Integrations */}
+            <div className="p-2">
+              <CommunityIntegrations item={item} />
+            </div>
+            
+            {/* 6. Community Feedback */}
+            <div className="p-2">
+              <CommunityLikesSection slug={item.slug} appName={item.name} appDescription={item.description} />
+            </div>
+
+            <Alerts item={item} />
+
+            <Separator className="my-8" />
+
+            {/* Only show install section if manifests exist */}
+            {(() => {
+              const manifest = item.manifests ?? {};
+              const hasAnyManifest = !!(
+                manifest.script ||
+                manifest.docker ||
+                manifest.docker_compose ||
+                manifest.helm ||
+                manifest.kubernetes ||
+                manifest.terraform ||
+                manifest.package_manager ||
+                manifest.binary
+              );
+              
+              if (!hasAnyManifest) return null;
+              
+              return (
+                <div className="mt-6 rounded-lg border shadow-md">
+                  <div className="flex flex-col gap-1 px-5 py-3 bg-accent/25">
+                    <h2 className="text-lg font-semibold">
+                      Installation & Deployment
+                    </h2>
+                    <p className="text-sm text-muted-foreground">
+                      Choose a deployment method based on your environment and preferences
+                    </p>
+                  </div>
+                  <Separator />
+                  <div className="">
+                    <InstallCommand item={item} />
+                  </div>
+                  {item.config_path && (
+                    <>
+                      <Separator />
+                      <div className="flex gap-3 px-5 py-3 bg-accent/25">
+                        <h2 className="text-lg font-semibold">Location of config file</h2>
+                      </div>
+                      <Separator />
+                      <div className="">
+                        <ConfigFile configPath={item.config_path} />
+                      </div>
+                    </>
+                  )}
+                </div>
+              );
+            })()}
+
+            {/* Related Tools Section */}
+            {allCategories.length > 0 && (
+              <RelatedTools currentScript={item} allCategories={allCategories} />
+            )}
+          </div>
+        </div>
+
+        <ReportModal
+          isOpen={showReportModal}
+          onClose={() => setShowReportModal(false)}
+          appSlug={item.slug}
+          appName={item.name}
+        />
+      </div>
+    </div>
+  );
+}

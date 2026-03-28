@@ -1,0 +1,104 @@
+{
+  "name": "budget-board",
+  "slug": "budget-board",
+  "tagline": "A self-hosted dashboard for tracking budgets, spending, and savings goals",
+  "subtitle": "",
+  "description": "Budget Board is a self-hosted budget tracking dashboard that gives users an overview of spending, income, category grouping, and savings goals. It’s easy to deploy, mobile-friendly, and designed for personal finance management.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v3.2.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-21",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 711,
+    "github_contributors": 8,
+    "github_commits_this_year": 44,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 10
+  },
+  "resources": {
+    "website": "https://budgetboard.net",
+    "documentation": "https://budgetboard.net",
+    "source_code": "https://github.com/teelur/budget-board",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/budget-board.webp",
+    "issues": "https://github.com/teelur/budget-board/issues",
+    "releases": "https://github.com/teelur/budget-board/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/budget-board-accounts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/budget-board-assets.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/budget-board-budgets.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/budget-board-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Visual Budget Planning",
+      "description": "Plans budgets using board-style layouts",
+      "core_feature": true
+    },
+    {
+      "title": "Expense Categorization",
+      "description": "Groups expenses into configurable columns",
+      "core_feature": true
+    },
+    {
+      "title": "Drag-and-Drop Interaction",
+      "description": "Adjusts budget items visually"
+    },
+    {
+      "title": "Monthly Organization",
+      "description": "Separates budgets by time periods"
+    },
+    {
+      "title": "Lightweight Web App",
+      "description": "Runs as a simple browser-based tool"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Keeps financial data under user control"
+    },
+    {
+      "title": "Board-Based Budgeting",
+      "description": "Plans budgets using board-style layouts",
+      "core_feature": true
+    },
+    {
+      "title": "Expense Columns",
+      "description": "Organizes expenses into columns",
+      "core_feature": true
+    },
+    {
+      "title": "Drag and Drop Editing",
+      "description": "Adjusts budget items visually"
+    },
+    {
+      "title": "Web-Based Tool",
+      "description": "Runs as a browser application"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/budget-board/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

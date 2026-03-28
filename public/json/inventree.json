@@ -1,0 +1,102 @@
+{
+  "name": "inventree",
+  "slug": "inventree",
+  "tagline": "An open source inventory management system for parts, stock, and manufacturing workflows",
+  "subtitle": "",
+  "description": "InvenTree is an open source inventory management system for manufacturing and electronics projects. It tracks parts, stock, suppliers, builds and BOMs, with granular locations and a modern web UI suited for labs, makerspaces and small companies.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.2.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-22",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6565,
+    "github_contributors": 128,
+    "github_commits_this_year": 178,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 9
+  },
+  "resources": {
+    "website": "https://docs.inventree.org",
+    "documentation": "https://docs.inventree.org",
+    "source_code": "https://github.com/inventree/InvenTree",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/inventree.webp",
+    "issues": "https://github.com/inventree/InvenTree/issues",
+    "releases": "https://github.com/inventree/InvenTree/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/inventree-build-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/inventree-category-params.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/inventree-part-admin.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/inventree-part-suppliers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/inventree-stock-location-2.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Inventory Management",
+      "description": "Provides a structured system for tracking parts components and finished items within an inventory",
+      "core_feature": true
+    },
+    {
+      "title": "Bill of Materials",
+      "description": "Defines relationships between components and assemblies to represent how products are built",
+      "core_feature": true
+    },
+    {
+      "title": "Stock Tracking",
+      "description": "Records stock quantities locations and movements over time"
+    },
+    {
+      "title": "Supplier Management",
+      "description": "Stores supplier information pricing and purchasing details"
+    },
+    {
+      "title": "Build and Manufacturing Orders",
+      "description": "Tracks production and assembly processes using build orders"
+    },
+    {
+      "title": "Barcode Support",
+      "description": "Supports barcode scanning for identifying parts and stock items"
+    },
+    {
+      "title": "API Access",
+      "description": "Allows external systems to interact with inventory data programmatically"
+    },
+    {
+      "title": "Self-Hosted Inventory System",
+      "description": "Runs the inventory platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/inventree/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "inventree",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=inventree"
+    }
+  },
+  "demo": {
+    "url": "https://inventree.org/demo",
+    "username": null,
+    "password": null
+  }
+}

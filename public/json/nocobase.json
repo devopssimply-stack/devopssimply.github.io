@@ -1,0 +1,89 @@
+{
+  "name": "nocobase",
+  "slug": "nocobase",
+  "tagline": "An open source no-code platform for building apps and workflows",
+  "subtitle": "",
+  "description": "NocoBase is an open-source no-code platform to build custom apps and workflows using an extensible GUI. It features dynamic schemas, plugins, and API support and can be self-hosted or used as cloud.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v2.0.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 21713,
+    "github_contributors": 94,
+    "github_commits_this_year": 873,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 70
+  },
+  "resources": {
+    "website": "https://www.nocobase.com",
+    "documentation": "https://v2.docs.nocobase.com",
+    "source_code": "https://github.com/nocobase/nocobase",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nocobase.webp",
+    "issues": "https://github.com/nocobase/nocobase/issues",
+    "releases": "https://github.com/nocobase/nocobase/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nocobase-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nocobase-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nocobase-customers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nocobase-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nocobase-lead.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nocobase-orders.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nocobase-pipeline.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nocobase-products.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Low-Code Platform",
+      "description": "Build custom business apps with minimal coding",
+      "core_feature": true
+    },
+    {
+      "title": "Data Models",
+      "description": "Define data structures visually"
+    },
+    {
+      "title": "Permissions",
+      "description": "Control access to parts of apps"
+    },
+    {
+      "title": "UI Builder",
+      "description": "Build user interfaces with visual tools"
+    },
+    {
+      "title": "Plugin Ecosystem",
+      "description": "Extend features using plugins"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nocobase/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.nocobase.com",
+    "username": null,
+    "password": null
+  }
+}

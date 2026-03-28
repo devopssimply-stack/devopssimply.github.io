@@ -1,0 +1,97 @@
+{
+  "name": "dumbwhois",
+  "slug": "dumbwhois",
+  "tagline": "A self-hosted web interface for performing WHOIS domain lookups",
+  "subtitle": "",
+  "description": "DumbWhoIs is a web utility for performing WHOIS lookups on domain names from a self-hosted instance. It exposes a simple form and response view, allowing users to query domain registration data without third-party services.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-02",
+    "github_stars": 220,
+    "github_contributors": 5,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://dumbwhois.dumbware.io/",
+    "documentation": "https://github.com/DumbWareio/DumbWhoIs",
+    "source_code": "https://github.com/DumbWareio/DumbWhoIs",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dumbwhois.webp",
+    "issues": "https://github.com/DumbWareio/DumbWhoIs/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dumbwhois-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "WHOIS Lookup",
+      "description": "Performs domain WHOIS queries",
+      "core_feature": true
+    },
+    {
+      "title": "Batch Queries",
+      "description": "Looks up multiple domains"
+    },
+    {
+      "title": "Result Display",
+      "description": "Displays parsed WHOIS data"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Runs queries through a browser"
+    },
+    {
+      "title": "Minimal UI",
+      "description": "Focuses on lookup results"
+    },
+    {
+      "title": "API Endpoint",
+      "description": "Exposes lookup via API"
+    },
+    {
+      "title": "Lightweight Service",
+      "description": "Uses minimal resources"
+    },
+    {
+      "title": "Self-Hosted WHOIS",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dumbwhois/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "dumbwhois_ynh",
+      "url": "https://github.com/YunoHost-Apps/dumbwhois_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://dumbwhois.dumbware.io",
+    "username": null,
+    "password": null
+  }
+}

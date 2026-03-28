@@ -1,0 +1,112 @@
+{
+  "name": "navidrome",
+  "slug": "navidrome",
+  "tagline": "A modern self-hosted music streaming server compatible with Subsonic",
+  "subtitle": "",
+  "description": "Navidrome is a modern, self-hosted music streaming server and API compatible with Subsonic. It provides fast search, mobile clients, playlists, and a clean responsive interface for personal music libraries.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.60.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-10",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 19668,
+    "github_contributors": 204,
+    "github_commits_this_year": 161,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.navidrome.org",
+    "documentation": "https://www.navidrome.org/docs",
+    "source_code": "https://github.com/navidrome/navidrome",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/navidrome.webp",
+    "issues": "https://github.com/navidrome/navidrome/issues",
+    "releases": "https://github.com/navidrome/navidrome/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-all.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-artist.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-recently-added.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-song.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-ss-desktop-player.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-ss-mobile-album-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-ss-mobile-login.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/navidrome-ss-mobile-player.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Streaming Server",
+      "description": "Stream music from a personal library",
+      "core_feature": true
+    },
+    {
+      "title": "Library Scanning",
+      "description": "Scan and index audio files automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Subsonic-Compatible API",
+      "description": "Connect with Subsonic-compatible clients",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Management",
+      "description": "Create and manage playlists"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Support multiple users with separate libraries"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse and play music through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/navidrome/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "navidrome",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=navidrome"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "navidrome_ynh",
+      "url": "https://github.com/YunoHost-Apps/navidrome_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "navidrome",
+      "url": "https://apps.truenas.com/catalog/navidrome"
+    }
+  },
+  "demo": {
+    "url": "https://demo.navidrome.org/app",
+    "username": "demo",
+    "password": "demo"
+  }
+}

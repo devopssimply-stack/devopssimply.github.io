@@ -1,0 +1,33 @@
+# ===============================
+# Docker Compose (Fail2Ban)
+# ===============================
+# host: host network mode (no web UI)
+# username: n/a
+# password: n/a
+
+services:
+  fail2ban:
+    image: lscr.io/linuxserver/fail2ban:latest
+    container_name: fail2ban
+    network_mode: host   # required for firewall manipulation
+    cap_add:
+      - NET_ADMIN        # required
+      - NET_RAW          # required
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Etc/UTC
+    volumes:
+      # Fail2Ban configuration (required)
+      - fail2ban_config:/config
+      # Host logs (required for jail monitoring)
+      - /var/log:/var/log:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "fail2ban-client", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  fail2ban_config:

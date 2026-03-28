@@ -1,0 +1,92 @@
+{
+  "name": "dribdat",
+  "slug": "dribdat",
+  "tagline": "A platform for organizing hackathons and collaborative events",
+  "subtitle": "",
+  "description": "Dribdat is a platform for organizing hackathons and collaborative events. It lets organizers list projects, collect submissions, track team progress, and showcase results, all in a self-hosted, developer-friendly web application.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.9.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-02-25",
+    "github_stars": 82,
+    "github_contributors": 14,
+    "github_commits_this_year": 33,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://dribdat.cc",
+    "documentation": "https://dribdat.cc",
+    "source_code": "https://github.com/dribdat/dribdat",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dribdat.webp",
+    "issues": "https://github.com/dribdat/dribdat/issues",
+    "releases": "https://github.com/dribdat/dribdat/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dribdat-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dribdat-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Hackathon Management",
+      "description": "Organizes hackathons and innovation events",
+      "core_feature": true
+    },
+    {
+      "title": "Project Submission",
+      "description": "Collects team project entries",
+      "core_feature": true
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Manages teams and participants"
+    },
+    {
+      "title": "Event Pages",
+      "description": "Publishes event information"
+    },
+    {
+      "title": "Voting and Judging",
+      "description": "Supports judging workflows"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages events through a browser"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with external tools"
+    },
+    {
+      "title": "Self-Hosted Events",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dribdat/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.dribdat.cc",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "pangolin",
+  "slug": "pangolin",
+  "tagline": "A lightweight self-hosted URL shortener with analytics",
+  "subtitle": "",
+  "description": "Pangolin is a self-hosted, lightweight URL shortener with analytics and custom redirects. It includes a clean web interface and link management features for private or team use.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "1.16.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 19356,
+    "github_contributors": 81,
+    "github_commits_this_year": 884,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 10
+  },
+  "resources": {
+    "website": "https://pangolin.net",
+    "documentation": "https://docs.pangolin.net",
+    "source_code": "https://github.com/fosrl/pangolin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pangolin.webp",
+    "issues": "https://github.com/fosrl/pangolin/issues",
+    "releases": "https://github.com/fosrl/pangolin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pangolin-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pangolin-hero-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pangolin-private-resources.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pangolin-sites-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pangolin-user-devices.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reverse Proxy",
+      "description": "Route external traffic to internal services",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access to exposed services",
+      "core_feature": true
+    },
+    {
+      "title": "HTTPS Support",
+      "description": "Serve applications over HTTPS",
+      "core_feature": true
+    },
+    {
+      "title": "Service Definitions",
+      "description": "Configure routes using service definitions"
+    },
+    {
+      "title": "Lightweight Deployment",
+      "description": "Run with minimal resource usage"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the proxy on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pangolin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "pangolin",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=pangolin"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

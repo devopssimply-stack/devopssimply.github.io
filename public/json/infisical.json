@@ -1,0 +1,99 @@
+{
+  "name": "infisical",
+  "slug": "infisical",
+  "tagline": "A secrets management platform for centralizing environment variables securely",
+  "subtitle": "",
+  "description": "Infisical is an open source secret management platform for developers. It centralizes environment variables and secrets, provides access controls, audits and integrations with CI, and is available as both a cloud and self hosted solution.",
+  "categories": [
+    38
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.158.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 25253,
+    "github_contributors": 212,
+    "github_commits_this_year": 1670,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 21
+  },
+  "resources": {
+    "website": "https://infisical.com",
+    "documentation": "https://infisical.com/docs",
+    "source_code": "https://github.com/Infisical/infisical",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/infisical.webp",
+    "issues": "https://github.com/Infisical/infisical/issues",
+    "releases": "https://github.com/Infisical/infisical/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/infisical-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/infisical-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Secrets Management",
+      "description": "Stores application secrets such as API keys tokens and credentials",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Separation",
+      "description": "Organizes secrets by environment such as development staging and production",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restricts who can read or modify secrets using role-based permissions"
+    },
+    {
+      "title": "Audit Logging",
+      "description": "Records access and changes to secrets for traceability"
+    },
+    {
+      "title": "Secret Rotation",
+      "description": "Supports updating secrets without manual redistribution"
+    },
+    {
+      "title": "API and CLI Access",
+      "description": "Integrates secrets into applications and deployment workflows"
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Shares secrets safely among team members"
+    },
+    {
+      "title": "Self-Hosted Secrets Platform",
+      "description": "Can be hosted on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/infisical/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "infisical",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=infisical"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

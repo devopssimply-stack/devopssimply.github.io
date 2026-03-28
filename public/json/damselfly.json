@@ -1,0 +1,96 @@
+{
+  "name": "damselfly",
+  "slug": "damselfly",
+  "tagline": "A self-hosted photo and video manager with fast search and tagging",
+  "subtitle": "",
+  "description": "Damselfly is a self-hosted photo and video management app with AI-powered tagging and search features. It includes facial recognition, bulk processing, and a responsive UI for browsing media collections efficiently.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "4.5.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-14",
+    "date_last_commit": "2026-02-17",
+    "github_stars": 1748,
+    "github_contributors": 4,
+    "github_commits_this_year": 38,
+    "github_issues_open": 180,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/Webreaper/Damselfly",
+    "documentation": "https://github.com/Webreaper/Damselfly",
+    "source_code": "https://github.com/Webreaper/Damselfly",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/damselfly.webp",
+    "issues": "https://github.com/Webreaper/Damselfly/issues",
+    "releases": "https://github.com/Webreaper/Damselfly/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/damselfly-ai.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/damselfly-browsing.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/damselfly-grouping.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/damselfly-imageview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/damselfly-theme.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Photo Management",
+      "description": "Organizes and browses photo collections",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Indexing",
+      "description": "Indexes EXIF and file metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Fast Search",
+      "description": "Searches photos by metadata and filename",
+      "core_feature": true
+    },
+    {
+      "title": "Folder-Based Organization",
+      "description": "Preserves existing directory structures"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browses photos through a browser"
+    },
+    {
+      "title": "Read-Only Library",
+      "description": "Avoids modifying original photo files"
+    },
+    {
+      "title": "Large Library Support",
+      "description": "Handles large photo collections efficiently"
+    },
+    {
+      "title": "Self-Hosted Gallery",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/damselfly/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

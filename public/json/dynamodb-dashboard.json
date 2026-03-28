@@ -1,0 +1,93 @@
+{
+  "name": "dynamodb-dashboard",
+  "slug": "dynamodb-dashboard",
+  "tagline": "A web interface for browsing and inspecting DynamoDB tables",
+  "subtitle": "",
+  "description": "DynamoDB Dashboard is a web UI for visualizing and inspecting AWS DynamoDB tables. It helps developers browse items, run queries, and understand data structures without relying solely on the AWS console.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.25.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 51,
+    "github_contributors": 9,
+    "github_commits_this_year": 102,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/kritish-dhaubanjar/dynamodb-dashboard",
+    "documentation": "https://github.com/kritish-dhaubanjar/dynamodb-dashboard",
+    "source_code": "https://github.com/kritish-dhaubanjar/dynamodb-dashboard",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dynamodb-dashboard.webp",
+    "issues": "https://github.com/kritish-dhaubanjar/dynamodb-dashboard/issues",
+    "releases": "https://github.com/kritish-dhaubanjar/dynamodb-dashboard/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dynamodb-dashboard-item.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dynamodb-dashboard-tables.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "DynamoDB Management Dashboard",
+      "description": "Manages Amazon DynamoDB tables",
+      "core_feature": true
+    },
+    {
+      "title": "Table Browsing",
+      "description": "Views items and attributes",
+      "core_feature": true
+    },
+    {
+      "title": "Query and Scan",
+      "description": "Runs queries and scans on tables",
+      "core_feature": true
+    },
+    {
+      "title": "Data Editing",
+      "description": "Creates updates and deletes items"
+    },
+    {
+      "title": "Index Management",
+      "description": "Views secondary indexes"
+    },
+    {
+      "title": "AWS Credential Support",
+      "description": "Authenticates using AWS credentials"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Operates through a browser"
+    },
+    {
+      "title": "Self-Hosted Dashboard",
+      "description": "Runs on user-controlled infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dynamodb-dashboard/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

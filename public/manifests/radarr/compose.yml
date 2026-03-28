@@ -1,0 +1,31 @@
+# ===============================
+# Docker Compose (Radarr)
+# ===============================
+# host: http://localhost:7878
+# username:
+# password:
+
+services:
+  radarr:
+    image: linuxserver/radarr:latest
+    container_name: radarr
+    ports:
+      - "7878:7878"
+    environment:
+      TZ: "UTC"
+    volumes:
+      - radarr_config:/config
+      - radarr_movies:/movies
+      - radarr_downloads:/downloads
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:7878"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+volumes:
+  radarr_config:
+  radarr_movies:
+  radarr_downloads:

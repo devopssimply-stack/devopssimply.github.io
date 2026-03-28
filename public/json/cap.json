@@ -1,0 +1,94 @@
+{
+  "name": "cap-captcha",
+  "slug": "cap-captcha",
+  "tagline": "A web-based tool for creating and validating Common Alerting Protocol files",
+  "subtitle": "",
+  "description": "Cap is a web tool that generates, edits, and validates CAP (Common Alerting Protocol) files. It is useful in emergency systems and alert servers, with a simple visual editor and XML export.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "NOASSERTION",
+    "version": "widget@0.1.39",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-02",
+    "github_stars": 5044,
+    "github_contributors": 18,
+    "github_commits_this_year": 35,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 10
+  },
+  "resources": {
+    "website": "http://capjs.js.org/",
+    "documentation": "https://capjs.js.org/guide",
+    "source_code": "https://github.com/tiagozip/cap",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cap.webp",
+    "issues": "https://github.com/tiagozip/cap/issues",
+    "releases": "https://github.com/tiagozip/cap/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cap-captcha-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cap-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cap-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Ultra Lightweight",
+      "description": "About 250x smaller than hCaptcha (~20kb) with zero dependencies",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-First",
+      "description": "No telemetry sent to external servers",
+      "core_feature": true
+    },
+    {
+      "title": "Fully Customizable",
+      "description": "Customize colors, size, position, and icons with CSS variables"
+    },
+    {
+      "title": "Proof-of-Work",
+      "description": "Verifies users without visual puzzles"
+    },
+    {
+      "title": "Standalone Mode",
+      "description": "Run anywhere using Docker"
+    },
+    {
+      "title": "Programmatic",
+      "description": "Solve challenges in the background"
+    },
+    {
+      "title": "M2M Support",
+      "description": "Protect APIs while allowing trusted bots"
+    },
+    {
+      "title": "Open Source",
+      "description": "Free and open-source under Apache 2.0",
+      "core_feature": true
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cap/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://capjs.js.org/guide/demo.html",
+    "username": null,
+    "password": null
+  }
+}

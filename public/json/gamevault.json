@@ -1,0 +1,95 @@
+{
+  "name": "gamevault",
+  "slug": "gamevault",
+  "tagline": "A self-hosted game launcher and library manager",
+  "subtitle": "",
+  "description": "GameVault is a self-hosted gaming launcher and library manager. It scans games, provides metadata, launch buttons, and remote play support. Supports Windows and Linux builds, with a slick UI for organizing your collection.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "CC BY-NC-SA 4.0",
+    "version": "1.17.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-13",
+    "date_last_commit": "2026-01-06",
+    "github_stars": 743,
+    "github_contributors": 9,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://gamevau.lt",
+    "documentation": "https://github.com/Phalcode/gamevault-app",
+    "source_code": "https://github.com/Phalcode/gamevault-app",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/gamevault.webp",
+    "issues": "https://github.com/Phalcode/gamevault-app/issues",
+    "releases": "https://github.com/Phalcode/gamevault-app/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gamevault-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gamevault-library.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gamevault-rich-metadata.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gamevault-store.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Game Library Management",
+      "description": "Organizes and catalogs personal game collections",
+      "core_feature": true
+    },
+    {
+      "title": "Download Management",
+      "description": "Downloads and stores game files centrally",
+      "core_feature": true
+    },
+    {
+      "title": "Client Applications",
+      "description": "Provides desktop clients for accessing games",
+      "core_feature": true
+    },
+    {
+      "title": "Version Control",
+      "description": "Manages multiple versions of games"
+    },
+    {
+      "title": "Metadata Management",
+      "description": "Stores game descriptions and cover art"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates libraries per user"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages the library through a browser"
+    },
+    {
+      "title": "Self-Hosted Game Library",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/gamevault/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.gamevau.lt",
+    "username": "demo",
+    "password": "demodemo"
+  }
+}

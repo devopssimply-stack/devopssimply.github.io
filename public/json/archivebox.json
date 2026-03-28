@@ -1,0 +1,98 @@
+{
+  "name": "archivebox",
+  "slug": "archivebox",
+  "tagline": "A web archiving system for capturing and preserving websites over time",
+  "subtitle": "",
+  "description": "ArchiveBox is a powerful tool to save and preserve snapshots of websites for long-term archival. It supports input sources like bookmarks, RSS, Pocket, and captures full HTML, media, and PDF exports with searchable UI.",
+  "categories": [
+    12
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.7.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-12-15",
+    "date_last_commit": "2026-02-26",
+    "github_stars": 27008,
+    "github_contributors": 129,
+    "github_commits_this_year": 42,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://archivebox.io",
+    "documentation": "https://github.com/ArchiveBox/ArchiveBox/wiki",
+    "source_code": "https://github.com/ArchiveBox/ArchiveBox",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/archivebox.webp",
+    "issues": "https://github.com/ArchiveBox/ArchiveBox/issues",
+    "releases": "https://github.com/ArchiveBox/ArchiveBox/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/archivebox.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/archivebox-file-list.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Archiving",
+      "description": "Archive websites and online content",
+      "core_feature": true
+    },
+    {
+      "title": "Snapshot Storage",
+      "description": "Save local copies of web pages",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Archiving",
+      "description": "Archive content automatically"
+    },
+    {
+      "title": "Search",
+      "description": "Search archived content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse archives through a browser"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/archivebox/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "archivebox",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=archivebox"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "archivebox_ynh",
+      "url": "https://github.com/YunoHost-Apps/archivebox_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "habittrove",
+  "slug": "habittrove",
+  "tagline": "A self-hosted application for building habits with streak tracking",
+  "subtitle": "",
+  "description": "HabitTrove is a simple self-hosted habit-building app that lets users create tasks, track consistency, and view streaks with an attractive mobile-friendly web interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.2.30",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-03",
+    "date_last_commit": "2025-12-03",
+    "github_stars": 624,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://demo.habittrove.com/",
+    "documentation": "https://github.com/dohsimpson/HabitTrove",
+    "source_code": "https://github.com/dohsimpson/HabitTrove",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/habittrove.webp",
+    "issues": "https://github.com/dohsimpson/HabitTrove/issues",
+    "releases": "https://github.com/dohsimpson/HabitTrove/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habittrove-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habittrove-demo-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habittrove-habits.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/habittrove-wishlist.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Habit Tracking",
+      "description": "Records recurring habits and tracks completion status over time",
+      "core_feature": true
+    },
+    {
+      "title": "Streak Monitoring",
+      "description": "Tracks consecutive days of habit completion"
+    },
+    {
+      "title": "Progress History",
+      "description": "Displays historical habit data for review"
+    },
+    {
+      "title": "Simple User Interface",
+      "description": "Provides a minimal interface focused on habit entry and review"
+    },
+    {
+      "title": "Web Application",
+      "description": "Accesses habit data through a browser interface"
+    },
+    {
+      "title": "Local Data Storage",
+      "description": "Stores habit data locally under user control"
+    },
+    {
+      "title": "Data Export",
+      "description": "Exports habit records for external use"
+    },
+    {
+      "title": "Self-Hosted Habit App",
+      "description": "Run the application on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/habittrove/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "demo.habittrove.com",
+    "username": null,
+    "password": null
+  }
+}

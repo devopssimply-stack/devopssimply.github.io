@@ -1,0 +1,89 @@
+{
+  "name": "imagor-studio",
+  "slug": "imagor-studio",
+  "tagline": "A visual tool for composing and testing image transformation pipelines",
+  "subtitle": "",
+  "description": "Imagor Studio is a web interface for Imagor, an image processing server. It lets users compose and test transformations like resize, crop and filters visually, then generate the corresponding URLs for automated use.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.0.10",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 206,
+    "github_contributors": 2,
+    "github_commits_this_year": 213,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 19
+  },
+  "resources": {
+    "website": "https://imagor.net",
+    "documentation": "https://docs.studio.imagor.net",
+    "source_code": "https://github.com/cshum/imagor-studio",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/imagor-studio.webp",
+    "issues": "https://github.com/cshum/imagor-studio/issues",
+    "releases": "https://github.com/cshum/imagor-studio/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Image Processing Interface",
+      "description": "Provides a browser-based interface for generating and testing image transformation requests",
+      "core_feature": true
+    },
+    {
+      "title": "Imagor Service Integration",
+      "description": "Connects to an Imagor backend to apply image processing operations",
+      "core_feature": true
+    },
+    {
+      "title": "Resize and Crop",
+      "description": "Allows users to adjust image dimensions and framing parameters"
+    },
+    {
+      "title": "Format Conversion",
+      "description": "Converts images into supported output formats"
+    },
+    {
+      "title": "Transformation Preview",
+      "description": "Displays preview results for image transformation settings"
+    },
+    {
+      "title": "URL Generation",
+      "description": "Generates image URLs with transformation parameters applied"
+    },
+    {
+      "title": "Web-Based Access",
+      "description": "Operates entirely through a browser without local tooling"
+    },
+    {
+      "title": "Self-Hosted Image Tool",
+      "description": "Can be hosted on your own infrastructure alongside Imagor"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/imagor-studio/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "peekaping",
+  "slug": "peekaping",
+  "tagline": "A self-hosted uptime and health check monitoring tool",
+  "subtitle": "",
+  "description": "PeekAPing is a self-hosted monitoring tool for running health checks on websites and services. It provides uptime tracking, performance data, and alerting over a custom web UI.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.0.45",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-21",
+    "date_last_commit": "2026-02-21",
+    "github_stars": 1048,
+    "github_contributors": 13,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/0xfurai/peekaping",
+    "documentation": "https://docs.peekaping.com",
+    "source_code": "https://github.com/0xfurai/peekaping",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/peekaping.webp",
+    "issues": "https://github.com/0xfurai/peekaping/issues",
+    "releases": "https://github.com/0xfurai/peekaping/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/peekaping-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/peekaping-monitor.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Uptime Monitoring",
+      "description": "Monitor availability of services and endpoints",
+      "core_feature": true
+    },
+    {
+      "title": "Status Dashboard",
+      "description": "View service status in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Incident History",
+      "description": "Track past outages and incidents",
+      "core_feature": true
+    },
+    {
+      "title": "Notifications",
+      "description": "Send alerts when services go down"
+    },
+    {
+      "title": "Multiple Checks",
+      "description": "Monitor multiple endpoints"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the monitoring tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/peekaping/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.peekaping.com/register",
+    "username": null,
+    "password": null
+  }
+}

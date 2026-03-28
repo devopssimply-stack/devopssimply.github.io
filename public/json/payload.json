@@ -1,0 +1,79 @@
+{
+  "name": "payload",
+  "slug": "payload",
+  "tagline": "A headless CMS and application framework for custom APIs and admin UIs",
+  "subtitle": "",
+  "description": "Payload is a headless CMS and application framework for building custom APIs, admin UIs, and content workflows. It supports TypeScript, plugins, and self-hosting or cloud deployment.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.79.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 41019,
+    "github_contributors": 433,
+    "github_commits_this_year": 361,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 12
+  },
+  "resources": {
+    "website": "https://payloadcms.com",
+    "documentation": "https://payloadcms.com/docs",
+    "source_code": "https://github.com/payloadcms/payload",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/payload.webp",
+    "issues": "https://github.com/payloadcms/payload/issues",
+    "releases": "https://github.com/payloadcms/payload/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-payload.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-screenshot-1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-screenshot-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-screenshot-3.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-screenshot-4.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-screenshot-5.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/payload-screenshot-6.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Headless CMS",
+      "description": "Manage content via API-first CMS",
+      "core_feature": true
+    },
+    {
+      "title": "Content Modeling",
+      "description": "Define custom content structures",
+      "core_feature": true
+    },
+    {
+      "title": "Admin UI",
+      "description": "Manage content through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Define permissions for users and roles"
+    },
+    {
+      "title": "API Delivery",
+      "description": "Access content via REST or GraphQL"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

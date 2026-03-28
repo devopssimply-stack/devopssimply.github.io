@@ -1,0 +1,82 @@
+{
+  "name": "strava-statistics",
+  "slug": "statistics-for-strava",
+  "tagline": "A self-hosted analytics dashboard for visualizing Strava activity and performance",
+  "subtitle": "",
+  "description": "Statistics for Strava is a self-hosted analytics dashboard for Strava athletes. It imports activities and displays advanced stats, charts, and trends.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1607,
+    "github_contributors": 34,
+    "github_commits_this_year": 385,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 18
+  },
+  "resources": {
+    "website": "https://statistics-for-strava.robiningelbrecht.be",
+    "documentation": "https://statistics-for-strava-docs.robiningelbrecht.be",
+    "source_code": "https://github.com/robiningelbrecht/statistics-for-strava",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/statistics-for-strava.webp",
+    "issues": "https://github.com/robiningelbrecht/statistics-for-strava/issues",
+    "releases": "https://github.com/robiningelbrecht/statistics-for-strava/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Activity Statistics",
+      "description": "Analyze activity data from Strava",
+      "core_feature": true
+    },
+    {
+      "title": "Historical Analysis",
+      "description": "View statistics over time",
+      "core_feature": true
+    },
+    {
+      "title": "Charts",
+      "description": "Visualize activity metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Activity Breakdown",
+      "description": "View stats per activity type"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse statistics in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the analytics tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/statistics-for-strava/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://statistics-for-strava.robiningelbrecht.be/dashboard",
+    "username": null,
+    "password": null
+  }
+}

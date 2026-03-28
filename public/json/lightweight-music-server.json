@@ -1,0 +1,87 @@
+{
+  "name": "lightweight-music-server",
+  "slug": "lightweight-music-server",
+  "tagline": "A lightweight self-hosted music streaming server with playlists and scrobbling",
+  "subtitle": "",
+  "description": "LMS is a lightweight and fast self-hosted music streaming server with Last.fm scrobbling, playlist support, and web-based playback. It allows fully-private music streaming from your own server to any device.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v3.75.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 1557,
+    "github_contributors": 15,
+    "github_commits_this_year": 43,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "http://lms-demo.poupon.dev",
+    "documentation": "https://github.com/epoupon/lms/blob/master/INSTALL.md",
+    "source_code": "https://github.com/epoupon/lms",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lightweight-music-server.webp",
+    "issues": "https://github.com/epoupon/lms/issues",
+    "releases": "https://github.com/epoupon/lms/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lightweight-music-server-albums.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lightweight-music-server-playlists.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lightweight-music-server-playlst.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lightweight-music-server-track.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Streaming Server",
+      "description": "Stream music from a personal library",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organize and browse music collections",
+      "core_feature": true
+    },
+    {
+      "title": "Web Player",
+      "description": "Play music directly in a web browser",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Support",
+      "description": "Create and manage playlists"
+    },
+    {
+      "title": "Multi-User Access",
+      "description": "Allow multiple users to access the music library"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the music server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lightweight-music-server/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://lms-demo.poupon.dev",
+    "username": "demo",
+    "password": "demo"
+  }
+}

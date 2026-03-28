@@ -1,0 +1,98 @@
+{
+  "name": "kitchenowl",
+  "slug": "kitchenowl",
+  "tagline": "A self-hosted grocery list and meal planning app for households",
+  "subtitle": "",
+  "description": "KitchenOwl is a self hosted grocery list and meal planning app. It manages pantry inventory, shopping lists and recipes, helping households reduce waste and coordinate food buying through shared web and mobile friendly interfaces.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.7.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-24",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 3136,
+    "github_contributors": 43,
+    "github_commits_this_year": 24,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://kitchenowl.org/",
+    "documentation": "https://docs.kitchenowl.org",
+    "source_code": "https://github.com/TomBursch/kitchenowl",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kitchenowl.webp",
+    "issues": "https://github.com/TomBursch/kitchenowl/issues",
+    "releases": "https://github.com/TomBursch/kitchenowl/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kitchenowl-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Recipe Management",
+      "description": "Store and manage personal recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Meal Planning",
+      "description": "Plan meals using stored recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Shopping Lists",
+      "description": "Generate shopping lists from meal plans",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Share recipes and plans with household members"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kitchenowl/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "kitchenowl_ynh",
+      "url": "https://github.com/YunoHost-Apps/kitchenowl_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "kitchenowl",
+      "url": "https://apps.truenas.com/catalog/kitchenowl"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "kitchenowl",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=kitchenowl"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

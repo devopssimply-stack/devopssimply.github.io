@@ -1,0 +1,96 @@
+{
+  "name": "ironcalc",
+  "slug": "ironcalc",
+  "tagline": "A self-hosted collaborative spreadsheet platform as an alternative to online spreadsheets",
+  "subtitle": "",
+  "description": "IronCalc is a self hosted spreadsheet engine and collaboration platform that aims to provide an alternative to proprietary online spreadsheets. It enables sharing, formulas and structured data while keeping documents on your own server.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.7.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3784,
+    "github_contributors": 25,
+    "github_commits_this_year": 158,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://www.ironcalc.com",
+    "documentation": "https://docs.ironcalc.com",
+    "source_code": "https://github.com/ironcalc/IronCalc",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ironcalc.webp",
+    "issues": "https://github.com/ironcalc/IronCalc/issues",
+    "releases": "https://github.com/ironcalc/IronCalc/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ironcalc-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Spreadsheet Calculation Engine",
+      "description": "Evaluates spreadsheet-style formulas and calculations",
+      "core_feature": true
+    },
+    {
+      "title": "Formula Compatibility",
+      "description": "Supports a wide range of spreadsheet functions",
+      "core_feature": true
+    },
+    {
+      "title": "Programmatic Usage",
+      "description": "Integrates spreadsheet calculations into applications"
+    },
+    {
+      "title": "Deterministic Results",
+      "description": "Produces consistent calculation outcomes"
+    },
+    {
+      "title": "Data Import",
+      "description": "Loads spreadsheet data for processing"
+    },
+    {
+      "title": "Engine Library",
+      "description": "Acts as a reusable computation engine"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Runs in multiple environments"
+    },
+    {
+      "title": "Self-Hosted Compute Engine",
+      "description": "Runs entirely within your own systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ironcalc/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://app.ironcalc.com",
+    "username": null,
+    "password": null
+  }
+}

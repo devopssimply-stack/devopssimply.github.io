@@ -1,0 +1,95 @@
+{
+  "name": "yarr",
+  "slug": "yarr",
+  "tagline": "A web-based RSS/Atom feed reader with tags, search, and scheduled fetches",
+  "subtitle": "",
+  "description": "yarr (yet another RSS reader) is a self-hosted web-based feed reader. It fetches RSS/Atom feeds on a schedule, supports tags and search, and presents content in a clean, keyboard-friendly UI.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-24",
+    "date_last_commit": "2026-01-23",
+    "github_stars": 3711,
+    "github_contributors": 34,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/nkanaev/yarr",
+    "documentation": "https://github.com/nkanaev/yarr",
+    "source_code": "https://github.com/nkanaev/yarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/yarr.webp",
+    "issues": "https://github.com/nkanaev/yarr/issues",
+    "releases": "https://github.com/nkanaev/yarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/yarr-promo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "RSS Reader",
+      "description": "Read and manage RSS feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Organization",
+      "description": "Organize feeds into folders",
+      "core_feature": true
+    },
+    {
+      "title": "Offline Reading",
+      "description": "Read feeds offline",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search feed content"
+    },
+    {
+      "title": "Keyboard Shortcuts",
+      "description": "Navigate feeds using shortcuts"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the reader on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/yarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "yarr_ynh",
+      "url": "https://github.com/YunoHost-Apps/yarr_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

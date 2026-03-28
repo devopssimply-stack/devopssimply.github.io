@@ -1,0 +1,93 @@
+{
+  "name": "swing-music",
+  "slug": "swing-music",
+  "tagline": "A self-hosted music streaming server with playlists and a modern web player",
+  "subtitle": "",
+  "description": "SwingMusic is a self-hosted music streaming server and player with playlists, search, and a modern responsive UI for listening to your own collection.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.1.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-18",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 1763,
+    "github_contributors": 16,
+    "github_commits_this_year": 13,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://swingmx.com",
+    "documentation": "https://swingmx.com/guide/introduction.html",
+    "source_code": "https://github.com/swingmx/swingmusic",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/swing-music.webp",
+    "issues": "https://github.com/swingmx/swingmusic/issues",
+    "releases": "https://github.com/swingmx/swingmusic/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Music Server",
+      "description": "Stream music from a personal library",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organize music by artist and album",
+      "core_feature": true
+    },
+    {
+      "title": "Web Player",
+      "description": "Play music in a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Support",
+      "description": "Create and manage playlists"
+    },
+    {
+      "title": "Metadata Handling",
+      "description": "Display track metadata"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the music server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/swing-music/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "swingmusic_ynh",
+      "url": "https://github.com/YunoHost-Apps/swingmusic_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

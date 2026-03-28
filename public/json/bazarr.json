@@ -1,0 +1,101 @@
+{
+  "name": "bazarr",
+  "slug": "bazarr",
+  "tagline": "An automation tool for downloading and managing subtitles for media libraries",
+  "subtitle": "",
+  "description": "Bazarr is a companion tool to Radarr and Sonarr that automatically downloads and manages subtitles for media libraries. It supports many subtitle providers, languages, and integrates with Plex, Jellyfin, and Emby.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.5.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 3828,
+    "github_contributors": 172,
+    "github_commits_this_year": 112,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 23
+  },
+  "resources": {
+    "website": "https://www.bazarr.media",
+    "documentation": "https://wiki.bazarr.media",
+    "source_code": "https://github.com/morpheus65535/bazarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bazarr.webp",
+    "issues": "https://github.com/morpheus65535/bazarr/issues",
+    "releases": "https://github.com/morpheus65535/bazarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bazarr-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bazarr-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Subtitle Automation",
+      "description": "Automatically download and manage subtitles",
+      "core_feature": true
+    },
+    {
+      "title": "Media Server Integration",
+      "description": "Integrate with movie and TV libraries",
+      "core_feature": true
+    },
+    {
+      "title": "Language Profiles",
+      "description": "Define preferred subtitle languages"
+    },
+    {
+      "title": "Subtitle Synchronization",
+      "description": "Sync subtitles with existing media files"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Configure subtitle settings through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bazarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "bazarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=bazarr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "bazarr_ynh",
+      "url": "https://github.com/YunoHost-Apps/bazarr_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "bazarr",
+      "url": "https://apps.truenas.com/catalog/bazarr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

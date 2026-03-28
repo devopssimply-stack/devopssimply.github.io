@@ -1,0 +1,97 @@
+{
+  "name": "shiori",
+  "slug": "shiori",
+  "tagline": "A self-hosted bookmark manager with web UI and CLI support",
+  "subtitle": "",
+  "description": "Shiori is a self-hosted bookmark manager inspired by Pocket. It can be used via CLI or web UI, saving pages, snapshots, and tags while providing import/export features.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.8.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-26",
+    "date_last_commit": "2026-02-01",
+    "github_stars": 11332,
+    "github_contributors": 67,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/go-shiori/shiori",
+    "documentation": "https://github.com/go-shiori/shiori/blob/master/docs/Installation.md",
+    "source_code": "https://github.com/go-shiori/shiori",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/shiori.webp",
+    "issues": "https://github.com/go-shiori/shiori/issues",
+    "releases": "https://github.com/go-shiori/shiori/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shiori-cover.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shiori-home-list.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shiori-options.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Bookmark Management",
+      "description": "Save and organize bookmarks",
+      "core_feature": true
+    },
+    {
+      "title": "Content Archiving",
+      "description": "Save readable copies of bookmarked pages",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize bookmarks using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search bookmarks and archived content"
+    },
+    {
+      "title": "Command-Line Interface",
+      "description": "Manage bookmarks via CLI"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the bookmark service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/shiori/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "shiori_ynh",
+      "url": "https://github.com/YunoHost-Apps/shiori_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

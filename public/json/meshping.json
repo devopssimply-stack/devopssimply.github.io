@@ -1,0 +1,80 @@
+{
+  "name": "meshping",
+  "slug": "meshping",
+  "tagline": "A peer-to-peer network monitoring tool for mesh connectivity",
+  "subtitle": "",
+  "description": "MeshPing is a peer-to-peer networking monitoring tool that detects connectivity issues across mesh nodes. It’s suitable for monitoring decentralized or distributed networks in self-hosted environments.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 163,
+    "github_contributors": 7,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Svedrin/meshping",
+    "documentation": "https://github.com/Svedrin/meshping",
+    "source_code": "https://github.com/Svedrin/meshping",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/meshping.webp",
+    "issues": "https://github.com/Svedrin/meshping/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/meshping-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/meshping-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network Monitoring",
+      "description": "Monitor network connectivity using ping checks",
+      "core_feature": true
+    },
+    {
+      "title": "Target Groups",
+      "description": "Organize monitored hosts into groups"
+    },
+    {
+      "title": "Status Visualization",
+      "description": "Display connectivity status over time",
+      "core_feature": true
+    },
+    {
+      "title": "Alerting",
+      "description": "Notify on connectivity issues"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the monitor on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/meshping/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

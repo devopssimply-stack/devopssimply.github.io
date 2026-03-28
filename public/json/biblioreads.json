@@ -1,0 +1,85 @@
+{
+  "name": "biblioreads",
+  "slug": "biblioreads",
+  "tagline": "A self-hosted reading tracker for logging books and reading progress",
+  "subtitle": "",
+  "description": "BiblioReads is a simple, self-hosted reading tracker designed for book lovers to log books, track reading progress, and view reading statistics. It features a clean UI and lightweight backend that’s easy to deploy.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-01-24",
+    "github_stars": 297,
+    "github_contributors": 4,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://biblioreads.eu.org",
+    "documentation": "https://github.com/nesaku/BiblioReads",
+    "source_code": "https://github.com/nesaku/BiblioReads",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/biblioreads.webp",
+    "issues": "https://github.com/nesaku/BiblioReads/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/biblioreads-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/biblioreads-author-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/biblioreads-books-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/biblioreads-books-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/biblioreads-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/biblioreads-quote-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/biblioreads-search-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/biblioreads-search-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reading Tracker",
+      "description": "Track books, progress, and reading history",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Status",
+      "description": "Mark books as planned, reading, or finished"
+    },
+    {
+      "title": "Ratings and Reviews",
+      "description": "Rate and review completed books"
+    },
+    {
+      "title": "Statistics",
+      "description": "View reading statistics and summaries"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage reading list through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/biblioreads/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

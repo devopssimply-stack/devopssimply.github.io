@@ -1,0 +1,78 @@
+{
+  "name": "nortix-mail",
+  "slug": "nortix-mail",
+  "tagline": "A self-hosted webmail system with inbox, filters, and address book",
+  "subtitle": "",
+  "description": "NortixMail is a self-hosted webmail system designed to simplify email hosting for individuals or SMEs. It features inbox, filters, address book, and a responsive interface for communications.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "PolyForm Noncommercial License 1.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-06-07",
+    "github_stars": 702,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/Zhoros/NortixMail",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nortix-mail.webp",
+    "issues": "https://github.com/Zhoros/NortixMail/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nortix-mail-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Mail Server Tools",
+      "description": "Support utilities for mail server operations",
+      "core_feature": true
+    },
+    {
+      "title": "SMTP Tools",
+      "description": "Test and interact with SMTP servers"
+    },
+    {
+      "title": "Mail Diagnostics",
+      "description": "Diagnose mail server behavior"
+    },
+    {
+      "title": "Command Line Interface",
+      "description": "Run mail tools from terminal"
+    },
+    {
+      "title": "Developer Focused",
+      "description": "Provide utilities for mail debugging"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nortix-mail/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

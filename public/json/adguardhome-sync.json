@@ -1,0 +1,81 @@
+{
+  "name": "adguardhome-sync",
+  "slug": "adguardhome-sync",
+  "tagline": "A synchronization tool for managing multiple AdGuard Home instances",
+  "subtitle": "",
+  "description": "AdGuardHome Sync automatically synchronizes exact config and filter settings across multiple AdGuard Home instances. It helps users running multi-router or distributed setups manage consistent filtering rules without manual effort.",
+  "categories": [
+    7
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.9.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-27",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 1596,
+    "github_contributors": 23,
+    "github_commits_this_year": 41,
+    "github_issues_open": 3,
+    "github_issues_closed_this_year": 10,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/bakito/adguardhome-sync",
+    "documentation": "https://github.com/bakito/adguardhome-sync",
+    "source_code": "https://github.com/bakito/adguardhome-sync",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/adguardhome-sync.webp",
+    "issues": "https://github.com/bakito/adguardhome-sync/issues",
+    "releases": "https://github.com/bakito/adguardhome-sync/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Configuration Synchronization",
+      "description": "Synchronizes AdGuard Home settings between multiple instances",
+      "core_feature": true
+    },
+    {
+      "title": "Rule and Filter Sync",
+      "description": "Keeps blocklists and custom rules consistent across servers",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduled Sync Jobs",
+      "description": "Runs synchronization tasks automatically at defined intervals"
+    },
+    {
+      "title": "Multi-Instance Support",
+      "description": "Manages synchronization across more than two AdGuard Home nodes"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "web"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/adguardhome-sync/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/adguardhome-sync/script.sh"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

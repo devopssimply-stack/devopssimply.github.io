@@ -1,0 +1,81 @@
+{
+  "name": "workout-tracker",
+  "slug": "workout-tracker",
+  "tagline": "A detailed fitness log for tracking exercises, sets, reps, and performance",
+  "subtitle": "",
+  "description": "workout-tracker is a self-hosted fitness log designed for detailed exercise tracking. It records exercises, sets, reps, and notes, and visualizes performance trends through straightforward dashboards.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.5.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-04",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 1195,
+    "github_contributors": 29,
+    "github_commits_this_year": 78,
+    "github_issues_open": 35,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/jovandeginste/workout-tracker",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/workout-tracker.webp",
+    "issues": "https://github.com/jovandeginste/workout-tracker/issues",
+    "releases": "https://github.com/jovandeginste/workout-tracker/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Workout Logging",
+      "description": "Log workout sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Exercise Tracking",
+      "description": "Track exercises and sets",
+      "core_feature": true
+    },
+    {
+      "title": "Progress Charts",
+      "description": "Visualize training progress",
+      "core_feature": true
+    },
+    {
+      "title": "History",
+      "description": "View workout history"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Log workouts through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "workout-tracker_ynh",
+      "url": "https://github.com/YunoHost-Apps/workout-tracker_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

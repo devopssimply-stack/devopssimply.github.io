@@ -1,0 +1,103 @@
+{
+  "name": "onedev",
+  "slug": "onedev",
+  "tagline": "A self-hosted Git server with integrated CI, issues, and kanban boards",
+  "subtitle": "",
+  "description": "OneDev is a self-hosted Git hosting and CI platform. It includes code review, issue tracking, Kanban boards, and pipelines in a single, Docker-based application with a modern UI.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v14.1.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 14751,
+    "github_contributors": 31,
+    "github_commits_this_year": 87,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 19
+  },
+  "resources": {
+    "website": "https://onedev.io",
+    "documentation": "https://docs.onedev.io",
+    "source_code": "https://github.com/theonedev/onedev",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/onedev.webp",
+    "issues": "https://github.com/theonedev/onedev/issues",
+    "releases": "https://github.com/theonedev/onedev/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/onedev-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-code-annotation.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-high-availability.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-issue-board.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-job-executors.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-line-stats.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-mcp.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-package-registry.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-project-tree.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-renovate-integration.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-resource-usage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/onedev-time-tracking.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Git Repository Hosting",
+      "description": "Host and manage Git repositories",
+      "core_feature": true
+    },
+    {
+      "title": "CI/CD Pipelines",
+      "description": "Run automated builds and deployments",
+      "core_feature": true
+    },
+    {
+      "title": "Issue Tracking",
+      "description": "Track tasks and bugs",
+      "core_feature": true
+    },
+    {
+      "title": "Code Review",
+      "description": "Review changes via pull requests"
+    },
+    {
+      "title": "User Management",
+      "description": "Manage users and permissions"
+    },
+    {
+      "title": "Self-Hosted Platform",
+      "description": "Run the system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/onedev/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "onedev",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=onedev"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

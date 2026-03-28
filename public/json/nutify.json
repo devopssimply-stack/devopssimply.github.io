@@ -1,0 +1,90 @@
+{
+  "name": "nutify",
+  "slug": "nutify",
+  "tagline": "A lightweight local notification and alerting service",
+  "subtitle": "",
+  "description": "Nutify is a lightweight alert and activity push notification tool for local networks. It supports HTTP-based triggers and offers a minimal web-based UI for confirming, snoozing, or tracking alerts.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-20",
+    "github_stars": 699,
+    "github_contributors": 3,
+    "github_commits_this_year": 7,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/DartSteven/Nutify",
+    "documentation": "https://github.com/DartSteven/Nutify",
+    "source_code": "https://github.com/DartSteven/Nutify",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nutify.webp",
+    "issues": "https://github.com/DartSteven/Nutify/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nutify-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nutify-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nutify-page-battery.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nutify-page-energy.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nutify-page-power.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nutify-page-top.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nutify-setup.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Nutrition Tracking",
+      "description": "Track daily food intake and nutritional values",
+      "core_feature": true
+    },
+    {
+      "title": "Food Database",
+      "description": "Search and select foods from a built-in database",
+      "core_feature": true
+    },
+    {
+      "title": "Meal Logging",
+      "description": "Log meals by date and time",
+      "core_feature": true
+    },
+    {
+      "title": "Nutrition Summaries",
+      "description": "View daily and weekly nutrient summaries"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage nutrition data through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nutify/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

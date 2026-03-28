@@ -1,0 +1,91 @@
+{
+  "name": "wekan",
+  "slug": "wekan",
+  "tagline": "An open-source Trello-like kanban board for managing tasks and projects",
+  "subtitle": "",
+  "description": "Wekan is an open-source, Trello-like kanban board for managing tasks and projects. It offers boards, lists, cards, swimlanes, and permissions, and can be deployed self-hosted or via various hosted providers for teams of any size.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v8.31",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-07",
+    "date_last_commit": "2026-02-07",
+    "github_stars": 20830,
+    "github_contributors": 280,
+    "github_commits_this_year": 282,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 12
+  },
+  "resources": {
+    "website": "https://wekan.fi",
+    "documentation": "https://wekan.fi/install",
+    "source_code": "https://github.com/wekan/wekan",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wekan.webp",
+    "issues": "https://github.com/wekan/wekan/issues",
+    "releases": "https://github.com/wekan/wekan/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wekan-kanban-borad.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wekan-screenshot-multi-selection.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wekan-screenshot-v0.9.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wekan-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Kanban Boards",
+      "description": "Manage tasks using Kanban boards",
+      "core_feature": true
+    },
+    {
+      "title": "Cards and Lists",
+      "description": "Organize work into lists and cards",
+      "core_feature": true
+    },
+    {
+      "title": "Collaboration",
+      "description": "Work with multiple users"
+    },
+    {
+      "title": "Swimlanes",
+      "description": "Group cards visually"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the board on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wekan/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wekan_ynh",
+      "url": "https://github.com/YunoHost-Apps/wekan_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

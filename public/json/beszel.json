@@ -1,0 +1,92 @@
+{
+  "name": "beszel",
+  "slug": "beszel",
+  "tagline": "A lightweight monitoring dashboard for real-time server resource metrics",
+  "subtitle": "",
+  "description": "Beszel is a lightweight server monitoring dashboard that supports resource metrics across multiple machines. It offers real-time stats for CPU, RAM, disk, and network usage through a sleek web-based interface.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.18.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-20",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 19797,
+    "github_contributors": 106,
+    "github_commits_this_year": 111,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://beszel.dev",
+    "documentation": "https://beszel.dev/guide/what-is-beszel",
+    "source_code": "https://github.com/henrygd/beszel",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/beszel.webp",
+    "issues": "https://github.com/henrygd/beszel/issues",
+    "releases": "https://github.com/henrygd/beszel/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/beszel-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/beszel-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/beszel-settings.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Service Status Dashboard",
+      "description": "Display uptime and status of services",
+      "core_feature": true
+    },
+    {
+      "title": "Health Indicators",
+      "description": "Show service availability at a glance"
+    },
+    {
+      "title": "Lightweight Interface",
+      "description": "Minimal dashboard for quick status checks"
+    },
+    {
+      "title": "Web Interface",
+      "description": "View service status in a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/beszel/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "beszel",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=beszel"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "beszel_ynh",
+      "url": "https://github.com/YunoHost-Apps/beszel_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

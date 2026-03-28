@@ -1,0 +1,101 @@
+{
+  "name": "wordpress",
+  "slug": "wordpress",
+  "tagline": "A versatile CMS for building websites and blogs with plugins and themes",
+  "subtitle": "",
+  "description": "WordPress is a widely-used content management system for building self-hosted websites and blogs. It offers themes, plugins, user management, REST APIs, and an extensible editor, powering everything from simple sites to complex portals.",
+  "categories": [
+    19
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-08",
+    "github_stars": 20872,
+    "github_contributors": 88,
+    "github_commits_this_year": 151,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://wordpress.org",
+    "documentation": "https://wordpress.org/documentation",
+    "source_code": "https://github.com/WordPress/WordPress",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wordpress.webp",
+    "issues": "https://github.com/WordPress/WordPress/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wordpress-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Content Management",
+      "description": "Create and manage website content",
+      "core_feature": true
+    },
+    {
+      "title": "Theme System",
+      "description": "Customize site appearance with themes",
+      "core_feature": true
+    },
+    {
+      "title": "Plugin Ecosystem",
+      "description": "Extend functionality with plugins",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage site users and roles"
+    },
+    {
+      "title": "Publishing Tools",
+      "description": "Publish posts and pages"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the CMS on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wordpress/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "wordpress",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=wordpress"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wordpress_ynh",
+      "url": "https://github.com/YunoHost-Apps/wordpress_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "wordpress",
+      "url": "https://apps.truenas.com/catalog/wordpress"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

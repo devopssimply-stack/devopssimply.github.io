@@ -1,0 +1,91 @@
+{
+  "name": "wetty",
+  "slug": "wetty",
+  "tagline": "A web-based terminal providing SSH access directly from the browser",
+  "subtitle": "",
+  "description": "Wetty is a self-hosted web-based terminal that exposes SSH access through the browser. It replaces traditional terminal apps with a responsive web UI, letting users reach shell sessions securely from anywhere without extra client software.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2023-09-16",
+    "date_last_commit": "2026-01-29",
+    "github_stars": 5118,
+    "github_contributors": 63,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://butlerx.github.io/wetty",
+    "documentation": "https://butlerx.github.io/wetty",
+    "source_code": "https://github.com/butlerx/wetty",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wetty.webp",
+    "issues": "https://github.com/butlerx/wetty/issues",
+    "releases": "https://github.com/butlerx/wetty/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wetty-terminal.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web-Based Terminal",
+      "description": "Access a terminal through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "SSH Integration",
+      "description": "Connect to servers using SSH",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication",
+      "description": "Authenticate terminal users",
+      "core_feature": true
+    },
+    {
+      "title": "Session Management",
+      "description": "Manage active terminal sessions"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Use terminal in a web UI"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the terminal gateway on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wetty/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wetty_ynh",
+      "url": "https://github.com/YunoHost-Apps/wetty_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

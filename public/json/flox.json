@@ -1,0 +1,84 @@
+{
+  "name": "flox",
+  "slug": "flox",
+  "tagline": "A self-hosted Kanban-style task manager for organizing workflows",
+  "subtitle": "",
+  "description": "Flox is a self-hosted task and kanban tool designed to organize personal or project-based workflows. It includes board views, tasks, labels, and drag-and-drop interactions in a simple clean UI.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.6.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-19",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 31,
+    "github_contributors": 15,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://simounet.github.io/flox",
+    "documentation": "https://simounet.github.io/flox",
+    "source_code": "https://github.com/Simounet/flox",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/flox.webp",
+    "issues": "https://github.com/Simounet/flox/issues",
+    "releases": "https://github.com/Simounet/flox/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/flox-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Knowledge Base",
+      "description": "Store and organize personal notes in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Write notes using Markdown formatting",
+      "core_feature": true
+    },
+    {
+      "title": "Note Organization",
+      "description": "Group notes using folders or categories",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find notes using full-text search"
+    },
+    {
+      "title": "Web-Based Editor",
+      "description": "Create and edit notes directly in the browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the note system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/flox/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

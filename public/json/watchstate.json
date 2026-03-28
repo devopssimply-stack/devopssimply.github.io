@@ -1,0 +1,84 @@
+{
+  "name": "watchstate",
+  "slug": "watchstate",
+  "tagline": "A TV and movie watch history tracker with progress tracking",
+  "subtitle": "",
+  "description": "Watchstate is a self-hosted TV and movie tracking service that stores watch history and progress, giving an overview of what you’ve seen and what is next.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.0.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-01",
+    "date_last_commit": "2026-02-05",
+    "github_stars": 1279,
+    "github_contributors": 5,
+    "github_commits_this_year": 21,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/arabcoders/watchstate",
+    "documentation": "https://watcharr.app/docs/introduction",
+    "source_code": "https://github.com/arabcoders/watchstate",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/watchstate.webp",
+    "issues": "https://github.com/arabcoders/watchstate/issues",
+    "releases": "https://github.com/arabcoders/watchstate/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/watchstate-index.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Viewing Progress Tracking",
+      "description": "Track watched progress for media",
+      "core_feature": true
+    },
+    {
+      "title": "Media Integration",
+      "description": "Integrate with supported media platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Status Management",
+      "description": "Mark content as watching or completed",
+      "core_feature": true
+    },
+    {
+      "title": "History",
+      "description": "View viewing history"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage progress in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/watchstate/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

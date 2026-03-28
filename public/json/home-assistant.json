@@ -1,0 +1,99 @@
+{
+  "name": "home-assistant",
+  "slug": "home-assistant",
+  "tagline": "A local-first home automation platform for controlling smart devices",
+  "subtitle": "",
+  "description": "Home Assistant is a popular open source home automation platform that runs locally and integrates with thousands of smart devices and online services. It provides dashboards, automations, voice control and a powerful extensible ecosystem.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "2026.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 85169,
+    "github_contributors": 422,
+    "github_commits_this_year": 2735,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 22
+  },
+  "resources": {
+    "website": "https://www.home-assistant.io",
+    "documentation": "https://www.home-assistant.io/docs",
+    "source_code": "https://github.com/home-assistant/core",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/home-assistant.webp",
+    "issues": "https://github.com/home-assistant/core/issues",
+    "releases": "https://github.com/home-assistant/core/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/home-assistant-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/home-assistant-demo-1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/home-assistant-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/home-assistant-integrations.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Home Automation Platform",
+      "description": "Automate and control smart home devices",
+      "core_feature": true
+    },
+    {
+      "title": "Device Integrations",
+      "description": "Connect devices and services through integrations",
+      "core_feature": true
+    },
+    {
+      "title": "Automation Rules",
+      "description": "Define automation logic using triggers and conditions",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard Interface",
+      "description": "Monitor and control devices through a web UI"
+    },
+    {
+      "title": "User Management",
+      "description": "Manage access with multiple user accounts"
+    },
+    {
+      "title": "Local Deployment",
+      "description": "Run the automation system on local hardware"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/home-assistant/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "homeassistant",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=homeassistant"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "homeassistant_ynh",
+      "url": "https://github.com/YunoHost-Apps/homeassistant_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.home-assistant.io",
+    "username": null,
+    "password": null
+  }
+}

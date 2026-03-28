@@ -1,0 +1,77 @@
+{
+  "name": "atomic-crm",
+  "slug": "atomic-crm",
+  "tagline": "A lightweight CRM for managing customer data and interactions",
+  "subtitle": "",
+  "description": "Atomic CRM is a lightweight customer relationship manager built on React Admin. It allows companies to centralize customer data, track interactions, and support automation workflows with an open-source backend.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 825,
+    "github_contributors": 17,
+    "github_commits_this_year": 441,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://marmelab.com/atomic-crm/",
+    "documentation": "https://github.com/marmelab/atomic-crm",
+    "source_code": "https://github.com/marmelab/atomic-crm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/atomic-crm.webp",
+    "issues": "https://github.com/marmelab/atomic-crm/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/atomic-crm-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/atomic-crm.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/atomic-crm-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Lightweight CRM",
+      "description": "Manage customers and business interactions",
+      "core_feature": true
+    },
+    {
+      "title": "Contact Management",
+      "description": "Store and organize customer contacts",
+      "core_feature": true
+    },
+    {
+      "title": "Activity Logging",
+      "description": "Track calls, notes, and interactions"
+    },
+    {
+      "title": "Admin Interface",
+      "description": "Manage CRM data through web UI"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/atomic-crm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://marmelab.com/atomic-crm-demo",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "quetre",
+  "slug": "quetre",
+  "tagline": "A privacy-focused Reddit front end without ads or tracking",
+  "subtitle": "",
+  "description": "Quetre is a lightweight self-hosted proxy front-end for Reddit that removes tracking and ads, offering a clean, privacy-focused browsing experience.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v8.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-04-07",
+    "date_last_commit": "2025-11-06",
+    "github_stars": 495,
+    "github_contributors": 19,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://quetre.iket.me",
+    "documentation": "https://github.com/zyachel/quetre",
+    "source_code": "https://github.com/zyachel/quetre",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/quetre.webp",
+    "issues": "https://github.com/zyachel/quetre/issues",
+    "releases": "https://github.com/zyachel/quetre/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/quetre-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reddit Frontend",
+      "description": "Browse Reddit content without using the official site",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-Oriented Viewing",
+      "description": "View posts without tracking scripts",
+      "core_feature": true
+    },
+    {
+      "title": "Comment Browsing",
+      "description": "Read comment threads in a simplified layout"
+    },
+    {
+      "title": "Media Viewing",
+      "description": "View images and videos inline"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Host the frontend on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/quetre/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,65 @@
+# ===============================
+# Docker Compose (InvenTree)
+# ===============================
+# host: http://localhost:8000
+# username: admin
+# password: (set during first setup)
+
+services:
+
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: inventree
+      POSTGRES_USER: inventree
+      POSTGRES_PASSWORD: change_this_strong_password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U inventree -d inventree"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  inventree:
+    image: inventree/inventree:latest
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "8000:8000"
+    environment:
+      INVENTREE_SECRET_KEY: replace_with_strong_random_string
+      INVENTREE_DB_ENGINE: django.db.backends.postgresql
+      INVENTREE_DB_HOST: postgres
+      INVENTREE_DB_PORT: 5432
+      INVENTREE_DB_NAME: inventree
+      INVENTREE_DB_USER: inventree
+      INVENTREE_DB_PASSWORD: change_this_strong_password
+      INVENTREE_REDIS_HOST: redis
+      INVENTREE_REDIS_PORT: 6379
+    volumes:
+      - inventree_data:/home/inventree/data
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8000/api/"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
+  redisdata:
+  inventree_data:

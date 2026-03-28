@@ -1,0 +1,82 @@
+{
+  "name": "richy",
+  "slug": "richy",
+  "tagline": "A self-hosted rich text editor for publishing and content creation",
+  "subtitle": "",
+  "description": "Richy is a self-hosted rich text editor for blogs or content management. It supports Markdown, HTML, custom styles, and a simple WYSIWYG UI for publishing entries.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://richy.readthedocs.io/latest",
+    "source_code": "https://gitlab.com/imn1/richy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/richy.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/richy-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/richy-historical-data.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/richy-news.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/richy-transaction-detail.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Link Management",
+      "description": "Manage and organize web links",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Categorize links using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search saved links",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage links in a browser"
+    },
+    {
+      "title": "Minimal Design",
+      "description": "Use a simple and focused layout"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the link manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/richy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

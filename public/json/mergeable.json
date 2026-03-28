@@ -1,0 +1,79 @@
+{
+  "name": "mergeable",
+  "slug": "mergeable",
+  "tagline": "A self-hosted system for managing merge requests and approval workflows",
+  "subtitle": "",
+  "description": "Mergeable is a self-hosted change request and merge management system for Git repositories. It allows teams to manage merge requests with approval workflows and integrates with Git servers.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.10.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-05-31",
+    "date_last_commit": "2025-06-02",
+    "github_stars": 103,
+    "github_contributors": 7,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.usemergeable.dev",
+    "documentation": "https://www.usemergeable.dev/self-host",
+    "source_code": "https://github.com/pvcnt/mergeable",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mergeable.webp",
+    "issues": "https://github.com/pvcnt/mergeable/issues",
+    "releases": "https://github.com/pvcnt/mergeable/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mergeable-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Comparison",
+      "description": "Compare text files and directories",
+      "core_feature": true
+    },
+    {
+      "title": "Merge Assistance",
+      "description": "Assist with resolving differences",
+      "core_feature": true
+    },
+    {
+      "title": "Visual Diff",
+      "description": "Display differences side by side"
+    },
+    {
+      "title": "File Import",
+      "description": "Load files for comparison"
+    },
+    {
+      "title": "Local Usage",
+      "description": "Run the tool on local systems"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mergeable/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://app.usemergeable.dev",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "homarr-iframes",
+  "slug": "homarr-iframes",
+  "tagline": "An add-on for embedding external web apps into Homarr dashboards",
+  "subtitle": "",
+  "description": "Homarr Iframes is an add on for the Homarr dashboard that allows embedding external websites and web apps as iframe widgets. It helps users build richer personal dashboards by integrating many self hosted tools in one view.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.19.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-13",
+    "date_last_commit": "2026-02-26",
+    "github_stars": 106,
+    "github_contributors": 1,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "",
+    "documentation": "https://github.com/diogovalentte/homarr-iframes/blob/main/docs/SOURCES.md",
+    "source_code": "https://github.com/diogovalentte/homarr-iframes",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/homarr-iframes.webp",
+    "issues": "https://github.com/diogovalentte/homarr-iframes/issues",
+    "releases": "https://github.com/diogovalentte/homarr-iframes/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homarr-iframes-link-warden.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/homarr-iframes-vikunja.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Iframe Widget Collection",
+      "description": "Adds iframe-based widgets to Homarr dashboards",
+      "core_feature": true
+    },
+    {
+      "title": "Service Embedding",
+      "description": "Embeds external service interfaces"
+    },
+    {
+      "title": "Dashboard Integration",
+      "description": "Integrates widgets into Homarr layouts"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Defines iframe sources and settings"
+    },
+    {
+      "title": "Flexible Layout",
+      "description": "Allows resizing and positioning widgets"
+    },
+    {
+      "title": "Lightweight Extension",
+      "description": "Adds functionality without heavy overhead"
+    },
+    {
+      "title": "Visual Customization",
+      "description": "Adjusts display of embedded services"
+    },
+    {
+      "title": "Self-Hosted Extension",
+      "description": "Run alongside your own Homarr instance"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/homarr-iframes/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

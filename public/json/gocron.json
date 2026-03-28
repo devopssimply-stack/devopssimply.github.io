@@ -1,0 +1,94 @@
+{
+  "name": "gocron",
+  "slug": "gocron",
+  "tagline": "A self-hosted web interface and API for scheduling and running jobs",
+  "subtitle": "",
+  "description": "GoCron is a self-hosted cron web UI and API for scheduling jobs. It offers job logs, history, a scheduler interface, and runs as a lightweight web server on local systems.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.9.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-09",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 529,
+    "github_contributors": 6,
+    "github_commits_this_year": 20,
+    "github_issues_open": 2,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/flohoss/gocron",
+    "documentation": "https://github.com/flohoss/gocron",
+    "source_code": "https://github.com/flohoss/gocron",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/gocron.webp",
+    "issues": "https://github.com/flohoss/gocron/issues",
+    "releases": "https://github.com/flohoss/gocron/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gocron-filter-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gocron-job-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gocron-jobs-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gocron-terminal-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Task Scheduling",
+      "description": "Runs jobs on scheduled intervals",
+      "core_feature": true
+    },
+    {
+      "title": "Recurring Jobs",
+      "description": "Executes repeated tasks automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Time-Based Triggers",
+      "description": "Supports cronlike time specifications"
+    },
+    {
+      "title": "CLI Usage",
+      "description": "Defines and runs tasks from the command line"
+    },
+    {
+      "title": "Logging",
+      "description": "Records job runs and results"
+    },
+    {
+      "title": "Lightweight Engine",
+      "description": "Runs with minimal resource use"
+    },
+    {
+      "title": "Local Execution",
+      "description": "Runs tasks on your own infrastructure"
+    },
+    {
+      "title": "Automation Scheduler",
+      "description": "Host scheduling on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/gocron/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

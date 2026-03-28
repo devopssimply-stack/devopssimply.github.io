@@ -1,0 +1,80 @@
+{
+  "name": "automatisch",
+  "slug": "automatisch",
+  "tagline": "A workflow automation platform for connecting applications with triggers and actions",
+  "subtitle": "",
+  "description": "Automatisch is an open-source alternative to Zapier for creating automated workflows between apps. It features a visual editor, triggers, filters, and supports webhook integrations for internal and third-party services.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.15.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-08",
+    "date_last_commit": "2026-02-11",
+    "github_stars": 13780,
+    "github_contributors": 33,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://automatisch.io",
+    "documentation": "https://automatisch.io/docs",
+    "source_code": "https://github.com/automatisch/automatisch",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/automatisch.webp",
+    "issues": "https://github.com/automatisch/automatisch/issues",
+    "releases": "https://github.com/automatisch/automatisch/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/automatisch-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/automatisch-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Integration Automation Platform",
+      "description": "Connect applications and automate repetitive workflows",
+      "core_feature": true
+    },
+    {
+      "title": "Trigger and Action Builder",
+      "description": "Define automation logic using triggers and actions",
+      "core_feature": true
+    },
+    {
+      "title": "Service Integrations",
+      "description": "Integrate with popular SaaS and internal tools"
+    },
+    {
+      "title": "Workflow History",
+      "description": "View logs and execution history for automations"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the automation platform on your infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/automatisch/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

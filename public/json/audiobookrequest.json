@@ -1,0 +1,76 @@
+{
+  "name": "audiobookrequest",
+  "slug": "audiobookrequest",
+  "tagline": "A request management system for adding audiobooks to media libraries",
+  "subtitle": "",
+  "description": "AudioBookRequest is a self-hosted system to manage audiobook requests for media servers. It allows users to request titles and admins to track library additions for services like Jellyfin.",
+  "categories": [
+    14
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.10.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-27",
+    "date_last_commit": "2026-02-27",
+    "github_stars": 617,
+    "github_contributors": 5,
+    "github_commits_this_year": 46,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://markbeep.github.io/AudioBookRequest/",
+    "documentation": "https://github.com/markbeep/AudioBookRequest",
+    "source_code": "https://github.com/markbeep/AudioBookRequest",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/audiobookrequest.webp",
+    "issues": "https://github.com/markbeep/AudioBookRequest/issues",
+    "releases": "https://github.com/markbeep/AudioBookRequest/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/audiobookrequest-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/markbeep/AudioBookRequest/main/media/search_page.png"
+    ]
+  },
+  "features": [
+    {
+      "title": "Audiobook Request System",
+      "description": "Submit audiobook requests to administrators",
+      "core_feature": true
+    },
+    {
+      "title": "Request Tracking",
+      "description": "View status of submitted requests",
+      "core_feature": true
+    },
+    {
+      "title": "User Submissions",
+      "description": "Submit requests through a web form"
+    },
+    {
+      "title": "Admin Review",
+      "description": "Approve or reject audiobook requests"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/audiobookrequest/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

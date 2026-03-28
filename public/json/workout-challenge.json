@@ -1,0 +1,85 @@
+{
+  "name": "workout-challenge",
+  "slug": "workout-challenge",
+  "tagline": "A fitness tracking app for managing and monitoring workout challenges",
+  "subtitle": "",
+  "description": "workout_challenge is a self-hosted app for defining and tracking fitness challenges over time. It provides simple dashboards and progress views that help individuals or small groups stay accountable.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Server Side Public License 1.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-01-30",
+    "github_stars": 140,
+    "github_contributors": 2,
+    "github_commits_this_year": 2,
+    "github_issues_open": 3,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/vanalmsick/workout_challenge",
+    "documentation": "https://github.com/vanalmsick/workout_challenge",
+    "source_code": "https://github.com/vanalmsick/workout_challenge",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/workout-challenge.webp",
+    "issues": "https://github.com/vanalmsick/workout_challenge/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/workout-challenge-competition-both.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/workout-challenge-myspace-light.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Fitness Challenges",
+      "description": "Create and join workout challenges",
+      "core_feature": true
+    },
+    {
+      "title": "Activity Tracking",
+      "description": "Track challenge activities",
+      "core_feature": true
+    },
+    {
+      "title": "Leaderboards",
+      "description": "Compare progress on leaderboards",
+      "core_feature": true
+    },
+    {
+      "title": "Challenge Scheduling",
+      "description": "Schedule challenge durations"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Participate through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the challenge app on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/workout-challenge/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

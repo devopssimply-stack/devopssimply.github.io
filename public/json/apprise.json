@@ -1,0 +1,83 @@
+{
+  "name": "apprise",
+  "slug": "apprise",
+  "tagline": "A unified notification service for sending alerts to multiple platforms",
+  "subtitle": "",
+  "description": "Apprise is a notification system and unified API that lets you send alerts to over 90 services such as Slack, email, SMS, Telegram etc. It provides a CLI and Python API, ideal for self-hosted automation and alerts.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-2-Clause",
+    "version": "v1.9.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-20",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 15985,
+    "github_contributors": 99,
+    "github_commits_this_year": 35,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/caronc/apprise",
+    "documentation": "https://github.com/caronc/apprise",
+    "source_code": "https://github.com/caronc/apprise",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/apprise.webp",
+    "issues": "https://github.com/caronc/apprise/issues",
+    "releases": "https://github.com/caronc/apprise/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/apprise-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Notification Dispatcher",
+      "description": "Send notifications to many services",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Service Support",
+      "description": "Deliver messages to chat, email, and push services",
+      "core_feature": true
+    },
+    {
+      "title": "CLI and API",
+      "description": "Send notifications via CLI or API"
+    },
+    {
+      "title": "Self-Hosted Usage",
+      "description": "Run notification logic locally"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/apprise/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "mqtt-web-interface",
+  "slug": "mqtt-web-interface",
+  "tagline": "A terminal-based interface for inspecting MQTT topics and messages",
+  "subtitle": "",
+  "description": "MQTTUI is a TUI-based MQTT interface for interacting with any MQTT broker. It provides an interactive view of topics, messages, and QoS delivery, ideal for debugging IoT systems.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.3.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-24",
+    "date_last_commit": "2025-08-24",
+    "github_stars": 196,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/terdia/mqttui",
+    "documentation": "https://github.com/terdia/mqttui",
+    "source_code": "https://github.com/terdia/mqttui",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mqtt-web-interface.webp",
+    "issues": "https://github.com/terdia/mqttui/issues",
+    "releases": "https://github.com/terdia/mqttui/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mqtt-web-interface-graph-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mqtt-web-interface-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "MQTT Client UI",
+      "description": "Interact with MQTT brokers through a terminal UI",
+      "core_feature": true
+    },
+    {
+      "title": "Publish Messages",
+      "description": "Send messages to MQTT topics",
+      "core_feature": true
+    },
+    {
+      "title": "Subscribe to Topics",
+      "description": "Receive messages from topics",
+      "core_feature": true
+    },
+    {
+      "title": "Broker Connections",
+      "description": "Connect to multiple brokers"
+    },
+    {
+      "title": "Local Usage",
+      "description": "Run the client locally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mqtt-web-interface/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "mylar3",
+  "slug": "mylar3",
+  "tagline": "An automated comic book downloader and library management system",
+  "subtitle": "",
+  "description": "Mylar3 is an automated comic book downloader and manager. It can monitor series, download issues, and organize comic archives with integration for download clients and metadata tools.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.8.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-17",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 1374,
+    "github_contributors": 71,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/mylar3/mylar3",
+    "documentation": "https://mylarcomics.com/docs/category/installation",
+    "source_code": "https://github.com/mylar3/mylar3",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mylar3.webp",
+    "issues": "https://github.com/mylar3/mylar3/issues",
+    "releases": "https://github.com/mylar3/mylar3/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mylar3-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mylar3-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Comic Library Management",
+      "description": "Manage and organize comic collections",
+      "core_feature": true
+    },
+    {
+      "title": "Issue Monitoring",
+      "description": "Track missing and upcoming issues",
+      "core_feature": true
+    },
+    {
+      "title": "Download Automation",
+      "description": "Integrate with download clients",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Matching",
+      "description": "Match comics with online databases"
+    },
+    {
+      "title": "File Organization",
+      "description": "Rename and organize files"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage comics through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mylar3/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "mylar3",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=mylar3"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

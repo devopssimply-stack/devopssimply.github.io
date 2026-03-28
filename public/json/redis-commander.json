@@ -1,0 +1,79 @@
+{
+  "name": "redis-commander",
+  "slug": "redis-commander",
+  "tagline": "A web-based UI for browsing and managing Redis databases",
+  "subtitle": "",
+  "description": "Redis Commander is a self-hosted web UI for browsing and managing Redis databases. It displays keys, values, TTLs, and supports CRUD operations for easier debugging.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-12",
+    "github_stars": 3959,
+    "github_contributors": 84,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "http://joeferner.github.io/redis-commander",
+    "documentation": "https://github.com/joeferner/redis-commander/blob/master/docs/configuration.md",
+    "source_code": "https://github.com/joeferner/redis-commander",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/redis-commander.webp",
+    "issues": "https://github.com/joeferner/redis-commander/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/redis-commander-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Redis Management UI",
+      "description": "Browse and manage Redis data",
+      "core_feature": true
+    },
+    {
+      "title": "Key Inspection",
+      "description": "View and edit Redis keys",
+      "core_feature": true
+    },
+    {
+      "title": "Database Switching",
+      "description": "Switch between Redis databases"
+    },
+    {
+      "title": "Search",
+      "description": "Find keys by pattern"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage Redis through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/redis-commander/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

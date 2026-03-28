@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+/node_modules
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# wrangler
+.worker-next
+.wrangler
+
+# testing
+coverage
+
+# next.js
+.next/
+out
+# production
+build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# # local env files
+.env*.local
+.env
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# temporary workflow files
+!README.md
+*.md
+*.txt
+**og-images
+markdown
+**raw-images
+
+# downloaded docker-compose files
+scripts/docker-compose/
+scripts/awesome-compose/
+docker-compose-*.json
+docker-compose-list.csv
+repos-list.json

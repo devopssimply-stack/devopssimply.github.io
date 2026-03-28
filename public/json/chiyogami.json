@@ -1,0 +1,94 @@
+{
+  "name": "chiyogami",
+  "slug": "chiyogami",
+  "tagline": "A minimal note-taking app for managing plain text and Markdown notes",
+  "subtitle": "",
+  "description": "Chiyogami is a minimal, aesthetic note-taking and journaling web app with markdown support and keyboard shortcuts. It lets users manage plain text notes with elegant design and simple folder-based organization.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-3-Clause",
+    "version": "1.5.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-21",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 73,
+    "github_contributors": 1,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://chiyogami.myaddr.dev",
+    "documentation": "https://chiyogami.myaddr.dev",
+    "source_code": "https://github.com/rhee876527/chiyogami",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/chiyogami.webp",
+    "issues": "https://github.com/rhee876527/chiyogami/issues",
+    "releases": "https://github.com/rhee876527/chiyogami/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/chiyogami-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Taking",
+      "description": "Stores personal notes in a simple structure",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editing",
+      "description": "Writes notes using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Folder Organization",
+      "description": "Organizes notes into directories"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches across stored notes"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages notes through a browser"
+    },
+    {
+      "title": "Local Storage",
+      "description": "Keeps data on user-managed storage"
+    },
+    {
+      "title": "Lightweight Design",
+      "description": "Focuses on minimal functionality"
+    }
+  ],
+  "hosting": [
+    "self_hosted",
+    "saas"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/chiyogami/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://chiyogami.myaddr.dev",
+    "username": null,
+    "password": null
+  }
+}

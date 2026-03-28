@@ -1,0 +1,31 @@
+# ===============================
+# Docker Compose (GoAway)
+# ===============================
+# host (Web UI): http://localhost:3000
+# DNS server: udp://localhost:53
+# username: set via web UI
+# password: set via web UI
+
+services:
+  goaway:
+    image: ghcr.io/pommee/goaway:latest
+    restart: unless-stopped
+    ports:
+      - "3000:3000"  # Web UI
+      - "53:53/udp"  # DNS
+      - "53:53/tcp"  # DNS (TCP fallback)
+    volumes:
+      - goaway-data:/data
+    environment:
+      # Default config path
+      GOAWAY_CFG_DIR: "/data"
+      # Optional: set upstream DNS servers
+      # GOAWAY_UPSTREAM_DNS: "1.1.1.1:53,8.8.8.8:53"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3000/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  goaway-data:

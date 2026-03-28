@@ -1,0 +1,85 @@
+{
+  "name": "posteria",
+  "slug": "posteria",
+  "tagline": "A web-based interface for managing and visualizing PostgreSQL databases",
+  "subtitle": "",
+  "description": "Posteria is a self-hosted web interface for managing and visualizing PostgreSQL databases. It provides insights, performance metrics, and SQL tools in a user-friendly UI.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-01-02",
+    "github_stars": 194,
+    "github_contributors": 3,
+    "github_commits_this_year": 5,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://posteria.app",
+    "documentation": "https://github.com/jeremehancock/Posteria",
+    "source_code": "https://github.com/jeremehancock/Posteria",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/posteria.webp",
+    "issues": "https://github.com/jeremehancock/Posteria/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/posteria-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/posteria-image.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Blogging Platform",
+      "description": "Publish and manage blog posts through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editing",
+      "description": "Write posts using Markdown formatting",
+      "core_feature": true
+    },
+    {
+      "title": "Theme Support",
+      "description": "Customize blog appearance using themes",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize posts using tags"
+    },
+    {
+      "title": "Static Publishing",
+      "description": "Generate pages for public viewing"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the blog on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/posteria/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

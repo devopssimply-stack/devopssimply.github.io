@@ -1,0 +1,100 @@
+{
+  "name": "openproject",
+  "slug": "openproject",
+  "tagline": "An open source project management platform with agile and planning tools",
+  "subtitle": "",
+  "description": "OpenProject is an open-source project management platform supporting agile boards, Gantt charts, time tracking, and team collaboration. It can be self-hosted or run as SaaS, serving as an enterprise-grade alternative to Jira.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v17.1.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 14548,
+    "github_contributors": 279,
+    "github_commits_this_year": 2468,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 14
+  },
+  "resources": {
+    "website": "https://www.openproject.org",
+    "documentation": "https://www.openproject.org/docs",
+    "source_code": "https://github.com/opf/openproject",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openproject.webp",
+    "issues": "https://github.com/opf/openproject/issues",
+    "releases": "https://github.com/opf/openproject/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openproject-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openproject-demo-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Project Planning",
+      "description": "Plan tasks, milestones, and timelines",
+      "core_feature": true
+    },
+    {
+      "title": "Task Management",
+      "description": "Track tasks and assignments",
+      "core_feature": true
+    },
+    {
+      "title": "Gantt Charts",
+      "description": "Visualize project timelines"
+    },
+    {
+      "title": "Time Tracking",
+      "description": "Log time spent on work items"
+    },
+    {
+      "title": "Roles and Permissions",
+      "description": "Control access based on user roles"
+    },
+    {
+      "title": "Reporting",
+      "description": "Generate project progress reports"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the project system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/openproject/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "openproject",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=openproject"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "openproject_ynh",
+      "url": "https://github.com/YunoHost-Apps/openproject_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

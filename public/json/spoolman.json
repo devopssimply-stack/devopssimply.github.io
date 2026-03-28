@@ -1,0 +1,91 @@
+{
+  "name": "spoolman",
+  "slug": "spoolman",
+  "tagline": "A filament spool and material tracker for 3D printing setups",
+  "subtitle": "",
+  "description": "Spoolman is a self-hosted filament spool manager for 3D printers. It tracks remaining filament, costs, and metadata, integrating with print servers like OctoPrint.",
+  "categories": [
+    3
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.23.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 2249,
+    "github_contributors": 115,
+    "github_commits_this_year": 66,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/Donkie/Spoolman",
+    "documentation": "https://github.com/Donkie/Spoolman/wiki/Installation",
+    "source_code": "https://github.com/Donkie/Spoolman",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/spoolman.webp",
+    "issues": "https://github.com/Donkie/Spoolman/issues",
+    "releases": "https://github.com/Donkie/Spoolman/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/spoolman-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Filament Inventory",
+      "description": "Track 3D printer filament spools",
+      "core_feature": true
+    },
+    {
+      "title": "Material Tracking",
+      "description": "Track material type and remaining length",
+      "core_feature": true
+    },
+    {
+      "title": "Printer Integration",
+      "description": "Integrate with supported printers",
+      "core_feature": true
+    },
+    {
+      "title": "Usage History",
+      "description": "Record filament usage"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage spools through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the inventory system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/spoolman/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "spoolman",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=spoolman"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

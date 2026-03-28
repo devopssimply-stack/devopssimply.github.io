@@ -1,0 +1,87 @@
+{
+  "name": "tube-archivist",
+  "slug": "tube-archivist",
+  "tagline": "A self-hosted solution for archiving and managing YouTube video libraries",
+  "subtitle": "",
+  "description": "TubeArchivist is a self-hosted YouTube archiving and management solution. It downloads videos, indexes metadata, and offers search, playlists, and a web player to build a personal YouTube library.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.5.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-07",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 7621,
+    "github_contributors": 79,
+    "github_commits_this_year": 71,
+    "github_issues_open": 19,
+    "github_issues_closed_this_year": 14,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://www.tubearchivist.com",
+    "documentation": "https://docs.tubearchivist.com",
+    "source_code": "https://github.com/tubearchivist/tubearchivist",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tube-archivist.webp",
+    "issues": "https://github.com/tubearchivist/tubearchivist/issues",
+    "releases": "https://github.com/tubearchivist/tubearchivist/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tube-archivist-screenshot-home.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tube-archivist-screenshot-single-channel.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Archiving",
+      "description": "Archive videos from online platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Channel Subscriptions",
+      "description": "Track and download subscribed channels",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Storage",
+      "description": "Store video metadata locally"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse archived videos through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the archive on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tube-archivist/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "tubearchivist",
+      "url": "https://apps.truenas.com/catalog/tubearchivist"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "pelican-panel",
+  "slug": "pelican-panel",
+  "tagline": "A lightweight self-hosted dashboard for links and services",
+  "subtitle": "",
+  "description": "Panel is a lightweight self-hosted dashboard designed to group links, services, and widgets into a single portal. It’s ideal for server admins and homelab setups.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.0.0-beta33",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-02-27",
+    "github_stars": 1920,
+    "github_contributors": 210,
+    "github_commits_this_year": 97,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://pelican.dev",
+    "documentation": "https://pelican.dev/docs",
+    "source_code": "https://github.com/pelican-dev/panel",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pelican-panel.webp",
+    "issues": "https://github.com/pelican-dev/panel/issues",
+    "releases": "https://github.com/pelican-dev/panel/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pelican-panel-create-server.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pelican-panel-edit-server.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Server Management Panel",
+      "description": "Manage game and application servers",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Control access with user accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Resource Monitoring",
+      "description": "View server resource usage",
+      "core_feature": true
+    },
+    {
+      "title": "Server Controls",
+      "description": "Start, stop, and restart servers"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage servers through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the panel on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pelican-panel/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "pelican-panel",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=pelican-panel"
+    }
+  },
+  "demo": {
+    "url": "https://demo.pelican.dev/login",
+    "username": "admin",
+    "password": "admin"
+  }
+}

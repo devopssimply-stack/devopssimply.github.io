@@ -1,0 +1,97 @@
+{
+  "name": "tandoor-recipes",
+  "slug": "tandoor-recipes",
+  "tagline": "A self-hosted recipe manager with meal planning and shopping lists",
+  "subtitle": "",
+  "description": "Tandoor Recipes is a self-hosted recipe manager that supports meal planning, shopping lists, and nutritional analysis with a polished, multi-user web interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2.5.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-14",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 8057,
+    "github_contributors": 367,
+    "github_commits_this_year": 317,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://tandoor.dev",
+    "documentation": "https://docs.tandoor.dev",
+    "source_code": "https://github.com/TandoorRecipes/recipes",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/tandoor-recipes.webp",
+    "issues": "https://github.com/TandoorRecipes/recipes/issues",
+    "releases": "https://github.com/TandoorRecipes/recipes/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tandoor-recipes-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tandoor-recipes-book.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tandoor-recipes-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tandoor-recipes-home.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tandoor-recipes-import.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tandoor-recipes-meal-plan.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/tandoor-recipes-shopping.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Recipe Management",
+      "description": "Store and organize cooking recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Recipe Import",
+      "description": "Import recipes from websites",
+      "core_feature": true
+    },
+    {
+      "title": "Meal Planning",
+      "description": "Plan meals using saved recipes"
+    },
+    {
+      "title": "Shopping Lists",
+      "description": "Generate shopping lists from recipes",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Share recipes with multiple users"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage recipes through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/tandoor-recipes/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "tandoor-recipes",
+      "url": "https://apps.truenas.com/catalog/tandoor-recipes"
+    }
+  },
+  "demo": {
+    "url": "https://app.tandoor.dev",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,70 @@
+# ===============================
+# Docker Compose (Retrom)
+# ===============================
+# host: http://localhost:3000
+# username:
+# password:
+
+services:
+
+  retrom:
+    image: ghcr.io/jmberesford/retrom-service:latest
+    container_name: retrom
+    ports:
+      - "5101:5101"
+    volumes:
+      - retrom_config:/config
+      - retrom_library1:/library1
+      - retrom_library2:/library2
+    depends_on:
+      retrom-db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD","wget","-qO-","http://localhost:5101"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+
+  retrom-web:
+    image: ghcr.io/jmberesford/retrom-web:latest
+    container_name: retrom-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      retrom:
+        condition: service_started
+    healthcheck:
+      test: ["CMD","wget","-qO-","http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+
+  retrom-db:
+    image: postgres:16-alpine
+    container_name: retrom-db
+    environment:
+      POSTGRES_USER: "retrom"
+      POSTGRES_PASSWORD: "retrom"
+      POSTGRES_DB: "retrom"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - retrom_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD","pg_isready","-U","retrom"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+
+volumes:
+  retrom_config:
+  retrom_library1:
+  retrom_library2:
+  retrom_postgres_data:

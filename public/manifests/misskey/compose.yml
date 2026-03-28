@@ -1,0 +1,85 @@
+# ===============================
+# Docker Compose (Misskey)
+# ===============================
+# host: http://localhost:3000
+# username: (created on first run)
+# password:
+
+services:
+  misskey:
+    image: misskey/misskey:latest
+    container_name: misskey
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    networks:
+      - internal
+      - external
+    environment:
+      - NODE_ENV=production
+      - MISSKEY_URL=http://localhost:3000
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=misskey
+      - DB_PASS=misskey_password
+      - DB_DB=misskey
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    volumes:
+      - misskey_files:/misskey/files
+      - misskey_config:/misskey/.config
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--spider", "http://localhost:3000/api/meta"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  db:
+    image: postgres:17-alpine
+    container_name: misskey-db
+    restart: unless-stopped
+    networks:
+      - internal
+    environment:
+      - POSTGRES_USER=misskey
+      - POSTGRES_PASSWORD=misskey_password
+      - POSTGRES_DB=misskey
+    volumes:
+      - misskey_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U misskey -d misskey"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  redis:
+    image: redis:7-alpine
+    container_name: misskey-redis
+    restart: unless-stopped
+    networks:
+      - internal
+    volumes:
+      - misskey_redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+networks:
+  internal:
+    internal: true
+  external:
+
+volumes:
+  misskey_files:
+  misskey_config:
+  misskey_db:
+  misskey_redis:

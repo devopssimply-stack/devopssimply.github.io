@@ -1,0 +1,106 @@
+{
+  "name": "umami",
+  "slug": "umami",
+  "tagline": "A privacy-friendly web analytics platform with clean, simple dashboards",
+  "subtitle": "The modern analytics platform for effortless insights",
+  "description": "Umami is a self-hosted, privacy-friendly web analytics platform. It uses a small tracking script and offers clean dashboards, goal tracking, and multi-site support, with an optional hosted cloud service.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.0.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-12",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 35545,
+    "github_contributors": 332,
+    "github_commits_this_year": 4,
+    "github_issues_open": 96,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://umami.is",
+    "documentation": "https://github.com/umami-software/umami",
+    "source_code": "https://github.com/umami-software/umami",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/umami.webp",
+    "issues": "https://github.com/umami-software/umami/issues",
+    "releases": "https://github.com/umami-software/umami/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/umami-light.webp",
+    "screenshots": [
+      "https://umami.is/images/app.jpg"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Analytics",
+      "description": "Track website traffic and usage metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Analytics Dashboard",
+      "description": "View page views, referrers, and events",
+      "core_feature": true
+    },
+    {
+      "title": "Event Tracking",
+      "description": "Track custom user interactions"
+    },
+    {
+      "title": "Multi-Site Support",
+      "description": "Monitor multiple websites from one instance"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run analytics on your own infrastructure"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "web"
+  ],
+  "interface": [
+    "gui"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/umami/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "umami",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=umami"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "umami_ynh",
+      "url": "https://github.com/YunoHost-Apps/umami_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "umami",
+      "url": "https://apps.truenas.com/catalog/umami"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

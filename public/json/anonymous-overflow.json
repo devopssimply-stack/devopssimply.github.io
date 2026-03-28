@@ -1,0 +1,75 @@
+{
+  "name": "anonymousoverflow",
+  "slug": "anonymous-overflow",
+  "tagline": "A privacy-friendly interface for browsing Stack Overflow content",
+  "subtitle": "",
+  "description": "AnonymousOverflow provides a privacy-friendly alternative interface for browsing StackOverflow without ads, tracking, or scripts. It is focused on accessibility and preserving Q&A content for anonymous public consumption.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MPL-2.0",
+    "version": "v1.13.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-08-24",
+    "date_last_commit": "2025-12-03",
+    "github_stars": 363,
+    "github_contributors": 27,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://aohub.httpjames.space",
+    "documentation": "https://github.com/httpjamesm/AnonymousOverflow",
+    "source_code": "https://github.com/httpjamesm/AnonymousOverflow",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/anonymous-overflow.webp",
+    "issues": "https://github.com/httpjamesm/AnonymousOverflow/issues",
+    "releases": "https://github.com/httpjamesm/AnonymousOverflow/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/anonymous-overflow.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Stack Overflow Mirror",
+      "description": "Browse Stack Overflow content without tracking",
+      "core_feature": true
+    },
+    {
+      "title": "Question and Answer Viewing",
+      "description": "Read questions, answers, and comments",
+      "core_feature": true
+    },
+    {
+      "title": "Clean Interface",
+      "description": "View content in a simplified layout"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Host the interface on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/anonymous-overflow/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

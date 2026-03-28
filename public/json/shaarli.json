@@ -1,0 +1,88 @@
+{
+  "name": "shaarli",
+  "slug": "shaarli",
+  "tagline": "A minimalist self-hosted bookmark and link sharing manager",
+  "subtitle": "",
+  "description": "Shaarli is a self-hosted bookmark manager and link sharing application. It allows tagging, private or public links, and simple theming, providing a minimal alternative to online bookmarking services.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.16.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-24",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 3808,
+    "github_contributors": 105,
+    "github_commits_this_year": 38,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://shaarli.readthedocs.io",
+    "documentation": "https://shaarli.readthedocs.io/en/master",
+    "source_code": "https://github.com/shaarli/Shaarli",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/shaarli.webp",
+    "issues": "https://github.com/shaarli/Shaarli/issues",
+    "releases": "https://github.com/shaarli/Shaarli/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/shaarli-demo-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Bookmark Manager",
+      "description": "Save and organize bookmarks",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize links using tags"
+    },
+    {
+      "title": "Search",
+      "description": "Find saved links",
+      "core_feature": true
+    },
+    {
+      "title": "RSS Feeds",
+      "description": "Generate feeds from bookmarks"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/shaarli/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "shaarli_ynh",
+      "url": "https://github.com/YunoHost-Apps/shaarli_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.shaarli.org/login",
+    "username": null,
+    "password": null
+  }
+}

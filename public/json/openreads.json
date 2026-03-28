@@ -1,0 +1,85 @@
+{
+  "name": "openreads",
+  "slug": "openreads",
+  "tagline": "A self-hosted reading tracker for managing books and reading progress",
+  "subtitle": "",
+  "description": "OpenReads is a self-hosted reading tracker that lets users track reading progress, manage book lists, and log reading habits. It features a clean, intuitive web interface built for reading enthusiasts.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v2.11.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-09",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 1485,
+    "github_contributors": 27,
+    "github_commits_this_year": 1,
+    "github_issues_open": 27,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/mateusz-bak/openreads",
+    "documentation": "https://github.com/mateusz-bak/openreads",
+    "source_code": "https://github.com/mateusz-bak/openreads",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openreads.webp",
+    "issues": "https://github.com/mateusz-bak/openreads/issues",
+    "releases": "https://github.com/mateusz-bak/openreads/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openreads-1-en-us.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openreads-2-en-us.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openreads-3-en-us.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openreads-4-en-us.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openreads-5-en-us.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openreads-featuregraphic.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reading Tracker",
+      "description": "Track books and reading progress",
+      "core_feature": true
+    },
+    {
+      "title": "Book Catalog",
+      "description": "Store book details and metadata"
+    },
+    {
+      "title": "Reading Lists",
+      "description": "Create and manage reading lists"
+    },
+    {
+      "title": "Progress Visualization",
+      "description": "View progress across books"
+    },
+    {
+      "title": "Search",
+      "description": "Find books by title or author"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage reading info through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "android"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

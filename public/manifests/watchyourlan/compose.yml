@@ -1,0 +1,27 @@
+# ===============================
+# Docker Compose (WatchYourLAN)
+# ===============================
+# host: http://localhost:8840
+# username:
+# password:
+
+services:
+  wyl:
+    image: aceberg/watchyourlan:v2
+    container_name: watchyourlan
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Novosibirsk
+      IFACES: "enp4s0 wlxf4ec3892dd51"
+      HOST: "0.0.0.0"
+      PORT: "8840"
+      TIMEOUT: "120"
+      SHOUTRRR_URL: ""
+      THEME: sand
+      COLOR: dark
+    volumes:
+      - wyl-data:/data/WatchYourLAN
+
+volumes:
+  wyl-data:

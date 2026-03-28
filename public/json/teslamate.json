@@ -1,0 +1,99 @@
+{
+  "name": "teslamate",
+  "slug": "teslamate",
+  "tagline": "A self-hosted data logger and analytics platform for Tesla vehicles",
+  "subtitle": "",
+  "description": "TeslaMate is a self-hosted data logger and visualization platform for Tesla vehicles. It records drives, charges, and states via the Tesla API and exposes dashboards and statistics through Grafana and its own web interface.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-28",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 7703,
+    "github_contributors": 215,
+    "github_commits_this_year": 54,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "",
+    "documentation": "https://docs.teslamate.org",
+    "source_code": "https://github.com/teslamate-org/teslamate",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/teslamate.webp",
+    "issues": "https://github.com/teslamate-org/teslamate/issues",
+    "releases": "https://github.com/teslamate-org/teslamate/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-battery-health.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-charging-history.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-charging-stats.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-charging.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-db-info.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-drive-stats.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-drive.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-drives.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-efficiency.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-lifetime-driving-map.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-locations.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-mileage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-projected-range.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-states.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-statistics.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-timeline.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-trip.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-updates.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-vampire-drain.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teslamate-web-interface.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Vehicle Data Logging",
+      "description": "Track Tesla vehicle data over time",
+      "core_feature": true
+    },
+    {
+      "title": "Trip History",
+      "description": "Record driving trips automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Charging Statistics",
+      "description": "Track charging sessions and efficiency"
+    },
+    {
+      "title": "Maps and Visualization",
+      "description": "View trips and locations on maps"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/teslamate/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "sticky",
+  "slug": "sticky",
+  "tagline": "A simple digital sticky note board for quick ideas and collaboration",
+  "subtitle": "",
+  "description": "Sticky is a self-hosted digital sticky note board for quick thoughts and collaborative lists. It offers drag-and-drop notes in a simple, colorful layout.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-01-23",
+    "github_stars": 166,
+    "github_contributors": 4,
+    "github_commits_this_year": 7,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.sticky.today",
+    "documentation": "https://www.sticky.today",
+    "source_code": "https://github.com/hamzasaleem2/sticky",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sticky.webp",
+    "issues": "https://github.com/hamzasaleem2/sticky/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sticky-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Board",
+      "description": "Create and manage sticky notes",
+      "core_feature": true
+    },
+    {
+      "title": "Drag-and-Drop Layout",
+      "description": "Arrange notes freely on a board",
+      "core_feature": true
+    },
+    {
+      "title": "Color Coding",
+      "description": "Use colors to organize notes",
+      "core_feature": true
+    },
+    {
+      "title": "Persistence",
+      "description": "Save notes between sessions"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage notes in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the note board on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sticky/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

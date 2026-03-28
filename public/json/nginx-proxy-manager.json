@@ -1,0 +1,108 @@
+{
+  "name": "nginx-proxy-manager",
+  "slug": "nginx-proxy-manager",
+  "tagline": "A web-based UI for managing Nginx reverse proxies and SSL",
+  "subtitle": "",
+  "description": "Nginx Proxy Manager is a self-hosted web UI for managing Nginx proxies with SSL support. It offers simple setup for reverse proxies, domain routing, and certificate generation via Let's Encrypt.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.14.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 31984,
+    "github_contributors": 249,
+    "github_commits_this_year": 262,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://nginxproxymanager.com",
+    "documentation": "https://nginxproxymanager.com/guide",
+    "source_code": "https://github.com/NginxProxyManager/nginx-proxy-manager",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nginx-proxy-manager.webp",
+    "issues": "https://github.com/NginxProxyManager/nginx-proxy-manager/issues",
+    "releases": "https://github.com/NginxProxyManager/nginx-proxy-manager/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-404-hosts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-access-lists.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-add-proxy-host-dns.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-add-proxy-host.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-audit-logs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-certificates.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-first-user.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-login.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-proxy-hosts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-redirection-hosts.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-streams.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nginx-proxy-manager-users.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reverse Proxy UI",
+      "description": "Manage NGINX proxies using a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Host Entries",
+      "description": "Create host entries with SSL support",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access to proxied services"
+    },
+    {
+      "title": "SSL Certificates",
+      "description": "Manage Let’s Encrypt and custom certificates"
+    },
+    {
+      "title": "Traffic Routing",
+      "description": "Route traffic to backend services"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the proxy manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nginx-proxy-manager/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "nginxproxymanager",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=nginxproxymanager"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "nginx-proxy-manager",
+      "url": "https://apps.truenas.com/catalog/nginx-proxy-manager"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

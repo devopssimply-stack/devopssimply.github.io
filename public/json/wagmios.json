@@ -1,0 +1,86 @@
+{
+  "name": "wagmios",
+  "slug": "wagmios",
+  "tagline": "A dashboard for monitoring crypto wallets and DeFi positions over time",
+  "subtitle": "",
+  "description": "Wagmios is a self-hosted dashboard for monitoring crypto wallets or DeFi positions, aggregating balances and metrics into a clear web interface for long-term holders.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v2.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-17",
+    "date_last_commit": "2025-03-17",
+    "github_stars": 51,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://wagmilabs.fun",
+    "documentation": "https://github.com/mentholmike/wagmios#-installation",
+    "source_code": "https://github.com/mentholmike/wagmios",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wagmios.webp",
+    "issues": "https://github.com/mentholmike/wagmios/issues",
+    "releases": "https://github.com/mentholmike/wagmios/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wagmios-dashboard-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wagmios-dashboard-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wagmios-marketplace.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Cardano Node Monitoring",
+      "description": "Monitor Cardano node metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Metrics Collection",
+      "description": "Collect performance and health metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Prometheus Exporter",
+      "description": "Expose metrics for Prometheus",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard Integration",
+      "description": "Visualize metrics in dashboards"
+    },
+    {
+      "title": "Alerting",
+      "description": "Alert on metric thresholds"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the monitor on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wagmios/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

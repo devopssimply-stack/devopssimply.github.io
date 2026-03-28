@@ -1,0 +1,109 @@
+{
+  "name": "changedetection",
+  "slug": "changedetection",
+  "tagline": "A website change detection and notification service",
+  "subtitle": "",
+  "description": "changedetection is a self-hosted web service that monitors website content for changes and sends notifications when updates occur. It supports diff highlighting, scheduled checks, RSS feeds, and multi-user dashboards.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "0.54.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 30457,
+    "github_contributors": 121,
+    "github_commits_this_year": 188,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 20
+  },
+  "resources": {
+    "website": "https://changedetection.io",
+    "documentation": "https://github.com/dgtlmoon/changedetection.io",
+    "source_code": "https://github.com/dgtlmoon/changedetection.io",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/changedetection.webp",
+    "issues": "https://github.com/dgtlmoon/changedetection.io/issues",
+    "releases": "https://github.com/dgtlmoon/changedetection.io/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/changedetection-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Page Change Detection",
+      "description": "Monitors web pages for content changes",
+      "core_feature": true
+    },
+    {
+      "title": "Diff Visualization",
+      "description": "Shows differences between page versions",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Checks pages at defined intervals",
+      "core_feature": true
+    },
+    {
+      "title": "Alert Notifications",
+      "description": "Sends alerts when changes are detected"
+    },
+    {
+      "title": "Multiple Page Support",
+      "description": "Tracks many pages in one instance"
+    },
+    {
+      "title": "Screenshot Comparison",
+      "description": "Compares page snapshots visually"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages watched pages in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs without external monitoring services"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/changedetection/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "changedetection",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=changedetection"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "changedetection_ynh",
+      "url": "https://github.com/YunoHost-Apps/changedetection_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "change-detection",
+      "url": "https://apps.truenas.com/catalog/change-detection"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,93 @@
+# ===============================
+# Docker Compose (Mailserver + SnappyMail)
+# ===============================
+# host: http://localhost:8888
+# username:
+# password:
+
+services:
+  step-ca:
+    image: smallstep/step-ca:latest
+    container_name: step-ca
+    restart: unless-stopped
+    working_dir: /certs
+    volumes:
+      - mail_certs:/certs
+    entrypoint: ["/bin/sh","-c"]
+    command: >
+      if [ ! -f mail.example.com-cert.pem ]; then
+      step certificate create "Local Root CA" demoCA-cacert.pem demoCA-cakey.pem --profile root-ca --no-password --insecure;
+      step certificate create "mail.example.com" mail.example.com-cert.pem mail.example.com-key.pem --profile leaf --ca demoCA-cacert.pem --ca-key demoCA-cakey.pem --no-password --insecure;
+      fi
+
+  mailserver:
+    image: mailserver/docker-mailserver:12
+    container_name: mailserver
+    restart: unless-stopped
+    depends_on:
+      - step-ca
+    environment:
+      ENABLE_SPAMASSASSIN: "0"
+      ENABLE_CLAMAV: "0"
+      ENABLE_FAIL2BAN: "0"
+      ENABLE_POSTGREY: "0"
+      ENABLE_MANAGESIEVE: "1"
+      ONE_DIR: "1"
+      SSL_TYPE: manual
+      SSL_CERT_PATH: /certs/mail.example.com-cert.pem
+      SSL_KEY_PATH: /certs/mail.example.com-key.pem
+      POSTFIX_INET_PROTOCOLS: ipv4
+      DOVECOT_INET_PROTOCOLS: ipv4
+    volumes:
+      - mail_certs:/certs
+      - mail_data:/var/mail
+      - mail_state:/var/mail-state
+      - mail_logs:/var/log/mail
+      - mail_config:/tmp/docker-mailserver
+    ports:
+      - "25:25"
+      - "587:587"
+      - "993:993"
+
+  postgres:
+    image: postgres:16
+    container_name: snappymail-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: snappymail
+      POSTGRES_USER: snappymail
+      POSTGRES_PASSWORD: snappymail
+    volumes:
+      - snappymail_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U snappymail"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  snappymail:
+    image: djmaze/snappymail:latest
+    container_name: snappymail
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - mailserver
+    ports:
+      - "8888:8888"
+    volumes:
+      - snappymail_data:/var/lib/snappymail
+      - mail_certs:/certs:ro
+    healthcheck:
+      test: ["CMD","wget","--spider","-q","http://localhost:8888"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mail_certs:
+  mail_data:
+  mail_state:
+  mail_logs:
+  mail_config:
+  snappymail_data:
+  snappymail_db:

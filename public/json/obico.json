@@ -1,0 +1,85 @@
+{
+  "name": "obico",
+  "slug": "obico",
+  "tagline": "An AI-powered monitoring platform for detecting failed 3D prints",
+  "subtitle": "",
+  "description": "Obico is a self-hosted AI-powered monitor for 3D printers. It detects failed prints via webcam and alerts users, allowing remote control and status tracking from any device.",
+  "categories": [
+    3
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-01",
+    "github_stars": 1782,
+    "github_contributors": 77,
+    "github_commits_this_year": 22,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://obico.io",
+    "documentation": "https://www.obico.io/docs/server-guides",
+    "source_code": "https://github.com/TheSpaghettiDetective/obico-server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/obico.webp",
+    "issues": "https://github.com/TheSpaghettiDetective/obico-server/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/obico-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/obico-login-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/obico-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "3D Printer Monitoring",
+      "description": "Monitor 3D printers remotely",
+      "core_feature": true
+    },
+    {
+      "title": "Print Failure Detection",
+      "description": "Detect potential print failures using camera feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Live Video Streaming",
+      "description": "View live printer camera streams"
+    },
+    {
+      "title": "Notifications",
+      "description": "Receive alerts for printer events"
+    },
+    {
+      "title": "Printer Management",
+      "description": "Manage multiple printers from one interface"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the monitoring server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/obico/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

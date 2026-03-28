@@ -1,0 +1,87 @@
+{
+  "name": "slink",
+  "slug": "slink",
+  "tagline": "A URL shortener and micro landing page generator",
+  "subtitle": "",
+  "description": "Slink is a self-hosted link shortener and micro-landing-page generator. It supports custom domains, analytics, and a straightforward management UI.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.9.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-15",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1405,
+    "github_contributors": 5,
+    "github_commits_this_year": 187,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 10
+  },
+  "resources": {
+    "website": "https://slinkapp.io",
+    "documentation": "https://docs.slinkapp.io",
+    "source_code": "https://github.com/andrii-kryvoviaz/slink",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/slink.webp",
+    "issues": "https://github.com/andrii-kryvoviaz/slink/issues",
+    "releases": "https://github.com/andrii-kryvoviaz/slink/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/slink-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/slink-explore.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/slink-history.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/slink-tags.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Link Shortening",
+      "description": "Shorten URLs for sharing",
+      "core_feature": true
+    },
+    {
+      "title": "Password Protection",
+      "description": "Protect links with passwords",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Dates",
+      "description": "Set expiration for short links",
+      "core_feature": true
+    },
+    {
+      "title": "Analytics",
+      "description": "Track link usage statistics"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage links in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/slink/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.slinkapp.io/explore",
+    "username": null,
+    "password": null
+  }
+}

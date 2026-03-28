@@ -1,0 +1,89 @@
+{
+  "name": "your-spotify",
+  "slug": "your-spotify",
+  "tagline": "A dashboard for Spotify listening statistics and personalized insights",
+  "subtitle": "",
+  "description": "your_spotify is a self-hosted dashboard and statistics platform for Spotify accounts. It imports listening history, visualizes top tracks and artists, and offers insights into listening habits over time.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "1.17.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-26",
+    "date_last_commit": "2025-12-26",
+    "github_stars": 4236,
+    "github_contributors": 35,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/Yooooomi/your_spotify",
+    "documentation": "https://github.com/Yooooomi/your_spotify",
+    "source_code": "https://github.com/Yooooomi/your_spotify",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/your-spotify.webp",
+    "issues": "https://github.com/Yooooomi/your_spotify/issues",
+    "releases": "https://github.com/Yooooomi/your_spotify/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Spotify Analytics",
+      "description": "Analyze personal Spotify listening data",
+      "core_feature": true
+    },
+    {
+      "title": "Listening History",
+      "description": "View playback history",
+      "core_feature": true
+    },
+    {
+      "title": "Statistics Dashboard",
+      "description": "View listening statistics",
+      "core_feature": true
+    },
+    {
+      "title": "Top Artists and Tracks",
+      "description": "View most played artists and tracks"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Browse analytics in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the analytics app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/your-spotify/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "your_spotify_ynh",
+      "url": "https://github.com/YunoHost-Apps/your_spotify_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

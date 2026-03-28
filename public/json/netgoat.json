@@ -1,0 +1,73 @@
+{
+  "name": "netgoat",
+  "slug": "netgoat",
+  "tagline": "An intentionally vulnerable web application for security training",
+  "subtitle": "",
+  "description": "NetGoat is an intentionally vulnerable application designed for learning and testing web app security issues. It runs with a simple web UI and offers challenges and exercises for security training.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-22",
+    "github_stars": 697,
+    "github_contributors": 7,
+    "github_commits_this_year": 14,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://netgoat.xyz",
+    "documentation": "https://docs.netgoat.xyz",
+    "source_code": "https://github.com/netgoat-xyz/netgoat",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/netgoat.webp",
+    "issues": "https://github.com/netgoat-xyz/netgoat/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netgoat-certs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netgoat-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/netgoat-zero-trust.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Security Training Platform",
+      "description": "Provide intentionally vulnerable applications for learning",
+      "core_feature": true
+    },
+    {
+      "title": "Scenario-Based Exercises",
+      "description": "Practice common web security issues",
+      "core_feature": true
+    },
+    {
+      "title": "User Progress Tracking",
+      "description": "Track completed exercises"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access training scenarios through a browser"
+    },
+    {
+      "title": "Local Deployment",
+      "description": "Run the platform locally or on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

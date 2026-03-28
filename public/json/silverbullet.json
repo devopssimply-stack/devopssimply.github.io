@@ -1,0 +1,95 @@
+{
+  "name": "silverbullet",
+  "slug": "silverbullet",
+  "tagline": "A file-based personal knowledge base and note-taking system",
+  "subtitle": "",
+  "description": "SilverBullet is a self-hosted, file-based personal knowledge base and note-taking tool. It uses Markdown, plugins, and a web UI to provide a wiki-like experience on top of local or synced files.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.5.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4795,
+    "github_contributors": 142,
+    "github_commits_this_year": 267,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://silverbullet.md",
+    "documentation": "https://github.com/silverbulletmd/silverbullet",
+    "source_code": "https://github.com/silverbulletmd/silverbullet",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/silverbullet.webp",
+    "issues": "https://github.com/silverbulletmd/silverbullet/issues",
+    "releases": "https://github.com/silverbulletmd/silverbullet/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/silverbullet-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Knowledge System",
+      "description": "Write and link Markdown notes",
+      "core_feature": true
+    },
+    {
+      "title": "Wiki-Style Linking",
+      "description": "Connect notes bidirectionally",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find notes by content"
+    },
+    {
+      "title": "Extensible Scripts",
+      "description": "Extend behavior using scripts"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the notebook on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/silverbullet/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "silverbullet",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=silverbullet"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "silverbullet_ynh",
+      "url": "https://github.com/YunoHost-Apps/silverbullet_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

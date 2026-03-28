@@ -1,0 +1,79 @@
+{
+  "name": "aureus",
+  "slug": "aureus",
+  "tagline": "An enterprise resource planning system with finance, HR, and inventory modules",
+  "subtitle": "",
+  "description": "AureusERP is an open-source enterprise resource planning system with modules for inventory, purchasing, HR, finance, and CRM. It supports self-hosting and aims to provide a customizable, all-in-one business suite.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.3.0-BETA3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-12",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 9777,
+    "github_contributors": 11,
+    "github_commits_this_year": 483,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://aureuserp.com",
+    "documentation": "https://devdocs.aureuserp.com",
+    "source_code": "https://github.com/aureuserp/aureuserp",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/aureus.webp",
+    "issues": "https://github.com/aureuserp/aureuserp/issues",
+    "releases": "https://github.com/aureuserp/aureuserp/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/aureus-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/aureus-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "ERP Platform",
+      "description": "Manage business operations and data",
+      "core_feature": true
+    },
+    {
+      "title": "Accounting",
+      "description": "Track invoices, payments, and balances"
+    },
+    {
+      "title": "Inventory Management",
+      "description": "Manage products and stock levels"
+    },
+    {
+      "title": "Customer Management",
+      "description": "Store and manage customer records"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access ERP through browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/aureus/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.aureuserp.com",
+    "username": null,
+    "password": null
+  }
+}

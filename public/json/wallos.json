@@ -1,0 +1,100 @@
+{
+  "name": "wallos",
+  "slug": "wallos",
+  "tagline": "A subscription tracking app for managing recurring expenses and renewals",
+  "subtitle": "",
+  "description": "Wallos is a self-hosted subscription management app that tracks recurring expenses. It shows cost breakdowns, renewal dates, and categories in a clean, mobile-friendly interface.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v4.6.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-20",
+    "date_last_commit": "2025-12-20",
+    "github_stars": 7374,
+    "github_contributors": 65,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/ellite/Wallos",
+    "documentation": "https://github.com/ellite/Wallos?tab=readme-ov-file#installation",
+    "source_code": "https://github.com/ellite/Wallos",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wallos.webp",
+    "issues": "https://github.com/ellite/Wallos/issues",
+    "releases": "https://github.com/ellite/Wallos/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wallos-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wallos-form.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wallos-stats.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wallos-subscriptions-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wallos-subscriptions-mobile-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Subscription Management",
+      "description": "Track recurring subscriptions",
+      "core_feature": true
+    },
+    {
+      "title": "Cost Overview",
+      "description": "View total subscription costs",
+      "core_feature": true
+    },
+    {
+      "title": "Renewal Tracking",
+      "description": "Track renewal dates",
+      "core_feature": true
+    },
+    {
+      "title": "Category Organization",
+      "description": "Organize subscriptions by category"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage subscriptions through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wallos/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "wallos",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=wallos"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wallos_ynh",
+      "url": "https://github.com/YunoHost-Apps/wallos_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.wallosapp.com",
+    "username": "demo",
+    "password": "demo"
+  }
+}

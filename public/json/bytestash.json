@@ -1,0 +1,109 @@
+{
+  "name": "bytestash",
+  "slug": "bytestash",
+  "tagline": "A self-hosted personal data store for organizing and searching content",
+  "subtitle": "",
+  "description": "ByteStash is a self-hosted personal data warehouse designed to store notes, documents, or files in an organized searchable format. It offers a clean web interface and API access, ideal for centralizing personal data in a private cloud.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.5.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2123,
+    "github_contributors": 19,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/jordan-dalby/ByteStash",
+    "documentation": "https://github.com/jordan-dalby/ByteStash",
+    "source_code": "https://github.com/jordan-dalby/ByteStash",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bytestash.webp",
+    "issues": "https://github.com/jordan-dalby/ByteStash/issues",
+    "releases": "https://github.com/jordan-dalby/ByteStash/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bytestash-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Code Snippet Management",
+      "description": "Stores and organizes reusable code snippets",
+      "core_feature": true
+    },
+    {
+      "title": "Language Tagging",
+      "description": "Categorizes snippets by programming language",
+      "core_feature": true
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches snippets by name or content",
+      "core_feature": true
+    },
+    {
+      "title": "Syntax Highlighting",
+      "description": "Displays code snippets with readable formatting"
+    },
+    {
+      "title": "Folder Organization",
+      "description": "Groups snippets into logical collections"
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Accesses snippets through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private infrastructure"
+    },
+    {
+      "title": "Import and Export",
+      "description": "Moves snippets between installations"
+    },
+    {
+      "title": "Code Snippet Storage",
+      "description": "Stores reusable code snippets",
+      "core_feature": true
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Searches snippet content",
+      "core_feature": true
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bytestash/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "bytestash",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=bytestash"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

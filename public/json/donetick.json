@@ -1,0 +1,108 @@
+{
+  "name": "donetick",
+  "slug": "donetick",
+  "tagline": "A self-hosted task manager supporting projects and recurring tasks",
+  "subtitle": "",
+  "description": "Donetick is a self-hosted to-do and task tracking application with projects, due dates, priorities, and recurring tasks. Its clean web interface is designed to make personal productivity and small team planning straightforward and private.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.1.74",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-14",
+    "date_last_commit": "2026-02-21",
+    "github_stars": 1946,
+    "github_contributors": 21,
+    "github_commits_this_year": 93,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 14
+  },
+  "resources": {
+    "website": "https://donetick.com",
+    "documentation": "https://docs.donetick.com/getting-started",
+    "source_code": "https://github.com/donetick/donetick",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/donetick.webp",
+    "issues": "https://github.com/donetick/donetick/issues",
+    "releases": "https://github.com/donetick/donetick/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/donetick-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/donetick-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Task Management",
+      "description": "Tracks personal tasks and to-dos",
+      "core_feature": true
+    },
+    {
+      "title": "Recurring Tasks",
+      "description": "Supports repeating tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Completion Tracking",
+      "description": "Records task completion status"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Focuses on distraction-free usage"
+    },
+    {
+      "title": "Web Application",
+      "description": "Manages tasks through a browser"
+    },
+    {
+      "title": "Data Persistence",
+      "description": "Stores tasks reliably"
+    },
+    {
+      "title": "Export Capability",
+      "description": "Exports task data"
+    },
+    {
+      "title": "Self-Hosted Tasks",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/donetick/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "donetick",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=donetick"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "donetick",
+      "url": "https://apps.truenas.com/catalog/donetick"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

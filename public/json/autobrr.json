@@ -1,0 +1,101 @@
+{
+  "name": "autobrr",
+  "slug": "autobrr",
+  "tagline": "An automation tool for monitoring torrent releases and triggering downloads",
+  "subtitle": "",
+  "description": "Autobrr is an automated tool that monitors torrent trackers and pushes downloads to clients like qBittorrent and Deluge. It filters releases in real-time and supports Radarr, Sonarr, and Lidarr automation.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v1.73.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-13",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 2533,
+    "github_contributors": 105,
+    "github_commits_this_year": 33,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://autobrr.com/introduction",
+    "documentation": "https://github.com/autobrr/autobrr",
+    "source_code": "https://github.com/autobrr/autobrr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/autobrr.webp",
+    "issues": "https://github.com/autobrr/autobrr/issues",
+    "releases": "https://github.com/autobrr/autobrr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/autobrr-front-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Torrent Automation",
+      "description": "Automatically monitor and grab torrent releases",
+      "core_feature": true
+    },
+    {
+      "title": "Filter Rules",
+      "description": "Match releases using configurable filters",
+      "core_feature": true
+    },
+    {
+      "title": "Client Integration",
+      "description": "Send torrents to download clients"
+    },
+    {
+      "title": "Notifications",
+      "description": "Notify when releases are matched"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Configure automation through browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/autobrr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "autobrr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=autobrr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "autobrr_ynh",
+      "url": "https://github.com/YunoHost-Apps/autobrr_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "autobrr",
+      "url": "https://apps.truenas.com/catalog/autobrr"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

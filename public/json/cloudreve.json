@@ -1,0 +1,105 @@
+{
+  "name": "cloudreve",
+  "slug": "cloudreve",
+  "tagline": "A self-hosted cloud drive for file storage, sharing, and user management",
+  "subtitle": "",
+  "description": "Cloudreve is a file sharing and cloud drive system that supports multiple storage backends, user management, and web-based file uploads. It can be used as a lightweight alternative to commercial cloud drives.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "4.14.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-15",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 27110,
+    "github_contributors": 51,
+    "github_commits_this_year": 45,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 6
+  },
+  "resources": {
+    "website": "https://cloudreve.org",
+    "documentation": "https://docs.cloudreve.org/en",
+    "source_code": "https://github.com/cloudreve/cloudreve",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cloudreve.webp",
+    "issues": "https://github.com/cloudreve/cloudreve/issues",
+    "releases": "https://github.com/cloudreve/cloudreve/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudreve-desktop-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudreve-aria.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cloudreve-upload.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Storage Platform",
+      "description": "Stores and manages files in a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "User File Management",
+      "description": "Organizes files per user",
+      "core_feature": true
+    },
+    {
+      "title": "Shareable Links",
+      "description": "Shares files via public links"
+    },
+    {
+      "title": "Storage Backend Support",
+      "description": "Uses multiple storage backends"
+    },
+    {
+      "title": "Upload and Download",
+      "description": "Handles large file transfers"
+    },
+    {
+      "title": "WebDAV Support",
+      "description": "Accesses files via WebDAV"
+    },
+    {
+      "title": "Self-Hosted Cloud Storage",
+      "description": "Runs on user-controlled infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cloudreve/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "cloudreve",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=cloudreve"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "cloudreve_ynh",
+      "url": "https://github.com/YunoHost-Apps/cloudreve_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.cloudreve.org",
+    "username": null,
+    "password": null
+  }
+}

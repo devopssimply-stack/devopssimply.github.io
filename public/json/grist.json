@@ -1,0 +1,104 @@
+{
+  "name": "grist",
+  "slug": "grist",
+  "tagline": "A spreadsheet database hybrid for managing structured data and workflows",
+  "subtitle": "",
+  "description": "Grist is a spreadsheet-meets-database platform that offers workflows, data management, and custom views. It can be self-hosted and supports web interface editing, formulas, access control, and APIs.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.7.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-27",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 10744,
+    "github_contributors": 135,
+    "github_commits_this_year": 164,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.getgrist.com",
+    "documentation": "https://github.com/gristlabs/grist-core",
+    "source_code": "https://github.com/gristlabs/grist-core",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/grist.webp",
+    "issues": "https://github.com/gristlabs/grist-core/issues",
+    "releases": "https://github.com/gristlabs/grist-core/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grist-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/grist-expenses-tracker-sheets.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Spreadsheet and Database Hybrid",
+      "description": "Combines spreadsheet UI with relational data",
+      "core_feature": true
+    },
+    {
+      "title": "Formula Support",
+      "description": "Applies formulas to data fields",
+      "core_feature": true
+    },
+    {
+      "title": "Interactive Widgets",
+      "description": "Uses charts and layouts in sheets"
+    },
+    {
+      "title": "Data Import",
+      "description": "Imports CSV and database content"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates access per user"
+    },
+    {
+      "title": "Sharing Controls",
+      "description": "Shares sheets with permissions"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with external systems"
+    },
+    {
+      "title": "Self-Hosted Data Tool",
+      "description": "Host the system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/grist/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "grist",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=grist"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "grist_ynh",
+      "url": "https://github.com/YunoHost-Apps/grist_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "lemmy",
+  "slug": "lemmy",
+  "tagline": "A federated, open source alternative to Reddit built on ActivityPub",
+  "subtitle": "",
+  "description": "Lemmy is an open-source, federated alternative to Reddit, built with ActivityPub. It supports communities, posts, moderation, and federation across servers, allowing users full control of their data and interactions.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.19.16",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 14296,
+    "github_contributors": 253,
+    "github_commits_this_year": 56,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://join-lemmy.org",
+    "documentation": "https://join-lemmy.org/docs/index.html",
+    "source_code": "https://github.com/LemmyNet/lemmy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lemmy.webp",
+    "issues": "https://github.com/LemmyNet/lemmy/issues",
+    "releases": "https://github.com/LemmyNet/lemmy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lemmy-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Federated Discussion Platform",
+      "description": "Host community discussions using federated protocols",
+      "core_feature": true
+    },
+    {
+      "title": "Communities",
+      "description": "Create topic-based discussion spaces",
+      "core_feature": true
+    },
+    {
+      "title": "Posts and Comments",
+      "description": "Publish posts and threaded comments",
+      "core_feature": true
+    },
+    {
+      "title": "Voting System",
+      "description": "Vote on posts and comments"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Moderate content and manage communities"
+    },
+    {
+      "title": "Federation",
+      "description": "Interact with users and communities on other servers",
+      "core_feature": true
+    },
+    {
+      "title": "User Profiles",
+      "description": "Manage user accounts and profiles"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lemmy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "lemmy_ynh",
+      "url": "https://github.com/YunoHost-Apps/lemmy_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

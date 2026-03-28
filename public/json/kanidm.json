@@ -1,0 +1,81 @@
+{
+  "name": "kanidm",
+  "slug": "kanidm",
+  "tagline": "A modern identity and authentication platform with LDAP compatibility",
+  "subtitle": "",
+  "description": "Kanidm is an identity management system and LDAP compatible directory service. It aims to provide secure, modern authentication and authorization features for self hosted infrastructure with both CLI and web administration tools.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MPL-2.0",
+    "version": "v1.9.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-17",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 4645,
+    "github_contributors": 138,
+    "github_commits_this_year": 72,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://kanidm.com",
+    "documentation": "https://kanidm.com/docs",
+    "source_code": "https://github.com/kanidm/kanidm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/kanidm.webp",
+    "issues": "https://github.com/kanidm/kanidm/issues",
+    "releases": "https://github.com/kanidm/kanidm/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/kanidm-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Identity Management",
+      "description": "Manage users, groups, and credentials in a centralized directory",
+      "core_feature": true
+    },
+    {
+      "title": "Authentication Services",
+      "description": "Provide authentication for applications and services",
+      "core_feature": true
+    },
+    {
+      "title": "Authorization Policies",
+      "description": "Define access rules based on users and groups",
+      "core_feature": true
+    },
+    {
+      "title": "API Access",
+      "description": "Integrate identity services with external applications"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the identity service on your own infrastructure",
+      "core_feature": true
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/kanidm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

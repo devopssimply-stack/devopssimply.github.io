@@ -1,0 +1,82 @@
+{
+  "name": "xibo",
+  "slug": "xibo",
+  "tagline": "A digital signage platform for designing and scheduling content on displays",
+  "subtitle": "",
+  "description": "Xibo is a self-hosted digital signage platform for designing, scheduling, and delivering content to remote displays. It provides a CMS web UI and various players to run media on screens in organizations.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-01-22",
+    "github_stars": 688,
+    "github_contributors": 22,
+    "github_commits_this_year": 2,
+    "github_issues_open": 107,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://xibosignage.com",
+    "documentation": "https://github.com/xibosignage/xibo",
+    "source_code": "https://github.com/xibosignage/xibo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/xibo.webp",
+    "issues": "https://github.com/xibosignage/xibo/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Digital Signage",
+      "description": "Manage digital signage displays",
+      "core_feature": true
+    },
+    {
+      "title": "Content Scheduling",
+      "description": "Schedule content playback",
+      "core_feature": true
+    },
+    {
+      "title": "Media Management",
+      "description": "Manage images and videos",
+      "core_feature": true
+    },
+    {
+      "title": "Layout Designer",
+      "description": "Design screen layouts"
+    },
+    {
+      "title": "Player Management",
+      "description": "Manage display players"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the signage platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/xibo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

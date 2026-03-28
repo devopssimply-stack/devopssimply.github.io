@@ -1,0 +1,95 @@
+{
+  "name": "filestash",
+  "slug": "filestash",
+  "tagline": "A unified web interface for accessing files across servers and cloud storage",
+  "subtitle": "",
+  "description": "Filestash connects to cloud or FTP servers and exposes them through a user-friendly web UI. It supports WebDAV, S3, Git, Dropbox, and others with a single centralized UX. Aimed at developers and teams that need unified access.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 13714,
+    "github_contributors": 70,
+    "github_commits_this_year": 129,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.filestash.app/",
+    "documentation": "https://www.filestash.app/docs",
+    "source_code": "https://github.com/mickael-kerjean/filestash",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/filestash.webp",
+    "issues": "https://github.com/mickael-kerjean/filestash/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/filestash-photo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web-Based File Manager",
+      "description": "Browse and manage files through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Storage Backends",
+      "description": "Access files stored on local disks, SFTP, WebDAV, and cloud services",
+      "core_feature": true
+    },
+    {
+      "title": "User Authentication",
+      "description": "Restrict access using user accounts and login credentials",
+      "core_feature": true
+    },
+    {
+      "title": "File Preview",
+      "description": "Preview documents, images, audio, and video files in the browser"
+    },
+    {
+      "title": "File Editing",
+      "description": "Edit text-based files directly from the web interface"
+    },
+    {
+      "title": "Shareable Links",
+      "description": "Share files and folders using generated access links"
+    },
+    {
+      "title": "Web Client Customization",
+      "description": "Configure interface options and enabled features"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/filestash/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "filestash",
+      "url": "https://apps.truenas.com/catalog/filestash"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,106 @@
+# ===============================
+# Docker Compose (Rybbit)
+# ===============================
+# host: https://localhost
+# username:
+# password:
+
+services:
+
+  caddy:
+    image: caddy:2.10.0
+    container_name: caddy
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+      - rybbit_caddyfile:/etc/caddy
+    depends_on:
+      - backend
+      - client
+    restart: unless-stopped
+
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:25.4
+    container_name: clickhouse
+    environment:
+      CLICKHOUSE_DB: "analytics"
+      CLICKHOUSE_USER: "default"
+      CLICKHOUSE_PASSWORD: "frog"
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - clickhouse_config:/etc/clickhouse-server/config.d
+    healthcheck:
+      test: ["CMD","wget","--spider","--tries=1","http://localhost:8123/ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+
+
+  postgres:
+    image: postgres:17-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_USER: "frog"
+      POSTGRES_PASSWORD: "frog"
+      POSTGRES_DB: "analytics"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD","pg_isready","-U","frog"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+
+  backend:
+    image: ghcr.io/rybbit-io/rybbit-backend:latest
+    container_name: backend
+    environment:
+      NODE_ENV: "production"
+      CLICKHOUSE_HOST: "http://clickhouse:8123"
+      CLICKHOUSE_DB: "analytics"
+      CLICKHOUSE_PASSWORD: "frog"
+      POSTGRES_HOST: "postgres"
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: "analytics"
+      POSTGRES_USER: "frog"
+      POSTGRES_PASSWORD: "frog"
+      BETTER_AUTH_SECRET: "replace_with_secure_secret"
+      BASE_URL: "https://localhost"
+      DISABLE_SIGNUP: "false"
+      RESEND_API_KEY: ""
+    depends_on:
+      clickhouse:
+        condition: service_healthy
+      postgres:
+        condition: service_started
+    restart: unless-stopped
+
+
+  client:
+    image: ghcr.io/rybbit-io/rybbit-client:latest
+    container_name: client
+    environment:
+      NODE_ENV: "production"
+      NEXT_PUBLIC_BACKEND_URL: "https://localhost"
+      NEXT_PUBLIC_DISABLE_SIGNUP: "false"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+
+volumes:
+  clickhouse_data:
+  clickhouse_config:
+  postgres_data:
+  caddy_data:
+  caddy_config:
+  rybbit_caddyfile:

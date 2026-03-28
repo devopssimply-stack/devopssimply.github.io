@@ -1,0 +1,84 @@
+{
+  "name": "forms-md",
+  "slug": "forms-md",
+  "tagline": "A Markdown-based form builder for creating simple surveys and collecting submissions",
+  "subtitle": "",
+  "description": "FormsMD is a self-hosted Markdown-based form builder. It turns MD-like syntax into shareable forms with submissions tracked via a lightweight backend, making it ideal for simple surveys or feedback collection without external dependencies.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-04-27",
+    "github_stars": 735,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://forms.md",
+    "documentation": "https://docs.forms.md",
+    "source_code": "https://github.com/formsmd/formsmd",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/forms-md.webp",
+    "issues": "https://github.com/formsmd/formsmd/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/forms-md-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Markdown-Based Forms",
+      "description": "Create forms using Markdown syntax",
+      "core_feature": true
+    },
+    {
+      "title": "Form Submissions",
+      "description": "Collect and store responses submitted through forms",
+      "core_feature": true
+    },
+    {
+      "title": "Web Form Rendering",
+      "description": "Render Markdown forms as interactive web forms",
+      "core_feature": true
+    },
+    {
+      "title": "Submission Review",
+      "description": "View submitted form responses in a web interface"
+    },
+    {
+      "title": "Lightweight Setup",
+      "description": "Run the form service with minimal configuration"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the form system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/forms-md/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

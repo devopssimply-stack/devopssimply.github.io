@@ -1,0 +1,91 @@
+{
+  "name": "zigbee2mqtt",
+  "slug": "zigbee2mqtt",
+  "tagline": "A bridge connecting Zigbee devices to MQTT for home automation",
+  "subtitle": "",
+  "description": "Zigbee2MQTT is a self-hosted bridge that connects Zigbee devices to MQTT, enabling integration with many home automation platforms. It runs as a service with a web dashboard for managing devices and networks.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "2.8.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-01",
+    "date_last_commit": "2026-02-06",
+    "github_stars": 14759,
+    "github_contributors": 462,
+    "github_commits_this_year": 52,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://www.zigbee2mqtt.io",
+    "documentation": "https://github.com/Koenkk/zigbee2mqtt",
+    "source_code": "https://github.com/Koenkk/zigbee2mqtt",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zigbee2mqtt.webp",
+    "issues": "https://github.com/Koenkk/zigbee2mqtt/issues",
+    "releases": "https://github.com/Koenkk/zigbee2mqtt/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Zigbee Gateway",
+      "description": "Connect Zigbee devices to MQTT",
+      "core_feature": true
+    },
+    {
+      "title": "Device Support",
+      "description": "Support a wide range of Zigbee devices",
+      "core_feature": true
+    },
+    {
+      "title": "Home Automation Integration",
+      "description": "Integrate with home automation platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Device Management",
+      "description": "Manage connected devices"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Configure devices through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the gateway on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zigbee2mqtt",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zigbee2mqtt"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "zigbee2mqtt_ynh",
+      "url": "https://github.com/YunoHost-Apps/zigbee2mqtt_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "zigbee2mqtt",
+      "url": "https://apps.truenas.com/catalog/zigbee2mqtt"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

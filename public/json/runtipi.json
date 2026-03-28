@@ -1,0 +1,86 @@
+{
+  "name": "runtipi",
+  "slug": "runtipi",
+  "tagline": "A self-hosted app manager for deploying and managing homelab services",
+  "subtitle": "",
+  "description": "Runtipi is a self-hosted app manager designed for homelabs. It allows users to deploy lightweight services with single commands and manage updates through a web UI.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v4.7.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-29",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9302,
+    "github_contributors": 42,
+    "github_commits_this_year": 37,
+    "github_issues_open": 58,
+    "github_issues_closed_this_year": 6,
+    "github_releases_this_year": 10
+  },
+  "resources": {
+    "website": "https://www.runtipi.io/",
+    "documentation": "https://runtipi.io/docs/introduction",
+    "source_code": "https://github.com/runtipi/runtipi",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/runtipi.webp",
+    "issues": "https://github.com/runtipi/runtipi/issues",
+    "releases": "https://github.com/runtipi/runtipi/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/runtipi-appstore.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/runtipi-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/runtipi-my-apps.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "App Management",
+      "description": "Install and manage self-hosted apps",
+      "core_feature": true
+    },
+    {
+      "title": "App Catalog",
+      "description": "Browse available applications",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Management",
+      "description": "Configure app environments"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage apps through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/runtipi/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "runtipi",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=runtipi"
+    }
+  },
+  "demo": {
+    "url": "https://demo.runtipi.io",
+    "username": "user@runtipi.io",
+    "password": "password"
+  }
+}

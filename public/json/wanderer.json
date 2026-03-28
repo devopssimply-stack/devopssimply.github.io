@@ -1,0 +1,98 @@
+{
+  "name": "wanderer",
+  "slug": "wanderer",
+  "tagline": "A calm, unified reader for blogs, newsletters, and web articles",
+  "subtitle": "",
+  "description": "Wanderer is a self-hosted feed and content reader that aggregates blog posts, newsletters, and articles into one place with a calm, focused reading interface.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.18.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-03",
+    "date_last_commit": "2026-02-07",
+    "github_stars": 3364,
+    "github_contributors": 27,
+    "github_commits_this_year": 51,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://wanderer.to",
+    "documentation": "https://github.com/Flomp/wanderer",
+    "source_code": "https://github.com/Flomp/wanderer",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wanderer.webp",
+    "issues": "https://github.com/Flomp/wanderer/issues",
+    "releases": "https://github.com/Flomp/wanderer/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wanderer-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wanderer-map.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wanderer-trail.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Travel Tracking",
+      "description": "Track visited places on a map",
+      "core_feature": true
+    },
+    {
+      "title": "Map Visualization",
+      "description": "Visualize travel history on maps",
+      "core_feature": true
+    },
+    {
+      "title": "Trip Management",
+      "description": "Manage trips and locations",
+      "core_feature": true
+    },
+    {
+      "title": "Notes",
+      "description": "Add notes to locations"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Explore trips through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tracker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wanderer/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "wanderer",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=wanderer"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wanderer_ynh",
+      "url": "https://github.com/YunoHost-Apps/wanderer_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.wanderer.to",
+    "username": null,
+    "password": null
+  }
+}

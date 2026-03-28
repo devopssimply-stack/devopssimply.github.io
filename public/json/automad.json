@@ -1,0 +1,87 @@
+{
+  "name": "automad",
+  "slug": "automad",
+  "tagline": "A flat-file content management system for building fast websites",
+  "subtitle": "",
+  "description": "Automad is a flat-file content management system that doesn’t require a database. It’s fast, easy to use, and features a template system and web-based admin panel for building websites.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.0.0-beta.16",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 875,
+    "github_contributors": 1,
+    "github_commits_this_year": 130,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://automad.org",
+    "documentation": "https://automad.org/getting-started",
+    "source_code": "https://github.com/marcantondahmen/automad",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/automad.webp",
+    "issues": "https://github.com/marcantondahmen/automad/issues",
+    "releases": "https://github.com/marcantondahmen/automad/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/automad-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/automad-screenshots.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Flat-File Content Management",
+      "description": "Manage website content using Markdown files",
+      "core_feature": true
+    },
+    {
+      "title": "Visual Content Editor",
+      "description": "Edit pages visually without touching raw files",
+      "core_feature": true
+    },
+    {
+      "title": "Page Templates",
+      "description": "Control site structure using reusable templates"
+    },
+    {
+      "title": "Media Management",
+      "description": "Upload and organize images and media files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the CMS on your own web server"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/automad/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "automad_ynh",
+      "url": "https://github.com/YunoHost-Apps/automad_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://try.automad.org",
+    "username": null,
+    "password": null
+  }
+}

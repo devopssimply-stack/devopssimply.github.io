@@ -1,0 +1,94 @@
+{
+  "name": "eventcatalog",
+  "slug": "eventcatalog",
+  "tagline": "A documentation platform for cataloging and understanding event-driven architectures",
+  "subtitle": "",
+  "description": "EventCatalog is a documentation platform for event-driven architectures. It inventories events, schemas, producers, and consumers in a browsable catalog so teams can understand and evolve event-based systems collaboratively.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "@eventcatalog/core@3.20.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2579,
+    "github_contributors": 39,
+    "github_commits_this_year": 302,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 100
+  },
+  "resources": {
+    "website": "https://eventcatalog.dev",
+    "documentation": "https://www.eventcatalog.dev/docs",
+    "source_code": "https://github.com/event-catalog/eventcatalog",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/eventcatalog.webp",
+    "issues": "https://github.com/event-catalog/eventcatalog/issues",
+    "releases": "https://github.com/event-catalog/eventcatalog/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eventcatalog-ai-assistant.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eventcatalog-architecture.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eventcatalog-example.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/eventcatalog-hero-banner-6.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Event Catalog",
+      "description": "Documents events in event-driven architectures",
+      "core_feature": true
+    },
+    {
+      "title": "Service Mapping",
+      "description": "Maps events to services",
+      "core_feature": true
+    },
+    {
+      "title": "Schema Documentation",
+      "description": "Documents event payload schemas"
+    },
+    {
+      "title": "Visualization",
+      "description": "Visualizes event flows"
+    },
+    {
+      "title": "Markdown Authoring",
+      "description": "Writes documentation using Markdown"
+    },
+    {
+      "title": "Static Site Output",
+      "description": "Generates static documentation sites"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches across events"
+    },
+    {
+      "title": "Self-Hosted Docs",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/eventcatalog/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "bookhaven",
+  "slug": "bookhaven",
+  "tagline": "A self-hosted eBook library for organizing and tracking reading activity",
+  "subtitle": "",
+  "description": "BookHaven is a self-hosted eBook library designed to organize and manage digital books. It offers an intuitive web interface for browsing, filtering, and tracking reading progress and integrates with OPDS readers.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-11-23",
+    "github_stars": 109,
+    "github_contributors": 4,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://github.com/HrBingR/BookHaven",
+    "source_code": "https://github.com/HrBingR/BookHaven",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bookhaven.webp",
+    "issues": "https://github.com/HrBingR/BookHaven/issues",
+    "releases": null,
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bookhaven-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookhaven-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Library Management",
+      "description": "Organizes and tracks personal book collections",
+      "core_feature": true
+    },
+    {
+      "title": "Reading Progress Tracking",
+      "description": "Records current reading status and history",
+      "core_feature": true
+    },
+    {
+      "title": "Book Metadata Storage",
+      "description": "Stores author, genre, and publication details"
+    },
+    {
+      "title": "Search and Filtering",
+      "description": "Finds books by title, author, or category"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages the library through a browser"
+    },
+    {
+      "title": "Self-Hosted Storage",
+      "description": "Keeps library data under user control"
+    },
+    {
+      "title": "Simple Data Model",
+      "description": "Focuses on straightforward book organization"
+    },
+    {
+      "title": "Personal Book Library",
+      "description": "Manages personal book collections",
+      "core_feature": true
+    },
+    {
+      "title": "Search and Filter",
+      "description": "Finds books by title or author"
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Accesses the library through a browser"
+    },
+    {
+      "title": "Self-Hosted Data Storage",
+      "description": "Keeps book data under user control"
+    },
+    {
+      "title": "Simple Collection Views",
+      "description": "Displays books in list-based views"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bookhaven/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

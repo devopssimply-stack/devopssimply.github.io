@@ -1,0 +1,74 @@
+{
+  "name": "foundry-virtual-tabletop",
+  "slug": "foundry-virtual-tabletop",
+  "tagline": "A self-hosted virtual tabletop for playing tabletop role-playing games online",
+  "subtitle": "",
+  "description": "Foundry Virtual Tabletop is a self-hosted virtual tabletop for playing tabletop RPGs online. It provides dynamic maps, character sheets, dice rollers, and third-party modules. Ideal for private online gaming sessions.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": null,
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-02-27",
+    "github_stars": 350,
+    "github_contributors": 16,
+    "github_commits_this_year": 12,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://foundryvtt.com/",
+    "documentation": "https://foundryvtt.com/",
+    "source_code": "https://github.com/foundryvtt/foundryvtt",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/foundry-virtual-tabletop.webp",
+    "issues": "https://github.com/foundryvtt/foundryvtt/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Virtual Tabletop",
+      "description": "Run tabletop role-playing games in a virtual environment",
+      "core_feature": true
+    },
+    {
+      "title": "Game System Support",
+      "description": "Support multiple tabletop game systems and rule sets",
+      "core_feature": true
+    },
+    {
+      "title": "Map and Scene Management",
+      "description": "Create and manage maps and scenes for gameplay",
+      "core_feature": true
+    },
+    {
+      "title": "Player and GM Roles",
+      "description": "Separate permissions for game masters and players"
+    },
+    {
+      "title": "Dice Rolling",
+      "description": "Roll and display dice results during sessions"
+    },
+    {
+      "title": "Module Extensions",
+      "description": "Extend functionality using community modules"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

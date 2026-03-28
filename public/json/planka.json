@@ -1,0 +1,101 @@
+{
+  "name": "planka",
+  "slug": "planka",
+  "tagline": "A lightweight self-hosted kanban board for task and project management",
+  "subtitle": "",
+  "description": "Planka is a lightweight self-hosted kanban board for managing tasks and projects. It includes drag-and-drop cards, user assignments, labels, and a clean UI akin to Trello.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Fair Use License",
+    "version": "v2.0.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 11633,
+    "github_contributors": 151,
+    "github_commits_this_year": 70,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 9
+  },
+  "resources": {
+    "website": "https://planka.cloud",
+    "documentation": "https://docs.planka.cloud",
+    "source_code": "https://github.com/plankanban/planka",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/planka.webp",
+    "issues": "https://github.com/plankanban/planka/issues",
+    "releases": "https://github.com/plankanban/planka/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/planka-demo-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Kanban Boards",
+      "description": "Manage tasks using kanban-style boards",
+      "core_feature": true
+    },
+    {
+      "title": "Card Management",
+      "description": "Create and organize task cards",
+      "core_feature": true
+    },
+    {
+      "title": "Lists and Columns",
+      "description": "Structure boards using lists",
+      "core_feature": true
+    },
+    {
+      "title": "User Collaboration",
+      "description": "Work with multiple users"
+    },
+    {
+      "title": "File Attachments",
+      "description": "Attach files to cards"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the board system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/planka/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "planka",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=planka"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "planka_ynh",
+      "url": "https://github.com/YunoHost-Apps/planka_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "planka",
+      "url": "https://apps.truenas.com/catalog/planka"
+    }
+  },
+  "demo": {
+    "url": "https://community.demo.planka.cloud",
+    "username": "supervisor1@demo.com",
+    "password": "DemoPass123!"
+  }
+}

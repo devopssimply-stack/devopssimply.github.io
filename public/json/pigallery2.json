@@ -1,0 +1,101 @@
+{
+  "name": "pigallery2",
+  "slug": "pigallery2",
+  "tagline": "A fast static photo gallery for browsing large image collections",
+  "subtitle": "",
+  "description": "PiGallery2 is a fast static gallery generator and viewer designed for hosting image collections on a server or NAS. It offers hierarchical browsing, tagging, and a responsive UI.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "3.5.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-24",
+    "date_last_commit": "2026-02-14",
+    "github_stars": 2144,
+    "github_contributors": 77,
+    "github_commits_this_year": 46,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "http://bpatrik.github.io/pigallery2/",
+    "documentation": "https://github.com/bpatrik/pigallery2",
+    "source_code": "https://github.com/bpatrik/pigallery2",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pigallery2.webp",
+    "issues": "https://github.com/bpatrik/pigallery2/issues",
+    "releases": "https://github.com/bpatrik/pigallery2/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pigallery2-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-blog.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-filters.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-lightbox.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-main-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-map.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-random-link.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-search.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-sharing.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pigallery2-video.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Photo Gallery",
+      "description": "Browse photo libraries in a web gallery",
+      "core_feature": true
+    },
+    {
+      "title": "Folder-Based Organization",
+      "description": "Organize photos by directories",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Indexing",
+      "description": "Index EXIF metadata",
+      "core_feature": true
+    },
+    {
+      "title": "Slideshow View",
+      "description": "View photos as slideshows"
+    },
+    {
+      "title": "Search",
+      "description": "Search photos by metadata"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the gallery on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pigallery2/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "pigallery2",
+      "url": "https://apps.truenas.com/catalog/pigallery2"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

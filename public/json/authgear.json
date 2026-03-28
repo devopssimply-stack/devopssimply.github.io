@@ -1,0 +1,77 @@
+{
+  "name": "authgear",
+  "slug": "authgear",
+  "tagline": "An authentication service supporting modern login flows for web and mobile apps",
+  "subtitle": "",
+  "description": "Authgear is a full-featured authentication service for web and mobile apps with JWT, WebAuthn, OAuth, passwordless login, and multi-factor security. It provides UI and APIs and can be self-hosted in production.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "2026-01-08.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-12",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1452,
+    "github_contributors": 45,
+    "github_commits_this_year": 239,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://www.authgear.com",
+    "documentation": "https://github.com/authgear/authgear-server",
+    "source_code": "https://github.com/authgear/authgear-server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/authgear.webp",
+    "issues": "https://github.com/authgear/authgear-server/issues",
+    "releases": "https://github.com/authgear/authgear-server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/authgear-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Authentication Backend",
+      "description": "Provide authentication services for applications",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Manage users and credentials",
+      "core_feature": true
+    },
+    {
+      "title": "OAuth and OIDC",
+      "description": "Support standard authentication protocols"
+    },
+    {
+      "title": "API Integration",
+      "description": "Integrate authentication via APIs"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/authgear/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

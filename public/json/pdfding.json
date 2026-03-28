@@ -1,0 +1,84 @@
+{
+  "name": "pdfding",
+  "slug": "pdfding",
+  "tagline": "A self-hosted web toolkit for merging, splitting, and compressing PDFs",
+  "subtitle": "",
+  "description": "PdfDing is a self-hosted PDF toolkit supporting operations like merging, splitting, rotating, and compressing PDFs. It provides a drag-and-drop web UI for ease of use.",
+  "categories": [
+    12
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.6.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1625,
+    "github_contributors": 10,
+    "github_commits_this_year": 52,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/mrmn2/PdfDing",
+    "documentation": "https://docs.pdfding.com",
+    "source_code": "https://github.com/mrmn2/PdfDing",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pdfding.webp",
+    "issues": "https://github.com/mrmn2/PdfDing/issues",
+    "releases": "https://github.com/mrmn2/PdfDing/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pdfding-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "PDF Bookmarking",
+      "description": "Save and organize PDF documents",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Storage",
+      "description": "Store notes and metadata for PDFs",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search PDFs by title and notes",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage PDFs in a browser"
+    },
+    {
+      "title": "Tagging",
+      "description": "Categorize PDFs using tags"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the PDF manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pdfding/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,133 @@
+# ===============================
+# Docker Compose (Mastodon)
+# ===============================
+# host: https://yourdomain.com
+# username: (created during mastodon:setup)
+# password: (created during mastodon:setup)
+# database user: mastodon
+# database password: change_this_password
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: mastodon-db
+    restart: unless-stopped
+    shm_size: 512mb
+    environment:
+      POSTGRES_DB: mastodon_production
+      POSTGRES_USER: mastodon
+      POSTGRES_PASSWORD: change_this_password
+    volumes:
+      - mastodon_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mastodon"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+
+  redis:
+    image: redis:7-alpine
+    container_name: mastodon-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - mastodon_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+
+  web:
+    image: ghcr.io/mastodon/mastodon:v4.5.6
+    container_name: mastodon-web
+    restart: unless-stopped
+    command: bundle exec puma -C config/puma.rb
+    environment:
+      RAILS_ENV: production
+      DB_HOST: db
+      DB_USER: mastodon
+      DB_NAME: mastodon_production
+      DB_PASS: change_this_password
+      REDIS_HOST: redis
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - mastodon_public_system:/mastodon/public/system
+    ports:
+      - "127.0.0.1:3000:3000"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:3000/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+      - external
+
+  streaming:
+    image: ghcr.io/mastodon/mastodon-streaming:v4.5.6
+    container_name: mastodon-streaming
+    restart: unless-stopped
+    command: node ./streaming/index.js
+    environment:
+      NODE_ENV: production
+      DB_HOST: db
+      DB_USER: mastodon
+      DB_NAME: mastodon_production
+      DB_PASS: change_this_password
+      REDIS_HOST: redis
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:4000:4000"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:4000/api/v1/streaming/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+      - external
+
+  sidekiq:
+    image: ghcr.io/mastodon/mastodon:v4.5.6
+    container_name: mastodon-sidekiq
+    restart: unless-stopped
+    command: bundle exec sidekiq
+    environment:
+      RAILS_ENV: production
+      DB_HOST: db
+      DB_USER: mastodon
+      DB_NAME: mastodon_production
+      DB_PASS: change_this_password
+      REDIS_HOST: redis
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - mastodon_public_system:/mastodon/public/system
+    networks:
+      - internal
+
+volumes:
+  mastodon_postgres_data:
+  mastodon_redis_data:
+  mastodon_public_system:
+
+networks:
+  external:
+  internal:
+    internal: true

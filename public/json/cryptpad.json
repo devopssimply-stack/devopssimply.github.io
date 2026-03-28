@@ -1,0 +1,100 @@
+{
+  "name": "cryptpad",
+  "slug": "cryptpad",
+  "tagline": "A privacy-first collaborative suite with end-to-end encrypted documents and tools",
+  "subtitle": "",
+  "description": "CryptPad is a privacy-first collaborative suite offering real-time editing for documents, spreadsheets, Kanban, forms, and more. It uses end-to-end encryption, a zero-knowledge model, and can be emulated as an alternative to Google Workspace.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2026.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-11",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 7405,
+    "github_contributors": 99,
+    "github_commits_this_year": 134,
+    "github_issues_open": 322,
+    "github_issues_closed_this_year": 52,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://cryptpad.org",
+    "documentation": "https://github.com/cryptpad/cryptpad",
+    "source_code": "https://github.com/cryptpad/cryptpad",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/cryptpad.webp",
+    "issues": "https://github.com/cryptpad/cryptpad/issues",
+    "releases": "https://github.com/cryptpad/cryptpad/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/cryptpad-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Encrypted Collaboration Suite",
+      "description": "Provides end-to-end encrypted collaboration tools",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Collaboration",
+      "description": "Edits documents with multiple users",
+      "core_feature": true
+    },
+    {
+      "title": "Document Types",
+      "description": "Supports text spreadsheets and kanban",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Manages sharing permissions"
+    },
+    {
+      "title": "Zero Knowledge Design",
+      "description": "Server cannot read content"
+    },
+    {
+      "title": "File Storage",
+      "description": "Stores encrypted files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/cryptpad/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "cryptpad",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=cryptpad"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "cryptpad_ynh",
+      "url": "https://github.com/YunoHost-Apps/cryptpad_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

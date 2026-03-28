@@ -1,0 +1,102 @@
+{
+  "name": "adguard-home",
+  "slug": "adguard-home",
+  "tagline": "A network-wide DNS service for blocking ads and trackers",
+  "subtitle": "",
+  "description": "AdGuard Home is a network-wide software for blocking ads and tracking, operating as a DNS server and providing a web-based interface to filter content for all devices on the network. It can be self-hosted and customized for family or enterprise networks.",
+  "categories": [
+    7
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.107.72",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-19",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 32932,
+    "github_contributors": 92,
+    "github_commits_this_year": 34,
+    "github_issues_open": 1220,
+    "github_issues_closed_this_year": 19,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://adguard.com/adguard-home/overview.html",
+    "documentation": "https://github.com/AdguardTeam/AdGuardHome",
+    "source_code": "https://github.com/AdguardTeam/AdGuardHome",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/adguard-home.webp",
+    "issues": "https://github.com/AdguardTeam/AdGuardHome/issues",
+    "releases": "https://github.com/AdguardTeam/AdGuardHome/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/adguard-home.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Network-Wide Ad Blocking",
+      "description": "Blocks ads and trackers for all devices on a network",
+      "core_feature": true
+    },
+    {
+      "title": "DNS-Based Filtering",
+      "description": "Filters requests at the DNS level before reaching clients",
+      "core_feature": true
+    },
+    {
+      "title": "Parental Controls",
+      "description": "Restricts access to specified domains and content categories"
+    },
+    {
+      "title": "Encrypted DNS Support",
+      "description": "Supports DNS-over-HTTPS and DNS-over-TLS"
+    },
+    {
+      "title": "Web Management Interface",
+      "description": "Configures and monitors filtering rules through a web UI"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "web"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/adguard-home/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/adguard-home/script.sh"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "adguardhome_ynh",
+      "url": "https://github.com/YunoHost-Apps/adguardhome_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "adguard-home",
+      "url": "https://apps.truenas.com/catalog/adguard-home"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

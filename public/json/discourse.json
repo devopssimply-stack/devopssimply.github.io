@@ -1,0 +1,100 @@
+{
+  "name": "discourse",
+  "slug": "discourse",
+  "tagline": "A discussion platform for building and moderating online communities",
+  "subtitle": "",
+  "description": "Discourse is a modern forum platform built for hosting online communities. It supports real-time notifications, threaded discussions, and plugins, with a responsive UI for mobile and desktop, and can be self-hosted or cloud-managed.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 46507,
+    "github_contributors": 374,
+    "github_commits_this_year": 1174,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.discourse.org",
+    "documentation": "https://github.com/discourse/discourse",
+    "source_code": "https://github.com/discourse/discourse",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/discourse.webp",
+    "issues": "https://github.com/discourse/discourse/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/discourse-hero.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/discourse-use-case-support.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Discussion Forum Platform",
+      "description": "Hosts threaded online discussions",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manages user registration and profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Topic and Category Structure",
+      "description": "Organizes discussions into categories",
+      "core_feature": true
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Provides tools for content moderation"
+    },
+    {
+      "title": "Trust Levels",
+      "description": "Adjusts permissions based on user activity"
+    },
+    {
+      "title": "Notification System",
+      "description": "Notifies users of replies and mentions"
+    },
+    {
+      "title": "Plugin Architecture",
+      "description": "Extends forum functionality"
+    },
+    {
+      "title": "Self-Hosted Community",
+      "description": "Runs on private servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/discourse/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "discourse_ynh",
+      "url": "https://github.com/YunoHost-Apps/discourse_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://try.discourse.org",
+    "username": null,
+    "password": null
+  }
+}

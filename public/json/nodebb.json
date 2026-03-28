@@ -1,0 +1,97 @@
+{
+  "name": "nodebb",
+  "slug": "nodebb",
+  "tagline": "A modern forum platform with real-time discussions and plugins",
+  "subtitle": "",
+  "description": "NodeBB is a modern, lightweight forum platform built on Node.js. It supports real-time updates, plugins, SSO, and themes and can be self-hosted or deployed as a managed cloud service.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v4.9.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 15006,
+    "github_contributors": 213,
+    "github_commits_this_year": 661,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://nodebb.org",
+    "documentation": "https://docs.nodebb.org",
+    "source_code": "https://github.com/NodeBB/NodeBB",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nodebb.webp",
+    "issues": "https://github.com/NodeBB/NodeBB/issues",
+    "releases": "https://github.com/NodeBB/NodeBB/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nodebb-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nodebb-desktop-view.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Discussion Forum",
+      "description": "Host community discussion boards",
+      "core_feature": true
+    },
+    {
+      "title": "Topics and Replies",
+      "description": "Create topics and threaded replies",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Register and manage forum users",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Updates",
+      "description": "See new posts without page reloads"
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manage content and users"
+    },
+    {
+      "title": "Plugin System",
+      "description": "Extend forum functionality"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nodebb/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "nodebb",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=nodebb"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "nodebb_ynh",
+      "url": "https://github.com/YunoHost-Apps/nodebb_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://try.nodebb.org",
+    "username": null,
+    "password": null
+  }
+}

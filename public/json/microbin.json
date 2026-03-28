@@ -1,0 +1,101 @@
+{
+  "name": "microbin",
+  "slug": "microbin",
+  "tagline": "A self-hosted pastebin service for sharing text and code snippets",
+  "subtitle": "",
+  "description": "Microbin is a self-hosted pastebin service that allows sharing text or code snippets with optional expiration. It supports private pastes, syntax highlighting, and a minimal, fast web UI.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "BSD-3-Clause",
+    "version": "v2.1.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-10",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 4108,
+    "github_contributors": 42,
+    "github_commits_this_year": 58,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://microbin.eu",
+    "documentation": "https://microbin.eu/docs/category/installation-and-configuration",
+    "source_code": "https://github.com/szabodanika/microbin",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/microbin.webp",
+    "issues": "https://github.com/szabodanika/microbin/issues",
+    "releases": "https://github.com/szabodanika/microbin/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-file-list.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-image-preview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-index.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-login.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-options.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-qr-code.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/microbin-raw-text.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing",
+      "description": "Share files using temporary upload links",
+      "core_feature": true
+    },
+    {
+      "title": "Text and Code Sharing",
+      "description": "Share text snippets and code",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Set time or view limits for shared content"
+    },
+    {
+      "title": "Password Protection",
+      "description": "Protect shared content with passwords"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Upload and access content through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/microbin/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "microbin_ynh",
+      "url": "https://github.com/YunoHost-Apps/microbin_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://pub.microbin.eu",
+    "username": null,
+    "password": null
+  }
+}

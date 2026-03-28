@@ -1,0 +1,86 @@
+{
+  "name": "lowcoder",
+  "slug": "lowcoder",
+  "tagline": "A low-code platform for building internal tools with drag-and-drop components",
+  "subtitle": "",
+  "description": "Lowcoder is a low-code platform for building internal tools using drag-and-drop components and integrations. It allows teams to quickly assemble dashboards and workflows that can be self-hosted or deployed to cloud providers.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "2.7.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-03",
+    "date_last_commit": "2026-02-28",
+    "github_stars": 1519,
+    "github_contributors": 70,
+    "github_commits_this_year": 35,
+    "github_issues_open": 221,
+    "github_issues_closed_this_year": 32,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://www.lowcoder.cloud/",
+    "documentation": "https://github.com/lowcoder-org/lowcoder",
+    "source_code": "https://github.com/lowcoder-org/lowcoder",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lowcoder.webp",
+    "issues": "https://github.com/lowcoder-org/lowcoder/issues",
+    "releases": "https://github.com/lowcoder-org/lowcoder/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lowcoder-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lowcoder-design-freedom.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lowcoder-native-mobile-apps.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Low-Code Builder",
+      "description": "Build web applications with a visual interface",
+      "core_feature": true
+    },
+    {
+      "title": "Component Library",
+      "description": "Use pre-built blocks in application designs",
+      "core_feature": true
+    },
+    {
+      "title": "Live Preview",
+      "description": "See rendered applications while editing",
+      "core_feature": true
+    },
+    {
+      "title": "Data Binding",
+      "description": "Connect components to data sources"
+    },
+    {
+      "title": "Export Projects",
+      "description": "Export built applications for deployment"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the builder tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lowcoder/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

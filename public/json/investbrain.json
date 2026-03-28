@@ -1,0 +1,99 @@
+{
+  "name": "investbrain",
+  "slug": "investbrain",
+  "tagline": "A self-hosted investment tracking and portfolio analytics platform",
+  "subtitle": "",
+  "description": "Investbrain is a self hosted investment tracking and analytics tool. It aggregates portfolio positions, prices and performance, then displays charts and summaries to help individual investors understand risk, returns, and diversification over time.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "CCA-Non Commercial 4.0",
+    "version": "v1.2.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-07",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 794,
+    "github_contributors": 9,
+    "github_commits_this_year": 1,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://investbra.in",
+    "documentation": "https://github.com/investbrainapp/investbrain#self-hosting",
+    "source_code": "https://github.com/investbrainapp/investbrain",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/investbrain.webp",
+    "issues": "https://github.com/investbrainapp/investbrain/issues",
+    "releases": "https://github.com/investbrainapp/investbrain/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/investbrain-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/investbrain-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Investment Portfolio Tracking",
+      "description": "Tracks investment portfolios including assets holdings and balances",
+      "core_feature": true
+    },
+    {
+      "title": "Transaction Recording",
+      "description": "Records buy sell dividend and transfer transactions",
+      "core_feature": true
+    },
+    {
+      "title": "Performance Analysis",
+      "description": "Calculates investment performance over time using historical data"
+    },
+    {
+      "title": "Asset Allocation Overview",
+      "description": "Displays portfolio distribution across asset types"
+    },
+    {
+      "title": "Historical Charts",
+      "description": "Visualizes portfolio value and performance trends"
+    },
+    {
+      "title": "Data Import",
+      "description": "Imports investment data from supported sources"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages portfolios through a browser-based interface"
+    },
+    {
+      "title": "Self-Hosted Investment Tracker",
+      "description": "Runs the application on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/investbrain/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "investbrain",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=investbrain"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "wikidocs",
+  "slug": "wikidocs",
+  "tagline": "A markdown-based documentation system for internal or project knowledge",
+  "subtitle": "",
+  "description": "WikiDocs is a self-hosted documentation and knowledge base system built around markdown files. It provides navigation, search, and clean page rendering, making it easy to publish internal or project documentation as a web site.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "1.0.83",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-12",
+    "date_last_commit": "2026-01-12",
+    "github_stars": 472,
+    "github_contributors": 25,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://www.wikidocs.app",
+    "documentation": "https://www.wikidocs.app",
+    "source_code": "https://github.com/Zavy86/WikiDocs",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wikidocs.webp",
+    "issues": "https://github.com/Zavy86/WikiDocs/issues",
+    "releases": "https://github.com/Zavy86/WikiDocs/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Documentation Platform",
+      "description": "Write and manage documentation",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Write docs using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Versioning",
+      "description": "Version documentation content",
+      "core_feature": true
+    },
+    {
+      "title": "Navigation",
+      "description": "Organize documentation structure"
+    },
+    {
+      "title": "Web Interface",
+      "description": "View documentation in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wikidocs/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "wikidocs_ynh",
+      "url": "https://github.com/YunoHost-Apps/wikidocs_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

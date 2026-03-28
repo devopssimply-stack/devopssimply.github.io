@@ -1,0 +1,90 @@
+{
+  "name": "hook0",
+  "slug": "hook0",
+  "tagline": "A self-hosted service for routing, managing, and delivering webhooks",
+  "subtitle": "",
+  "description": "Hook0 is a self hosted webhook service that centralizes outbound webhooks for your applications. It offers event routing, retries and history, along with a clear web UI and API for managing subscriber endpoints securely.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "SSPL-1.0",
+    "version": "v1.0.0-alpha.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-19",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1371,
+    "github_contributors": 12,
+    "github_commits_this_year": 91,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://www.hook0.com",
+    "documentation": "https://documentation.hook0.com/",
+    "source_code": "https://github.com/hook0/hook0",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/hook0.webp",
+    "issues": "https://github.com/hook0/hook0/issues",
+    "releases": "https://github.com/hook0/hook0/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/hook0-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Webhook Management",
+      "description": "Receives and manages incoming webhooks",
+      "core_feature": true
+    },
+    {
+      "title": "Request Inspection",
+      "description": "Views webhook payloads and headers"
+    },
+    {
+      "title": "Endpoint Management",
+      "description": "Creates and manages webhook endpoints"
+    },
+    {
+      "title": "Event History",
+      "description": "Stores received webhook events"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Inspects webhooks in a browser"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with external systems"
+    },
+    {
+      "title": "Local Storage",
+      "description": "Stores webhook data locally"
+    },
+    {
+      "title": "Self-Hosted Webhooks",
+      "description": "Run on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/hook0/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

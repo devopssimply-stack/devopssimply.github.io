@@ -1,0 +1,83 @@
+{
+  "name": "middleware-manager",
+  "slug": "middleware-manager",
+  "tagline": "A control panel for managing and monitoring middleware services",
+  "subtitle": "",
+  "description": "Middleware Manager is a self-hosted control panel for managing and monitoring middleware services in distributed environments. It offers a dashboard, logs, and integration with Kubernetes and cloud providers.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v4.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-01",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 471,
+    "github_contributors": 3,
+    "github_commits_this_year": 90,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://github.com/hhftechnology/middleware-manager",
+    "documentation": "https://github.com/hhftechnology/middleware-manager",
+    "source_code": "https://github.com/hhftechnology/middleware-manager",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/middleware-manager.webp",
+    "issues": "https://github.com/hhftechnology/middleware-manager/issues",
+    "releases": "https://github.com/hhftechnology/middleware-manager/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/middleware-manager-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/middleware-manager-plugin-catalogue.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/middleware-manager-plugin-hub.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/middleware-manager-resources.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/middleware-manager-security-overview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Middleware Management",
+      "description": "Manage middleware services from a central interface",
+      "core_feature": true
+    },
+    {
+      "title": "Service Configuration",
+      "description": "Configure middleware settings"
+    },
+    {
+      "title": "Status Monitoring",
+      "description": "View middleware service status",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage services through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the manager on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/middleware-manager/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

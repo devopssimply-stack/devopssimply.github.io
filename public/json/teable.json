@@ -1,0 +1,89 @@
+{
+  "name": "teable",
+  "slug": "teable",
+  "tagline": "An open-source Airtable alternative with relational tables and collaboration",
+  "subtitle": "",
+  "description": "Teable is an open-source, self-hosted Airtable alternative with relational tables, views, and collaboration features. It provides forms, filters, and integrations through a modern web UI and REST API, with optional managed hosting.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL",
+    "version": "v1.10.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-15",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 20990,
+    "github_contributors": 40,
+    "github_commits_this_year": 43,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://teable.ai",
+    "documentation": "https://help.teable.ai/en/deploy/docker",
+    "source_code": "https://github.com/teableio/teable",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/teable.webp",
+    "issues": "https://github.com/teableio/teable/issues",
+    "releases": "https://github.com/teableio/teable/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-comments.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-interface-light.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-record-history.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-search.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-ui.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-view-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-view-form.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-view-gallery.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-view-grid.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/teable-view-kanban.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Spreadsheet Database",
+      "description": "Manage structured data in tables",
+      "core_feature": true
+    },
+    {
+      "title": "Views and Filters",
+      "description": "Filter and sort table data",
+      "core_feature": true
+    },
+    {
+      "title": "Collaboration",
+      "description": "Edit tables with multiple users"
+    },
+    {
+      "title": "API Access",
+      "description": "Access data programmatically"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/teable/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "jellyswarrm",
+  "slug": "jellyswarrm",
+  "tagline": "A Docker Swarm orchestration layer for deploying and managing Jellyfin",
+  "subtitle": "",
+  "description": "Jellyswarrm is an orchestration and management layer for running Jellyfin on Docker Swarm. It simplifies deploying and scaling media servers by providing templates and scripts tailored for distributed setups.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-2.0",
+    "version": "v0.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-07",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 547,
+    "github_contributors": 4,
+    "github_commits_this_year": 45,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/LLukas22/Jellyswarrm",
+    "documentation": "https://github.com/LLukas22/Jellyswarrm",
+    "source_code": "https://github.com/LLukas22/Jellyswarrm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jellyswarrm.webp",
+    "issues": "https://github.com/LLukas22/Jellyswarrm/issues",
+    "releases": "https://github.com/LLukas22/Jellyswarrm/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jellyswarrm-user-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Request Automation",
+      "description": "Automates Jellyfin content requests",
+      "core_feature": true
+    },
+    {
+      "title": "Arr Integration",
+      "description": "Connects Radarr Sonarr workflows"
+    },
+    {
+      "title": "Request Processing",
+      "description": "Handles user media requests"
+    },
+    {
+      "title": "Status Tracking",
+      "description": "Tracks request fulfillment state"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Submits requests via browser"
+    },
+    {
+      "title": "Self-Hosted Tool",
+      "description": "Runs on local infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/jellyswarrm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

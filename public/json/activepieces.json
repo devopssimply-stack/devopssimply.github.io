@@ -1,0 +1,90 @@
+{
+  "name": "activepieces",
+  "slug": "activepieces",
+  "tagline": "A no-code workflow automation platform for building integrations and automations",
+  "subtitle": "",
+  "description": "Activepieces is an open-source, no-code workflow automation platform that lets teams build automations and AI workflows with drag-and-drop logic. Users can self-host or use the cloud version, and integrate with 400+ apps to automate business workflows.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "NOASSERTION",
+    "version": "0.79.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 21097,
+    "github_contributors": 341,
+    "github_commits_this_year": 637,
+    "github_issues_open": 266,
+    "github_issues_closed_this_year": 80,
+    "github_releases_this_year": 20
+  },
+  "resources": {
+    "website": "https://www.activepieces.com",
+    "documentation": "https://github.com/activepieces/activepieces",
+    "source_code": "https://github.com/activepieces/activepieces",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/activepieces.webp",
+    "issues": "https://github.com/activepieces/activepieces/issues",
+    "releases": "https://github.com/activepieces/activepieces/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-branch.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-bullboard-ui.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-code-fullscreen.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-connections-piece.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-connections-table.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-embedding-example.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-flow-history.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/activepieces-workers.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Workflow Automation",
+      "description": "Automates tasks by connecting applications through trigger and action flows",
+      "core_feature": true
+    },
+    {
+      "title": "No-Code Builder",
+      "description": "Allows workflows to be created using a visual editor",
+      "core_feature": true
+    },
+    {
+      "title": "Application Integrations",
+      "description": "Supports connections to third-party services through predefined pieces",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Execution",
+      "description": "Runs automation workflows on user-managed infrastructure"
+    },
+    {
+      "title": "Scheduled Triggers",
+      "description": "Executes workflows based on time-based schedules"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "web"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/activepieces/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

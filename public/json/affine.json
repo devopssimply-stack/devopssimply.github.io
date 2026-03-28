@@ -1,0 +1,103 @@
+{
+  "name": "affine",
+  "slug": "affine",
+  "tagline": "A collaborative workspace for notes, whiteboards, and structured content",
+  "subtitle": "",
+  "description": "AFFiNE is a collaborative, privacy-focused workspace that combines note-taking, whiteboarding, and database organization. It offers real-time sync, offline editing, and AI-assisted features, designed to be a self-hosted modern productivity tool.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.26.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 64149,
+    "github_contributors": 214,
+    "github_commits_this_year": 184,
+    "github_issues_open": 502,
+    "github_issues_closed_this_year": 183,
+    "github_releases_this_year": 20
+  },
+  "resources": {
+    "website": "https://affine.pro",
+    "documentation": "https://github.com/toeverything/AFFiNE",
+    "source_code": "https://github.com/toeverything/AFFiNE",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/affine.webp",
+    "issues": "https://github.com/toeverything/AFFiNE/issues",
+    "releases": "https://github.com/toeverything/AFFiNE/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/affine-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/affine-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/affine-draw.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/affine-plan.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/affine-screenshot1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/affine-screenshot2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/affine-write.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Knowledge Workspace",
+      "description": "Combines documents, notes, and databases in a single workspace",
+      "core_feature": true
+    },
+    {
+      "title": "Block-Based Editor",
+      "description": "Structures content using modular content blocks",
+      "core_feature": true
+    },
+    {
+      "title": "Local-First Storage",
+      "description": "Stores data locally with optional synchronization",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Collaboration",
+      "description": "Supports multiple users editing shared content"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Runs on desktop and web environments"
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "web"
+  ],
+  "interface": [
+    "web_ui",
+    "api"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/affine/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "affine",
+      "url": "https://apps.truenas.com/catalog/affine"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

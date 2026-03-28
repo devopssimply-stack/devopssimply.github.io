@@ -1,0 +1,75 @@
+{
+  "name": "mkcert-web-ui",
+  "slug": "mkcert-web-ui",
+  "tagline": "A web interface for generating local SSL certificates with mkcert",
+  "subtitle": "",
+  "description": "mkcertWeb is a browser-based interface built over mkcert to create local SSL certificates easily. It wraps certificate generation into a clean UI to simplify development environment setup.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v3.1.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-14",
+    "date_last_commit": "2026-01-14",
+    "github_stars": 204,
+    "github_contributors": 2,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/jeffcaldwellca/mkcertWeb",
+    "documentation": "https://github.com/jeffcaldwellca/mkcertWeb/blob/main/DOCKER.md",
+    "source_code": "https://github.com/jeffcaldwellca/mkcertWeb",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mkcert-web-ui.webp",
+    "issues": "https://github.com/jeffcaldwellca/mkcertWeb/issues",
+    "releases": "https://github.com/jeffcaldwellca/mkcertWeb/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mkcert-web-ui-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Certificate Generation",
+      "description": "Generate local TLS certificates",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Create certificates through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Development Support",
+      "description": "Issue certificates for local development domains"
+    },
+    {
+      "title": "Self-Hosted Tool",
+      "description": "Run the certificate tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mkcert-web-ui/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

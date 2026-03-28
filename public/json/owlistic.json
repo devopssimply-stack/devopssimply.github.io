@@ -1,0 +1,83 @@
+{
+  "name": "owlistic",
+  "slug": "owlistic",
+  "tagline": "A self-hosted knowledge management app with hierarchical and linked notes",
+  "subtitle": "",
+  "description": "Owlistic is a self-hosted note and knowledge management app designed for hierarchical organization. It features Markdown support, linked notes, and a responsive web interface for personal documentation.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-05-30",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 419,
+    "github_contributors": 1,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://owlistic-notes.github.io/owlistic/",
+    "documentation": "https://owlistic-notes.github.io/owlistic/docs/overview/quick-start",
+    "source_code": "https://github.com/owlistic-notes/owlistic",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/owlistic.webp",
+    "issues": "https://github.com/owlistic-notes/owlistic/issues",
+    "releases": "https://github.com/owlistic-notes/owlistic/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/owlistic-editor.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/owlistic-home.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Taking",
+      "description": "Write and organize personal notes",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Use Markdown formatting"
+    },
+    {
+      "title": "Tagging",
+      "description": "Classify notes using tags"
+    },
+    {
+      "title": "Search",
+      "description": "Find notes by text or tag"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access notes through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the notes service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/owlistic/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

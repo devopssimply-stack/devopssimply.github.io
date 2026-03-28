@@ -1,0 +1,93 @@
+{
+  "name": "mastodon",
+  "slug": "mastodon",
+  "tagline": "A federated, open source microblogging social network",
+  "subtitle": "",
+  "description": "Mastodon is an open-source, federated social network offering microblogging with privacy controls and decentralized hosting. Users can create and follow accounts across instances without a central platform.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v4.5.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 49710,
+    "github_contributors": 406,
+    "github_commits_this_year": 495,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 13
+  },
+  "resources": {
+    "website": "https://joinmastodon.org",
+    "documentation": "https://docs.joinmastodon.org",
+    "source_code": "https://github.com/mastodon/mastodon",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mastodon.webp",
+    "issues": "https://github.com/mastodon/mastodon/issues",
+    "releases": "https://github.com/mastodon/mastodon/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mastodon-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mastodon-mobile-apps.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Federated Social Network",
+      "description": "Host a social networking server using federation",
+      "core_feature": true
+    },
+    {
+      "title": "Posts and Timelines",
+      "description": "Publish posts and view timelines",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Register and manage user profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Federation",
+      "description": "Interact with users on other servers",
+      "core_feature": true
+    },
+    {
+      "title": "Moderation Tools",
+      "description": "Manage content and user behavior"
+    },
+    {
+      "title": "Media Attachments",
+      "description": "Attach images and videos to posts"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mastodon/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mastodon_ynh",
+      "url": "https://github.com/YunoHost-Apps/mastodon_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

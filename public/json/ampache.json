@@ -1,0 +1,95 @@
+{
+  "name": "ampache",
+  "slug": "ampache",
+  "tagline": "A self-hosted media server for streaming and managing music libraries",
+  "subtitle": "",
+  "description": "Ampache is a self-hosted web-based music streaming server. It allows users to stream, browse, and share music and videos from any web browser or compatible client. It supports multi-user access, playlists, and API integrations.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "7.9.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 3772,
+    "github_contributors": 130,
+    "github_commits_this_year": 240,
+    "github_issues_open": 381,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "http://ampache.org",
+    "documentation": "https://github.com/ampache/ampache/wiki",
+    "source_code": "https://github.com/ampache/ampache",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ampache.webp",
+    "issues": "https://github.com/ampache/ampache/issues",
+    "releases": "https://github.com/ampache/ampache/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ampache-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Streaming Server",
+      "description": "Stream music from a personal library",
+      "core_feature": true
+    },
+    {
+      "title": "Library Management",
+      "description": "Organize and index audio collections",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Support",
+      "description": "Create and manage playlists"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Provide access for multiple users"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Listen to music through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "api"
+  ],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ampache/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "ampache_ynh",
+      "url": "https://github.com/YunoHost-Apps/ampache_ynh"
+    },
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "ampache",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=ampache"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

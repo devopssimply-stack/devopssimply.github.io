@@ -1,0 +1,96 @@
+{
+  "name": "piped",
+  "slug": "piped",
+  "tagline": "A privacy-friendly and ad-free YouTube front end",
+  "subtitle": "",
+  "description": "Piped is a privacy-friendly YouTube frontend that can be self-hosted. It offers ad-free, tracking-free access with clean UI, subscriptions, and streaming without Google's infrastructure.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9804,
+    "github_contributors": 211,
+    "github_commits_this_year": 8,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://piped.video",
+    "documentation": "https://docs.piped.video/docs",
+    "source_code": "https://github.com/TeamPiped/Piped",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/piped.webp",
+    "issues": "https://github.com/TeamPiped/Piped/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/piped-trending-video.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Frontend",
+      "description": "Watch online videos through an alternative frontend",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy-Oriented Viewing",
+      "description": "Watch videos without direct tracking",
+      "core_feature": true
+    },
+    {
+      "title": "Subscriptions",
+      "description": "Subscribe to channels",
+      "core_feature": true
+    },
+    {
+      "title": "Playlists",
+      "description": "Create and manage playlists"
+    },
+    {
+      "title": "Search",
+      "description": "Search for videos"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the video frontend on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/piped/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "piped_ynh",
+      "url": "https://github.com/YunoHost-Apps/piped_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "piped",
+      "url": "https://apps.truenas.com/catalog/piped"
+    }
+  },
+  "demo": {
+    "url": "https://piped.video",
+    "username": null,
+    "password": null
+  }
+}

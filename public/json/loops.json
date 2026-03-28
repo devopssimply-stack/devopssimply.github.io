@@ -1,0 +1,92 @@
+{
+  "name": "loops",
+  "slug": "loops",
+  "tagline": "A self-hosted customer messaging platform with campaigns and workflows",
+  "subtitle": "",
+  "description": "Loops is a self-hosted, open-source alternative to customer messaging platforms. It supports email campaigns, workflows, and customer segmentation for full control over user communications.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v1.0.0-beta.10",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 348,
+    "github_contributors": 15,
+    "github_commits_this_year": 485,
+    "github_issues_open": 28,
+    "github_issues_closed_this_year": 54,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://joinloops.org",
+    "documentation": "https://docs.joinloops.org",
+    "source_code": "https://github.com/joinloops/loops-server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/loops.webp",
+    "issues": "https://github.com/joinloops/loops-server/issues",
+    "releases": "https://github.com/joinloops/loops-server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/loops-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/loops-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Real-Time Collaboration",
+      "description": "Support live communication and interactive sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Session Management",
+      "description": "Create and manage collaboration sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Messaging",
+      "description": "Exchange messages between session participants",
+      "core_feature": true
+    },
+    {
+      "title": "WebSocket Support",
+      "description": "Use WebSockets for real-time updates"
+    },
+    {
+      "title": "API Endpoints",
+      "description": "Provide REST APIs for external integration"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Deploy the collaboration server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/loops/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "loops_ynh",
+      "url": "https://github.com/YunoHost-Apps/loops_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "emoncms",
+  "slug": "emoncms",
+  "tagline": "A platform for logging and visualizing energy and environmental data",
+  "subtitle": "",
+  "description": "Emoncms is a web-based application for logging, graphing, and processing energy and environmental data. Designed for energy monitoring setups, it supports feeds, dashboards, input processing, and integration with IoT devices.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "11.9.10",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-09-17",
+    "date_last_commit": "2026-01-24",
+    "github_stars": 1306,
+    "github_contributors": 133,
+    "github_commits_this_year": 18,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://emoncms.org",
+    "documentation": "https://emoncms.org",
+    "source_code": "https://github.com/emoncms/emoncms",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/emoncms.webp",
+    "issues": "https://github.com/emoncms/emoncms/issues",
+    "releases": "https://github.com/emoncms/emoncms/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/emoncms-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/emoncms-3.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/emoncms-csvexport-secondsstart.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/emoncms-data-viewer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/emoncms-demandshaper1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/emoncms-demandshaper4.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/emoncms-import.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Energy Monitoring Platform",
+      "description": "Collects and visualizes energy data",
+      "core_feature": true
+    },
+    {
+      "title": "Data Input Processing",
+      "description": "Ingests data from sensors and devices",
+      "core_feature": true
+    },
+    {
+      "title": "Time-Series Storage",
+      "description": "Stores measurements over time",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboards",
+      "description": "Visualizes energy usage and trends"
+    },
+    {
+      "title": "Feed Management",
+      "description": "Manages processed data feeds"
+    },
+    {
+      "title": "API Access",
+      "description": "Accepts and exposes data via APIs"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Separates data per user"
+    },
+    {
+      "title": "Self-Hosted Monitoring",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/emoncms/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "emoncms_ynh",
+      "url": "https://github.com/YunoHost-Apps/emoncms_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

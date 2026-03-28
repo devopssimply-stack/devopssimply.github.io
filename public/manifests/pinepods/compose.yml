@@ -1,0 +1,77 @@
+# ===============================
+# Docker Compose (PinePods)
+# ===============================
+# host: http://localhost:8040
+# username:
+# password:
+
+services:
+
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: pinepods_database
+      POSTGRES_USER: pinepods
+      POSTGRES_PASSWORD: change_this_password
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pinepods -d pinepods_database"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  valkey:
+    image: valkey/valkey:8-alpine
+    restart: unless-stopped
+    volumes:
+      - valkey_data:/data
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  pinepods:
+    image: madeofpendletonwool/pinepods:latest
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      valkey:
+        condition: service_healthy
+    ports:
+      - "8040:8040"
+    environment:
+      SEARCH_API_URL: https://search.pinepods.online/api/search
+      PEOPLE_API_URL: https://people.pinepods.online
+      HOSTNAME: http://localhost:8040
+
+      DB_TYPE: postgresql
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: pinepods
+      DB_PASSWORD: change_this_password
+      DB_NAME: pinepods_database
+
+      VALKEY_HOST: valkey
+      VALKEY_PORT: 6379
+
+      DEBUG_MODE: "false"
+      TZ: UTC
+    volumes:
+      - pinepods_downloads:/opt/pinepods/downloads
+      - pinepods_backups:/opt/pinepods/backups
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8040"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  valkey_data:
+  pinepods_downloads:
+  pinepods_backups:

@@ -1,0 +1,74 @@
+{
+  "name": "meetable",
+  "slug": "meetable",
+  "tagline": "A self-hosted event listing platform with RSVP tracking",
+  "subtitle": "",
+  "description": "Meetable is a self-hosted event listing platform that supports IndieWeb standards. It allows managing upcoming and past events, RSVP tracking, and embeds with a responsive interface.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-11-23",
+    "github_stars": 163,
+    "github_contributors": 8,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://meetable.org",
+    "documentation": "https://meetable.org",
+    "source_code": "https://github.com/aaronpk/Meetable",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/meetable.webp",
+    "issues": "https://github.com/aaronpk/Meetable/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Event Scheduling",
+      "description": "Propose and schedule events with multiple participants",
+      "core_feature": true
+    },
+    {
+      "title": "Availability Collection",
+      "description": "Collect participant availability for proposed times",
+      "core_feature": true
+    },
+    {
+      "title": "Event Pages",
+      "description": "Share event details using a public link",
+      "core_feature": true
+    },
+    {
+      "title": "No Account Requirement",
+      "description": "Allow participants to respond without registration"
+    },
+    {
+      "title": "Time Zone Handling",
+      "description": "Display event times in participant time zones"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the scheduling tool on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://events.indieweb.org",
+    "username": null,
+    "password": null
+  }
+}

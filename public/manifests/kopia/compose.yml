@@ -1,0 +1,31 @@
+# ===============================
+# Docker Compose (Kopia Server)
+# ===============================
+# host: http://localhost:51515
+# username: admin
+# password: change_this_password
+
+services:
+  kopia:
+    image: kopia/kopia:latest
+    container_name: kopia
+    restart: unless-stopped
+    command: server start --insecure --address=0.0.0.0:51515 --server-username=admin --server-password=change_this_password
+    ports:
+      - "51515:51515"
+    environment:
+      TZ: Etc/UTC
+    volumes:
+      - kopia_config:/app/config
+      - kopia_cache:/app/cache
+      - kopia_repository:/repository
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:51515/api/v1/status || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  kopia_config:
+  kopia_cache:
+  kopia_repository:

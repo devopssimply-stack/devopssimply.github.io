@@ -1,0 +1,87 @@
+{
+  "name": "unregistry",
+  "slug": "unregistry",
+  "tagline": "A web interface for browsing Docker registry images and tags",
+  "subtitle": "",
+  "description": "Unregistry is a self-hosted Docker registry browser that presents images, tags, and metadata from container registries in a user-friendly web interface.",
+  "categories": [
+    27
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-23",
+    "date_last_commit": "2026-02-23",
+    "github_stars": 4672,
+    "github_contributors": 12,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/psviderski/unregistry",
+    "documentation": "https://github.com/psviderski/unregistry",
+    "source_code": "https://github.com/psviderski/unregistry",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/unregistry.webp",
+    "issues": "https://github.com/psviderski/unregistry/issues",
+    "releases": "https://github.com/psviderski/unregistry/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/unregistry-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Container Registry",
+      "description": "Host a private container image registry",
+      "core_feature": true
+    },
+    {
+      "title": "Image Storage",
+      "description": "Store container images locally",
+      "core_feature": true
+    },
+    {
+      "title": "API Compatibility",
+      "description": "Support standard registry APIs",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Control access to stored images"
+    },
+    {
+      "title": "Lightweight Setup",
+      "description": "Run with minimal configuration"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the registry on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/unregistry/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

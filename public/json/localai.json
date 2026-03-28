@@ -1,0 +1,105 @@
+{
+  "name": "localai",
+  "slug": "localai",
+  "tagline": "A self-hosted AI inference engine for running large language models locally",
+  "subtitle": "",
+  "description": "LocalAI is a self-hosted artificial intelligence inference engine that runs LLMs locally with no external API calls. It supports model selection, GPU acceleration, and provides an API compatible with OpenAI.",
+  "categories": [
+    13
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v3.12.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-21",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 43332,
+    "github_contributors": 170,
+    "github_commits_this_year": 412,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://localai.io",
+    "documentation": "https://localai.io/installation",
+    "source_code": "https://github.com/mudler/LocalAI",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/localai.webp",
+    "issues": "https://github.com/mudler/LocalAI/issues",
+    "releases": "https://github.com/mudler/LocalAI/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/localai-screenshot-chat.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/localai-screenshot-gallery.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/localai-screenshot-home.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/localai-screenshot-image.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/localai-screenshot-login.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/localai-screenshot-p2p.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/localai-screenshot-tts.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Local AI Inference",
+      "description": "Run large language models locally",
+      "core_feature": true
+    },
+    {
+      "title": "OpenAI-Compatible API",
+      "description": "Provide APIs compatible with OpenAI clients",
+      "core_feature": true
+    },
+    {
+      "title": "Model Management",
+      "description": "Load and switch between supported models",
+      "core_feature": true
+    },
+    {
+      "title": "Offline Operation",
+      "description": "Use AI features without external services"
+    },
+    {
+      "title": "Hardware Acceleration",
+      "description": "Use available CPU or GPU resources"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run AI workloads on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/localai/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "localai_ynh",
+      "url": "https://github.com/YunoHost-Apps/localai_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "localai",
+      "url": "https://apps.truenas.com/catalog/localai"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

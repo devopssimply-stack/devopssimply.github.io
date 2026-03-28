@@ -1,0 +1,93 @@
+{
+  "name": "mafl",
+  "slug": "mafl",
+  "tagline": "A self-hosted RSS and blog aggregator for reading feeds",
+  "subtitle": "",
+  "description": "Mafl is a self-hosted feed and blog aggregator similar to Feedly. It allows subscribing to RSS/Atom feeds, filtering stories, and reading articles via a simple responsive web interface.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.15.4",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-07-13",
+    "date_last_commit": "2025-10-26",
+    "github_stars": 674,
+    "github_contributors": 12,
+    "github_commits_this_year": 0,
+    "github_issues_open": 29,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://mafl.hywax.space",
+    "documentation": "https://mafl.hywax.space/guide/getting-started.html",
+    "source_code": "https://github.com/hywax/mafl",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mafl.webp",
+    "issues": "https://github.com/hywax/mafl/issues",
+    "releases": "https://github.com/hywax/mafl/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mafl-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mafl-cover.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mafl-themes.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Bookmark Management",
+      "description": "Save and organize web bookmarks",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Categorize bookmarks using tags",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Find saved links by title or tag",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage bookmarks through a browser"
+    },
+    {
+      "title": "Import and Export",
+      "description": "Import bookmarks from browser exports"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mafl/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "mafl",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=mafl"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

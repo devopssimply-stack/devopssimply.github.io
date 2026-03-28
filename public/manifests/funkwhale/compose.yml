@@ -1,0 +1,75 @@
+# ===============================
+# Docker Compose (Funkwhale)
+# ===============================
+# host: http://localhost:8000
+# username: create via first-run admin setup
+# password: create via first-run admin setup
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: funkwhale_db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=funkwhale
+      - POSTGRES_USER=funkwhale
+      - POSTGRES_PASSWORD=ChangeThisDBPass
+    volumes:
+      - funkwhale_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U funkwhale -d funkwhale || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: funkwhale_redis
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  web:
+    image: funkwhale/web:latest
+    container_name: funkwhale_web
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    environment:
+      - FUNKWHALE_HOSTNAME=localhost:8000
+      - DJANGO_SECRET_KEY=ChangeThisSecret
+      - DATABASE_URL=postgresql://funkwhale:ChangeThisDBPass@postgres:5432/funkwhale
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - funkwhale_media:/data/media
+      - funkwhale_static:/data/static
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:8000/healthz || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  celeryworker:
+    image: funkwhale/api:latest
+    container_name: funkwhale_celery
+    restart: unless-stopped
+    depends_on:
+      - web
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://funkwhale:ChangeThisDBPass@postgres:5432/funkwhale
+
+volumes:
+  funkwhale_pgdata:
+  funkwhale_media:
+  funkwhale_static:
+  

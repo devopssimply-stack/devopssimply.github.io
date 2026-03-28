@@ -1,0 +1,78 @@
+{
+  "name": "nextcloud-talk",
+  "slug": "nextcloud-talk",
+  "tagline": "A self-hosted chat and video conferencing platform integrated with Nextcloud",
+  "subtitle": "",
+  "description": "Nextcloud Talk (Spreed) is a self-hosted communication platform with video, audio, chat, screen sharing, and WebRTC infrastructure, integrated directly into the Nextcloud stack.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v23.0.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2066,
+    "github_contributors": 116,
+    "github_commits_this_year": 734,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 12
+  },
+  "resources": {
+    "website": "https://nextcloud.com/talk",
+    "documentation": "https://github.com/nextcloud/spreed",
+    "source_code": "https://github.com/nextcloud/spreed",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nextcloud-talk.webp",
+    "issues": "https://github.com/nextcloud/spreed/issues",
+    "releases": "https://github.com/nextcloud/spreed/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nextcloud-talk.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Video Conferencing",
+      "description": "Host audio and video meetings",
+      "core_feature": true
+    },
+    {
+      "title": "Screen Sharing",
+      "description": "Share screens during video calls"
+    },
+    {
+      "title": "Text Chat",
+      "description": "Send messages in calls"
+    },
+    {
+      "title": "Room Links",
+      "description": "Invite participants via shared links"
+    },
+    {
+      "title": "Nextcloud Integration",
+      "description": "Use meetings within Nextcloud"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nextcloud-talk/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

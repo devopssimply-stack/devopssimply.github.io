@@ -1,0 +1,74 @@
+{
+  "name": "zipcaptions",
+  "slug": "zipcaptions",
+  "tagline": "A utility for collecting and packaging subtitle files into zip archives",
+  "subtitle": "",
+  "description": "zip-captions is a self-hosted utility that collects and packages subtitle or caption files into zip archives for distribution or backup, often used alongside media automation workflows.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2025-05-20",
+    "github_stars": 57,
+    "github_contributors": 5,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://zipcaptions.app",
+    "documentation": "https://zipcaptions.app",
+    "source_code": "https://github.com/jptrsn/zip-captions",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zipcaptions.webp",
+    "issues": "https://github.com/jptrsn/zip-captions/issues",
+    "releases": null,
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Caption Archiving",
+      "description": "Archive video captions and subtitles",
+      "core_feature": true
+    },
+    {
+      "title": "ZIP Packaging",
+      "description": "Package captions into ZIP files",
+      "core_feature": true
+    },
+    {
+      "title": "Platform Integration",
+      "description": "Fetch captions from supported platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Automation",
+      "description": "Automate caption collection"
+    },
+    {
+      "title": "Local Storage",
+      "description": "Store caption archives locally"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

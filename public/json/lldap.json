@@ -1,0 +1,99 @@
+{
+  "name": "lldap",
+  "slug": "lldap",
+  "tagline": "A lightweight LDAP identity provider for small-scale deployments",
+  "subtitle": "",
+  "description": "LLDAP is a lightweight LDAP identity provider written in Rust for small-scale deployments. It supports web-based admin, users, groups, and integration with platforms expecting LDAP, perfect for homelabs or SMEs.",
+  "categories": [
+    15
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.6.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-17",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 6071,
+    "github_contributors": 164,
+    "github_commits_this_year": 16,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/lldap/lldap",
+    "documentation": "https://github.com/lldap/lldap",
+    "source_code": "https://github.com/lldap/lldap",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lldap.webp",
+    "issues": "https://github.com/lldap/lldap/issues",
+    "releases": "https://github.com/lldap/lldap/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lldap-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lldap-screenshot.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "LDAP Directory Service",
+      "description": "Provide a lightweight LDAP authentication server",
+      "core_feature": true
+    },
+    {
+      "title": "User Management",
+      "description": "Create and manage directory users",
+      "core_feature": true
+    },
+    {
+      "title": "Group Management",
+      "description": "Organize users into groups",
+      "core_feature": true
+    },
+    {
+      "title": "Web Administration",
+      "description": "Manage directory entries through a web UI"
+    },
+    {
+      "title": "Application Integration",
+      "description": "Authenticate applications via LDAP"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the directory service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lldap/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "lldap",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=lldap"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "lldap",
+      "url": "https://apps.truenas.com/catalog/lldap"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "mixpost",
+  "slug": "mixpost",
+  "tagline": "An open source social media management and scheduling platform",
+  "subtitle": "",
+  "description": "Mixpost is an open-source social media management tool for scheduling and publishing content across multiple platforms. It features content calendars, team collaboration, and a modern web UI for marketing workflows.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "2.5.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-24",
+    "date_last_commit": "2026-02-24",
+    "github_stars": 3029,
+    "github_contributors": 4,
+    "github_commits_this_year": 14,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://mixpost.app",
+    "documentation": "https://docs.mixpost.app",
+    "source_code": "https://github.com/inovector/mixpost",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mixpost.webp",
+    "issues": "https://github.com/inovector/mixpost/issues",
+    "releases": "https://github.com/inovector/mixpost/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mixpost-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mixpost-cover.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Social Media Scheduling",
+      "description": "Schedule posts for social platforms",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Account Support",
+      "description": "Manage multiple social accounts",
+      "core_feature": true
+    },
+    {
+      "title": "Content Calendar",
+      "description": "View scheduled posts in a calendar"
+    },
+    {
+      "title": "Analytics",
+      "description": "Track engagement metrics"
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Allow multiple users to manage content"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the scheduler on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mixpost/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mixpost_ynh",
+      "url": "https://github.com/YunoHost-Apps/mixpost_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

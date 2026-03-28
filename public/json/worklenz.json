@@ -1,0 +1,93 @@
+{
+  "name": "worklenz",
+  "slug": "worklenz",
+  "tagline": "A project and task management platform for teams with boards and timelines",
+  "subtitle": "",
+  "description": "Worklenz is a self-hosted project and task management platform built for teams. It offers boards, timelines, time tracking, and reporting, helping teams collaborate and manage workloads in a single web-based workspace.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.1.6",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-07",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 2919,
+    "github_contributors": 16,
+    "github_commits_this_year": 5,
+    "github_issues_open": 48,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://worklenz.com",
+    "documentation": "https://github.com/Worklenz/worklenz",
+    "source_code": "https://github.com/Worklenz/worklenz",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/worklenz.webp",
+    "issues": "https://github.com/Worklenz/worklenz/issues",
+    "releases": "https://github.com/Worklenz/worklenz/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-client-portal.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-finance.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-insight.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-kanban-board-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-kanban-board.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-schedule.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-team-utilization.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-template.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-time-log.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/worklenz-time-sheet.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Project Management",
+      "description": "Manage projects and tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Task Boards",
+      "description": "Organize tasks using boards",
+      "core_feature": true
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Collaborate with team members",
+      "core_feature": true
+    },
+    {
+      "title": "Time Tracking",
+      "description": "Track time spent on tasks"
+    },
+    {
+      "title": "Reporting",
+      "description": "Generate project reports"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/worklenz/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

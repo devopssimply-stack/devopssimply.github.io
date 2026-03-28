@@ -1,0 +1,110 @@
+{
+  "name": "Frappe LMS",
+  "slug": "frappe-lms",
+  "tagline": "Open source learning management system built on Frappe",
+  "description": "Frappe LMS is an open-source learning management system designed for creating, managing, and delivering online courses, built on the Frappe framework. It supports structured courses, lessons, quizzes, progress tracking, and learner management through a web interface.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.46.0",
+    "date_app_added": "2026-01-08",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 2727,
+    "github_contributors": 54,
+    "github_commits_this_year": 560,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://frappe.io/learning",
+    "documentation": "https://docs.frappe.io/learning/introduction",
+    "source_code": "https://github.com/frappe/lms",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/frappe-lms.webp",
+    "issues": "https://github.com/frappe/lms/issues",
+    "releases": "https://github.com/frappe/lms/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lms-frappe-course-list.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lms-frappe-coursebuilder.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lms-frappe-education-student-2.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Course management",
+      "description": "Create and organize courses with structured lessons and learning paths.",
+      "core_feature": true
+    },
+    {
+      "title": "Lesson delivery",
+      "description": "Deliver text and media-based lessons through a web interface.",
+      "core_feature": true
+    },
+    {
+      "title": "Learner enrollment",
+      "description": "Enroll and manage learners across courses and programs.",
+      "core_feature": true
+    },
+    {
+      "title": "Progress tracking",
+      "description": "Track learner progress and course completion status.",
+      "core_feature": true
+    },
+    {
+      "title": "Quizzes and assessments",
+      "description": "Create quizzes to assess learner understanding and performance.",
+      "core_feature": false
+    },
+    {
+      "title": "User roles and permissions",
+      "description": "Manage instructors, learners, and administrators with role-based access.",
+      "core_feature": false
+    },
+    {
+      "title": "Web-based interface",
+      "description": "Access and manage the LMS entirely through a browser-based UI.",
+      "core_feature": false
+    },
+    {
+      "title": "Frappe framework integration",
+      "description": "Built on the Frappe framework for extensibility and customization.",
+      "core_feature": false
+    }
+  ],
+  "hosting": [
+    "self_hosted"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "interface": [
+    "web_ui",
+    "api"
+  ],
+  "install": [
+    "docker_compose",
+    "script"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lms/compose.yml"
+      }
+    },
+    "script": {
+      "files": {
+        "script.sh": "/manifests/lms/script.sh"
+      }
+    }
+  },
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

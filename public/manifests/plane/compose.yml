@@ -1,0 +1,123 @@
+# ===============================
+# Docker Compose (Plane CE)
+# ===============================
+# host: http://localhost
+# username: create on first setup
+# password: create on first setup
+# ===============================
+
+services:
+
+  plane-db:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: plane
+      POSTGRES_PASSWORD: change-db-password
+      POSTGRES_DB: plane
+    volumes:
+      - plane_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U plane -d plane"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  plane-redis:
+    image: valkey/valkey:7-alpine
+    restart: unless-stopped
+    volumes:
+      - plane_redisdata:/data
+    command: ["valkey-server", "--appendonly", "yes"]
+
+  plane-mq:
+    image: rabbitmq:3-management-alpine
+    restart: unless-stopped
+    environment:
+      RABBITMQ_DEFAULT_USER: plane
+      RABBITMQ_DEFAULT_PASS: change-rabbit-password
+      RABBITMQ_DEFAULT_VHOST: plane
+    volumes:
+      - plane_rabbitmq:/var/lib/rabbitmq
+
+  plane-minio:
+    image: minio/minio:latest
+    restart: unless-stopped
+    command: server /export --console-address ":9090"
+    environment:
+      MINIO_ROOT_USER: plane
+      MINIO_ROOT_PASSWORD: change-minio-password
+    volumes:
+      - plane_uploads:/export
+    ports:
+      - "9090:9090"
+
+  api:
+    image: ghcr.io/makeplane/plane-backend:latest
+    restart: unless-stopped
+    depends_on:
+      plane-db:
+        condition: service_healthy
+      plane-redis:
+        condition: service_started
+    environment:
+      DATABASE_URL: postgres://plane:change-db-password@plane-db:5432/plane
+      REDIS_URL: redis://plane-redis:6379
+      AMQP_URL: amqp://plane:change-rabbit-password@plane-mq:5672/plane
+
+  worker:
+    image: ghcr.io/makeplane/plane-backend:latest
+    restart: unless-stopped
+    command: worker
+    depends_on:
+      - api
+
+  beat-worker:
+    image: ghcr.io/makeplane/plane-backend:latest
+    restart: unless-stopped
+    command: beat
+    depends_on:
+      - api
+
+  live:
+    image: ghcr.io/makeplane/plane-live:latest
+    restart: unless-stopped
+
+  web:
+    image: ghcr.io/makeplane/plane-web:latest
+    restart: unless-stopped
+    depends_on:
+      - api
+
+  admin:
+    image: ghcr.io/makeplane/plane-admin:latest
+    restart: unless-stopped
+    depends_on:
+      - api
+
+  space:
+    image: ghcr.io/makeplane/plane-space:latest
+    restart: unless-stopped
+    depends_on:
+      - api
+
+  proxy:
+    image: ghcr.io/makeplane/plane-proxy:latest
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      FILE_SIZE_LIMIT: "5242880"
+      BUCKET_NAME: uploads
+    depends_on:
+      - web
+      - api
+      - space
+      - admin
+
+volumes:
+  plane_pgdata:
+  plane_redisdata:
+  plane_uploads:
+  plane_rabbitmq:

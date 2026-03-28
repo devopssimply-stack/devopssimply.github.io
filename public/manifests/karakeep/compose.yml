@@ -1,0 +1,44 @@
+# ===============================
+# Docker Compose (Karakeep)
+# ===============================
+# host: http://localhost:3000
+# username: (set during setup)
+# password: (set during setup)
+
+services:
+  karakeep:
+    image: ghcr.io/karakeep-app/karakeep:latest
+    container_name: karakeep
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://karakeep:karakeep@db:5432/karakeep
+      NODE_ENV: production
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:3000 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  db:
+    image: postgres:latest
+    container_name: karakeep_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: karakeep
+      POSTGRES_USER: karakeep
+      POSTGRES_PASSWORD: karakeep
+    volumes:
+      - karakeep_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U karakeep"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  karakeep_db_data:

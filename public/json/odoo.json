@@ -1,0 +1,102 @@
+{
+  "name": "odoo",
+  "slug": "odoo",
+  "tagline": "An open source suite of business applications for ERP workflows",
+  "subtitle": "",
+  "description": "Odoo is an open-source suite of business apps including CRM, accounting, inventory, manufacturing, HR, and e-commerce. It can be self-hosted or used via SaaS with a powerful admin UI and thousands of modules.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU GPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 49338,
+    "github_contributors": 295,
+    "github_commits_this_year": 1668,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.odoo.com",
+    "documentation": "https://www.odoo.com/page/docs",
+    "source_code": "https://github.com/odoo/odoo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/odoo.webp",
+    "issues": "https://github.com/odoo/odoo/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/odoo-hero-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/odoo-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Business Management Suite",
+      "description": "Manage business operations in one platform",
+      "core_feature": true
+    },
+    {
+      "title": "Accounting",
+      "description": "Track invoices, payments, and finances",
+      "core_feature": true
+    },
+    {
+      "title": "CRM",
+      "description": "Manage leads and customer relationships",
+      "core_feature": true
+    },
+    {
+      "title": "Inventory Management",
+      "description": "Track products and stock levels"
+    },
+    {
+      "title": "Modular Apps",
+      "description": "Enable features using installable modules"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/odoo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "odoo",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=odoo"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "odoo_ynh",
+      "url": "https://github.com/YunoHost-Apps/odoo_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "odoo",
+      "url": "https://apps.truenas.com/catalog/odoo"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

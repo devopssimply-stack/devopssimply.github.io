@@ -1,0 +1,92 @@
+{
+  "name": "jelu",
+  "slug": "jelu",
+  "tagline": "A self-hosted reading tracker for books with shelves, reviews, and stats",
+  "subtitle": "",
+  "description": "Jelu is a self hosted reading tracker for books. It lets users log what they are reading, add ratings and reviews, organize shelves and see statistics about their reading habits, with support for importing data from other services.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.80.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 653,
+    "github_contributors": 18,
+    "github_commits_this_year": 18,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://github.com/bayang/jelu",
+    "documentation": "https://github.com/bayang/jelu",
+    "source_code": "https://github.com/bayang/jelu",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/jelu.webp",
+    "issues": "https://github.com/bayang/jelu/issues",
+    "releases": "https://github.com/bayang/jelu/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jelu-author-page.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jelu-book-detail-1.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jelu-book-list.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/jelu-home-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reading Tracker",
+      "description": "Tracks books reading progress",
+      "core_feature": true
+    },
+    {
+      "title": "Book Library",
+      "description": "Manages personal reading lists"
+    },
+    {
+      "title": "Progress Logging",
+      "description": "Records reading sessions"
+    },
+    {
+      "title": "Notes and Highlights",
+      "description": "Stores reading annotations"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages books in browser"
+    },
+    {
+      "title": "Self-Hosted Reading App",
+      "description": "Runs on personal server"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/jelu/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "jelu",
+      "url": "https://apps.truenas.com/catalog/jelu"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

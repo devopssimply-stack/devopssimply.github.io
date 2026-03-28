@@ -1,0 +1,88 @@
+{
+  "name": "mox",
+  "slug": "mox",
+  "tagline": "A simple and secure self-hosted email server with modern standards",
+  "subtitle": "",
+  "description": "Mox is a self-hosted email server supporting SMTP and IMAP with modern features like DKIM, DANE, and automated TLS. It’s designed to be simple and secure, with text-based configuration and minimal dependencies.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.0.15",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-04-18",
+    "date_last_commit": "2025-12-21",
+    "github_stars": 5538,
+    "github_contributors": 18,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.xmox.nl",
+    "documentation": "https://github.com/mjl-/mox",
+    "source_code": "https://github.com/mjl-/mox",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mox.webp",
+    "issues": "https://github.com/mjl-/mox/issues",
+    "releases": "https://github.com/mjl-/mox/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-account-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-admin-domain.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-admin-overview.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-webmail-attachments.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-webmail-compose.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-webmail-help.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-webmail-mailbox.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-webmail-search.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mox-webmail-top-bottom-split-multiselect.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Mail Server",
+      "description": "Provide SMTP and IMAP email services",
+      "core_feature": true
+    },
+    {
+      "title": "Spam Filtering",
+      "description": "Filter incoming mail"
+    },
+    {
+      "title": "TLS Encryption",
+      "description": "Encrypt mail connections",
+      "core_feature": true
+    },
+    {
+      "title": "Mail Storage",
+      "description": "Store mail locally on the server",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the mail server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mox/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

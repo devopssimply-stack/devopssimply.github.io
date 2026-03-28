@@ -1,0 +1,99 @@
+{
+  "name": "fireshare",
+  "slug": "fireshare",
+  "tagline": "A self-hosted video sharing platform with previews and privacy controls",
+  "subtitle": "",
+  "description": "Fireshare is a self-hosted video sharing and thumbnailing platform that auto-generates preview GIFs for faster browsing. Ideal for sharing short clips or highlights internally with minimal setup and media privacy.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.4.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-11",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1185,
+    "github_contributors": 17,
+    "github_commits_this_year": 245,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://github.com/ShaneIsrael/fireshare",
+    "documentation": "https://github.com/ShaneIsrael/fireshare",
+    "source_code": "https://github.com/ShaneIsrael/fireshare",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/fireshare.webp",
+    "issues": "https://github.com/ShaneIsrael/fireshare/issues",
+    "releases": "https://github.com/ShaneIsrael/fireshare/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-card-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-edit-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-games.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-list-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-mobile-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-ogg-data.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-preview-modal.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-uploading.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/fireshare-watch-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing Server",
+      "description": "Share files through a web-based interface",
+      "core_feature": true
+    },
+    {
+      "title": "Upload and Download",
+      "description": "Upload files and provide download access via the browser",
+      "core_feature": true
+    },
+    {
+      "title": "Expiring Files",
+      "description": "Automatically remove shared files after a configured time",
+      "core_feature": true
+    },
+    {
+      "title": "Access Limits",
+      "description": "Restrict downloads based on count or expiration rules"
+    },
+    {
+      "title": "Simple Web Interface",
+      "description": "Use a minimal UI for file sharing operations"
+    },
+    {
+      "title": "Metadata Display",
+      "description": "Show file size and upload information to users"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/fireshare/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "fireshare",
+      "url": "https://apps.truenas.com/catalog/fireshare"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

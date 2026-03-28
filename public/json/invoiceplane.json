@@ -1,0 +1,93 @@
+{
+  "name": "invoiceplane",
+  "slug": "invoiceplane",
+  "tagline": "A self-hosted invoicing and billing application with quotes and recurring invoices",
+  "subtitle": "",
+  "description": "InvoicePlane is a classic self hosted invoicing and billing application. It lets businesses create quotes, invoices, recurring bills and track payments with a straightforward web interface and customizable templates.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "NOASSERTMITION",
+    "version": "v1.7.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-16",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2992,
+    "github_contributors": 90,
+    "github_commits_this_year": 18,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://www.invoiceplane.com",
+    "documentation": "https://wiki.invoiceplane.com",
+    "source_code": "https://github.com/InvoicePlane/InvoicePlane",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/invoiceplane.webp",
+    "issues": "https://github.com/InvoicePlane/InvoicePlane/issues",
+    "releases": "https://github.com/InvoicePlane/InvoicePlane/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invoiceplane-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invoiceplane-invoices.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invoiceplane-product.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/invoiceplane-quotes.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Invoice and Quote Management",
+      "description": "Creates invoices and quotes for products and services",
+      "core_feature": true
+    },
+    {
+      "title": "Client Database",
+      "description": "Stores customer records and billing details"
+    },
+    {
+      "title": "Payment Tracking",
+      "description": "Tracks paid and unpaid invoice statuses"
+    },
+    {
+      "title": "PDF Generation",
+      "description": "Generates downloadable PDF invoices and quotes"
+    },
+    {
+      "title": "Tax Configuration",
+      "description": "Applies configurable tax rates to invoices"
+    },
+    {
+      "title": "Multi-Language Support",
+      "description": "Provides translations for international use"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages billing through a browser-based UI"
+    },
+    {
+      "title": "Self-Hosted Billing System",
+      "description": "Runs the application on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/invoiceplane/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.invoiceplane.com",
+    "username": "admin@invoiceplane.com / guest@invoiceplane.com",
+    "password": "demopassword"
+  }
+}

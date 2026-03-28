@@ -1,0 +1,116 @@
+{
+  "name": "bracket",
+  "slug": "bracket",
+  "tagline": "A self-hosted journaling app for simple Markdown-based note-taking",
+  "subtitle": "",
+  "description": "Bracket is a self-hosted note-taking and journaling app optimized for simplicity. Users can keep daily logs, private thoughts, and observations, all stored in markdown and accessible through a clean web interface.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.2.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-08-08",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 1622,
+    "github_contributors": 15,
+    "github_commits_this_year": 71,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/evroon/bracket",
+    "documentation": "docs.bracketapp.nl",
+    "source_code": "https://github.com/evroon/bracket",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bracket.webp",
+    "issues": "https://github.com/evroon/bracket/issues",
+    "releases": "https://github.com/evroon/bracket/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bracket-builder.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bracket-demo.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bracket-planning.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bracket-schedule.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bracket-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bracket-standings.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Tournament Bracket Management",
+      "description": "Creates and manages tournament brackets",
+      "core_feature": true
+    },
+    {
+      "title": "Match Progress Tracking",
+      "description": "Tracks match results and tournament progression",
+      "core_feature": true
+    },
+    {
+      "title": "Single and Double Elimination",
+      "description": "Supports common tournament formats",
+      "core_feature": true
+    },
+    {
+      "title": "Participant Management",
+      "description": "Registers and manages players or teams"
+    },
+    {
+      "title": "Web-Based Interface",
+      "description": "Manages tournaments through a browser"
+    },
+    {
+      "title": "Live Bracket Updates",
+      "description": "Updates brackets as matches are completed"
+    },
+    {
+      "title": "Export and Sharing",
+      "description": "Shares brackets via links or exports"
+    },
+    {
+      "title": "Tournament Bracket Creation",
+      "description": "Creates brackets for competitions",
+      "core_feature": true
+    },
+    {
+      "title": "Match Tracking",
+      "description": "Records match results and progression",
+      "core_feature": true
+    },
+    {
+      "title": "Elimination Formats",
+      "description": "Supports single and double elimination",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages tournaments via browser"
+    },
+    {
+      "title": "Sharing and Export",
+      "description": "Shares brackets externally"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bracket/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

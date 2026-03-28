@@ -1,0 +1,85 @@
+{
+  "name": "panora",
+  "slug": "panora",
+  "tagline": "A unified inbox and support tool for managing customer conversations",
+  "subtitle": "",
+  "description": "Panora is a self-hosted unified inbox for customer support teams. It supports email and API-based integrations for consolidating and responding to support tickets and requests.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "@panora/frontend-sdk@1.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-07-27",
+    "date_last_commit": "2025-10-26",
+    "github_stars": 1026,
+    "github_contributors": 21,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://panora.dev",
+    "documentation": "https://github.com/panoratech/Panora",
+    "source_code": "https://github.com/panoratech/Panora",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/panora.webp",
+    "issues": "https://github.com/panoratech/Panora/issues",
+    "releases": "https://github.com/panoratech/Panora/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/panora-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/panora-po-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Security Monitoring",
+      "description": "Monitor security events and alerts",
+      "core_feature": true
+    },
+    {
+      "title": "Event Correlation",
+      "description": "Correlate security signals from sources",
+      "core_feature": true
+    },
+    {
+      "title": "Dashboard Views",
+      "description": "Visualize security metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Alert Management",
+      "description": "Manage and acknowledge alerts"
+    },
+    {
+      "title": "Log Integration",
+      "description": "Ingest logs from external systems"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the security platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/panora/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

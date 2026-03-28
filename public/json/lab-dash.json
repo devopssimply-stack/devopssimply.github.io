@@ -1,0 +1,87 @@
+{
+  "name": "lab-dash",
+  "slug": "lab-dash",
+  "tagline": "A central dashboard for organizing lab links, tools, and status widgets",
+  "subtitle": "",
+  "description": "Lab Dash is a dashboard for lab environments and research teams. It aggregates important links, status widgets and notes into a central page, helping labs keep equipment, documents and tools organized and easily accessible.",
+  "categories": [
+    28
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.3.7",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-13",
+    "date_last_commit": "2026-02-13",
+    "github_stars": 427,
+    "github_contributors": 3,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://github.com/AnthonyGress/lab-dash",
+    "documentation": "https://github.com/AnthonyGress/lab-dash",
+    "source_code": "https://github.com/AnthonyGress/lab-dash",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lab-dash.webp",
+    "issues": "https://github.com/AnthonyGress/lab-dash/issues",
+    "releases": "https://github.com/AnthonyGress/lab-dash/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lab-dash-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Homelab Dashboard",
+      "description": "Display a centralized dashboard for self-hosted services",
+      "core_feature": true
+    },
+    {
+      "title": "Service Links",
+      "description": "Organize links to internal tools and applications",
+      "core_feature": true
+    },
+    {
+      "title": "Custom Sections",
+      "description": "Group services into configurable sections"
+    },
+    {
+      "title": "Icon Support",
+      "description": "Display icons for faster visual identification"
+    },
+    {
+      "title": "Status Indicators",
+      "description": "Show basic availability status for linked services"
+    },
+    {
+      "title": "Configuration Files",
+      "description": "Manage dashboard content through configuration files"
+    },
+    {
+      "title": "Self-Hosted Frontend",
+      "description": "Host the dashboard on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lab-dash/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "siyuan",
+  "slug": "siyuan",
+  "tagline": "A block-based personal knowledge management and note-taking app",
+  "subtitle": "",
+  "description": "SiYuan is a privacy-friendly, self-hosted note-taking and personal knowledge management app. It offers block-based editing, graph views, and sync across devices via desktop and web clients.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.5.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-04",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 41699,
+    "github_contributors": 100,
+    "github_commits_this_year": 786,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 26
+  },
+  "resources": {
+    "website": "https://b3log.org/siyuan",
+    "documentation": "https://github.com/siyuan-note/siyuan",
+    "source_code": "https://github.com/siyuan-note/siyuan",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/siyuan.webp",
+    "issues": "https://github.com/siyuan-note/siyuan/issues",
+    "releases": "https://github.com/siyuan-note/siyuan/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/siyuan-note-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/siyuan-note-edit.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/siyuan-note-home.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Knowledge Management",
+      "description": "Create and organize structured notes",
+      "core_feature": true
+    },
+    {
+      "title": "Block-Based Editing",
+      "description": "Edit notes using block-level structure",
+      "core_feature": true
+    },
+    {
+      "title": "Linking and References",
+      "description": "Link notes and blocks together",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search notes and content blocks"
+    },
+    {
+      "title": "Cross-Platform Clients",
+      "description": "Access notes from multiple devices"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the note system on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/siyuan/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

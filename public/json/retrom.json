@@ -1,0 +1,90 @@
+{
+  "name": "retrom",
+  "slug": "retrom",
+  "tagline": "A self-hosted retro game and ROM collection manager",
+  "subtitle": "",
+  "description": "Retrom is a self-hosted retro gaming management system with collections, metadata, and a web dashboard to organize and track ROMs across platforms.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.7.55",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1774,
+    "github_contributors": 8,
+    "github_commits_this_year": 86,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://github.com/JMBeresford/retrom",
+    "documentation": "https://github.com/JMBeresford/retrom/wiki/Quick-Start",
+    "source_code": "https://github.com/JMBeresford/retrom",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/retrom.webp",
+    "issues": "https://github.com/JMBeresford/retrom/issues",
+    "releases": "https://github.com/JMBeresford/retrom/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retrom-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retrom-game-collection.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retrom-game-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retrom-in-game.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/retrom-recently-game.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "ROM Management",
+      "description": "Organize and manage ROM collections",
+      "core_feature": true
+    },
+    {
+      "title": "Metadata Fetching",
+      "description": "Fetch game metadata automatically"
+    },
+    {
+      "title": "Library Browsing",
+      "description": "Browse games through a UI",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the manager on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/retrom/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "truenas": {
+      "supported": true,
+      "app_name": "retrom",
+      "url": "https://apps.truenas.com/catalog/retrom"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

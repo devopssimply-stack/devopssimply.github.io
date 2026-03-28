@@ -1,0 +1,87 @@
+{
+  "name": "sentry",
+  "slug": "sentry",
+  "tagline": "Application monitoring and error tracking for web, mobile, and backend services",
+  "subtitle": "",
+  "description": "Sentry is an application monitoring and error tracking platform for web, mobile, and backend services. It captures exceptions, performance data, and alerts, and can be deployed self-hosted or consumed as a SaaS.",
+  "categories": [
+    35
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "26.2.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-21",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 43284,
+    "github_contributors": 346,
+    "github_commits_this_year": 3092,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://sentry.io",
+    "documentation": "https://docs.sentry.io",
+    "source_code": "https://github.com/getsentry/sentry",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sentry.webp",
+    "issues": "https://github.com/getsentry/sentry/issues",
+    "releases": "https://github.com/getsentry/sentry/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-insights.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-issue-details-page-example.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-issue-details.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-logs.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-monitor-config-page-example.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-replays.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-seer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-trace-explorer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sentry-traces.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Error Tracking",
+      "description": "Capture and track application errors",
+      "core_feature": true
+    },
+    {
+      "title": "Stack Traces",
+      "description": "View detailed error context",
+      "core_feature": true
+    },
+    {
+      "title": "Performance Monitoring",
+      "description": "Measure application performance"
+    },
+    {
+      "title": "Alerts",
+      "description": "Notify teams of issues"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run Sentry on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sentry/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

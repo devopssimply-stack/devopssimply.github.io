@@ -1,0 +1,84 @@
+{
+  "name": "over-syncerr",
+  "slug": "overr-syncerr",
+  "tagline": "An automation tool for syncing metadata across Plex media libraries",
+  "subtitle": "",
+  "description": "Overr-Syncerr is a self-hosted automation tool for syncing Plex media libraries by matching and updating content metadata and watched status across instances.",
+  "categories": [
+    1
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-14",
+    "date_last_commit": "2025-12-14",
+    "github_stars": 162,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 4,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/gssariev/overr-syncerr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/overr-syncerr.webp",
+    "issues": "https://github.com/gssariev/overr-syncerr/issues",
+    "releases": "https://github.com/gssariev/overr-syncerr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/overr-syncerr-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Media Sync Automation",
+      "description": "Sync media libraries automatically",
+      "core_feature": true
+    },
+    {
+      "title": "Server Integration",
+      "description": "Integrate with supported media servers",
+      "core_feature": true
+    },
+    {
+      "title": "Rule-Based Sync",
+      "description": "Define synchronization rules",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Run sync jobs on a schedule"
+    },
+    {
+      "title": "Logging",
+      "description": "View sync operation logs"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the sync service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/overr-syncerr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

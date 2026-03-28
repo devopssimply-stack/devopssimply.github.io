@@ -1,0 +1,94 @@
+{
+  "name": "snappymail",
+  "slug": "snappymail",
+  "tagline": "A fast and lightweight self-hosted webmail client",
+  "subtitle": "",
+  "description": "SnappyMail is a lightweight self-hosted webmail client forked from RainLoop. It offers fast IMAP/SMTP mail access with theming and plugin support.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.38.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-10-09",
+    "date_last_commit": "2025-06-16",
+    "github_stars": 1540,
+    "github_contributors": 156,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://snappymail.eu",
+    "documentation": "https://github.com/the-djmaze/snappymail",
+    "source_code": "https://github.com/the-djmaze/snappymail",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/snappymail.webp",
+    "issues": "https://github.com/the-djmaze/snappymail/issues",
+    "releases": "https://github.com/the-djmaze/snappymail/releases",
+    "logo_light": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/snappymail-light.webp",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/snappymail-inbox.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Webmail Client",
+      "description": "Read and send email through a web interface",
+      "core_feature": true
+    },
+    {
+      "title": "IMAP and SMTP Support",
+      "description": "Connect to standard email servers",
+      "core_feature": true
+    },
+    {
+      "title": "Folder Management",
+      "description": "Organize messages into folders",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search emails by sender, subject, or content"
+    },
+    {
+      "title": "Attachment Handling",
+      "description": "View and download email attachments"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the webmail client on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/snappymail/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "snappymail_ynh",
+      "url": "https://github.com/YunoHost-Apps/snappymail_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

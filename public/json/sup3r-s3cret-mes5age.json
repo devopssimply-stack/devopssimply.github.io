@@ -1,0 +1,84 @@
+{
+  "name": "sup3rS3cretMes5age",
+  "slug": "sup3r-s3cret-mes5age",
+  "tagline": "A tool for creating encrypted, expiring links to secret messages",
+  "subtitle": "",
+  "description": "sup3rS3cretMes5age is a self-hosted tool to create secret, expiring links to messages. It encrypts content and only decrypts client-side when the link is opened.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.4.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-01",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 560,
+    "github_contributors": 18,
+    "github_commits_this_year": 30,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/algolia/sup3rS3cretMes5age",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sup3r-s3cret-mes5age.webp",
+    "issues": "https://github.com/algolia/sup3rS3cretMes5age/issues",
+    "releases": "https://github.com/algolia/sup3rS3cretMes5age/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sup3r-s3cret-mes5age-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Secret Messaging",
+      "description": "Share short secret messages using one-time links",
+      "core_feature": true
+    },
+    {
+      "title": "One-Time Access",
+      "description": "Automatically delete messages after being viewed",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Set time-based expiration for messages",
+      "core_feature": true
+    },
+    {
+      "title": "Password Protection",
+      "description": "Protect messages with optional passwords"
+    },
+    {
+      "title": "Minimal Interface",
+      "description": "Create and view messages through a simple web UI"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the message service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sup3r-s3cret-mes5age/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

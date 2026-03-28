@@ -1,0 +1,91 @@
+{
+  "name": "nexterm",
+  "slug": "nexterm",
+  "tagline": "A web-based terminal emulator for remote shell access via browser",
+  "subtitle": "",
+  "description": "Nexterm is a self-hosted web-based terminal emulator for accessing shells remotely via browser. It supports SSH and offers secure command execution without needing a native terminal client.",
+  "categories": [
+    26
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.2.0-BETA",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-01",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 4106,
+    "github_contributors": 18,
+    "github_commits_this_year": 244,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "http://docs.nexterm.dev/",
+    "documentation": "https://github.com/gnmyt/Nexterm",
+    "source_code": "https://github.com/gnmyt/Nexterm",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/nexterm.webp",
+    "issues": "https://github.com/gnmyt/Nexterm/issues",
+    "releases": "https://github.com/gnmyt/Nexterm/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-connections.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-image-5.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-image-6.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-monitoring.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-recordings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-servers.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-sftp.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-snippets.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/nexterm-test-ldap-connection.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Terminal Emulator",
+      "description": "Access a command line inside a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Session Management",
+      "description": "Save and restore terminal sessions"
+    },
+    {
+      "title": "Shell Access",
+      "description": "Run shell commands remotely"
+    },
+    {
+      "title": "Web UI",
+      "description": "Use the terminal via a browser"
+    },
+    {
+      "title": "Authentication",
+      "description": "Restrict access to authorized users"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the terminal server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/nexterm/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "zaneops",
+  "slug": "zaneops",
+  "tagline": "An operations dashboard aggregating status, logs, and metrics for teams",
+  "subtitle": "",
+  "description": "zane-ops is a self-hosted operations dashboard for monitoring services and deployments. It aggregates status, logs, and metrics into a unified web interface for small teams or homelabs.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.12.3",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-10-10",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 1227,
+    "github_contributors": 6,
+    "github_commits_this_year": 3,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://zaneops.dev",
+    "documentation": "https://zaneops.dev",
+    "source_code": "https://github.com/zane-ops/zane-ops",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zaneops.webp",
+    "issues": "https://github.com/zane-ops/zane-ops/issues",
+    "releases": "https://github.com/zane-ops/zane-ops/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zaneops-dashboard-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zaneops-http-logs-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zaneops-logs-octane-dark.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zaneops-project-detail-dark.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Application Deployment",
+      "description": "Deploy and manage applications",
+      "core_feature": true
+    },
+    {
+      "title": "Server Management",
+      "description": "Manage infrastructure servers",
+      "core_feature": true
+    },
+    {
+      "title": "Environment Configuration",
+      "description": "Configure application environments",
+      "core_feature": true
+    },
+    {
+      "title": "Monitoring",
+      "description": "Monitor application health"
+    },
+    {
+      "title": "Deployment Automation",
+      "description": "Automate deployment workflows"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/zaneops/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

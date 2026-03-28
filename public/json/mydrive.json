@@ -1,0 +1,96 @@
+{
+  "name": "mydrive",
+  "slug": "mydrive",
+  "tagline": "A minimalist self-hosted file storage and sync service",
+  "subtitle": "",
+  "description": "myDrive is a self-hosted file storage and sync service with a minimalist web interface. It supports multi-device access, sharing links, and managing files securely without cloud storage.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v4.0.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-01",
+    "date_last_commit": "2025-03-09",
+    "github_stars": 4189,
+    "github_contributors": 7,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/subnub/myDrive",
+    "documentation": "https://github.com/subnub/myDrive",
+    "source_code": "https://github.com/subnub/myDrive",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/mydrive.webp",
+    "issues": "https://github.com/subnub/myDrive/issues",
+    "releases": "https://github.com/subnub/myDrive/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-download.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-image-viewer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-media-viewer.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-move.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-multiselect.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-search.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-share.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-trash.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/mydrive-upload.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Storage",
+      "description": "Store and manage files",
+      "core_feature": true
+    },
+    {
+      "title": "Folder Management",
+      "description": "Organize files into folders",
+      "core_feature": true
+    },
+    {
+      "title": "File Sharing",
+      "description": "Share files using links"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access files through a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the storage service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/mydrive/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "mydrive_ynh",
+      "url": "https://github.com/YunoHost-Apps/mydrive_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

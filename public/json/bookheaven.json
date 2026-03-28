@@ -1,0 +1,113 @@
+{
+  "name": "bookheaven",
+  "slug": "bookheaven",
+  "tagline": "An online library system for managing eBooks and readers",
+  "subtitle": "",
+  "description": "BookHeaven is an online library and reading management system for storing and organizing eBooks. It provides tagging, categorization, user accounts, and sync support through a self-hosted backend.",
+  "categories": [
+    21
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v0.15.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 138,
+    "github_contributors": 1,
+    "github_commits_this_year": 58,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 8
+  },
+  "resources": {
+    "website": "https://bookheaven.ggarrido.dev/",
+    "documentation": "https://bookheaven.ggarrido.dev/getting-started",
+    "source_code": "https://github.com/BookHeaven/BookHeaven.Server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bookheaven.webp",
+    "issues": "https://github.com/BookHeaven/BookHeaven.Server/issues",
+    "releases": "https://github.com/BookHeaven/BookHeaven.Server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookheaven-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookheaven-book-edit.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookheaven-book.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookheaven-profiles.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookheaven-settings-font.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookheaven-settings.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookheaven-shelf.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Digital Library Backend",
+      "description": "Provides server-side functionality for book management",
+      "core_feature": true
+    },
+    {
+      "title": "Book Metadata API",
+      "description": "Exposes book data through APIs",
+      "core_feature": true
+    },
+    {
+      "title": "User Account Management",
+      "description": "Handles user authentication and profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Reading History Storage",
+      "description": "Stores reading activity and progress"
+    },
+    {
+      "title": "Database Persistence",
+      "description": "Persists library data in a structured database"
+    },
+    {
+      "title": "Client Integration",
+      "description": "Supports integration with frontend applications"
+    },
+    {
+      "title": "Self-Hosted Operation",
+      "description": "Runs on private infrastructure"
+    },
+    {
+      "title": "Library Backend Service",
+      "description": "Provides server-side book management",
+      "core_feature": true
+    },
+    {
+      "title": "REST API",
+      "description": "Exposes book and user data through APIs",
+      "core_feature": true
+    },
+    {
+      "title": "User Authentication",
+      "description": "Manages user accounts and access",
+      "core_feature": true
+    },
+    {
+      "title": "Client Integration Support",
+      "description": "Supports multiple frontend clients"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bookheaven/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

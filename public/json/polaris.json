@@ -1,0 +1,87 @@
+{
+  "name": "polaris",
+  "slug": "polaris",
+  "tagline": "A self-hosted music streaming server with playlists and metadata support",
+  "subtitle": "",
+  "description": "Polaris is a self-hosted music streaming server with a sleek web UI. It serves Music library content over the browser or app and supports playlists, search, and metadata.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.16.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 2536,
+    "github_contributors": 19,
+    "github_commits_this_year": 45,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/agersant/polaris",
+    "documentation": "https://github.com/agersant/polaris/blob/master/docs/SETUP.md",
+    "source_code": "https://github.com/agersant/polaris",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/polaris.webp",
+    "issues": "https://github.com/agersant/polaris/issues",
+    "releases": "https://github.com/agersant/polaris/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/polaris-web-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Music Streaming Server",
+      "description": "Stream music from a personal library",
+      "core_feature": true
+    },
+    {
+      "title": "Library Browsing",
+      "description": "Browse music by artist and album",
+      "core_feature": true
+    },
+    {
+      "title": "Playlist Support",
+      "description": "Create and manage playlists",
+      "core_feature": true
+    },
+    {
+      "title": "Web Player",
+      "description": "Play music in a browser"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage access with users"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the music server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/polaris/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.polaris.stream",
+    "username": "demo_user",
+    "password": "demo_password"
+  }
+}

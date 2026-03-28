@@ -1,0 +1,96 @@
+{
+  "name": "yeetfile",
+  "slug": "yeetfile",
+  "tagline": "A self-hosted file sharing app with expiring links and optional passwords",
+  "subtitle": "",
+  "description": "YeetFile is a self-hosted file sharing app for sending files quickly with expiring links and optional passwords. It focuses on simplicity and privacy while providing a straightforward browser interface.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.2.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-02-26",
+    "date_last_commit": "2026-01-02",
+    "github_stars": 303,
+    "github_contributors": 3,
+    "github_commits_this_year": 4,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://yeetfile.com",
+    "documentation": "https://docs.yeetfile.com",
+    "source_code": "https://github.com/benbusby/yeetfile",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/yeetfile.webp",
+    "issues": "https://github.com/benbusby/yeetfile/issues",
+    "releases": "https://github.com/benbusby/yeetfile/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/yeetfile-send.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/yeetfile-vault.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Temporary File Sharing",
+      "description": "Share files with expiration",
+      "core_feature": true
+    },
+    {
+      "title": "Simple Uploads",
+      "description": "Upload files quickly",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Controls",
+      "description": "Automatically delete files",
+      "core_feature": true
+    },
+    {
+      "title": "Download Links",
+      "description": "Share generated links"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Upload and download in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/yeetfile/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "yeetfile_ynh",
+      "url": "https://github.com/YunoHost-Apps/yeetfile_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

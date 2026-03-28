@@ -1,0 +1,53 @@
+# ===============================
+# Docker Compose (Invidious)
+# ===============================
+# host: http://localhost:3000
+# username:
+# password:
+# ===============================
+
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: invidious
+      POSTGRES_USER: invidious
+      POSTGRES_PASSWORD: invidious
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U invidious"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  invidious:
+    image: quay.io/invidious/invidious:latest
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    environment:
+      INVIDIOUS_CONFIG: |
+        db:
+          user: invidious
+          password: invidious
+          host: postgres
+          port: 5432
+          dbname: invidious
+        check_tables: true
+        signature_server: ""
+        hmac_key: "change_this_random_string"
+        domain: "localhost:3000"
+        https_only: false
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/v1/stats"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

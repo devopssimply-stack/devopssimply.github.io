@@ -1,0 +1,85 @@
+{
+  "name": "sync-in",
+  "slug": "sync-in",
+  "tagline": "A real-time collaborative note editor for shared pads and documents",
+  "subtitle": "",
+  "description": "Sync-in is a self-hosted collaborative note editor with real-time shared pads. It’s a modern take on Etherpad for teams and classrooms.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v2.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-09",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 715,
+    "github_contributors": 4,
+    "github_commits_this_year": 76,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://sync-in.com",
+    "documentation": "https://sync-in.com/docs",
+    "source_code": "https://github.com/Sync-in/server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sync-in.webp",
+    "issues": "https://github.com/Sync-in/server/issues",
+    "releases": "https://github.com/Sync-in/server/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sync-in-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Event Platform",
+      "description": "Host and manage community events",
+      "core_feature": true
+    },
+    {
+      "title": "Scheduling",
+      "description": "Schedule events and sessions",
+      "core_feature": true
+    },
+    {
+      "title": "Registration",
+      "description": "Manage attendee registrations",
+      "core_feature": true
+    },
+    {
+      "title": "Agenda Management",
+      "description": "Publish event agendas"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage events through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "sync-in_ynh",
+      "url": "https://github.com/YunoHost-Apps/sync-in_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://demo.sync-in.com",
+    "username": null,
+    "password": null
+  }
+}

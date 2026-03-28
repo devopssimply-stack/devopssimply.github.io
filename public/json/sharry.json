@@ -1,0 +1,88 @@
+{
+  "name": "sharry",
+  "slug": "sharry",
+  "tagline": "A self-hosted file sharing app with expiring links and access controls",
+  "subtitle": "",
+  "description": "Sharry is a self-hosted file sharing application that lets users upload files and share links with expiration and optional passwords. It supports user accounts, quotas, and a polished web interface.",
+  "categories": [
+    33
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v1.15.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-15",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 1271,
+    "github_contributors": 21,
+    "github_commits_this_year": 10,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://eikek.github.io/sharry",
+    "documentation": "https://eikek.github.io/sharry/doc",
+    "source_code": "https://github.com/eikek/sharry",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/sharry.webp",
+    "issues": "https://github.com/eikek/sharry/issues",
+    "releases": "https://github.com/eikek/sharry/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sharry-share-file.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sharry-share-link.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/sharry-share-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "File Sharing",
+      "description": "Share files and folders using links",
+      "core_feature": true
+    },
+    {
+      "title": "Upload and Download",
+      "description": "Upload files and allow browser downloads",
+      "core_feature": true
+    },
+    {
+      "title": "Expiration Policies",
+      "description": "Automatically remove shared content",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Protect shares with authentication or passwords"
+    },
+    {
+      "title": "Activity Logs",
+      "description": "Track access to shared files"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the sharing service on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/sharry/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "priviblur",
+  "slug": "priviblur",
+  "tagline": "A self-hosted tool for blurring faces in images and videos",
+  "subtitle": "",
+  "description": "PriviBlur is a self-hosted tool for face blurring in videos and images. It supports configurable filters and batch processing through a browser interface, designed to enhance privacy for shared media.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v0.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-03-10",
+    "date_last_commit": "2025-11-24",
+    "github_stars": 150,
+    "github_contributors": 19,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": null,
+    "source_code": "https://github.com/syeopite/priviblur",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/priviblur.webp",
+    "issues": "https://github.com/syeopite/priviblur/issues",
+    "releases": "https://github.com/syeopite/priviblur/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/priviblur-example.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Content Redaction",
+      "description": "Blur sensitive areas in images",
+      "core_feature": true
+    },
+    {
+      "title": "Image Uploads",
+      "description": "Upload images for processing",
+      "core_feature": true
+    },
+    {
+      "title": "Manual Blur Controls",
+      "description": "Select regions to blur",
+      "core_feature": true
+    },
+    {
+      "title": "Preview",
+      "description": "Preview redacted images"
+    },
+    {
+      "title": "Download Output",
+      "description": "Download processed images"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the tool on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/priviblur/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://tb.opnxng.com",
+    "username": null,
+    "password": null
+  }
+}

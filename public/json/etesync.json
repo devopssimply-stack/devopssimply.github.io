@@ -1,0 +1,92 @@
+{
+  "name": "etesync",
+  "slug": "etesync",
+  "tagline": "A self-hosted backend for encrypted calendar, contact, and task sync",
+  "subtitle": "",
+  "description": "EteSync Server provides a self-hosted backend for secure, end-to-end encrypted contacts, calendars, and tasks. It works with EteSync clients to keep personal information synchronized across devices while preserving privacy.",
+  "categories": [
+    23
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2024-07-12",
+    "github_stars": 1731,
+    "github_contributors": 24,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.etesync.com",
+    "documentation": "https://www.etesync.com/user-guide",
+    "source_code": "https://github.com/etesync/server",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/etesync.webp",
+    "issues": "https://github.com/etesync/server/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/etesync-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Encrypted Data Sync",
+      "description": "Synchronizes data with end-to-end encryption",
+      "core_feature": true
+    },
+    {
+      "title": "Calendar Sync",
+      "description": "Syncs calendars securely",
+      "core_feature": true
+    },
+    {
+      "title": "Contact Sync",
+      "description": "Syncs address books",
+      "core_feature": true
+    },
+    {
+      "title": "Task Sync",
+      "description": "Syncs task lists"
+    },
+    {
+      "title": "Client Compatibility",
+      "description": "Works with supported EteSync clients"
+    },
+    {
+      "title": "Zero Knowledge Server",
+      "description": "Cannot read user data"
+    },
+    {
+      "title": "Multi-User Support",
+      "description": "Supports multiple accounts"
+    },
+    {
+      "title": "Self-Hosted Sync Server",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/etesync/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

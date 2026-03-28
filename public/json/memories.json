@@ -1,0 +1,86 @@
+{
+  "name": "memories",
+  "slug": "memories",
+  "tagline": "A self-hosted photo and video backup platform with smart organization",
+  "subtitle": "",
+  "description": "Memories is a self-hosted photo and video backup tool with web UI for media browsing. It supports deduplication, metadata, face and object recognition while syncing from multiple devices.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v7.8.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-28",
+    "date_last_commit": "2026-03-04",
+    "github_stars": 3708,
+    "github_contributors": 47,
+    "github_commits_this_year": 62,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://memories.gallery",
+    "documentation": "https://memories.gallery/install",
+    "source_code": "https://github.com/pulsejet/memories",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/memories.webp",
+    "issues": "https://github.com/pulsejet/memories/issues",
+    "releases": "https://github.com/pulsejet/memories/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/memories-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/memories-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Photo and Video Backup",
+      "description": "Back up photos and videos from devices",
+      "core_feature": true
+    },
+    {
+      "title": "Timeline View",
+      "description": "Browse media by capture date",
+      "core_feature": true
+    },
+    {
+      "title": "Albums",
+      "description": "Organize media into albums"
+    },
+    {
+      "title": "Sharing",
+      "description": "Share selected media with others"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access media through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the backup service on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/memories/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.memories.gallery/apps/memories",
+    "username": null,
+    "password": null
+  }
+}

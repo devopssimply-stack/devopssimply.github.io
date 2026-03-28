@@ -1,0 +1,83 @@
+{
+  "name": "autokitteh",
+  "slug": "autokitteh",
+  "tagline": "An event-driven automation framework for building programmable workflows",
+  "subtitle": "",
+  "description": "Autokitteh is an event-driven automation framework for building workflows using Python. It integrates with APIs and triggers actions via YAML definitions, ideal for self-hosting lightweight automation tasks.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.24.9",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-18",
+    "date_last_commit": "2026-03-01",
+    "github_stars": 1103,
+    "github_contributors": 13,
+    "github_commits_this_year": 8,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://autokitteh.com",
+    "documentation": "https://github.com/autokitteh/autokitteh",
+    "source_code": "https://github.com/autokitteh/autokitteh",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/autokitteh.webp",
+    "issues": "https://github.com/autokitteh/autokitteh/issues",
+    "releases": "https://github.com/autokitteh/autokitteh/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/autokitteh-vscode.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/autokitteh-web-ui.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Workflow Automation",
+      "description": "Automate workflows between services and internal systems",
+      "core_feature": true
+    },
+    {
+      "title": "Event-Based Triggers",
+      "description": "Trigger workflows from incoming events or webhooks",
+      "core_feature": true
+    },
+    {
+      "title": "Service Integrations",
+      "description": "Connect APIs, SaaS tools, and internal services"
+    },
+    {
+      "title": "Workflow Monitoring",
+      "description": "Monitor execution status and workflow results"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Build and manage workflows through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/autokitteh/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

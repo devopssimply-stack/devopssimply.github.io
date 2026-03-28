@@ -1,0 +1,95 @@
+{
+  "name": "huginn",
+  "slug": "huginn",
+  "tagline": "A system for building agents that monitor the web and automate actions",
+  "subtitle": "",
+  "description": "Huginn is a system for building agents that monitor the web and act on your behalf. You can create workflows that fetch, filter, react to and combine data from many sources, enabling powerful self hosted automation scenarios.",
+  "categories": [
+    16
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2022.08.18",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2022-08-18",
+    "date_last_commit": "2026-02-24",
+    "github_stars": 48818,
+    "github_contributors": 218,
+    "github_commits_this_year": 7,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/huginn/huginn",
+    "documentation": "https://github.com/huginn/huginn/blob/master/doc/docker/install.md",
+    "source_code": "https://github.com/huginn/huginn",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/huginn.webp",
+    "issues": "https://github.com/huginn/huginn/issues",
+    "releases": "https://github.com/huginn/huginn/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Automation Platform",
+      "description": "Creates automated agents to monitor and act on events",
+      "core_feature": true
+    },
+    {
+      "title": "Event Monitoring",
+      "description": "Watches data sources for changes"
+    },
+    {
+      "title": "Conditional Actions",
+      "description": "Triggers actions based on rules"
+    },
+    {
+      "title": "Agent Library",
+      "description": "Uses predefined agents for common tasks"
+    },
+    {
+      "title": "Data Transformation",
+      "description": "Processes and modifies event data"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages agents through a browser"
+    },
+    {
+      "title": "Scheduling",
+      "description": "Runs agents on defined intervals"
+    },
+    {
+      "title": "Self-Hosted Automation",
+      "description": "Run the system on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/huginn/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "huginn_ynh",
+      "url": "https://github.com/YunoHost-Apps/huginn_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

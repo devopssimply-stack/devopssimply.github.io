@@ -1,0 +1,79 @@
+{
+  "name": "betula",
+  "slug": "betula",
+  "tagline": "A minimal bookmark manager that organizes links in a plain text tree",
+  "subtitle": "",
+  "description": "Betula is a minimal, plain-text-based personal bookmark manager designed to organize URLs into a tree-like structure. Focused on privacy and simplicity, it’s ideal for self-hosters who prefer lightweight tooling.",
+  "categories": [
+    20
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-03",
+    "github_stars": 126,
+    "github_contributors": 5,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://betula.mycorrhiza.wiki",
+    "documentation": "https://betula.mycorrhiza.wiki",
+    "source_code": "https://github.com/bouncepaw/betula",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/betula.webp",
+    "issues": "https://github.com/bouncepaw/betula/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/betula-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Linked Notes System",
+      "description": "Write and link notes in a knowledge base",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Editing",
+      "description": "Create notes using Markdown syntax",
+      "core_feature": true
+    },
+    {
+      "title": "Graph Visualization",
+      "description": "Visualize relationships between notes"
+    },
+    {
+      "title": "Search",
+      "description": "Search notes by title or content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access notes through a browser"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/betula/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

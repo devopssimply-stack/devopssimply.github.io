@@ -1,0 +1,88 @@
+{
+  "name": "wygiwyh",
+  "slug": "wygiwyh",
+  "tagline": "A personal data tracker with dashboards and timeline visualizations",
+  "subtitle": "",
+  "description": "WYGIWYH (What You Get Is What You Have) is a self-hosted tool for tracking and introspecting personal data or metrics, presenting them in dashboards and timelines via a clean, browser-based UI.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "0.19.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-25",
+    "date_last_commit": "2026-02-03",
+    "github_stars": 802,
+    "github_contributors": 37,
+    "github_commits_this_year": 65,
+    "github_issues_open": 15,
+    "github_issues_closed_this_year": 6,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/eitchtee/WYGIWYH",
+    "documentation": "https://github.com/eitchtee/WYGIWYH",
+    "source_code": "https://github.com/eitchtee/WYGIWYH",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wygiwyh.webp",
+    "issues": "https://github.com/eitchtee/WYGIWYH/issues",
+    "releases": "https://github.com/eitchtee/WYGIWYH/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wygiwyh-all-transactions.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wygiwyh-calendar.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wygiwyh-monthly-view.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wygiwyh-networth.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wygiwyh-yearly.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Taking",
+      "description": "Write and manage plain text notes",
+      "core_feature": true
+    },
+    {
+      "title": "File-Based Storage",
+      "description": "Store notes as local files",
+      "core_feature": true
+    },
+    {
+      "title": "Git Integration",
+      "description": "Track note changes using Git",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search note content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Edit notes through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wygiwyh/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://wygiwyh-demo.herculino.com",
+    "username": "demo@demo.com",
+    "password": "wygiwyhdemo"
+  }
+}

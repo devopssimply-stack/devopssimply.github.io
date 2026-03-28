@@ -1,0 +1,93 @@
+{
+  "name": "databag",
+  "slug": "databag",
+  "tagline": "A federated messaging platform for private groups with encryption",
+  "subtitle": "",
+  "description": "Databag is a federated, self-hosted messaging platform for private groups. It supports encrypted messaging, groups, video calls, and ActivityPub federation, all via a user-friendly web and mobile interface.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v1.1.1021",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-06-20",
+    "date_last_commit": "2026-01-01",
+    "github_stars": 1426,
+    "github_contributors": 14,
+    "github_commits_this_year": 1,
+    "github_issues_open": 53,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://github.com/balzack/databag/blob/main/doc/design_overview.md",
+    "source_code": "https://github.com/balzack/databag",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/databag.webp",
+    "issues": "https://github.com/balzack/databag/issues",
+    "releases": "https://github.com/balzack/databag/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/databag-browser.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/databag-mobile-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Encrypted Messaging",
+      "description": "Sends end-to-end encrypted messages between users",
+      "core_feature": true
+    },
+    {
+      "title": "Public Key Cryptography",
+      "description": "Uses public key encryption for message security",
+      "core_feature": true
+    },
+    {
+      "title": "Serverless Communication",
+      "description": "Delivers messages without storing plaintext on servers",
+      "core_feature": true
+    },
+    {
+      "title": "Identity Verification",
+      "description": "Verifies recipients using cryptographic identities"
+    },
+    {
+      "title": "Command Line Interface",
+      "description": "Sends and receives messages via CLI"
+    },
+    {
+      "title": "Minimal Metadata Storage",
+      "description": "Limits stored metadata to reduce exposure"
+    },
+    {
+      "title": "Cross-Platform Support",
+      "description": "Runs on major operating systems"
+    },
+    {
+      "title": "Open Protocol Design",
+      "description": "Uses transparent and documented protocols"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/databag/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

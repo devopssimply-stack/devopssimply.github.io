@@ -1,0 +1,71 @@
+{
+  "name": "phylum",
+  "slug": "phylum",
+  "tagline": "A supply chain security and dependency analysis platform",
+  "subtitle": "",
+  "description": "Phylum is a static analysis tool that runs as a self-hosted web app, designed to evaluate software supply chain risks by analyzing dependencies and code security.",
+  "categories": [
+    41
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": null,
+    "github_stars": null
+  },
+  "resources": {
+    "website": null,
+    "documentation": "https://docs.codeberg.org",
+    "source_code": "https://codeberg.org/shroff/phylum",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/phylum.webp",
+    "issues": null,
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/phylum-desktop.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Journal",
+      "description": "Write and manage personal journal entries",
+      "core_feature": true
+    },
+    {
+      "title": "Markdown Support",
+      "description": "Write entries using Markdown",
+      "core_feature": true
+    },
+    {
+      "title": "Date-Based Organization",
+      "description": "Organize entries by date",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search journal content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Access entries in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the journal on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

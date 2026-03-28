@@ -1,0 +1,111 @@
+{
+  "name": "dolibarr",
+  "slug": "dolibarr",
+  "tagline": "An open-source ERP and CRM suite for managing business operations",
+  "subtitle": "",
+  "description": "Dolibarr is an open-source ERP and CRM suite aimed at small and medium businesses. It includes modules for invoicing, accounting, inventory, HR, projects, and more, enabling companies to centralize operations in a self-hosted web interface.",
+  "categories": [
+    5
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "23.0.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 6973,
+    "github_contributors": 279,
+    "github_commits_this_year": 537,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://www.dolibarr.org",
+    "documentation": "https://github.com/Dolibarr/dolibarr",
+    "source_code": "https://github.com/Dolibarr/dolibarr",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/dolibarr.webp",
+    "issues": "https://github.com/Dolibarr/dolibarr/issues",
+    "releases": "https://github.com/Dolibarr/dolibarr/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-5.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-dolibarr-screenshot1-1280x800.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-dolibarr-screenshot11-1024x768.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-dolibarr-screenshot12-1280x800.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-dolibarr-screenshot2-1280x800.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-dolibarr-screenshot3-1280x800.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-dolibarr-screenshot4-1280x800.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/dolibarr-invoice.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "ERP and CRM Platform",
+      "description": "Manages business operations and customer relations",
+      "core_feature": true
+    },
+    {
+      "title": "Invoicing and Billing",
+      "description": "Creates and tracks invoices",
+      "core_feature": true
+    },
+    {
+      "title": "Accounting Tools",
+      "description": "Handles financial records",
+      "core_feature": true
+    },
+    {
+      "title": "Product Management",
+      "description": "Manages products and services"
+    },
+    {
+      "title": "Customer Management",
+      "description": "Stores customer and supplier data"
+    },
+    {
+      "title": "Modular Architecture",
+      "description": "Enables features via modules"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manages business data through a browser"
+    },
+    {
+      "title": "Self-Hosted ERP",
+      "description": "Runs on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/dolibarr/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "dolibarr",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=dolibarr"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "dolibarr_ynh",
+      "url": "https://github.com/YunoHost-Apps/dolibarr_ynh"
+    }
+  },
+  "demo": {
+    "url": "https://www.dolibarr.org/onlinedemo.php",
+    "username": null,
+    "password": null
+  }
+}

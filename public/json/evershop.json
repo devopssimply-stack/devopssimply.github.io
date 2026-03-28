@@ -1,0 +1,92 @@
+{
+  "name": "evershop",
+  "slug": "evershop",
+  "tagline": "A headless e-commerce platform with APIs and customizable storefronts",
+  "subtitle": "",
+  "description": "Evershop is a headless e-commerce platform built with modern web technologies. It provides an admin panel, storefront, and APIs for building customized online stores that can be self-hosted or extended as needed.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v2.1.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-25",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 9830,
+    "github_contributors": 44,
+    "github_commits_this_year": 47,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://evershop.io/",
+    "documentation": "https://evershop.io/documentation",
+    "source_code": "https://github.com/evershopcommerce/evershop",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/evershop.webp",
+    "issues": "https://github.com/evershopcommerce/evershop/issues",
+    "releases": "https://github.com/evershopcommerce/evershop/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/evershop-banner.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Ecommerce Platform",
+      "description": "Provides online store functionality",
+      "core_feature": true
+    },
+    {
+      "title": "Product Management",
+      "description": "Manages products and inventory",
+      "core_feature": true
+    },
+    {
+      "title": "Order Processing",
+      "description": "Handles customer orders",
+      "core_feature": true
+    },
+    {
+      "title": "Payment Integration",
+      "description": "Integrates with payment gateways"
+    },
+    {
+      "title": "Storefront UI",
+      "description": "Provides customer-facing store interface"
+    },
+    {
+      "title": "Admin Dashboard",
+      "description": "Manages store operations"
+    },
+    {
+      "title": "Extensible Architecture",
+      "description": "Supports plugins and extensions"
+    },
+    {
+      "title": "Self-Hosted Commerce",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/evershop/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.evershop.io",
+    "username": null,
+    "password": null
+  }
+}

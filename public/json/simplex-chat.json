@@ -1,0 +1,76 @@
+{
+  "name": "simplex-chat",
+  "slug": "simplex-chat",
+  "tagline": "A privacy-first messaging platform with end-to-end encryption",
+  "subtitle": "",
+  "description": "SimpleX Chat is a privacy-focused messaging platform with E2E encryption and no identifiers. It provides mobile and desktop clients, and can use self-hosted servers as transport nodes.",
+  "categories": [
+    6
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v6.4.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-10",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 10593,
+    "github_contributors": 42,
+    "github_commits_this_year": 6,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 3
+  },
+  "resources": {
+    "website": "https://simplex.chat",
+    "documentation": "https://simplex.chat/docs/guide/readme.html",
+    "source_code": "https://github.com/simplex-chat/simplex-chat",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/simplex-chat.webp",
+    "issues": "https://github.com/simplex-chat/simplex-chat/issues",
+    "releases": "https://github.com/simplex-chat/simplex-chat/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/simplex-chat-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Private Messaging",
+      "description": "Exchange messages without user identifiers",
+      "core_feature": true
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Encrypt messages by default",
+      "core_feature": true
+    },
+    {
+      "title": "No Central Accounts",
+      "description": "Communicate without global user IDs"
+    },
+    {
+      "title": "File Sharing",
+      "description": "Send files securely"
+    },
+    {
+      "title": "Self-Hosted Servers",
+      "description": "Host relay servers yourself"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

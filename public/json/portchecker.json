@@ -1,0 +1,84 @@
+{
+  "name": "portchecker",
+  "slug": "portchecker",
+  "tagline": "A utility for checking open ports on hosts and domains",
+  "subtitle": "",
+  "description": "Portchecker.io is a self-hosted utility tool for testing open ports on IPs or domains. It offers a minimal UI and HTTP API for verifying if services are reachable.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "v3.4.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-13",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 181,
+    "github_contributors": 2,
+    "github_commits_this_year": 62,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://portchecker.io",
+    "documentation": "https://github.com/dsgnr/portchecker.io",
+    "source_code": "https://github.com/dsgnr/portchecker.io",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/portchecker.webp",
+    "issues": "https://github.com/dsgnr/portchecker.io/issues",
+    "releases": "https://github.com/dsgnr/portchecker.io/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/portchecker-app-page.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Port Checking",
+      "description": "Check whether network ports are open",
+      "core_feature": true
+    },
+    {
+      "title": "Web Interface",
+      "description": "Test ports using a browser",
+      "core_feature": true
+    },
+    {
+      "title": "Host Scanning",
+      "description": "Scan ports on specified hosts",
+      "core_feature": true
+    },
+    {
+      "title": "Result Display",
+      "description": "View open and closed port results"
+    },
+    {
+      "title": "Simple Configuration",
+      "description": "Run with minimal setup"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Host the checker on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/portchecker/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

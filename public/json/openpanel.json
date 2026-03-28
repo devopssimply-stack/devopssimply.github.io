@@ -1,0 +1,80 @@
+{
+  "name": "openpanel",
+  "slug": "openpanel",
+  "tagline": "A self-hosted control panel for managing web hosting environments",
+  "subtitle": "",
+  "description": "OpenPanel is a self-hosted control panel for managing web hosting environments. It supports domain management, email, databases, and integrates with web servers, ideal for self-hosted VPS setups.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "EULA & CC-BY-NC",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 624,
+    "github_contributors": 20,
+    "github_commits_this_year": 399,
+    "github_issues_open": 4,
+    "github_issues_closed_this_year": 40,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://openpanel.com",
+    "documentation": "https://openpanel.com/docs/admin/intro",
+    "source_code": "https://github.com/stefanpejcic/OpenPanel",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/openpanel.webp",
+    "issues": "https://github.com/stefanpejcic/OpenPanel/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openpanel-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openpanel-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/openpanel-openadmin-dashboard.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Admin Control Panel",
+      "description": "Manage server settings and services from a UI",
+      "core_feature": true
+    },
+    {
+      "title": "Service Dashboard",
+      "description": "View status of hosted services"
+    },
+    {
+      "title": "User Access",
+      "description": "Manage user roles and access to panels"
+    },
+    {
+      "title": "Notifications",
+      "description": "Alert on service status changes"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the admin panel on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/openpanel/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://openpanel.com/demo/",
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "goatcounter",
+  "slug": "goatcounter",
+  "tagline": "A lightweight, privacy-friendly web analytics tool for traffic insights",
+  "subtitle": "",
+  "description": "GoatCounter is a lightweight and privacy-friendly web analytics tool. It provides basic metrics, referrers, and pagesviews without collecting personal data, designed to be a simple alternative to Google Analytics.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "EUPL 1.2",
+    "version": "v2.7.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-15",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 5515,
+    "github_contributors": 55,
+    "github_commits_this_year": 46,
+    "github_issues_open": 31,
+    "github_issues_closed_this_year": 11,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.goatcounter.com",
+    "documentation": "https://www.goatcounter.com/help/start",
+    "source_code": "https://github.com/arp242/goatcounter",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/goatcounter.webp",
+    "issues": "https://github.com/arp242/goatcounter/issues",
+    "releases": "https://github.com/arp242/goatcounter/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goatcounter-screenshot.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goatcounter-screenshot2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/goatcounter-screenshot3.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Web Analytics",
+      "description": "Tracks website visits and metrics",
+      "core_feature": true
+    },
+    {
+      "title": "Privacy Respecting",
+      "description": "Avoids tracking personal identifiers"
+    },
+    {
+      "title": "Real-Time Stats",
+      "description": "Shows current visit counts"
+    },
+    {
+      "title": "Historical Trends",
+      "description": "Displays visits over time"
+    },
+    {
+      "title": "Referrer Insights",
+      "description": "Lists referring sources"
+    },
+    {
+      "title": "Search and Filter",
+      "description": "Filters analytics data by parameters"
+    },
+    {
+      "title": "API Access",
+      "description": "Integrates with external dashboards"
+    },
+    {
+      "title": "Self-Hosted Analytics",
+      "description": "Host analytics on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/goatcounter/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://stats.arp242.net",
+    "username": null,
+    "password": null
+  }
+}

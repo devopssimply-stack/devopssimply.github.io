@@ -1,0 +1,89 @@
+{
+  "name": "pinepods",
+  "slug": "pinepods",
+  "tagline": "A self-hosted podcast manager for browsing and streaming episodes",
+  "subtitle": "",
+  "description": "PinePods is a self-hosted podcast management tool for browsing, organizing, and streaming audio content. It features episode tracking, metadata, and a sleek UI for personal use.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "0.8.2",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-11-04",
+    "date_last_commit": "2026-02-24",
+    "github_stars": 808,
+    "github_contributors": 19,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://pinepods.online",
+    "documentation": "https://github.com/madeofpendletonwool/PinePods",
+    "source_code": "https://github.com/madeofpendletonwool/PinePods",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/pinepods.webp",
+    "issues": "https://github.com/madeofpendletonwool/PinePods/issues",
+    "releases": "https://github.com/madeofpendletonwool/PinePods/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/pinepods-homethemed.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Podcast Server",
+      "description": "Manage and stream podcasts",
+      "core_feature": true
+    },
+    {
+      "title": "Feed Management",
+      "description": "Subscribe to podcast feeds",
+      "core_feature": true
+    },
+    {
+      "title": "Playback",
+      "description": "Play podcast episodes",
+      "core_feature": true
+    },
+    {
+      "title": "Download Management",
+      "description": "Download episodes locally"
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manage podcast access per user"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the podcast server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/pinepods/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

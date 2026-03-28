@@ -1,0 +1,133 @@
+{
+  "name": "bookstack",
+  "slug": "bookstack",
+  "tagline": "A self-hosted documentation platform with structured content and access controls",
+  "subtitle": "",
+  "description": "BookStack is an easy-to-use self-hosted documentation platform. It allows users to organize content in a structured hierarchy using books, chapters, and pages, and comes with markdown support, permissions, and a WYSIWYG editor.",
+  "categories": [
+    31
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v25.12.8",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-27",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 18381,
+    "github_contributors": 189,
+    "github_commits_this_year": 60,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 7
+  },
+  "resources": {
+    "website": "https://www.bookstackapp.com/",
+    "documentation": "https://www.bookstackapp.com/docs",
+    "source_code": "https://github.com/BookStackApp/BookStack",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/bookstack.webp",
+    "issues": "https://github.com/BookStackApp/BookStack/issues",
+    "releases": "https://github.com/BookStackApp/BookStack/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookstack-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/bookstack-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Documentation Wiki",
+      "description": "Organizes documentation into books, chapters, and pages",
+      "core_feature": true
+    },
+    {
+      "title": "WYSIWYG Editor",
+      "description": "Edits content using a visual editor",
+      "core_feature": true
+    },
+    {
+      "title": "User Authentication",
+      "description": "Manages users and login access",
+      "core_feature": true
+    },
+    {
+      "title": "Role-Based Permissions",
+      "description": "Controls access at book and page level"
+    },
+    {
+      "title": "Search Functionality",
+      "description": "Searches across all documentation"
+    },
+    {
+      "title": "Image and File Uploads",
+      "description": "Attaches media to documentation pages"
+    },
+    {
+      "title": "Version History",
+      "description": "Tracks changes to content over time"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on private servers"
+    },
+    {
+      "title": "Documentation Platform",
+      "description": "Organizes documentation into books and pages",
+      "core_feature": true
+    },
+    {
+      "title": "Visual Editor",
+      "description": "Edits content using a WYSIWYG editor",
+      "core_feature": true
+    },
+    {
+      "title": "Hierarchical Content Structure",
+      "description": "Groups content into books and chapters",
+      "core_feature": true
+    },
+    {
+      "title": "Full-Text Search",
+      "description": "Searches across documentation"
+    },
+    {
+      "title": "File and Image Uploads",
+      "description": "Attaches files to documentation pages"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/bookstack/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "bookstack",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=bookstack"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "bookstack_ynh",
+      "url": "https://github.com/YunoHost-Apps/bookstack_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "bookstack",
+      "url": "https://apps.truenas.com/catalog/bookstack"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

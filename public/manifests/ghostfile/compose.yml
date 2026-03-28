@@ -1,0 +1,38 @@
+# ===============================
+# Docker Compose (Ghostfile)
+# ===============================
+# host: http://localhost:8080
+# username: (none by default)
+# password: (none by default)
+
+services:
+  ghostfile:
+    image: ghcr.io/jon6fingrs/ghostfile:latest
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      # Optional: max upload size (MB). Default: 100
+      GHOSTFILE_MAX_UPLOAD_MB: "100"
+
+      # Optional: custom base URL
+      # GHOSTFILE_BASE_URL: "https://files.example.com"
+
+      # Optional: enable auth
+      # GHOSTFILE_AUTH_ENABLED: "true"
+      # GHOSTFILE_AUTH_USERNAME: "user"
+      # GHOSTFILE_AUTH_PASSWORD: "pass"
+
+      # Optional: storage directory
+      # GHOSTFILE_STORAGE_PATH: "/data"
+    volumes:
+      - ghostfile-data:/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8080/healthz >/dev/null 2>&1 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  ghostfile-data:

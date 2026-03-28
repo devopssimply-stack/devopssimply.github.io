@@ -1,0 +1,85 @@
+{
+  "name": "lunalytics",
+  "slug": "lunalytics",
+  "tagline": "A self-hosted analytics dashboard with metrics and visual reporting",
+  "subtitle": "",
+  "description": "Lunalytics is a self-hosted analytics dashboard with built-in metrics tracking and visual reporting. It enables event capturing, KPIs, and interactive charts for better insights into user behavior and product usage.",
+  "categories": [
+    9
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GNU GPL-3.0",
+    "version": "0.10.21",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-11",
+    "date_last_commit": "2026-02-22",
+    "github_stars": 721,
+    "github_contributors": 8,
+    "github_commits_this_year": 9,
+    "github_issues_open": 19,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://lunalytics.xyz",
+    "documentation": "https://lunalytics.xyz",
+    "source_code": "https://github.com/KSJaay/Lunalytics",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lunalytics.webp",
+    "issues": "https://github.com/KSJaay/Lunalytics/issues",
+    "releases": "https://github.com/KSJaay/Lunalytics/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lunalytics-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lunalytics-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Analytics Dashboard",
+      "description": "Visualize user and event metrics in panels",
+      "core_feature": true
+    },
+    {
+      "title": "Event Tracking",
+      "description": "Track user and system events over time",
+      "core_feature": true
+    },
+    {
+      "title": "Query Interface",
+      "description": "Explore analytics data interactively",
+      "core_feature": true
+    },
+    {
+      "title": "Time-Based Reports",
+      "description": "Summarize activity across time intervals"
+    },
+    {
+      "title": "Data Import/Export",
+      "description": "Load and save analytics datasets"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the analytics platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/lunalytics/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": "https://demo.lunalytics.xyz",
+    "username": null,
+    "password": null
+  }
+}

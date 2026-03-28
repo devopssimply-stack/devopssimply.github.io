@@ -1,0 +1,76 @@
+{
+  "name": "willow",
+  "slug": "willow",
+  "tagline": "A privacy-focused journaling and well-being tracker with elegant UI",
+  "subtitle": "",
+  "description": "Willow is a self-hosted journaling and well-being tracker designed to help users log moods, thoughts, and reflections. It emphasizes privacy, elegant design, and simple insights presented through a calming, distraction-free web interface.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "0.4.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-05-26",
+    "date_last_commit": "2025-07-03",
+    "github_stars": 2961,
+    "github_contributors": 10,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://heywillow.io/",
+    "documentation": "https://github.com/HeyWillow/willow",
+    "source_code": "https://github.com/HeyWillow/willow",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/willow.webp",
+    "issues": "https://github.com/HeyWillow/willow/issues",
+    "releases": "https://github.com/HeyWillow/willow/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/willow-homepage.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Knowledge Base",
+      "description": "Organize notes and knowledge",
+      "core_feature": true
+    },
+    {
+      "title": "Linking",
+      "description": "Link related notes together",
+      "core_feature": true
+    },
+    {
+      "title": "Tagging",
+      "description": "Organize content with tags",
+      "core_feature": true
+    },
+    {
+      "title": "Search",
+      "description": "Search knowledge content"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage notes through a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

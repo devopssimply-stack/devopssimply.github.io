@@ -1,0 +1,82 @@
+# ===============================
+# Docker Compose (PeerTube)
+# ===============================
+# host: http://localhost
+# username:
+# password:
+
+services:
+
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: peertube
+      POSTGRES_USER: peertube
+      POSTGRES_PASSWORD: change_this_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U peertube -d peertube"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  postfix:
+    image: mwader/postfix-relay:latest
+    restart: unless-stopped
+
+  peertube:
+    image: chocobozzz/peertube:production-bookworm
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "1935:1935"
+      - "9000:9000"
+    environment:
+      PEERTUBE_DB_HOSTNAME: postgres
+      PEERTUBE_DB_USERNAME: peertube
+      PEERTUBE_DB_PASSWORD: change_this_password
+      PEERTUBE_DB_DATABASE: peertube
+      PEERTUBE_REDIS_HOSTNAME: redis
+      PEERTUBE_SMTP_HOSTNAME: postfix
+      PEERTUBE_WEBSERVER_HOSTNAME: localhost
+    volumes:
+      - peertube_data:/data
+      - peertube_config:/config
+      - peertube_assets:/app/client/dist
+
+  webserver:
+    image: chocobozzz/peertube-webserver:latest
+    restart: unless-stopped
+    depends_on:
+      peertube:
+        condition: service_started
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - peertube_assets:/var/www/peertube/peertube-latest/client/dist:ro
+      - peertube_data:/var/www/peertube/storage
+
+volumes:
+  postgres_data:
+  redis_data:
+  peertube_data:
+  peertube_config:
+  peertube_assets:

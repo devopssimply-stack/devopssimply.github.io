@@ -1,0 +1,119 @@
+{
+  "name": "zoraxy",
+  "slug": "zoraxy",
+  "tagline": "A reverse proxy, load balancer, and firewall with a user-friendly web interface",
+  "subtitle": "",
+  "description": "Zoraxy is a self-hosted reverse proxy, load balancer, and firewall with a friendly web interface. It simplifies routing, SSL, and security rules for homelabs and small deployments.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "v3.3.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-28",
+    "date_last_commit": "2026-02-07",
+    "github_stars": 4940,
+    "github_contributors": 38,
+    "github_commits_this_year": 37,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://zoraxy.aroz.org",
+    "documentation": "https://github.com/tobychui/zoraxy",
+    "source_code": "https://github.com/tobychui/zoraxy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/zoraxy.webp",
+    "issues": "https://github.com/tobychui/zoraxy/issues",
+    "releases": "https://github.com/tobychui/zoraxy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-5.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-7.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-8.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-9.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-10.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-default-site.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-http-proxy.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-network-tools.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-preview-mobile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-statistic-analysis.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-status.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-tls-ssl-certificate.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-uptime-monitor.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/zoraxy-virtual-directory.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Reverse Proxy",
+      "description": "Route external traffic to internal services",
+      "core_feature": true
+    },
+    {
+      "title": "HTTPS Management",
+      "description": "Manage TLS certificates",
+      "core_feature": true
+    },
+    {
+      "title": "Traffic Routing",
+      "description": "Configure routing rules",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict access to services"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage proxy settings in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the proxy on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/zoraxy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "zoraxy",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=zoraxy"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "zoraxy_ynh",
+      "url": "https://github.com/YunoHost-Apps/zoraxy_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "zoraxy",
+      "url": "https://apps.truenas.com/catalog/zoraxy"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

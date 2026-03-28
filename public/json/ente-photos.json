@@ -1,0 +1,98 @@
+{
+  "name": "ente-photos",
+  "slug": "ente-photos",
+  "tagline": "An end-to-end encrypted photo backup and browsing platform",
+  "subtitle": "",
+  "description": "Ente is an end-to-end encrypted photo and file backup solution with open-source clients. It lets users back up and browse media across devices while keeping encryption keys under their control, and also offers a hosted cloud service.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "AGPL-3.0",
+    "version": "ensu-v0.1.5",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-02",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 24983,
+    "github_contributors": 286,
+    "github_commits_this_year": 2911,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 11
+  },
+  "resources": {
+    "website": "https://ente.io",
+    "documentation": "https://github.com/ente-io/ente",
+    "source_code": "https://github.com/ente-io/ente",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ente-photos.webp",
+    "issues": "https://github.com/ente-io/ente/issues",
+    "releases": "https://github.com/ente-io/ente/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ente-photos-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ente-photos.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Encrypted Photo Storage",
+      "description": "Stores photos with end-to-end encryption",
+      "core_feature": true
+    },
+    {
+      "title": "Client-Side Encryption",
+      "description": "Encrypts data before upload",
+      "core_feature": true
+    },
+    {
+      "title": "Photo Backup",
+      "description": "Automatically backs up photos",
+      "core_feature": true
+    },
+    {
+      "title": "Cross-Device Sync",
+      "description": "Syncs photos across devices"
+    },
+    {
+      "title": "Albums",
+      "description": "Organizes photos into albums"
+    },
+    {
+      "title": "Sharing Controls",
+      "description": "Shares photos with access restrictions"
+    },
+    {
+      "title": "Metadata Privacy",
+      "description": "Limits exposed metadata"
+    },
+    {
+      "title": "Self-Hosted Server Option",
+      "description": "Runs backend on private infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "android"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ente-photos/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

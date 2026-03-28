@@ -1,0 +1,97 @@
+{
+  "name": "actual-budget",
+  "slug": "actual-budget",
+  "tagline": "A privacy-focused personal budgeting app with offline-first data control",
+  "subtitle": "",
+  "description": "Actual is a privacy-focused personal budgeting and finance manager with offline-first architecture. It allows local data control, multi-device sync, budgeting categories, transaction tracking, and report generation. Designed to be self-hosted.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v26.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 25335,
+    "github_contributors": 463,
+    "github_commits_this_year": 274,
+    "github_issues_open": 188,
+    "github_issues_closed_this_year": 227,
+    "github_releases_this_year": 4
+  },
+  "resources": {
+    "website": "https://actualbudget.org",
+    "documentation": "https://github.com/actualbudget/actual",
+    "source_code": "https://github.com/actualbudget/actual",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/actual-budget.webp",
+    "issues": "https://github.com/actualbudget/actual/issues",
+    "releases": "https://github.com/actualbudget/actual/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/actual-budget-demo.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Personal Budgeting",
+      "description": "Manages income, expenses, and account balances over time",
+      "core_feature": true
+    },
+    {
+      "title": "Envelope Budgeting",
+      "description": "Allocates funds into categories to control spending",
+      "core_feature": true
+    },
+    {
+      "title": "Local-First Data Model",
+      "description": "Stores financial data primarily on the user device",
+      "core_feature": true
+    },
+    {
+      "title": "Multi-Device Sync",
+      "description": "Synchronizes budgets across devices using a server"
+    },
+    {
+      "title": "Import and Export",
+      "description": "Supports importing transactions from external financial files"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows",
+    "web"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/actual-budget/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "actualbudget",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=actualbudget"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "actual-budget",
+      "url": "https://apps.truenas.com/catalog/actual-budget"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

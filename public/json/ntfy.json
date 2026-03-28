@@ -1,0 +1,106 @@
+{
+  "name": "ntfy",
+  "slug": "ntfy",
+  "tagline": "A self-hosted push notification service using HTTP and topics",
+  "subtitle": "",
+  "description": "ntfy is a self-hosted notification system that lets you send push notifications via HTTP or CLI without registration. It supports web UI, mobile clients, and topics for real-time messaging.",
+  "categories": [
+    32
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v2.17.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-09",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 29074,
+    "github_contributors": 317,
+    "github_commits_this_year": 207,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://ntfy.sh",
+    "documentation": "https://github.com/binwiederhier/ntfy",
+    "source_code": "https://github.com/binwiederhier/ntfy",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ntfy.webp",
+    "issues": "https://github.com/binwiederhier/ntfy/issues",
+    "releases": "https://github.com/binwiederhier/ntfy/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ntfy-homepage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/ntfy-curl.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Push Notifications",
+      "description": "Send notifications via HTTP requests",
+      "core_feature": true
+    },
+    {
+      "title": "Topic-Based Messaging",
+      "description": "Publish and subscribe to notification topics",
+      "core_feature": true
+    },
+    {
+      "title": "Multiple Clients",
+      "description": "Receive notifications on web and mobile clients",
+      "core_feature": true
+    },
+    {
+      "title": "Access Control",
+      "description": "Restrict publishing and subscribing"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage topics through a browser"
+    },
+    {
+      "title": "Self-Hosted Service",
+      "description": "Run the notification server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ntfy/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "ntfy",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=ntfy"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "ntfy_ynh",
+      "url": "https://github.com/YunoHost-Apps/ntfy_ynh"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "ntfy",
+      "url": "https://apps.truenas.com/catalog/ntfy"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

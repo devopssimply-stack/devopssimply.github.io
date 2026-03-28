@@ -1,0 +1,28 @@
+# ===============================
+# Docker Compose (Heimdall)
+# ===============================
+# host: http://localhost:8080
+# username:
+# password:
+
+services:
+  heimdall:
+    image: lscr.io/linuxserver/heimdall:latest
+    container_name: heimdall
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+    volumes:
+      - heimdall_config:/config
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  heimdall_config:

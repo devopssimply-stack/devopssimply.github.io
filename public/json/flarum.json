@@ -1,0 +1,99 @@
+{
+  "name": "flarum",
+  "slug": "flarum",
+  "tagline": "A modern forum platform with a clean interface and extensible plugins",
+  "subtitle": "",
+  "description": "Flarum is a fast, modern web forum platform built with simplicity and extensibility in mind. It supports plugins, themes, responsive UI, and API, and provides a clean user experience similar to modern community platforms.",
+  "categories": [
+    43
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.8.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2024-01-02",
+    "date_last_commit": "2026-02-22",
+    "github_stars": 16195,
+    "github_contributors": 29,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://flarum.org",
+    "documentation": "https://github.com/flarum/flarum",
+    "source_code": "https://github.com/flarum/flarum",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/flarum.webp",
+    "issues": "https://github.com/flarum/flarum/issues",
+    "releases": "https://github.com/flarum/flarum/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/flarum-discussion.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Discussion Forum",
+      "description": "Hosts online discussion boards",
+      "core_feature": true
+    },
+    {
+      "title": "Modern Web Interface",
+      "description": "Provides a single-page forum UI",
+      "core_feature": true
+    },
+    {
+      "title": "User Accounts",
+      "description": "Manages registration and profiles",
+      "core_feature": true
+    },
+    {
+      "title": "Extension System",
+      "description": "Adds features through extensions"
+    },
+    {
+      "title": "Permissions",
+      "description": "Controls user and group access"
+    },
+    {
+      "title": "Notifications",
+      "description": "Notifies users of replies and mentions"
+    },
+    {
+      "title": "Search",
+      "description": "Searches discussions and posts"
+    },
+    {
+      "title": "Self-Hosted Forum",
+      "description": "Host the forum on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/flarum/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "flarum_ynh",
+      "url": "https://github.com/YunoHost-Apps/flarum_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

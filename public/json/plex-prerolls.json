@@ -1,0 +1,84 @@
+{
+  "name": "plex-prerolls",
+  "slug": "plex-prerolls",
+  "tagline": "A tool for managing and randomizing video prerolls in Plex",
+  "subtitle": "",
+  "description": "Plex Prerolls is a self-hosted tool to manage and randomize video clips as prerolls in Plex Media Server. It includes custom rules and scheduling through a simple UI.",
+  "categories": [
+    34
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL-3.0",
+    "version": "4.3.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-29",
+    "date_last_commit": "2026-01-30",
+    "github_stars": 90,
+    "github_contributors": 3,
+    "github_commits_this_year": 2,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 1
+  },
+  "resources": {
+    "website": "https://github.com/nwithan8/plex-prerolls",
+    "documentation": "https://github.com/nwithan8/plex-prerolls",
+    "source_code": "https://github.com/nwithan8/plex-prerolls",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/plex-prerolls.webp",
+    "issues": "https://github.com/nwithan8/plex-prerolls/issues",
+    "releases": "https://github.com/nwithan8/plex-prerolls/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/plex-prerolls-recently-added-example.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Pre-Roll Video Playback",
+      "description": "Play custom videos before media playback",
+      "core_feature": true
+    },
+    {
+      "title": "Plex Integration",
+      "description": "Integrate with a Plex media server",
+      "core_feature": true
+    },
+    {
+      "title": "Rule Configuration",
+      "description": "Define when prerolls are shown",
+      "core_feature": true
+    },
+    {
+      "title": "Media Selection",
+      "description": "Choose videos used as prerolls"
+    },
+    {
+      "title": "Automation",
+      "description": "Automate preroll playback behavior"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run alongside your own media server"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/plex-prerolls/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

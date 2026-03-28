@@ -1,0 +1,90 @@
+{
+  "name": "doco-cd",
+  "slug": "doco-cd",
+  "tagline": "A lightweight deployment helper for automating containerized releases",
+  "subtitle": "",
+  "description": "Doco-CD is a lightweight continuous deployment helper for containerized apps. It focuses on simple configuration and automating rollouts with minimal infrastructure, ideal for small projects wanting Git-ops style deployments without heavy tooling.",
+  "categories": [
+    30
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v0.72.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-06",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 1164,
+    "github_contributors": 15,
+    "github_commits_this_year": 170,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 31
+  },
+  "resources": {
+    "website": "https://github.com/kimdre/doco-cd/wiki",
+    "documentation": "https://github.com/kimdre/doco-cd/wiki",
+    "source_code": "https://github.com/kimdre/doco-cd",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/doco-cd.webp",
+    "issues": "https://github.com/kimdre/doco-cd/issues",
+    "releases": "https://github.com/kimdre/doco-cd/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "Documentation Continuous Deployment",
+      "description": "Automates deployment of documentation sites",
+      "core_feature": true
+    },
+    {
+      "title": "Git Integration",
+      "description": "Deploys documentation from Git repositories",
+      "core_feature": true
+    },
+    {
+      "title": "Static Site Support",
+      "description": "Works with static documentation generators",
+      "core_feature": true
+    },
+    {
+      "title": "Pipeline Automation",
+      "description": "Runs deployments automatically on changes"
+    },
+    {
+      "title": "Environment Configuration",
+      "description": "Manages deployment environments"
+    },
+    {
+      "title": "CLI Tooling",
+      "description": "Controls deployments from the command line"
+    },
+    {
+      "title": "Rollback Support",
+      "description": "Reverts documentation to previous versions"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-managed infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/doco-cd/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

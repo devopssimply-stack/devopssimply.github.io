@@ -1,0 +1,103 @@
+{
+  "name": "gomft",
+  "slug": "gomft",
+  "tagline": "A command-line utility for inspecting NTFS master file table data",
+  "subtitle": "",
+  "description": "GoMFT provides a command-line interface for reading and processing NTFS Master File Table (MFT) entries. Useful for forensics and investigations in file integrity or recovery cases.",
+  "categories": [
+    42
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.2.11",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-04-12",
+    "date_last_commit": "2025-04-20",
+    "github_stars": 646,
+    "github_contributors": 2,
+    "github_commits_this_year": 0,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://github.com/StarFleetCPTN/GoMFT",
+    "documentation": "https://github.com/StarFleetCPTN/GoMFT",
+    "source_code": "https://github.com/StarFleetCPTN/GoMFT",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/gomft.webp",
+    "issues": "https://github.com/StarFleetCPTN/GoMFT/issues",
+    "releases": "https://github.com/StarFleetCPTN/GoMFT/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-audit.logs.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-authentication.providers.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-dashboard.dark.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-database.tools.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-file.details.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-job.run.details.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-scheduled.jobs.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-transfer.history.gomft.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/gomft-user.management.gomft.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Managed File Transfers",
+      "description": "Transfer files between systems using defined workflows",
+      "core_feature": true
+    },
+    {
+      "title": "Transfer Automation",
+      "description": "Automate recurring file transfer tasks",
+      "core_feature": true
+    },
+    {
+      "title": "Protocol Support",
+      "description": "Transfer files using supported network protocols",
+      "core_feature": true
+    },
+    {
+      "title": "Transfer Monitoring",
+      "description": "Track status and progress of file transfers"
+    },
+    {
+      "title": "Logging",
+      "description": "Record transfer activity and errors"
+    },
+    {
+      "title": "Configuration Management",
+      "description": "Define transfer rules using configuration files"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/gomft/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "gomft_ynh",
+      "url": "https://github.com/YunoHost-Apps/gomft_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

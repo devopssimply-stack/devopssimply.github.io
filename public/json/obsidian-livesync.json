@@ -1,0 +1,80 @@
+{
+  "name": "obsidian-livesync",
+  "slug": "obsidian-livesync",
+  "tagline": "A self-hosted sync server for real-time Obsidian collaboration",
+  "subtitle": "",
+  "description": "obsidian-livesync is a self-hosted sync server for Obsidian vaults, enabling real-time collaboration across devices without cloud services. It supports encryption and conflict resolution.",
+  "categories": [
+    37
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "0.25.50",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-03",
+    "date_last_commit": "2026-03-03",
+    "github_stars": 9665,
+    "github_contributors": 38,
+    "github_commits_this_year": 121,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 24
+  },
+  "resources": {
+    "website": "https://github.com/vrtmrz/obsidian-livesync",
+    "documentation": "https://github.com/vrtmrz/obsidian-livesync",
+    "source_code": "https://github.com/vrtmrz/obsidian-livesync",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/obsidian-livesync.webp",
+    "issues": "https://github.com/vrtmrz/obsidian-livesync/issues",
+    "releases": "https://github.com/vrtmrz/obsidian-livesync/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/obsidian-livesync-preview.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Note Synchronization",
+      "description": "Sync Obsidian notes across devices",
+      "core_feature": true
+    },
+    {
+      "title": "Real-Time Updates",
+      "description": "Reflect note changes across devices quickly",
+      "core_feature": true
+    },
+    {
+      "title": "Conflict Handling",
+      "description": "Handle simultaneous edits safely"
+    },
+    {
+      "title": "End-to-End Encryption",
+      "description": "Encrypt note data during sync",
+      "core_feature": true
+    },
+    {
+      "title": "Self-Hosted Backend",
+      "description": "Run the sync server on your own infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/obsidian-livesync/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

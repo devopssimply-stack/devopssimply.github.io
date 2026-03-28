@@ -1,0 +1,94 @@
+{
+  "name": "cmintey-wishlist",
+  "slug": "wishlist",
+  "tagline": "A simple, self-hosted wish list manager for tracking and sharing items",
+  "subtitle": "",
+  "description": "wishlist is a self-hosted wish list manager where users can track items they want, share lists with friends or family, and avoid duplicate gifts. It focuses on simplicity, privacy, and easy sharing through a web-based interface.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v0.59.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-01-19",
+    "date_last_commit": "2026-02-08",
+    "github_stars": 465,
+    "github_contributors": 48,
+    "github_commits_this_year": 39,
+    "github_issues_open": 34,
+    "github_issues_closed_this_year": 13,
+    "github_releases_this_year": 2
+  },
+  "resources": {
+    "website": "https://github.com/cmintey/wishlist",
+    "documentation": "https://github.com/cmintey/wishlist",
+    "source_code": "https://github.com/cmintey/wishlist",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/wishlist.webp",
+    "issues": "https://github.com/cmintey/wishlist/issues",
+    "releases": "https://github.com/cmintey/wishlist/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wishlist-homepage-desktop.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wishlist-my-wishes-mobile.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wishlist-wish-form.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/wishlist-wishes-mobile.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Wishlist Management",
+      "description": "Create and manage wishlists",
+      "core_feature": true
+    },
+    {
+      "title": "Item Tracking",
+      "description": "Track desired items",
+      "core_feature": true
+    },
+    {
+      "title": "Sharing",
+      "description": "Share wishlists with others",
+      "core_feature": true
+    },
+    {
+      "title": "Notes",
+      "description": "Add notes to wishlist items"
+    },
+    {
+      "title": "Web Interface",
+      "description": "Manage wishlists in a browser"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the app on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/wishlist/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "wishlist",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=wishlist"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "lubelogger",
+  "slug": "lubelogger",
+  "tagline": "A self-hosted vehicle maintenance and fuel tracking application",
+  "subtitle": "",
+  "description": "LubeLog helps car owners track maintenance, repairs, and fuel usage across multiple vehicles. Its self-hosted web UI includes reporting and reminders for keeping vehicle service history in one place.",
+  "categories": [
+    22
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v1.6.1",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-02-26",
+    "date_last_commit": "2026-02-27",
+    "github_stars": 2342,
+    "github_contributors": 14,
+    "github_commits_this_year": 173,
+    "github_issues_open": 31,
+    "github_issues_closed_this_year": 56,
+    "github_releases_this_year": 5
+  },
+  "resources": {
+    "website": "https://lubelogger.com",
+    "documentation": "https://github.com/hargata/lubelog",
+    "source_code": "https://github.com/hargata/lubelog",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/lubelogger.webp",
+    "issues": "https://github.com/hargata/lubelog/issues",
+    "releases": "https://github.com/hargata/lubelog/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lubelogger-dashboard.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lubelogger-garage.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lubelogger-planner.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lubelogger-reminders.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lubelogger-track-gas-records.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lubelogger-track-service-records.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/lubelogger-track-supplies.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Logging Utility",
+      "description": "Record application logs to local and remote targets",
+      "core_feature": true
+    },
+    {
+      "title": "Log Levels",
+      "description": "Support multiple log severity levels",
+      "core_feature": true
+    },
+    {
+      "title": "Formatting",
+      "description": "Add structured formats to log entries",
+      "core_feature": true
+    },
+    {
+      "title": "Output Configuration",
+      "description": "Route logs to files, consoles, or remote endpoints"
+    },
+    {
+      "title": "Performance-Oriented",
+      "description": "Minimize overhead during logging"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Use the logger library within hosted applications"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux"
+  ],
+  "interface": [],
+  "install": [],
+  "manifests": {},
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "lubelogger",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=lubelogger"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "lubelogger",
+      "url": "https://apps.truenas.com/catalog/lubelogger"
+    }
+  },
+  "demo": {
+    "url": "https://demo.lubelogger.com",
+    "username": "test",
+    "password": "1234"
+  }
+}

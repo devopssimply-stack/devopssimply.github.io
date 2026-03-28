@@ -1,0 +1,80 @@
+# ===============================
+# Docker Compose (Reactive Resume)
+# ===============================
+# host: http://localhost:3000
+# username:
+# password:
+
+services:
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: reactive-resume-postgres
+    environment:
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - reactive_resume_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD","pg_isready","-U","postgres"]
+      start_period: 15s
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+
+
+  server:
+    image: amruthpillai/reactive-resume:server-latest
+    container_name: reactive-resume-server
+    ports:
+      - "3100:3100"
+    environment:
+      PUBLIC_URL: "http://localhost:3000"
+      PUBLIC_SERVER_URL: "http://localhost:3100"
+
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_HOST: "postgres"
+      POSTGRES_PORT: "5432"
+
+      SECRET_KEY: "replace-with-long-random-secret"
+      JWT_SECRET: "replace-with-long-random-secret"
+      JWT_EXPIRY_TIME: "604800"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD","wget","-qO-","http://localhost:3100/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+
+  client:
+    image: amruthpillai/reactive-resume:client-latest
+    container_name: reactive-resume-client
+    ports:
+      - "3000:3000"
+    environment:
+      PUBLIC_URL: "http://localhost:3000"
+      PUBLIC_SERVER_URL: "http://localhost:3100"
+    depends_on:
+      server:
+        condition: service_started
+    healthcheck:
+      test: ["CMD","wget","-qO-","http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+
+volumes:
+  reactive_resume_pgdata:

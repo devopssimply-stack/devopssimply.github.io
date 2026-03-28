@@ -1,0 +1,28 @@
+# ===============================
+# Docker Compose (Jellyfin)
+# ===============================
+# host: http://localhost:8096
+# username: (created during setup)
+# password: (created during setup)
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    restart: unless-stopped
+    ports:
+      - "8096:8096"
+    volumes:
+      - jellyfin_config:/config
+      - jellyfin_cache:/cache
+      - jellyfin_media:/media
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:8096 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  jellyfin_config:
+  jellyfin_cache:
+  jellyfin_media:

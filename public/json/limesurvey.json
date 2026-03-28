@@ -1,0 +1,104 @@
+{
+  "name": "limesurvey",
+  "slug": "limesurvey",
+  "tagline": "A professional survey platform for creating and analyzing questionnaires",
+  "subtitle": "",
+  "description": "LimeSurvey is a professional survey platform that enables creating advanced questionnaires and collecting results. It supports branching logic, custom themes, and export formats, and can be deployed self-hosted or as SaaS.",
+  "categories": [
+    39
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "GPL 2.0",
+    "version": null,
+    "date_app_added": "2025-11-23",
+    "date_last_released": null,
+    "date_last_commit": "2026-03-06",
+    "github_stars": 3539,
+    "github_contributors": 232,
+    "github_commits_this_year": 100,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://www.limesurvey.org",
+    "documentation": "https://github.com/LimeSurvey/LimeSurvey",
+    "source_code": "https://github.com/LimeSurvey/LimeSurvey",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/limesurvey.webp",
+    "issues": "https://github.com/LimeSurvey/LimeSurvey/issues",
+    "releases": null,
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-s.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-s2.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-survey-ai.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-survey-analysis.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-survey-customization-4.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-survey-editor.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-survey-insights.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-survey-research.webp",
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/limesurvey-survey-sharing.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Survey Creation",
+      "description": "Design and publish online surveys",
+      "core_feature": true
+    },
+    {
+      "title": "Question Types",
+      "description": "Use multiple question formats in surveys",
+      "core_feature": true
+    },
+    {
+      "title": "Response Collection",
+      "description": "Collect and manage survey responses",
+      "core_feature": true
+    },
+    {
+      "title": "Survey Logic",
+      "description": "Apply conditional logic to survey flows"
+    },
+    {
+      "title": "Reporting",
+      "description": "View summaries and reports of survey results"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Run the survey platform on your own servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/limesurvey/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "limesurvey",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=limesurvey"
+    },
+    "yunohost": {
+      "supported": true,
+      "repo_name": "limesurvey_ynh",
+      "url": "https://github.com/YunoHost-Apps/limesurvey_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

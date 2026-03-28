@@ -1,0 +1,95 @@
+{
+  "name": "clickhouse",
+  "slug": "clickhouse",
+  "tagline": "A high-performance columnar database for real-time analytical queries",
+  "subtitle": "",
+  "description": "ClickHouse is an open-source columnar database management system for real-time analytics. It’s designed to handle petabytes of data with low latency and offers SQL compatibility, sharding, replication, and clustering options.",
+  "categories": [
+    29
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "Apache-2.0",
+    "version": "v26.2.4.23-stable",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2026-03-05",
+    "date_last_commit": "2026-03-06",
+    "github_stars": 46209,
+    "github_contributors": 306,
+    "github_commits_this_year": 10479,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 30
+  },
+  "resources": {
+    "website": "https://clickhouse.com",
+    "documentation": "https://clickhouse.com/docs",
+    "source_code": "https://github.com/ClickHouse/ClickHouse",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/clickhouse.webp",
+    "issues": "https://github.com/ClickHouse/ClickHouse/issues",
+    "releases": "https://github.com/ClickHouse/ClickHouse/releases",
+    "screenshots": [
+      "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/clickhouse-hero.webp"
+    ]
+  },
+  "features": [
+    {
+      "title": "Analytical Database",
+      "description": "Stores and queries large analytical datasets",
+      "core_feature": true
+    },
+    {
+      "title": "Column-Oriented Storage",
+      "description": "Optimizes data layout for analytics",
+      "core_feature": true
+    },
+    {
+      "title": "SQL Query Engine",
+      "description": "Uses SQL-compatible queries",
+      "core_feature": true
+    },
+    {
+      "title": "High Performance Queries",
+      "description": "Executes queries with low latency"
+    },
+    {
+      "title": "Horizontal Scaling",
+      "description": "Scales across multiple nodes"
+    },
+    {
+      "title": "Replication Support",
+      "description": "Replicates data for reliability"
+    },
+    {
+      "title": "Data Compression",
+      "description": "Reduces storage usage"
+    },
+    {
+      "title": "Self-Hosted Deployment",
+      "description": "Runs on user-managed infrastructure"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/clickhouse/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}

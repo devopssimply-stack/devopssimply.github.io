@@ -1,0 +1,100 @@
+{
+  "name": "ergo",
+  "slug": "ergo",
+  "tagline": "A modern IRC server with accounts, history, and secure authentication",
+  "subtitle": "",
+  "description": "Ergo is a modern IRC server that adds features like accounts, history replay, TLS, and SASL while remaining compatible with traditional IRC clients. It’s built to be easy to operate for communities and networks.",
+  "categories": [
+    36
+  ],
+  "metadata": {
+    "sponsored": false,
+    "license": "MIT",
+    "version": "v2.17.0",
+    "date_app_added": "2025-11-23",
+    "date_last_released": "2025-12-22",
+    "date_last_commit": "2026-03-05",
+    "github_stars": 3120,
+    "github_contributors": 47,
+    "github_commits_this_year": 19,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 0
+  },
+  "resources": {
+    "website": "https://ergo.chat/",
+    "documentation": "https://github.com/ergochat/ergo",
+    "source_code": "https://github.com/ergochat/ergo",
+    "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/ergo.webp",
+    "issues": "https://github.com/ergochat/ergo/issues",
+    "releases": "https://github.com/ergochat/ergo/releases",
+    "screenshots": []
+  },
+  "features": [
+    {
+      "title": "IRC Server",
+      "description": "Hosts an IRC chat server",
+      "core_feature": true
+    },
+    {
+      "title": "Modern IRC Features",
+      "description": "Supports IRCv3 extensions",
+      "core_feature": true
+    },
+    {
+      "title": "Account Registration",
+      "description": "Allows persistent user accounts"
+    },
+    {
+      "title": "Channel Management",
+      "description": "Manages channels and permissions"
+    },
+    {
+      "title": "TLS Encryption",
+      "description": "Secures client connections"
+    },
+    {
+      "title": "History Playback",
+      "description": "Provides message history"
+    },
+    {
+      "title": "Operator Tools",
+      "description": "Supports moderation and administration"
+    },
+    {
+      "title": "Self-Hosted Chat",
+      "description": "Runs on user-managed servers"
+    }
+  ],
+  "hosting": [],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "interface": [],
+  "install": [
+    "docker_compose"
+  ],
+  "manifests": {
+    "docker_compose": {
+      "files": {
+        "compose.yml": "/manifests/ergo/compose.yml"
+      }
+    }
+  },
+  "notes": [],
+  "repository_status": null,
+  "community_integrations": {
+    "yunohost": {
+      "supported": true,
+      "repo_name": "ergo_ynh",
+      "url": "https://github.com/YunoHost-Apps/ergo_ynh"
+    }
+  },
+  "demo": {
+    "url": null,
+    "username": null,
+    "password": null
+  }
+}
