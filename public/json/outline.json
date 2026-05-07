@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "BSL 1.1",
-    "version": "v1.5.0",
+    "version": "v1.7.1",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-02-15",
-    "date_last_commit": "2026-03-06",
-    "github_stars": 37460,
-    "github_contributors": 218,
-    "github_commits_this_year": 339,
-    "github_issues_open": 37,
-    "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 4
+    "date_last_released": "2026-05-04",
+    "date_last_commit": "2026-05-07",
+    "github_stars": 38413,
+    "github_contributors": 225,
+    "github_commits_this_year": 693,
+    "github_issues_open": 29,
+    "github_issues_closed_this_year": 730,
+    "github_releases_this_year": 8
   },
   "resources": {
     "website": "https://www.getoutline.com",

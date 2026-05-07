@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "Apache-2.0",
-    "version": "v1.137.0",
+    "version": "v1.142.0",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-03-02",
-    "date_last_commit": "2026-03-06",
-    "github_stars": 16449,
-    "github_contributors": 0,
-    "github_commits_this_year": 0,
+    "date_last_released": "2026-04-28",
+    "date_last_commit": "2026-05-07",
+    "github_stars": 16956,
+    "github_contributors": 364,
+    "github_commits_this_year": 579,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 0
+    "github_releases_this_year": 33
   },
   "resources": {
     "website": "https://victoriametrics.com",

@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "MIT",
-    "version": null,
+    "version": "v0.0.19",
     "date_app_added": "2025-11-23",
-    "date_last_released": null,
-    "date_last_commit": "2026-03-03",
-    "github_stars": 406,
+    "date_last_released": "2026-04-30",
+    "date_last_commit": "2026-04-30",
+    "github_stars": 418,
     "github_contributors": 3,
-    "github_commits_this_year": 55,
+    "github_commits_this_year": 61,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 0
+    "github_releases_this_year": 2
   },
   "resources": {
     "website": "https://perfice.adoe.dev",
@@ -27,7 +27,7 @@
     "source_code": "https://github.com/p0lloc/perfice",
     "logo": "https://raw.githubusercontent.com/devopssimply/assets/main/icons/perfice.webp",
     "issues": "https://github.com/p0lloc/perfice/issues",
-    "releases": null,
+    "releases": "https://github.com/p0lloc/perfice/releases",
     "screenshots": [
       "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-homepage.webp",
       "https://raw.githubusercontent.com/devopssimply/assets/main/screenshots/webp/perfice-analytics-onboarding-mobile.webp",

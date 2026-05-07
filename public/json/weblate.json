@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "GPL-3.0",
-    "version": "weblate-5.15.2",
+    "version": "weblate-5.17.1",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-01-14",
-    "date_last_commit": "2026-02-08",
-    "github_stars": 5729,
-    "github_contributors": 297,
-    "github_commits_this_year": 669,
+    "date_last_released": "2026-04-30",
+    "date_last_commit": "2026-05-07",
+    "github_stars": 5859,
+    "github_contributors": 292,
+    "github_commits_this_year": 4378,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 1
+    "github_releases_this_year": 6
   },
   "resources": {
     "website": "https://weblate.org",

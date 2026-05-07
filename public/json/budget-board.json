@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "GPL-3.0",
-    "version": "v3.2.4",
+    "version": "v3.5.2",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-02-21",
-    "date_last_commit": "2026-03-04",
-    "github_stars": 711,
+    "date_last_released": "2026-05-02",
+    "date_last_commit": "2026-05-06",
+    "github_stars": 741,
     "github_contributors": 8,
-    "github_commits_this_year": 44,
+    "github_commits_this_year": 106,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 10
+    "github_releases_this_year": 16
   },
   "resources": {
     "website": "https://budgetboard.net",

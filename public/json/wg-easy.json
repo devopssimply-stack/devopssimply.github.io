@@ -13,13 +13,13 @@
     "version": "v15.2.2",
     "date_app_added": "2025-11-23",
     "date_last_released": "2026-02-06",
-    "date_last_commit": "2026-02-06",
-    "github_stars": 24330,
-    "github_contributors": 98,
-    "github_commits_this_year": 26,
+    "date_last_commit": "2026-05-07",
+    "github_stars": 25630,
+    "github_contributors": 113,
+    "github_commits_this_year": 74,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 3
+    "github_releases_this_year": 6
   },
   "resources": {
     "website": "https://wg-easy.github.io/wg-easy/latest",

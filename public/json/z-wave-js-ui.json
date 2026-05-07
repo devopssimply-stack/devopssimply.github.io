@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "MIT",
-    "version": "v11.11.0",
+    "version": "v11.17.0",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-02-03",
-    "date_last_commit": "2026-02-03",
-    "github_stars": 1179,
-    "github_contributors": 135,
-    "github_commits_this_year": 24,
-    "github_issues_open": 0,
-    "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 3
+    "date_last_released": "2026-05-05",
+    "date_last_commit": "2026-05-07",
+    "github_stars": 1209,
+    "github_contributors": 139,
+    "github_commits_this_year": 85,
+    "github_issues_open": 16,
+    "github_issues_closed_this_year": 67,
+    "github_releases_this_year": 12
   },
   "resources": {
     "website": "https://zwave-js.github.io/zwave-js-ui",
