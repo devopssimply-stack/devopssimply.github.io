@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "MIT Expat",
-    "version": "v0.114.1",
+    "version": "v0.125.0",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-03-06",
-    "date_last_commit": "2026-03-06",
-    "github_stars": 25980,
-    "github_contributors": 184,
-    "github_commits_this_year": 350,
+    "date_last_released": "2026-05-20",
+    "date_last_commit": "2026-05-20",
+    "github_stars": 26974,
+    "github_contributors": 199,
+    "github_commits_this_year": 789,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 17
+    "github_releases_this_year": 31
   },
   "resources": {
     "website": "https://signoz.io",

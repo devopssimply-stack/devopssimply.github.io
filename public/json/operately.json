@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "Apache-2.0",
-    "version": "1.4.0",
+    "version": "1.6.0",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-02-25",
-    "date_last_commit": "2026-03-06",
-    "github_stars": 423,
-    "github_contributors": 12,
-    "github_commits_this_year": 207,
-    "github_issues_open": 130,
-    "github_issues_closed_this_year": 52,
-    "github_releases_this_year": 3
+    "date_last_released": "2026-05-18",
+    "date_last_commit": "2026-05-20",
+    "github_stars": 463,
+    "github_contributors": 13,
+    "github_commits_this_year": 451,
+    "github_issues_open": 0,
+    "github_issues_closed_this_year": 0,
+    "github_releases_this_year": 5
   },
   "resources": {
     "website": "https://operately.com",

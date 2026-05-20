@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": null,
-    "version": "v3.3.1",
+    "version": "v3.5.2",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2026-01-31",
-    "date_last_commit": "2026-03-04",
-    "github_stars": 841,
-    "github_contributors": 56,
-    "github_commits_this_year": 368,
+    "date_last_released": "2026-05-05",
+    "date_last_commit": "2026-05-19",
+    "github_stars": 878,
+    "github_contributors": 60,
+    "github_commits_this_year": 889,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 20
+    "github_releases_this_year": 40
   },
   "resources": {
     "website": "https://recipesage.com",

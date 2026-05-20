@@ -10,16 +10,16 @@
   "metadata": {
     "sponsored": false,
     "license": "AGPL-3.0",
-    "version": "v2.5.1",
+    "version": "26.05.3",
     "date_app_added": "2025-11-23",
-    "date_last_released": "2025-02-14",
-    "date_last_commit": "2026-03-06",
-    "github_stars": 39818,
-    "github_contributors": 350,
-    "github_commits_this_year": 419,
+    "date_last_released": "2026-05-16",
+    "date_last_commit": "2026-05-20",
+    "github_stars": 41413,
+    "github_contributors": 368,
+    "github_commits_this_year": 952,
     "github_issues_open": 0,
     "github_issues_closed_this_year": 0,
-    "github_releases_this_year": 0
+    "github_releases_this_year": 4
   },
   "resources": {
     "website": "https://puter.com",
