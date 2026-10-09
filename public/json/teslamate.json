@@ -95,5 +95,17 @@
     "url": null,
     "username": null,
     "password": null
+  },
+  "community_integrations": {
+    "proxmox_ve": {
+      "supported": true,
+      "script_id": "teslamate",
+      "url": "https://community-scripts.github.io/ProxmoxVE/scripts?id=teslamate"
+    },
+    "truenas": {
+      "supported": true,
+      "app_name": "teslamate",
+      "url": "https://apps.truenas.com/catalog/teslamate"
+    }
   }
 }
